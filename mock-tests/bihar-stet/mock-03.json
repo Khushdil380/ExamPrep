@@ -1,0 +1,3759 @@
+{
+  "examName": "Bihar STET",
+  "testName": "Mock Test 03",
+  "totalQuestions": 150,
+  "durationMinutes": 150,
+  "instructions": "Bihar STET Paper 2 Computer Science practice mock test.",
+  "questions": [
+    {
+      "id": "stet-03-001",
+      "question": "Which expression is equivalent to (A+B)(A+C)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A+BC"
+        },
+        {
+          "id": "B",
+          "text": "AB+C"
+        },
+        {
+          "id": "C",
+          "text": "A+B+C"
+        },
+        {
+          "id": "D",
+          "text": "AC+BC"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Using the distributive identity, (A+B)(A+C)=A+BC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-002",
+      "question": "Which gate produces 1 only when its two inputs differ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "XNOR"
+        },
+        {
+          "id": "B",
+          "text": "XOR"
+        },
+        {
+          "id": "C",
+          "text": "NAND"
+        },
+        {
+          "id": "D",
+          "text": "NOR"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "XOR is 1 when the inputs are unequal.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-003",
+      "question": "Which flip-flop toggles its output when J=K=1 at the active clock edge?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SR"
+        },
+        {
+          "id": "B",
+          "text": "D"
+        },
+        {
+          "id": "C",
+          "text": "JK"
+        },
+        {
+          "id": "D",
+          "text": "T with T=0"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A JK flip-flop toggles when both J and K are 1.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-004",
+      "question": "A 4-bit binary counter can represent how many distinct states?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "15"
+        },
+        {
+          "id": "D",
+          "text": "16"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Four bits represent 2^4 = 16 states.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-005",
+      "question": "What is decimal 45 in hexadecimal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2B"
+        },
+        {
+          "id": "B",
+          "text": "2D"
+        },
+        {
+          "id": "C",
+          "text": "35"
+        },
+        {
+          "id": "D",
+          "text": "3D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "45 = 2×16 + 13, and 13 is D in hexadecimal.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-006",
+      "question": "By De Morgan’s law, (AB + C)' equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "(A'+B')C'"
+        },
+        {
+          "id": "B",
+          "text": "(A'+B')+C'"
+        },
+        {
+          "id": "C",
+          "text": "A'B'+C"
+        },
+        {
+          "id": "D",
+          "text": "AB+C'"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Complementing the sum gives (AB)'C'=(A'+B')C'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-007",
+      "question": "A 16-to-1 multiplexer requires how many select lines?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "16"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A 2^n-to-1 multiplexer uses n select lines; 16=2^4.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-008",
+      "question": "Which device converts a continuous analogue signal into a digital representation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DAC"
+        },
+        {
+          "id": "B",
+          "text": "ADC"
+        },
+        {
+          "id": "C",
+          "text": "Encoder only"
+        },
+        {
+          "id": "D",
+          "text": "Demultiplexer"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An analogue-to-digital converter samples and quantizes an analogue signal.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-009",
+      "question": "In indirect addressing, the instruction’s address field identifies:",
+      "options": [
+        {
+          "id": "A",
+          "text": "The operand value directly"
+        },
+        {
+          "id": "B",
+          "text": "A location containing the effective address"
+        },
+        {
+          "id": "C",
+          "text": "The next instruction only"
+        },
+        {
+          "id": "D",
+          "text": "The opcode table"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Indirect addressing requires an additional reference to obtain the effective address.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-010",
+      "question": "In a direct-mapped cache, a main-memory block maps to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Any cache line"
+        },
+        {
+          "id": "B",
+          "text": "Exactly one cache line determined by its index"
+        },
+        {
+          "id": "C",
+          "text": "Any line in one set"
+        },
+        {
+          "id": "D",
+          "text": "Only the last cache line"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Direct mapping assigns each memory block to one specific cache line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-011",
+      "question": "An interrupt is primarily used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Notify the CPU of an event needing attention"
+        },
+        {
+          "id": "B",
+          "text": "Increase clock frequency"
+        },
+        {
+          "id": "C",
+          "text": "Replace the ALU"
+        },
+        {
+          "id": "D",
+          "text": "Store every file permanently"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Interrupts allow the processor to respond to events or service requests.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-012",
+      "question": "Direct Memory Access allows a device to transfer data:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only through CPU registers for every byte"
+        },
+        {
+          "id": "B",
+          "text": "Between device and memory with limited CPU involvement"
+        },
+        {
+          "id": "C",
+          "text": "Only after disabling RAM"
+        },
+        {
+          "id": "D",
+          "text": "Without any bus activity"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "DMA controllers can manage bulk transfers without per-byte CPU handling.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-013",
+      "question": "If execution time falls from 10 ms to 5 ms, speedup is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.5"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Speedup = old time/new time = 10/5 = 2.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-014",
+      "question": "Which memory is volatile?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ROM"
+        },
+        {
+          "id": "B",
+          "text": "Flash memory"
+        },
+        {
+          "id": "C",
+          "text": "SRAM"
+        },
+        {
+          "id": "D",
+          "text": "Optical disc"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "SRAM loses its stored contents when power is removed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-015",
+      "question": "A branch instruction most directly creates which pipeline hazard?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data"
+        },
+        {
+          "id": "B",
+          "text": "Control"
+        },
+        {
+          "id": "C",
+          "text": "Capacity"
+        },
+        {
+          "id": "D",
+          "text": "Encoding"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Branches affect which instruction should be fetched next, creating a control hazard.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-016",
+      "question": "A variable declared inside a block without static has which scope?",
+      "options": [
+        {
+          "id": "A",
+          "text": "File scope"
+        },
+        {
+          "id": "B",
+          "text": "Block scope"
+        },
+        {
+          "id": "C",
+          "text": "Program-wide scope"
+        },
+        {
+          "id": "D",
+          "text": "Linkage scope"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A block-scope identifier is visible from its declaration to the end of its block, subject to rules.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-017",
+      "question": "For int a[5], what is the type of a in most expressions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "int"
+        },
+        {
+          "id": "B",
+          "text": "int *"
+        },
+        {
+          "id": "C",
+          "text": "int **"
+        },
+        {
+          "id": "D",
+          "text": "int[1]"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An array expression usually converts to a pointer to its first element, with exceptions such as sizeof and unary &.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-018",
+      "question": "What does the expression &a[0] represent for an array a?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Value of the first element"
+        },
+        {
+          "id": "B",
+          "text": "Address of the first element"
+        },
+        {
+          "id": "C",
+          "text": "Address of the array size"
+        },
+        {
+          "id": "D",
+          "text": "A null pointer"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "&a[0] is the address of the first element.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-019",
+      "question": "How many characters are stored in the C string literal \"cat\" excluding its terminating null character?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The visible characters are c, a, and t; the array representation also includes a null terminator.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-020",
+      "question": "What is the value of 17 % 5 in C?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "3.4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The remainder after integer division 17/5 is 2.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-021",
+      "question": "Which loop checks its condition after executing the body at least once?",
+      "options": [
+        {
+          "id": "A",
+          "text": "while"
+        },
+        {
+          "id": "B",
+          "text": "for"
+        },
+        {
+          "id": "C",
+          "text": "do-while"
+        },
+        {
+          "id": "D",
+          "text": "None of these"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A do-while loop evaluates its condition after the loop body.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-022",
+      "question": "In C, arguments are passed to functions by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reference by default"
+        },
+        {
+          "id": "B",
+          "text": "Value"
+        },
+        {
+          "id": "C",
+          "text": "Name"
+        },
+        {
+          "id": "D",
+          "text": "Object copy only"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "C passes argument values; pointers can be passed to allow a function to modify pointed-to objects.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-023",
+      "question": "If calloc succeeds, the allocated bytes are initialized to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Indeterminate values"
+        },
+        {
+          "id": "B",
+          "text": "All bits zero"
+        },
+        {
+          "id": "C",
+          "text": "ASCII spaces"
+        },
+        {
+          "id": "D",
+          "text": "The previous heap contents"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "calloc initializes the allocated storage to all-bits-zero.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-024",
+      "question": "A function-like macro is expanded primarily by the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Linker"
+        },
+        {
+          "id": "B",
+          "text": "Preprocessor"
+        },
+        {
+          "id": "C",
+          "text": "Loader"
+        },
+        {
+          "id": "D",
+          "text": "Runtime scheduler"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Macro replacement occurs during preprocessing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-025",
+      "question": "Which function repositions a file stream to a specified offset?",
+      "options": [
+        {
+          "id": "A",
+          "text": "fprintf"
+        },
+        {
+          "id": "B",
+          "text": "fseek"
+        },
+        {
+          "id": "C",
+          "text": "fclose"
+        },
+        {
+          "id": "D",
+          "text": "fscanf"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "fseek changes the file position indicator.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-026",
+      "question": "For a structure variable s, which operator accesses member x?",
+      "options": [
+        {
+          "id": "A",
+          "text": "s->x"
+        },
+        {
+          "id": "B",
+          "text": "s.x"
+        },
+        {
+          "id": "C",
+          "text": "s::x"
+        },
+        {
+          "id": "D",
+          "text": "s#x"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The dot operator accesses a member through a structure object; -> is used through a pointer.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-027",
+      "question": "Which expression risks signed integer overflow if x is INT_MAX?",
+      "options": [
+        {
+          "id": "A",
+          "text": "x-1"
+        },
+        {
+          "id": "B",
+          "text": "x/2"
+        },
+        {
+          "id": "C",
+          "text": "x+1"
+        },
+        {
+          "id": "D",
+          "text": "x==0"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Signed integer overflow is undefined in C when the mathematical result is unrepresentable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-028",
+      "question": "The first enumerator in enum { RED, GREEN, BLUE } has value:",
+      "options": [
+        {
+          "id": "A",
+          "text": "-1"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "Implementation-defined always"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The first enumerator defaults to zero unless explicitly assigned another value.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-029",
+      "question": "Binary search on a sorted array has worst-case time complexity:",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(1)"
+        },
+        {
+          "id": "B",
+          "text": "O(log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n log n)"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Each comparison approximately halves the remaining search interval.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-030",
+      "question": "A stack follows which access discipline?",
+      "options": [
+        {
+          "id": "A",
+          "text": "FIFO"
+        },
+        {
+          "id": "B",
+          "text": "LIFO"
+        },
+        {
+          "id": "C",
+          "text": "Random access"
+        },
+        {
+          "id": "D",
+          "text": "Priority-only"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The last element pushed is the first one popped.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-031",
+      "question": "In a standard queue, insertion usually occurs at the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Front"
+        },
+        {
+          "id": "B",
+          "text": "Rear"
+        },
+        {
+          "id": "C",
+          "text": "Middle"
+        },
+        {
+          "id": "D",
+          "text": "Root"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Enqueue inserts at the rear and dequeue removes from the front.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-032",
+      "question": "Which operation generally requires O(n) time in a singly linked list when no tail pointer is kept?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insert after a known node"
+        },
+        {
+          "id": "B",
+          "text": "Read head value"
+        },
+        {
+          "id": "C",
+          "text": "Find the last node"
+        },
+        {
+          "id": "D",
+          "text": "Change head pointer"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Finding the final node requires traversing the list.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-033",
+      "question": "A full binary tree is one in which every node has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exactly one child"
+        },
+        {
+          "id": "B",
+          "text": "Either zero or two children"
+        },
+        {
+          "id": "C",
+          "text": "At most three children"
+        },
+        {
+          "id": "D",
+          "text": "A left child only"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A full (proper) binary tree has either zero or two children per node.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-034",
+      "question": "Which traversal visits a node before its left and right subtrees?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inorder"
+        },
+        {
+          "id": "B",
+          "text": "Preorder"
+        },
+        {
+          "id": "C",
+          "text": "Postorder"
+        },
+        {
+          "id": "D",
+          "text": "Level-order only"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Preorder follows root, left, right.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-035",
+      "question": "A connected undirected graph with n vertices and n−1 edges is necessarily:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A tree"
+        },
+        {
+          "id": "B",
+          "text": "A complete graph"
+        },
+        {
+          "id": "C",
+          "text": "A multigraph with loops"
+        },
+        {
+          "id": "D",
+          "text": "A directed acyclic graph"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A connected undirected graph with n−1 edges is a tree.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-036",
+      "question": "A load factor in a hash table is commonly defined as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Table size/key count"
+        },
+        {
+          "id": "B",
+          "text": "Number of stored keys/table capacity"
+        },
+        {
+          "id": "C",
+          "text": "Collision count × capacity"
+        },
+        {
+          "id": "D",
+          "text": "Key count squared"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Load factor α is commonly n/m: stored keys divided by table slots/buckets.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-037",
+      "question": "Which sorting algorithm is stable in its standard merge-sort implementation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Heap sort"
+        },
+        {
+          "id": "B",
+          "text": "Merge sort"
+        },
+        {
+          "id": "C",
+          "text": "Selection sort"
+        },
+        {
+          "id": "D",
+          "text": "Quick sort in-place"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Standard merge sort can preserve the relative order of equal keys.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-038",
+      "question": "Which algorithm finds a minimum spanning tree by repeatedly selecting a light edge that joins different components?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dijkstra"
+        },
+        {
+          "id": "B",
+          "text": "Kruskal"
+        },
+        {
+          "id": "C",
+          "text": "Floyd–Warshall"
+        },
+        {
+          "id": "D",
+          "text": "Bellman–Ford"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kruskal sorts edges and adds those that do not create a cycle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-039",
+      "question": "Dijkstra’s standard algorithm assumes edge weights are:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Strictly negative"
+        },
+        {
+          "id": "B",
+          "text": "Non-negative"
+        },
+        {
+          "id": "C",
+          "text": "All equal to zero"
+        },
+        {
+          "id": "D",
+          "text": "Only alphabetical"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Dijkstra’s correctness requires non-negative edge weights.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-040",
+      "question": "Dynamic programming is especially useful when a problem has:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Overlapping subproblems and optimal substructure"
+        },
+        {
+          "id": "B",
+          "text": "No repeated states"
+        },
+        {
+          "id": "C",
+          "text": "Only one possible solution"
+        },
+        {
+          "id": "D",
+          "text": "No measurable input"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "DP stores/reuses subproblem results and exploits optimal substructure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-041",
+      "question": "Which growth rate is asymptotically smallest for large n?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(n log n)"
+        },
+        {
+          "id": "B",
+          "text": "O(log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n²)"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Logarithmic growth is slower than linear and n log n growth.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-042",
+      "question": "Which scheduling algorithm may cause starvation of low-priority processes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "FCFS"
+        },
+        {
+          "id": "B",
+          "text": "Non-preemptive priority scheduling"
+        },
+        {
+          "id": "C",
+          "text": "Round robin with equal quantum"
+        },
+        {
+          "id": "D",
+          "text": "FIFO disk scheduling"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Low-priority processes can wait indefinitely if higher-priority jobs keep arriving.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-043",
+      "question": "Which is one of the four Coffman conditions for deadlock?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mutual exclusion"
+        },
+        {
+          "id": "B",
+          "text": "Infinite memory"
+        },
+        {
+          "id": "C",
+          "text": "Mandatory paging"
+        },
+        {
+          "id": "D",
+          "text": "Dynamic linking"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Mutual exclusion, hold-and-wait, no preemption, and circular wait are the four conditions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-044",
+      "question": "A page table maps virtual page numbers to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Physical frame numbers and related status bits"
+        },
+        {
+          "id": "B",
+          "text": "CPU opcodes only"
+        },
+        {
+          "id": "C",
+          "text": "File extensions"
+        },
+        {
+          "id": "D",
+          "text": "Process names only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Page-table entries map virtual pages to physical frames and include control/status information.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-045",
+      "question": "Thrashing occurs when a system spends excessive time:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Executing user instructions"
+        },
+        {
+          "id": "B",
+          "text": "Swapping pages rather than useful execution"
+        },
+        {
+          "id": "C",
+          "text": "Compiling source code"
+        },
+        {
+          "id": "D",
+          "text": "Refreshing monitor pixels"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Thrashing is associated with a very high page-fault rate and constant paging activity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-046",
+      "question": "A system call provides a controlled interface between a program and:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kernel services"
+        },
+        {
+          "id": "B",
+          "text": "Only the compiler"
+        },
+        {
+          "id": "C",
+          "text": "The monitor cable"
+        },
+        {
+          "id": "D",
+          "text": "A spreadsheet cell"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "System calls request services provided by the operating-system kernel.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-047",
+      "question": "A file descriptor is typically:",
+      "options": [
+        {
+          "id": "A",
+          "text": "An integer handle identifying an open file or I/O resource"
+        },
+        {
+          "id": "B",
+          "text": "A file’s entire content"
+        },
+        {
+          "id": "C",
+          "text": "A physical disk platter"
+        },
+        {
+          "id": "D",
+          "text": "A process scheduling algorithm"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Unix-like systems use small integer file descriptors for open I/O resources.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-048",
+      "question": "A candidate key is a superkey that is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Not unique"
+        },
+        {
+          "id": "B",
+          "text": "Minimal"
+        },
+        {
+          "id": "C",
+          "text": "Always a foreign key"
+        },
+        {
+          "id": "D",
+          "text": "Allowed to contain duplicates"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A candidate key uniquely identifies tuples and has no unnecessary attribute.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-049",
+      "question": "A transitive dependency of a non-key attribute on a key is addressed by which normal form?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1NF"
+        },
+        {
+          "id": "B",
+          "text": "2NF only"
+        },
+        {
+          "id": "C",
+          "text": "3NF"
+        },
+        {
+          "id": "D",
+          "text": "0NF"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "3NF removes the relevant transitive dependencies of non-prime attributes on keys.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-050",
+      "question": "Which clause filters groups after aggregate calculations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "WHERE"
+        },
+        {
+          "id": "B",
+          "text": "GROUP BY"
+        },
+        {
+          "id": "C",
+          "text": "HAVING"
+        },
+        {
+          "id": "D",
+          "text": "ORDER BY"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "HAVING filters groups; WHERE filters rows before grouping.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-051",
+      "question": "Which ACID property means a committed transaction survives system failure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atomicity"
+        },
+        {
+          "id": "B",
+          "text": "Consistency"
+        },
+        {
+          "id": "C",
+          "text": "Isolation"
+        },
+        {
+          "id": "D",
+          "text": "Durability"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Durability ensures committed changes persist.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-052",
+      "question": "A LEFT OUTER JOIN preserves:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only matching right-table rows"
+        },
+        {
+          "id": "B",
+          "text": "All rows from the left table, with matching right rows where available"
+        },
+        {
+          "id": "C",
+          "text": "Only rows with no match"
+        },
+        {
+          "id": "D",
+          "text": "Only duplicate rows"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Unmatched left rows remain, with NULLs for right-side columns.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-053",
+      "question": "A dirty read occurs when a transaction reads data written by another transaction that:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Has not committed yet"
+        },
+        {
+          "id": "B",
+          "text": "Has already been archived"
+        },
+        {
+          "id": "C",
+          "text": "Is in a different database server always"
+        },
+        {
+          "id": "D",
+          "text": "Has only read data"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Uncommitted changes may later be rolled back, making the read dirty.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-054",
+      "question": "A B+ tree index is useful mainly because it supports:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only equality checks on unsorted text"
+        },
+        {
+          "id": "B",
+          "text": "Efficient search and ordered/range access"
+        },
+        {
+          "id": "C",
+          "text": "Guaranteed constant-time access for all queries"
+        },
+        {
+          "id": "D",
+          "text": "Elimination of all disk I/O"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "B+ trees are balanced and support point searches and ordered range scans.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-055",
+      "question": "Which OSI layer is most associated with end-to-end process communication and port numbers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Network"
+        },
+        {
+          "id": "B",
+          "text": "Transport"
+        },
+        {
+          "id": "C",
+          "text": "Data Link"
+        },
+        {
+          "id": "D",
+          "text": "Physical"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "TCP and UDP operate at the transport layer and use port numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-056",
+      "question": "Which protocol provides reliable, ordered byte-stream delivery?",
+      "options": [
+        {
+          "id": "A",
+          "text": "UDP"
+        },
+        {
+          "id": "B",
+          "text": "TCP"
+        },
+        {
+          "id": "C",
+          "text": "ARP"
+        },
+        {
+          "id": "D",
+          "text": "ICMP"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "TCP provides a reliable ordered byte stream using acknowledgements and retransmission.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-057",
+      "question": "How many usable host addresses are normally available in an IPv4 /27 subnet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "14"
+        },
+        {
+          "id": "B",
+          "text": "30"
+        },
+        {
+          "id": "C",
+          "text": "32"
+        },
+        {
+          "id": "D",
+          "text": "62"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A /27 leaves 5 host bits: 32 total addresses, normally 30 usable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-058",
+      "question": "DNS primarily translates domain names into:",
+      "options": [
+        {
+          "id": "A",
+          "text": "MAC addresses only"
+        },
+        {
+          "id": "B",
+          "text": "IP addresses and related records"
+        },
+        {
+          "id": "C",
+          "text": "TCP port numbers"
+        },
+        {
+          "id": "D",
+          "text": "HTML tags"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "DNS resolves names to records such as A/AAAA addresses and other service information.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-059",
+      "question": "A switch primarily forwards Ethernet frames using the destination:",
+      "options": [
+        {
+          "id": "A",
+          "text": "IP TTL"
+        },
+        {
+          "id": "B",
+          "text": "MAC address"
+        },
+        {
+          "id": "C",
+          "text": "TCP sequence number"
+        },
+        {
+          "id": "D",
+          "text": "DNS label"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A Layer 2 switch learns and forwards based on MAC addresses.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-060",
+      "question": "Which protocol is a link-state interior gateway routing protocol?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RIP"
+        },
+        {
+          "id": "B",
+          "text": "OSPF"
+        },
+        {
+          "id": "C",
+          "text": "BGP"
+        },
+        {
+          "id": "D",
+          "text": "ARP"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "OSPF uses link-state information within an autonomous system.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-061",
+      "question": "TLS is primarily used to provide:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encrypted and authenticated communication"
+        },
+        {
+          "id": "B",
+          "text": "IP address allocation"
+        },
+        {
+          "id": "C",
+          "text": "Physical signal amplification"
+        },
+        {
+          "id": "D",
+          "text": "File compression only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "TLS protects application communication through encryption and authentication.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-062",
+      "question": "Method overriding is most directly associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Runtime polymorphism"
+        },
+        {
+          "id": "B",
+          "text": "Compile-time macro expansion"
+        },
+        {
+          "id": "C",
+          "text": "Database normalization"
+        },
+        {
+          "id": "D",
+          "text": "Memory paging"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Overriding allows a subclass implementation to be selected dynamically.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-063",
+      "question": "Encapsulation primarily means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Combining data and operations while controlling access"
+        },
+        {
+          "id": "B",
+          "text": "Making every field public"
+        },
+        {
+          "id": "C",
+          "text": "Duplicating a class at runtime"
+        },
+        {
+          "id": "D",
+          "text": "Removing all methods"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Encapsulation bundles state and behavior and controls access to implementation details.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-064",
+      "question": "In Java, a class directly extends which number of classes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zero only"
+        },
+        {
+          "id": "B",
+          "text": "At most one class"
+        },
+        {
+          "id": "C",
+          "text": "Exactly two classes"
+        },
+        {
+          "id": "D",
+          "text": "Any number of classes"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Java classes have single class inheritance, though they can implement multiple interfaces.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-065",
+      "question": "Which block is typically used to execute cleanup code whether or not an exception occurs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "catch only"
+        },
+        {
+          "id": "B",
+          "text": "finally"
+        },
+        {
+          "id": "C",
+          "text": "throws"
+        },
+        {
+          "id": "D",
+          "text": "assert"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A finally block normally runs after try/catch completion, with limited abrupt-termination exceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-066",
+      "question": "A Java interface can be implemented by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only abstract classes"
+        },
+        {
+          "id": "B",
+          "text": "A class that supplies required implementations, subject to interface rules"
+        },
+        {
+          "id": "C",
+          "text": "Only the JVM"
+        },
+        {
+          "id": "D",
+          "text": "A package"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Classes implement interfaces to provide the required behavior.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-067",
+      "question": "Which Python collection is immutable and ordered?",
+      "options": [
+        {
+          "id": "A",
+          "text": "list"
+        },
+        {
+          "id": "B",
+          "text": "set"
+        },
+        {
+          "id": "C",
+          "text": "tuple"
+        },
+        {
+          "id": "D",
+          "text": "dict"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A tuple is ordered and cannot be modified after creation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-068",
+      "question": "Which keyword begins an exception handler in Python?",
+      "options": [
+        {
+          "id": "A",
+          "text": "except"
+        },
+        {
+          "id": "B",
+          "text": "catch"
+        },
+        {
+          "id": "C",
+          "text": "handle"
+        },
+        {
+          "id": "D",
+          "text": "rescue"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Python uses try followed by except clauses to handle exceptions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-069",
+      "question": "Testing individual functions or modules in isolation is called:",
+      "options": [
+        {
+          "id": "A",
+          "text": "System testing"
+        },
+        {
+          "id": "B",
+          "text": "Unit testing"
+        },
+        {
+          "id": "C",
+          "text": "Acceptance testing"
+        },
+        {
+          "id": "D",
+          "text": "Installation testing"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Unit testing checks the smallest practical software units in isolation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-070",
+      "question": "A requirement that specifies response time or availability is usually:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Functional requirement"
+        },
+        {
+          "id": "B",
+          "text": "Non-functional requirement"
+        },
+        {
+          "id": "C",
+          "text": "Use-case actor"
+        },
+        {
+          "id": "D",
+          "text": "Data type"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Performance and availability describe quality attributes rather than a specific business function.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-071",
+      "question": "In Scrum, who is primarily accountable for maximizing product value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Scrum Master"
+        },
+        {
+          "id": "B",
+          "text": "Product Owner"
+        },
+        {
+          "id": "C",
+          "text": "Development environment"
+        },
+        {
+          "id": "D",
+          "text": "External auditor"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Product Owner is accountable for maximizing product value.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-072",
+      "question": "Corrective maintenance is performed to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adapt software to a new OS only"
+        },
+        {
+          "id": "B",
+          "text": "Fix defects discovered after delivery"
+        },
+        {
+          "id": "C",
+          "text": "Improve maintainability without a defect necessarily"
+        },
+        {
+          "id": "D",
+          "text": "Add unrelated hardware"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Corrective maintenance removes faults found in operational software.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-073",
+      "question": "A DFA has, for each state and input symbol:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exactly one transition"
+        },
+        {
+          "id": "B",
+          "text": "No transitions ever"
+        },
+        {
+          "id": "C",
+          "text": "Unlimited nondeterministic transitions"
+        },
+        {
+          "id": "D",
+          "text": "Only epsilon transitions"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A deterministic finite automaton has one defined next state for each state-symbol pair.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-074",
+      "question": "Which machine model recognizes regular languages?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Finite automaton"
+        },
+        {
+          "id": "B",
+          "text": "Turing machine only with oracle"
+        },
+        {
+          "id": "C",
+          "text": "Relational database"
+        },
+        {
+          "id": "D",
+          "text": "Compiler parser only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Regular languages are recognized by finite automata and described by regular expressions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-075",
+      "question": "A context-free grammar has productions with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A single nonterminal on the left-hand side"
+        },
+        {
+          "id": "B",
+          "text": "Only terminals on the left-hand side"
+        },
+        {
+          "id": "C",
+          "text": "Two start symbols required"
+        },
+        {
+          "id": "D",
+          "text": "No terminal symbols"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A CFG production has one nonterminal as its left-hand side.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-076",
+      "question": "Which compiler phase typically detects whether tokens form a valid grammatical structure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lexical analysis"
+        },
+        {
+          "id": "B",
+          "text": "Syntax analysis"
+        },
+        {
+          "id": "C",
+          "text": "Code generation"
+        },
+        {
+          "id": "D",
+          "text": "Linking"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Syntax analysis parses the token stream according to the grammar.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-077",
+      "question": "A symbol table commonly stores:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Identifier attributes such as type and scope"
+        },
+        {
+          "id": "B",
+          "text": "Only executable machine code"
+        },
+        {
+          "id": "C",
+          "text": "Network packet routes"
+        },
+        {
+          "id": "D",
+          "text": "Screen resolution"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Symbol tables track names and attributes used by compiler phases.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-078",
+      "question": "Which HTTP method is generally intended to retrieve a representation without changing server state?",
+      "options": [
+        {
+          "id": "A",
+          "text": "GET"
+        },
+        {
+          "id": "B",
+          "text": "POST"
+        },
+        {
+          "id": "C",
+          "text": "PATCH"
+        },
+        {
+          "id": "D",
+          "text": "CONNECT only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "GET is defined as a safe method intended to retrieve a representation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-079",
+      "question": "Which HTML element represents a hyperlink?",
+      "options": [
+        {
+          "id": "A",
+          "text": "<link> only"
+        },
+        {
+          "id": "B",
+          "text": "<a>"
+        },
+        {
+          "id": "C",
+          "text": "<href>"
+        },
+        {
+          "id": "D",
+          "text": "<url>"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The anchor element <a> creates hyperlinks, usually with an href attribute.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-080",
+      "question": "Which CSS property controls the space inside an element’s border?",
+      "options": [
+        {
+          "id": "A",
+          "text": "margin"
+        },
+        {
+          "id": "B",
+          "text": "padding"
+        },
+        {
+          "id": "C",
+          "text": "outline"
+        },
+        {
+          "id": "D",
+          "text": "gap only"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Padding is the inner spacing between content and border.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-081",
+      "question": "A cryptographic hash function is designed to map input data to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A fixed-length digest"
+        },
+        {
+          "id": "B",
+          "text": "A reversible ciphertext with guaranteed recovery"
+        },
+        {
+          "id": "C",
+          "text": "A public IP address"
+        },
+        {
+          "id": "D",
+          "text": "A unique human identity always"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Hash functions produce fixed-length digests and are not designed to be reversible.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-082",
+      "question": "Multi-factor authentication requires factors from:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Two or more distinct factor categories"
+        },
+        {
+          "id": "B",
+          "text": "Two passwords only"
+        },
+        {
+          "id": "C",
+          "text": "Two usernames only"
+        },
+        {
+          "id": "D",
+          "text": "A username and a display name"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "MFA combines distinct categories such as knowledge, possession, and inherence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-083",
+      "question": "In supervised learning, training examples usually include:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inputs paired with target labels or values"
+        },
+        {
+          "id": "B",
+          "text": "Only unlabeled inputs"
+        },
+        {
+          "id": "C",
+          "text": "No observations"
+        },
+        {
+          "id": "D",
+          "text": "Only random actions without feedback"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Supervised learning learns from labeled input-output examples.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-084",
+      "question": "For a binary classifier, precision is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "TP/(TP+FP)"
+        },
+        {
+          "id": "B",
+          "text": "TP/(TP+FN)"
+        },
+        {
+          "id": "C",
+          "text": "TN/(TN+FP)"
+        },
+        {
+          "id": "D",
+          "text": "(TP+TN)/all"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Precision measures the proportion of predicted positives that are true positives.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-085",
+      "question": "Which transmission mode permits communication in both directions, but not simultaneously?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Simplex"
+        },
+        {
+          "id": "B",
+          "text": "Half-duplex"
+        },
+        {
+          "id": "C",
+          "text": "Full-duplex"
+        },
+        {
+          "id": "D",
+          "text": "Broadcast only"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Half-duplex allows either direction at a time; full-duplex allows simultaneous transmission.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-086",
+      "question": "Lossless compression means that decompression:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reconstructs the original data exactly"
+        },
+        {
+          "id": "B",
+          "text": "Always reduces file size by 90%"
+        },
+        {
+          "id": "C",
+          "text": "Removes all high frequencies"
+        },
+        {
+          "id": "D",
+          "text": "Requires a neural network"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Lossless codecs preserve enough information for exact reconstruction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-087",
+      "question": "Using the conventional binary definition, 1 KiB equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1000 bytes"
+        },
+        {
+          "id": "B",
+          "text": "1024 bytes"
+        },
+        {
+          "id": "C",
+          "text": "100 bytes"
+        },
+        {
+          "id": "D",
+          "text": "2048 bits"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A kibibyte is 2^10 = 1024 bytes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-088",
+      "question": "Firmware is best described as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Software embedded in or closely associated with hardware"
+        },
+        {
+          "id": "B",
+          "text": "A network cable standard"
+        },
+        {
+          "id": "C",
+          "text": "A spreadsheet formula"
+        },
+        {
+          "id": "D",
+          "text": "Only user-generated documents"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Firmware provides low-level control for a device or hardware component.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-089",
+      "question": "Which format is commonly used for structured data exchange and supports nested elements?",
+      "options": [
+        {
+          "id": "A",
+          "text": "XML"
+        },
+        {
+          "id": "B",
+          "text": "BMP"
+        },
+        {
+          "id": "C",
+          "text": "MP3"
+        },
+        {
+          "id": "D",
+          "text": "EXE"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "XML represents structured data using nested markup elements.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-090",
+      "question": "What does OCR stand for in document processing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Optical Character Recognition"
+        },
+        {
+          "id": "B",
+          "text": "Online Code Repository"
+        },
+        {
+          "id": "C",
+          "text": "Object Control Register"
+        },
+        {
+          "id": "D",
+          "text": "Output Channel Routing"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "OCR converts images of text into machine-readable characters.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-091",
+      "question": "A GUI allows users to interact primarily through:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Windows, icons, menus and pointer-based controls"
+        },
+        {
+          "id": "B",
+          "text": "Only machine instructions"
+        },
+        {
+          "id": "C",
+          "text": "Only command-line switches"
+        },
+        {
+          "id": "D",
+          "text": "Database indexes"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A graphical user interface uses visual elements such as windows, icons, and menus.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-092",
+      "question": "In the SaaS model, the customer primarily uses:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A provider-hosted application"
+        },
+        {
+          "id": "B",
+          "text": "Raw physical servers only"
+        },
+        {
+          "id": "C",
+          "text": "A local CPU design tool"
+        },
+        {
+          "id": "D",
+          "text": "Only a network cable"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "SaaS delivers software applications as a service over a network.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-093",
+      "question": "Unicode is primarily intended to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Represent characters from many writing systems consistently"
+        },
+        {
+          "id": "B",
+          "text": "Compress all audio files"
+        },
+        {
+          "id": "C",
+          "text": "Assign IP addresses"
+        },
+        {
+          "id": "D",
+          "text": "Replace all file systems"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Unicode defines code points and encoding standards for text characters across scripts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-094",
+      "question": "An even-parity bit for data 1011001 is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "Depends on clock speed"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The data contains four 1s, already an even count, so parity bit 0 preserves even parity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-095",
+      "question": "In a little-endian system, the least significant byte is stored at the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lowest memory address"
+        },
+        {
+          "id": "B",
+          "text": "Highest memory address"
+        },
+        {
+          "id": "C",
+          "text": "CPU instruction register only"
+        },
+        {
+          "id": "D",
+          "text": "Same address as every byte"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Little-endian storage places the least significant byte at the lowest address.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-096",
+      "question": "In C, const int *p means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "p cannot point elsewhere"
+        },
+        {
+          "id": "B",
+          "text": "The pointed-to int cannot be modified through p"
+        },
+        {
+          "id": "C",
+          "text": "Both p and the int are always constant"
+        },
+        {
+          "id": "D",
+          "text": "p is a constant integer"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The object is const-qualified through this pointer; the pointer itself may be reassigned.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-097",
+      "question": "An AVL tree maintains a balance factor for each node whose value is typically:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Between −1 and +1 inclusive"
+        },
+        {
+          "id": "B",
+          "text": "Always 2"
+        },
+        {
+          "id": "C",
+          "text": "Exactly n"
+        },
+        {
+          "id": "D",
+          "text": "Only positive"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "AVL balance factors are the height difference of subtrees and must be −1, 0, or +1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-098",
+      "question": "The worst-case time complexity of standard heap sort is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(log n)"
+        },
+        {
+          "id": "B",
+          "text": "O(n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n log n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n²)"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Heap construction and repeated extraction yield O(n log n) worst-case time.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-099",
+      "question": "A semaphore is commonly used to coordinate processes by controlling access to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Shared resources or critical sections"
+        },
+        {
+          "id": "B",
+          "text": "Only file names"
+        },
+        {
+          "id": "C",
+          "text": "Compiler grammar rules"
+        },
+        {
+          "id": "D",
+          "text": "Screen brightness"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Semaphores provide synchronization and resource-counting mechanisms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-100",
+      "question": "In an ER diagram, a relationship usually represents:",
+      "options": [
+        {
+          "id": "A",
+          "text": "An association among entity types"
+        },
+        {
+          "id": "B",
+          "text": "A column data type"
+        },
+        {
+          "id": "C",
+          "text": "A transaction log file"
+        },
+        {
+          "id": "D",
+          "text": "An index page"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Relationships model associations between entities.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-101",
+      "question": "On a typical IPv4 LAN, ARP is used to discover the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "MAC address corresponding to a local IPv4 address"
+        },
+        {
+          "id": "B",
+          "text": "Domain name from a URL"
+        },
+        {
+          "id": "C",
+          "text": "TCP port from a MAC address"
+        },
+        {
+          "id": "D",
+          "text": "Subnet mask from an email"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "ARP resolves an IPv4 address to a link-layer address on the local network.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-102",
+      "question": "A constructor is primarily used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Initialize a newly created object"
+        },
+        {
+          "id": "B",
+          "text": "Destroy a database index"
+        },
+        {
+          "id": "C",
+          "text": "Return a Boolean from every method"
+        },
+        {
+          "id": "D",
+          "text": "Overload an operating-system call"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Constructors establish an object’s initial state during creation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-103",
+      "question": "Which UML diagram primarily shows interactions among objects over time?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sequence diagram"
+        },
+        {
+          "id": "B",
+          "text": "Deployment diagram"
+        },
+        {
+          "id": "C",
+          "text": "Package diagram"
+        },
+        {
+          "id": "D",
+          "text": "Use-case diagram only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Sequence diagrams show messages exchanged among participants in temporal order.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-104",
+      "question": "A language is decidable if a Turing machine can:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Halt on every input and correctly accept or reject membership"
+        },
+        {
+          "id": "B",
+          "text": "Accept members but run forever on every nonmember"
+        },
+        {
+          "id": "C",
+          "text": "Only recognize finite strings of length one"
+        },
+        {
+          "id": "D",
+          "text": "Use no tape"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A decider halts on all inputs and answers membership correctly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-105",
+      "question": "The 3-2-1 backup rule commonly recommends:",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 copies, 2 media types, 1 off-site copy"
+        },
+        {
+          "id": "B",
+          "text": "3 passwords, 2 users, 1 server"
+        },
+        {
+          "id": "C",
+          "text": "3 firewalls, 2 routers, 1 switch"
+        },
+        {
+          "id": "D",
+          "text": "3 backups all on one drive"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The 3-2-1 rule keeps three copies on two media types with one copy off-site.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-106",
+      "question": "A well-written learning objective should primarily describe:",
+      "options": [
+        {
+          "id": "A",
+          "text": "What the teacher will cover"
+        },
+        {
+          "id": "B",
+          "text": "What learners should be able to demonstrate"
+        },
+        {
+          "id": "C",
+          "text": "The textbook chapter length"
+        },
+        {
+          "id": "D",
+          "text": "The seating arrangement"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Objectives are framed around observable learner outcomes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-107",
+      "question": "An assessment conducted during instruction to adjust teaching is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Summative"
+        },
+        {
+          "id": "B",
+          "text": "Formative"
+        },
+        {
+          "id": "C",
+          "text": "Placement only"
+        },
+        {
+          "id": "D",
+          "text": "Norm-referenced only"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Formative assessment provides feedback during learning to guide next steps.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-108",
+      "question": "A teacher gives a student extra time under an approved accommodation. This is best understood as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Unfair advantage in every case"
+        },
+        {
+          "id": "B",
+          "text": "An adjustment to support equitable access"
+        },
+        {
+          "id": "C",
+          "text": "A replacement for learning objectives"
+        },
+        {
+          "id": "D",
+          "text": "A form of punishment"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Accommodations reduce access barriers while preserving the learning goal where appropriate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-109",
+      "question": "Which feedback is most likely to support improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "You are bad at this"
+        },
+        {
+          "id": "B",
+          "text": "Your method is correct so far; check the sign in step three"
+        },
+        {
+          "id": "C",
+          "text": "Only the fastest students matter"
+        },
+        {
+          "id": "D",
+          "text": "Try harder without any detail"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Specific, actionable feedback identifies what is working and what to improve.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-110",
+      "question": "When two learners argue during group work, the teacher should first:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hear both sides and re-establish agreed expectations"
+        },
+        {
+          "id": "B",
+          "text": "Immediately remove the entire class"
+        },
+        {
+          "id": "C",
+          "text": "Ignore any safety concern"
+        },
+        {
+          "id": "D",
+          "text": "Publicly label one learner as the problem"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A calm, fair response gathers information and restores safe participation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-111",
+      "question": "Analysing a proposed solution by comparing evidence and assumptions mainly involves:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remembering"
+        },
+        {
+          "id": "B",
+          "text": "Understanding only"
+        },
+        {
+          "id": "C",
+          "text": "Analysis"
+        },
+        {
+          "id": "D",
+          "text": "Imitation"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Analysis involves breaking information into parts and examining relationships or assumptions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-112",
+      "question": "A diagnostic assessment is especially useful:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Before instruction to identify prior knowledge and gaps"
+        },
+        {
+          "id": "B",
+          "text": "Only after the final grade is issued"
+        },
+        {
+          "id": "C",
+          "text": "To replace all classroom instruction"
+        },
+        {
+          "id": "D",
+          "text": "Only to rank teachers"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Diagnostic assessment informs planning by revealing strengths and misconceptions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-113",
+      "question": "A demonstration is particularly suitable when learners need to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Observe a procedure or process"
+        },
+        {
+          "id": "B",
+          "text": "Memorize unrelated facts only"
+        },
+        {
+          "id": "C",
+          "text": "Avoid seeing the target skill"
+        },
+        {
+          "id": "D",
+          "text": "Work without any model"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Demonstrations make procedures visible before guided practice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-114",
+      "question": "Which practice best makes feedback usable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give it promptly and connect it to clear criteria"
+        },
+        {
+          "id": "B",
+          "text": "Provide only a total score"
+        },
+        {
+          "id": "C",
+          "text": "Compare learners publicly"
+        },
+        {
+          "id": "D",
+          "text": "Wait until the course ends in every case"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Timely criterion-linked feedback helps learners act on it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-115",
+      "question": "Differentiated instruction aims to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vary support or pathways while pursuing learning goals"
+        },
+        {
+          "id": "B",
+          "text": "Set unrelated goals for every learner"
+        },
+        {
+          "id": "C",
+          "text": "Remove assessment from teaching"
+        },
+        {
+          "id": "D",
+          "text": "Teach only the highest achievers"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Differentiation responds to learner readiness and needs while maintaining meaningful goals.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-116",
+      "question": "A key advantage of a learning management system is that it can:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Organize course content, submissions and feedback"
+        },
+        {
+          "id": "B",
+          "text": "Guarantee every learner understands content"
+        },
+        {
+          "id": "C",
+          "text": "Replace all teacher judgement"
+        },
+        {
+          "id": "D",
+          "text": "Work only without internet or devices"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "An LMS organizes learning materials and course interactions; outcomes still depend on use and access.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-117",
+      "question": "A teacher should handle a learner’s sensitive academic information by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sharing it publicly to motivate others"
+        },
+        {
+          "id": "B",
+          "text": "Limiting disclosure to legitimate educational needs"
+        },
+        {
+          "id": "C",
+          "text": "Posting it on social media"
+        },
+        {
+          "id": "D",
+          "text": "Sending it to unrelated groups"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Student information should be treated confidentially and shared only when justified.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-118",
+      "question": "An open-ended question is most likely to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Invite reasoned responses with more than one possible approach"
+        },
+        {
+          "id": "B",
+          "text": "Have exactly one-word answer by definition"
+        },
+        {
+          "id": "C",
+          "text": "Test handwriting only"
+        },
+        {
+          "id": "D",
+          "text": "Prevent discussion"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Open-ended questions invite explanation and multiple defensible responses.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-119",
+      "question": "Peer instruction works best when learners are asked to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain and compare their reasoning"
+        },
+        {
+          "id": "B",
+          "text": "Copy a partner’s answer silently"
+        },
+        {
+          "id": "C",
+          "text": "Avoid checking understanding"
+        },
+        {
+          "id": "D",
+          "text": "Compete without discussing concepts"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Explaining reasoning can expose misconceptions and deepen conceptual understanding.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-120",
+      "question": "After a lesson, a teacher compares intended outcomes with student work. This is an example of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reflective practice"
+        },
+        {
+          "id": "B",
+          "text": "Random grading"
+        },
+        {
+          "id": "C",
+          "text": "Administrative punishment"
+        },
+        {
+          "id": "D",
+          "text": "Summative ranking only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Reflection uses evidence from practice to plan improvements.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-121",
+      "question": "Universal Design for Learning encourages teachers to provide:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multiple means of engagement, representation, and action/expression"
+        },
+        {
+          "id": "B",
+          "text": "One fixed format for every learner"
+        },
+        {
+          "id": "C",
+          "text": "Only written exams"
+        },
+        {
+          "id": "D",
+          "text": "No choice in learning materials"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "UDL promotes flexible ways to engage with content and demonstrate learning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-122",
+      "question": "Fundamental Duties are listed in which part of the Indian Constitution?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Part III"
+        },
+        {
+          "id": "B",
+          "text": "Part IVA"
+        },
+        {
+          "id": "C",
+          "text": "Part V"
+        },
+        {
+          "id": "D",
+          "text": "Part IX"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Article 51A in Part IVA lists Fundamental Duties.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-123",
+      "question": "A Money Bill can be introduced in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Either House of Parliament"
+        },
+        {
+          "id": "B",
+          "text": "Lok Sabha only"
+        },
+        {
+          "id": "C",
+          "text": "Rajya Sabha only"
+        },
+        {
+          "id": "D",
+          "text": "Any state assembly only"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A Money Bill can be introduced only in the Lok Sabha.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-124",
+      "question": "The primary role of the Comptroller and Auditor General of India includes:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Auditing government receipts and expenditure"
+        },
+        {
+          "id": "B",
+          "text": "Conducting school board exams"
+        },
+        {
+          "id": "C",
+          "text": "Appointing all governors"
+        },
+        {
+          "id": "D",
+          "text": "Making monetary policy"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The CAG audits public accounts and government expenditure as prescribed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-125",
+      "question": "Which unit measures electrical resistance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Volt"
+        },
+        {
+          "id": "B",
+          "text": "Ampere"
+        },
+        {
+          "id": "C",
+          "text": "Ohm"
+        },
+        {
+          "id": "D",
+          "text": "Watt"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Electrical resistance is measured in ohms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-126",
+      "question": "Which cell organelle is most directly associated with ATP production in aerobic respiration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ribosome"
+        },
+        {
+          "id": "B",
+          "text": "Mitochondrion"
+        },
+        {
+          "id": "C",
+          "text": "Golgi apparatus"
+        },
+        {
+          "id": "D",
+          "text": "Lysosome"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Mitochondria are the principal site of aerobic ATP generation in eukaryotic cells.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-127",
+      "question": "The Tropic of Cancer passes through which country?",
+      "options": [
+        {
+          "id": "A",
+          "text": "India"
+        },
+        {
+          "id": "B",
+          "text": "Australia only"
+        },
+        {
+          "id": "C",
+          "text": "United Kingdom"
+        },
+        {
+          "id": "D",
+          "text": "Russia only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The Tropic of Cancer crosses several countries, including India.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-128",
+      "question": "The Constitution of India came into effect on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 August 1947"
+        },
+        {
+          "id": "B",
+          "text": "26 January 1950"
+        },
+        {
+          "id": "C",
+          "text": "26 November 1949"
+        },
+        {
+          "id": "D",
+          "text": "2 October 1950"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Constitution came into force on 26 January 1950.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-129",
+      "question": "Inflation refers to a sustained increase in the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "General price level"
+        },
+        {
+          "id": "B",
+          "text": "Quantity of rainfall"
+        },
+        {
+          "id": "C",
+          "text": "Value of every currency equally"
+        },
+        {
+          "id": "D",
+          "text": "Population growth rate only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Inflation is a sustained rise in the general level of prices.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-130",
+      "question": "A QR code is commonly used to encode:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data that can be read by a scanner or camera"
+        },
+        {
+          "id": "B",
+          "text": "Only analogue audio waves"
+        },
+        {
+          "id": "C",
+          "text": "A CPU’s clock speed"
+        },
+        {
+          "id": "D",
+          "text": "A device’s physical weight"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "QR codes encode data in a two-dimensional machine-readable pattern.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-131",
+      "question": "Producers in most terrestrial ecosystems are primarily:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Green plants and other photosynthetic organisms"
+        },
+        {
+          "id": "B",
+          "text": "Carnivores"
+        },
+        {
+          "id": "C",
+          "text": "Decomposers only"
+        },
+        {
+          "id": "D",
+          "text": "Top predators"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Producers convert light or chemical energy into organic matter.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-132",
+      "question": "In-situ conservation protects species:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Within their natural habitats"
+        },
+        {
+          "id": "B",
+          "text": "Only in seed banks"
+        },
+        {
+          "id": "C",
+          "text": "Only in museums"
+        },
+        {
+          "id": "D",
+          "text": "Only in a laboratory"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In-situ conservation protects species in their ecosystems, such as parks and reserves.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-133",
+      "question": "Which pollutant is strongly associated with incomplete combustion and binds to haemoglobin?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carbon monoxide"
+        },
+        {
+          "id": "B",
+          "text": "Ozone in the stratosphere"
+        },
+        {
+          "id": "C",
+          "text": "Nitrogen as N₂"
+        },
+        {
+          "id": "D",
+          "text": "Water vapour"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Carbon monoxide binds to haemoglobin and reduces oxygen transport.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-134",
+      "question": "The main purpose of chlorination in drinking-water treatment is to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disinfect by inactivating many pathogens"
+        },
+        {
+          "id": "B",
+          "text": "Increase hardness"
+        },
+        {
+          "id": "C",
+          "text": "Add suspended soil"
+        },
+        {
+          "id": "D",
+          "text": "Remove all dissolved salts"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Chlorine is used as a disinfectant to control many disease-causing microorganisms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-135",
+      "question": "Which is a renewable energy source?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solar energy"
+        },
+        {
+          "id": "B",
+          "text": "Coal"
+        },
+        {
+          "id": "C",
+          "text": "Petroleum"
+        },
+        {
+          "id": "D",
+          "text": "Natural gas"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Solar energy is replenished by sunlight on human timescales.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-136",
+      "question": "An item bought for ₹800 is sold for ₹920. What is the profit percentage on cost price?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10%"
+        },
+        {
+          "id": "B",
+          "text": "12%"
+        },
+        {
+          "id": "C",
+          "text": "15%"
+        },
+        {
+          "id": "D",
+          "text": "20%"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Profit is ₹120; 120/800 × 100 = 15%.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-137",
+      "question": "Simple interest on ₹2,000 at 5% per annum for 3 years is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "₹100"
+        },
+        {
+          "id": "B",
+          "text": "₹200"
+        },
+        {
+          "id": "C",
+          "text": "₹300"
+        },
+        {
+          "id": "D",
+          "text": "₹350"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "SI = PRT/100 = 2000×5×3/100 = ₹300.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-138",
+      "question": "A can finish a task in 6 days and B in 3 days. Working together at constant rates, they finish in:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 day"
+        },
+        {
+          "id": "B",
+          "text": "2 days"
+        },
+        {
+          "id": "C",
+          "text": "3 days"
+        },
+        {
+          "id": "D",
+          "text": "4.5 days"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Combined rate = 1/6+1/3=1/2 task per day, so time is 2 days.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-139",
+      "question": "What is 3/4 of 64?",
+      "options": [
+        {
+          "id": "A",
+          "text": "16"
+        },
+        {
+          "id": "B",
+          "text": "32"
+        },
+        {
+          "id": "C",
+          "text": "48"
+        },
+        {
+          "id": "D",
+          "text": "56"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "64×3/4 = 48.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-140",
+      "question": "If 3x − 7 = 11, then x equals:",
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "3x=18, so x=6.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-141",
+      "question": "The sum of the interior angles of a triangle is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "90°"
+        },
+        {
+          "id": "B",
+          "text": "180°"
+        },
+        {
+          "id": "C",
+          "text": "270°"
+        },
+        {
+          "id": "D",
+          "text": "360°"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The interior angles of a Euclidean triangle sum to 180°.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-142",
+      "question": "A bag contains 3 red and 2 blue balls. One ball is drawn at random. Probability it is blue is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1/5"
+        },
+        {
+          "id": "B",
+          "text": "2/5"
+        },
+        {
+          "id": "C",
+          "text": "3/5"
+        },
+        {
+          "id": "D",
+          "text": "1/2"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "There are 2 blue balls out of 5 equally likely balls.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-143",
+      "question": "Find the next term: 2, 6, 12, 20, 30, __",
+      "options": [
+        {
+          "id": "A",
+          "text": "36"
+        },
+        {
+          "id": "B",
+          "text": "40"
+        },
+        {
+          "id": "C",
+          "text": "42"
+        },
+        {
+          "id": "D",
+          "text": "44"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Differences are 4, 6, 8, 10; next difference is 12, giving 42.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-144",
+      "question": "If CAT is coded as DBU by shifting each letter one forward, DOG is coded as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "EPH"
+        },
+        {
+          "id": "B",
+          "text": "CNG"
+        },
+        {
+          "id": "C",
+          "text": "EOG"
+        },
+        {
+          "id": "D",
+          "text": "FQI"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "D→E, O→P, G→H.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-145",
+      "question": "A person faces east, turns left, then turns left again. Which direction are they facing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "North"
+        },
+        {
+          "id": "B",
+          "text": "South"
+        },
+        {
+          "id": "C",
+          "text": "West"
+        },
+        {
+          "id": "D",
+          "text": "East"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Facing east, left turn gives north; another left gives west.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-146",
+      "question": "A is the sister of B. B is the father of C. How is A related to C?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mother"
+        },
+        {
+          "id": "B",
+          "text": "Paternal aunt"
+        },
+        {
+          "id": "C",
+          "text": "Sister"
+        },
+        {
+          "id": "D",
+          "text": "Grandmother"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A is the sister of C’s father, so she is C’s paternal aunt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-147",
+      "question": "Statements: All laptops are computers. No computer is a plant. Which conclusion follows?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Some laptops are plants"
+        },
+        {
+          "id": "B",
+          "text": "No laptop is a plant"
+        },
+        {
+          "id": "C",
+          "text": "All plants are laptops"
+        },
+        {
+          "id": "D",
+          "text": "No conclusion is possible"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Since every laptop is a computer and no computer is a plant, no laptop is a plant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-03-148",
+      "question": "Which is the odd one out?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Square"
+        },
+        {
+          "id": "B",
+          "text": "Triangle"
+        },
+        {
+          "id": "C",
+          "text": "Circle"
+        },
+        {
+          "id": "D",
+          "text": "Cube"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Square, triangle and circle are 2D plane figures; a cube is three-dimensional.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-149",
+      "question": "Thermometer is to temperature as barometer is to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wind speed"
+        },
+        {
+          "id": "B",
+          "text": "Atmospheric pressure"
+        },
+        {
+          "id": "C",
+          "text": "Humidity"
+        },
+        {
+          "id": "D",
+          "text": "Electric current"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A barometer measures atmospheric pressure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-03-150",
+      "question": "If today is Wednesday, what day will it be 10 days later?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Friday"
+        },
+        {
+          "id": "B",
+          "text": "Saturday"
+        },
+        {
+          "id": "C",
+          "text": "Sunday"
+        },
+        {
+          "id": "D",
+          "text": "Monday"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ten days later is one week plus three days: Wednesday + 3 = Saturday.",
+      "difficulty": "medium"
+    }
+  ]
+}

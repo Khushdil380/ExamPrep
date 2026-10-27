@@ -31,6 +31,46 @@
           "testId": "stet-01",
           "testName": "Mock Test 01",
           "file": "mock-tests/bihar-stet/mock-01.json"
+        },
+        {
+          "testId": "stet-02",
+          "testName": "Mock Test 02",
+          "file": "mock-tests/bihar-stet/mock-02.json"
+        },
+        {
+          "testId": "stet-03",
+          "testName": "Mock Test 03",
+          "file": "mock-tests/bihar-stet/mock-03.json"
+        },
+        {
+          "testId": "stet-04",
+          "testName": "Mock Test 04",
+          "file": "mock-tests/bihar-stet/mock-04.json"
+        },
+        {
+          "testId": "stet-05",
+          "testName": "Mock Test 05",
+          "file": "mock-tests/bihar-stet/mock-05.json"
+        },
+        {
+          "testId": "stet-06",
+          "testName": "Mock Test 06",
+          "file": "mock-tests/bihar-stet/mock-06.json"
+        },
+        {
+          "testId": "stet-07",
+          "testName": "Mock Test 07",
+          "file": "mock-tests/bihar-stet/mock-07.json"
+        },
+        {
+          "testId": "stet-08",
+          "testName": "Mock Test 08",
+          "file": "mock-tests/bihar-stet/mock-08.json"
+        },
+        {
+          "testId": "stet-09",
+          "testName": "Mock Test 09",
+          "file": "mock-tests/bihar-stet/mock-09.json"
         }
       ]
     }
