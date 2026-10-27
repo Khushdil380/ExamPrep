@@ -9,6 +9,15 @@ Is guide mein GitHub website se question files aur catalog update karne ke steps
 
 Practice topic ya mock test ko app mein dikhane ke liye uski JSON file ke saath sahi index file bhi update honi chahiye. GitHub par folder khud se add nahi hota: file banate waqt uska poora path likhne se folder bhi ban jata hai.
 
+## JSON template download karein
+
+1. App mein **Settings → Sample JSON** par click karein.
+2. Jo template chahiye woh chunein:
+   - **Practice / Subject:** ek question-array template download hota hai. Isse practice topic ki file banayein.
+   - **Mock Test:** exam details aur `questions` array wala template download hota hai. Isse mock-test file banayein.
+
+Templates repository ke `data/sample.json` (practice) aur `data/sample-mock-test.json` (mock test) mein bhi hain. In templates ka format app ke loader ke saath match karta hai.
+
 ## GitHub par changes kaise karein
 
 1. Repository kholen: [github.com/Khushdil380/ExamPrep](https://github.com/Khushdil380/ExamPrep).
@@ -129,7 +138,7 @@ Practice file ka poora content square brackets wala JSON **array** hona chahiye�
 - `difficulty`: `easy`, `medium`, ya `hard` use karein.
 - `source`: optional. Source confirm na ho to kisi purane exam ka naam/year na likhein.
 
-Ek file mein kai questions hon to har object ke beech comma rakhein, lekin aakhri object ke baad nahi. Ready template ke liye app mein **Settings → Sample JSON** ya repository ki `data/sample.json` file dekhein.
+Ek file mein kai questions hon to har object ke beech comma rakhein, lekin aakhri object ke baad nahi. Ready template ke liye **Settings → Sample JSON → Practice / Subject** chunein, ya repository ki `data/sample.json` file dekhein.
 
 ## 6. Mock test add, edit ya remove karna
 
@@ -168,7 +177,7 @@ Mock file ka example:
 }
 ```
 
-Mock file mein `durationMinutes` minute mein dein. Har question ka format practice question jaisa hi hai. **Sample JSON** practice topic ke liye hai, mock test ke liye nahi.
+Mock file mein `durationMinutes` minute mein dein. `totalQuestions` ko `questions` array ke actual question count se match karein. Har question ka format practice question jaisa hi hai. Mock template ke liye **Settings → Sample JSON → Mock Test** chunein, ya repository ki `data/sample-mock-test.json` file dekhein.
 
 ## 7. Commit ke baad test aur verify karein
 

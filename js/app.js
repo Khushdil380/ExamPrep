@@ -33,25 +33,41 @@ const App = (() => {
     document.getElementById('settingsOverlay').classList.remove('open');
   }
 
-  async function downloadSample() {
+  function openSampleChoice() {
+    document.getElementById('sampleChoiceDialog').classList.add('open');
+  }
+
+  function closeSampleChoice() {
+    document.getElementById('sampleChoiceDialog').classList.remove('open');
+  }
+
+  async function downloadSample(type) {
+    closeSampleChoice();
     try {
-      const response = await fetch('data/sample.json');
-      if (!response.ok) throw new Error(`Could not load sample JSON (${response.status}).`);
+      const templates = {
+        practice: { path: 'data/sample.json', filename: 'sample-practice-questions.json' },
+        mock: { path: 'data/sample-mock-test.json', filename: 'sample-mock-test.json' },
+      };
+      const template = templates[type];
+      if (!template) throw new Error(`Unknown sample JSON type: ${type}`);
+
+      const response = await fetch(template.path);
+      if (!response.ok) throw new Error(`Could not load ${template.filename} (${response.status}).`);
       const sample = await response.text();
       const url = URL.createObjectURL(new Blob([sample], { type: 'application/json' }));
       const link = Object.assign(document.createElement('a'), {
         href: url,
-        download: 'sample-category.json',
+        download: template.filename,
       });
       link.click();
       setTimeout(() => URL.revokeObjectURL(url), 1000);
     } catch (error) {
       console.error('Sample JSON download failed:', error);
-      UI.toast('Could not download the sample JSON. Please check that data/sample.json is available.', 'error', 5000);
+      UI.toast('Could not download the selected template. Please check that its sample JSON file is available.', 'error', 5000);
     }
   }
 
-  return { init, openSettings, closeSettings, downloadSample };
+  return { init, openSettings, closeSettings, openSampleChoice, closeSampleChoice, downloadSample };
 })();
 
 window.addEventListener('DOMContentLoaded', () => App.init());
