@@ -1,0 +1,36 @@
+{
+  "_comment": "Bihar STET Paper 2 CS format: 150 questions, 2.5 hours. Add your actual questions below.",
+  "examName": "Bihar STET",
+  "testName": "Mock Test 01",
+  "totalQuestions": 150,
+  "durationMinutes": 150,
+  "instructions": "150 questions | 2.5 hours | 1 mark each | No negative marking",
+  "questions": [
+    {
+      "id": "stet-01-001",
+      "question": "Which topology provides the highest redundancy?",
+      "options": [
+        { "id": "A", "text": "Bus" },
+        { "id": "B", "text": "Star" },
+        { "id": "C", "text": "Ring" },
+        { "id": "D", "text": "Full Mesh" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Full Mesh topology में हर node बाकी सभी nodes से directly connected होता है, इसलिए यह highest redundancy provide करता है।",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-01-002",
+      "question": "HTTP runs on which port by default?",
+      "options": [
+        { "id": "A", "text": "21" },
+        { "id": "B", "text": "25" },
+        { "id": "C", "text": "80" },
+        { "id": "D", "text": "443" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "HTTP default port 80 पर run करता है। HTTPS port 443, FTP port 21, SMTP port 25 use करता है।",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExamPrep</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/exam.css">
+  <link rel="stylesheet" href="css/settings.css">
+  <link rel="stylesheet" href="css/results.css">
+</head>
+<body>
+
+<!-- Toast -->
+<div id="toastContainer"></div>
+
+<!-- Confirm dialog -->
+<div id="confirmDialog" class="modal-backdrop">
+  <div class="modal-box" style="max-width:340px">
+    <div class="modal-head"><h3>Confirm</h3></div>
+    <div class="modal-body"><p id="confirmMsg" style="font-size:0.9rem;line-height:1.55"></p></div>
+    <div class="modal-foot">
+      <button class="btn btn-outline" onclick="_confirmNo()">Cancel</button>
+      <button class="btn btn-primary" onclick="_confirmYes()">Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- Settings overlay -->
+<div id="settingsOverlay" class="settings-overlay" onclick="App.closeSettings()"></div>
+
+<!-- Settings panel — all dynamic content injected by settings.js -->
+<div id="settingsPanel" class="settings-panel">
+  <div class="sp-head">
+    <h2>⚙ Settings</h2>
+    <div style="display:flex;align-items:center;gap:10px">
+      <button class="download-btn" onclick="App.downloadSample()">⬇ Sample JSON</button>
+      <button class="sp-close" onclick="App.closeSettings()">✕</button>
+    </div>
+  </div>
+
+  <div class="sp-body">
+
+    <!-- PRACTICE -->
+    <div>
+      <div class="sp-section-label">Subject</div>
+      <div id="settingSubjects" class="scrollable-list"></div>
+    </div>
+
+    <div>
+      <div class="sp-section-label">Chapter / Topic</div>
+      <div id="settingChapters"><span class="dim-text">Select subject(s) first</span></div>
+    </div>
+
+    <div class="sp-row">
+      <div class="form-group">
+        <label class="form-label" for="settingMode">Mode</label>
+        <select id="settingMode" class="form-select">
+          <option value="practice">Practice (instant feedback)</option>
+          <option value="exam">Exam (submit to reveal)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="settingOrder">Order</label>
+        <select id="settingOrder" class="form-select">
+          <option value="shuffle">Shuffled</option>
+          <option value="sequential">Sequential</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="sp-row">
+      <div class="form-group">
+        <label class="form-label" for="settingNumQ">No. of Questions <span style="font-weight:400;color:var(--gray-400)">(0 = all)</span></label>
+        <input id="settingNumQ" type="number" class="form-input" value="0" min="0" max="500">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="settingDurationMinutes">Test time (minutes)</label>
+        <input id="settingDurationMinutes" type="number" class="form-input" min="0" step="1">
+      </div>
+    </div>
+
+    <!-- OR divider -->
+    <div class="sp-or">OR give Exam Test</div>
+
+    <!-- MOCK TEST -->
+    <div>
+      <div class="sp-section-label">Select Exam</div>
+      <div id="settingExams"></div>
+    </div>
+
+    <div class="form-group">
+      <label class="form-label" for="settingTestSelect">Mock Test</label>
+      <select id="settingTestSelect" class="form-select">
+        <option value="">— Select Test —</option>
+      </select>
+    </div>
+
+  </div>
+
+  <div class="sp-foot">
+    <button class="btn btn-primary" onclick="Settings.start()">▶ Start Session</button>
+  </div>
+</div>
+
+<!-- =====================================================
+     PAGE: EXAM
+====================================================== -->
+<div id="page-exam" class="page active">
+  <header class="exam-header">
+    <div class="header-left">
+      <button class="icon-btn" onclick="App.openSettings()" title="Settings">⚙</button>
+    </div>
+    <div class="header-center" id="examLabel">Loading…</div>
+    <div class="header-right">
+      <div id="timerBox" class="timer" style="display:none"></div>
+    </div>
+  </header>
+
+  <div class="progress-bar-wrap">
+    <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+  </div>
+
+  <div class="exam-body">
+    <div class="question-panel">
+      <div class="question-meta" id="qMeta"></div>
+      <p class="question-counter" id="qCounter"></p>
+      <div class="mobile-question-tools">
+        <button id="btnMarkMobile" class="btn btn-ghost" onclick="Exam.toggleMark()">☆ Mark for review</button>
+        <button id="btnClearMobile" class="btn btn-ghost" onclick="Exam.clearResponse()" hidden>Clear answer</button>
+      </div>
+      <p class="question-text" id="qText"></p>
+      <div id="optionsList" class="options-list"></div>
+      <div id="practiceFeedback" class="practice-feedback"></div>
+      <div class="exam-nav">
+        <button id="btnPrev"  class="btn btn-outline" onclick="Exam.prev()">← Previous</button>
+        <button id="btnClear" class="btn btn-ghost"   onclick="Exam.clearResponse()">Clear response</button>
+        <button id="btnMark"  class="btn btn-ghost"   onclick="Exam.toggleMark()">Mark for review</button>
+        <button id="btnPalette" class="btn btn-outline" onclick="Exam.togglePalette()" aria-expanded="false" aria-controls="palettePanel">Questions</button>
+        <button id="btnNext"  class="btn btn-primary" onclick="Exam.next()">Save &amp; Next →</button>
+      </div>
+    </div>
+
+    <div id="palettePanel" class="palette-panel" aria-hidden="true">
+      <div class="palette-head">
+        <span>Questions</span>
+        <button class="palette-close" onclick="Exam.closePalette()" aria-label="Close question palette">✕</button>
+      </div>
+      <div class="palette-legend">
+        <div class="legend-row"><div class="legend-dot ld-answered"></div>Answered</div>
+        <div class="legend-row"><div class="legend-dot ld-marked"></div>Marked</div>
+        <div class="legend-row"><div class="legend-dot ld-current"></div>Current</div>
+        <div class="legend-row"><div class="legend-dot ld-unanswered"></div>Unanswered</div>
+      </div>
+      <div id="paletteGrid" class="palette-grid"></div>
+      <div class="palette-stats">
+        <span id="pStatAnswered"></span>
+        <span id="pStatMarked"></span>
+        <span id="pStatUnanswered"></span>
+      </div>
+      <div class="palette-submit">
+        <button class="btn btn-primary" onclick="Exam.submit()">Submit test</button>
+      </div>
+    </div>
+  </div>
+  <div id="paletteOverlay" class="palette-overlay" onclick="Exam.closePalette()"></div>
+</div>
+
+<!-- =====================================================
+     PAGE: RESULTS
+====================================================== -->
+<div id="page-results" class="page">
+  <header class="exam-header">
+    <div class="header-left">
+      <button class="icon-btn" onclick="App.openSettings()" title="Settings">⚙</button>
+    </div>
+    <div class="header-center">Results</div>
+    <div class="header-right">
+      <button class="btn btn-outline" style="font-size:0.8rem" onclick="UI.showPage('exam')">← Back</button>
+    </div>
+  </header>
+
+  <div class="results-body">
+    <div class="score-card">
+      <div class="score-row">
+        <div id="scoreCircle" class="score-circle great">
+          <span class="pct">—</span><span class="lbl">Accuracy</span>
+        </div>
+        <div class="score-stats">
+          <div class="stat-box">        <div class="num" id="rTotal">—</div>      <div class="key">Total</div></div>
+          <div class="stat-box green">  <div class="num" id="rCorrect">—</div>    <div class="key">Correct</div></div>
+          <div class="stat-box red">    <div class="num" id="rIncorrect">—</div>  <div class="key">Wrong</div></div>
+          <div class="stat-box amber">  <div class="num" id="rUnanswered">—</div> <div class="key">Skipped</div></div>
+          <div class="stat-box">        <div class="num" id="rAttempted">—</div>  <div class="key">Attempted</div></div>
+          <div class="stat-box">        <div class="num" id="rScore">—</div>      <div class="key">Score</div></div>
+        </div>
+      </div>
+      <p style="font-size:0.82rem;color:var(--gray-500);margin-bottom:12px">⏱ Time: <strong id="rTime">—</strong></p>
+      <div class="score-actions">
+        <button class="btn btn-primary" onclick="Results.retry()">🔁 Retry</button>
+        <button class="btn btn-outline" onclick="App.openSettings()">⚙ New Session</button>
+      </div>
+    </div>
+
+    <div class="review-section">
+      <div class="review-tabs">
+        <button class="rtab active" data-filter="all"        onclick="Results.renderReview('all')">All</button>
+        <button class="rtab"        data-filter="incorrect"  onclick="Results.renderReview('incorrect')">✗ Wrong</button>
+        <button class="rtab"        data-filter="unanswered" onclick="Results.renderReview('unanswered')">— Skipped</button>
+        <button class="rtab"        data-filter="correct"    onclick="Results.renderReview('correct')">✓ Correct</button>
+      </div>
+      <div id="reviewList"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Load order: storage → ui → data → exam → results → settings → app -->
+<script src="js/storage.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/data.js"></script>
+<script src="js/exam.js"></script>
+<script src="js/results.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

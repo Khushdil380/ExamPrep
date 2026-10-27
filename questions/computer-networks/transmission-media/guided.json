@@ -1,0 +1,56 @@
+[
+  {
+    "id": "cn-tm-g-001",
+    "question": "Which transmission medium is least susceptible to electromagnetic interference?",
+    "options": [
+      { "id": "A", "text": "Twisted-pair cable" },
+      { "id": "B", "text": "Coaxial cable" },
+      { "id": "C", "text": "Optical fibre" },
+      { "id": "D", "text": "Unshielded copper cable" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Optical fibre data को light के through transmit करता है न कि electrical signals के through, इसलिए यह EMI (Electromagnetic Interference) से practically immune होता है।",
+    "difficulty": "easy",
+    "source": "STET 2019"
+  },
+  {
+    "id": "cn-tm-g-002",
+    "question": "Which guided medium provides the highest available bandwidth?",
+    "options": [
+      { "id": "A", "text": "Cat 5e UTP cable" },
+      { "id": "B", "text": "Coaxial cable" },
+      { "id": "C", "text": "Optical fibre" },
+      { "id": "D", "text": "STP cable" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Optical fibre terahertz range में bandwidth support करता है। यह सबसे high-bandwidth guided medium है।",
+    "difficulty": "easy",
+    "source": "DSSSB 2021"
+  },
+  {
+    "id": "cn-tm-g-003",
+    "question": "In a coaxial cable, what is the correct order of layers from innermost to outermost?",
+    "options": [
+      { "id": "A", "text": "Outer jacket → Braided shield → Insulator → Inner conductor" },
+      { "id": "B", "text": "Inner conductor → Insulator → Braided shield → Outer jacket" },
+      { "id": "C", "text": "Insulator → Inner conductor → Braided shield → Outer jacket" },
+      { "id": "D", "text": "Inner conductor → Braided shield → Insulator → Outer jacket" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Coaxial cable की layers अंदर से बाहर: copper inner conductor → insulating layer → metallic braided shield → plastic outer jacket।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cn-tm-g-004",
+    "question": "Which twisted-pair variant uses foil shielding around the entire cable bundle?",
+    "options": [
+      { "id": "A", "text": "UTP (Unshielded Twisted Pair)" },
+      { "id": "B", "text": "STP (Shielded Twisted Pair)" },
+      { "id": "C", "text": "FTP (Foiled Twisted Pair)" },
+      { "id": "D", "text": "ScTP (Screened Twisted Pair)" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "FTP में पूरे cable bundle के ऊपर एक aluminium foil होती है। STP में individual pairs पर shield होती है। दोनों UTP से better interference protection देते हैं।",
+    "difficulty": "medium"
+  }
+]

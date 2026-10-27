@@ -1,0 +1,42 @@
+/* =============================================================
+   variables.css — All design tokens live here.
+   Change colors, fonts, spacing from this single file.
+   ============================================================= */
+:root {
+  --blue:         #2563eb;
+  --blue-dark:    #1d4ed8;
+  --blue-light:   #eff6ff;
+  --green:        #16a34a;
+  --green-light:  #f0fdf4;
+  --red:          #dc2626;
+  --red-light:    #fef2f2;
+  --amber:        #d97706;
+  --amber-light:  #fffbeb;
+  --purple:       #7c3aed;
+  --purple-light: #f5f3ff;
+
+  --white:     #ffffff;
+  --gray-50:   #f9fafb;
+  --gray-100:  #f3f4f6;
+  --gray-200:  #e5e7eb;
+  --gray-300:  #d1d5db;
+  --gray-400:  #9ca3af;
+  --gray-500:  #6b7280;
+  --gray-600:  #4b5563;
+  --gray-700:  #374151;
+  --gray-800:  #1f2937;
+
+  --bg:        #f3f4f6;
+  --card:      #ffffff;
+  --border:    #e5e7eb;
+
+  /* Question palette states */
+  --q-unanswered: #e5e7eb;
+  --q-current:    #2563eb;
+  --q-answered:   #16a34a;
+  --q-marked:     #7c3aed;
+
+  --font:   'Segoe UI', system-ui, sans-serif;
+  --radius: 6px;
+  --shadow: 0 1px 4px rgba(0,0,0,0.10);
+}

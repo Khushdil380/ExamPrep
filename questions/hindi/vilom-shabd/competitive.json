@@ -1,0 +1,5202 @@
+[
+  {
+    "id": "hi-vilom-001",
+    "question": "“अंधकार” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अधिक"
+      },
+      {
+        "id": "B",
+        "text": "विकर्षण"
+      },
+      {
+        "id": "C",
+        "text": "प्रकाश"
+      },
+      {
+        "id": "D",
+        "text": "अनेक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“अंधकार” का विलोम “प्रकाश” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-002",
+    "question": "“अधर्म” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्राचीन"
+      },
+      {
+        "id": "B",
+        "text": "धर्म"
+      },
+      {
+        "id": "C",
+        "text": "दयालु"
+      },
+      {
+        "id": "D",
+        "text": "निमीलन"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“अधर्म” का विलोम “धर्म” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-003",
+    "question": "“अधीन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "स्वाधीन"
+      },
+      {
+        "id": "B",
+        "text": "स्थूल"
+      },
+      {
+        "id": "C",
+        "text": "उतार"
+      },
+      {
+        "id": "D",
+        "text": "अवनति"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“अधीन” का विलोम “स्वाधीन” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-004",
+    "question": "“अनुकूल” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "कोमल"
+      },
+      {
+        "id": "B",
+        "text": "लघु"
+      },
+      {
+        "id": "C",
+        "text": "सज्जन"
+      },
+      {
+        "id": "D",
+        "text": "प्रतिकूल"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“अनुकूल” का विलोम “प्रतिकूल” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-005",
+    "question": "“अनाथ” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "भरा"
+      },
+      {
+        "id": "B",
+        "text": "ग्रहण"
+      },
+      {
+        "id": "C",
+        "text": "सनाथ"
+      },
+      {
+        "id": "D",
+        "text": "मलिन"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“अनाथ” का विलोम “सनाथ” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-006",
+    "question": "“अनावश्यक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "मरण"
+      },
+      {
+        "id": "B",
+        "text": "आवश्यक"
+      },
+      {
+        "id": "C",
+        "text": "पश्चिम"
+      },
+      {
+        "id": "D",
+        "text": "महत्त्वपूर्ण"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“अनावश्यक” का विलोम “आवश्यक” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-007",
+    "question": "“अनिच्छा” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "इच्छा"
+      },
+      {
+        "id": "B",
+        "text": "अन्यायी"
+      },
+      {
+        "id": "C",
+        "text": "अंतर्मुख"
+      },
+      {
+        "id": "D",
+        "text": "मंद"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“अनिच्छा” का विलोम “इच्छा” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-008",
+    "question": "“अनिष्ट” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सक्रिय"
+      },
+      {
+        "id": "B",
+        "text": "समापन"
+      },
+      {
+        "id": "C",
+        "text": "अरुचि"
+      },
+      {
+        "id": "D",
+        "text": "इष्ट"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“अनिष्ट” का विलोम “इष्ट” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-009",
+    "question": "“अनिवार्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निंदा"
+      },
+      {
+        "id": "B",
+        "text": "लिखित"
+      },
+      {
+        "id": "C",
+        "text": "वैकल्पिक"
+      },
+      {
+        "id": "D",
+        "text": "विस्तृत"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“अनिवार्य” का विलोम “वैकल्पिक” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-010",
+    "question": "“अनुराग” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "भविष्य"
+      },
+      {
+        "id": "B",
+        "text": "विराग"
+      },
+      {
+        "id": "C",
+        "text": "विषम"
+      },
+      {
+        "id": "D",
+        "text": "सूक्ष्म"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“अनुराग” का विलोम “विराग” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-011",
+    "question": "“अपकार” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "उपकार"
+      },
+      {
+        "id": "B",
+        "text": "निर्दय"
+      },
+      {
+        "id": "C",
+        "text": "विशेष"
+      },
+      {
+        "id": "D",
+        "text": "अभिशाप"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“अपकार” का विलोम “उपकार” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-012",
+    "question": "“अपमान” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विधवा"
+      },
+      {
+        "id": "B",
+        "text": "दुर्बल"
+      },
+      {
+        "id": "C",
+        "text": "प्रकाश"
+      },
+      {
+        "id": "D",
+        "text": "सम्मान"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“अपमान” का विलोम “सम्मान” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-013",
+    "question": "“अपयश” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "दूर"
+      },
+      {
+        "id": "B",
+        "text": "विदाई"
+      },
+      {
+        "id": "C",
+        "text": "यश"
+      },
+      {
+        "id": "D",
+        "text": "मितव्यय"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“अपयश” का विलोम “यश” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-014",
+    "question": "“अपव्यय” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अयोग्य"
+      },
+      {
+        "id": "B",
+        "text": "मितव्यय"
+      },
+      {
+        "id": "C",
+        "text": "व्यय"
+      },
+      {
+        "id": "D",
+        "text": "विराग"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“अपव्यय” का विलोम “मितव्यय” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-015",
+    "question": "“अपूर्ण” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पूर्ण"
+      },
+      {
+        "id": "B",
+        "text": "सहाय"
+      },
+      {
+        "id": "C",
+        "text": "विषाद"
+      },
+      {
+        "id": "D",
+        "text": "आवश्यक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“अपूर्ण” का विलोम “पूर्ण” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-016",
+    "question": "“अमर” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "शुद्ध"
+      },
+      {
+        "id": "B",
+        "text": "प्रस्थान"
+      },
+      {
+        "id": "C",
+        "text": "अनेकता"
+      },
+      {
+        "id": "D",
+        "text": "मर्त्य"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“अमर” का विलोम “मर्त्य” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-017",
+    "question": "“अमृत” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "शुष्क"
+      },
+      {
+        "id": "B",
+        "text": "विमुख"
+      },
+      {
+        "id": "C",
+        "text": "विष"
+      },
+      {
+        "id": "D",
+        "text": "दंड"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“अमृत” का विलोम “विष” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-018",
+    "question": "“अल्प” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "कृपण"
+      },
+      {
+        "id": "B",
+        "text": "अधिक"
+      },
+      {
+        "id": "C",
+        "text": "अचल"
+      },
+      {
+        "id": "D",
+        "text": "कृतघ्न"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“अल्प” का विलोम “अधिक” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-019",
+    "question": "“अशुद्ध” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "शुद्ध"
+      },
+      {
+        "id": "B",
+        "text": "अग्राह्य"
+      },
+      {
+        "id": "C",
+        "text": "सुगम"
+      },
+      {
+        "id": "D",
+        "text": "मीठा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“अशुद्ध” का विलोम “शुद्ध” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-020",
+    "question": "“असफल” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "गम"
+      },
+      {
+        "id": "B",
+        "text": "रात"
+      },
+      {
+        "id": "C",
+        "text": "आयात"
+      },
+      {
+        "id": "D",
+        "text": "सफल"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“असफल” का विलोम “सफल” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-021",
+    "question": "“असत्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "कनिष्ठ"
+      },
+      {
+        "id": "B",
+        "text": "स्तुति"
+      },
+      {
+        "id": "C",
+        "text": "सत्य"
+      },
+      {
+        "id": "D",
+        "text": "परोक्ष"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“असत्य” का विलोम “सत्य” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-022",
+    "question": "“अस्थिर” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निर्धन"
+      },
+      {
+        "id": "B",
+        "text": "स्थिर"
+      },
+      {
+        "id": "C",
+        "text": "अल्पमत"
+      },
+      {
+        "id": "D",
+        "text": "विपक्ष"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“अस्थिर” का विलोम “स्थिर” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-023",
+    "question": "“असहाय” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सहाय"
+      },
+      {
+        "id": "B",
+        "text": "अप्रिय"
+      },
+      {
+        "id": "C",
+        "text": "हानि"
+      },
+      {
+        "id": "D",
+        "text": "सरस"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“असहाय” का विलोम “सहाय” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-024",
+    "question": "“असली” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निकास"
+      },
+      {
+        "id": "B",
+        "text": "भक्षक"
+      },
+      {
+        "id": "C",
+        "text": "विसंगति"
+      },
+      {
+        "id": "D",
+        "text": "नकली"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“असली” का विलोम “नकली” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-025",
+    "question": "“अस्त” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "वाचाल"
+      },
+      {
+        "id": "B",
+        "text": "जागरण"
+      },
+      {
+        "id": "C",
+        "text": "उदय"
+      },
+      {
+        "id": "D",
+        "text": "असमान"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“अस्त” का विलोम “उदय” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-026",
+    "question": "“आस्तिक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विनाश"
+      },
+      {
+        "id": "B",
+        "text": "नास्तिक"
+      },
+      {
+        "id": "C",
+        "text": "निरर्थक"
+      },
+      {
+        "id": "D",
+        "text": "दुर्भाग्य"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“आस्तिक” का विलोम “नास्तिक” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-027",
+    "question": "“आय” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यय"
+      },
+      {
+        "id": "B",
+        "text": "निराकार"
+      },
+      {
+        "id": "C",
+        "text": "धर्म"
+      },
+      {
+        "id": "D",
+        "text": "असमर्थ"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“आय” का विलोम “व्यय” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-028",
+    "question": "“आदान” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "गर्म"
+      },
+      {
+        "id": "B",
+        "text": "परमार्थ"
+      },
+      {
+        "id": "C",
+        "text": "पूर्ण"
+      },
+      {
+        "id": "D",
+        "text": "प्रदान"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“आदान” का विलोम “प्रदान” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-029",
+    "question": "“आदर” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रलय"
+      },
+      {
+        "id": "B",
+        "text": "उपकार"
+      },
+      {
+        "id": "C",
+        "text": "अनादर"
+      },
+      {
+        "id": "D",
+        "text": "प्रदान"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“आदर” का विलोम “अनादर” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-030",
+    "question": "“आदि” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "इच्छा"
+      },
+      {
+        "id": "B",
+        "text": "अंत"
+      },
+      {
+        "id": "C",
+        "text": "परलोक"
+      },
+      {
+        "id": "D",
+        "text": "नकली"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“आदि” का विलोम “अंत” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-031",
+    "question": "“आधुनिक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्राचीन"
+      },
+      {
+        "id": "B",
+        "text": "निर्यात"
+      },
+      {
+        "id": "C",
+        "text": "दरिद्रता"
+      },
+      {
+        "id": "D",
+        "text": "सफल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“आधुनिक” का विलोम “प्राचीन” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-032",
+    "question": "“आर्द्र” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अवरोह"
+      },
+      {
+        "id": "B",
+        "text": "अनुपयुक्त"
+      },
+      {
+        "id": "C",
+        "text": "शाश्वत"
+      },
+      {
+        "id": "D",
+        "text": "शुष्क"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“आर्द्र” का विलोम “शुष्क” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-033",
+    "question": "“आरोह” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "शीत"
+      },
+      {
+        "id": "B",
+        "text": "अक्रम"
+      },
+      {
+        "id": "C",
+        "text": "अवरोह"
+      },
+      {
+        "id": "D",
+        "text": "जड़"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“आरोह” का विलोम “अवरोह” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-034",
+    "question": "“आगत” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "वीर"
+      },
+      {
+        "id": "B",
+        "text": "निर्गत"
+      },
+      {
+        "id": "C",
+        "text": "सुगंध"
+      },
+      {
+        "id": "D",
+        "text": "विरल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“आगत” का विलोम “निर्गत” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-035",
+    "question": "“आकर्षण” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विकर्षण"
+      },
+      {
+        "id": "B",
+        "text": "भौतिक"
+      },
+      {
+        "id": "C",
+        "text": "सकाम"
+      },
+      {
+        "id": "D",
+        "text": "पद्य"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“आकर्षण” का विलोम “विकर्षण” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-036",
+    "question": "“आगमन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "तरल"
+      },
+      {
+        "id": "B",
+        "text": "भयभीत"
+      },
+      {
+        "id": "C",
+        "text": "अल्प"
+      },
+      {
+        "id": "D",
+        "text": "प्रस्थान"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“आगमन” का विलोम “प्रस्थान” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-037",
+    "question": "“आयात” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अधैर्य"
+      },
+      {
+        "id": "B",
+        "text": "अपवित्र"
+      },
+      {
+        "id": "C",
+        "text": "निर्यात"
+      },
+      {
+        "id": "D",
+        "text": "नाबालिग"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“आयात” का विलोम “निर्यात” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-038",
+    "question": "“आशा” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "बदी"
+      },
+      {
+        "id": "B",
+        "text": "निराशा"
+      },
+      {
+        "id": "C",
+        "text": "हानिकारक"
+      },
+      {
+        "id": "D",
+        "text": "मुक्ति"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“आशा” का विलोम “निराशा” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-039",
+    "question": "“आश्रित” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निराश्रित"
+      },
+      {
+        "id": "B",
+        "text": "विध्वंस"
+      },
+      {
+        "id": "C",
+        "text": "दुराचार"
+      },
+      {
+        "id": "D",
+        "text": "निवृत्ति"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“आश्रित” का विलोम “निराश्रित” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-040",
+    "question": "“आह्लाद” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अपव्ययी"
+      },
+      {
+        "id": "B",
+        "text": "हर्ष"
+      },
+      {
+        "id": "C",
+        "text": "व्यष्टि"
+      },
+      {
+        "id": "D",
+        "text": "विषाद"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“आह्लाद” का विलोम “विषाद” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-041",
+    "question": "“इहलोक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "संक्षेप"
+      },
+      {
+        "id": "B",
+        "text": "दुरुपयोग"
+      },
+      {
+        "id": "C",
+        "text": "परलोक"
+      },
+      {
+        "id": "D",
+        "text": "असावधान"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“इहलोक” का विलोम “परलोक” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-042",
+    "question": "“उग्र” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अकारण"
+      },
+      {
+        "id": "B",
+        "text": "सौम्य"
+      },
+      {
+        "id": "C",
+        "text": "स्वाधीन"
+      },
+      {
+        "id": "D",
+        "text": "असाधु"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“उग्र” का विलोम “सौम्य” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-043",
+    "question": "“उच्च” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "नीच"
+      },
+      {
+        "id": "B",
+        "text": "पराधीन"
+      },
+      {
+        "id": "C",
+        "text": "मर्त्य"
+      },
+      {
+        "id": "D",
+        "text": "महँगा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“उच्च” का विलोम “नीच” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-044",
+    "question": "“उन्नति” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "परतंत्र"
+      },
+      {
+        "id": "B",
+        "text": "सम्मान"
+      },
+      {
+        "id": "C",
+        "text": "अनादर"
+      },
+      {
+        "id": "D",
+        "text": "अवनति"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“उन्नति” का विलोम “अवनति” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-045",
+    "question": "“उदार” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "इष्ट"
+      },
+      {
+        "id": "B",
+        "text": "उदय"
+      },
+      {
+        "id": "C",
+        "text": "कृपण"
+      },
+      {
+        "id": "D",
+        "text": "सौम्य"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“उदार” का विलोम “कृपण” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-046",
+    "question": "“उष्ण” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सत्य"
+      },
+      {
+        "id": "B",
+        "text": "शीत"
+      },
+      {
+        "id": "C",
+        "text": "अनौचित्य"
+      },
+      {
+        "id": "D",
+        "text": "निराशा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“उष्ण” का विलोम “शीत” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-047",
+    "question": "“उर्वर” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "बंजर"
+      },
+      {
+        "id": "B",
+        "text": "अनुपस्थित"
+      },
+      {
+        "id": "C",
+        "text": "खोटा"
+      },
+      {
+        "id": "D",
+        "text": "निर्गत"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“उर्वर” का विलोम “बंजर” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-048",
+    "question": "“उन्मीलन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "बंजर"
+      },
+      {
+        "id": "B",
+        "text": "विक्रय"
+      },
+      {
+        "id": "C",
+        "text": "पराजय"
+      },
+      {
+        "id": "D",
+        "text": "निमीलन"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“उन्मीलन” का विलोम “निमीलन” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-049",
+    "question": "“उन्मुख” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्राकृतिक"
+      },
+      {
+        "id": "B",
+        "text": "प्रेम"
+      },
+      {
+        "id": "C",
+        "text": "विमुख"
+      },
+      {
+        "id": "D",
+        "text": "सुकर"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“उन्मुख” का विलोम “विमुख” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-050",
+    "question": "“उपयुक्त” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रकट"
+      },
+      {
+        "id": "B",
+        "text": "अनुपयुक्त"
+      },
+      {
+        "id": "C",
+        "text": "विधि"
+      },
+      {
+        "id": "D",
+        "text": "सुलभ"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“उपयुक्त” का विलोम “अनुपयुक्त” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-051",
+    "question": "“उपस्थित” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुपस्थित"
+      },
+      {
+        "id": "B",
+        "text": "सजीव"
+      },
+      {
+        "id": "C",
+        "text": "उत्तर"
+      },
+      {
+        "id": "D",
+        "text": "तृप्ति"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“उपस्थित” का विलोम “अनुपस्थित” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-052",
+    "question": "“एक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुरातन"
+      },
+      {
+        "id": "B",
+        "text": "पुण्य"
+      },
+      {
+        "id": "C",
+        "text": "न्यून"
+      },
+      {
+        "id": "D",
+        "text": "अनेक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“एक” का विलोम “अनेक” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-053",
+    "question": "“एकता” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अन्याय"
+      },
+      {
+        "id": "B",
+        "text": "सुसंस्कृत"
+      },
+      {
+        "id": "C",
+        "text": "अनेकता"
+      },
+      {
+        "id": "D",
+        "text": "पारलौकिक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“एकता” का विलोम “अनेकता” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-054",
+    "question": "“ऐश्वर्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सायं"
+      },
+      {
+        "id": "B",
+        "text": "दरिद्रता"
+      },
+      {
+        "id": "C",
+        "text": "दुर्गुण"
+      },
+      {
+        "id": "D",
+        "text": "विरति"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“ऐश्वर्य” का विलोम “दरिद्रता” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-055",
+    "question": "“औचित्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनौचित्य"
+      },
+      {
+        "id": "B",
+        "text": "श्याम"
+      },
+      {
+        "id": "C",
+        "text": "विपन्न"
+      },
+      {
+        "id": "D",
+        "text": "शत्रु"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“औचित्य” का विलोम “अनौचित्य” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-056",
+    "question": "“औदार्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अविश्वास"
+      },
+      {
+        "id": "B",
+        "text": "कुविचार"
+      },
+      {
+        "id": "C",
+        "text": "दुष्कर्म"
+      },
+      {
+        "id": "D",
+        "text": "कृपणता"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“औदार्य” का विलोम “कृपणता” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-057",
+    "question": "“कठोर” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "तिरस्कार"
+      },
+      {
+        "id": "B",
+        "text": "असाध्य"
+      },
+      {
+        "id": "C",
+        "text": "कोमल"
+      },
+      {
+        "id": "D",
+        "text": "प्रतिकूल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“कठोर” का विलोम “कोमल” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-058",
+    "question": "“कड़वा” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "कठिन"
+      },
+      {
+        "id": "B",
+        "text": "मीठा"
+      },
+      {
+        "id": "C",
+        "text": "विष"
+      },
+      {
+        "id": "D",
+        "text": "जावक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“कड़वा” का विलोम “मीठा” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-059",
+    "question": "“कायर” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "वीर"
+      },
+      {
+        "id": "B",
+        "text": "यश"
+      },
+      {
+        "id": "C",
+        "text": "अंत"
+      },
+      {
+        "id": "D",
+        "text": "विदेश"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“कायर” का विलोम “वीर” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-060",
+    "question": "“कृत्रिम” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "वैकल्पिक"
+      },
+      {
+        "id": "B",
+        "text": "नास्तिक"
+      },
+      {
+        "id": "C",
+        "text": "नीच"
+      },
+      {
+        "id": "D",
+        "text": "प्राकृतिक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“कृत्रिम” का विलोम “प्राकृतिक” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-061",
+    "question": "“कृश” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "स्थिर"
+      },
+      {
+        "id": "B",
+        "text": "निराश्रित"
+      },
+      {
+        "id": "C",
+        "text": "स्थूल"
+      },
+      {
+        "id": "D",
+        "text": "कृपणता"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“कृश” का विलोम “स्थूल” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-062",
+    "question": "“कृतज्ञ” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विकर्षण"
+      },
+      {
+        "id": "B",
+        "text": "कृतघ्न"
+      },
+      {
+        "id": "C",
+        "text": "मंडन"
+      },
+      {
+        "id": "D",
+        "text": "अनेक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“कृतज्ञ” का विलोम “कृतघ्न” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-063",
+    "question": "“क्रम” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अक्रम"
+      },
+      {
+        "id": "B",
+        "text": "दयालु"
+      },
+      {
+        "id": "C",
+        "text": "निद्रा"
+      },
+      {
+        "id": "D",
+        "text": "निमीलन"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“क्रम” का विलोम “अक्रम” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-064",
+    "question": "“क्रय” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "स्थूल"
+      },
+      {
+        "id": "B",
+        "text": "उतार"
+      },
+      {
+        "id": "C",
+        "text": "गुण"
+      },
+      {
+        "id": "D",
+        "text": "विक्रय"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“क्रय” का विलोम “विक्रय” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-065",
+    "question": "“क्रूर” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "लघु"
+      },
+      {
+        "id": "B",
+        "text": "सज्जन"
+      },
+      {
+        "id": "C",
+        "text": "दयालु"
+      },
+      {
+        "id": "D",
+        "text": "पक्षपाती"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“क्रूर” का विलोम “दयालु” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-066",
+    "question": "“क्षमा” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "ग्रहण"
+      },
+      {
+        "id": "B",
+        "text": "दंड"
+      },
+      {
+        "id": "C",
+        "text": "खिन्न"
+      },
+      {
+        "id": "D",
+        "text": "मलिन"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“क्षमा” का विलोम “दंड” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-067",
+    "question": "“क्षणिक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "शाश्वत"
+      },
+      {
+        "id": "B",
+        "text": "पश्चिम"
+      },
+      {
+        "id": "C",
+        "text": "हल्का"
+      },
+      {
+        "id": "D",
+        "text": "महत्त्वपूर्ण"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“क्षणिक” का विलोम “शाश्वत” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-068",
+    "question": "“खरा” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अन्यायी"
+      },
+      {
+        "id": "B",
+        "text": "अंतर्मुख"
+      },
+      {
+        "id": "C",
+        "text": "सरल"
+      },
+      {
+        "id": "D",
+        "text": "खोटा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“खरा” का विलोम “खोटा” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-069",
+    "question": "“खंडन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "समापन"
+      },
+      {
+        "id": "B",
+        "text": "अरुचि"
+      },
+      {
+        "id": "C",
+        "text": "मंडन"
+      },
+      {
+        "id": "D",
+        "text": "दुर्भाव"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“खंडन” का विलोम “मंडन” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-070",
+    "question": "“खाली” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "लिखित"
+      },
+      {
+        "id": "B",
+        "text": "भरा"
+      },
+      {
+        "id": "C",
+        "text": "असम्मान"
+      },
+      {
+        "id": "D",
+        "text": "विस्तृत"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“खाली” का विलोम “भरा” है।",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-071",
+    "question": "“खुशी” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "गम"
+      },
+      {
+        "id": "B",
+        "text": "विषम"
+      },
+      {
+        "id": "C",
+        "text": "दुर्योग"
+      },
+      {
+        "id": "D",
+        "text": "सूक्ष्म"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“खुशी” का विलोम “गम” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-072",
+    "question": "“गद्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निर्दय"
+      },
+      {
+        "id": "B",
+        "text": "विशेष"
+      },
+      {
+        "id": "C",
+        "text": "सनाथ"
+      },
+      {
+        "id": "D",
+        "text": "पद्य"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“गद्य” का विलोम “पद्य” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-073",
+    "question": "“गुप्त” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "दुर्बल"
+      },
+      {
+        "id": "B",
+        "text": "प्रकाश"
+      },
+      {
+        "id": "C",
+        "text": "प्रकट"
+      },
+      {
+        "id": "D",
+        "text": "अधिक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“गुप्त” का विलोम “प्रकट” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-074",
+    "question": "“गुरु” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विदाई"
+      },
+      {
+        "id": "B",
+        "text": "लघु"
+      },
+      {
+        "id": "C",
+        "text": "प्राचीन"
+      },
+      {
+        "id": "D",
+        "text": "मितव्यय"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“गुरु” का विलोम “लघु” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-075",
+    "question": "“ग्राह्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अग्राह्य"
+      },
+      {
+        "id": "B",
+        "text": "व्यय"
+      },
+      {
+        "id": "C",
+        "text": "अवनति"
+      },
+      {
+        "id": "D",
+        "text": "विराग"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“ग्राह्य” का विलोम “अग्राह्य” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-076",
+    "question": "“घना” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सहाय"
+      },
+      {
+        "id": "B",
+        "text": "विषाद"
+      },
+      {
+        "id": "C",
+        "text": "कोमल"
+      },
+      {
+        "id": "D",
+        "text": "विरल"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“घना” का विलोम “विरल” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-077",
+    "question": "“घृणा” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रस्थान"
+      },
+      {
+        "id": "B",
+        "text": "अनेकता"
+      },
+      {
+        "id": "C",
+        "text": "प्रेम"
+      },
+      {
+        "id": "D",
+        "text": "भरा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“घृणा” का विलोम “प्रेम” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-078",
+    "question": "“चंचल” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विमुख"
+      },
+      {
+        "id": "B",
+        "text": "स्थिर"
+      },
+      {
+        "id": "C",
+        "text": "मरण"
+      },
+      {
+        "id": "D",
+        "text": "दंड"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“चंचल” का विलोम “स्थिर” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-079",
+    "question": "“चढ़ाव” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "उतार"
+      },
+      {
+        "id": "B",
+        "text": "अचल"
+      },
+      {
+        "id": "C",
+        "text": "मंद"
+      },
+      {
+        "id": "D",
+        "text": "कृतघ्न"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“चढ़ाव” का विलोम “उतार” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-080",
+    "question": "“चल” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अग्राह्य"
+      },
+      {
+        "id": "B",
+        "text": "सुगम"
+      },
+      {
+        "id": "C",
+        "text": "सक्रिय"
+      },
+      {
+        "id": "D",
+        "text": "अचल"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“चल” का विलोम “अचल” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-081",
+    "question": "“चेतन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "रात"
+      },
+      {
+        "id": "B",
+        "text": "आयात"
+      },
+      {
+        "id": "C",
+        "text": "जड़"
+      },
+      {
+        "id": "D",
+        "text": "निंदा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“चेतन” का विलोम “जड़” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-082",
+    "question": "“जय” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "स्तुति"
+      },
+      {
+        "id": "B",
+        "text": "पराजय"
+      },
+      {
+        "id": "C",
+        "text": "भविष्य"
+      },
+      {
+        "id": "D",
+        "text": "परोक्ष"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“जय” का विलोम “पराजय” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-083",
+    "question": "“जागरण” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निद्रा"
+      },
+      {
+        "id": "B",
+        "text": "अल्पमत"
+      },
+      {
+        "id": "C",
+        "text": "अभिशाप"
+      },
+      {
+        "id": "D",
+        "text": "विपक्ष"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“जागरण” का विलोम “निद्रा” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-084",
+    "question": "“जीवन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अप्रिय"
+      },
+      {
+        "id": "B",
+        "text": "हानि"
+      },
+      {
+        "id": "C",
+        "text": "विधवा"
+      },
+      {
+        "id": "D",
+        "text": "मरण"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“जीवन” का विलोम “मरण” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-085",
+    "question": "“ज्येष्ठ” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "भक्षक"
+      },
+      {
+        "id": "B",
+        "text": "विसंगति"
+      },
+      {
+        "id": "C",
+        "text": "कनिष्ठ"
+      },
+      {
+        "id": "D",
+        "text": "दूर"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“ज्येष्ठ” का विलोम “कनिष्ठ” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-086",
+    "question": "“ठोस” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "जागरण"
+      },
+      {
+        "id": "B",
+        "text": "तरल"
+      },
+      {
+        "id": "C",
+        "text": "अयोग्य"
+      },
+      {
+        "id": "D",
+        "text": "असमान"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“ठोस” का विलोम “तरल” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-087",
+    "question": "“तृष्णा” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "तृप्ति"
+      },
+      {
+        "id": "B",
+        "text": "निरर्थक"
+      },
+      {
+        "id": "C",
+        "text": "आवश्यक"
+      },
+      {
+        "id": "D",
+        "text": "दुर्भाग्य"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“तृष्णा” का विलोम “तृप्ति” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-088",
+    "question": "“त्याग” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निराकार"
+      },
+      {
+        "id": "B",
+        "text": "धर्म"
+      },
+      {
+        "id": "C",
+        "text": "शुद्ध"
+      },
+      {
+        "id": "D",
+        "text": "ग्रहण"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“त्याग” का विलोम “ग्रहण” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-089",
+    "question": "“दिन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "परमार्थ"
+      },
+      {
+        "id": "B",
+        "text": "पूर्ण"
+      },
+      {
+        "id": "C",
+        "text": "रात"
+      },
+      {
+        "id": "D",
+        "text": "शुष्क"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“दिन” का विलोम “रात” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-090",
+    "question": "“आध्यात्मिक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "उपकार"
+      },
+      {
+        "id": "B",
+        "text": "भौतिक"
+      },
+      {
+        "id": "C",
+        "text": "कृपण"
+      },
+      {
+        "id": "D",
+        "text": "प्रदान"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“आध्यात्मिक” का विलोम “भौतिक” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-091",
+    "question": "“दुर्लभ” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सुलभ"
+      },
+      {
+        "id": "B",
+        "text": "परलोक"
+      },
+      {
+        "id": "C",
+        "text": "मीठा"
+      },
+      {
+        "id": "D",
+        "text": "नकली"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“दुर्लभ” का विलोम “सुलभ” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-092",
+    "question": "“दुर्जन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निर्यात"
+      },
+      {
+        "id": "B",
+        "text": "दरिद्रता"
+      },
+      {
+        "id": "C",
+        "text": "गम"
+      },
+      {
+        "id": "D",
+        "text": "सज्जन"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“दुर्जन” का विलोम “सज्जन” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-093",
+    "question": "“दुर्गम” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुपयुक्त"
+      },
+      {
+        "id": "B",
+        "text": "शाश्वत"
+      },
+      {
+        "id": "C",
+        "text": "सुगम"
+      },
+      {
+        "id": "D",
+        "text": "कनिष्ठ"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“दुर्गम” का विलोम “सुगम” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-094",
+    "question": "“दुर्गंध” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अक्रम"
+      },
+      {
+        "id": "B",
+        "text": "सुगंध"
+      },
+      {
+        "id": "C",
+        "text": "निर्धन"
+      },
+      {
+        "id": "D",
+        "text": "जड़"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“दुर्गंध” का विलोम “सुगंध” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-095",
+    "question": "“दुष्कर” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सुकर"
+      },
+      {
+        "id": "B",
+        "text": "सुगंध"
+      },
+      {
+        "id": "C",
+        "text": "सरस"
+      },
+      {
+        "id": "D",
+        "text": "विरल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“दुष्कर” का विलोम “सुकर” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-096",
+    "question": "“दोष” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "भौतिक"
+      },
+      {
+        "id": "B",
+        "text": "सकाम"
+      },
+      {
+        "id": "C",
+        "text": "निकास"
+      },
+      {
+        "id": "D",
+        "text": "गुण"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“दोष” का विलोम “गुण” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-097",
+    "question": "“द्रुत” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "भयभीत"
+      },
+      {
+        "id": "B",
+        "text": "अल्प"
+      },
+      {
+        "id": "C",
+        "text": "मंद"
+      },
+      {
+        "id": "D",
+        "text": "वाचाल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“द्रुत” का विलोम “मंद” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-098",
+    "question": "“धनी” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अपवित्र"
+      },
+      {
+        "id": "B",
+        "text": "निर्धन"
+      },
+      {
+        "id": "C",
+        "text": "विनाश"
+      },
+      {
+        "id": "D",
+        "text": "नाबालिग"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“धनी” का विलोम “निर्धन” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-099",
+    "question": "“धैर्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अधैर्य"
+      },
+      {
+        "id": "B",
+        "text": "हानिकारक"
+      },
+      {
+        "id": "C",
+        "text": "असमर्थ"
+      },
+      {
+        "id": "D",
+        "text": "मुक्ति"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“धैर्य” का विलोम “अधैर्य” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-100",
+    "question": "“नूतन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विध्वंस"
+      },
+      {
+        "id": "B",
+        "text": "दुराचार"
+      },
+      {
+        "id": "C",
+        "text": "गर्म"
+      },
+      {
+        "id": "D",
+        "text": "पुरातन"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“नूतन” का विलोम “पुरातन” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-101",
+    "question": "“नगण्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "हर्ष"
+      },
+      {
+        "id": "B",
+        "text": "व्यष्टि"
+      },
+      {
+        "id": "C",
+        "text": "महत्त्वपूर्ण"
+      },
+      {
+        "id": "D",
+        "text": "प्रलय"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“नगण्य” का विलोम “महत्त्वपूर्ण” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-102",
+    "question": "“नश्वर” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "दुरुपयोग"
+      },
+      {
+        "id": "B",
+        "text": "शाश्वत"
+      },
+      {
+        "id": "C",
+        "text": "इच्छा"
+      },
+      {
+        "id": "D",
+        "text": "असावधान"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“नश्वर” का विलोम “शाश्वत” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-103",
+    "question": "“निंदा” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "स्तुति"
+      },
+      {
+        "id": "B",
+        "text": "स्वाधीन"
+      },
+      {
+        "id": "C",
+        "text": "सफल"
+      },
+      {
+        "id": "D",
+        "text": "असाधु"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“निंदा” का विलोम “स्तुति” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-104",
+    "question": "“निर्भीक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पराधीन"
+      },
+      {
+        "id": "B",
+        "text": "मर्त्य"
+      },
+      {
+        "id": "C",
+        "text": "अवरोह"
+      },
+      {
+        "id": "D",
+        "text": "भयभीत"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“निर्भीक” का विलोम “भयभीत” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-105",
+    "question": "“निर्जीव” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सम्मान"
+      },
+      {
+        "id": "B",
+        "text": "अनादर"
+      },
+      {
+        "id": "C",
+        "text": "सजीव"
+      },
+      {
+        "id": "D",
+        "text": "शीत"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“निर्जीव” का विलोम “सजीव” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-106",
+    "question": "“निर्मल” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "उदय"
+      },
+      {
+        "id": "B",
+        "text": "मलिन"
+      },
+      {
+        "id": "C",
+        "text": "वीर"
+      },
+      {
+        "id": "D",
+        "text": "सौम्य"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“निर्मल” का विलोम “मलिन” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-107",
+    "question": "“निर्यात” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "आयात"
+      },
+      {
+        "id": "B",
+        "text": "अनौचित्य"
+      },
+      {
+        "id": "C",
+        "text": "पद्य"
+      },
+      {
+        "id": "D",
+        "text": "निराशा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“निर्यात” का विलोम “आयात” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-108",
+    "question": "“निष्काम” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुपस्थित"
+      },
+      {
+        "id": "B",
+        "text": "खोटा"
+      },
+      {
+        "id": "C",
+        "text": "तरल"
+      },
+      {
+        "id": "D",
+        "text": "सकाम"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“निष्काम” का विलोम “सकाम” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-109",
+    "question": "“निषेध” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विक्रय"
+      },
+      {
+        "id": "B",
+        "text": "पराजय"
+      },
+      {
+        "id": "C",
+        "text": "विधि"
+      },
+      {
+        "id": "D",
+        "text": "अधैर्य"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“निषेध” का विलोम “विधि” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-110",
+    "question": "“निष्पक्ष” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रेम"
+      },
+      {
+        "id": "B",
+        "text": "पक्षपाती"
+      },
+      {
+        "id": "C",
+        "text": "बदी"
+      },
+      {
+        "id": "D",
+        "text": "सुकर"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“निष्पक्ष” का विलोम “पक्षपाती” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-111",
+    "question": "“निष्क्रिय” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सक्रिय"
+      },
+      {
+        "id": "B",
+        "text": "विधि"
+      },
+      {
+        "id": "C",
+        "text": "निवृत्ति"
+      },
+      {
+        "id": "D",
+        "text": "सुलभ"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“निष्क्रिय” का विलोम “सक्रिय” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-112",
+    "question": "“निष्फल” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सजीव"
+      },
+      {
+        "id": "B",
+        "text": "उत्तर"
+      },
+      {
+        "id": "C",
+        "text": "अपव्ययी"
+      },
+      {
+        "id": "D",
+        "text": "सफल"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“निष्फल” का विलोम “सफल” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-113",
+    "question": "“नीरस” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुण्य"
+      },
+      {
+        "id": "B",
+        "text": "न्यून"
+      },
+      {
+        "id": "C",
+        "text": "सरस"
+      },
+      {
+        "id": "D",
+        "text": "संक्षेप"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“नीरस” का विलोम “सरस” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-114",
+    "question": "“नेकी” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सुसंस्कृत"
+      },
+      {
+        "id": "B",
+        "text": "बदी"
+      },
+      {
+        "id": "C",
+        "text": "अकारण"
+      },
+      {
+        "id": "D",
+        "text": "पारलौकिक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“नेकी” का विलोम “बदी” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-115",
+    "question": "“न्याय” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अन्याय"
+      },
+      {
+        "id": "B",
+        "text": "दुर्गुण"
+      },
+      {
+        "id": "C",
+        "text": "महँगा"
+      },
+      {
+        "id": "D",
+        "text": "विरति"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“न्याय” का विलोम “अन्याय” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-116",
+    "question": "“न्यायी” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "श्याम"
+      },
+      {
+        "id": "B",
+        "text": "विपन्न"
+      },
+      {
+        "id": "C",
+        "text": "परतंत्र"
+      },
+      {
+        "id": "D",
+        "text": "अन्यायी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“न्यायी” का विलोम “अन्यायी” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-117",
+    "question": "“पक्ष” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "कुविचार"
+      },
+      {
+        "id": "B",
+        "text": "दुष्कर्म"
+      },
+      {
+        "id": "C",
+        "text": "विपक्ष"
+      },
+      {
+        "id": "D",
+        "text": "इष्ट"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“पक्ष” का विलोम “विपक्ष” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-118",
+    "question": "“पवित्र” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "असाध्य"
+      },
+      {
+        "id": "B",
+        "text": "अपवित्र"
+      },
+      {
+        "id": "C",
+        "text": "सत्य"
+      },
+      {
+        "id": "D",
+        "text": "प्रतिकूल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“पवित्र” का विलोम “अपवित्र” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-119",
+    "question": "“पाप” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुण्य"
+      },
+      {
+        "id": "B",
+        "text": "विष"
+      },
+      {
+        "id": "C",
+        "text": "निर्गत"
+      },
+      {
+        "id": "D",
+        "text": "जावक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“पाप” का विलोम “पुण्य” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-120",
+    "question": "“पूर्व” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "यश"
+      },
+      {
+        "id": "B",
+        "text": "अंत"
+      },
+      {
+        "id": "C",
+        "text": "बंजर"
+      },
+      {
+        "id": "D",
+        "text": "पश्चिम"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“पूर्व” का विलोम “पश्चिम” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-121",
+    "question": "“प्रत्यक्ष” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "नास्तिक"
+      },
+      {
+        "id": "B",
+        "text": "नीच"
+      },
+      {
+        "id": "C",
+        "text": "परोक्ष"
+      },
+      {
+        "id": "D",
+        "text": "प्राकृतिक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“प्रत्यक्ष” का विलोम “परोक्ष” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-122",
+    "question": "“प्रचुर” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निराश्रित"
+      },
+      {
+        "id": "B",
+        "text": "अल्प"
+      },
+      {
+        "id": "C",
+        "text": "प्रकट"
+      },
+      {
+        "id": "D",
+        "text": "कृपणता"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“प्रचुर” का विलोम “अल्प” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-123",
+    "question": "“प्रश्न” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "उत्तर"
+      },
+      {
+        "id": "B",
+        "text": "मंडन"
+      },
+      {
+        "id": "C",
+        "text": "तृप्ति"
+      },
+      {
+        "id": "D",
+        "text": "अनेक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“प्रश्न” का विलोम “उत्तर” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-124",
+    "question": "“प्रसन्न” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "दयालु"
+      },
+      {
+        "id": "B",
+        "text": "निद्रा"
+      },
+      {
+        "id": "C",
+        "text": "पुरातन"
+      },
+      {
+        "id": "D",
+        "text": "खिन्न"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“प्रसन्न” का विलोम “खिन्न” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-125",
+    "question": "“प्रशंसा” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "उतार"
+      },
+      {
+        "id": "B",
+        "text": "गुण"
+      },
+      {
+        "id": "C",
+        "text": "निंदा"
+      },
+      {
+        "id": "D",
+        "text": "अन्याय"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“प्रशंसा” का विलोम “निंदा” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-126",
+    "question": "“प्रवेश” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सज्जन"
+      },
+      {
+        "id": "B",
+        "text": "निकास"
+      },
+      {
+        "id": "C",
+        "text": "सायं"
+      },
+      {
+        "id": "D",
+        "text": "पक्षपाती"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“प्रवेश” का विलोम “निकास” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-127",
+    "question": "“प्रवृत्ति” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निवृत्ति"
+      },
+      {
+        "id": "B",
+        "text": "खिन्न"
+      },
+      {
+        "id": "C",
+        "text": "शत्रु"
+      },
+      {
+        "id": "D",
+        "text": "मलिन"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“प्रवृत्ति” का विलोम “निवृत्ति” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-128",
+    "question": "“प्रातः” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पश्चिम"
+      },
+      {
+        "id": "B",
+        "text": "हल्का"
+      },
+      {
+        "id": "C",
+        "text": "अविश्वास"
+      },
+      {
+        "id": "D",
+        "text": "सायं"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“प्रातः” का विलोम “सायं” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-129",
+    "question": "“प्रारंभ” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अंतर्मुख"
+      },
+      {
+        "id": "B",
+        "text": "सरल"
+      },
+      {
+        "id": "C",
+        "text": "समापन"
+      },
+      {
+        "id": "D",
+        "text": "तिरस्कार"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“प्रारंभ” का विलोम “समापन” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-130",
+    "question": "“प्रिय” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अरुचि"
+      },
+      {
+        "id": "B",
+        "text": "अप्रिय"
+      },
+      {
+        "id": "C",
+        "text": "कठिन"
+      },
+      {
+        "id": "D",
+        "text": "दुर्भाव"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“प्रिय” का विलोम “अप्रिय” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-131",
+    "question": "“बंधन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "मुक्ति"
+      },
+      {
+        "id": "B",
+        "text": "असम्मान"
+      },
+      {
+        "id": "C",
+        "text": "विदेश"
+      },
+      {
+        "id": "D",
+        "text": "विस्तृत"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“बंधन” का विलोम “मुक्ति” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-132",
+    "question": "“बर्बर” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विषम"
+      },
+      {
+        "id": "B",
+        "text": "दुर्योग"
+      },
+      {
+        "id": "C",
+        "text": "वैकल्पिक"
+      },
+      {
+        "id": "D",
+        "text": "सुसंस्कृत"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“बर्बर” का विलोम “सुसंस्कृत” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-133",
+    "question": "“बहिर्मुख” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विशेष"
+      },
+      {
+        "id": "B",
+        "text": "सनाथ"
+      },
+      {
+        "id": "C",
+        "text": "अंतर्मुख"
+      },
+      {
+        "id": "D",
+        "text": "स्थिर"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“बहिर्मुख” का विलोम “अंतर्मुख” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-134",
+    "question": "“बहुमत” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रकाश"
+      },
+      {
+        "id": "B",
+        "text": "अल्पमत"
+      },
+      {
+        "id": "C",
+        "text": "विकर्षण"
+      },
+      {
+        "id": "D",
+        "text": "अधिक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“बहुमत” का विलोम “अल्पमत” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-135",
+    "question": "“बालिग” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "नाबालिग"
+      },
+      {
+        "id": "B",
+        "text": "प्राचीन"
+      },
+      {
+        "id": "C",
+        "text": "निमीलन"
+      },
+      {
+        "id": "D",
+        "text": "मितव्यय"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“बालिग” का विलोम “नाबालिग” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-136",
+    "question": "“बहुल” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यय"
+      },
+      {
+        "id": "B",
+        "text": "अवनति"
+      },
+      {
+        "id": "C",
+        "text": "स्थूल"
+      },
+      {
+        "id": "D",
+        "text": "न्यून"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“बहुल” का विलोम “न्यून” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-137",
+    "question": "“भारी” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विषाद"
+      },
+      {
+        "id": "B",
+        "text": "कोमल"
+      },
+      {
+        "id": "C",
+        "text": "हल्का"
+      },
+      {
+        "id": "D",
+        "text": "लघु"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“भारी” का विलोम “हल्का” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-138",
+    "question": "“भूत” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनेकता"
+      },
+      {
+        "id": "B",
+        "text": "भविष्य"
+      },
+      {
+        "id": "C",
+        "text": "ग्रहण"
+      },
+      {
+        "id": "D",
+        "text": "भरा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“भूत” का विलोम “भविष्य” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-139",
+    "question": "“मूक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "वाचाल"
+      },
+      {
+        "id": "B",
+        "text": "मरण"
+      },
+      {
+        "id": "C",
+        "text": "महत्त्वपूर्ण"
+      },
+      {
+        "id": "D",
+        "text": "दंड"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“मूक” का विलोम “वाचाल” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-140",
+    "question": "“मितव्ययी” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अचल"
+      },
+      {
+        "id": "B",
+        "text": "मंद"
+      },
+      {
+        "id": "C",
+        "text": "अन्यायी"
+      },
+      {
+        "id": "D",
+        "text": "अपव्ययी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“मितव्ययी” का विलोम “अपव्ययी” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-141",
+    "question": "“मित्र” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सुगम"
+      },
+      {
+        "id": "B",
+        "text": "सक्रिय"
+      },
+      {
+        "id": "C",
+        "text": "शत्रु"
+      },
+      {
+        "id": "D",
+        "text": "समापन"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“मित्र” का विलोम “शत्रु” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-142",
+    "question": "“मौखिक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "आयात"
+      },
+      {
+        "id": "B",
+        "text": "लिखित"
+      },
+      {
+        "id": "C",
+        "text": "विस्तृत"
+      },
+      {
+        "id": "D",
+        "text": "निंदा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“मौखिक” का विलोम “लिखित” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-143",
+    "question": "“रक्षक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "भक्षक"
+      },
+      {
+        "id": "B",
+        "text": "भविष्य"
+      },
+      {
+        "id": "C",
+        "text": "सूक्ष्म"
+      },
+      {
+        "id": "D",
+        "text": "परोक्ष"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“रक्षक” का विलोम “भक्षक” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-144",
+    "question": "“रचना” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अल्पमत"
+      },
+      {
+        "id": "B",
+        "text": "अभिशाप"
+      },
+      {
+        "id": "C",
+        "text": "निर्दय"
+      },
+      {
+        "id": "D",
+        "text": "विध्वंस"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“रचना” का विलोम “विध्वंस” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-145",
+    "question": "“रति” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "हानि"
+      },
+      {
+        "id": "B",
+        "text": "विधवा"
+      },
+      {
+        "id": "C",
+        "text": "विरति"
+      },
+      {
+        "id": "D",
+        "text": "दुर्बल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“रति” का विलोम “विरति” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-146",
+    "question": "“रिक्त” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विसंगति"
+      },
+      {
+        "id": "B",
+        "text": "पूर्ण"
+      },
+      {
+        "id": "C",
+        "text": "विदाई"
+      },
+      {
+        "id": "D",
+        "text": "दूर"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“रिक्त” का विलोम “पूर्ण” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-147",
+    "question": "“रुचि” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अरुचि"
+      },
+      {
+        "id": "B",
+        "text": "अयोग्य"
+      },
+      {
+        "id": "C",
+        "text": "विराग"
+      },
+      {
+        "id": "D",
+        "text": "असमान"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“रुचि” का विलोम “अरुचि” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-148",
+    "question": "“लाभ” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निरर्थक"
+      },
+      {
+        "id": "B",
+        "text": "आवश्यक"
+      },
+      {
+        "id": "C",
+        "text": "सहाय"
+      },
+      {
+        "id": "D",
+        "text": "हानि"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“लाभ” का विलोम “हानि” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-149",
+    "question": "“लाभकारी” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "धर्म"
+      },
+      {
+        "id": "B",
+        "text": "शुद्ध"
+      },
+      {
+        "id": "C",
+        "text": "हानिकारक"
+      },
+      {
+        "id": "D",
+        "text": "प्रस्थान"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“लाभकारी” का विलोम “हानिकारक” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-150",
+    "question": "“लुप्त” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पूर्ण"
+      },
+      {
+        "id": "B",
+        "text": "प्रकट"
+      },
+      {
+        "id": "C",
+        "text": "विमुख"
+      },
+      {
+        "id": "D",
+        "text": "शुष्क"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“लुप्त” का विलोम “प्रकट” है।",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-151",
+    "question": "“लौकिक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पारलौकिक"
+      },
+      {
+        "id": "B",
+        "text": "कृपण"
+      },
+      {
+        "id": "C",
+        "text": "कृतघ्न"
+      },
+      {
+        "id": "D",
+        "text": "प्रदान"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“लौकिक” का विलोम “पारलौकिक” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-152",
+    "question": "“वक्र” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "परलोक"
+      },
+      {
+        "id": "B",
+        "text": "मीठा"
+      },
+      {
+        "id": "C",
+        "text": "अग्राह्य"
+      },
+      {
+        "id": "D",
+        "text": "सरल"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“वक्र” का विलोम “सरल” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-153",
+    "question": "“वरदान” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "दरिद्रता"
+      },
+      {
+        "id": "B",
+        "text": "गम"
+      },
+      {
+        "id": "C",
+        "text": "अभिशाप"
+      },
+      {
+        "id": "D",
+        "text": "रात"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“वरदान” का विलोम “अभिशाप” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-154",
+    "question": "“विकास” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "शाश्वत"
+      },
+      {
+        "id": "B",
+        "text": "विनाश"
+      },
+      {
+        "id": "C",
+        "text": "स्तुति"
+      },
+      {
+        "id": "D",
+        "text": "कनिष्ठ"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“विकास” का विलोम “विनाश” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-155",
+    "question": "“विस्तार” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "संक्षेप"
+      },
+      {
+        "id": "B",
+        "text": "निर्धन"
+      },
+      {
+        "id": "C",
+        "text": "विपक्ष"
+      },
+      {
+        "id": "D",
+        "text": "जड़"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“विस्तार” का विलोम “संक्षेप” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-156",
+    "question": "“विश्वास” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सुगंध"
+      },
+      {
+        "id": "B",
+        "text": "सरस"
+      },
+      {
+        "id": "C",
+        "text": "अप्रिय"
+      },
+      {
+        "id": "D",
+        "text": "अविश्वास"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“विश्वास” का विलोम “अविश्वास” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-157",
+    "question": "“विशाल” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सकाम"
+      },
+      {
+        "id": "B",
+        "text": "निकास"
+      },
+      {
+        "id": "C",
+        "text": "सूक्ष्म"
+      },
+      {
+        "id": "D",
+        "text": "भक्षक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“विशाल” का विलोम “सूक्ष्म” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-158",
+    "question": "“शयन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अल्प"
+      },
+      {
+        "id": "B",
+        "text": "जागरण"
+      },
+      {
+        "id": "C",
+        "text": "असमान"
+      },
+      {
+        "id": "D",
+        "text": "वाचाल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“शयन” का विलोम “जागरण” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-159",
+    "question": "“शोक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "हर्ष"
+      },
+      {
+        "id": "B",
+        "text": "विनाश"
+      },
+      {
+        "id": "C",
+        "text": "दुर्भाग्य"
+      },
+      {
+        "id": "D",
+        "text": "नाबालिग"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“शोक” का विलोम “हर्ष” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-160",
+    "question": "“श्वेत” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "हानिकारक"
+      },
+      {
+        "id": "B",
+        "text": "असमर्थ"
+      },
+      {
+        "id": "C",
+        "text": "निराकार"
+      },
+      {
+        "id": "D",
+        "text": "श्याम"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“श्वेत” का विलोम “श्याम” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-161",
+    "question": "“संकीर्ण” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "दुराचार"
+      },
+      {
+        "id": "B",
+        "text": "गर्म"
+      },
+      {
+        "id": "C",
+        "text": "विस्तृत"
+      },
+      {
+        "id": "D",
+        "text": "परमार्थ"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“संकीर्ण” का विलोम “विस्तृत” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-162",
+    "question": "“संगति” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यष्टि"
+      },
+      {
+        "id": "B",
+        "text": "विसंगति"
+      },
+      {
+        "id": "C",
+        "text": "उपकार"
+      },
+      {
+        "id": "D",
+        "text": "प्रलय"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“संगति” का विलोम “विसंगति” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-163",
+    "question": "“सदाचार” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "दुराचार"
+      },
+      {
+        "id": "B",
+        "text": "इच्छा"
+      },
+      {
+        "id": "C",
+        "text": "नकली"
+      },
+      {
+        "id": "D",
+        "text": "असावधान"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“सदाचार” का विलोम “दुराचार” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-164",
+    "question": "“सद्गुण” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "स्वाधीन"
+      },
+      {
+        "id": "B",
+        "text": "सफल"
+      },
+      {
+        "id": "C",
+        "text": "निर्यात"
+      },
+      {
+        "id": "D",
+        "text": "दुर्गुण"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“सद्गुण” का विलोम “दुर्गुण” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-165",
+    "question": "“सद्भाव” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "मर्त्य"
+      },
+      {
+        "id": "B",
+        "text": "अवरोह"
+      },
+      {
+        "id": "C",
+        "text": "दुर्भाव"
+      },
+      {
+        "id": "D",
+        "text": "अनुपयुक्त"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“सद्भाव” का विलोम “दुर्भाव” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-166",
+    "question": "“सधवा” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनादर"
+      },
+      {
+        "id": "B",
+        "text": "विधवा"
+      },
+      {
+        "id": "C",
+        "text": "अक्रम"
+      },
+      {
+        "id": "D",
+        "text": "शीत"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“सधवा” का विलोम “विधवा” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-167",
+    "question": "“समर्थ” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "असमर्थ"
+      },
+      {
+        "id": "B",
+        "text": "वीर"
+      },
+      {
+        "id": "C",
+        "text": "विरल"
+      },
+      {
+        "id": "D",
+        "text": "सौम्य"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“समर्थ” का विलोम “असमर्थ” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-168",
+    "question": "“सकारण” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनौचित्य"
+      },
+      {
+        "id": "B",
+        "text": "पद्य"
+      },
+      {
+        "id": "C",
+        "text": "भौतिक"
+      },
+      {
+        "id": "D",
+        "text": "अकारण"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“सकारण” का विलोम “अकारण” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-169",
+    "question": "“सचल” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "खोटा"
+      },
+      {
+        "id": "B",
+        "text": "तरल"
+      },
+      {
+        "id": "C",
+        "text": "अचल"
+      },
+      {
+        "id": "D",
+        "text": "भयभीत"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“सचल” का विलोम “अचल” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-170",
+    "question": "“सत्कार” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पराजय"
+      },
+      {
+        "id": "B",
+        "text": "तिरस्कार"
+      },
+      {
+        "id": "C",
+        "text": "अपवित्र"
+      },
+      {
+        "id": "D",
+        "text": "अधैर्य"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“सत्कार” का विलोम “तिरस्कार” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-171",
+    "question": "“सदय” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निर्दय"
+      },
+      {
+        "id": "B",
+        "text": "बदी"
+      },
+      {
+        "id": "C",
+        "text": "मुक्ति"
+      },
+      {
+        "id": "D",
+        "text": "सुकर"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“सदय” का विलोम “निर्दय” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-172",
+    "question": "“सद्भाग्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विधि"
+      },
+      {
+        "id": "B",
+        "text": "निवृत्ति"
+      },
+      {
+        "id": "C",
+        "text": "विध्वंस"
+      },
+      {
+        "id": "D",
+        "text": "दुर्भाग्य"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“सद्भाग्य” का विलोम “दुर्भाग्य” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-173",
+    "question": "“सदुपयोग” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "उत्तर"
+      },
+      {
+        "id": "B",
+        "text": "अपव्ययी"
+      },
+      {
+        "id": "C",
+        "text": "दुरुपयोग"
+      },
+      {
+        "id": "D",
+        "text": "हर्ष"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“सदुपयोग” का विलोम “दुरुपयोग” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-174",
+    "question": "“सद्विचार” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "न्यून"
+      },
+      {
+        "id": "B",
+        "text": "कुविचार"
+      },
+      {
+        "id": "C",
+        "text": "दुरुपयोग"
+      },
+      {
+        "id": "D",
+        "text": "संक्षेप"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“सद्विचार” का विलोम “कुविचार” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-175",
+    "question": "“सम” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विषम"
+      },
+      {
+        "id": "B",
+        "text": "अकारण"
+      },
+      {
+        "id": "C",
+        "text": "असाधु"
+      },
+      {
+        "id": "D",
+        "text": "पारलौकिक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“सम” का विलोम “विषम” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-176",
+    "question": "“समान” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "दुर्गुण"
+      },
+      {
+        "id": "B",
+        "text": "महँगा"
+      },
+      {
+        "id": "C",
+        "text": "पराधीन"
+      },
+      {
+        "id": "D",
+        "text": "असमान"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“समान” का विलोम “असमान” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-177",
+    "question": "“समष्टि” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विपन्न"
+      },
+      {
+        "id": "B",
+        "text": "परतंत्र"
+      },
+      {
+        "id": "C",
+        "text": "व्यष्टि"
+      },
+      {
+        "id": "D",
+        "text": "सम्मान"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“समष्टि” का विलोम “व्यष्टि” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-178",
+    "question": "“समृद्ध” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "दुष्कर्म"
+      },
+      {
+        "id": "B",
+        "text": "विपन्न"
+      },
+      {
+        "id": "C",
+        "text": "उदय"
+      },
+      {
+        "id": "D",
+        "text": "इष्ट"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“समृद्ध” का विलोम “विपन्न” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-179",
+    "question": "“सम्मान” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "असम्मान"
+      },
+      {
+        "id": "B",
+        "text": "सत्य"
+      },
+      {
+        "id": "C",
+        "text": "निराशा"
+      },
+      {
+        "id": "D",
+        "text": "प्रतिकूल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“सम्मान” का विलोम “असम्मान” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-180",
+    "question": "“समीप” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विष"
+      },
+      {
+        "id": "B",
+        "text": "निर्गत"
+      },
+      {
+        "id": "C",
+        "text": "अनुपस्थित"
+      },
+      {
+        "id": "D",
+        "text": "दूर"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“समीप” का विलोम “दूर” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-181",
+    "question": "“सर्द” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अंत"
+      },
+      {
+        "id": "B",
+        "text": "बंजर"
+      },
+      {
+        "id": "C",
+        "text": "गर्म"
+      },
+      {
+        "id": "D",
+        "text": "विक्रय"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“सर्द” का विलोम “गर्म” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-182",
+    "question": "“सस्ता” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "नीच"
+      },
+      {
+        "id": "B",
+        "text": "महँगा"
+      },
+      {
+        "id": "C",
+        "text": "प्रेम"
+      },
+      {
+        "id": "D",
+        "text": "प्राकृतिक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“सस्ता” का विलोम “महँगा” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-183",
+    "question": "“सरल” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "कठिन"
+      },
+      {
+        "id": "B",
+        "text": "प्रकट"
+      },
+      {
+        "id": "C",
+        "text": "सुलभ"
+      },
+      {
+        "id": "D",
+        "text": "कृपणता"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“सरल” का विलोम “कठिन” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-184",
+    "question": "“सशक्त” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "मंडन"
+      },
+      {
+        "id": "B",
+        "text": "तृप्ति"
+      },
+      {
+        "id": "C",
+        "text": "सजीव"
+      },
+      {
+        "id": "D",
+        "text": "दुर्बल"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“सशक्त” का विलोम “दुर्बल” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-185",
+    "question": "“साकार” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "निद्रा"
+      },
+      {
+        "id": "B",
+        "text": "पुरातन"
+      },
+      {
+        "id": "C",
+        "text": "निराकार"
+      },
+      {
+        "id": "D",
+        "text": "पुण्य"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“साकार” का विलोम “निराकार” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-186",
+    "question": "“साधु” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुण"
+      },
+      {
+        "id": "B",
+        "text": "असाधु"
+      },
+      {
+        "id": "C",
+        "text": "सुसंस्कृत"
+      },
+      {
+        "id": "D",
+        "text": "अन्याय"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“साधु” का विलोम “असाधु” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-187",
+    "question": "“साध्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "असाध्य"
+      },
+      {
+        "id": "B",
+        "text": "सायं"
+      },
+      {
+        "id": "C",
+        "text": "विरति"
+      },
+      {
+        "id": "D",
+        "text": "पक्षपाती"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“साध्य” का विलोम “असाध्य” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-188",
+    "question": "“सामान्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "खिन्न"
+      },
+      {
+        "id": "B",
+        "text": "शत्रु"
+      },
+      {
+        "id": "C",
+        "text": "श्याम"
+      },
+      {
+        "id": "D",
+        "text": "विशेष"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“सामान्य” का विलोम “विशेष” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-189",
+    "question": "“सार्थक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "हल्का"
+      },
+      {
+        "id": "B",
+        "text": "अविश्वास"
+      },
+      {
+        "id": "C",
+        "text": "निरर्थक"
+      },
+      {
+        "id": "D",
+        "text": "कुविचार"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“सार्थक” का विलोम “निरर्थक” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-190",
+    "question": "“सावधान” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सरल"
+      },
+      {
+        "id": "B",
+        "text": "असावधान"
+      },
+      {
+        "id": "C",
+        "text": "असाध्य"
+      },
+      {
+        "id": "D",
+        "text": "तिरस्कार"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“सावधान” का विलोम “असावधान” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-191",
+    "question": "“सुकर्म” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "दुष्कर्म"
+      },
+      {
+        "id": "B",
+        "text": "कठिन"
+      },
+      {
+        "id": "C",
+        "text": "जावक"
+      },
+      {
+        "id": "D",
+        "text": "दुर्भाव"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“सुकर्म” का विलोम “दुष्कर्म” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-192",
+    "question": "“सुयोग” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "असम्मान"
+      },
+      {
+        "id": "B",
+        "text": "विदेश"
+      },
+      {
+        "id": "C",
+        "text": "यश"
+      },
+      {
+        "id": "D",
+        "text": "दुर्योग"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“सुयोग” का विलोम “दुर्योग” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-193",
+    "question": "“सुयोग्य” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "दुर्योग"
+      },
+      {
+        "id": "B",
+        "text": "वैकल्पिक"
+      },
+      {
+        "id": "C",
+        "text": "अयोग्य"
+      },
+      {
+        "id": "D",
+        "text": "नास्तिक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“सुयोग्य” का विलोम “अयोग्य” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-194",
+    "question": "“सृष्टि” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "सनाथ"
+      },
+      {
+        "id": "B",
+        "text": "प्रलय"
+      },
+      {
+        "id": "C",
+        "text": "निराश्रित"
+      },
+      {
+        "id": "D",
+        "text": "स्थिर"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“सृष्टि” का विलोम “प्रलय” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-195",
+    "question": "“स्वतंत्र” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "परतंत्र"
+      },
+      {
+        "id": "B",
+        "text": "विकर्षण"
+      },
+      {
+        "id": "C",
+        "text": "अनेक"
+      },
+      {
+        "id": "D",
+        "text": "अधिक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“स्वतंत्र” का विलोम “परतंत्र” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-196",
+    "question": "“स्वदेश” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्राचीन"
+      },
+      {
+        "id": "B",
+        "text": "निमीलन"
+      },
+      {
+        "id": "C",
+        "text": "दयालु"
+      },
+      {
+        "id": "D",
+        "text": "विदेश"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“स्वदेश” का विलोम “विदेश” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-197",
+    "question": "“स्वागत” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "अवनति"
+      },
+      {
+        "id": "B",
+        "text": "स्थूल"
+      },
+      {
+        "id": "C",
+        "text": "विदाई"
+      },
+      {
+        "id": "D",
+        "text": "उतार"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "“स्वागत” का विलोम “विदाई” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-198",
+    "question": "“स्वार्थ” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "कोमल"
+      },
+      {
+        "id": "B",
+        "text": "परमार्थ"
+      },
+      {
+        "id": "C",
+        "text": "सज्जन"
+      },
+      {
+        "id": "D",
+        "text": "लघु"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "“स्वार्थ” का विलोम “परमार्थ” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-199",
+    "question": "“स्वाधीन” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पराधीन"
+      },
+      {
+        "id": "B",
+        "text": "ग्रहण"
+      },
+      {
+        "id": "C",
+        "text": "मलिन"
+      },
+      {
+        "id": "D",
+        "text": "भरा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "“स्वाधीन” का विलोम “पराधीन” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "hi-vilom-200",
+    "question": "“आवक” का विलोम शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "मरण"
+      },
+      {
+        "id": "B",
+        "text": "महत्त्वपूर्ण"
+      },
+      {
+        "id": "C",
+        "text": "पश्चिम"
+      },
+      {
+        "id": "D",
+        "text": "जावक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "“आवक” का विलोम “जावक” है।",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cn-tm-u-001",
+    "question": "Which wireless transmission uses line-of-sight propagation and is used for long-distance links?",
+    "options": [
+      { "id": "A", "text": "Radio waves" },
+      { "id": "B", "text": "Microwave" },
+      { "id": "C", "text": "Infrared" },
+      { "id": "D", "text": "Bluetooth" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Terrestrial Microwave line-of-sight propagation use करता है और long-distance point-to-point links (जैसे telephone networks) के लिए use होता है। Relay towers हर 40-50 km पर लगाने पड़ते हैं।",
+    "difficulty": "easy",
+    "source": "BPSC TRE 2023"
+  },
+  {
+    "id": "cn-tm-u-002",
+    "question": "Bluetooth technology operates in which frequency band?",
+    "options": [
+      { "id": "A", "text": "5 GHz" },
+      { "id": "B", "text": "900 MHz" },
+      { "id": "C", "text": "2.4 GHz ISM band" },
+      { "id": "D", "text": "60 GHz" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Bluetooth 2.4 GHz ISM (Industrial, Scientific, Medical) band में operate करता है और FHSS (Frequency Hopping Spread Spectrum) technique use करता है।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cn-tm-u-003",
+    "question": "Which unguided medium cannot pass through walls and requires direct line of sight even for short distances?",
+    "options": [
+      { "id": "A", "text": "Radio waves" },
+      { "id": "B", "text": "Microwave" },
+      { "id": "C", "text": "Infrared" },
+      { "id": "D", "text": "Satellite" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Infrared waves walls को penetrate नहीं कर सकती। इसीलिए TV remote, IrDA devices सिर्फ same room में काम करते हैं और direct line-of-sight चाहिए।",
+    "difficulty": "easy"
+  }
+]

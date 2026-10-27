@@ -1,0 +1,38 @@
+{
+  "_comment": "Register your mock tests here. Add a new entry with name, examId, and file path.",
+  "exams": [
+    {
+      "examId": "dsssb-tgt-cs",
+      "examName": "DSSSB TGT CS",
+      "tests": [
+        {
+          "testId": "dsssb-tgt-cs-01",
+          "testName": "Mock Test 01",
+          "file": "mock-tests/dsssb-tgt-cs/mock-01.json"
+        }
+      ]
+    },
+    {
+      "examId": "bpsc-tre",
+      "examName": "BPSC TRE",
+      "tests": [
+        {
+          "testId": "bpsc-tre-01",
+          "testName": "Mock Test 01",
+          "file": "mock-tests/bpsc-tre/mock-01.json"
+        }
+      ]
+    },
+    {
+      "examId": "bihar-stet",
+      "examName": "Bihar STET",
+      "tests": [
+        {
+          "testId": "stet-01",
+          "testName": "Mock Test 01",
+          "file": "mock-tests/bihar-stet/mock-01.json"
+        }
+      ]
+    }
+  ]
+}

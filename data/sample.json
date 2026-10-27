@@ -1,0 +1,16 @@
+[
+  {
+    "id": "sample-category-001",
+    "question": "Choose the correct answer for this sample question.",
+    "options": [
+      { "id": "A", "text": "Option A" },
+      { "id": "B", "text": "Option B" },
+      { "id": "C", "text": "Option C" },
+      { "id": "D", "text": "Option D" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Write a short explanation for the correct answer.",
+    "difficulty": "easy",
+    "source": "Exam name and year (optional)"
+  }
+]

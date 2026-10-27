@@ -1,0 +1,56 @@
+[
+  {
+    "id": "cn-np-osi-001",
+    "question": "How many layers are there in the OSI reference model?",
+    "options": [
+      { "id": "A", "text": "4" },
+      { "id": "B", "text": "5" },
+      { "id": "C", "text": "6" },
+      { "id": "D", "text": "7" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "OSI model में 7 layers हैं: Physical, Data Link, Network, Transport, Session, Presentation, Application। Mnemonic: 'Please Do Not Throw Sausage Pizza Away'",
+    "difficulty": "easy",
+    "source": "BPSC TRE 2023"
+  },
+  {
+    "id": "cn-np-osi-002",
+    "question": "Which OSI layer is responsible for end-to-end routing of packets?",
+    "options": [
+      { "id": "A", "text": "Data Link Layer (Layer 2)" },
+      { "id": "B", "text": "Network Layer (Layer 3)" },
+      { "id": "C", "text": "Transport Layer (Layer 4)" },
+      { "id": "D", "text": "Session Layer (Layer 5)" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Network Layer (Layer 3) routing के लिए responsible है। Router इसी layer पर काम करता है। IP protocol इसी layer का protocol है।",
+    "difficulty": "easy",
+    "source": "STET 2022"
+  },
+  {
+    "id": "cn-np-osi-003",
+    "question": "A switch operates at which layer of the OSI model?",
+    "options": [
+      { "id": "A", "text": "Physical Layer" },
+      { "id": "B", "text": "Data Link Layer" },
+      { "id": "C", "text": "Network Layer" },
+      { "id": "D", "text": "Transport Layer" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Switch Data Link Layer (Layer 2) पर operate करता है और MAC addresses use करके frames forward करता है। Hub Physical Layer पर और Router Network Layer पर काम करता है।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cn-np-osi-004",
+    "question": "Which layer is responsible for data encryption and compression in the OSI model?",
+    "options": [
+      { "id": "A", "text": "Session Layer" },
+      { "id": "B", "text": "Transport Layer" },
+      { "id": "C", "text": "Presentation Layer" },
+      { "id": "D", "text": "Application Layer" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Presentation Layer (Layer 6) data encryption, decryption, compression और translation के लिए responsible है। यह data को application-readable format में convert करती है।",
+    "difficulty": "medium"
+  }
+]

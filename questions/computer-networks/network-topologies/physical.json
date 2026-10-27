@@ -1,0 +1,43 @@
+[
+  {
+    "id": "cn-nt-p-001",
+    "question": "In which topology does the failure of the central device bring down the entire network?",
+    "options": [
+      { "id": "A", "text": "Bus topology" },
+      { "id": "B", "text": "Ring topology" },
+      { "id": "C", "text": "Star topology" },
+      { "id": "D", "text": "Mesh topology" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Star topology में सभी nodes एक central hub/switch से connect होते हैं। अगर central hub fail हो जाए तो पूरा network down हो जाता है — यह इसका single point of failure है।",
+    "difficulty": "easy",
+    "source": "STET 2022"
+  },
+  {
+    "id": "cn-nt-p-002",
+    "question": "For N nodes in a full-mesh topology, how many dedicated links are required?",
+    "options": [
+      { "id": "A", "text": "N" },
+      { "id": "B", "text": "N - 1" },
+      { "id": "C", "text": "N(N-1)/2" },
+      { "id": "D", "text": "N²" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Full mesh में हर node बाकी सभी से directly connect होता है। Formula है N(N-1)/2। Example: 5 nodes → 10 links। यह most reliable लेकिन most expensive topology है।",
+    "difficulty": "medium",
+    "source": "DSSSB 2020"
+  },
+  {
+    "id": "cn-nt-p-003",
+    "question": "Which topology uses a single shared cable to which all nodes are attached?",
+    "options": [
+      { "id": "A", "text": "Star" },
+      { "id": "B", "text": "Ring" },
+      { "id": "C", "text": "Bus" },
+      { "id": "D", "text": "Tree" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Bus topology में एक single backbone cable होती है जिससे सभी nodes T-connectors के through attach होते हैं। दोनों ends पर terminators लगते हैं। Cable break होने पर पूरा network fail हो जाता है।",
+    "difficulty": "easy"
+  }
+]

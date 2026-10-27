@@ -1,0 +1,90 @@
+{
+  "_comment": "Master index — add an entry here whenever you create a new category JSON file.",
+  "_howToAdd": "Copy any entry below, change the path/subject/chapter/category fields, save. The app loads it automatically on next refresh.",
+
+  "subjects": [
+    {
+      "subjectId": "computer-networks",
+      "subjectName": "Computer Networks",
+      "chapters": [
+        {
+          "chapterId": "transmission-media",
+          "chapterName": "Transmission Media",
+          "categories": [
+            {
+              "categoryId": "guided-media",
+              "categoryName": "Guided Transmission Media",
+              "file": "questions/computer-networks/transmission-media/guided.json"
+            },
+            {
+              "categoryId": "unguided-media",
+              "categoryName": "Unguided Transmission Media",
+              "file": "questions/computer-networks/transmission-media/unguided.json"
+            }
+          ]
+        },
+        {
+          "chapterId": "network-topologies",
+          "chapterName": "Network Topologies",
+          "categories": [
+            {
+              "categoryId": "physical-topologies",
+              "categoryName": "Physical Topologies",
+              "file": "questions/computer-networks/network-topologies/physical.json"
+            }
+          ]
+        },
+        {
+          "chapterId": "network-protocols",
+          "chapterName": "Network Protocols",
+          "categories": [
+            {
+              "categoryId": "osi-model",
+              "categoryName": "OSI Model",
+              "file": "questions/computer-networks/network-protocols/osi-model.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "Digital Logic",
+      "chapters": [
+        {
+          "chapterId": "number-systems",
+          "chapterName": "Number Systems",
+          "categories": [
+            {
+              "categoryId": "weighted-number-systems",
+              "categoryName": "Weighted Number Systems",
+              "file": "questions/digital-logic/number-systems/weighted.json"
+            },
+            {
+              "categoryId": "number-system-conversion",
+              "categoryName": "Number System Conversion",
+              "file": "questions/digital-logic/number-systems/conversion.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subjectId": "hindi",
+      "subjectName": "Hindi",
+      "chapters": [
+        {
+          "chapterId": "vilom-shabd",
+          "chapterName": "विलोम शब्द",
+          "categories": [
+            {
+              "categoryId": "competitive-vilom-shabd",
+              "categoryName": "विलोम शब्द — प्रतियोगी परीक्षा अभ्यास",
+              "file": "questions/hindi/vilom-shabd/competitive.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

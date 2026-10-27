@@ -1,0 +1,49 @@
+{
+  "_comment": "DSSSB TGT CS format: 200 questions, 2 hours. Add your actual questions below.",
+  "examName": "DSSSB TGT CS",
+  "testName": "Mock Test 01",
+  "totalQuestions": 200,
+  "durationMinutes": 120,
+  "instructions": "200 questions | 2 hours | 1 mark each | No negative marking",
+  "questions": [
+    {
+      "id": "dsssb-01-001",
+      "question": "Which data structure follows the LIFO (Last In First Out) principle?",
+      "options": [
+        { "id": "A", "text": "Queue" },
+        { "id": "B", "text": "Stack" },
+        { "id": "C", "text": "Array" },
+        { "id": "D", "text": "Linked List" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Stack LIFO principle follow करता है — जो last में push हुआ वो first pop होता है। Queue FIFO (First In First Out) follow करता है।",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsssb-01-002",
+      "question": "What is the full form of CPU?",
+      "options": [
+        { "id": "A", "text": "Central Processing Unit" },
+        { "id": "B", "text": "Central Program Unit" },
+        { "id": "C", "text": "Computer Processing Unit" },
+        { "id": "D", "text": "Control Processing Unit" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "CPU का full form Central Processing Unit है। यह computer का brain कहलाता है।",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dsssb-01-003",
+      "question": "Which of the following is NOT an output device?",
+      "options": [
+        { "id": "A", "text": "Monitor" },
+        { "id": "B", "text": "Printer" },
+        { "id": "C", "text": "Scanner" },
+        { "id": "D", "text": "Speakers" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Scanner एक input device है — यह physical documents को digital format में convert करता है। Monitor, Printer और Speakers output devices हैं।",
+      "difficulty": "easy"
+    }
+  ]
+}

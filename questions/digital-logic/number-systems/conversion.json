@@ -1,0 +1,56 @@
+[
+  {
+    "id": "dl-ns-c-001",
+    "question": "What is the decimal equivalent of binary number 1010?",
+    "options": [
+      { "id": "A", "text": "8" },
+      { "id": "B", "text": "10" },
+      { "id": "C", "text": "12" },
+      { "id": "D", "text": "14" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "1010 binary = 1×2³ + 0×2² + 1×2¹ + 0×2⁰ = 8 + 0 + 2 + 0 = 10 decimal।",
+    "difficulty": "easy",
+    "source": "STET 2019"
+  },
+  {
+    "id": "dl-ns-c-002",
+    "question": "What is the hexadecimal equivalent of decimal 255?",
+    "options": [
+      { "id": "A", "text": "EE" },
+      { "id": "B", "text": "FE" },
+      { "id": "C", "text": "FF" },
+      { "id": "D", "text": "F0" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "255 ÷ 16 = 15 remainder 15। Both quotient and remainder are 15, जो hex में F होता है। इसलिए 255 decimal = FF hex।",
+    "difficulty": "easy",
+    "source": "DSSSB 2021"
+  },
+  {
+    "id": "dl-ns-c-003",
+    "question": "Which of the following binary numbers represents decimal 13?",
+    "options": [
+      { "id": "A", "text": "1011" },
+      { "id": "B", "text": "1101" },
+      { "id": "C", "text": "1110" },
+      { "id": "D", "text": "1001" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "1101 = 8+4+0+1 = 13। Check: 1011=11, 1110=14, 1001=9। इसलिए answer B है।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dl-ns-c-004",
+    "question": "Convert octal 17 to decimal.",
+    "options": [
+      { "id": "A", "text": "15" },
+      { "id": "B", "text": "17" },
+      { "id": "C", "text": "14" },
+      { "id": "D", "text": "13" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Octal 17 = 1×8¹ + 7×8⁰ = 8 + 7 = 15 decimal।",
+    "difficulty": "easy"
+  }
+]

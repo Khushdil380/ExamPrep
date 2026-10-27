@@ -1,0 +1,36 @@
+{
+  "_comment": "BPSC TRE CS format: 150 questions, 2 hours 30 min. Add your actual questions below.",
+  "examName": "BPSC TRE",
+  "testName": "Mock Test 01",
+  "totalQuestions": 150,
+  "durationMinutes": 150,
+  "instructions": "150 questions | 2.5 hours | 1 mark each | No negative marking",
+  "questions": [
+    {
+      "id": "bpsc-01-001",
+      "question": "Which generation of computers used transistors?",
+      "options": [
+        { "id": "A", "text": "First Generation" },
+        { "id": "B", "text": "Second Generation" },
+        { "id": "C", "text": "Third Generation" },
+        { "id": "D", "text": "Fourth Generation" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Second Generation computers (1956-1963) में vacuum tubes की जगह transistors use हुए। ये smaller, faster और more reliable थे।",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bpsc-01-002",
+      "question": "What is the binary equivalent of decimal number 10?",
+      "options": [
+        { "id": "A", "text": "1000" },
+        { "id": "B", "text": "1010" },
+        { "id": "C", "text": "1100" },
+        { "id": "D", "text": "0110" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "10 decimal को binary में convert करें: 10÷2=5 R0, 5÷2=2 R1, 2÷2=1 R0, 1÷2=0 R1। Bottom to top: 1010।",
+      "difficulty": "easy"
+    }
+  ]
+}

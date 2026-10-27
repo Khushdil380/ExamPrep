@@ -1,0 +1,42 @@
+[
+  {
+    "id": "dl-ns-w-001",
+    "question": "Which of the following is a weighted number system?",
+    "options": [
+      { "id": "A", "text": "Gray code" },
+      { "id": "B", "text": "Excess-3 code" },
+      { "id": "C", "text": "Binary (base-2)" },
+      { "id": "D", "text": "BCD (Binary Coded Decimal)" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Weighted number system वह होता है जिसमें हर digit position का एक fixed weight (positional value) होता है। Binary, Octal, Decimal, Hexadecimal — सब weighted हैं। Gray code और Excess-3 unweighted codes हैं।",
+    "difficulty": "easy",
+    "source": "BPSC TRE 2022"
+  },
+  {
+    "id": "dl-ns-w-002",
+    "question": "What is the base (radix) of the hexadecimal number system?",
+    "options": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "8" },
+      { "id": "C", "text": "10" },
+      { "id": "D", "text": "16" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Hexadecimal number system का base 16 है। इसमें digits 0-9 और letters A-F (जो 10-15 represent करते हैं) use होते हैं। Computer memory addresses अक्सर hex में दिखाए जाते हैं।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dl-ns-w-003",
+    "question": "In the binary number 1101, what is the positional weight of the leftmost bit?",
+    "options": [
+      { "id": "A", "text": "1" },
+      { "id": "B", "text": "2" },
+      { "id": "C", "text": "4" },
+      { "id": "D", "text": "8" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "4-bit binary number में positions right to left: 2⁰=1, 2¹=2, 2²=4, 2³=8। 1101 = 8+4+0+1 = 13 decimal। Leftmost bit (MSB) का weight 2³ = 8 है।",
+    "difficulty": "easy"
+  }
+]

@@ -1,0 +1,105 @@
+/* =============================================================
+   settings.css — Slide-in settings panel.
+   ============================================================= */
+
+.settings-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.3);
+  z-index: 40; visibility: hidden; opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+.settings-overlay.open { visibility: visible; opacity: 1; }
+
+.settings-panel {
+  position: fixed; top: 0; left: 0; bottom: 0; width: 360px; max-width: 95vw;
+  background: var(--white); z-index: 50;
+  display: flex; flex-direction: column;
+  transform: translateX(-100%); transition: transform 0.25s ease;
+  box-shadow: 4px 0 20px rgba(0,0,0,0.12);
+}
+.settings-panel.open { transform: translateX(0); }
+
+/* Head */
+.sp-head {
+  padding: 13px 16px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between; flex-shrink: 0;
+}
+.sp-head h2 { font-size: 0.95rem; font-weight: 700; }
+.sp-close {
+  background: none; border: none; cursor: pointer; font-size: 1.1rem;
+  color: var(--gray-400); width: 28px; height: 28px; border-radius: var(--radius);
+  display: flex; align-items: center; justify-content: center;
+}
+.sp-close:hover { background: var(--gray-100); color: var(--gray-700); }
+
+/* Scrollable body */
+.sp-body { flex: 1; overflow-y: auto; padding: 14px 16px; display: flex; flex-direction: column; gap: 14px; }
+
+/* Section label */
+.sp-section-label {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--gray-400); margin-bottom: 5px;
+}
+
+/* ── Scrollable list — shows ~5 items, scrolls beyond ── */
+.scrollable-list {
+  max-height: 155px;   /* ~5 items × 31px each */
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+}
+.scrollable-list::-webkit-scrollbar { width: 4px; }
+.scrollable-list::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 2px; }
+
+/* Check/radio items */
+.check-item {
+  display: flex; align-items: center; gap: 8px; padding: 7px 10px;
+  font-size: 0.875rem; cursor: pointer; transition: background 0.1s;
+  border-bottom: 1px solid var(--gray-100);
+}
+.check-item:last-child { border-bottom: none; }
+.check-item:hover { background: var(--gray-50); }
+.check-item input[type="checkbox"],
+.check-item input[type="radio"] { accent-color: var(--blue); width: 15px; height: 15px; cursor: pointer; flex-shrink: 0; }
+
+/* Radio items (exam list) */
+.radio-item { border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 4px; }
+.radio-item:has(input:checked) { border-color: var(--blue); background: var(--blue-light); }
+
+/* Chapter group header */
+.ch-subject-header {
+  font-size: 0.72rem; font-weight: 700; color: var(--blue);
+  text-transform: uppercase; letter-spacing: 0.04em;
+  padding: 4px 2px; margin-top: 6px;
+}
+.ch-subject-header:first-child { margin-top: 0; }
+
+/* OR divider */
+.sp-or {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 0.78rem; font-weight: 600; color: var(--gray-400);
+}
+.sp-or::before, .sp-or::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+/* Form rows */
+.sp-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+/* Helper text */
+.dim-text {
+  font-size: 0.8rem; color: var(--gray-400); padding: 6px 2px;
+  font-style: italic;
+}
+
+/* Download link */
+.download-btn {
+  background: none; border: none; cursor: pointer; padding: 0;
+  font-size: 0.8rem; color: var(--blue); display: flex; align-items: center; gap: 4px;
+}
+.download-btn:hover { text-decoration: underline; }
+
+/* Footer */
+.sp-foot {
+  padding: 12px 16px; border-top: 1px solid var(--border); flex-shrink: 0;
+}
+.sp-foot .btn { width: 100%; justify-content: center; padding: 10px; font-size: 0.95rem; }
