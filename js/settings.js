@@ -193,7 +193,7 @@ const Settings = (() => {
     const durationMinutes = _readDurationMinutes();
     if (durationMinutes === null) return;
     App.closeSettings();
-    Exam.start({ questions: UI.shuffle(allQ), mode: 'exam',
+    Exam.start({ questions: allQ, mode: 'exam',
       timerSeconds: durationMinutes * 60,
       label: `${exam.name} · ${tMeta?.name || 'All Tests'}` });
   }
