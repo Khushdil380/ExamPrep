@@ -1,25 +1,37 @@
 # Questions add/update karne ka short guide
 
-Saara kaam project folder ke andar karein. JSON templates app ke **Settings → Sample JSON** se download karein:
+## Practice subject/topic
 
-- **Practice / Subject** template: ek question array.
-- **Mock Test** template: exam details + `questions` array.
+Practice JSON template app ke **Settings → Sample JSON → Practice / Subject** se download karein.
 
-## Practice subject/topic ke questions
+### Naya subject
 
-### Pehle se maujood topic
+1. Subject ID se folder aur uske andar `index.json` banayein:
 
-`questions/index.json` mein us topic ka `file` path dekhein. Wahi JSON file kholkar questions add, edit, replace ya delete karein. Sirf questions badal rahe hain to index edit nahi karna.
+   `questions/<subject-id>/index.json`
 
-### Naya topic
+2. Is subject ke chapters/topics isi index file mein add karein.
+3. `questions/index.json` ke `"subjects"` array mein subject register karein:
 
-1. Is jagah folder/file banayein:
+   ```json
+   {
+     "subjectId": "general-science",
+     "subjectName": "General Science",
+     "file": "questions/general-science/index.json"
+   }
+   ```
+
+`subjectId` folder ka naam aur ID hai; `subjectName` app mein dikhne wala naam; `file` subject index ka path hai.
+
+### Naya chapter ya topic
+
+1. Question file banayein:
 
    `questions/<subject-id>/<chapter-id>/<topic-id>.json`
 
    Example: `questions/general-science/human-body/digestive-system.json`
-2. Practice template ke questions is file mein rakhein.
-3. `questions/index.json` mein sahi subject → chapter → `categories` ke andar entry add karein:
+2. Practice template ka question array file mein rakhein.
+3. `questions/<subject-id>/index.json` ke chapter ke `categories` array mein topic register karein:
 
    ```json
    {
@@ -29,23 +41,23 @@ Saara kaam project folder ke andar karein. JSON templates app ke **Settings → 
    }
    ```
 
-`categoryId` topic ki pehchan hai; `categoryName` app mein dikhne wala naam hai; `file` JSON file ka path hai. Naya chapter ho to us subject ke `chapters` array mein chapter add karein. Naya subject ho to top-level `subjects` array mein subject add karein—existing entries ko delete na karein.
+Chapter nahi hai to subject index ke `"chapters"` array mein chapter add karein (`chapterId`, `chapterName`, `categories`). Naya chapter/topic usi subject ke `index.json` mein add hota hai—main `questions/index.json` mein nahi.
 
-## Mock test ke questions
+### Maujooda practice questions
 
-### Pehle se maujood mock test
+Question add/edit/delete karne ke liye us topic ki JSON file badlein. Sirf question badal rahe hain to index files edit nahi karni. Naya topic ho to us topic ki entry subject index mein bhi add karni hogi.
 
-`mock-tests/index.json` mein test ka `file` path dekhein aur us JSON file ke `questions` update karein.
+## Mock test
 
-### Naya mock test
+Mock template ke liye **Settings → Sample JSON → Mock Test** chunein.
 
-1. Exam ID ke naam ka folder banayein aur mock template ko is path par save karein:
+1. File banayein:
 
    `mock-tests/<exam-id>/<test-id>.json`
 
    Example: `mock-tests/bihar-stet/mock-10.json`
-2. JSON mein `examName`, `testName`, `durationMinutes`, `totalQuestions` aur questions bharein. `totalQuestions` ko questions ki ginti ke barabar rakhein.
-3. `mock-tests/index.json` mein us exam ke `tests` array mein entry add karein:
+2. Mock template mein `examName`, `testName`, `durationMinutes`, `totalQuestions` aur questions bharein. `totalQuestions` question count ke barabar ho.
+3. `mock-tests/index.json` mein exam ke `"tests"` array mein test add karein:
 
    ```json
    {
@@ -55,28 +67,26 @@ Saara kaam project folder ke andar karein. JSON templates app ke **Settings → 
    }
    ```
 
-`testId` test ki pehchan hai; `testName` app mein dikhne wala naam hai; `file` JSON ka path hai. Naya exam ho to `exams` array mein `examId`, `examName` aur `tests` wala exam object add karein.
+Naya exam ho to isi `mock-tests/index.json` ke `"exams"` array mein exam object add karein. Maujooda mock ke questions badalne par uski JSON file edit karein; naya test ho tabhi index update karein.
 
-## Naam, edit aur delete
+## Naam ya file hatana
 
-- File ka naam/path badlein to uska `file` path index mein bhi badlein.
-- App mein dikhne wala naam badalne ke liye `categoryName`, `testName` ya `examName` badlein.
-- Topic/test ko list se hatane ke liye uski entry index se delete karein. JSON file bhi hatani ho to file alag se delete karein.
-- Har question ka alag `id` rakhein. `correctAnswer` option ID (`A`, `B`, `C`, ya `D`) se match hona chahiye.
-- JSON mein double quotes use karein; entries ke beech comma ho, aakhri entry ke baad nahi.
+- App mein dikhne wala naam badlein: `subjectName`, `chapterName`, `categoryName`, `examName` ya `testName` edit karein.
+- File/folder path badlein: index mein uska `"file"` path bhi badlein.
+- Subject ko app se hatayein: `questions/index.json` se subject entry delete karein.
+- Chapter/topic ko hatayein: us subject ke `index.json` se entry delete karein.
+- Mock test ko hatayein: `mock-tests/index.json` se test entry delete karein.
+- JSON file bhi delete karni ho to Git se alag se remove karein.
 
-## Save karke live site update karein
+Har question ka `id` alag rakhein; `correctAnswer` option ID (`A`, `B`, `C`, `D`) se match hona chahiye. JSON mein double quotes use karein aur aakhri item ke baad comma na lagayein.
 
-CMD kholkar project folder mein jaayein:
+## Changes live karna
+
+CMD kholkar yeh commands chalayein:
 
 ```cmd
 cd /d D:\StudyNotes\TestSeries
-```
-
-Changes save karne ke baad yeh command chalayein:
-
-```cmd
-git add -A && git commit -m "Update questions" && git push origin main
+git add questions mock-tests && git commit -m "Update questions" && git push origin main
 ```
 
 GitHub Actions deploy complete hone par site update ho jayegi: https://khushdil380.github.io/ExamPrep/

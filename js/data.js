@@ -3,16 +3,29 @@
    fetches category/mock files on demand.
    ============================================================= */
 const Data = (() => {
-  let _qIndex    = null;   // questions/index.json
+  let _qIndex    = null;   // questions/index.json + subject indexes
   let _mockIndex = null;   // mock-tests/index.json
   let _cache     = {};     // filePath → questions array
 
   /* ── Init: load both index files ── */
   async function init() {
-    [_qIndex, _mockIndex] = await Promise.all([
+    const [questionIndex, mockIndex] = await Promise.all([
       _fetchJSON('questions/index.json').catch(() => ({ subjects: [] })),
       _fetchJSON('mock-tests/index.json').catch(() => ({ exams: [] })),
     ]);
+
+    _qIndex = {
+      subjects: await Promise.all((questionIndex.subjects || []).map(async subject => {
+        try {
+          const subjectIndex = await _fetchJSON(subject.file);
+          return { ...subject, chapters: subjectIndex.chapters || [] };
+        } catch (error) {
+          console.warn('Could not load subject index:', subject.file, error);
+          return { ...subject, chapters: [] };
+        }
+      })),
+    };
+    _mockIndex = mockIndex;
   }
 
   async function _fetchJSON(path) {

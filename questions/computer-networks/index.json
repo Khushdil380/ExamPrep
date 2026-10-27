@@ -1,0 +1,42 @@
+{
+  "chapters": [
+    {
+      "chapterId": "transmission-media",
+      "chapterName": "Transmission Media",
+      "categories": [
+        {
+          "categoryId": "guided-media",
+          "categoryName": "Guided Transmission Media",
+          "file": "questions/computer-networks/transmission-media/guided.json"
+        },
+        {
+          "categoryId": "unguided-media",
+          "categoryName": "Unguided Transmission Media",
+          "file": "questions/computer-networks/transmission-media/unguided.json"
+        }
+      ]
+    },
+    {
+      "chapterId": "network-topologies",
+      "chapterName": "Network Topologies",
+      "categories": [
+        {
+          "categoryId": "physical-topologies",
+          "categoryName": "Physical Topologies",
+          "file": "questions/computer-networks/network-topologies/physical.json"
+        }
+      ]
+    },
+    {
+      "chapterId": "network-protocols",
+      "chapterName": "Network Protocols",
+      "categories": [
+        {
+          "categoryId": "osi-model",
+          "categoryName": "OSI Model",
+          "file": "questions/computer-networks/network-protocols/osi-model.json"
+        }
+      ]
+    }
+  ]
+}

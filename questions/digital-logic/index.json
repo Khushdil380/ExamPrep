@@ -1,0 +1,20 @@
+{
+  "chapters": [
+    {
+      "chapterId": "number-systems",
+      "chapterName": "Number Systems",
+      "categories": [
+        {
+          "categoryId": "weighted-number-systems",
+          "categoryName": "Weighted Number Systems",
+          "file": "questions/digital-logic/number-systems/weighted.json"
+        },
+        {
+          "categoryId": "number-system-conversion",
+          "categoryName": "Number System Conversion",
+          "file": "questions/digital-logic/number-systems/conversion.json"
+        }
+      ]
+    }
+  ]
+}
