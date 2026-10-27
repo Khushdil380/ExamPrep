@@ -103,3 +103,35 @@
   padding: 12px 16px; border-top: 1px solid var(--border); flex-shrink: 0;
 }
 .sp-foot .btn { width: 100%; justify-content: center; padding: 10px; font-size: 0.95rem; }
+
+@media (max-width: 768px) {
+  .settings-panel {
+    top: 8px;
+    bottom: 8px;
+    left: 8px;
+    width: min(340px, calc(100vw - 32px));
+    max-width: none;
+    border-radius: 12px;
+  }
+
+  .settings-panel.open { transform: translateX(0); }
+  .sp-head { padding: 10px 12px; }
+  .sp-body { gap: 10px; padding: 10px 12px; }
+  .sp-foot { padding: 10px 12px; }
+  .sp-foot .btn { padding: 9px; font-size: 0.9rem; }
+  .scrollable-list { max-height: 125px; }
+  .check-item { padding: 6px 9px; font-size: 0.82rem; }
+  .sp-section-label { font-size: 0.68rem; }
+  .form-label { font-size: 0.75rem; }
+  .form-select, .form-input { padding: 7px 9px; font-size: 0.82rem; }
+  .dim-text { font-size: 0.75rem; }
+}
+
+@media (max-width: 380px) {
+  .settings-panel {
+    top: 6px;
+    bottom: 6px;
+    left: 6px;
+    width: calc(100vw - 24px);
+  }
+}

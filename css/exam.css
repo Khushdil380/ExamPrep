@@ -42,7 +42,7 @@
 /* ── Body: desktop two-column ── */
 .exam-body {
   flex: 1; display: grid;
-  grid-template-columns: 1fr 240px;
+  grid-template-columns: minmax(0, 1fr) 290px;
   overflow: hidden; min-height: 0; height: 0;
 }
 
@@ -106,8 +106,10 @@
 .ld-answered    { background: var(--q-answered); }
 .ld-marked      { background: var(--q-marked); }
 .ld-current     { background: var(--q-current); }
-.palette-grid   { flex: 1; min-height: 0; overflow-y: auto; align-content: flex-start; padding: 10px 12px; display: flex; flex-wrap: wrap; gap: 5px; overscroll-behavior: contain; }
-.pq-btn         { width: 30px; height: 30px; border: none; border-radius: 4px; font-size: 0.75rem; font-weight: 600; cursor: pointer; background: var(--q-unanswered); color: var(--gray-600); transition: transform 0.1s; }
+.palette-grid   { flex: 1; min-height: 0; overflow-y: auto; align-content: flex-start; padding: 8px 6px 8px 10px; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); grid-auto-rows: 32px; gap: 6px; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--gray-300) transparent; }
+.palette-grid::-webkit-scrollbar { width: 5px; }
+.palette-grid::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 3px; }
+.pq-btn         { width: 100%; height: 32px; border: none; border-radius: 4px; font-size: 0.75rem; font-weight: 600; cursor: pointer; background: var(--q-unanswered); color: var(--gray-600); transition: transform 0.1s; }
 .pq-btn:hover   { transform: scale(1.1); }
 .pq-btn.answered{ background: var(--q-answered); color: var(--white); }
 .pq-btn.marked  { background: var(--q-marked);   color: var(--white); }
@@ -254,6 +256,7 @@
   .palette-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(38px, 1fr));
+    grid-auto-rows: auto;
     gap: 8px;
     max-height: 32dvh;
     overflow-y: auto;
