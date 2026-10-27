@@ -1,7 +1,6 @@
 {
   "_comment": "Master subject index. Each subject has its own index.json containing its chapters and topics.",
-  "_howToAdd": "Add the subject name, ID, and subject index file path here. Put chapters and categories in that subject's index.json.",
-
+  "_howToAdd": "Create question files under questions/<subject>/<chapter>/. Run scripts/sync_question_indexes.py to update all indexes.",
   "subjects": [
     {
       "subjectId": "computer-networks",
