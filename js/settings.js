@@ -7,6 +7,7 @@ const Settings = (() => {
   const DEFAULT_SECONDS_PER_QUESTION = 45;
   let _durationManuallyChanged = false;
   let _durationRequest = 0;
+  let _subjectSelectionRequest = 0;
 
   /* ── Build the entire panel from index data ── */
   function build() {
@@ -63,10 +64,18 @@ const Settings = (() => {
     _buildChapters([]);
   }
 
-  function _onSubjectChange() {
+  async function _onSubjectChange() {
     _clearMockSelection();               // mutual exclusion
-    _buildChapters(_checkedSubjects());
+    const request = ++_subjectSelectionRequest;
+    const subjectIds = _checkedSubjects();
     _durationManuallyChanged = false;
+    if (!subjectIds.length) {
+      _buildChapters([]);
+      return;
+    }
+    await Data.loadSubjectIndexes(subjectIds);
+    if (request !== _subjectSelectionRequest) return;
+    _buildChapters(subjectIds);
     _updatePracticeDuration();
   }
 
@@ -131,14 +140,15 @@ const Settings = (() => {
     const tests = testId
       ? Data.getTests(examId).filter(test => test.id === testId)
       : Data.getTests(examId);
-    let questionCount = 0;
-    let declaredMinutes = 0;
-    for (const test of tests) {
-      const data = await Data.getMockTest(examId, test.id);
-      if (!data) continue;
-      questionCount += data.questions.length;
-      declaredMinutes += Number(data.durationMinutes) || 0;
-    }
+    const testData = await Promise.all(
+      tests.map(test => Data.getMockTest(examId, test.id))
+    );
+    const questionCount = testData.reduce(
+      (count, data) => count + (data?.questions.length || 0), 0
+    );
+    const declaredMinutes = testData.reduce(
+      (minutes, data) => minutes + (Number(data?.durationMinutes) || 0), 0
+    );
     if (request !== _durationRequest || _durationManuallyChanged) return;
     if (testId && declaredMinutes > 0) {
       document.getElementById('settingDurationMinutes').value = String(declaredMinutes);
@@ -158,6 +168,7 @@ const Settings = (() => {
     document.getElementById('settingTestSelect').innerHTML = '<option value="">— Select Test —</option>';
   }
   function _clearPracticeSelection() {
+    _subjectSelectionRequest++;
     document.querySelectorAll('input[name="settingSubject"]').forEach(c => c.checked = false);
     _buildChapters([]);
   }
@@ -172,12 +183,10 @@ const Settings = (() => {
   async function _startMock(examId) {
     const testId  = document.getElementById('settingTestSelect').value;
     const tests   = testId ? [Data.getTests(examId).find(t => t.id === testId)] : Data.getTests(examId);
-    const allQ = [];
-    for (const t of tests.filter(Boolean)) {
-      const data = await Data.getMockTest(examId, t.id);
-      if (!data) continue;
-      allQ.push(...data.questions);
-    }
+    const testData = await Promise.all(
+      tests.filter(Boolean).map(t => Data.getMockTest(examId, t.id))
+    );
+    const allQ = testData.flatMap(data => data?.questions || []);
     if (!allQ.length) { UI.toast('No questions found for this mock test.', 'error'); return; }
     const exam    = Data.getExams().find(e => e.id === examId);
     const tMeta   = testId ? Data.getTests(examId).find(t => t.id === testId) : null;

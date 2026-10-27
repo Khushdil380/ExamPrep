@@ -19,6 +19,8 @@ Script folders aur JSON filenames se main aur subject indexes khud update karegi
 
 Existing topic ke questions badalne par wahi JSON file edit karein. Naya topic add karne par nayi JSON file rakhein aur script chalayen. Kisi topic ki JSON file delete karne par script uski index entry bhi hata degi.
 
+Website shuru mein sirf ek random subject ke questions load karti hai; baaki subject indexes tab load hote hain jab aap Settings mein unhe select karte hain. Selected question files parallel load aur cache hote hain, isliye dobara use karne par phir se download nahi hote. Upload karne ka tareeqa badalne ki zaroorat nahi hai.
+
 ## Mock tests
 
 Mock test ke liye **Settings → Sample JSON → Mock Test** template use karein. File yahan banayein:

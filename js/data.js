@@ -6,6 +6,8 @@ const Data = (() => {
   let _qIndex    = null;   // questions/index.json + subject indexes
   let _mockIndex = null;   // mock-tests/index.json
   let _cache     = {};     // filePath → questions array
+  let _subjectIndexLoads = {};
+  let _fileLoads = {};
 
   /* ── Init: load both index files ── */
   async function init() {
@@ -14,17 +16,7 @@ const Data = (() => {
       _fetchJSON('mock-tests/index.json').catch(() => ({ exams: [] })),
     ]);
 
-    _qIndex = {
-      subjects: await Promise.all((questionIndex.subjects || []).map(async subject => {
-        try {
-          const subjectIndex = await _fetchJSON(subject.file);
-          return { ...subject, chapters: subjectIndex.chapters || [] };
-        } catch (error) {
-          console.warn('Could not load subject index:', subject.file, error);
-          return { ...subject, chapters: [] };
-        }
-      })),
-    };
+    _qIndex = { subjects: questionIndex.subjects || [] };
     _mockIndex = mockIndex;
   }
 
@@ -36,14 +28,46 @@ const Data = (() => {
 
   async function _loadFile(path) {
     if (_cache[path]) return _cache[path];
-    try {
-      const data = await _fetchJSON(path);
-      _cache[path] = Array.isArray(data) ? data : (data.questions || []);
-    } catch (e) {
-      console.warn('Could not load:', path, e);
-      _cache[path] = [];
+    if (!_fileLoads[path]) {
+      _fileLoads[path] = (async () => {
+        try {
+          const data = await _fetchJSON(path);
+          _cache[path] = Array.isArray(data) ? data : (data.questions || []);
+        } catch (error) {
+          console.warn('Could not load:', path, error);
+          _cache[path] = [];
+        } finally {
+          delete _fileLoads[path];
+        }
+        return _cache[path];
+      })();
     }
-    return _cache[path];
+    return _fileLoads[path];
+  }
+
+  async function loadSubjectIndexes(subjectIds) {
+    const ids = Array.isArray(subjectIds) ? subjectIds : [subjectIds];
+    const subjects = (_qIndex?.subjects || []).filter(subject =>
+      ids.includes(subject.subjectId)
+    );
+
+    await Promise.all(subjects.map(subject => {
+      if (Array.isArray(subject.chapters)) return Promise.resolve();
+      if (!_subjectIndexLoads[subject.subjectId]) {
+        _subjectIndexLoads[subject.subjectId] = (async () => {
+          try {
+            const subjectIndex = await _fetchJSON(subject.file);
+            subject.chapters = subjectIndex.chapters || [];
+          } catch (error) {
+            console.warn('Could not load subject index:', subject.file, error);
+            subject.chapters = [];
+          } finally {
+            delete _subjectIndexLoads[subject.subjectId];
+          }
+        })();
+      }
+      return _subjectIndexLoads[subject.subjectId];
+    }));
   }
 
   /* ── Practice: subjects / chapters ── */
@@ -56,7 +80,7 @@ const Data = (() => {
     const result = [];
     (_qIndex?.subjects || []).forEach(s => {
       if (!ids.includes(s.subjectId)) return;
-      s.chapters.forEach(ch => {
+      (s.chapters || []).forEach(ch => {
         if (!result.find(r => r.id === ch.chapterId))
           result.push({ id: ch.chapterId, name: ch.chapterName, subjectId: s.subjectId });
       });
@@ -67,27 +91,32 @@ const Data = (() => {
   /** Fetch + enrich questions for given subject(s) and chapter(s) */
   async function getPracticeQuestions(subjectIds, chapterIds) {
     const sIds = subjectIds?.length ? subjectIds : getSubjects().map(s => s.id);
-    const questions = [];
+    await loadSubjectIndexes(sIds);
+    const files = [];
 
     for (const subj of (_qIndex?.subjects || [])) {
       if (!sIds.includes(subj.subjectId)) continue;
-      for (const ch of subj.chapters) {
+      for (const ch of subj.chapters || []) {
         if (chapterIds?.length && !chapterIds.includes(ch.chapterId)) continue;
         for (const cat of ch.categories) {
-          const raw = await _loadFile(cat.file);
-          raw.forEach(q => questions.push({
-            ...q,
-            _subject:      subj.subjectName,
-            _subjectId:    subj.subjectId,
-            _chapterName:  ch.chapterName,
-            _chapterId:    ch.chapterId,
-            _categoryName: cat.categoryName,
-            _categoryId:   cat.categoryId,
-          }));
+          files.push({ subj, ch, cat });
         }
       }
     }
-    return questions;
+
+    const questionGroups = await Promise.all(files.map(async ({ subj, ch, cat }) => {
+      const raw = await _loadFile(cat.file);
+      return raw.map(q => ({
+        ...q,
+        _subject:      subj.subjectName,
+        _subjectId:    subj.subjectId,
+        _chapterName:  ch.chapterName,
+        _chapterId:    ch.chapterId,
+        _categoryName: cat.categoryName,
+        _categoryId:   cat.categoryId,
+      }));
+    }));
+    return questionGroups.flat();
   }
 
   /** Pick a random subject and return all its questions (for auto-start) */
@@ -130,5 +159,5 @@ const Data = (() => {
     };
   }
 
-  return { init, getSubjects, getChapters, getPracticeQuestions, getRandomSubjectQuestions, getExams, getTests, getMockTest };
+  return { init, loadSubjectIndexes, getSubjects, getChapters, getPracticeQuestions, getRandomSubjectQuestions, getExams, getTests, getMockTest };
 })();
