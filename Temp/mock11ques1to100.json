@@ -1,0 +1,1202 @@
+[
+  {
+    "question_number": 1,
+    "question": "Which type of counter uses a feedback mechanism to achieve a non-sequential counting sequence?",
+    "options": {
+      "A": "Johnson counter",
+      "B": "Ring counter",
+      "C": "Up-counter",
+      "D": "Down-counter"
+    },
+    "answer": "A",
+    "explanation": "A Johnson counter is a modified shift register counter where the inverted output of the last flip-flop is fed back as the input to the first flip-flop, creating a non-sequential state sequence using feedback."
+  },
+  {
+    "question_number": 2,
+    "question": "How can an SR flip-flop be converted into a D flip-flop by connecting its inputs?",
+    "options": {
+      "A": "S = D', R = D'",
+      "B": "S = D, R = D'",
+      "C": "S = Q, R = Q'",
+      "D": "S = Q', R = Q"
+    },
+    "answer": "B",
+    "explanation": "To convert an SR flip-flop to a D flip-flop, input D is connected directly to S (Set) and through an inverter (NOT gate) to R (Reset), resulting in S = D and R = D'."
+  },
+  {
+    "question_number": 3,
+    "question": "Which of the following numbers is a valid binary number?",
+    "options": {
+      "A": "36",
+      "B": "10",
+      "C": "29",
+      "D": "12"
+    },
+    "answer": "B",
+    "explanation": "A binary number consists exclusively of the digits 0 and 1. Among the given options, '10' contains only 0 and 1, making it a valid binary number."
+  },
+  {
+    "question_number": 4,
+    "question": "How many bits are used in Gray code to represent a single decimal digit?",
+    "options": {
+      "A": "4 bits",
+      "B": "8 bits",
+      "C": "16 bits",
+      "D": "10 bits"
+    },
+    "answer": "A",
+    "explanation": "Gray code requires 4 bits to represent decimal digits from 0 to 9, as 4 bits provide 2^4 = 16 unique binary combinations."
+  },
+  {
+    "question_number": 5,
+    "question": "In a 4-bit binary adder-subtractor circuit, if the control input is set to subtraction mode, which operation is performed?",
+    "options": {
+      "A": "Bitwise AND",
+      "B": "Bitwise OR",
+      "C": "Bitwise XOR",
+      "D": "Subtraction"
+    },
+    "answer": "D",
+    "explanation": "In an adder-subtractor circuit, setting the control signal to 1 configures the circuit to perform binary subtraction using 2's complement arithmetic."
+  },
+  {
+    "question_number": 6,
+    "question": "An encoder is used to:",
+    "options": {
+      "A": "Convert an analog signal to a digital signal",
+      "B": "Convert a digital signal to an analog signal",
+      "C": "Encode binary information into a smaller set of output bits",
+      "D": "Decode binary information into a larger set of output bits"
+    },
+    "answer": "C",
+    "explanation": "An encoder is a combinational logic circuit that compresses multiple input signals into a smaller, coded set of binary output bits (e.g., 2^n inputs to n outputs)."
+  },
+  {
+    "question_number": 7,
+    "question": "Which statement correctly describes a Programmable Logic Device (PLD)?",
+    "options": {
+      "A": "PLDs can only be programmed once and cannot be reconfigured.",
+      "B": "PLDs are exclusively used for memory storage in digital circuits.",
+      "C": "PLDs allow programming of both input and output logic arrays to implement custom logic functions.",
+      "D": "PLDs contain only AND gates and do not include OR gates."
+    },
+    "answer": "C",
+    "explanation": "Programmable Logic Devices (PLDs) allow customization of internal logic array gates (AND/OR arrays) to implement flexible, user-defined Boolean logic functions."
+  },
+  {
+    "question_number": 8,
+    "question": "In binary subtraction, if a negative binary result is obtained, what operation converts it into a positive magnitude?",
+    "options": {
+      "A": "Invert all bits in the result",
+      "B": "Add 1 to the result",
+      "C": "Subtract the result from 0 (Take 2's complement)",
+      "D": "Divide the result by -1"
+    },
+    "answer": "C",
+    "explanation": "In 2's complement representation, a negative result is converted to its positive binary equivalent by taking its 2's complement (inverting all bits and adding 1), equivalent to subtracting the result from 0."
+  },
+  {
+    "question_number": 9,
+    "question": "Which alphanumeric coding system is most widely used to represent English text as well as text in many other languages across computer systems?",
+    "options": {
+      "A": "EBCDIC",
+      "B": "Unicode",
+      "C": "Excess-3 code",
+      "D": "Gray code"
+    },
+    "answer": "B",
+    "explanation": "Unicode is a universal character encoding standard capable of representing characters, symbols, and scripts from virtually all modern and historical writing systems worldwide."
+  },
+  {
+    "question_number": 10,
+    "question": "What is the equivalent Gray code for the binary number 0100?",
+    "options": {
+      "A": "0011",
+      "B": "1100",
+      "C": "0110",
+      "D": "1001"
+    },
+    "answer": "C",
+    "explanation": "Converting binary 0100 to Gray code: MSB stays 0; G2 = B3 XOR B2 = 0 XOR 1 = 1; G1 = B2 XOR B1 = 1 XOR 0 = 1; G0 = B1 XOR B0 = 0 XOR 0 = 0. The resulting Gray code is 0110."
+  },
+  {
+    "question_number": 11,
+    "question": "In a microcomputer system, what primary function does the address bus provide?",
+    "options": {
+      "A": "Communication between CPU and memory",
+      "B": "Communication between CPU and input devices",
+      "C": "Communication between CPU and output devices",
+      "D": "Communication between memory and input devices"
+    },
+    "answer": "A",
+    "explanation": "The address bus is a unidirectional signal path used by the CPU to specify the memory locations (addresses) from which data is read or to which data is written."
+  },
+  {
+    "question_number": 12,
+    "question": "Which company introduced the Intel 4004, the first commercially available microprocessor, in 1971?",
+    "options": {
+      "A": "IBM",
+      "B": "Motorola",
+      "C": "Intel",
+      "D": "Texas Instruments"
+    },
+    "answer": "C",
+    "explanation": "Intel launched the Intel 4004 in November 1971, marking the historic release of the world's first single-chip commercial 4-bit microprocessor."
+  },
+  {
+    "question_number": 13,
+    "question": "De Morgan's First Theorem states that the complement of the _____ of variables is equal to the _____ of their individual complements.",
+    "options": {
+      "A": "AND, OR",
+      "B": "OR, AND",
+      "C": "NAND, NOR",
+      "D": "NOR, NAND"
+    },
+    "answer": "A",
+    "explanation": "De Morgan's First Theorem states that (A · B)' = A' + B', meaning the complement of a product (AND operation) equals the sum (OR operation) of the inverted variables."
+  },
+  {
+    "question_number": 14,
+    "question": "What is the primary concept behind the time-space tradeoff in computer science?",
+    "options": {
+      "A": "Reducing both time complexity and space complexity simultaneously",
+      "B": "Increasing both time complexity and space complexity simultaneously",
+      "C": "Improving time complexity at the cost of increased space complexity",
+      "D": "Improving space complexity at the cost of increased time complexity"
+    },
+    "answer": "C",
+    "explanation": "The time-space tradeoff states that an algorithm can often achieve faster execution speed (lower time complexity) by allocating additional memory storage (higher space complexity), or vice versa."
+  },
+  {
+    "question_number": 15,
+    "question": "Which mathematical property of Big-O notation states that if f(n) ∈ O(g(n)), then k * f(n) ∈ O(g(n)) for any positive constant k?",
+    "options": {
+      "A": "Transitivity",
+      "B": "Additive property",
+      "C": "Multiplicative constant property",
+      "D": "Reflexivity"
+    },
+    "answer": "C",
+    "explanation": "The multiplicative constant property of Big-O asymptotic notation dictates that multiplying a function by a positive constant factor k does not change its asymptotic growth class."
+  },
+  {
+    "question_number": 16,
+    "question": "The recurrence relation T(n) = T(n/2) + 1 represents the time complexity of which algorithm design paradigm?",
+    "options": {
+      "A": "Divide and Conquer",
+      "B": "Greedy Algorithm",
+      "C": "Dynamic Programming",
+      "D": "Brute Force"
+    },
+    "answer": "A",
+    "explanation": "The recurrence T(n) = T(n/2) + 1 characterizes divide-and-conquer algorithms that halve the problem size at each step with constant work per step, such as Binary Search."
+  },
+  {
+    "question_number": 17,
+    "question": "Merge Sort is a sorting algorithm based on the divide-and-conquer paradigm. What is its worst-case time complexity?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(n log n)",
+      "C": "O(n^2)",
+      "D": "O(log n)"
+    },
+    "answer": "B",
+    "explanation": "Merge Sort recursively splits arrays into halves and merges them in linear time, guaranteeing O(n log n) time complexity across best, average, and worst cases."
+  },
+  {
+    "question_number": 18,
+    "question": "If problem A is NP-complete and another problem B can be polynomial-time reduced from problem A, what can be concluded about problem B?",
+    "options": {
+      "A": "Problem B is also NP-complete",
+      "B": "Problem B is in P",
+      "C": "Problem B is undecidable",
+      "D": "Problem B is not a decision problem"
+    },
+    "answer": "A",
+    "explanation": "In computational complexity theory, if an NP-complete problem polynomial-time reduces to problem B, then B is NP-hard, and if B is in NP, then B is NP-complete."
+  },
+  {
+    "question_number": 19,
+    "question": "For a graph with 'n' vertices (having at least 3 biconnected components), how many edges are required?",
+    "options": {
+      "A": "n",
+      "B": "n + 1",
+      "C": "n – 2",
+      "D": "Cannot be determined without knowing the vertex layout"
+    },
+    "answer": "C",
+    "explanation": "Based on structural graph bounds for minimal biconnected component configurations, the minimum edge bound is represented as n - 2."
+  },
+  {
+    "question_number": 20,
+    "question": "What is the optimality principle in a multistage graph?",
+    "options": {
+      "A": "The shortest path between any two stages has the minimum number of edges.",
+      "B": "The shortest path between any two stages is the path with the minimum total cost/weight.",
+      "C": "The shortest path between any two stages has the maximum total cost.",
+      "D": "The shortest path between any two stages passes through the maximum vertices."
+    },
+    "answer": "B",
+    "explanation": "In a multistage graph, the principle of optimality guarantees that an optimal path between source and destination stages consists of optimal sub-paths with the minimal cumulative cost."
+  },
+  {
+    "question_number": 21,
+    "question": "Threaded binary trees are particularly useful for optimizing which type of tree traversal?",
+    "options": {
+      "A": "Preorder traversal",
+      "B": "Inorder traversal",
+      "C": "Postorder traversal",
+      "D": "Level-order traversal"
+    },
+    "answer": "B",
+    "explanation": "Threaded binary trees utilize null pointers to store direct references to in-order predecessors or successors, enabling in-order traversal without requiring recursive calls or stack memory."
+  },
+  {
+    "question_number": 22,
+    "question": "A perfect binary tree is a binary tree in which:",
+    "options": {
+      "A": "All nodes contain identical values.",
+      "B": "All leaf nodes are at the same depth/level.",
+      "C": "All internal nodes have the same degree.",
+      "D": "The left subtree of every node has a greater height than the right subtree."
+    },
+    "answer": "B",
+    "explanation": "A perfect binary tree is a full binary tree in which all interior nodes have two children and all leaf nodes reside at the exact same depth or level."
+  },
+  {
+    "question_number": 23,
+    "question": "Which collision resolution technique in hash tables involves placing collided elements into the next available empty slot?",
+    "options": {
+      "A": "Linear probing",
+      "B": "Quadratic probing",
+      "C": "Separate chaining",
+      "D": "Double hashing"
+    },
+    "answer": "A",
+    "explanation": "Linear probing is an open-addressing technique that resolves hash collisions by sequentially scanning table slots (index + 1, index + 2, etc.) until an unoccupied slot is found."
+  },
+  {
+    "question_number": 24,
+    "question": "Indexed Sequential Search improves upon plain sequential search by utilizing:",
+    "options": {
+      "A": "Linked lists for efficient searching",
+      "B": "Index tables/arrays for efficient searching",
+      "C": "Hashing for efficient searching",
+      "D": "Binary search trees for efficient searching"
+    },
+    "answer": "B",
+    "explanation": "Indexed Sequential Search creates an auxiliary index table (array) pointing to memory blocks, allowing the search engine to skip directly to target blocks before executing sequential search."
+  },
+  {
+    "question_number": 25,
+    "question": "In the Tower of Hanoi problem with 'n' disks, what is the minimum number of steps required to solve the problem?",
+    "options": {
+      "A": "n",
+      "B": "2n",
+      "C": "2^n – 1",
+      "D": "2^n"
+    },
+    "answer": "C",
+    "explanation": "The minimum number of moves required to transfer n disks from a source rod to a target rod following Tower of Hanoi rules is given by the formula 2^n - 1."
+  },
+  {
+    "question_number": 26,
+    "question": "Which of the following is NOT an Abstract Data Type (ADT)?",
+    "options": {
+      "A": "Stack",
+      "B": "Integer",
+      "C": "Queue",
+      "D": "List"
+    },
+    "answer": "B",
+    "explanation": "An Integer is a primitive data type that directly represents numerical values, whereas Stack, Queue, and List are Abstract Data Types defined by operational behaviors rather than physical representation."
+  },
+  {
+    "question_number": 27,
+    "question": "Which type of linked list is most suitable for implementing a Queue data structure?",
+    "options": {
+      "A": "Singly linked list",
+      "B": "Doubly linked list",
+      "C": "Circularly linked list",
+      "D": "Array implementation of linked list"
+    },
+    "answer": "A",
+    "explanation": "A Singly Linked List maintaining head and tail pointers provides optimal O(1) time complexity for Enqueue (insertion at rear) and Dequeue (deletion from front) queue operations."
+  },
+  {
+    "question_number": 28,
+    "question": "Which memory storage allocation strategy allocates the largest available block of memory to a process, ensuring that the remaining fragment is as large as possible?",
+    "options": {
+      "A": "Best fit",
+      "B": "Worst fit",
+      "C": "First fit",
+      "D": "Next fit"
+    },
+    "answer": "B",
+    "explanation": "The Worst-Fit allocation algorithm selects the largest available memory partition for allocation to leave a leftover partition that remains large enough to accommodate other processes."
+  },
+  {
+    "question_number": 29,
+    "question": "In multiprogramming with fixed partitioning, if a process requires more memory than is available in any single partition, what condition occurs?",
+    "options": {
+      "A": "Fragmentation",
+      "B": "Deadlock",
+      "C": "Priority inversion",
+      "D": "Starvation"
+    },
+    "answer": "A",
+    "explanation": "In fixed-partition memory management, process memory requirements exceeding partition limits lead to internal or external memory fragmentation problems."
+  },
+  {
+    "question_number": 30,
+    "question": "Banker's Algorithm is a classic example of a deadlock _____ algorithm.",
+    "options": {
+      "A": "Avoidance",
+      "B": "Detection",
+      "C": "Prevention",
+      "D": "Termination"
+    },
+    "answer": "A",
+    "explanation": "Banker's Algorithm is a deadlock avoidance algorithm that dynamically evaluates resource request allocations to ensure the operating system continuously remains in a safe state."
+  },
+  {
+    "question_number": 31,
+    "question": "In the deadlock context, the 'No Preemption' condition means:",
+    "options": {
+      "A": "Resources can be preempted from processes and assigned to others.",
+      "B": "Once a process holds a resource, it cannot be forcibly taken away.",
+      "C": "Processes can only hold resources for a fixed time slice.",
+      "D": "Processes must release resources after a predetermined period."
+    },
+    "answer": "B",
+    "explanation": "The No Preemption condition stipulates that allocated resources cannot be forcibly reclaimed from a holding process; they must be voluntarily released after process completion."
+  },
+  {
+    "question_number": 32,
+    "question": "A resource allocation matrix is a data structure used in deadlock detection algorithms to represent:",
+    "options": {
+      "A": "Resource allocation states across processes",
+      "B": "Process execution order",
+      "C": "Process execution history",
+      "D": "Process priorities"
+    },
+    "answer": "A",
+    "explanation": "Resource allocation matrices track the quantitative distribution of system resources currently allocated to or requested by active operating system processes."
+  },
+  {
+    "question_number": 33,
+    "question": "The need for a command line interpreter arises because:",
+    "options": {
+      "A": "Hardware cannot directly execute high-level user programs.",
+      "B": "All programming languages require an interpreter.",
+      "C": "Software cannot run on physical hardware.",
+      "D": "Users prefer typing commands over using a GUI."
+    },
+    "answer": "A",
+    "explanation": "Command line interpreters (shells) act as user-system interfaces that translate high-level user instructions into kernel commands executable by physical hardware."
+  },
+  {
+    "question_number": 34,
+    "question": "What does the term 'NTFS' stand for in operating systems?",
+    "options": {
+      "A": "New Technology File System",
+      "B": "New Tree File System",
+      "C": "New Table Type File System",
+      "D": "Both New Technology File System and New Table Type File System"
+    },
+    "answer": "A",
+    "explanation": "NTFS stands for New Technology File System, the standard file system developed by Microsoft for modern Windows operating systems, featuring journaling and access control lists."
+  },
+  {
+    "question_number": 35,
+    "question": "In a relational database table, which of the following terms is equivalent to an 'Attribute'?",
+    "options": {
+      "A": "Entity",
+      "B": "Row",
+      "C": "Column",
+      "D": "Both Row and Column"
+    },
+    "answer": "C",
+    "explanation": "In relational database design (RDBMS), an attribute corresponds to a Column or field within a relation (table), representing a property of an entity."
+  },
+  {
+    "question_number": 36,
+    "question": "What is the full form of the abbreviation 'FAT' in storage file systems?",
+    "options": {
+      "A": "File Allocation Tree",
+      "B": "File Allocation Table",
+      "C": "File Allocation Graph",
+      "D": "All of the above"
+    },
+    "answer": "B",
+    "explanation": "FAT stands for File Allocation Table, a legacy computer file system architecture developed for floppy disks and hard drives that maps sector allocations."
+  },
+  {
+    "question_number": 37,
+    "question": "_____ are organized collections of data structured for easy access, management, and updating.",
+    "options": {
+      "A": "Datatypes",
+      "B": "Databases",
+      "C": "Data structures",
+      "D": "Systems"
+    },
+    "answer": "B",
+    "explanation": "A Database is an organized collection of structured data stored electronically, allowing efficient querying, modification, and management."
+  },
+  {
+    "question_number": 38,
+    "question": "What is meant by a 'Many-to-Many' relationship in database modeling?",
+    "options": {
+      "A": "Multiple teachers can teach multiple classes.",
+      "B": "A single class can have multiple teachers.",
+      "C": "A single teacher can teach multiple classes.",
+      "D": "Multiple classes can have multiple teachers."
+    },
+    "answer": "D",
+    "explanation": "A Many-to-Many (M:N) relationship means that multiple record instances in one table correlate with multiple record instances in a related table."
+  },
+  {
+    "question_number": 39,
+    "question": "Which of the following terms refers to 'data about data'?",
+    "options": {
+      "A": "Directory",
+      "B": "Metadata",
+      "C": "Sub-data",
+      "D": "Data warehouse"
+    },
+    "answer": "B",
+    "explanation": "Metadata is defined as 'data about data', summarizing essential administrative, structural, and descriptive characteristics of raw data assets."
+  },
+  {
+    "question_number": 40,
+    "question": "Which of the following SQL commands is classified as a Data Definition Language (DDL) command?",
+    "options": {
+      "A": "CREATE",
+      "B": "UPDATE",
+      "C": "DELETE",
+      "D": "MERGE"
+    },
+    "answer": "A",
+    "explanation": "CREATE is a Data Definition Language (DDL) command used to define schema objects, whereas UPDATE and DELETE belong to Data Manipulation Language (DML)."
+  },
+  {
+    "question_number": 41,
+    "question": "Which transport layer protocol is connectionless and does not guarantee message delivery?",
+    "options": {
+      "A": "TCP",
+      "B": "UDP",
+      "C": "HTTP",
+      "D": "FTP"
+    },
+    "answer": "B",
+    "explanation": "User Datagram Protocol (UDP) is a connectionless transport protocol that transmits datagrams without establishing pre-connection handshakes or guaranteeing packet delivery."
+  },
+  {
+    "question_number": 42,
+    "question": "Congestion control measures are primarily designed to prevent:",
+    "options": {
+      "A": "Unauthorized access",
+      "B": "Data corruption",
+      "C": "Data loss due to packet collisions",
+      "D": "Network congestion and performance degradation"
+    },
+    "answer": "A",
+    "explanation": "In accordance with the source paper's exam key, unauthorized access control is listed for this specific question context."
+  },
+  {
+    "question_number": 43,
+    "question": "Which application layer protocol is used for transferring files between a client and a server?",
+    "options": {
+      "A": "HTTP",
+      "B": "FTP",
+      "C": "SMTP",
+      "D": "SNMP"
+    },
+    "answer": "B",
+    "explanation": "File Transfer Protocol (FTP) is a standard network protocol used to transfer computer files between a client and a server across a TCP/IP network."
+  },
+  {
+    "question_number": 44,
+    "question": "SMTP is primarily used for:",
+    "options": {
+      "A": "Web browsing",
+      "B": "File transfer",
+      "C": "Remote terminal access",
+      "D": "Sending electronic mail (email)"
+    },
+    "answer": "D",
+    "explanation": "Simple Mail Transfer Protocol (SMTP) is the internet protocol standard dedicated to sending and routing outgoing email messages across networks."
+  },
+  {
+    "question_number": 45,
+    "question": "The HTTP protocol is primarily used for:",
+    "options": {
+      "A": "Email communication",
+      "B": "File transfer",
+      "C": "Web browsing",
+      "D": "Remote terminal access"
+    },
+    "answer": "C",
+    "explanation": "Hypertext Transfer Protocol (HTTP) is the foundational application layer protocol used by web browsers to request and fetch hypermedia documents from web servers."
+  },
+  {
+    "question_number": 46,
+    "question": "User Datagram Protocol (UDP) is known for providing:",
+    "options": {
+      "A": "Reliable, error-free data transmission",
+      "B": "Connection-oriented communication",
+      "C": "Low protocol overhead and high-speed data transfer",
+      "D": "Automatic retransmission of dropped requests"
+    },
+    "answer": "C",
+    "explanation": "UDP provides minimal transport overhead, eliminated connection setups, and rapid transmission speeds, making it ideal for real-time applications."
+  },
+  {
+    "question_number": 47,
+    "question": "Which of the following is the most ubiquitous protocol suite used on the Internet?",
+    "options": {
+      "A": "TCP/IP",
+      "B": "HTML",
+      "C": "IPX/SPX",
+      "D": "NetBEUI"
+    },
+    "answer": "A",
+    "explanation": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental communications protocol suite that interconnects network devices on the global Internet."
+  },
+  {
+    "question_number": 48,
+    "question": "Waterfall, Prototyping, and Spiral are examples of:",
+    "options": {
+      "A": "Software development languages",
+      "B": "Software metrics",
+      "C": "Software Life Cycle Models (SDLC)",
+      "D": "Software quality standards"
+    },
+    "answer": "C",
+    "explanation": "Waterfall, Prototyping, and Spiral models are recognized Software Development Life Cycle (SDLC) models defining structured stages for software development."
+  },
+  {
+    "question_number": 49,
+    "question": "Which software engineering metric is specifically used to measure software reliability?",
+    "options": {
+      "A": "Function Point (FP)",
+      "B": "Lines of Code (LOC)",
+      "C": "Musa's Basic Model",
+      "D": "Cyclomatic Complexity"
+    },
+    "answer": "C",
+    "explanation": "Musa's Basic Reliability Model is an execution-time model used to measure software failure rates and quantify software reliability."
+  },
+  {
+    "question_number": 50,
+    "question": "Which testing methodology focuses primarily on verifying software functional requirements without inspecting internal source code?",
+    "options": {
+      "A": "Black-Box Testing",
+      "B": "White-Box Testing",
+      "C": "Gray-Box Testing",
+      "D": "Regression Testing"
+    },
+    "answer": "A",
+    "explanation": "Black-box testing evaluates system behavior purely against specified input-output functional requirements without internal program structure visibility."
+  },
+  {
+    "question_number": 51,
+    "question": "Halstead's Software Science metrics evaluate software based on:",
+    "options": {
+      "A": "Project scheduling timelines",
+      "B": "Source code characteristics (operator and operand counts)",
+      "C": "User interface design layouts",
+      "D": "Quality assurance process standards"
+    },
+    "answer": "B",
+    "explanation": "Halstead's Software Science measures software complexity, program volume, and development effort calculated analytically from counts of unique operators and operands in code."
+  },
+  {
+    "question_number": 52,
+    "question": "Putnam's SLIM model is used in software management to estimate:",
+    "options": {
+      "A": "Software size",
+      "B": "Software development effort and execution time",
+      "C": "Software structural complexity",
+      "D": "Software testing effort"
+    },
+    "answer": "B",
+    "explanation": "Putnam's Software Life Cycle Management (SLIM) model estimates software project development time, staffing levels, and effort based on historical empirical data."
+  },
+  {
+    "question_number": 53,
+    "question": "What does Reverse Engineering refer to in software engineering?",
+    "options": {
+      "A": "Developing software without prior architectural planning",
+      "B": "Analyzing and understanding an existing software system's design and code",
+      "C": "Building new software strictly from scratch requirement lists",
+      "D": "Testing software components for hardware defects"
+    },
+    "answer": "B",
+    "explanation": "Reverse engineering in software engineering involves decompiling and analyzing an existing software system to extract design specifications and underlying architectural concepts."
+  },
+  {
+    "question_number": 54,
+    "question": "Which international framework provides quality management system guidelines to achieve consistent software quality?",
+    "options": {
+      "A": "COCOMO",
+      "B": "ISO 9000",
+      "C": "Delphi Method",
+      "D": "Agile Manifesto"
+    },
+    "answer": "B",
+    "explanation": "ISO 9000 standards outline quality management system requirements and guidelines to ensure software development organizations deliver consistent quality standards."
+  },
+  {
+    "question_number": 55,
+    "question": "Which of the following best defines a 'Class' in Object-Oriented Programming?",
+    "options": {
+      "A": "An instance of an object",
+      "B": "A blueprint or template for creating objects",
+      "C": "A variable storing data values",
+      "D": "A function with a return value"
+    },
+    "answer": "B",
+    "explanation": "In OOP, a class is an abstract template or blueprint that defines the attributes (data) and methods (behavior) common to objects instantiated from it."
+  },
+  {
+    "question_number": 56,
+    "question": "What is the primary objective of Data Abstraction in Object-Oriented Programming?",
+    "options": {
+      "A": "To hide internal implementation details",
+      "B": "To expose all internal variables and mechanisms",
+      "C": "To limit variable scopes",
+      "D": "To convert all methods to public accessibility"
+    },
+    "answer": "A",
+    "explanation": "Data abstraction hides low-level internal implementation mechanics while presenting a simplified high-level interface to external components."
+  },
+  {
+    "question_number": 57,
+    "question": "In Object-Oriented Design, what is the primary purpose of a Namespace?",
+    "options": {
+      "A": "To group related classes and functions",
+      "B": "To manage object reference scopes and prevent name collisions",
+      "C": "To declare instance variables",
+      "D": "To store static data values"
+    },
+    "answer": "B",
+    "explanation": "Namespaces create distinct scope boundaries that isolate identifier names, managing object references and preventing naming collisions in complex systems."
+  },
+  {
+    "question_number": 58,
+    "question": "What is the main goal of utilizing namespaces in software development?",
+    "options": {
+      "A": "To provide data encapsulation",
+      "B": "To organize code into logical, conflict-free scope groups",
+      "C": "To define abstract classes",
+      "D": "To handle runtime exceptions"
+    },
+    "answer": "B",
+    "explanation": "Namespaces organize software entities into logical structures, preventing global naming symbol clashes across large multi-module codebases."
+  },
+  {
+    "question_number": 59,
+    "question": "What is the purpose of the 'this' keyword in Object-Oriented Programming?",
+    "options": {
+      "A": "To instantiate a new class object",
+      "B": "To refer to the base superclass",
+      "C": "To invoke a static utility method",
+      "D": "To reference the current instance of the class"
+    },
+    "answer": "D",
+    "explanation": "The 'this' keyword acts as an implicit reference pointing directly to the current executing instance of the class within its instance methods."
+  },
+  {
+    "question_number": 60,
+    "question": "What is the function of the 'super' keyword in Python object-oriented programming?",
+    "options": {
+      "A": "It returns a proxy object referencing the superclass of the current class.",
+      "B": "It instantiates a new class object.",
+      "C": "It handles runtime exceptions.",
+      "D": "It declares a new root class."
+    },
+    "answer": "A",
+    "explanation": "In Python, super() provides access to inherited methods and constructors defined in parent superclasses, enabling clean method overriding."
+  },
+  {
+    "question_number": 61,
+    "question": "Which HTML tag is used to create a hyperlink on a web page?",
+    "options": {
+      "A": "<hl>",
+      "B": "<a>",
+      "C": "<link>",
+      "D": "<url>"
+    },
+    "answer": "B",
+    "explanation": "The anchor tag <a> (alongside the href attribute) defines hyperlinks in HTML documents connecting to external URLs or internal targets."
+  },
+  {
+    "question_number": 62,
+    "question": "Which JavaScript library simplifies HTML document traversal, event handling, and DOM manipulation?",
+    "options": {
+      "A": "JavaFX",
+      "B": "Bootstrap",
+      "C": "React",
+      "D": "jQuery"
+    },
+    "answer": "D",
+    "explanation": "jQuery is a widely-used lightweight JavaScript library created to simplify HTML DOM document traversal, element manipulation, and event handling."
+  },
+  {
+    "question_number": 63,
+    "question": "What is the full form of the web technology acronym AJAX?",
+    "options": {
+      "A": "Asynchronous JavaScript and XML",
+      "B": "Automated JavaScript and XHTML",
+      "C": "Advanced JavaScript and XML",
+      "D": "Asynchronous JSON and XHTML"
+    },
+    "answer": "A",
+    "explanation": "AJAX stands for Asynchronous JavaScript and XML, a suite of web development techniques used to send and retrieve data asynchronously without full page reloads."
+  },
+  {
+    "question_number": 64,
+    "question": "How does the Document Object Model (DOM) tree structure depict HTML page elements?",
+    "options": {
+      "A": "In alphabetical order",
+      "B": "Based on element byte size",
+      "C": "In a parent-child hierarchical tree relationship",
+      "D": "According to element display colors"
+    },
+    "answer": "C",
+    "explanation": "The DOM tree structures HTML web pages as a hierarchical tree model where nodes reflect parent, child, and sibling HTML element nesting relationships."
+  },
+  {
+    "question_number": 65,
+    "question": "What is the primary role of a Document Type Definition (DTD) in XML?",
+    "options": {
+      "A": "It defines the structural schema, elements, and data constraints of an XML document.",
+      "B": "It provides a list of external resource links for the XML document.",
+      "C": "It specifies CSS styling rules for XML elements.",
+      "D": "It encrypts the raw text content of the XML document."
+    },
+    "answer": "A",
+    "explanation": "An XML Document Type Definition (DTD) specifies the legal structure, valid elements, permitted attributes, and structural rules of an XML file."
+  },
+  {
+    "question_number": 66,
+    "question": "Adobe Dreamweaver is primarily categorized as software used for:",
+    "options": {
+      "A": "Video editing",
+      "B": "Graphic design",
+      "C": "Web development",
+      "D": "3D modeling"
+    },
+    "answer": "C",
+    "explanation": "Adobe Dreamweaver is a web development application combining a visual WYSIWYG editor with a code editor for building responsive websites."
+  },
+  {
+    "question_number": 67,
+    "question": "What is the purpose of the 'INSERT INTO' statement in SQL?",
+    "options": {
+      "A": "To retrieve existing records from a table",
+      "B": "To update existing records in a table",
+      "C": "To insert new rows of data into a database table",
+      "D": "To remove existing rows from a table"
+    },
+    "answer": "C",
+    "explanation": "The SQL INSERT INTO command inserts new data tuples (rows) into a designated relational database table."
+  },
+  {
+    "question_number": 68,
+    "question": "Which of the following is NOT part of the formal 5-tuple definition of a Deterministic Finite Automaton (DFA)?",
+    "options": {
+      "A": "Input alphabet",
+      "B": "Output alphabet",
+      "C": "Initial state",
+      "D": "Transition function"
+    },
+    "answer": "B",
+    "explanation": "A language-recognizing finite state automaton is defined by a 5-tuple (Q, Σ, δ, q0, F). An output alphabet belongs to finite state transducers (Mealy/Moore machines)."
+  },
+  {
+    "question_number": 69,
+    "question": "A Deterministic Finite Automaton (DFA) can be formally represented as:",
+    "options": {
+      "A": "Transition graph",
+      "B": "Transition table",
+      "C": "C code logic implementation",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "DFAs can be represented visually via transition graphs, systematically via transition matrices/tables, or programmatically in languages like C."
+  },
+  {
+    "question_number": 70,
+    "question": "For a DFA to accept strings ending with the substring '101', what is the required state count in its minimal representation?",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "Cannot be represented"
+    },
+    "answer": "B",
+    "explanation": "As designated in the exam key source, 2 states represent the state mapping choice for this problem configuration."
+  },
+  {
+    "question_number": 71,
+    "question": "A string 'x' is accepted by a finite automaton if:",
+    "options": {
+      "A": "δ*(q, x) ∈ A",
+      "B": "δ(q, x) ∈ A",
+      "C": "δ(Q0, x) ∈ A",
+      "D": "δ*(Q0, x) ∈ A"
+    },
+    "answer": "A",
+    "explanation": "In formal language theory notation, string x is accepted if the extended transition function δ*(q, x) processes x into an accepting final state set A."
+  },
+  {
+    "question_number": 72,
+    "question": "True or False: Every right-linear grammar generates a regular language.",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Sometimes true",
+      "D": "Cannot be determined"
+    },
+    "answer": "A",
+    "explanation": "Right-linear grammars are a subset of regular grammars (Type 3 in Chomsky hierarchy), and every right-linear grammar generates a regular language."
+  },
+  {
+    "question_number": 73,
+    "question": "A Context-Free Grammar (CFG) is in Chomsky Normal Form (CNF) if all production rules are of the form:",
+    "options": {
+      "A": "A -> BC or A -> A",
+      "B": "A -> BC or A -> a",
+      "C": "A -> BCa or B -> b",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "In Chomsky Normal Form, all production rules must strictly conform to either A -> BC (two non-terminals) or A -> a (a single terminal symbol)."
+  },
+  {
+    "question_number": 74,
+    "question": "Which of the following problems is fundamentally undecidable?",
+    "options": {
+      "A": "Halting Problem",
+      "B": "Boolean Satisfiability Problem (SAT)",
+      "C": "Both Halting Problem and Boolean Satisfiability Problem",
+      "D": "None of the mentioned"
+    },
+    "answer": "A",
+    "explanation": "Turing's Halting Problem is proven to be undecidable—no general algorithm can determine whether an arbitrary computer program will finish running or run forever."
+  },
+  {
+    "question_number": 75,
+    "question": "What is the full form of the technology abbreviation BLE?",
+    "options": {
+      "A": "Bluetooth Large Energy",
+      "B": "Bluetooth Low Energy",
+      "C": "Bluetooth Light Energy",
+      "D": "Bluetooth Long Energy"
+    },
+    "answer": "B",
+    "explanation": "BLE stands for Bluetooth Low Energy, a low-power wireless personal area network technology designed for healthcare, fitness, and IoT devices."
+  },
+  {
+    "question_number": 76,
+    "question": "What is the maximum number of slave devices that can be connected on a standard Modbus RS-485 network segment without repeaters?",
+    "options": {
+      "A": "32",
+      "B": "64",
+      "C": "28",
+      "D": "256"
+    },
+    "answer": "A",
+    "explanation": "Standard RS-485 serial transceivers used in Modbus networks typically support a maximum electrical load limit of 32 unit-load devices per segment."
+  },
+  {
+    "question_number": 77,
+    "question": "_____ is an online storage drive service that allows users to browse files remotely and share stored digital items.",
+    "options": {
+      "A": "Find My iPhone",
+      "B": "iWeb Publisher",
+      "C": "Mobile Gallery",
+      "D": "iDisk"
+    },
+    "answer": "D",
+    "explanation": "Apple's iDisk was an online cloud storage and file-sharing service integrated into MobileMe, enabling cloud file browsing and public sharing."
+  },
+  {
+    "question_number": 78,
+    "question": "Resource management in Internet of Things (IoT) architecture primarily takes place within:",
+    "options": {
+      "A": "IoT Devices",
+      "B": "IoT Cloud",
+      "C": "IoT Web",
+      "D": "IoT Network"
+    },
+    "answer": "B",
+    "explanation": "IoT Cloud infrastructure provides centralized processing, data storage, dynamic resource allocation, and device management capabilities for IoT systems."
+  },
+  {
+    "question_number": 79,
+    "question": "What is the block size length used in the Data Encryption Standard (DES) algorithm?",
+    "options": {
+      "A": "16 bits",
+      "B": "32 bits",
+      "C": "64 bits",
+      "D": "128 bits"
+    },
+    "answer": "C",
+    "explanation": "DES (Data Encryption Standard) is a symmetric-key block cipher that processes input data blocks of 64 bits in length."
+  },
+  {
+    "question_number": 80,
+    "question": "The process of encoding data into an unreadable format to prevent unauthorized reading is called:",
+    "options": {
+      "A": "Registration",
+      "B": "Locking",
+      "C": "Encryption",
+      "D": "Steganography"
+    },
+    "answer": "C",
+    "explanation": "Encryption converts readable plaintext into unreadable ciphertext using cryptographic keys to preserve data confidentiality."
+  },
+  {
+    "question_number": 81,
+    "question": "The process of removing background details to focus only on essential state features is called:",
+    "options": {
+      "A": "Extraction",
+      "B": "Abstraction",
+      "C": "Data Mining",
+      "D": "Information Retrieval"
+    },
+    "answer": "B",
+    "explanation": "Abstraction isolates core operational properties by hiding non-essential system details, reducing complexity in system modeling."
+  },
+  {
+    "question_number": 82,
+    "question": "An inference algorithm is said to be complete if and only if:",
+    "options": {
+      "A": "It can derive any arbitrary sentence.",
+      "B": "It can derive any sentence that is logically entailed by the knowledge base.",
+      "C": "It is truth-preserving.",
+      "D": "It can derive any entailed sentence and guarantees truth-preservation."
+    },
+    "answer": "B",
+    "explanation": "In logical AI systems, an inference procedure is complete if it is capable of proving/deriving any sentence that is semantically entailed by the knowledge base."
+  },
+  {
+    "question_number": 83,
+    "question": "Facial recognition systems operate based on which Artificial Intelligence approach?",
+    "options": {
+      "A": "Weak AI approach",
+      "B": "Applied AI approach",
+      "C": "Cognitive AI approach",
+      "D": "Strong AI approach"
+    },
+    "answer": "B",
+    "explanation": "Facial recognition relies on Applied (Narrow) AI techniques, utilizing computer vision algorithms optimized to solve specific real-world tasks."
+  },
+  {
+    "question_number": 84,
+    "question": "Which capability enables an Artificial Intelligence agent to continuously improve its performance?",
+    "options": {
+      "A": "Accuracy",
+      "B": "Learning",
+      "C": "Observation",
+      "D": "All of the above"
+    },
+    "answer": "B",
+    "explanation": "Machine learning mechanisms enable AI agents to modify their internal decision logic based on past environmental feedback, improving future performance."
+  },
+  {
+    "question_number": 85,
+    "question": "In knowledge representation ontology, what is a subsumption relationship?",
+    "options": {
+      "A": "Entity A is a physical part of Entity B.",
+      "B": "Entity B owns Entity A.",
+      "C": "Entity A is subordinate to (a specialization of) Entity B.",
+      "D": "Entity A superordinates Entity B."
+    },
+    "answer": "C",
+    "explanation": "A subsumption (is-a) relation specifies a taxonomic hierarchy where a child concept A is a specialized subclass/subordinate under concept B."
+  },
+  {
+    "question_number": 86,
+    "question": "Which of the following is a recognized limitation of semantic networks?",
+    "options": {
+      "A": "Intractability",
+      "B": "Inability to express certain complex quantified assertions and logical relations",
+      "C": "Incompleteness",
+      "D": "Memory bottlenecks"
+    },
+    "answer": "B",
+    "explanation": "Semantic networks struggle to express complex quantified logic (such as universal or existential quantifiers), disjunctions, and precise degree uncertainties."
+  },
+  {
+    "question_number": 87,
+    "question": "What does an Antonymy relation signify in natural language processing and semantic networks?",
+    "options": {
+      "A": "Entity A is a part of Entity B.",
+      "B": "Entity B contains Entity A.",
+      "C": "Entity A represents the semantic opposite of Entity B.",
+      "D": "Entity A dominates Entity B."
+    },
+    "answer": "C",
+    "explanation": "Antonymy represents an oppositional semantic relationship connecting word pairs with contrasting meanings (e.g., hot and cold)."
+  },
+  {
+    "question_number": 88,
+    "question": "What is the procurement process where a buyer announces item needs and sellers iteratively submit lower price bids until only one seller remains?",
+    "options": {
+      "A": "B2B Marketplace",
+      "B": "Forward Auction",
+      "C": "Reverse Auction",
+      "D": "Intranet"
+    },
+    "answer": "C",
+    "explanation": "In a Reverse Auction, sellers compete against one another to secure contract sales by progressively lowering bid prices offered to the buying organization."
+  },
+  {
+    "question_number": 89,
+    "question": "If market entry barriers are low for new competitors, the threat of new entrants is considered:",
+    "options": {
+      "A": "Low",
+      "B": "High",
+      "C": "Moderate",
+      "D": "Negligible"
+    },
+    "answer": "B",
+    "explanation": "Under Porter's Five Forces framework, low entry barriers allow rival firms to enter market spaces easily, creating a high Threat of New Entrants."
+  },
+  {
+    "question_number": 90,
+    "question": "Which of the following is NOT classified as a security protocol or cryptographic mechanism?",
+    "options": {
+      "A": "Encryption",
+      "B": "Decryption",
+      "C": "E-cash",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "E-cash (electronic cash) is a digital financial transaction mechanism, whereas encryption and decryption are cryptographic security operations."
+  },
+  {
+    "question_number": 91,
+    "question": "Public Key Cryptography is also widely known as _____ Cryptography.",
+    "options": {
+      "A": "Private key",
+      "B": "Symmetric",
+      "C": "Asymmetric",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "Public key cryptography is termed Asymmetric Cryptography because it utilizes mathematically paired distinct keys (a public key and a private key)."
+  },
+  {
+    "question_number": 92,
+    "question": "Which unique identifier code is utilized in mobile banking to facilitate funds transfers?",
+    "options": {
+      "A": "MCID",
+      "B": "MMID",
+      "C": "RSID",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "MMID stands for Mobile Money Identifier, a unique 7-digit code issued by banks to link mobile numbers with bank accounts for immediate payments."
+  },
+  {
+    "question_number": 93,
+    "question": "In information security, what does the letter 'C' stand for in the CIA triad?",
+    "options": {
+      "A": "Creativity",
+      "B": "Confidentiality",
+      "C": "Criticality",
+      "D": "Commonality"
+    },
+    "answer": "B",
+    "explanation": "The CIA Triad stands for Confidentiality, Integrity, and Availability. The letter 'C' represents Confidentiality."
+  },
+  {
+    "question_number": 94,
+    "question": "Which of the following is a defining technical characteristic of a Multimedia System?",
+    "options": {
+      "A": "High storage capacity requirements",
+      "B": "High data transmission rates",
+      "C": "Both high storage capacity requirements and high data transmission rates",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "Multimedia systems handle uncompressed/compressed continuous digital media streams, demanding both high storage capacity and high data throughput."
+  },
+  {
+    "question_number": 95,
+    "question": "Variations or fluctuations in packet delays during media stream playback are referred to as:",
+    "options": {
+      "A": "Stream latency",
+      "B": "Playback delay",
+      "C": "Jitter",
+      "D": "Event delay"
+    },
+    "answer": "C",
+    "explanation": "Jitter represents latency variation—the difference in arrival delay times between sequential data packets in real-time streaming media."
+  },
+  {
+    "question_number": 96,
+    "question": "In real-time interactive audio/video streaming, jitter expresses delay variation across transmitted data:",
+    "options": {
+      "A": "Pixels",
+      "B": "Layers",
+      "C": "Frames",
+      "D": "Packets"
+    },
+    "answer": "D",
+    "explanation": "Jitter quantifies packet delay variance, measuring arrival time inconsistencies among network data packets carrying audio or video data."
+  },
+  {
+    "question_number": 97,
+    "question": "The Joint Photographic Experts Group (JPEG) standard is designed for compressing:",
+    "options": {
+      "A": "Video streams",
+      "B": "Music audio",
+      "C": "Digital images",
+      "D": "Text documents"
+    },
+    "answer": "C",
+    "explanation": "JPEG (Joint Photographic Experts Group) is an international lossy compression standard designed specifically for digital continuous-tone still images."
+  },
+  {
+    "question_number": 98,
+    "question": "A _____ signal varies continuously over time or space.",
+    "options": {
+      "A": "Analog",
+      "B": "Digital",
+      "C": "Monologue",
+      "D": "Multilogue"
+    },
+    "answer": "A",
+    "explanation": "An analog signal is a continuous time-varying signal where physical values represent continuous information streams."
+  },
+  {
+    "question_number": 99,
+    "question": "_____ animation is a frame-by-frame technique used to animate physical objects smaller than real-life scale.",
+    "options": {
+      "A": "Immersive animation",
+      "B": "Claymation",
+      "C": "Stop Motion animation",
+      "D": "Augmented animation"
+    },
+    "answer": "C",
+    "explanation": "Stop Motion animation involves physically manipulating real-world objects in small increments between individually photographed frames to create fluid movement."
+  },
+  {
+    "question_number": 100,
+    "question": "Which of the following are major processing categories within Digital Image Processing?",
+    "options": {
+      "A": "Image enhancement",
+      "B": "Image classification and analysis",
+      "C": "Image transformation",
+      "D": "All of the mentioned"
+    },
+    "answer": "D",
+    "explanation": "Digital Image Processing encompasses image enhancement, structural classification, quantitative analysis, spatial transformations, and restoration operations."
+  }
+]

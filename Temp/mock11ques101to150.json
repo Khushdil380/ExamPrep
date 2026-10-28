@@ -1,0 +1,552 @@
+[
+{
+"question_number": 101,
+"question": "Which of the following is the primary objective of micro-teaching in teacher training?",
+"options": {
+"A": "To teach large classes effectively",
+"B": "To master specific teaching skills in a controlled environment",
+"C": "To complete the course syllabus quickly",
+"D": "To evaluate student academic performance"
+},
+"answer": "B"
+},
+{
+"question_number": 102,
+"question": "According to Bloom's Taxonomy, which cognitive domain level involves breaking down information into component parts to understand its structure?",
+"options": {
+"A": "Understanding",
+"B": "Applying",
+"C": "Analyzing",
+"D": "Evaluating"
+},
+"answer": "C"
+},
+{
+"question_number": 103,
+"question": "In the context of lesson planning, what is the main purpose of five-step Herbartian approach?",
+"options": {
+"A": "To systematically organize classroom presentation",
+"B": "To assess student behavior at the end of the year",
+"C": "To replace traditional textbooks",
+"D": "To eliminate homework assignments"
+},
+"answer": "A"
+},
+{
+"question_number": 104,
+"question": "Formative evaluation is primarily conducted to:",
+"options": {
+"A": "Assign final grades to students",
+"B": "Monitor learning progress and provide ongoing feedback",
+"C": "Select students for competitive scholarships",
+"D": "Certify student completion of a course"
+},
+"answer": "B"
+},
+{
+"question_number": 105,
+"question": "Which teaching method is based on the philosophy of 'Learning by Doing'?",
+"options": {
+"A": "Lecture Method",
+"B": "Demonstration Method",
+"C": "Project Method",
+"D": "Textbook Method"
+},
+"answer": "C"
+},
+{
+"question_number": 106,
+"question": "Inclusive Education refers to a system where:",
+"options": {
+"A": "Children with special needs are taught in separate schools",
+"B": "All children regardless of their abilities learn together in regular classrooms",
+"C": "Only gifted students receive advanced instruction",
+"D": "Vocational education is mandated for economically weak students"
+},
+"answer": "B"
+},
+{
+"question_number": 107,
+"question": "Which type of reinforcement is most effective in sustaining long-term behavioral change according to operant conditioning?",
+"options": {
+"A": "Continuous reinforcement",
+"B": "Variable ratio reinforcement",
+"C": "Fixed interval reinforcement",
+"D": "Negative punishment"
+},
+"answer": "B"
+},
+{
+"question_number": 108,
+"question": "What is the primary role of a teacher in a learner-centered classroom?",
+"options": {
+"A": "An authoritative source of knowledge",
+"B": "A facilitator and guide of learning experiences",
+"C": "A strict evaluator of discipline",
+"D": "A passive observer during activities"
+},
+"answer": "B"
+},
+{
+"question_number": 109,
+"question": "Which audio-visual teaching aid is categorized as a 3-dimensional non-projected aid?",
+"options": {
+"A": "Blackboard",
+"B": "Epidiascope",
+"C": "Model/Mock-up",
+"D": "Filmstrip"
+},
+"answer": "C"
+},
+{
+"question_number": 110,
+"question": "Diagnostic assessment is used by teachers to identify:",
+"options": {
+"A": "Student ranking in class",
+"B": "Specific learning difficulties and gaps in understanding",
+"C": "Overall intelligence quotient (IQ)",
+"D": "Attendance patterns of students"
+},
+"answer": "B"
+},
+{
+"question_number": 111,
+"question": "According to Jean Piaget, during which stage of cognitive development do children develop abstract logical thinking?",
+"options": {
+"A": "Sensorimotor Stage",
+"B": "Pre-operational Stage",
+"C": "Concrete Operational Stage",
+"D": "Formal Operational Stage"
+},
+"answer": "D"
+},
+{
+"question_number": 112,
+"question": "Constructivist learning theory emphasizes that knowledge is:",
+"options": {
+"A": "Passively received from teachers",
+"B": "Actively constructed by the learner based on prior experience",
+"C": "Stored verbatim in long-term memory",
+"D": "Acquired strictly through rote memorization"
+},
+"answer": "B"
+},
+{
+"question_number": 113,
+"question": "Effective classroom management is best achieved through:",
+"options": {
+"A": "Strict punishment for every rule violation",
+"B": "Establishing clear routines and engaging learning activities",
+"C": "Allowing total freedom without any rules",
+"D": "Relying solely on external rewards"
+},
+"answer": "B"
+},
+{
+"question_number": 114,
+"question": "The concept of 'Zone of Proximal Development' (ZPD) was proposed by:",
+"options": {
+"A": "Jerome Bruner",
+"B": "Lev Vygotsky",
+"C": "B.F. Skinner",
+"D": "John Dewey"
+},
+"answer": "B"
+},
+{
+"question_number": 115,
+"question": "Which of the following is an example of Intrinsic Motivation?",
+"options": {
+"A": "Studying to win a cash prize",
+"B": "Solving a puzzle out of curiosity and personal satisfaction",
+"C": "Completing homework to avoid teacher punishment",
+"D": "Working hard to gain social recognition"
+},
+"answer": "B"
+},
+{
+"question_number": 116,
+"question": "Which law of learning given by Edward Thorndike emphasizes the role of practice and repetition?",
+"options": {
+"A": "Law of Readiness",
+"B": "Law of Exercise",
+"C": "Law of Effect",
+"D": "Law of Intensity"
+},
+"answer": "B"
+},
+{
+"question_number": 117,
+"question": "What is the key characteristic of Heuristic Method of teaching proposed by H.E. Armstrong?",
+"options": {
+"A": "Students act as independent discoverers/investigators",
+"B": "Teachers deliver pre-prepared lectures",
+"C": "Memorization of definitions and theorems",
+"D": "Group recitation of textbook answers"
+},
+"answer": "A"
+},
+{
+"question_number": 118,
+"question": "A rubric in educational assessment is best described as:",
+"options": {
+"A": "A standardized multiple-choice answer key",
+"B": "A scoring guide used to evaluate performance against criteria",
+"C": "A software used for calculating grade point average",
+"D": "A syllabus breakdown document"
+},
+"answer": "B"
+},
+{
+"question_number": 119,
+"question": "Which leadership style in teaching encourages active participation and shared decision-making?",
+"options": {
+"A": "Authoritarian",
+"B": "Democratic",
+"C": "Laissez-faire",
+"D": "Autocratic"
+},
+"answer": "B"
+},
+{
+"question_number": 120,
+"question": "Action Research in education is primarily conducted by:",
+"options": {
+"A": "University professors for publishing theoretical research papers",
+"B": "Practicing teachers to solve immediate classroom problems",
+"C": "Government officials to formulate national policy",
+"D": "Standardized testing agencies"
+},
+"answer": "B"
+},
+{
+"question_number": 121,
+"question": "National Education Policy (NEP) 2020 replaced the old 10+2 curricular structure with which new structure?",
+"options": {
+"A": "5+3+3+4",
+"B": "3+5+3+4",
+"C": "4+3+3+5",
+"D": "5+4+3+3"
+},
+"answer": "A"
+},
+{
+"question_number": 122,
+"question": "Micro-teaching cycle typically consists of which sequence of steps?",
+"options": {
+"A": "Plan -> Teach -> Feedback -> Re-plan -> Re-teach -> Re-feedback",
+"B": "Teach -> Plan -> Feedback -> Re-teach -> Re-plan",
+"C": "Feedback -> Plan -> Teach -> Re-feedback -> Re-teach",
+"D": "Plan -> Teach -> Test -> Grade -> Remediate"
+},
+"answer": "A"
+},
+{
+"question_number": 123,
+"question": "Which type of test is designed to measure a student's potential or natural ability to learn new skills?",
+"options": {
+"A": "Achievement Test",
+"B": "Aptitude Test",
+"C": "Diagnostic Test",
+"D": "Prognostic Test"
+},
+"answer": "B"
+},
+{
+"question_number": 124,
+"question": "In classroom questioning, 'probing questions' are used to:",
+"options": {
+"A": "Embarrass weak students",
+"B": "Encourage deeper thinking and clarification from students",
+"C": "Test immediate recall of factual definitions",
+"D": "Maintain silence in the classroom"
+},
+"answer": "B"
+},
+{
+"question_number": 125,
+"question": "The concept of 'Learning Without Burden' was emphasized by which committee report?",
+"options": {
+"A": "Kothari Commission (1964-66)",
+"B": "Yashpal Committee (1993)",
+"C": "Mudaliar Commission (1952)",
+"D": "Radhakrishnan Commission (1948)"
+},
+"answer": "B"
+},
+{
+"question_number": 126,
+"question": "Brainstorming as a teaching strategy is mainly used for enhancing:",
+"options": {
+"A": "Rote memory",
+"B": "Creative and divergent thinking",
+"C": "Handwriting skills",
+"D": "Reading speed"
+},
+"answer": "B"
+},
+{
+"question_number": 127,
+"question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+"options": {
+"A": "Only cognitive aspects of growth",
+"B": "Both scholastic and co-scholastic aspects of student development",
+"C": "Only sports and extracurricular activities",
+"D": "Teacher performance annually"
+},
+"answer": "B"
+},
+{
+"question_number": 128,
+"question": "Which domain in Bloom's taxonomy is concerned with attitudes, values, and emotions?",
+"options": {
+"A": "Cognitive Domain",
+"B": "Affective Domain",
+"C": "Psychomotor Domain",
+"D": "Perceptual Domain"
+},
+"answer": "B"
+},
+{
+"question_number": 129,
+"question": "The term 'Scaffolding' in education refers to:",
+"options": {
+"A": "Building physical infrastructure in schools",
+"B": "Temporary support given by a teacher or more knowledgeable peer during learning",
+"C": "Permanent assistance for exams",
+"D": "Grouping students by academic rank"
+},
+"answer": "B"
+},
+{
+"question_number": 130,
+"question": "Team Teaching involves:",
+"options": {
+"A": "Two or more teachers jointly planning, teaching, and evaluating a course for the same group of students",
+"B": "Students teaching each other in small groups",
+"C": "A teacher acting as a sports coach",
+"D": "Teaching administrative staff members"
+},
+"answer": "A"
+},
+{
+"question_number": 131,
+"question": "Which Article of the Indian Constitution ensures the Right to Education (RTE) as a Fundamental Right for children aged 6 to 14 years?",
+"options": {
+"A": "Article 19",
+"B": "Article 21A",
+"C": "Article 45",
+"D": "Article 51A"
+},
+"answer": "B"
+},
+{
+"question_number": 132,
+"question": "The famous Vikramshila University was founded by which ruler of the Pala dynasty in Bihar?",
+"options": {
+"A": "Gopala",
+"B": "Dharmapala",
+"C": "Devapala",
+"D": "Mahipala"
+},
+"answer": "B"
+},
+{
+"question_number": 133,
+"question": "Which river is historically known as the 'Sorrow of Bihar' due to its frequent floods and course changes?",
+"options": {
+"A": "Gandak River",
+"B": "Kosi River",
+"C": "Son River",
+"D": "Punpun River"
+},
+"answer": "B"
+},
+{
+"question_number": 134,
+"question": "Who was the leader of the 1857 Revolt in Bihar (Arrah region)?",
+"options": {
+"A": "Nana Sahib",
+"B": "Veer Kunwar Singh",
+"C": "Tantia Tope",
+"D": "Khan Bahadur Khan"
+},
+"answer": "B"
+},
+{
+"question_number": 135,
+"question": "Which planet in our solar system is known as the 'Red Planet'?",
+"options": {
+"A": "Venus",
+"B": "Mars",
+"C": "Jupiter",
+"D": "Saturn"
+},
+"answer": "B"
+},
+{
+"question_number": 136,
+"question": "Which gas is primarily responsible for the Phenomenon of Global Warming?",
+"options": {
+"A": "Oxygen",
+"B": "Carbon Dioxide",
+"C": "Nitrogen",
+"D": "Argon"
+},
+"answer": "B"
+},
+{
+"question_number": 137,
+"question": "The primary cause of Minamata Disease is contamination of water by which industrial pollutant?",
+"options": {
+"A": "Lead",
+"B": "Mercury",
+"C": "Cadmium",
+"D": "Arsenic"
+},
+"answer": "B"
+},
+{
+"question_number": 138,
+"question": "In an ecological food chain, primary consumers are classified as:",
+"options": {
+"A": "Producers",
+"B": "Herbivores",
+"C": "Carnivores",
+"D": "Decomposers"
+},
+"answer": "B"
+},
+{
+"question_number": 139,
+"question": "Ozone layer depletion in the stratosphere is mainly caused by:",
+"options": {
+"A": "Chlorofluorocarbons (CFCs)",
+"B": "Methane",
+"C": "Carbon Monoxide",
+"D": "Sulfur Dioxide"
+},
+"answer": "A"
+},
+{
+"question_number": 140,
+"question": "World Environment Day is celebrated annually on which date?",
+"options": {
+"A": "22nd April",
+"B": "5th June",
+"C": "16th September",
+"D": "1st December"
+},
+"answer": "B"
+},
+{
+"question_number": 141,
+"question": "If an item bought for Rs. 400 is sold for Rs. 500, what is the profit percentage?",
+"options": {
+"A": "20%",
+"B": "25%",
+"C": "30%",
+"D": "15%"
+},
+"answer": "B"
+},
+{
+"question_number": 142,
+"question": "Find the missing number in the series: 4, 9, 16, 25, 36, ?",
+"options": {
+"A": "40",
+"B": "49",
+"C": "50",
+"D": "64"
+},
+"answer": "B"
+},
+{
+"question_number": 143,
+"question": "The average of five consecutive numbers is 20. What is the largest of these numbers?",
+"options": {
+"A": "21",
+"B": "22",
+"C": "24",
+"D": "25"
+},
+"answer": "B"
+},
+{
+"question_number": 144,
+"question": "If 12 men can complete a piece of work in 20 days, how many days will 15 men take to complete the same work?",
+"options": {
+"A": "16 days",
+"B": "18 days",
+"C": "15 days",
+"D": "14 days"
+},
+"answer": "A"
+},
+{
+"question_number": 145,
+"question": "What is 15% of 480?",
+"options": {
+"A": "64",
+"B": "72",
+"C": "80",
+"D": "68"
+},
+"answer": "B"
+},
+{
+"question_number": 146,
+"question": "In a certain code, 'TEACHER' is written as 'VGCEJFT'. How is 'STUDENT' written in that code?",
+"options": {
+"A": "UVWFGPV",
+"B": "UVWFGVP",
+"C": "TVWFGPV",
+"D": "UVWEGPV"
+},
+"answer": "A"
+},
+{
+"question_number": 147,
+"question": "Pointing to a photograph, a man said, 'She is the daughter of my grandfather's only son.' How is the woman in the photograph related to the man?",
+"options": {
+"A": "Mother",
+"B": "Sister",
+"C": "Aunt",
+"D": "Daughter"
+},
+"answer": "B"
+},
+{
+"question_number": 148,
+"question": "Choose the word which is least like the other words in the group: Apple, Mango, Potato, Orange.",
+"options": {
+"A": "Apple",
+"B": "Mango",
+"C": "Potato",
+"D": "Orange"
+},
+"answer": "C"
+},
+{
+"question_number": 149,
+"question": "If '+' means 'x', '-' means '÷', 'x' means '+' and '÷' means '-', then calculate: 15 + 3 - 5 x 4 ÷ 2 = ?",
+"options": {
+"A": "11",
+"B": "13",
+"C": "9",
+"D": "15"
+},
+"answer": "A"
+},
+{
+"question_number": 150,
+"question": "Complete the analogy: Doctor : Patient :: Teacher : ?",
+"options": {
+"A": "School",
+"B": "Student",
+"C": "Classroom",
+"D": "Book"
+},
+"answer": "B"
+}
+]

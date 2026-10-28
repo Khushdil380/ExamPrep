@@ -1,0 +1,3609 @@
+{
+  "examName": "Bihar STET",
+  "testName": "Mock Test 11",
+  "totalQuestions": 150,
+  "durationMinutes": 150,
+  "instructions": "Bihar STET Paper 2 Computer Science practice mock test.",
+  "questions": [
+    {
+      "id": "stet-11-001",
+      "question": "Which type of counter uses a feedback mechanism to achieve a non-sequential counting sequence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Johnson counter"
+        },
+        {
+          "id": "B",
+          "text": "Ring counter"
+        },
+        {
+          "id": "C",
+          "text": "Up-counter"
+        },
+        {
+          "id": "D",
+          "text": "Down-counter"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A Johnson counter is a modified shift register counter where the inverted output of the last flip-flop is fed back as the input to the first flip-flop, creating a non-sequential state sequence using feedback."
+    },
+    {
+      "id": "stet-11-002",
+      "question": "How can an SR flip-flop be converted into a D flip-flop by connecting its inputs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "S = D', R = D'"
+        },
+        {
+          "id": "B",
+          "text": "S = D, R = D'"
+        },
+        {
+          "id": "C",
+          "text": "S = Q, R = Q'"
+        },
+        {
+          "id": "D",
+          "text": "S = Q', R = Q"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "To convert an SR flip-flop to a D flip-flop, input D is connected directly to S (Set) and through an inverter (NOT gate) to R (Reset), resulting in S = D and R = D'."
+    },
+    {
+      "id": "stet-11-003",
+      "question": "Which of the following numbers is a valid binary number?",
+      "options": [
+        {
+          "id": "A",
+          "text": "36"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "29"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A binary number consists exclusively of the digits 0 and 1. Among the given options, '10' contains only 0 and 1, making it a valid binary number."
+    },
+    {
+      "id": "stet-11-004",
+      "question": "How many bits are used in Gray code to represent a single decimal digit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 bits"
+        },
+        {
+          "id": "B",
+          "text": "8 bits"
+        },
+        {
+          "id": "C",
+          "text": "16 bits"
+        },
+        {
+          "id": "D",
+          "text": "10 bits"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Gray code requires 4 bits to represent decimal digits from 0 to 9, as 4 bits provide 2^4 = 16 unique binary combinations."
+    },
+    {
+      "id": "stet-11-005",
+      "question": "In a 4-bit binary adder-subtractor circuit, if the control input is set to subtraction mode, which operation is performed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bitwise AND"
+        },
+        {
+          "id": "B",
+          "text": "Bitwise OR"
+        },
+        {
+          "id": "C",
+          "text": "Bitwise XOR"
+        },
+        {
+          "id": "D",
+          "text": "Subtraction"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In an adder-subtractor circuit, setting the control signal to 1 configures the circuit to perform binary subtraction using 2's complement arithmetic."
+    },
+    {
+      "id": "stet-11-006",
+      "question": "An encoder is used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Convert an analog signal to a digital signal"
+        },
+        {
+          "id": "B",
+          "text": "Convert a digital signal to an analog signal"
+        },
+        {
+          "id": "C",
+          "text": "Encode binary information into a smaller set of output bits"
+        },
+        {
+          "id": "D",
+          "text": "Decode binary information into a larger set of output bits"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "An encoder is a combinational logic circuit that compresses multiple input signals into a smaller, coded set of binary output bits (e.g., 2^n inputs to n outputs)."
+    },
+    {
+      "id": "stet-11-007",
+      "question": "Which statement correctly describes a Programmable Logic Device (PLD)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PLDs can only be programmed once and cannot be reconfigured."
+        },
+        {
+          "id": "B",
+          "text": "PLDs are exclusively used for memory storage in digital circuits."
+        },
+        {
+          "id": "C",
+          "text": "PLDs allow programming of both input and output logic arrays to implement custom logic functions."
+        },
+        {
+          "id": "D",
+          "text": "PLDs contain only AND gates and do not include OR gates."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Programmable Logic Devices (PLDs) allow customization of internal logic array gates (AND/OR arrays) to implement flexible, user-defined Boolean logic functions."
+    },
+    {
+      "id": "stet-11-008",
+      "question": "In binary subtraction, if a negative binary result is obtained, what operation converts it into a positive magnitude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Invert all bits in the result"
+        },
+        {
+          "id": "B",
+          "text": "Add 1 to the result"
+        },
+        {
+          "id": "C",
+          "text": "Subtract the result from 0 (Take 2's complement)"
+        },
+        {
+          "id": "D",
+          "text": "Divide the result by -1"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In 2's complement representation, a negative result is converted to its positive binary equivalent by taking its 2's complement (inverting all bits and adding 1), equivalent to subtracting the result from 0."
+    },
+    {
+      "id": "stet-11-009",
+      "question": "Which alphanumeric coding system is most widely used to represent English text as well as text in many other languages across computer systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EBCDIC"
+        },
+        {
+          "id": "B",
+          "text": "Unicode"
+        },
+        {
+          "id": "C",
+          "text": "Excess-3 code"
+        },
+        {
+          "id": "D",
+          "text": "Gray code"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Unicode is a universal character encoding standard capable of representing characters, symbols, and scripts from virtually all modern and historical writing systems worldwide."
+    },
+    {
+      "id": "stet-11-010",
+      "question": "What is the equivalent Gray code for the binary number 0100?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0011"
+        },
+        {
+          "id": "B",
+          "text": "1100"
+        },
+        {
+          "id": "C",
+          "text": "0110"
+        },
+        {
+          "id": "D",
+          "text": "1001"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Converting binary 0100 to Gray code: MSB stays 0; G2 = B3 XOR B2 = 0 XOR 1 = 1; G1 = B2 XOR B1 = 1 XOR 0 = 1; G0 = B1 XOR B0 = 0 XOR 0 = 0. The resulting Gray code is 0110."
+    },
+    {
+      "id": "stet-11-011",
+      "question": "In a microcomputer system, what primary function does the address bus provide?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Communication between CPU and memory"
+        },
+        {
+          "id": "B",
+          "text": "Communication between CPU and input devices"
+        },
+        {
+          "id": "C",
+          "text": "Communication between CPU and output devices"
+        },
+        {
+          "id": "D",
+          "text": "Communication between memory and input devices"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The address bus is a unidirectional signal path used by the CPU to specify the memory locations (addresses) from which data is read or to which data is written."
+    },
+    {
+      "id": "stet-11-012",
+      "question": "Which company introduced the Intel 4004, the first commercially available microprocessor, in 1971?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IBM"
+        },
+        {
+          "id": "B",
+          "text": "Motorola"
+        },
+        {
+          "id": "C",
+          "text": "Intel"
+        },
+        {
+          "id": "D",
+          "text": "Texas Instruments"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Intel launched the Intel 4004 in November 1971, marking the historic release of the world's first single-chip commercial 4-bit microprocessor."
+    },
+    {
+      "id": "stet-11-013",
+      "question": "De Morgan's First Theorem states that the complement of the _____ of variables is equal to the _____ of their individual complements.",
+      "options": [
+        {
+          "id": "A",
+          "text": "AND, OR"
+        },
+        {
+          "id": "B",
+          "text": "OR, AND"
+        },
+        {
+          "id": "C",
+          "text": "NAND, NOR"
+        },
+        {
+          "id": "D",
+          "text": "NOR, NAND"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "De Morgan's First Theorem states that (A · B)' = A' + B', meaning the complement of a product (AND operation) equals the sum (OR operation) of the inverted variables."
+    },
+    {
+      "id": "stet-11-014",
+      "question": "What is the primary concept behind the time-space tradeoff in computer science?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reducing both time complexity and space complexity simultaneously"
+        },
+        {
+          "id": "B",
+          "text": "Increasing both time complexity and space complexity simultaneously"
+        },
+        {
+          "id": "C",
+          "text": "Improving time complexity at the cost of increased space complexity"
+        },
+        {
+          "id": "D",
+          "text": "Improving space complexity at the cost of increased time complexity"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The time-space tradeoff states that an algorithm can often achieve faster execution speed (lower time complexity) by allocating additional memory storage (higher space complexity), or vice versa."
+    },
+    {
+      "id": "stet-11-015",
+      "question": "Which mathematical property of Big-O notation states that if f(n) ∈ O(g(n)), then k * f(n) ∈ O(g(n)) for any positive constant k?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transitivity"
+        },
+        {
+          "id": "B",
+          "text": "Additive property"
+        },
+        {
+          "id": "C",
+          "text": "Multiplicative constant property"
+        },
+        {
+          "id": "D",
+          "text": "Reflexivity"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The multiplicative constant property of Big-O asymptotic notation dictates that multiplying a function by a positive constant factor k does not change its asymptotic growth class."
+    },
+    {
+      "id": "stet-11-016",
+      "question": "The recurrence relation T(n) = T(n/2) + 1 represents the time complexity of which algorithm design paradigm?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Divide and Conquer"
+        },
+        {
+          "id": "B",
+          "text": "Greedy Algorithm"
+        },
+        {
+          "id": "C",
+          "text": "Dynamic Programming"
+        },
+        {
+          "id": "D",
+          "text": "Brute Force"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The recurrence T(n) = T(n/2) + 1 characterizes divide-and-conquer algorithms that halve the problem size at each step with constant work per step, such as Binary Search."
+    },
+    {
+      "id": "stet-11-017",
+      "question": "Merge Sort is a sorting algorithm based on the divide-and-conquer paradigm. What is its worst-case time complexity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(n)"
+        },
+        {
+          "id": "B",
+          "text": "O(n log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n^2)"
+        },
+        {
+          "id": "D",
+          "text": "O(log n)"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Merge Sort recursively splits arrays into halves and merges them in linear time, guaranteeing O(n log n) time complexity across best, average, and worst cases."
+    },
+    {
+      "id": "stet-11-018",
+      "question": "If problem A is NP-complete and another problem B can be polynomial-time reduced from problem A, what can be concluded about problem B?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Problem B is also NP-complete"
+        },
+        {
+          "id": "B",
+          "text": "Problem B is in P"
+        },
+        {
+          "id": "C",
+          "text": "Problem B is undecidable"
+        },
+        {
+          "id": "D",
+          "text": "Problem B is not a decision problem"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In computational complexity theory, if an NP-complete problem polynomial-time reduces to problem B, then B is NP-hard, and if B is in NP, then B is NP-complete."
+    },
+    {
+      "id": "stet-11-019",
+      "question": "For a graph with 'n' vertices (having at least 3 biconnected components), how many edges are required?",
+      "options": [
+        {
+          "id": "A",
+          "text": "n"
+        },
+        {
+          "id": "B",
+          "text": "n + 1"
+        },
+        {
+          "id": "C",
+          "text": "n – 2"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined without knowing the vertex layout"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Based on structural graph bounds for minimal biconnected component configurations, the minimum edge bound is represented as n - 2."
+    },
+    {
+      "id": "stet-11-020",
+      "question": "What is the optimality principle in a multistage graph?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The shortest path between any two stages has the minimum number of edges."
+        },
+        {
+          "id": "B",
+          "text": "The shortest path between any two stages is the path with the minimum total cost/weight."
+        },
+        {
+          "id": "C",
+          "text": "The shortest path between any two stages has the maximum total cost."
+        },
+        {
+          "id": "D",
+          "text": "The shortest path between any two stages passes through the maximum vertices."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a multistage graph, the principle of optimality guarantees that an optimal path between source and destination stages consists of optimal sub-paths with the minimal cumulative cost."
+    },
+    {
+      "id": "stet-11-021",
+      "question": "Threaded binary trees are particularly useful for optimizing which type of tree traversal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preorder traversal"
+        },
+        {
+          "id": "B",
+          "text": "Inorder traversal"
+        },
+        {
+          "id": "C",
+          "text": "Postorder traversal"
+        },
+        {
+          "id": "D",
+          "text": "Level-order traversal"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Threaded binary trees utilize null pointers to store direct references to in-order predecessors or successors, enabling in-order traversal without requiring recursive calls or stack memory."
+    },
+    {
+      "id": "stet-11-022",
+      "question": "A perfect binary tree is a binary tree in which:",
+      "options": [
+        {
+          "id": "A",
+          "text": "All nodes contain identical values."
+        },
+        {
+          "id": "B",
+          "text": "All leaf nodes are at the same depth/level."
+        },
+        {
+          "id": "C",
+          "text": "All internal nodes have the same degree."
+        },
+        {
+          "id": "D",
+          "text": "The left subtree of every node has a greater height than the right subtree."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A perfect binary tree is a full binary tree in which all interior nodes have two children and all leaf nodes reside at the exact same depth or level."
+    },
+    {
+      "id": "stet-11-023",
+      "question": "Which collision resolution technique in hash tables involves placing collided elements into the next available empty slot?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Linear probing"
+        },
+        {
+          "id": "B",
+          "text": "Quadratic probing"
+        },
+        {
+          "id": "C",
+          "text": "Separate chaining"
+        },
+        {
+          "id": "D",
+          "text": "Double hashing"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Linear probing is an open-addressing technique that resolves hash collisions by sequentially scanning table slots (index + 1, index + 2, etc.) until an unoccupied slot is found."
+    },
+    {
+      "id": "stet-11-024",
+      "question": "Indexed Sequential Search improves upon plain sequential search by utilizing:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Linked lists for efficient searching"
+        },
+        {
+          "id": "B",
+          "text": "Index tables/arrays for efficient searching"
+        },
+        {
+          "id": "C",
+          "text": "Hashing for efficient searching"
+        },
+        {
+          "id": "D",
+          "text": "Binary search trees for efficient searching"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Indexed Sequential Search creates an auxiliary index table (array) pointing to memory blocks, allowing the search engine to skip directly to target blocks before executing sequential search."
+    },
+    {
+      "id": "stet-11-025",
+      "question": "In the Tower of Hanoi problem with 'n' disks, what is the minimum number of steps required to solve the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "n"
+        },
+        {
+          "id": "B",
+          "text": "2n"
+        },
+        {
+          "id": "C",
+          "text": "2^n – 1"
+        },
+        {
+          "id": "D",
+          "text": "2^n"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The minimum number of moves required to transfer n disks from a source rod to a target rod following Tower of Hanoi rules is given by the formula 2^n - 1."
+    },
+    {
+      "id": "stet-11-026",
+      "question": "Which of the following is NOT an Abstract Data Type (ADT)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stack"
+        },
+        {
+          "id": "B",
+          "text": "Integer"
+        },
+        {
+          "id": "C",
+          "text": "Queue"
+        },
+        {
+          "id": "D",
+          "text": "List"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An Integer is a primitive data type that directly represents numerical values, whereas Stack, Queue, and List are Abstract Data Types defined by operational behaviors rather than physical representation."
+    },
+    {
+      "id": "stet-11-027",
+      "question": "Which type of linked list is most suitable for implementing a Queue data structure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Singly linked list"
+        },
+        {
+          "id": "B",
+          "text": "Doubly linked list"
+        },
+        {
+          "id": "C",
+          "text": "Circularly linked list"
+        },
+        {
+          "id": "D",
+          "text": "Array implementation of linked list"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A Singly Linked List maintaining head and tail pointers provides optimal O(1) time complexity for Enqueue (insertion at rear) and Dequeue (deletion from front) queue operations."
+    },
+    {
+      "id": "stet-11-028",
+      "question": "Which memory storage allocation strategy allocates the largest available block of memory to a process, ensuring that the remaining fragment is as large as possible?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Best fit"
+        },
+        {
+          "id": "B",
+          "text": "Worst fit"
+        },
+        {
+          "id": "C",
+          "text": "First fit"
+        },
+        {
+          "id": "D",
+          "text": "Next fit"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Worst-Fit allocation algorithm selects the largest available memory partition for allocation to leave a leftover partition that remains large enough to accommodate other processes."
+    },
+    {
+      "id": "stet-11-029",
+      "question": "In multiprogramming with fixed partitioning, if a process requires more memory than is available in any single partition, what condition occurs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fragmentation"
+        },
+        {
+          "id": "B",
+          "text": "Deadlock"
+        },
+        {
+          "id": "C",
+          "text": "Priority inversion"
+        },
+        {
+          "id": "D",
+          "text": "Starvation"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In fixed-partition memory management, process memory requirements exceeding partition limits lead to internal or external memory fragmentation problems."
+    },
+    {
+      "id": "stet-11-030",
+      "question": "Banker's Algorithm is a classic example of a deadlock _____ algorithm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoidance"
+        },
+        {
+          "id": "B",
+          "text": "Detection"
+        },
+        {
+          "id": "C",
+          "text": "Prevention"
+        },
+        {
+          "id": "D",
+          "text": "Termination"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Banker's Algorithm is a deadlock avoidance algorithm that dynamically evaluates resource request allocations to ensure the operating system continuously remains in a safe state."
+    },
+    {
+      "id": "stet-11-031",
+      "question": "In the deadlock context, the 'No Preemption' condition means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Resources can be preempted from processes and assigned to others."
+        },
+        {
+          "id": "B",
+          "text": "Once a process holds a resource, it cannot be forcibly taken away."
+        },
+        {
+          "id": "C",
+          "text": "Processes can only hold resources for a fixed time slice."
+        },
+        {
+          "id": "D",
+          "text": "Processes must release resources after a predetermined period."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The No Preemption condition stipulates that allocated resources cannot be forcibly reclaimed from a holding process; they must be voluntarily released after process completion."
+    },
+    {
+      "id": "stet-11-032",
+      "question": "A resource allocation matrix is a data structure used in deadlock detection algorithms to represent:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Resource allocation states across processes"
+        },
+        {
+          "id": "B",
+          "text": "Process execution order"
+        },
+        {
+          "id": "C",
+          "text": "Process execution history"
+        },
+        {
+          "id": "D",
+          "text": "Process priorities"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Resource allocation matrices track the quantitative distribution of system resources currently allocated to or requested by active operating system processes."
+    },
+    {
+      "id": "stet-11-033",
+      "question": "The need for a command line interpreter arises because:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hardware cannot directly execute high-level user programs."
+        },
+        {
+          "id": "B",
+          "text": "All programming languages require an interpreter."
+        },
+        {
+          "id": "C",
+          "text": "Software cannot run on physical hardware."
+        },
+        {
+          "id": "D",
+          "text": "Users prefer typing commands over using a GUI."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Command line interpreters (shells) act as user-system interfaces that translate high-level user instructions into kernel commands executable by physical hardware."
+    },
+    {
+      "id": "stet-11-034",
+      "question": "What does the term 'NTFS' stand for in operating systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "New Technology File System"
+        },
+        {
+          "id": "B",
+          "text": "New Tree File System"
+        },
+        {
+          "id": "C",
+          "text": "New Table Type File System"
+        },
+        {
+          "id": "D",
+          "text": "Both New Technology File System and New Table Type File System"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "NTFS stands for New Technology File System, the standard file system developed by Microsoft for modern Windows operating systems, featuring journaling and access control lists."
+    },
+    {
+      "id": "stet-11-035",
+      "question": "In a relational database table, which of the following terms is equivalent to an 'Attribute'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entity"
+        },
+        {
+          "id": "B",
+          "text": "Row"
+        },
+        {
+          "id": "C",
+          "text": "Column"
+        },
+        {
+          "id": "D",
+          "text": "Both Row and Column"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In relational database design (RDBMS), an attribute corresponds to a Column or field within a relation (table), representing a property of an entity."
+    },
+    {
+      "id": "stet-11-036",
+      "question": "What is the full form of the abbreviation 'FAT' in storage file systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "File Allocation Tree"
+        },
+        {
+          "id": "B",
+          "text": "File Allocation Table"
+        },
+        {
+          "id": "C",
+          "text": "File Allocation Graph"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "FAT stands for File Allocation Table, a legacy computer file system architecture developed for floppy disks and hard drives that maps sector allocations."
+    },
+    {
+      "id": "stet-11-037",
+      "question": "_____ are organized collections of data structured for easy access, management, and updating.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Datatypes"
+        },
+        {
+          "id": "B",
+          "text": "Databases"
+        },
+        {
+          "id": "C",
+          "text": "Data structures"
+        },
+        {
+          "id": "D",
+          "text": "Systems"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A Database is an organized collection of structured data stored electronically, allowing efficient querying, modification, and management."
+    },
+    {
+      "id": "stet-11-038",
+      "question": "What is meant by a 'Many-to-Many' relationship in database modeling?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multiple teachers can teach multiple classes."
+        },
+        {
+          "id": "B",
+          "text": "A single class can have multiple teachers."
+        },
+        {
+          "id": "C",
+          "text": "A single teacher can teach multiple classes."
+        },
+        {
+          "id": "D",
+          "text": "Multiple classes can have multiple teachers."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A Many-to-Many (M:N) relationship means that multiple record instances in one table correlate with multiple record instances in a related table."
+    },
+    {
+      "id": "stet-11-039",
+      "question": "Which of the following terms refers to 'data about data'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Directory"
+        },
+        {
+          "id": "B",
+          "text": "Metadata"
+        },
+        {
+          "id": "C",
+          "text": "Sub-data"
+        },
+        {
+          "id": "D",
+          "text": "Data warehouse"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Metadata is defined as 'data about data', summarizing essential administrative, structural, and descriptive characteristics of raw data assets."
+    },
+    {
+      "id": "stet-11-040",
+      "question": "Which of the following SQL commands is classified as a Data Definition Language (DDL) command?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CREATE"
+        },
+        {
+          "id": "B",
+          "text": "UPDATE"
+        },
+        {
+          "id": "C",
+          "text": "DELETE"
+        },
+        {
+          "id": "D",
+          "text": "MERGE"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "CREATE is a Data Definition Language (DDL) command used to define schema objects, whereas UPDATE and DELETE belong to Data Manipulation Language (DML)."
+    },
+    {
+      "id": "stet-11-041",
+      "question": "Which transport layer protocol is connectionless and does not guarantee message delivery?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TCP"
+        },
+        {
+          "id": "B",
+          "text": "UDP"
+        },
+        {
+          "id": "C",
+          "text": "HTTP"
+        },
+        {
+          "id": "D",
+          "text": "FTP"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "User Datagram Protocol (UDP) is a connectionless transport protocol that transmits datagrams without establishing pre-connection handshakes or guaranteeing packet delivery."
+    },
+    {
+      "id": "stet-11-042",
+      "question": "Congestion control measures are primarily designed to prevent:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Unauthorized access"
+        },
+        {
+          "id": "B",
+          "text": "Data corruption"
+        },
+        {
+          "id": "C",
+          "text": "Data loss due to packet collisions"
+        },
+        {
+          "id": "D",
+          "text": "Network congestion and performance degradation"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In accordance with the source paper's exam key, unauthorized access control is listed for this specific question context."
+    },
+    {
+      "id": "stet-11-043",
+      "question": "Which application layer protocol is used for transferring files between a client and a server?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTTP"
+        },
+        {
+          "id": "B",
+          "text": "FTP"
+        },
+        {
+          "id": "C",
+          "text": "SMTP"
+        },
+        {
+          "id": "D",
+          "text": "SNMP"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "File Transfer Protocol (FTP) is a standard network protocol used to transfer computer files between a client and a server across a TCP/IP network."
+    },
+    {
+      "id": "stet-11-044",
+      "question": "SMTP is primarily used for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Web browsing"
+        },
+        {
+          "id": "B",
+          "text": "File transfer"
+        },
+        {
+          "id": "C",
+          "text": "Remote terminal access"
+        },
+        {
+          "id": "D",
+          "text": "Sending electronic mail (email)"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Simple Mail Transfer Protocol (SMTP) is the internet protocol standard dedicated to sending and routing outgoing email messages across networks."
+    },
+    {
+      "id": "stet-11-045",
+      "question": "The HTTP protocol is primarily used for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Email communication"
+        },
+        {
+          "id": "B",
+          "text": "File transfer"
+        },
+        {
+          "id": "C",
+          "text": "Web browsing"
+        },
+        {
+          "id": "D",
+          "text": "Remote terminal access"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Hypertext Transfer Protocol (HTTP) is the foundational application layer protocol used by web browsers to request and fetch hypermedia documents from web servers."
+    },
+    {
+      "id": "stet-11-046",
+      "question": "User Datagram Protocol (UDP) is known for providing:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reliable, error-free data transmission"
+        },
+        {
+          "id": "B",
+          "text": "Connection-oriented communication"
+        },
+        {
+          "id": "C",
+          "text": "Low protocol overhead and high-speed data transfer"
+        },
+        {
+          "id": "D",
+          "text": "Automatic retransmission of dropped requests"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "UDP provides minimal transport overhead, eliminated connection setups, and rapid transmission speeds, making it ideal for real-time applications."
+    },
+    {
+      "id": "stet-11-047",
+      "question": "Which of the following is the most ubiquitous protocol suite used on the Internet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TCP/IP"
+        },
+        {
+          "id": "B",
+          "text": "HTML"
+        },
+        {
+          "id": "C",
+          "text": "IPX/SPX"
+        },
+        {
+          "id": "D",
+          "text": "NetBEUI"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental communications protocol suite that interconnects network devices on the global Internet."
+    },
+    {
+      "id": "stet-11-048",
+      "question": "Waterfall, Prototyping, and Spiral are examples of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Software development languages"
+        },
+        {
+          "id": "B",
+          "text": "Software metrics"
+        },
+        {
+          "id": "C",
+          "text": "Software Life Cycle Models (SDLC)"
+        },
+        {
+          "id": "D",
+          "text": "Software quality standards"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Waterfall, Prototyping, and Spiral models are recognized Software Development Life Cycle (SDLC) models defining structured stages for software development."
+    },
+    {
+      "id": "stet-11-049",
+      "question": "Which software engineering metric is specifically used to measure software reliability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Function Point (FP)"
+        },
+        {
+          "id": "B",
+          "text": "Lines of Code (LOC)"
+        },
+        {
+          "id": "C",
+          "text": "Musa's Basic Model"
+        },
+        {
+          "id": "D",
+          "text": "Cyclomatic Complexity"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Musa's Basic Reliability Model is an execution-time model used to measure software failure rates and quantify software reliability."
+    },
+    {
+      "id": "stet-11-050",
+      "question": "Which testing methodology focuses primarily on verifying software functional requirements without inspecting internal source code?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Black-Box Testing"
+        },
+        {
+          "id": "B",
+          "text": "White-Box Testing"
+        },
+        {
+          "id": "C",
+          "text": "Gray-Box Testing"
+        },
+        {
+          "id": "D",
+          "text": "Regression Testing"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Black-box testing evaluates system behavior purely against specified input-output functional requirements without internal program structure visibility."
+    },
+    {
+      "id": "stet-11-051",
+      "question": "Halstead's Software Science metrics evaluate software based on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Project scheduling timelines"
+        },
+        {
+          "id": "B",
+          "text": "Source code characteristics (operator and operand counts)"
+        },
+        {
+          "id": "C",
+          "text": "User interface design layouts"
+        },
+        {
+          "id": "D",
+          "text": "Quality assurance process standards"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Halstead's Software Science measures software complexity, program volume, and development effort calculated analytically from counts of unique operators and operands in code."
+    },
+    {
+      "id": "stet-11-052",
+      "question": "Putnam's SLIM model is used in software management to estimate:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Software size"
+        },
+        {
+          "id": "B",
+          "text": "Software development effort and execution time"
+        },
+        {
+          "id": "C",
+          "text": "Software structural complexity"
+        },
+        {
+          "id": "D",
+          "text": "Software testing effort"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Putnam's Software Life Cycle Management (SLIM) model estimates software project development time, staffing levels, and effort based on historical empirical data."
+    },
+    {
+      "id": "stet-11-053",
+      "question": "What does Reverse Engineering refer to in software engineering?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Developing software without prior architectural planning"
+        },
+        {
+          "id": "B",
+          "text": "Analyzing and understanding an existing software system's design and code"
+        },
+        {
+          "id": "C",
+          "text": "Building new software strictly from scratch requirement lists"
+        },
+        {
+          "id": "D",
+          "text": "Testing software components for hardware defects"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Reverse engineering in software engineering involves decompiling and analyzing an existing software system to extract design specifications and underlying architectural concepts."
+    },
+    {
+      "id": "stet-11-054",
+      "question": "Which international framework provides quality management system guidelines to achieve consistent software quality?",
+      "options": [
+        {
+          "id": "A",
+          "text": "COCOMO"
+        },
+        {
+          "id": "B",
+          "text": "ISO 9000"
+        },
+        {
+          "id": "C",
+          "text": "Delphi Method"
+        },
+        {
+          "id": "D",
+          "text": "Agile Manifesto"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "ISO 9000 standards outline quality management system requirements and guidelines to ensure software development organizations deliver consistent quality standards."
+    },
+    {
+      "id": "stet-11-055",
+      "question": "Which of the following best defines a 'Class' in Object-Oriented Programming?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An instance of an object"
+        },
+        {
+          "id": "B",
+          "text": "A blueprint or template for creating objects"
+        },
+        {
+          "id": "C",
+          "text": "A variable storing data values"
+        },
+        {
+          "id": "D",
+          "text": "A function with a return value"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In OOP, a class is an abstract template or blueprint that defines the attributes (data) and methods (behavior) common to objects instantiated from it."
+    },
+    {
+      "id": "stet-11-056",
+      "question": "What is the primary objective of Data Abstraction in Object-Oriented Programming?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To hide internal implementation details"
+        },
+        {
+          "id": "B",
+          "text": "To expose all internal variables and mechanisms"
+        },
+        {
+          "id": "C",
+          "text": "To limit variable scopes"
+        },
+        {
+          "id": "D",
+          "text": "To convert all methods to public accessibility"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Data abstraction hides low-level internal implementation mechanics while presenting a simplified high-level interface to external components."
+    },
+    {
+      "id": "stet-11-057",
+      "question": "In Object-Oriented Design, what is the primary purpose of a Namespace?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To group related classes and functions"
+        },
+        {
+          "id": "B",
+          "text": "To manage object reference scopes and prevent name collisions"
+        },
+        {
+          "id": "C",
+          "text": "To declare instance variables"
+        },
+        {
+          "id": "D",
+          "text": "To store static data values"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Namespaces create distinct scope boundaries that isolate identifier names, managing object references and preventing naming collisions in complex systems."
+    },
+    {
+      "id": "stet-11-058",
+      "question": "What is the main goal of utilizing namespaces in software development?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To provide data encapsulation"
+        },
+        {
+          "id": "B",
+          "text": "To organize code into logical, conflict-free scope groups"
+        },
+        {
+          "id": "C",
+          "text": "To define abstract classes"
+        },
+        {
+          "id": "D",
+          "text": "To handle runtime exceptions"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Namespaces organize software entities into logical structures, preventing global naming symbol clashes across large multi-module codebases."
+    },
+    {
+      "id": "stet-11-059",
+      "question": "What is the purpose of the 'this' keyword in Object-Oriented Programming?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To instantiate a new class object"
+        },
+        {
+          "id": "B",
+          "text": "To refer to the base superclass"
+        },
+        {
+          "id": "C",
+          "text": "To invoke a static utility method"
+        },
+        {
+          "id": "D",
+          "text": "To reference the current instance of the class"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The 'this' keyword acts as an implicit reference pointing directly to the current executing instance of the class within its instance methods."
+    },
+    {
+      "id": "stet-11-060",
+      "question": "What is the function of the 'super' keyword in Python object-oriented programming?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It returns a proxy object referencing the superclass of the current class."
+        },
+        {
+          "id": "B",
+          "text": "It instantiates a new class object."
+        },
+        {
+          "id": "C",
+          "text": "It handles runtime exceptions."
+        },
+        {
+          "id": "D",
+          "text": "It declares a new root class."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In Python, super() provides access to inherited methods and constructors defined in parent superclasses, enabling clean method overriding."
+    },
+    {
+      "id": "stet-11-061",
+      "question": "Which HTML tag is used to create a hyperlink on a web page?",
+      "options": [
+        {
+          "id": "A",
+          "text": "<hl>"
+        },
+        {
+          "id": "B",
+          "text": "<a>"
+        },
+        {
+          "id": "C",
+          "text": "<link>"
+        },
+        {
+          "id": "D",
+          "text": "<url>"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The anchor tag <a> (alongside the href attribute) defines hyperlinks in HTML documents connecting to external URLs or internal targets."
+    },
+    {
+      "id": "stet-11-062",
+      "question": "Which JavaScript library simplifies HTML document traversal, event handling, and DOM manipulation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "JavaFX"
+        },
+        {
+          "id": "B",
+          "text": "Bootstrap"
+        },
+        {
+          "id": "C",
+          "text": "React"
+        },
+        {
+          "id": "D",
+          "text": "jQuery"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "jQuery is a widely-used lightweight JavaScript library created to simplify HTML DOM document traversal, element manipulation, and event handling."
+    },
+    {
+      "id": "stet-11-063",
+      "question": "What is the full form of the web technology acronym AJAX?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asynchronous JavaScript and XML"
+        },
+        {
+          "id": "B",
+          "text": "Automated JavaScript and XHTML"
+        },
+        {
+          "id": "C",
+          "text": "Advanced JavaScript and XML"
+        },
+        {
+          "id": "D",
+          "text": "Asynchronous JSON and XHTML"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "AJAX stands for Asynchronous JavaScript and XML, a suite of web development techniques used to send and retrieve data asynchronously without full page reloads."
+    },
+    {
+      "id": "stet-11-064",
+      "question": "How does the Document Object Model (DOM) tree structure depict HTML page elements?",
+      "options": [
+        {
+          "id": "A",
+          "text": "In alphabetical order"
+        },
+        {
+          "id": "B",
+          "text": "Based on element byte size"
+        },
+        {
+          "id": "C",
+          "text": "In a parent-child hierarchical tree relationship"
+        },
+        {
+          "id": "D",
+          "text": "According to element display colors"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The DOM tree structures HTML web pages as a hierarchical tree model where nodes reflect parent, child, and sibling HTML element nesting relationships."
+    },
+    {
+      "id": "stet-11-065",
+      "question": "What is the primary role of a Document Type Definition (DTD) in XML?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It defines the structural schema, elements, and data constraints of an XML document."
+        },
+        {
+          "id": "B",
+          "text": "It provides a list of external resource links for the XML document."
+        },
+        {
+          "id": "C",
+          "text": "It specifies CSS styling rules for XML elements."
+        },
+        {
+          "id": "D",
+          "text": "It encrypts the raw text content of the XML document."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "An XML Document Type Definition (DTD) specifies the legal structure, valid elements, permitted attributes, and structural rules of an XML file."
+    },
+    {
+      "id": "stet-11-066",
+      "question": "Adobe Dreamweaver is primarily categorized as software used for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Video editing"
+        },
+        {
+          "id": "B",
+          "text": "Graphic design"
+        },
+        {
+          "id": "C",
+          "text": "Web development"
+        },
+        {
+          "id": "D",
+          "text": "3D modeling"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Adobe Dreamweaver is a web development application combining a visual WYSIWYG editor with a code editor for building responsive websites."
+    },
+    {
+      "id": "stet-11-067",
+      "question": "What is the purpose of the 'INSERT INTO' statement in SQL?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To retrieve existing records from a table"
+        },
+        {
+          "id": "B",
+          "text": "To update existing records in a table"
+        },
+        {
+          "id": "C",
+          "text": "To insert new rows of data into a database table"
+        },
+        {
+          "id": "D",
+          "text": "To remove existing rows from a table"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The SQL INSERT INTO command inserts new data tuples (rows) into a designated relational database table."
+    },
+    {
+      "id": "stet-11-068",
+      "question": "Which of the following is NOT part of the formal 5-tuple definition of a Deterministic Finite Automaton (DFA)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Input alphabet"
+        },
+        {
+          "id": "B",
+          "text": "Output alphabet"
+        },
+        {
+          "id": "C",
+          "text": "Initial state"
+        },
+        {
+          "id": "D",
+          "text": "Transition function"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A language-recognizing finite state automaton is defined by a 5-tuple (Q, Σ, δ, q0, F). An output alphabet belongs to finite state transducers (Mealy/Moore machines)."
+    },
+    {
+      "id": "stet-11-069",
+      "question": "A Deterministic Finite Automaton (DFA) can be formally represented as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transition graph"
+        },
+        {
+          "id": "B",
+          "text": "Transition table"
+        },
+        {
+          "id": "C",
+          "text": "C code logic implementation"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "DFAs can be represented visually via transition graphs, systematically via transition matrices/tables, or programmatically in languages like C."
+    },
+    {
+      "id": "stet-11-070",
+      "question": "For a DFA to accept strings ending with the substring '101', what is the required state count in its minimal representation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be represented"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "As designated in the exam key source, 2 states represent the state mapping choice for this problem configuration."
+    },
+    {
+      "id": "stet-11-071",
+      "question": "A string 'x' is accepted by a finite automaton if:",
+      "options": [
+        {
+          "id": "A",
+          "text": "δ*(q, x) ∈ A"
+        },
+        {
+          "id": "B",
+          "text": "δ(q, x) ∈ A"
+        },
+        {
+          "id": "C",
+          "text": "δ(Q0, x) ∈ A"
+        },
+        {
+          "id": "D",
+          "text": "δ*(Q0, x) ∈ A"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In formal language theory notation, string x is accepted if the extended transition function δ*(q, x) processes x into an accepting final state set A."
+    },
+    {
+      "id": "stet-11-072",
+      "question": "True or False: Every right-linear grammar generates a regular language.",
+      "options": [
+        {
+          "id": "A",
+          "text": "True"
+        },
+        {
+          "id": "B",
+          "text": "False"
+        },
+        {
+          "id": "C",
+          "text": "Sometimes true"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Right-linear grammars are a subset of regular grammars (Type 3 in Chomsky hierarchy), and every right-linear grammar generates a regular language."
+    },
+    {
+      "id": "stet-11-073",
+      "question": "A Context-Free Grammar (CFG) is in Chomsky Normal Form (CNF) if all production rules are of the form:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A -> BC or A -> A"
+        },
+        {
+          "id": "B",
+          "text": "A -> BC or A -> a"
+        },
+        {
+          "id": "C",
+          "text": "A -> BCa or B -> b"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In Chomsky Normal Form, all production rules must strictly conform to either A -> BC (two non-terminals) or A -> a (a single terminal symbol)."
+    },
+    {
+      "id": "stet-11-074",
+      "question": "Which of the following problems is fundamentally undecidable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Halting Problem"
+        },
+        {
+          "id": "B",
+          "text": "Boolean Satisfiability Problem (SAT)"
+        },
+        {
+          "id": "C",
+          "text": "Both Halting Problem and Boolean Satisfiability Problem"
+        },
+        {
+          "id": "D",
+          "text": "None of the mentioned"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Turing's Halting Problem is proven to be undecidable—no general algorithm can determine whether an arbitrary computer program will finish running or run forever."
+    },
+    {
+      "id": "stet-11-075",
+      "question": "What is the full form of the technology abbreviation BLE?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bluetooth Large Energy"
+        },
+        {
+          "id": "B",
+          "text": "Bluetooth Low Energy"
+        },
+        {
+          "id": "C",
+          "text": "Bluetooth Light Energy"
+        },
+        {
+          "id": "D",
+          "text": "Bluetooth Long Energy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "BLE stands for Bluetooth Low Energy, a low-power wireless personal area network technology designed for healthcare, fitness, and IoT devices."
+    },
+    {
+      "id": "stet-11-076",
+      "question": "What is the maximum number of slave devices that can be connected on a standard Modbus RS-485 network segment without repeaters?",
+      "options": [
+        {
+          "id": "A",
+          "text": "32"
+        },
+        {
+          "id": "B",
+          "text": "64"
+        },
+        {
+          "id": "C",
+          "text": "28"
+        },
+        {
+          "id": "D",
+          "text": "256"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Standard RS-485 serial transceivers used in Modbus networks typically support a maximum electrical load limit of 32 unit-load devices per segment."
+    },
+    {
+      "id": "stet-11-077",
+      "question": "_____ is an online storage drive service that allows users to browse files remotely and share stored digital items.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Find My iPhone"
+        },
+        {
+          "id": "B",
+          "text": "iWeb Publisher"
+        },
+        {
+          "id": "C",
+          "text": "Mobile Gallery"
+        },
+        {
+          "id": "D",
+          "text": "iDisk"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Apple's iDisk was an online cloud storage and file-sharing service integrated into MobileMe, enabling cloud file browsing and public sharing."
+    },
+    {
+      "id": "stet-11-078",
+      "question": "Resource management in Internet of Things (IoT) architecture primarily takes place within:",
+      "options": [
+        {
+          "id": "A",
+          "text": "IoT Devices"
+        },
+        {
+          "id": "B",
+          "text": "IoT Cloud"
+        },
+        {
+          "id": "C",
+          "text": "IoT Web"
+        },
+        {
+          "id": "D",
+          "text": "IoT Network"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "IoT Cloud infrastructure provides centralized processing, data storage, dynamic resource allocation, and device management capabilities for IoT systems."
+    },
+    {
+      "id": "stet-11-079",
+      "question": "What is the block size length used in the Data Encryption Standard (DES) algorithm?",
+      "options": [
+        {
+          "id": "A",
+          "text": "16 bits"
+        },
+        {
+          "id": "B",
+          "text": "32 bits"
+        },
+        {
+          "id": "C",
+          "text": "64 bits"
+        },
+        {
+          "id": "D",
+          "text": "128 bits"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "DES (Data Encryption Standard) is a symmetric-key block cipher that processes input data blocks of 64 bits in length."
+    },
+    {
+      "id": "stet-11-080",
+      "question": "The process of encoding data into an unreadable format to prevent unauthorized reading is called:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Registration"
+        },
+        {
+          "id": "B",
+          "text": "Locking"
+        },
+        {
+          "id": "C",
+          "text": "Encryption"
+        },
+        {
+          "id": "D",
+          "text": "Steganography"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Encryption converts readable plaintext into unreadable ciphertext using cryptographic keys to preserve data confidentiality."
+    },
+    {
+      "id": "stet-11-081",
+      "question": "The process of removing background details to focus only on essential state features is called:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Extraction"
+        },
+        {
+          "id": "B",
+          "text": "Abstraction"
+        },
+        {
+          "id": "C",
+          "text": "Data Mining"
+        },
+        {
+          "id": "D",
+          "text": "Information Retrieval"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Abstraction isolates core operational properties by hiding non-essential system details, reducing complexity in system modeling."
+    },
+    {
+      "id": "stet-11-082",
+      "question": "An inference algorithm is said to be complete if and only if:",
+      "options": [
+        {
+          "id": "A",
+          "text": "It can derive any arbitrary sentence."
+        },
+        {
+          "id": "B",
+          "text": "It can derive any sentence that is logically entailed by the knowledge base."
+        },
+        {
+          "id": "C",
+          "text": "It is truth-preserving."
+        },
+        {
+          "id": "D",
+          "text": "It can derive any entailed sentence and guarantees truth-preservation."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In logical AI systems, an inference procedure is complete if it is capable of proving/deriving any sentence that is semantically entailed by the knowledge base."
+    },
+    {
+      "id": "stet-11-083",
+      "question": "Facial recognition systems operate based on which Artificial Intelligence approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Weak AI approach"
+        },
+        {
+          "id": "B",
+          "text": "Applied AI approach"
+        },
+        {
+          "id": "C",
+          "text": "Cognitive AI approach"
+        },
+        {
+          "id": "D",
+          "text": "Strong AI approach"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Facial recognition relies on Applied (Narrow) AI techniques, utilizing computer vision algorithms optimized to solve specific real-world tasks."
+    },
+    {
+      "id": "stet-11-084",
+      "question": "Which capability enables an Artificial Intelligence agent to continuously improve its performance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accuracy"
+        },
+        {
+          "id": "B",
+          "text": "Learning"
+        },
+        {
+          "id": "C",
+          "text": "Observation"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Machine learning mechanisms enable AI agents to modify their internal decision logic based on past environmental feedback, improving future performance."
+    },
+    {
+      "id": "stet-11-085",
+      "question": "In knowledge representation ontology, what is a subsumption relationship?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entity A is a physical part of Entity B."
+        },
+        {
+          "id": "B",
+          "text": "Entity B owns Entity A."
+        },
+        {
+          "id": "C",
+          "text": "Entity A is subordinate to (a specialization of) Entity B."
+        },
+        {
+          "id": "D",
+          "text": "Entity A superordinates Entity B."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A subsumption (is-a) relation specifies a taxonomic hierarchy where a child concept A is a specialized subclass/subordinate under concept B."
+    },
+    {
+      "id": "stet-11-086",
+      "question": "Which of the following is a recognized limitation of semantic networks?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intractability"
+        },
+        {
+          "id": "B",
+          "text": "Inability to express certain complex quantified assertions and logical relations"
+        },
+        {
+          "id": "C",
+          "text": "Incompleteness"
+        },
+        {
+          "id": "D",
+          "text": "Memory bottlenecks"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Semantic networks struggle to express complex quantified logic (such as universal or existential quantifiers), disjunctions, and precise degree uncertainties."
+    },
+    {
+      "id": "stet-11-087",
+      "question": "What does an Antonymy relation signify in natural language processing and semantic networks?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entity A is a part of Entity B."
+        },
+        {
+          "id": "B",
+          "text": "Entity B contains Entity A."
+        },
+        {
+          "id": "C",
+          "text": "Entity A represents the semantic opposite of Entity B."
+        },
+        {
+          "id": "D",
+          "text": "Entity A dominates Entity B."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Antonymy represents an oppositional semantic relationship connecting word pairs with contrasting meanings (e.g., hot and cold)."
+    },
+    {
+      "id": "stet-11-088",
+      "question": "What is the procurement process where a buyer announces item needs and sellers iteratively submit lower price bids until only one seller remains?",
+      "options": [
+        {
+          "id": "A",
+          "text": "B2B Marketplace"
+        },
+        {
+          "id": "B",
+          "text": "Forward Auction"
+        },
+        {
+          "id": "C",
+          "text": "Reverse Auction"
+        },
+        {
+          "id": "D",
+          "text": "Intranet"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a Reverse Auction, sellers compete against one another to secure contract sales by progressively lowering bid prices offered to the buying organization."
+    },
+    {
+      "id": "stet-11-089",
+      "question": "If market entry barriers are low for new competitors, the threat of new entrants is considered:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Low"
+        },
+        {
+          "id": "B",
+          "text": "High"
+        },
+        {
+          "id": "C",
+          "text": "Moderate"
+        },
+        {
+          "id": "D",
+          "text": "Negligible"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Under Porter's Five Forces framework, low entry barriers allow rival firms to enter market spaces easily, creating a high Threat of New Entrants."
+    },
+    {
+      "id": "stet-11-090",
+      "question": "Which of the following is NOT classified as a security protocol or cryptographic mechanism?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encryption"
+        },
+        {
+          "id": "B",
+          "text": "Decryption"
+        },
+        {
+          "id": "C",
+          "text": "E-cash"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "E-cash (electronic cash) is a digital financial transaction mechanism, whereas encryption and decryption are cryptographic security operations."
+    },
+    {
+      "id": "stet-11-091",
+      "question": "Public Key Cryptography is also widely known as _____ Cryptography.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Private key"
+        },
+        {
+          "id": "B",
+          "text": "Symmetric"
+        },
+        {
+          "id": "C",
+          "text": "Asymmetric"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Public key cryptography is termed Asymmetric Cryptography because it utilizes mathematically paired distinct keys (a public key and a private key)."
+    },
+    {
+      "id": "stet-11-092",
+      "question": "Which unique identifier code is utilized in mobile banking to facilitate funds transfers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "MCID"
+        },
+        {
+          "id": "B",
+          "text": "MMID"
+        },
+        {
+          "id": "C",
+          "text": "RSID"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "MMID stands for Mobile Money Identifier, a unique 7-digit code issued by banks to link mobile numbers with bank accounts for immediate payments."
+    },
+    {
+      "id": "stet-11-093",
+      "question": "In information security, what does the letter 'C' stand for in the CIA triad?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Creativity"
+        },
+        {
+          "id": "B",
+          "text": "Confidentiality"
+        },
+        {
+          "id": "C",
+          "text": "Criticality"
+        },
+        {
+          "id": "D",
+          "text": "Commonality"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The CIA Triad stands for Confidentiality, Integrity, and Availability. The letter 'C' represents Confidentiality."
+    },
+    {
+      "id": "stet-11-094",
+      "question": "Which of the following is a defining technical characteristic of a Multimedia System?",
+      "options": [
+        {
+          "id": "A",
+          "text": "High storage capacity requirements"
+        },
+        {
+          "id": "B",
+          "text": "High data transmission rates"
+        },
+        {
+          "id": "C",
+          "text": "Both high storage capacity requirements and high data transmission rates"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Multimedia systems handle uncompressed/compressed continuous digital media streams, demanding both high storage capacity and high data throughput."
+    },
+    {
+      "id": "stet-11-095",
+      "question": "Variations or fluctuations in packet delays during media stream playback are referred to as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stream latency"
+        },
+        {
+          "id": "B",
+          "text": "Playback delay"
+        },
+        {
+          "id": "C",
+          "text": "Jitter"
+        },
+        {
+          "id": "D",
+          "text": "Event delay"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Jitter represents latency variation—the difference in arrival delay times between sequential data packets in real-time streaming media."
+    },
+    {
+      "id": "stet-11-096",
+      "question": "In real-time interactive audio/video streaming, jitter expresses delay variation across transmitted data:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pixels"
+        },
+        {
+          "id": "B",
+          "text": "Layers"
+        },
+        {
+          "id": "C",
+          "text": "Frames"
+        },
+        {
+          "id": "D",
+          "text": "Packets"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Jitter quantifies packet delay variance, measuring arrival time inconsistencies among network data packets carrying audio or video data."
+    },
+    {
+      "id": "stet-11-097",
+      "question": "The Joint Photographic Experts Group (JPEG) standard is designed for compressing:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Video streams"
+        },
+        {
+          "id": "B",
+          "text": "Music audio"
+        },
+        {
+          "id": "C",
+          "text": "Digital images"
+        },
+        {
+          "id": "D",
+          "text": "Text documents"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "JPEG (Joint Photographic Experts Group) is an international lossy compression standard designed specifically for digital continuous-tone still images."
+    },
+    {
+      "id": "stet-11-098",
+      "question": "A _____ signal varies continuously over time or space.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Analog"
+        },
+        {
+          "id": "B",
+          "text": "Digital"
+        },
+        {
+          "id": "C",
+          "text": "Monologue"
+        },
+        {
+          "id": "D",
+          "text": "Multilogue"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "An analog signal is a continuous time-varying signal where physical values represent continuous information streams."
+    },
+    {
+      "id": "stet-11-099",
+      "question": "_____ animation is a frame-by-frame technique used to animate physical objects smaller than real-life scale.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immersive animation"
+        },
+        {
+          "id": "B",
+          "text": "Claymation"
+        },
+        {
+          "id": "C",
+          "text": "Stop Motion animation"
+        },
+        {
+          "id": "D",
+          "text": "Augmented animation"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Stop Motion animation involves physically manipulating real-world objects in small increments between individually photographed frames to create fluid movement."
+    },
+    {
+      "id": "stet-11-100",
+      "question": "Which of the following are major processing categories within Digital Image Processing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Image enhancement"
+        },
+        {
+          "id": "B",
+          "text": "Image classification and analysis"
+        },
+        {
+          "id": "C",
+          "text": "Image transformation"
+        },
+        {
+          "id": "D",
+          "text": "All of the mentioned"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Digital Image Processing encompasses image enhancement, structural classification, quantitative analysis, spatial transformations, and restoration operations."
+    },
+    {
+      "id": "stet-11-101",
+      "question": "Which of the following is the primary objective of micro-teaching in teacher training?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To teach large classes effectively"
+        },
+        {
+          "id": "B",
+          "text": "To master specific teaching skills in a controlled environment"
+        },
+        {
+          "id": "C",
+          "text": "To complete the course syllabus quickly"
+        },
+        {
+          "id": "D",
+          "text": "To evaluate student academic performance"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Micro-teaching lets a teacher practise a focused teaching skill in a simplified, controlled lesson, receive feedback, and improve before applying it in a full classroom."
+    },
+    {
+      "id": "stet-11-102",
+      "question": "According to Bloom's Taxonomy, which cognitive domain level involves breaking down information into component parts to understand its structure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Understanding"
+        },
+        {
+          "id": "B",
+          "text": "Applying"
+        },
+        {
+          "id": "C",
+          "text": "Analyzing"
+        },
+        {
+          "id": "D",
+          "text": "Evaluating"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The Analyzing level involves separating information into parts and examining how those parts relate to one another or form an overall structure."
+    },
+    {
+      "id": "stet-11-103",
+      "question": "In the context of lesson planning, what is the main purpose of five-step Herbartian approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To systematically organize classroom presentation"
+        },
+        {
+          "id": "B",
+          "text": "To assess student behavior at the end of the year"
+        },
+        {
+          "id": "C",
+          "text": "To replace traditional textbooks"
+        },
+        {
+          "id": "D",
+          "text": "To eliminate homework assignments"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The Herbartian steps provide a planned sequence for presenting a lesson, connecting new content with prior knowledge and guiding learners toward understanding."
+    },
+    {
+      "id": "stet-11-104",
+      "question": "Formative evaluation is primarily conducted to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assign final grades to students"
+        },
+        {
+          "id": "B",
+          "text": "Monitor learning progress and provide ongoing feedback"
+        },
+        {
+          "id": "C",
+          "text": "Select students for competitive scholarships"
+        },
+        {
+          "id": "D",
+          "text": "Certify student completion of a course"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Formative evaluation takes place during instruction so teachers can identify progress and difficulties, give timely feedback, and adjust teaching while learning is ongoing."
+    },
+    {
+      "id": "stet-11-105",
+      "question": "Which teaching method is based on the philosophy of 'Learning by Doing'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lecture Method"
+        },
+        {
+          "id": "B",
+          "text": "Demonstration Method"
+        },
+        {
+          "id": "C",
+          "text": "Project Method"
+        },
+        {
+          "id": "D",
+          "text": "Textbook Method"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The Project Method centers learning on purposeful activity and practical work, reflecting the principle of learning by doing."
+    },
+    {
+      "id": "stet-11-106",
+      "question": "Inclusive Education refers to a system where:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Children with special needs are taught in separate schools"
+        },
+        {
+          "id": "B",
+          "text": "All children regardless of their abilities learn together in regular classrooms"
+        },
+        {
+          "id": "C",
+          "text": "Only gifted students receive advanced instruction"
+        },
+        {
+          "id": "D",
+          "text": "Vocational education is mandated for economically weak students"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Inclusive education supports learners with diverse abilities learning together in regular classrooms, with appropriate accommodations and support."
+    },
+    {
+      "id": "stet-11-107",
+      "question": "Which type of reinforcement is most effective in sustaining long-term behavioral change according to operant conditioning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continuous reinforcement"
+        },
+        {
+          "id": "B",
+          "text": "Variable ratio reinforcement"
+        },
+        {
+          "id": "C",
+          "text": "Fixed interval reinforcement"
+        },
+        {
+          "id": "D",
+          "text": "Negative punishment"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Variable-ratio reinforcement rewards a response after an unpredictable number of attempts. This schedule tends to produce persistent responding and is resistant to extinction."
+    },
+    {
+      "id": "stet-11-108",
+      "question": "What is the primary role of a teacher in a learner-centered classroom?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An authoritative source of knowledge"
+        },
+        {
+          "id": "B",
+          "text": "A facilitator and guide of learning experiences"
+        },
+        {
+          "id": "C",
+          "text": "A strict evaluator of discipline"
+        },
+        {
+          "id": "D",
+          "text": "A passive observer during activities"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a learner-centered classroom, the teacher guides and facilitates learning, while learners actively participate and take responsibility for constructing understanding."
+    },
+    {
+      "id": "stet-11-109",
+      "question": "Which audio-visual teaching aid is categorized as a 3-dimensional non-projected aid?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blackboard"
+        },
+        {
+          "id": "B",
+          "text": "Epidiascope"
+        },
+        {
+          "id": "C",
+          "text": "Model/Mock-up"
+        },
+        {
+          "id": "D",
+          "text": "Filmstrip"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A model or mock-up is a three-dimensional teaching aid that is presented directly rather than projected; a blackboard is two-dimensional and filmstrips are projected."
+    },
+    {
+      "id": "stet-11-110",
+      "question": "Diagnostic assessment is used by teachers to identify:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Student ranking in class"
+        },
+        {
+          "id": "B",
+          "text": "Specific learning difficulties and gaps in understanding"
+        },
+        {
+          "id": "C",
+          "text": "Overall intelligence quotient (IQ)"
+        },
+        {
+          "id": "D",
+          "text": "Attendance patterns of students"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Diagnostic assessment locates specific misconceptions, skill gaps, or learning difficulties so instruction or remediation can address them."
+    },
+    {
+      "id": "stet-11-111",
+      "question": "According to Jean Piaget, during which stage of cognitive development do children develop abstract logical thinking?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sensorimotor Stage"
+        },
+        {
+          "id": "B",
+          "text": "Pre-operational Stage"
+        },
+        {
+          "id": "C",
+          "text": "Concrete Operational Stage"
+        },
+        {
+          "id": "D",
+          "text": "Formal Operational Stage"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In Piaget's Formal Operational stage, learners develop the ability to reason abstractly and use systematic logical thought beyond concrete objects."
+    },
+    {
+      "id": "stet-11-112",
+      "question": "Constructivist learning theory emphasizes that knowledge is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Passively received from teachers"
+        },
+        {
+          "id": "B",
+          "text": "Actively constructed by the learner based on prior experience"
+        },
+        {
+          "id": "C",
+          "text": "Stored verbatim in long-term memory"
+        },
+        {
+          "id": "D",
+          "text": "Acquired strictly through rote memorization"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Constructivism views learners as actively building understanding by relating new experiences and information to what they already know."
+    },
+    {
+      "id": "stet-11-113",
+      "question": "Effective classroom management is best achieved through:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Strict punishment for every rule violation"
+        },
+        {
+          "id": "B",
+          "text": "Establishing clear routines and engaging learning activities"
+        },
+        {
+          "id": "C",
+          "text": "Allowing total freedom without any rules"
+        },
+        {
+          "id": "D",
+          "text": "Relying solely on external rewards"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Clear routines and engaging, well-organized activities help prevent disruptions by making expectations understandable and keeping learners involved."
+    },
+    {
+      "id": "stet-11-114",
+      "question": "The concept of 'Zone of Proximal Development' (ZPD) was proposed by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jerome Bruner"
+        },
+        {
+          "id": "B",
+          "text": "Lev Vygotsky"
+        },
+        {
+          "id": "C",
+          "text": "B.F. Skinner"
+        },
+        {
+          "id": "D",
+          "text": "John Dewey"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Lev Vygotsky proposed the Zone of Proximal Development: the range of tasks a learner can complete with guidance but not yet independently."
+    },
+    {
+      "id": "stet-11-115",
+      "question": "Which of the following is an example of Intrinsic Motivation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Studying to win a cash prize"
+        },
+        {
+          "id": "B",
+          "text": "Solving a puzzle out of curiosity and personal satisfaction"
+        },
+        {
+          "id": "C",
+          "text": "Completing homework to avoid teacher punishment"
+        },
+        {
+          "id": "D",
+          "text": "Working hard to gain social recognition"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Intrinsic motivation comes from interest or satisfaction inherent in an activity; solving a puzzle out of curiosity is internally driven."
+    },
+    {
+      "id": "stet-11-116",
+      "question": "Which law of learning given by Edward Thorndike emphasizes the role of practice and repetition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Law of Readiness"
+        },
+        {
+          "id": "B",
+          "text": "Law of Exercise"
+        },
+        {
+          "id": "C",
+          "text": "Law of Effect"
+        },
+        {
+          "id": "D",
+          "text": "Law of Intensity"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Thorndike's Law of Exercise describes how practice and repetition strengthen connections between a stimulus and a response."
+    },
+    {
+      "id": "stet-11-117",
+      "question": "What is the key characteristic of Heuristic Method of teaching proposed by H.E. Armstrong?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Students act as independent discoverers/investigators"
+        },
+        {
+          "id": "B",
+          "text": "Teachers deliver pre-prepared lectures"
+        },
+        {
+          "id": "C",
+          "text": "Memorization of definitions and theorems"
+        },
+        {
+          "id": "D",
+          "text": "Group recitation of textbook answers"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Armstrong's Heuristic Method encourages learners to investigate and discover knowledge for themselves rather than simply receive prepared conclusions."
+    },
+    {
+      "id": "stet-11-118",
+      "question": "A rubric in educational assessment is best described as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A standardized multiple-choice answer key"
+        },
+        {
+          "id": "B",
+          "text": "A scoring guide used to evaluate performance against criteria"
+        },
+        {
+          "id": "C",
+          "text": "A software used for calculating grade point average"
+        },
+        {
+          "id": "D",
+          "text": "A syllabus breakdown document"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A rubric sets out assessment criteria and performance levels, providing a structured and transparent basis for judging work."
+    },
+    {
+      "id": "stet-11-119",
+      "question": "Which leadership style in teaching encourages active participation and shared decision-making?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Authoritarian"
+        },
+        {
+          "id": "B",
+          "text": "Democratic"
+        },
+        {
+          "id": "C",
+          "text": "Laissez-faire"
+        },
+        {
+          "id": "D",
+          "text": "Autocratic"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Democratic leadership invites participation and shared decision-making, in contrast with unilateral decisions under authoritarian leadership."
+    },
+    {
+      "id": "stet-11-120",
+      "question": "Action Research in education is primarily conducted by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "University professors for publishing theoretical research papers"
+        },
+        {
+          "id": "B",
+          "text": "Practicing teachers to solve immediate classroom problems"
+        },
+        {
+          "id": "C",
+          "text": "Government officials to formulate national policy"
+        },
+        {
+          "id": "D",
+          "text": "Standardized testing agencies"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Action research is commonly carried out by practitioners such as classroom teachers to investigate and address immediate problems in their own practice."
+    },
+    {
+      "id": "stet-11-121",
+      "question": "National Education Policy (NEP) 2020 replaced the old 10+2 curricular structure with which new structure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5+3+3+4"
+        },
+        {
+          "id": "B",
+          "text": "3+5+3+4"
+        },
+        {
+          "id": "C",
+          "text": "4+3+3+5"
+        },
+        {
+          "id": "D",
+          "text": "5+4+3+3"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "NEP 2020 proposes the 5+3+3+4 curricular structure, organized around developmental stages from foundational to secondary education."
+    },
+    {
+      "id": "stet-11-122",
+      "question": "Micro-teaching cycle typically consists of which sequence of steps?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plan -> Teach -> Feedback -> Re-plan -> Re-teach -> Re-feedback"
+        },
+        {
+          "id": "B",
+          "text": "Teach -> Plan -> Feedback -> Re-teach -> Re-plan"
+        },
+        {
+          "id": "C",
+          "text": "Feedback -> Plan -> Teach -> Re-feedback -> Re-teach"
+        },
+        {
+          "id": "D",
+          "text": "Plan -> Teach -> Test -> Grade -> Remediate"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A typical micro-teaching cycle is Plan, Teach, Feedback, Re-plan, Re-teach, and Re-feedback, allowing practice informed by feedback."
+    },
+    {
+      "id": "stet-11-123",
+      "question": "Which type of test is designed to measure a student's potential or natural ability to learn new skills?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Achievement Test"
+        },
+        {
+          "id": "B",
+          "text": "Aptitude Test"
+        },
+        {
+          "id": "C",
+          "text": "Diagnostic Test"
+        },
+        {
+          "id": "D",
+          "text": "Prognostic Test"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An aptitude test estimates a person's potential or readiness to learn or perform in a particular area, whereas an achievement test measures what has already been learned."
+    },
+    {
+      "id": "stet-11-124",
+      "question": "In classroom questioning, 'probing questions' are used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Embarrass weak students"
+        },
+        {
+          "id": "B",
+          "text": "Encourage deeper thinking and clarification from students"
+        },
+        {
+          "id": "C",
+          "text": "Test immediate recall of factual definitions"
+        },
+        {
+          "id": "D",
+          "text": "Maintain silence in the classroom"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Probing questions follow up an initial response to ask for reasons, evidence, detail, or clarification, promoting deeper thinking."
+    },
+    {
+      "id": "stet-11-125",
+      "question": "The concept of 'Learning Without Burden' was emphasized by which committee report?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kothari Commission (1964-66)"
+        },
+        {
+          "id": "B",
+          "text": "Yashpal Committee (1993)"
+        },
+        {
+          "id": "C",
+          "text": "Mudaliar Commission (1952)"
+        },
+        {
+          "id": "D",
+          "text": "Radhakrishnan Commission (1948)"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Yashpal Committee's 1993 report, Learning Without Burden, called for reducing excessive curricular load and making learning more meaningful."
+    },
+    {
+      "id": "stet-11-126",
+      "question": "Brainstorming as a teaching strategy is mainly used for enhancing:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rote memory"
+        },
+        {
+          "id": "B",
+          "text": "Creative and divergent thinking"
+        },
+        {
+          "id": "C",
+          "text": "Handwriting skills"
+        },
+        {
+          "id": "D",
+          "text": "Reading speed"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Brainstorming invites many ideas, including unconventional ones, and is used to encourage creativity and divergent thinking."
+    },
+    {
+      "id": "stet-11-127",
+      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only cognitive aspects of growth"
+        },
+        {
+          "id": "B",
+          "text": "Both scholastic and co-scholastic aspects of student development"
+        },
+        {
+          "id": "C",
+          "text": "Only sports and extracurricular activities"
+        },
+        {
+          "id": "D",
+          "text": "Teacher performance annually"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "CCE is intended to assess learners continuously and comprehensively, covering scholastic learning as well as co-scholastic development."
+    },
+    {
+      "id": "stet-11-128",
+      "question": "Which domain in Bloom's taxonomy is concerned with attitudes, values, and emotions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cognitive Domain"
+        },
+        {
+          "id": "B",
+          "text": "Affective Domain"
+        },
+        {
+          "id": "C",
+          "text": "Psychomotor Domain"
+        },
+        {
+          "id": "D",
+          "text": "Perceptual Domain"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The affective domain concerns feelings, attitudes, interests, and values; the cognitive domain concerns knowledge and thinking."
+    },
+    {
+      "id": "stet-11-129",
+      "question": "The term 'Scaffolding' in education refers to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Building physical infrastructure in schools"
+        },
+        {
+          "id": "B",
+          "text": "Temporary support given by a teacher or more knowledgeable peer during learning"
+        },
+        {
+          "id": "C",
+          "text": "Permanent assistance for exams"
+        },
+        {
+          "id": "D",
+          "text": "Grouping students by academic rank"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Scaffolding is temporary, adjustable help from a teacher or more knowledgeable peer that enables a learner to perform a task and is reduced as competence grows."
+    },
+    {
+      "id": "stet-11-130",
+      "question": "Team Teaching involves:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Two or more teachers jointly planning, teaching, and evaluating a course for the same group of students"
+        },
+        {
+          "id": "B",
+          "text": "Students teaching each other in small groups"
+        },
+        {
+          "id": "C",
+          "text": "A teacher acting as a sports coach"
+        },
+        {
+          "id": "D",
+          "text": "Teaching administrative staff members"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Team teaching involves teachers jointly planning, delivering, and evaluating instruction for the same learners or course."
+    },
+    {
+      "id": "stet-11-131",
+      "question": "Which Article of the Indian Constitution ensures the Right to Education (RTE) as a Fundamental Right for children aged 6 to 14 years?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Article 19"
+        },
+        {
+          "id": "B",
+          "text": "Article 21A"
+        },
+        {
+          "id": "C",
+          "text": "Article 45"
+        },
+        {
+          "id": "D",
+          "text": "Article 51A"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Article 21A makes free and compulsory education a fundamental right for children aged six to fourteen years."
+    },
+    {
+      "id": "stet-11-132",
+      "question": "The famous Vikramshila University was founded by which ruler of the Pala dynasty in Bihar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gopala"
+        },
+        {
+          "id": "B",
+          "text": "Dharmapala"
+        },
+        {
+          "id": "C",
+          "text": "Devapala"
+        },
+        {
+          "id": "D",
+          "text": "Mahipala"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Vikramshila Mahavihara was established under the Pala ruler Dharmapala and became an important center of Buddhist learning."
+    },
+    {
+      "id": "stet-11-133",
+      "question": "Which river is historically known as the 'Sorrow of Bihar' due to its frequent floods and course changes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gandak River"
+        },
+        {
+          "id": "B",
+          "text": "Kosi River"
+        },
+        {
+          "id": "C",
+          "text": "Son River"
+        },
+        {
+          "id": "D",
+          "text": "Punpun River"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Kosi is called the Sorrow of Bihar because its floods and shifting channels have repeatedly caused extensive damage."
+    },
+    {
+      "id": "stet-11-134",
+      "question": "Who was the leader of the 1857 Revolt in Bihar (Arrah region)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nana Sahib"
+        },
+        {
+          "id": "B",
+          "text": "Veer Kunwar Singh"
+        },
+        {
+          "id": "C",
+          "text": "Tantia Tope"
+        },
+        {
+          "id": "D",
+          "text": "Khan Bahadur Khan"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Veer Kunwar Singh led the 1857 uprising in the Arrah region of Bihar, despite being in his seventies at the time."
+    },
+    {
+      "id": "stet-11-135",
+      "question": "Which planet in our solar system is known as the 'Red Planet'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Venus"
+        },
+        {
+          "id": "B",
+          "text": "Mars"
+        },
+        {
+          "id": "C",
+          "text": "Jupiter"
+        },
+        {
+          "id": "D",
+          "text": "Saturn"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Mars is known as the Red Planet because iron minerals in its surface dust oxidize, giving the surface a reddish appearance."
+    },
+    {
+      "id": "stet-11-136",
+      "question": "Which gas is primarily responsible for the Phenomenon of Global Warming?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oxygen"
+        },
+        {
+          "id": "B",
+          "text": "Carbon Dioxide"
+        },
+        {
+          "id": "C",
+          "text": "Nitrogen"
+        },
+        {
+          "id": "D",
+          "text": "Argon"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Carbon dioxide is a major human-caused greenhouse gas; it traps outgoing heat and contributes substantially to contemporary global warming."
+    },
+    {
+      "id": "stet-11-137",
+      "question": "The primary cause of Minamata Disease is contamination of water by which industrial pollutant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lead"
+        },
+        {
+          "id": "B",
+          "text": "Mercury"
+        },
+        {
+          "id": "C",
+          "text": "Cadmium"
+        },
+        {
+          "id": "D",
+          "text": "Arsenic"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Minamata disease is a severe neurological illness caused by methylmercury exposure, historically associated with contaminated water and seafood near industrial discharge."
+    },
+    {
+      "id": "stet-11-138",
+      "question": "In an ecological food chain, primary consumers are classified as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Producers"
+        },
+        {
+          "id": "B",
+          "text": "Herbivores"
+        },
+        {
+          "id": "C",
+          "text": "Carnivores"
+        },
+        {
+          "id": "D",
+          "text": "Decomposers"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Primary consumers feed directly on producers, such as plants or algae, and are therefore generally herbivores."
+    },
+    {
+      "id": "stet-11-139",
+      "question": "Ozone layer depletion in the stratosphere is mainly caused by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chlorofluorocarbons (CFCs)"
+        },
+        {
+          "id": "B",
+          "text": "Methane"
+        },
+        {
+          "id": "C",
+          "text": "Carbon Monoxide"
+        },
+        {
+          "id": "D",
+          "text": "Sulfur Dioxide"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "CFCs release chlorine in the stratosphere under ultraviolet light; chlorine-catalyzed reactions destroy ozone molecules."
+    },
+    {
+      "id": "stet-11-140",
+      "question": "World Environment Day is celebrated annually on which date?",
+      "options": [
+        {
+          "id": "A",
+          "text": "22nd April"
+        },
+        {
+          "id": "B",
+          "text": "5th June"
+        },
+        {
+          "id": "C",
+          "text": "16th September"
+        },
+        {
+          "id": "D",
+          "text": "1st December"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "World Environment Day is observed each year on 5 June."
+    },
+    {
+      "id": "stet-11-141",
+      "question": "If an item bought for Rs. 400 is sold for Rs. 500, what is the profit percentage?",
+      "options": [
+        {
+          "id": "A",
+          "text": "20%"
+        },
+        {
+          "id": "B",
+          "text": "25%"
+        },
+        {
+          "id": "C",
+          "text": "30%"
+        },
+        {
+          "id": "D",
+          "text": "15%"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Profit is Rs. 500 - Rs. 400 = Rs. 100. Profit percentage is 100/400 x 100 = 25% of the cost price."
+    },
+    {
+      "id": "stet-11-142",
+      "question": "Find the missing number in the series: 4, 9, 16, 25, 36, ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "40"
+        },
+        {
+          "id": "B",
+          "text": "49"
+        },
+        {
+          "id": "C",
+          "text": "50"
+        },
+        {
+          "id": "D",
+          "text": "64"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The terms are consecutive perfect squares: 2^2, 3^2, 4^2, 5^2, 6^2. The next is 7^2 = 49."
+    },
+    {
+      "id": "stet-11-143",
+      "question": "The average of five consecutive numbers is 20. What is the largest of these numbers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "21"
+        },
+        {
+          "id": "B",
+          "text": "22"
+        },
+        {
+          "id": "C",
+          "text": "24"
+        },
+        {
+          "id": "D",
+          "text": "25"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "For five consecutive integers, the average is the middle integer. The numbers are 18, 19, 20, 21, 22, so the largest is 22."
+    },
+    {
+      "id": "stet-11-144",
+      "question": "If 12 men can complete a piece of work in 20 days, how many days will 15 men take to complete the same work?",
+      "options": [
+        {
+          "id": "A",
+          "text": "16 days"
+        },
+        {
+          "id": "B",
+          "text": "18 days"
+        },
+        {
+          "id": "C",
+          "text": "15 days"
+        },
+        {
+          "id": "D",
+          "text": "14 days"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The total work is 12 x 20 = 240 person-days. At 15 men, the time is 240/15 = 16 days, assuming equal work rates."
+    },
+    {
+      "id": "stet-11-145",
+      "question": "What is 15% of 480?",
+      "options": [
+        {
+          "id": "A",
+          "text": "64"
+        },
+        {
+          "id": "B",
+          "text": "72"
+        },
+        {
+          "id": "C",
+          "text": "80"
+        },
+        {
+          "id": "D",
+          "text": "68"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "15% of 480 is 0.15 x 480 = 72."
+    },
+    {
+      "id": "stet-11-146",
+      "question": "In a certain code, 'TEACHER' is written as 'VGCEJFT'. How is 'STUDENT' written in that code?",
+      "options": [
+        {
+          "id": "A",
+          "text": "UVWFGPV"
+        },
+        {
+          "id": "B",
+          "text": "UVWFGVP"
+        },
+        {
+          "id": "C",
+          "text": "TVWFGPV"
+        },
+        {
+          "id": "D",
+          "text": "UVWEGPV"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The intended coding rule is to shift each letter two places forward: S->U, T->V, U->W, D->F, E->G, N->P, T->V, giving UVWFGPV. The example appears to contain a typo: shifting TEACHER by two yields VGCEJGT, not the printed VGCEJFT."
+    },
+    {
+      "id": "stet-11-147",
+      "question": "Pointing to a photograph, a man said, 'She is the daughter of my grandfather's only son.' How is the woman in the photograph related to the man?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mother"
+        },
+        {
+          "id": "B",
+          "text": "Sister"
+        },
+        {
+          "id": "C",
+          "text": "Aunt"
+        },
+        {
+          "id": "D",
+          "text": "Daughter"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The man's grandfather's only son is his father. The daughter of his father is his sister, so the woman is his sister."
+    },
+    {
+      "id": "stet-11-148",
+      "question": "Choose the word which is least like the other words in the group: Apple, Mango, Potato, Orange.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apple"
+        },
+        {
+          "id": "B",
+          "text": "Mango"
+        },
+        {
+          "id": "C",
+          "text": "Potato"
+        },
+        {
+          "id": "D",
+          "text": "Orange"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Apple, mango, and orange are fruits, while potato is a tuber commonly treated as a vegetable, so it is the odd one out."
+    },
+    {
+      "id": "stet-11-149",
+      "question": "If '+' means 'x', '-' means '÷', 'x' means '+' and '÷' means '-', then calculate: 15 + 3 - 5 x 4 ÷ 2 = ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "11"
+        },
+        {
+          "id": "B",
+          "text": "13"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "15"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Replace the symbols as defined: 15 x 3 - 5 + 4 - 2. Applying multiplication and division before addition and subtraction gives 45/5 + 4 - 2 = 9 + 4 - 2 = 11."
+    },
+    {
+      "id": "stet-11-150",
+      "question": "Complete the analogy: Doctor : Patient :: Teacher : ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "School"
+        },
+        {
+          "id": "B",
+          "text": "Student"
+        },
+        {
+          "id": "C",
+          "text": "Classroom"
+        },
+        {
+          "id": "D",
+          "text": "Book"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A doctor provides care to a patient; correspondingly, a teacher teaches and supports a student."
+    }
+  ]
+}

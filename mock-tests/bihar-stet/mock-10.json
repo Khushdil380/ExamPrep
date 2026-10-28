@@ -1,0 +1,3609 @@
+{
+  "examName": "Bihar STET",
+  "testName": "Mock Test 10",
+  "totalQuestions": 150,
+  "durationMinutes": 150,
+  "instructions": "Bihar STET Paper 2 Computer Science practice mock test.",
+  "questions": [
+    {
+      "id": "stet-10-001",
+      "question": "Simplify the Boolean function F(A, B, C) = ∑(2, 4, 5, 6) into its simplified SOP form.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A + B + C"
+        },
+        {
+          "id": "B",
+          "text": "A'B + AC"
+        },
+        {
+          "id": "C",
+          "text": "AC' + AB' + BC'"
+        },
+        {
+          "id": "D",
+          "text": "A'B'C"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Minterms 4 and 5 combine to AB', while 2 and 6 combine to BC'. Their sum is AB' + BC'. Option C is equivalent because its extra AC' term is redundant, although it is not the minimal SOP form."
+    },
+    {
+      "id": "stet-10-002",
+      "question": "What is the significant advantage of using EEPROM over EPROM regarding data erasure and reprogramming?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EEPROM is faster than EPROM."
+        },
+        {
+          "id": "B",
+          "text": "EEPROM does not require UV light for erasure."
+        },
+        {
+          "id": "C",
+          "text": "EEPROM has higher capacity than EPROM."
+        },
+        {
+          "id": "D",
+          "text": "EEPROM is volatile, whereas EPROM is non-volatile."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "EEPROM is electrically erasable and can be reprogrammed without the ultraviolet-light exposure required by EPROM. This makes in-circuit updates much more convenient."
+    },
+    {
+      "id": "stet-10-003",
+      "question": "Which Flip-Flop type is known for an invalid/forbidden state when both inputs are set to '1'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "S-R Flip-Flop"
+        },
+        {
+          "id": "B",
+          "text": "J-K Flip-Flop"
+        },
+        {
+          "id": "C",
+          "text": "D Flip-Flop"
+        },
+        {
+          "id": "D",
+          "text": "T Flip-Flop"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "For a basic S-R flip-flop, asserting both inputs simultaneously produces a forbidden or indeterminate state. J-K flip-flops avoid this condition by toggling when both inputs are asserted."
+    },
+    {
+      "id": "stet-10-004",
+      "question": "In a Johnson counter, how many possible states can be represented by 'n' flip-flops?",
+      "options": [
+        {
+          "id": "A",
+          "text": "n"
+        },
+        {
+          "id": "B",
+          "text": "2n"
+        },
+        {
+          "id": "C",
+          "text": "2^n"
+        },
+        {
+          "id": "D",
+          "text": "2(n-1)"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An n-stage Johnson counter feeds the inverted last output back to the first stage and cycles through 2n distinct states."
+    },
+    {
+      "id": "stet-10-005",
+      "question": "Which logic family uses both depletion and enhancement mode MOSFETs for its operation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TTL"
+        },
+        {
+          "id": "B",
+          "text": "ECL"
+        },
+        {
+          "id": "C",
+          "text": "PMOS"
+        },
+        {
+          "id": "D",
+          "text": "CMOS"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "CMOS means complementary MOS and uses complementary p-channel and n-channel transistors. This is the intended logic-family choice among the options."
+    },
+    {
+      "id": "stet-10-006",
+      "question": "Gray code is typically used in which application?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Digital Communication"
+        },
+        {
+          "id": "B",
+          "text": "Data Encryption"
+        },
+        {
+          "id": "C",
+          "text": "Analog-to-Digital Conversion"
+        },
+        {
+          "id": "D",
+          "text": "Error Detection"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Adjacent Gray-code values differ in only one bit, reducing transition ambiguity in position encoders and many analog-to-digital conversion systems."
+    },
+    {
+      "id": "stet-10-007",
+      "question": "An example of a binary-to-gray code converter is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encoder"
+        },
+        {
+          "id": "B",
+          "text": "Decoder"
+        },
+        {
+          "id": "C",
+          "text": "Comparator"
+        },
+        {
+          "id": "D",
+          "text": "Multiplexer"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A binary-to-Gray converter is a code-conversion encoder: it maps one representation into another. Its Boolean implementation commonly uses XOR operations between adjacent binary bits."
+    },
+    {
+      "id": "stet-10-008",
+      "question": "In binary multiplication using the simple method, what is the first step after aligning the digits and preparing for multiplication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multiply by the Least Significant Bit (LSB) of the multiplier."
+        },
+        {
+          "id": "B",
+          "text": "Multiply by the Most Significant Bit (MSB) of the multiplier."
+        },
+        {
+          "id": "C",
+          "text": "Multiply by the Least Significant Bit (LSB) of the multiplicand."
+        },
+        {
+          "id": "D",
+          "text": "Multiply by the Most Significant Bit (MSB) of the multiplicand."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The multiplier's least significant bit is examined first. Its value determines whether the multiplicand contributes to the first partial product."
+    },
+    {
+      "id": "stet-10-009",
+      "question": "In Hamming code, how are parity bits positioned within a data unit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "At the beginning of the data unit"
+        },
+        {
+          "id": "B",
+          "text": "At the end of the data unit"
+        },
+        {
+          "id": "C",
+          "text": "At specific positions based on powers of 2"
+        },
+        {
+          "id": "D",
+          "text": "At random positions within the data unit"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Hamming-code parity bits occupy positions 1, 2, 4, 8, and so on. These power-of-two positions let each parity bit check a distinct pattern of bit positions."
+    },
+    {
+      "id": "stet-10-010",
+      "question": "Which component of an ideal microcomputer is responsible for temporarily holding data and instructions during processing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CPU"
+        },
+        {
+          "id": "B",
+          "text": "ALU"
+        },
+        {
+          "id": "C",
+          "text": "Memory"
+        },
+        {
+          "id": "D",
+          "text": "Output Device"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Main memory temporarily stores the instructions and data the processor is currently using; the CPU executes instructions and the ALU performs arithmetic and logic."
+    },
+    {
+      "id": "stet-10-011",
+      "question": "What does the term 'microcomputer' typically refer to in the context of computing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A computer system larger than a mainframe"
+        },
+        {
+          "id": "B",
+          "text": "A small computer system typically used by an individual"
+        },
+        {
+          "id": "C",
+          "text": "A computer system used exclusively by large corporations"
+        },
+        {
+          "id": "D",
+          "text": "A computer system that is part of a network"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A microcomputer is a relatively small computer built around a microprocessor and generally intended for individual use, unlike a mainframe serving many users."
+    },
+    {
+      "id": "stet-10-012",
+      "question": "The microprocessor that powered the first microcomputer kit, Altair 8800, was the Intel 8080. When was the Altair 8800 introduced?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1965"
+        },
+        {
+          "id": "B",
+          "text": "1975"
+        },
+        {
+          "id": "C",
+          "text": "1985"
+        },
+        {
+          "id": "D",
+          "text": "1995"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Altair 8800, based on the Intel 8080, was introduced in 1975 and helped popularize the personal-computer era."
+    },
+    {
+      "id": "stet-10-013",
+      "question": "What is the equivalent Gray code for the binary number 1101?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1110"
+        },
+        {
+          "id": "B",
+          "text": "1011"
+        },
+        {
+          "id": "C",
+          "text": "1010"
+        },
+        {
+          "id": "D",
+          "text": "1001"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "To convert binary to Gray code, retain the leading bit and XOR each binary bit with the bit immediately to its left. For 1101 this gives 1, 1, 0, 1 = 1011."
+    },
+    {
+      "id": "stet-10-014",
+      "question": "Conditional asymptotic notation allows for a more nuanced analysis of algorithm behavior under specific conditions. It is especially useful when:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Analyzing algorithms with constant time complexity."
+        },
+        {
+          "id": "B",
+          "text": "Input size is fixed."
+        },
+        {
+          "id": "C",
+          "text": "Input data is random."
+        },
+        {
+          "id": "D",
+          "text": "Algorithm behavior varies based on certain input characteristics."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Conditional asymptotic analysis is useful when runtime depends on a property of the input, such as whether the data is already ordered or a search target is present."
+    },
+    {
+      "id": "stet-10-015",
+      "question": "Conditional asymptotic notation is used to analyze an algorithm's behavior under specific conditions. When removing the condition 'if g(n)' from 'O(f(n)) if g(n)', what notation is obtained?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(f(n))"
+        },
+        {
+          "id": "B",
+          "text": "O(g(n))"
+        },
+        {
+          "id": "C",
+          "text": "O(f(n) + g(n))"
+        },
+        {
+          "id": "D",
+          "text": "O(f(n) * g(n))"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Removing the stated condition leaves the ordinary asymptotic bound O(f(n)); the condition no longer qualifies when that bound applies."
+    },
+    {
+      "id": "stet-10-016",
+      "question": "When analyzing the time complexity of an algorithm using Big-O notation, which property allows us to ignore lower-order terms?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reflexivity"
+        },
+        {
+          "id": "B",
+          "text": "Additivity"
+        },
+        {
+          "id": "C",
+          "text": "Multiplication"
+        },
+        {
+          "id": "D",
+          "text": "Ignorance of Constants"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "By the additivity property, the sum of terms is bounded asymptotically by its dominant growth term; lower-order terms do not affect the overall Big-O class."
+    },
+    {
+      "id": "stet-10-017",
+      "question": "The recurrence relation T(n) = 2T(n/2) + n represents the time complexity of an algorithm paradigm. Using Master Theorem, what will be the values of 'a', 'b', and 'f(n)'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Divide and Conquer; a=2, b=2, f(n)=n"
+        },
+        {
+          "id": "B",
+          "text": "Greedy Algorithm; a=2, b=2, f(n)=n"
+        },
+        {
+          "id": "C",
+          "text": "Dynamic Programming; a=2, b=2, f(n)=n"
+        },
+        {
+          "id": "D",
+          "text": "Brute Force; a=2, b=2, f(n)=n"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In T(n)=aT(n/b)+f(n), the recurrence has two subproblems (a=2), each of half the input size (b=2), plus linear non-recursive work f(n)=n. This is the divide-and-conquer form."
+    },
+    {
+      "id": "stet-10-018",
+      "question": "What is the worst-case time complexity of Linear Search algorithm for an array of size 'n'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(log n)"
+        },
+        {
+          "id": "B",
+          "text": "O(n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n^2)"
+        },
+        {
+          "id": "D",
+          "text": "O(1)"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In the worst case, linear search checks every array element before finding the target or determining it is absent, so its work grows proportionally to n."
+    },
+    {
+      "id": "stet-10-019",
+      "question": "The first problem proven to be NP-complete was:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Traveling Salesman Problem"
+        },
+        {
+          "id": "B",
+          "text": "Hamiltonian Cycle Problem"
+        },
+        {
+          "id": "C",
+          "text": "Boolean Satisfiability Problem"
+        },
+        {
+          "id": "D",
+          "text": "Knapsack Problem"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Cook and Levin established Boolean satisfiability as the first NP-complete problem, now known as the Cook-Levin theorem."
+    },
+    {
+      "id": "stet-10-020",
+      "question": "In a biconnected graph, the number of biconnected components is related to the number of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertices"
+        },
+        {
+          "id": "B",
+          "text": "Edges"
+        },
+        {
+          "id": "C",
+          "text": "Cut Vertices"
+        },
+        {
+          "id": "D",
+          "text": "Vertices minus one"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a connected graph's block-cut structure, articulation vertices connect biconnected components; under the usual block definition, the component count is one greater than the number of cut vertices."
+    },
+    {
+      "id": "stet-10-021",
+      "question": "In an extended binary tree, internal nodes represent:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leaf Nodes"
+        },
+        {
+          "id": "B",
+          "text": "Arithmetic Operators"
+        },
+        {
+          "id": "C",
+          "text": "Operands"
+        },
+        {
+          "id": "D",
+          "text": "Numbers"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In an expression tree, internal nodes hold operators and leaves hold operands. An extended binary tree makes missing child links explicit using external leaves."
+    },
+    {
+      "id": "stet-10-022",
+      "question": "In the array representation of a binary tree, if node at index 'i' is non-zero, its left child will be at index:",
+      "options": [
+        {
+          "id": "A",
+          "text": "2i"
+        },
+        {
+          "id": "B",
+          "text": "2i + 1"
+        },
+        {
+          "id": "C",
+          "text": "2i - 1"
+        },
+        {
+          "id": "D",
+          "text": "i + 1"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With the usual zero-based array representation, the left child of index i is stored at 2i+1. (With one-based indexing the formula differs.)"
+    },
+    {
+      "id": "stet-10-023",
+      "question": "In an undirected graph, a connected component is a subset of vertices connected by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cycles"
+        },
+        {
+          "id": "B",
+          "text": "Paths"
+        },
+        {
+          "id": "C",
+          "text": "Edges"
+        },
+        {
+          "id": "D",
+          "text": "Weights"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Vertices belong to the same connected component when a path exists between them. The path may contain one or more edges."
+    },
+    {
+      "id": "stet-10-024",
+      "question": "Which graph representation is more memory-efficient for sparse graphs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adjacency Matrix"
+        },
+        {
+          "id": "B",
+          "text": "Adjacency List"
+        },
+        {
+          "id": "C",
+          "text": "Edge List"
+        },
+        {
+          "id": "D",
+          "text": "Incidence Matrix"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An adjacency list stores only each vertex's neighbors, using space proportional to vertices plus edges, so it avoids the mostly empty V-by-V matrix for sparse graphs."
+    },
+    {
+      "id": "stet-10-025",
+      "question": "In the process of removing recursion, recursive function calls are replaced by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "More Recursion"
+        },
+        {
+          "id": "B",
+          "text": "Loops"
+        },
+        {
+          "id": "C",
+          "text": "Extra Memory Allocation"
+        },
+        {
+          "id": "D",
+          "text": "Non-recursive Function Calls"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An iterative version replaces recursive calls with repeated loop steps; when needed, an explicit stack stores the state that recursion would otherwise keep on the call stack."
+    },
+    {
+      "id": "stet-10-026",
+      "question": "Which of the following is an example of a problem that can be solved using Backtracking?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Calculating factorial of a number"
+        },
+        {
+          "id": "B",
+          "text": "Finding the largest element in an array"
+        },
+        {
+          "id": "C",
+          "text": "Solving a Sudoku puzzle"
+        },
+        {
+          "id": "D",
+          "text": "Sorting an array using Quicksort"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Backtracking explores a candidate choice, checks whether it can still lead to a solution, and reverses choices that fail. Sudoku is a standard constraint-solving example."
+    },
+    {
+      "id": "stet-10-027",
+      "question": "Which representation is most suitable for matrices with a small number of non-zero elements in each row and column?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Triplet Representation"
+        },
+        {
+          "id": "B",
+          "text": "Compressed Sparse Row (CSR) Format"
+        },
+        {
+          "id": "C",
+          "text": "Compressed Sparse Column (CSC) Format"
+        },
+        {
+          "id": "D",
+          "text": "Array Representation"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Compressed Sparse Row stores nonzero values and their column indices together with row offsets. This compact representation is efficient for sparse matrices, especially row-oriented operations."
+    },
+    {
+      "id": "stet-10-028",
+      "question": "What is the purpose of a firewall in an Operating System?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Control the flow of information between processes"
+        },
+        {
+          "id": "B",
+          "text": "Manage CPU time allocation for processes"
+        },
+        {
+          "id": "C",
+          "text": "Protect a network by filtering incoming and outgoing traffic"
+        },
+        {
+          "id": "D",
+          "text": "Optimize memory management algorithms"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A firewall applies traffic rules to incoming and outgoing network communication, allowing or blocking traffic to help protect a host or network."
+    },
+    {
+      "id": "stet-10-029",
+      "question": "A file organization method that uses a table to map logical addresses to physical block addresses is known as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contiguous Allocation"
+        },
+        {
+          "id": "B",
+          "text": "Linked Allocation"
+        },
+        {
+          "id": "C",
+          "text": "Indexed Allocation"
+        },
+        {
+          "id": "D",
+          "text": "Variable Allocation"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Indexed allocation keeps an index block containing pointers to a file's data blocks. The table maps the file's logical block positions to physical blocks without requiring them to be contiguous."
+    },
+    {
+      "id": "stet-10-030",
+      "question": "Which storage allocation strategy allows multiple processes to reside in memory simultaneously without requiring contiguous memory?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Best Fit"
+        },
+        {
+          "id": "B",
+          "text": "Worst Fit"
+        },
+        {
+          "id": "C",
+          "text": "First Fit"
+        },
+        {
+          "id": "D",
+          "text": "Paging"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Paging divides virtual and physical memory into fixed-size pages and frames. A process's pages can occupy separate frames, so contiguous physical allocation is unnecessary."
+    },
+    {
+      "id": "stet-10-031",
+      "question": "Which of the following is a solution to the deadlock problem that involves ensuring all required resources are available before execution starts?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoidance"
+        },
+        {
+          "id": "B",
+          "text": "Detection"
+        },
+        {
+          "id": "C",
+          "text": "Prevention"
+        },
+        {
+          "id": "D",
+          "text": "Termination"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Deadlock prevention removes at least one necessary deadlock condition. Requiring a process to request all needed resources before it begins prevents hold-and-wait."
+    },
+    {
+      "id": "stet-10-032",
+      "question": "Priority scheduling involves assigning a priority to each process. Which scheduling algorithm is closely related to this concept?",
+      "options": [
+        {
+          "id": "A",
+          "text": "FCFS"
+        },
+        {
+          "id": "B",
+          "text": "SJN"
+        },
+        {
+          "id": "C",
+          "text": "Multilevel Queue Scheduling"
+        },
+        {
+          "id": "D",
+          "text": "First-Come First-Served"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A multilevel queue places processes into queues with different fixed priorities, and the scheduler selects among queues according to those priorities."
+    },
+    {
+      "id": "stet-10-033",
+      "question": "In parallel programming, the term 'Race Condition' refers to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Competition between processes to finish first"
+        },
+        {
+          "id": "B",
+          "text": "Competition between processes to access shared resources"
+        },
+        {
+          "id": "C",
+          "text": "A situation where a process gets stuck in a loop"
+        },
+        {
+          "id": "D",
+          "text": "A situation where processes run sequentially"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A race condition occurs when processes or threads access shared state concurrently and the outcome depends on their timing or ordering."
+    },
+    {
+      "id": "stet-10-034",
+      "question": "What does RDBMS consist of?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Collection of Records"
+        },
+        {
+          "id": "B",
+          "text": "Collection of Keys"
+        },
+        {
+          "id": "C",
+          "text": "Collection of Tables"
+        },
+        {
+          "id": "D",
+          "text": "Collection of Fields"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A relational database organizes related data into tables, with rows representing records and columns representing attributes."
+    },
+    {
+      "id": "stet-10-035",
+      "question": "Rows of a relation are known as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Degree"
+        },
+        {
+          "id": "B",
+          "text": "Tuples"
+        },
+        {
+          "id": "C",
+          "text": "Entity"
+        },
+        {
+          "id": "D",
+          "text": "All of these"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A row in a relation is a tuple; the number of attributes (columns) is its degree."
+    },
+    {
+      "id": "stet-10-036",
+      "question": "Which command is used to restore the database to the last committed state?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SAVEPOINT"
+        },
+        {
+          "id": "B",
+          "text": "ROLLBACK"
+        },
+        {
+          "id": "C",
+          "text": "COMMIT"
+        },
+        {
+          "id": "D",
+          "text": "Both SAVEPOINT and ROLLBACK"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "ROLLBACK cancels uncommitted changes in the current transaction and restores the database state to its last committed state (or the applicable savepoint)."
+    },
+    {
+      "id": "stet-10-037",
+      "question": "Accumulated information or data collected from many different sources is known as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data Management"
+        },
+        {
+          "id": "B",
+          "text": "Data Mining"
+        },
+        {
+          "id": "C",
+          "text": "Data Warehouse"
+        },
+        {
+          "id": "D",
+          "text": "Both Data Mining and Data Warehouse"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A data warehouse consolidates historical information from multiple sources for reporting and analysis. Data mining is the process of discovering patterns in data."
+    },
+    {
+      "id": "stet-10-038",
+      "question": "Which command is used in SQL to remove (or drop) a relation/table from the database?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DELETE"
+        },
+        {
+          "id": "B",
+          "text": "DROP"
+        },
+        {
+          "id": "C",
+          "text": "REMOVE"
+        },
+        {
+          "id": "D",
+          "text": "All of these"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "DROP removes a database object such as a table itself. DELETE removes rows while leaving the table structure in place."
+    },
+    {
+      "id": "stet-10-039",
+      "question": "Database Management System (DBMS) is a type of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Application Software"
+        },
+        {
+          "id": "B",
+          "text": "General Software"
+        },
+        {
+          "id": "C",
+          "text": "System Software"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A DBMS manages core system-level data services such as storage, retrieval, access control, and transactions, so it is classified as system software."
+    },
+    {
+      "id": "stet-10-040",
+      "question": "Which of the following is a type of Data Manipulation Language (DML) command?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DELETE"
+        },
+        {
+          "id": "B",
+          "text": "UPDATE"
+        },
+        {
+          "id": "C",
+          "text": "INSERT"
+        },
+        {
+          "id": "D",
+          "text": "All of these"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "DELETE, UPDATE, and INSERT all manipulate table data, making each a DML command."
+    },
+    {
+      "id": "stet-10-041",
+      "question": "What is the primary function of routing in the Network Layer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data Framing"
+        },
+        {
+          "id": "B",
+          "text": "Error Correction"
+        },
+        {
+          "id": "C",
+          "text": "Finding the best path for data"
+        },
+        {
+          "id": "D",
+          "text": "Flow Control"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The network layer's routing function selects a path through interconnected networks so packets can reach their destination."
+    },
+    {
+      "id": "stet-10-042",
+      "question": "In the context of process-to-process communication, what is a socket/circuit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A hardware device for data transmission"
+        },
+        {
+          "id": "B",
+          "text": "A software interface for network communication"
+        },
+        {
+          "id": "C",
+          "text": "A type of cable used for high-speed data transmission"
+        },
+        {
+          "id": "D",
+          "text": "A type of network topology"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A socket is a software endpoint/interface used by applications to send and receive data over a network, commonly identified by an IP address and port."
+    },
+    {
+      "id": "stet-10-043",
+      "question": "What is the primary function of SNMP (Simple Network Management Protocol)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "File Transfer"
+        },
+        {
+          "id": "B",
+          "text": "Remote Terminal Access"
+        },
+        {
+          "id": "C",
+          "text": "Network Management and Monitoring"
+        },
+        {
+          "id": "D",
+          "text": "Web Browsing"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "SNMP lets management systems monitor and manage network devices by exchanging management information and statistics."
+    },
+    {
+      "id": "stet-10-044",
+      "question": "Data transmission using multiple paths simultaneously is known as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parallel Transmission"
+        },
+        {
+          "id": "B",
+          "text": "Serial Transmission"
+        },
+        {
+          "id": "C",
+          "text": "Duplex Transmission"
+        },
+        {
+          "id": "D",
+          "text": "Half-Duplex Transmission"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Parallel transmission sends multiple bits at the same time over separate channels or lines; serial transmission sends bits sequentially over a channel."
+    },
+    {
+      "id": "stet-10-045",
+      "question": "Flow control is used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prevent data loss during transmission"
+        },
+        {
+          "id": "B",
+          "text": "Increase data rate of transmission"
+        },
+        {
+          "id": "C",
+          "text": "Enable simultaneous transmission in both directions"
+        },
+        {
+          "id": "D",
+          "text": "Improve error correction capabilities"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Flow control coordinates sender and receiver rates so a fast sender does not overwhelm the receiver's available buffer capacity and cause loss."
+    },
+    {
+      "id": "stet-10-046",
+      "question": "Which sublayer of the Data Link Layer manages access to shared communication media?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Logical Link Control (LLC)"
+        },
+        {
+          "id": "B",
+          "text": "Media Access Control (MAC)"
+        },
+        {
+          "id": "C",
+          "text": "Flow Control Sublayer"
+        },
+        {
+          "id": "D",
+          "text": "Error Control Sublayer"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The MAC sublayer controls access to a shared transmission medium, including when a device may transmit on that medium."
+    },
+    {
+      "id": "stet-10-047",
+      "question": "Routing includes:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dividing data into frames"
+        },
+        {
+          "id": "B",
+          "text": "Managing flow control"
+        },
+        {
+          "id": "C",
+          "text": "Determining the best path for data packets"
+        },
+        {
+          "id": "D",
+          "text": "Correcting errors in data transmission"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Routing determines an appropriate path for packets through a network; framing, flow control, and link-level error handling are different functions."
+    },
+    {
+      "id": "stet-10-048",
+      "question": "What are the main characteristics of Software Engineering?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reusability, Adaptability, and Maintainability"
+        },
+        {
+          "id": "B",
+          "text": "Hardware-centric, One-time development, Individual effort"
+        },
+        {
+          "id": "C",
+          "text": "Rigorous process, Quantitative perspective, Systematic documentation"
+        },
+        {
+          "id": "D",
+          "text": "Rapid development, Subjective decision making, Informal communication"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Reusability, adaptability, and maintainability are important qualities of engineered software that support reuse, change, and long-term correction."
+    },
+    {
+      "id": "stet-10-049",
+      "question": "Which of the following is NOT a software metric?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lines of Code (LOC)"
+        },
+        {
+          "id": "B",
+          "text": "Number of Defects"
+        },
+        {
+          "id": "C",
+          "text": "Processor Speed"
+        },
+        {
+          "id": "D",
+          "text": "Function Points (FP)"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "LOC, defect counts, and function points measure software size or quality. Processor speed measures hardware performance, not a software metric."
+    },
+    {
+      "id": "stet-10-050",
+      "question": "Which software design approach is based on creating modular, functional components?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Object-Oriented Design"
+        },
+        {
+          "id": "B",
+          "text": "Function-Oriented Design"
+        },
+        {
+          "id": "C",
+          "text": "Prototype Design"
+        },
+        {
+          "id": "D",
+          "text": "Waterfall Design"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Function-oriented design decomposes a system into functions or procedures with defined responsibilities and interfaces."
+    },
+    {
+      "id": "stet-10-051",
+      "question": "White box testing is also known as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Functional Testing"
+        },
+        {
+          "id": "B",
+          "text": "Black Box Testing"
+        },
+        {
+          "id": "C",
+          "text": "Glass Box Testing"
+        },
+        {
+          "id": "D",
+          "text": "Unit Testing"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "White-box testing examines internal code structure and logic. It is also called glass-box or structural testing."
+    },
+    {
+      "id": "stet-10-052",
+      "question": "What is the main goal of System Testing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Testing individual components in isolation"
+        },
+        {
+          "id": "B",
+          "text": "Testing integration between different software components"
+        },
+        {
+          "id": "C",
+          "text": "Testing software functionality from the user's perspective"
+        },
+        {
+          "id": "D",
+          "text": "Identifying defects in source code"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "System testing evaluates the complete integrated system against requirements, including behavior visible to its intended users. Component-only testing is unit testing."
+    },
+    {
+      "id": "stet-10-053",
+      "question": "Software maintenance refers to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Developing new software from scratch"
+        },
+        {
+          "id": "B",
+          "text": "Enhancing software performance"
+        },
+        {
+          "id": "C",
+          "text": "Fixing defects and updating existing software"
+        },
+        {
+          "id": "D",
+          "text": "Testing software before release"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Software maintenance takes place after delivery and includes correcting faults, adapting the product, and improving it as needs change."
+    },
+    {
+      "id": "stet-10-054",
+      "question": "Which maintenance process involves documenting the structure and functionality of software?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reverse Engineering"
+        },
+        {
+          "id": "B",
+          "text": "Preventive Maintenance"
+        },
+        {
+          "id": "C",
+          "text": "Perfective Maintenance"
+        },
+        {
+          "id": "D",
+          "text": "Adaptive Maintenance"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Reverse engineering analyzes an existing program to recover higher-level design information, structure, and documentation from its implementation."
+    },
+    {
+      "id": "stet-10-055",
+      "question": "What is the purpose of the 'super' keyword in Java and similar languages?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It refers to the superclass in inheritance."
+        },
+        {
+          "id": "B",
+          "text": "It creates a new object instance."
+        },
+        {
+          "id": "C",
+          "text": "It defines a new class."
+        },
+        {
+          "id": "D",
+          "text": "It handles exceptions."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In Java, super refers to the immediate superclass and can access superclass constructors, methods, or fields where permitted."
+    },
+    {
+      "id": "stet-10-056",
+      "question": "What is Polymorphism in OOP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using abstract classes only"
+        },
+        {
+          "id": "B",
+          "text": "The ability of objects to take on many forms"
+        },
+        {
+          "id": "C",
+          "text": "A type of inheritance"
+        },
+        {
+          "id": "D",
+          "text": "A method without implementation"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Polymorphism allows a common interface or base type to refer to objects with different concrete forms, whose appropriate behavior is selected at runtime."
+    },
+    {
+      "id": "stet-10-057",
+      "question": "What are Abstract Methods?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Methods that are inaccessible to the outside world"
+        },
+        {
+          "id": "B",
+          "text": "Methods that contain implementation details"
+        },
+        {
+          "id": "C",
+          "text": "Methods without a body, defined in an abstract class"
+        },
+        {
+          "id": "D",
+          "text": "Methods that cannot be inherited"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "An abstract method declares a required operation without providing its method body; a concrete subclass supplies the implementation."
+    },
+    {
+      "id": "stet-10-058",
+      "question": "Which keyword is used to catch and handle exceptions in a try-catch block?",
+      "options": [
+        {
+          "id": "A",
+          "text": "thrown-away"
+        },
+        {
+          "id": "B",
+          "text": "catch"
+        },
+        {
+          "id": "C",
+          "text": "exception"
+        },
+        {
+          "id": "D",
+          "text": "handle"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The catch clause receives and handles an exception thrown from the associated try block."
+    },
+    {
+      "id": "stet-10-059",
+      "question": "What is the term for creating a new class that inherits properties and behaviors from an existing class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polymorphism"
+        },
+        {
+          "id": "B",
+          "text": "Encapsulation"
+        },
+        {
+          "id": "C",
+          "text": "Abstraction"
+        },
+        {
+          "id": "D",
+          "text": "Derivation / Inheritance"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Inheritance (also called derivation) defines a new class based on an existing class, reusing or extending its state and behavior."
+    },
+    {
+      "id": "stet-10-060",
+      "question": "What does the term 'Method Overriding' mean in OOP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Creating multiple methods with the same name in a single class"
+        },
+        {
+          "id": "B",
+          "text": "Defining a method in a derived class with the same signature as in the base class"
+        },
+        {
+          "id": "C",
+          "text": "Reimplementing all methods in a class hierarchy"
+        },
+        {
+          "id": "D",
+          "text": "Defining private methods in a class"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Overriding replaces an inherited method implementation in a derived class using a compatible method signature."
+    },
+    {
+      "id": "stet-10-061",
+      "question": "What is the function of DNS (Domain Name System)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sending emails"
+        },
+        {
+          "id": "B",
+          "text": "Translating domain names into IP addresses"
+        },
+        {
+          "id": "C",
+          "text": "Managing databases"
+        },
+        {
+          "id": "D",
+          "text": "Providing website security"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "DNS resolves human-readable domain names to IP addresses so clients can locate the corresponding network hosts."
+    },
+    {
+      "id": "stet-10-062",
+      "question": "What is the primary purpose of XML?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Creating complex animations"
+        },
+        {
+          "id": "B",
+          "text": "Styling web pages"
+        },
+        {
+          "id": "C",
+          "text": "Storing and transporting structured data"
+        },
+        {
+          "id": "D",
+          "text": "Displaying images"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "XML represents structured, self-describing data and is commonly used to store and transport it between systems."
+    },
+    {
+      "id": "stet-10-063",
+      "question": "What is an entity in a DTD?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A reference to an external resource"
+        },
+        {
+          "id": "B",
+          "text": "A mathematical equation"
+        },
+        {
+          "id": "C",
+          "text": "A special XML tag"
+        },
+        {
+          "id": "D",
+          "text": "A function in JavaScript"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A DTD entity is a named replacement for content; it may refer to an external resource or contain an internal replacement value. Option A is the closest description offered."
+    },
+    {
+      "id": "stet-10-064",
+      "question": "What is the full form of SQL?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Structured Query Language"
+        },
+        {
+          "id": "B",
+          "text": "Simple Query Language"
+        },
+        {
+          "id": "C",
+          "text": "Systematic Query Logic"
+        },
+        {
+          "id": "D",
+          "text": "Standard Query Level"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "SQL stands for Structured Query Language, the standard language used to define, query, and manipulate relational data."
+    },
+    {
+      "id": "stet-10-065",
+      "question": "Which statement in SQL is used to retrieve data from a database?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SELECT"
+        },
+        {
+          "id": "B",
+          "text": "UPDATE"
+        },
+        {
+          "id": "C",
+          "text": "DELETE"
+        },
+        {
+          "id": "D",
+          "text": "INSERT"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "SELECT retrieves rows and columns from a database; UPDATE changes existing rows, DELETE removes rows, and INSERT adds rows."
+    },
+    {
+      "id": "stet-10-066",
+      "question": "How can you prevent SQL Injection vulnerabilities in your PHP code?",
+      "options": [
+        {
+          "id": "A",
+          "text": "By using short and simple SQL queries"
+        },
+        {
+          "id": "B",
+          "text": "By using Prepared Statements / Parameterized Queries instead of direct user input"
+        },
+        {
+          "id": "C",
+          "text": "By removing error handling from the code"
+        },
+        {
+          "id": "D",
+          "text": "By disabling database privileges"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Parameterized queries keep SQL code separate from user-supplied values, preventing input from being interpreted as executable SQL."
+    },
+    {
+      "id": "stet-10-067",
+      "question": "Which statement is used to update existing data in a database?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CHANGE"
+        },
+        {
+          "id": "B",
+          "text": "MODIFY"
+        },
+        {
+          "id": "C",
+          "text": "UPDATE"
+        },
+        {
+          "id": "D",
+          "text": "CORRECT"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "UPDATE changes values in existing rows, usually selecting the target rows with a WHERE clause."
+    },
+    {
+      "id": "stet-10-068",
+      "question": "A language for which a DFA exists is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Regular language"
+        },
+        {
+          "id": "B",
+          "text": "Non-regular language"
+        },
+        {
+          "id": "C",
+          "text": "Any language"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be said"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A DFA recognizes exactly the class of regular languages; each input symbol causes a deterministic transition between finite states."
+    },
+    {
+      "id": "stet-10-069",
+      "question": "For a DFA that accepts binary numbers whose decimal equivalent is divisible by 3, what are all the possible remainders?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "0, 2"
+        },
+        {
+          "id": "C",
+          "text": "0, 1, 2"
+        },
+        {
+          "id": "D",
+          "text": "0, 1, 2, 3"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Remainders on division by 3 can only be 0, 1, or 2. A DFA can track these three residue classes while reading the binary representation."
+    },
+    {
+      "id": "stet-10-070",
+      "question": "What is the Regular Expression for all strings starting with 'b' and ending with 'bba'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ababbba"
+        },
+        {
+          "id": "B",
+          "text": "ab(ab)*bba"
+        },
+        {
+          "id": "C",
+          "text": "b(a+b)*bba"
+        },
+        {
+          "id": "D",
+          "text": "All of the mentioned"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The expression b(a+b)*bba starts with b, permits any sequence of a's and b's in the middle, and ends with bba."
+    },
+    {
+      "id": "stet-10-071",
+      "question": "If an NFA with 5 states (excluding the initial state) is converted to a DFA, what is the maximum possible number of states in the DFA?",
+      "options": [
+        {
+          "id": "A",
+          "text": "64"
+        },
+        {
+          "id": "B",
+          "text": "32"
+        },
+        {
+          "id": "C",
+          "text": "128"
+        },
+        {
+          "id": "D",
+          "text": "187"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Subset construction gives at most 2^n DFA states for n NFA states, so five total NFA states yield 32. The source wording says '5 states (excluding the initial state)', which would mean six states and a bound of 64; that wording needs clarification."
+    },
+    {
+      "id": "stet-10-072",
+      "question": "CFG (Context-Free Grammar) is NOT closed under which of the following operations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Concatenation"
+        },
+        {
+          "id": "B",
+          "text": "Intersection"
+        },
+        {
+          "id": "C",
+          "text": "Union"
+        },
+        {
+          "id": "D",
+          "text": "Kleene Star (Repeated Concatenation)"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Context-free languages are closed under union, concatenation, and Kleene star, but not under intersection in general. Their intersection with a regular language is closed."
+    },
+    {
+      "id": "stet-10-073",
+      "question": "A Pushdown Automaton (PDA) can be represented using:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Instantaneous Description"
+        },
+        {
+          "id": "B",
+          "text": "Transition Diagram"
+        },
+        {
+          "id": "C",
+          "text": "Transition Table"
+        },
+        {
+          "id": "D",
+          "text": "All of these"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A PDA can be described by configurations (instantaneous descriptions), a transition diagram, or a transition table; these are equivalent ways of showing its behavior."
+    },
+    {
+      "id": "stet-10-074",
+      "question": "A Turing Machine can be represented using:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transition Table"
+        },
+        {
+          "id": "B",
+          "text": "Transition Diagram"
+        },
+        {
+          "id": "C",
+          "text": "Instantaneous Description"
+        },
+        {
+          "id": "D",
+          "text": "All of these"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A Turing machine's transitions can be presented as a table or diagram, and its step-by-step configurations can be written as instantaneous descriptions."
+    },
+    {
+      "id": "stet-10-075",
+      "question": "Who coined the term 'IoT' (Internet of Things)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Steve Jobs"
+        },
+        {
+          "id": "B",
+          "text": "Bill Simpson"
+        },
+        {
+          "id": "C",
+          "text": "Kevin Ashton"
+        },
+        {
+          "id": "D",
+          "text": "None of these"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kevin Ashton introduced the term Internet of Things in 1999 while describing connected objects and RFID in supply chains."
+    },
+    {
+      "id": "stet-10-076",
+      "question": "Which of the following is NOT true about IoT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IoT uses microcontrollers."
+        },
+        {
+          "id": "B",
+          "text": "IoT is completely secure."
+        },
+        {
+          "id": "C",
+          "text": "IoT uses sensors and actuators."
+        },
+        {
+          "id": "D",
+          "text": "IoT uses wireless technology."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "IoT devices use controllers, sensors/actuators, and often wireless links, but no networked system is completely secure; security requires ongoing safeguards."
+    },
+    {
+      "id": "stet-10-077",
+      "question": "Which of the following is a lightweight IoT protocol?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IP"
+        },
+        {
+          "id": "B",
+          "text": "CoAP"
+        },
+        {
+          "id": "C",
+          "text": "HTTP"
+        },
+        {
+          "id": "D",
+          "text": "MQTT"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "MQTT is a compact publish/subscribe messaging protocol designed for constrained devices and unreliable or low-bandwidth networks. CoAP is also lightweight, so the question's single-choice wording is ambiguous."
+    },
+    {
+      "id": "stet-10-078",
+      "question": "What does the term WSN stand for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wireless Standard Network"
+        },
+        {
+          "id": "B",
+          "text": "Wireless Sensor Network"
+        },
+        {
+          "id": "C",
+          "text": "Wireless Serial Network"
+        },
+        {
+          "id": "D",
+          "text": "Wireless Single Network"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "WSN means Wireless Sensor Network: distributed sensor nodes communicate wirelessly to collect and report measurements."
+    },
+    {
+      "id": "stet-10-079",
+      "question": "What does the term IIoT stand for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Industrial Internet of Things"
+        },
+        {
+          "id": "B",
+          "text": "Intelligent Internet of Things"
+        },
+        {
+          "id": "C",
+          "text": "Internal Internet of Things"
+        },
+        {
+          "id": "D",
+          "text": "Institutional Internet of Things"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "IIoT expands to Industrial Internet of Things, applying connected sensors and devices to industrial monitoring, control, and operations."
+    },
+    {
+      "id": "stet-10-080",
+      "question": "What is the default value of the Transaction Identifier in a Modbus TCP packet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Many Modbus TCP examples initialize the transaction identifier to zero, but the protocol expects the client to set an identifier and the server to echo it; zero is not a universal mandated default."
+    },
+    {
+      "id": "stet-10-081",
+      "question": "Which of the following are components of an Expert System?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Knowledge Base"
+        },
+        {
+          "id": "B",
+          "text": "Inference Engine"
+        },
+        {
+          "id": "C",
+          "text": "User Interface"
+        },
+        {
+          "id": "D",
+          "text": "All of these"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "An expert system typically combines a knowledge base, an inference engine that applies rules, and a user interface for interaction."
+    },
+    {
+      "id": "stet-10-082",
+      "question": "Which algorithm is used in game trees for making win/loss decisions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Heuristic Search Algorithm"
+        },
+        {
+          "id": "B",
+          "text": "DFS/BFS Algorithm"
+        },
+        {
+          "id": "C",
+          "text": "Greedy Search Algorithm"
+        },
+        {
+          "id": "D",
+          "text": "Minimax Algorithm"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Minimax evaluates alternating moves by maximizing one player's outcome and minimizing the opponent's, supporting win/loss decisions in game trees."
+    },
+    {
+      "id": "stet-10-083",
+      "question": "Forward Chaining is a ...... system, whereas Backward Chaining is a ...... system.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Goal-driven, Goal-driven"
+        },
+        {
+          "id": "B",
+          "text": "Goal-driven, Data-driven"
+        },
+        {
+          "id": "C",
+          "text": "Data-driven, Goal-driven"
+        },
+        {
+          "id": "D",
+          "text": "Data-driven, Data-driven"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Forward chaining starts with known facts and derives consequences (data-driven); backward chaining starts with a goal and works backward to required facts (goal-driven)."
+    },
+    {
+      "id": "stet-10-084",
+      "question": "The input segment of AI programming includes:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sound"
+        },
+        {
+          "id": "B",
+          "text": "Smell"
+        },
+        {
+          "id": "C",
+          "text": "Touch"
+        },
+        {
+          "id": "D",
+          "text": "None of these"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Sound is one possible sensory input to an AI system. Other systems may also accept vision, touch, or additional sensor data."
+    },
+    {
+      "id": "stet-10-085",
+      "question": "Which of the following is NOT a capability of Expert Systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Advising"
+        },
+        {
+          "id": "B",
+          "text": "Demonstrating"
+        },
+        {
+          "id": "C",
+          "text": "Explaining"
+        },
+        {
+          "id": "D",
+          "text": "Expansion (Self-learning/expanding)"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Traditional expert systems apply encoded rules and knowledge; they do not automatically expand or learn their own knowledge base unless a learning mechanism is added."
+    },
+    {
+      "id": "stet-10-086",
+      "question": "Which of the following is a capability of Expert Systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Possessing human capabilities"
+        },
+        {
+          "id": "B",
+          "text": "Suggesting alternative options for a problem"
+        },
+        {
+          "id": "C",
+          "text": "Refining its own knowledge"
+        },
+        {
+          "id": "D",
+          "text": "Replacing human decision makers"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An expert system can evaluate its rules and knowledge to suggest alternative actions or solutions for a problem."
+    },
+    {
+      "id": "stet-10-087",
+      "question": "What is the full form of JESS in Expert System technology?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Java Expert System Shell"
+        },
+        {
+          "id": "B",
+          "text": "JavaScript Expert System Shell"
+        },
+        {
+          "id": "C",
+          "text": "Java Expert Sub System"
+        },
+        {
+          "id": "D",
+          "text": "JavaScript Expert Sub System"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "JESS is the Java Expert System Shell, a rule engine and scripting environment for building rule-based systems in Java."
+    },
+    {
+      "id": "stet-10-088",
+      "question": "Which type of e-commerce focuses on consumers dealing with each other?",
+      "options": [
+        {
+          "id": "A",
+          "text": "B2B"
+        },
+        {
+          "id": "B",
+          "text": "B2C"
+        },
+        {
+          "id": "C",
+          "text": "C2C"
+        },
+        {
+          "id": "D",
+          "text": "C2B"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "C2C e-commerce describes transactions where individuals sell to or buy from other individuals, often through a marketplace platform."
+    },
+    {
+      "id": "stet-10-089",
+      "question": "When considering business strategy and IT, which of the following is a useful security mechanism?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encryption"
+        },
+        {
+          "id": "B",
+          "text": "Decryption"
+        },
+        {
+          "id": "C",
+          "text": "Firewall"
+        },
+        {
+          "id": "D",
+          "text": "All of these"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Encryption, decryption, and firewalls can all be used as parts of an overall security arrangement: encryption protects confidentiality, decryption enables authorized access, and firewalls filter traffic."
+    },
+    {
+      "id": "stet-10-090",
+      "question": "During an e-commerce transaction, we must ensure:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Integrity"
+        },
+        {
+          "id": "B",
+          "text": "Confidentiality"
+        },
+        {
+          "id": "C",
+          "text": "Security"
+        },
+        {
+          "id": "D",
+          "text": "All of these"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A secure transaction aims to preserve confidentiality and integrity and to protect the overall exchange from unauthorized access or alteration."
+    },
+    {
+      "id": "stet-10-091",
+      "question": "What is legal protection for the expression of an idea, such as a song, video game, or certain proprietary documents?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ethics"
+        },
+        {
+          "id": "B",
+          "text": "Copyright"
+        },
+        {
+          "id": "C",
+          "text": "Intellectual Property"
+        },
+        {
+          "id": "D",
+          "text": "Fair Use Doctrine"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Copyright protects an original work's specific expression, such as a song or video game, rather than the underlying idea itself."
+    },
+    {
+      "id": "stet-10-092",
+      "question": "What does 'A' stand for in the CIA triad of security?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assurance"
+        },
+        {
+          "id": "B",
+          "text": "Authentic"
+        },
+        {
+          "id": "C",
+          "text": "Availability"
+        },
+        {
+          "id": "D",
+          "text": "Any"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The A in the CIA triad is Availability: authorized users should be able to access systems and data when needed."
+    },
+    {
+      "id": "stet-10-093",
+      "question": "What is a program that records every keystroke and mouse click when installed on a computer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Keylogger System"
+        },
+        {
+          "id": "B",
+          "text": "Hardware Keylogger"
+        },
+        {
+          "id": "C",
+          "text": "Cookie"
+        },
+        {
+          "id": "D",
+          "text": "Add Logger"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A keylogger is software that records keystrokes; some monitoring tools also capture mouse activity. A hardware keylogger is a physical device rather than an installed program."
+    },
+    {
+      "id": "stet-10-094",
+      "question": "In audio and video compression, the term RGB stands for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Red, Black, Grey"
+        },
+        {
+          "id": "B",
+          "text": "Blue, Grey, White"
+        },
+        {
+          "id": "C",
+          "text": "Red, Green, Blue"
+        },
+        {
+          "id": "D",
+          "text": "Red, Blue, Brown"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "RGB is the additive color model based on red, green, and blue components, commonly used for electronic displays and digital images."
+    },
+    {
+      "id": "stet-10-095",
+      "question": "We can divide audio and video services into how many broad categories?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 broad categories"
+        },
+        {
+          "id": "B",
+          "text": "1 broad category"
+        },
+        {
+          "id": "C",
+          "text": "4 broad categories"
+        },
+        {
+          "id": "D",
+          "text": "3 broad categories"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A common multimedia classification has three service groups: conversational, messaging, and retrieval services."
+    },
+    {
+      "id": "stet-10-096",
+      "question": "What is Morphing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Image enhancement technique"
+        },
+        {
+          "id": "B",
+          "text": "Image manipulation"
+        },
+        {
+          "id": "C",
+          "text": "Transformation of one image into another"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Morphing creates a gradual visual transformation from one image or shape into another by interpolating corresponding features."
+    },
+    {
+      "id": "stet-10-097",
+      "question": "Which of the following is an example/part of Digital Image Processing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Computer Graphics"
+        },
+        {
+          "id": "B",
+          "text": "Pixel"
+        },
+        {
+          "id": "C",
+          "text": "Camera Mechanism"
+        },
+        {
+          "id": "D",
+          "text": "All of the mentioned"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Computer graphics is closely related to digital image processing and supplies techniques for creating and manipulating image data; the question uses it as the matching example."
+    },
+    {
+      "id": "stet-10-098",
+      "question": "Which image processing approach is the fastest, most precise, and flexible?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Photographic"
+        },
+        {
+          "id": "B",
+          "text": "Electronic"
+        },
+        {
+          "id": "C",
+          "text": "Digital"
+        },
+        {
+          "id": "D",
+          "text": "Optical"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Digital processing applies programmable algorithms to image data, making operations repeatable, precise, and flexible compared with purely optical or photographic approaches."
+    },
+    {
+      "id": "stet-10-099",
+      "question": "Which tool/technique is used in operations like zooming, shrinking, rotation, etc.?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Filter"
+        },
+        {
+          "id": "B",
+          "text": "Sampling"
+        },
+        {
+          "id": "C",
+          "text": "Interpolation"
+        },
+        {
+          "id": "D",
+          "text": "None of these"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Geometric operations such as scaling and rotation often map pixels to non-integer coordinates; interpolation estimates the pixel values at those locations."
+    },
+    {
+      "id": "stet-10-100",
+      "question": "Which gray-level transformation increases the dynamic range of gray levels in an image?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Negative Transformation"
+        },
+        {
+          "id": "B",
+          "text": "Contrast Stretching"
+        },
+        {
+          "id": "C",
+          "text": "Power-Law Transformation"
+        },
+        {
+          "id": "D",
+          "text": "None of these"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Contrast stretching remaps a narrow input intensity range across a wider output range, increasing the image's dynamic range and often improving visible contrast."
+    },
+    {
+      "id": "stet-10-101",
+      "question": "Which of the following is the primary objective of micro-teaching in teacher training?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To teach large classes effectively"
+        },
+        {
+          "id": "B",
+          "text": "To master specific teaching skills in a controlled environment"
+        },
+        {
+          "id": "C",
+          "text": "To complete the course syllabus quickly"
+        },
+        {
+          "id": "D",
+          "text": "To evaluate student academic performance"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Micro-teaching lets a teacher practise a focused teaching skill in a simplified, controlled lesson, receive feedback, and improve before applying it in a full classroom."
+    },
+    {
+      "id": "stet-10-102",
+      "question": "According to Bloom's Taxonomy, which cognitive domain level involves breaking down information into component parts to understand its structure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Understanding"
+        },
+        {
+          "id": "B",
+          "text": "Applying"
+        },
+        {
+          "id": "C",
+          "text": "Analyzing"
+        },
+        {
+          "id": "D",
+          "text": "Evaluating"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The Analyzing level involves separating information into parts and examining how those parts relate to one another or form an overall structure."
+    },
+    {
+      "id": "stet-10-103",
+      "question": "In the context of lesson planning, what is the main purpose of five-step Herbartian approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To systematically organize classroom presentation"
+        },
+        {
+          "id": "B",
+          "text": "To assess student behavior at the end of the year"
+        },
+        {
+          "id": "C",
+          "text": "To replace traditional textbooks"
+        },
+        {
+          "id": "D",
+          "text": "To eliminate homework assignments"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The Herbartian steps provide a planned sequence for presenting a lesson, connecting new content with prior knowledge and guiding learners toward understanding."
+    },
+    {
+      "id": "stet-10-104",
+      "question": "Formative evaluation is primarily conducted to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assign final grades to students"
+        },
+        {
+          "id": "B",
+          "text": "Monitor learning progress and provide ongoing feedback"
+        },
+        {
+          "id": "C",
+          "text": "Select students for competitive scholarships"
+        },
+        {
+          "id": "D",
+          "text": "Certify student completion of a course"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Formative evaluation takes place during instruction so teachers can identify progress and difficulties, give timely feedback, and adjust teaching while learning is ongoing."
+    },
+    {
+      "id": "stet-10-105",
+      "question": "Which teaching method is based on the philosophy of 'Learning by Doing'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lecture Method"
+        },
+        {
+          "id": "B",
+          "text": "Demonstration Method"
+        },
+        {
+          "id": "C",
+          "text": "Project Method"
+        },
+        {
+          "id": "D",
+          "text": "Textbook Method"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The Project Method centers learning on purposeful activity and practical work, reflecting the principle of learning by doing."
+    },
+    {
+      "id": "stet-10-106",
+      "question": "Inclusive Education refers to a system where:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Children with special needs are taught in separate schools"
+        },
+        {
+          "id": "B",
+          "text": "All children regardless of their abilities learn together in regular classrooms"
+        },
+        {
+          "id": "C",
+          "text": "Only gifted students receive advanced instruction"
+        },
+        {
+          "id": "D",
+          "text": "Vocational education is mandated for economically weak students"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Inclusive education supports learners with diverse abilities learning together in regular classrooms, with appropriate accommodations and support."
+    },
+    {
+      "id": "stet-10-107",
+      "question": "Which type of reinforcement is most effective in sustaining long-term behavioral change according to operant conditioning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continuous reinforcement"
+        },
+        {
+          "id": "B",
+          "text": "Variable ratio reinforcement"
+        },
+        {
+          "id": "C",
+          "text": "Fixed interval reinforcement"
+        },
+        {
+          "id": "D",
+          "text": "Negative punishment"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Variable-ratio reinforcement rewards a response after an unpredictable number of attempts. This schedule tends to produce persistent responding and is resistant to extinction."
+    },
+    {
+      "id": "stet-10-108",
+      "question": "What is the primary role of a teacher in a learner-centered classroom?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An authoritative source of knowledge"
+        },
+        {
+          "id": "B",
+          "text": "A facilitator and guide of learning experiences"
+        },
+        {
+          "id": "C",
+          "text": "A strict evaluator of discipline"
+        },
+        {
+          "id": "D",
+          "text": "A passive observer during activities"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a learner-centered classroom, the teacher guides and facilitates learning, while learners actively participate and take responsibility for constructing understanding."
+    },
+    {
+      "id": "stet-10-109",
+      "question": "Which audio-visual teaching aid is categorized as a 3-dimensional non-projected aid?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blackboard"
+        },
+        {
+          "id": "B",
+          "text": "Epidiascope"
+        },
+        {
+          "id": "C",
+          "text": "Model/Mock-up"
+        },
+        {
+          "id": "D",
+          "text": "Filmstrip"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A model or mock-up is a three-dimensional teaching aid that is presented directly rather than projected; a blackboard is two-dimensional and filmstrips are projected."
+    },
+    {
+      "id": "stet-10-110",
+      "question": "Diagnostic assessment is used by teachers to identify:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Student ranking in class"
+        },
+        {
+          "id": "B",
+          "text": "Specific learning difficulties and gaps in understanding"
+        },
+        {
+          "id": "C",
+          "text": "Overall intelligence quotient (IQ)"
+        },
+        {
+          "id": "D",
+          "text": "Attendance patterns of students"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Diagnostic assessment locates specific misconceptions, skill gaps, or learning difficulties so instruction or remediation can address them."
+    },
+    {
+      "id": "stet-10-111",
+      "question": "According to Jean Piaget, during which stage of cognitive development do children develop abstract logical thinking?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sensorimotor Stage"
+        },
+        {
+          "id": "B",
+          "text": "Pre-operational Stage"
+        },
+        {
+          "id": "C",
+          "text": "Concrete Operational Stage"
+        },
+        {
+          "id": "D",
+          "text": "Formal Operational Stage"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In Piaget's Formal Operational stage, learners develop the ability to reason abstractly and use systematic logical thought beyond concrete objects."
+    },
+    {
+      "id": "stet-10-112",
+      "question": "Constructivist learning theory emphasizes that knowledge is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Passively received from teachers"
+        },
+        {
+          "id": "B",
+          "text": "Actively constructed by the learner based on prior experience"
+        },
+        {
+          "id": "C",
+          "text": "Stored verbatim in long-term memory"
+        },
+        {
+          "id": "D",
+          "text": "Acquired strictly through rote memorization"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Constructivism views learners as actively building understanding by relating new experiences and information to what they already know."
+    },
+    {
+      "id": "stet-10-113",
+      "question": "Effective classroom management is best achieved through:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Strict punishment for every rule violation"
+        },
+        {
+          "id": "B",
+          "text": "Establishing clear routines and engaging learning activities"
+        },
+        {
+          "id": "C",
+          "text": "Allowing total freedom without any rules"
+        },
+        {
+          "id": "D",
+          "text": "Relying solely on external rewards"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Clear routines and engaging, well-organized activities help prevent disruptions by making expectations understandable and keeping learners involved."
+    },
+    {
+      "id": "stet-10-114",
+      "question": "The concept of 'Zone of Proximal Development' (ZPD) was proposed by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jerome Bruner"
+        },
+        {
+          "id": "B",
+          "text": "Lev Vygotsky"
+        },
+        {
+          "id": "C",
+          "text": "B.F. Skinner"
+        },
+        {
+          "id": "D",
+          "text": "John Dewey"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Lev Vygotsky proposed the Zone of Proximal Development: the range of tasks a learner can complete with guidance but not yet independently."
+    },
+    {
+      "id": "stet-10-115",
+      "question": "Which of the following is an example of Intrinsic Motivation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Studying to win a cash prize"
+        },
+        {
+          "id": "B",
+          "text": "Solving a puzzle out of curiosity and personal satisfaction"
+        },
+        {
+          "id": "C",
+          "text": "Completing homework to avoid teacher punishment"
+        },
+        {
+          "id": "D",
+          "text": "Working hard to gain social recognition"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Intrinsic motivation comes from interest or satisfaction inherent in an activity; solving a puzzle out of curiosity is internally driven."
+    },
+    {
+      "id": "stet-10-116",
+      "question": "Which law of learning given by Edward Thorndike emphasizes the role of practice and repetition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Law of Readiness"
+        },
+        {
+          "id": "B",
+          "text": "Law of Exercise"
+        },
+        {
+          "id": "C",
+          "text": "Law of Effect"
+        },
+        {
+          "id": "D",
+          "text": "Law of Intensity"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Thorndike's Law of Exercise describes how practice and repetition strengthen connections between a stimulus and a response."
+    },
+    {
+      "id": "stet-10-117",
+      "question": "What is the key characteristic of Heuristic Method of teaching proposed by H.E. Armstrong?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Students act as independent discoverers/investigators"
+        },
+        {
+          "id": "B",
+          "text": "Teachers deliver pre-prepared lectures"
+        },
+        {
+          "id": "C",
+          "text": "Memorization of definitions and theorems"
+        },
+        {
+          "id": "D",
+          "text": "Group recitation of textbook answers"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Armstrong's Heuristic Method encourages learners to investigate and discover knowledge for themselves rather than simply receive prepared conclusions."
+    },
+    {
+      "id": "stet-10-118",
+      "question": "A rubric in educational assessment is best described as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A standardized multiple-choice answer key"
+        },
+        {
+          "id": "B",
+          "text": "A scoring guide used to evaluate performance against criteria"
+        },
+        {
+          "id": "C",
+          "text": "A software used for calculating grade point average"
+        },
+        {
+          "id": "D",
+          "text": "A syllabus breakdown document"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A rubric sets out assessment criteria and performance levels, providing a structured and transparent basis for judging work."
+    },
+    {
+      "id": "stet-10-119",
+      "question": "Which leadership style in teaching encourages active participation and shared decision-making?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Authoritarian"
+        },
+        {
+          "id": "B",
+          "text": "Democratic"
+        },
+        {
+          "id": "C",
+          "text": "Laissez-faire"
+        },
+        {
+          "id": "D",
+          "text": "Autocratic"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Democratic leadership invites participation and shared decision-making, in contrast with unilateral decisions under authoritarian leadership."
+    },
+    {
+      "id": "stet-10-120",
+      "question": "Action Research in education is primarily conducted by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "University professors for publishing theoretical research papers"
+        },
+        {
+          "id": "B",
+          "text": "Practicing teachers to solve immediate classroom problems"
+        },
+        {
+          "id": "C",
+          "text": "Government officials to formulate national policy"
+        },
+        {
+          "id": "D",
+          "text": "Standardized testing agencies"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Action research is commonly carried out by practitioners such as classroom teachers to investigate and address immediate problems in their own practice."
+    },
+    {
+      "id": "stet-10-121",
+      "question": "National Education Policy (NEP) 2020 replaced the old 10+2 curricular structure with which new structure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5+3+3+4"
+        },
+        {
+          "id": "B",
+          "text": "3+5+3+4"
+        },
+        {
+          "id": "C",
+          "text": "4+3+3+5"
+        },
+        {
+          "id": "D",
+          "text": "5+4+3+3"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "NEP 2020 proposes the 5+3+3+4 curricular structure, organized around developmental stages from foundational to secondary education."
+    },
+    {
+      "id": "stet-10-122",
+      "question": "Micro-teaching cycle typically consists of which sequence of steps?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plan -> Teach -> Feedback -> Re-plan -> Re-teach -> Re-feedback"
+        },
+        {
+          "id": "B",
+          "text": "Teach -> Plan -> Feedback -> Re-teach -> Re-plan"
+        },
+        {
+          "id": "C",
+          "text": "Feedback -> Plan -> Teach -> Re-feedback -> Re-teach"
+        },
+        {
+          "id": "D",
+          "text": "Plan -> Teach -> Test -> Grade -> Remediate"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A typical micro-teaching cycle is Plan, Teach, Feedback, Re-plan, Re-teach, and Re-feedback, allowing practice informed by feedback."
+    },
+    {
+      "id": "stet-10-123",
+      "question": "Which type of test is designed to measure a student's potential or natural ability to learn new skills?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Achievement Test"
+        },
+        {
+          "id": "B",
+          "text": "Aptitude Test"
+        },
+        {
+          "id": "C",
+          "text": "Diagnostic Test"
+        },
+        {
+          "id": "D",
+          "text": "Prognostic Test"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An aptitude test estimates a person's potential or readiness to learn or perform in a particular area, whereas an achievement test measures what has already been learned."
+    },
+    {
+      "id": "stet-10-124",
+      "question": "In classroom questioning, 'probing questions' are used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Embarrass weak students"
+        },
+        {
+          "id": "B",
+          "text": "Encourage deeper thinking and clarification from students"
+        },
+        {
+          "id": "C",
+          "text": "Test immediate recall of factual definitions"
+        },
+        {
+          "id": "D",
+          "text": "Maintain silence in the classroom"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Probing questions follow up an initial response to ask for reasons, evidence, detail, or clarification, promoting deeper thinking."
+    },
+    {
+      "id": "stet-10-125",
+      "question": "The concept of 'Learning Without Burden' was emphasized by which committee report?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kothari Commission (1964-66)"
+        },
+        {
+          "id": "B",
+          "text": "Yashpal Committee (1993)"
+        },
+        {
+          "id": "C",
+          "text": "Mudaliar Commission (1952)"
+        },
+        {
+          "id": "D",
+          "text": "Radhakrishnan Commission (1948)"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Yashpal Committee's 1993 report, Learning Without Burden, called for reducing excessive curricular load and making learning more meaningful."
+    },
+    {
+      "id": "stet-10-126",
+      "question": "Brainstorming as a teaching strategy is mainly used for enhancing:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rote memory"
+        },
+        {
+          "id": "B",
+          "text": "Creative and divergent thinking"
+        },
+        {
+          "id": "C",
+          "text": "Handwriting skills"
+        },
+        {
+          "id": "D",
+          "text": "Reading speed"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Brainstorming invites many ideas, including unconventional ones, and is used to encourage creativity and divergent thinking."
+    },
+    {
+      "id": "stet-10-127",
+      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only cognitive aspects of growth"
+        },
+        {
+          "id": "B",
+          "text": "Both scholastic and co-scholastic aspects of student development"
+        },
+        {
+          "id": "C",
+          "text": "Only sports and extracurricular activities"
+        },
+        {
+          "id": "D",
+          "text": "Teacher performance annually"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "CCE is intended to assess learners continuously and comprehensively, covering scholastic learning as well as co-scholastic development."
+    },
+    {
+      "id": "stet-10-128",
+      "question": "Which domain in Bloom's taxonomy is concerned with attitudes, values, and emotions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cognitive Domain"
+        },
+        {
+          "id": "B",
+          "text": "Affective Domain"
+        },
+        {
+          "id": "C",
+          "text": "Psychomotor Domain"
+        },
+        {
+          "id": "D",
+          "text": "Perceptual Domain"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The affective domain concerns feelings, attitudes, interests, and values; the cognitive domain concerns knowledge and thinking."
+    },
+    {
+      "id": "stet-10-129",
+      "question": "The term 'Scaffolding' in education refers to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Building physical infrastructure in schools"
+        },
+        {
+          "id": "B",
+          "text": "Temporary support given by a teacher or more knowledgeable peer during learning"
+        },
+        {
+          "id": "C",
+          "text": "Permanent assistance for exams"
+        },
+        {
+          "id": "D",
+          "text": "Grouping students by academic rank"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Scaffolding is temporary, adjustable help from a teacher or more knowledgeable peer that enables a learner to perform a task and is reduced as competence grows."
+    },
+    {
+      "id": "stet-10-130",
+      "question": "Team Teaching involves:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Two or more teachers jointly planning, teaching, and evaluating a course for the same group of students"
+        },
+        {
+          "id": "B",
+          "text": "Students teaching each other in small groups"
+        },
+        {
+          "id": "C",
+          "text": "A teacher acting as a sports coach"
+        },
+        {
+          "id": "D",
+          "text": "Teaching administrative staff members"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Team teaching involves teachers jointly planning, delivering, and evaluating instruction for the same learners or course."
+    },
+    {
+      "id": "stet-10-131",
+      "question": "Which Article of the Indian Constitution ensures the Right to Education (RTE) as a Fundamental Right for children aged 6 to 14 years?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Article 19"
+        },
+        {
+          "id": "B",
+          "text": "Article 21A"
+        },
+        {
+          "id": "C",
+          "text": "Article 45"
+        },
+        {
+          "id": "D",
+          "text": "Article 51A"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Article 21A makes free and compulsory education a fundamental right for children aged six to fourteen years."
+    },
+    {
+      "id": "stet-10-132",
+      "question": "The famous Vikramshila University was founded by which ruler of the Pala dynasty in Bihar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gopala"
+        },
+        {
+          "id": "B",
+          "text": "Dharmapala"
+        },
+        {
+          "id": "C",
+          "text": "Devapala"
+        },
+        {
+          "id": "D",
+          "text": "Mahipala"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Vikramshila Mahavihara was established under the Pala ruler Dharmapala and became an important center of Buddhist learning."
+    },
+    {
+      "id": "stet-10-133",
+      "question": "Which river is historically known as the 'Sorrow of Bihar' due to its frequent floods and course changes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gandak River"
+        },
+        {
+          "id": "B",
+          "text": "Kosi River"
+        },
+        {
+          "id": "C",
+          "text": "Son River"
+        },
+        {
+          "id": "D",
+          "text": "Punpun River"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Kosi is called the Sorrow of Bihar because its floods and shifting channels have repeatedly caused extensive damage."
+    },
+    {
+      "id": "stet-10-134",
+      "question": "Who was the leader of the 1857 Revolt in Bihar (Arrah region)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nana Sahib"
+        },
+        {
+          "id": "B",
+          "text": "Veer Kunwar Singh"
+        },
+        {
+          "id": "C",
+          "text": "Tantia Tope"
+        },
+        {
+          "id": "D",
+          "text": "Khan Bahadur Khan"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Veer Kunwar Singh led the 1857 uprising in the Arrah region of Bihar, despite being in his seventies at the time."
+    },
+    {
+      "id": "stet-10-135",
+      "question": "Which planet in our solar system is known as the 'Red Planet'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Venus"
+        },
+        {
+          "id": "B",
+          "text": "Mars"
+        },
+        {
+          "id": "C",
+          "text": "Jupiter"
+        },
+        {
+          "id": "D",
+          "text": "Saturn"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Mars is known as the Red Planet because iron minerals in its surface dust oxidize, giving the surface a reddish appearance."
+    },
+    {
+      "id": "stet-10-136",
+      "question": "Which gas is primarily responsible for the Phenomenon of Global Warming?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oxygen"
+        },
+        {
+          "id": "B",
+          "text": "Carbon Dioxide"
+        },
+        {
+          "id": "C",
+          "text": "Nitrogen"
+        },
+        {
+          "id": "D",
+          "text": "Argon"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Carbon dioxide is a major human-caused greenhouse gas; it traps outgoing heat and contributes substantially to contemporary global warming."
+    },
+    {
+      "id": "stet-10-137",
+      "question": "The primary cause of Minamata Disease is contamination of water by which industrial pollutant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lead"
+        },
+        {
+          "id": "B",
+          "text": "Mercury"
+        },
+        {
+          "id": "C",
+          "text": "Cadmium"
+        },
+        {
+          "id": "D",
+          "text": "Arsenic"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Minamata disease is a severe neurological illness caused by methylmercury exposure, historically associated with contaminated water and seafood near industrial discharge."
+    },
+    {
+      "id": "stet-10-138",
+      "question": "In an ecological food chain, primary consumers are classified as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Producers"
+        },
+        {
+          "id": "B",
+          "text": "Herbivores"
+        },
+        {
+          "id": "C",
+          "text": "Carnivores"
+        },
+        {
+          "id": "D",
+          "text": "Decomposers"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Primary consumers feed directly on producers, such as plants or algae, and are therefore generally herbivores."
+    },
+    {
+      "id": "stet-10-139",
+      "question": "Ozone layer depletion in the stratosphere is mainly caused by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chlorofluorocarbons (CFCs)"
+        },
+        {
+          "id": "B",
+          "text": "Methane"
+        },
+        {
+          "id": "C",
+          "text": "Carbon Monoxide"
+        },
+        {
+          "id": "D",
+          "text": "Sulfur Dioxide"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "CFCs release chlorine in the stratosphere under ultraviolet light; chlorine-catalyzed reactions destroy ozone molecules."
+    },
+    {
+      "id": "stet-10-140",
+      "question": "World Environment Day is celebrated annually on which date?",
+      "options": [
+        {
+          "id": "A",
+          "text": "22nd April"
+        },
+        {
+          "id": "B",
+          "text": "5th June"
+        },
+        {
+          "id": "C",
+          "text": "16th September"
+        },
+        {
+          "id": "D",
+          "text": "1st December"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "World Environment Day is observed each year on 5 June."
+    },
+    {
+      "id": "stet-10-141",
+      "question": "If an item bought for Rs. 400 is sold for Rs. 500, what is the profit percentage?",
+      "options": [
+        {
+          "id": "A",
+          "text": "20%"
+        },
+        {
+          "id": "B",
+          "text": "25%"
+        },
+        {
+          "id": "C",
+          "text": "30%"
+        },
+        {
+          "id": "D",
+          "text": "15%"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Profit is Rs. 500 - Rs. 400 = Rs. 100. Profit percentage is 100/400 x 100 = 25% of the cost price."
+    },
+    {
+      "id": "stet-10-142",
+      "question": "Find the missing number in the series: 4, 9, 16, 25, 36, ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "40"
+        },
+        {
+          "id": "B",
+          "text": "49"
+        },
+        {
+          "id": "C",
+          "text": "50"
+        },
+        {
+          "id": "D",
+          "text": "64"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The terms are consecutive perfect squares: 2^2, 3^2, 4^2, 5^2, 6^2. The next is 7^2 = 49."
+    },
+    {
+      "id": "stet-10-143",
+      "question": "The average of five consecutive numbers is 20. What is the largest of these numbers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "21"
+        },
+        {
+          "id": "B",
+          "text": "22"
+        },
+        {
+          "id": "C",
+          "text": "24"
+        },
+        {
+          "id": "D",
+          "text": "25"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "For five consecutive integers, the average is the middle integer. The numbers are 18, 19, 20, 21, 22, so the largest is 22."
+    },
+    {
+      "id": "stet-10-144",
+      "question": "If 12 men can complete a piece of work in 20 days, how many days will 15 men take to complete the same work?",
+      "options": [
+        {
+          "id": "A",
+          "text": "16 days"
+        },
+        {
+          "id": "B",
+          "text": "18 days"
+        },
+        {
+          "id": "C",
+          "text": "15 days"
+        },
+        {
+          "id": "D",
+          "text": "14 days"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The total work is 12 x 20 = 240 person-days. At 15 men, the time is 240/15 = 16 days, assuming equal work rates."
+    },
+    {
+      "id": "stet-10-145",
+      "question": "What is 15% of 480?",
+      "options": [
+        {
+          "id": "A",
+          "text": "64"
+        },
+        {
+          "id": "B",
+          "text": "72"
+        },
+        {
+          "id": "C",
+          "text": "80"
+        },
+        {
+          "id": "D",
+          "text": "68"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "15% of 480 is 0.15 x 480 = 72."
+    },
+    {
+      "id": "stet-10-146",
+      "question": "In a certain code, 'TEACHER' is written as 'VGCEJFT'. How is 'STUDENT' written in that code?",
+      "options": [
+        {
+          "id": "A",
+          "text": "UVWFGPV"
+        },
+        {
+          "id": "B",
+          "text": "UVWFGVP"
+        },
+        {
+          "id": "C",
+          "text": "TVWFGPV"
+        },
+        {
+          "id": "D",
+          "text": "UVWEGPV"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The intended coding rule is to shift each letter two places forward: S->U, T->V, U->W, D->F, E->G, N->P, T->V, giving UVWFGPV. The example appears to contain a typo: shifting TEACHER by two yields VGCEJGT, not the printed VGCEJFT."
+    },
+    {
+      "id": "stet-10-147",
+      "question": "Pointing to a photograph, a man said, 'She is the daughter of my grandfather's only son.' How is the woman in the photograph related to the man?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mother"
+        },
+        {
+          "id": "B",
+          "text": "Sister"
+        },
+        {
+          "id": "C",
+          "text": "Aunt"
+        },
+        {
+          "id": "D",
+          "text": "Daughter"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The man's grandfather's only son is his father. The daughter of his father is his sister, so the woman is his sister."
+    },
+    {
+      "id": "stet-10-148",
+      "question": "Choose the word which is least like the other words in the group: Apple, Mango, Potato, Orange.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apple"
+        },
+        {
+          "id": "B",
+          "text": "Mango"
+        },
+        {
+          "id": "C",
+          "text": "Potato"
+        },
+        {
+          "id": "D",
+          "text": "Orange"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Apple, mango, and orange are fruits, while potato is a tuber commonly treated as a vegetable, so it is the odd one out."
+    },
+    {
+      "id": "stet-10-149",
+      "question": "If '+' means 'x', '-' means '÷', 'x' means '+' and '÷' means '-', then calculate: 15 + 3 - 5 x 4 ÷ 2 = ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "11"
+        },
+        {
+          "id": "B",
+          "text": "13"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "15"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Replace the symbols as defined: 15 x 3 - 5 + 4 - 2. Applying multiplication and division before addition and subtraction gives 45/5 + 4 - 2 = 9 + 4 - 2 = 11."
+    },
+    {
+      "id": "stet-10-150",
+      "question": "Complete the analogy: Doctor : Patient :: Teacher : ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "School"
+        },
+        {
+          "id": "B",
+          "text": "Student"
+        },
+        {
+          "id": "C",
+          "text": "Classroom"
+        },
+        {
+          "id": "D",
+          "text": "Book"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A doctor provides care to a patient; correspondingly, a teacher teaches and supports a student."
+    }
+  ]
+}
