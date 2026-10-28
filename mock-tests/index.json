@@ -81,6 +81,21 @@
           "testId": "stet-11",
           "testName": "Mock Test 11",
           "file": "mock-tests/bihar-stet/mock-11.json"
+        },
+        {
+          "testId": "stet-12",
+          "testName": "Mock Test 12",
+          "file": "mock-tests/bihar-stet/mock-12.json"
+        },
+        {
+          "testId": "stet-13",
+          "testName": "Mock Test 13",
+          "file": "mock-tests/bihar-stet/mock-13.json"
+        },
+        {
+          "testId": "stet-14",
+          "testName": "Mock Test 14",
+          "file": "mock-tests/bihar-stet/mock-14.json"
         }
       ]
     }

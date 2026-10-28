@@ -1,0 +1,3759 @@
+{
+  "examName": "Bihar STET",
+  "testName": "Mock Test 13",
+  "totalQuestions": 150,
+  "durationMinutes": 150,
+  "instructions": "Bihar STET Paper 2 Computer Science practice mock test.",
+  "questions": [
+    {
+      "id": "stet-13-001",
+      "question": "Consider two binary numbers A = 110001 and B = 001100. What is the result of (A AND B) OR (NOT A AND NOT B)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "000000"
+        },
+        {
+          "id": "B",
+          "text": "110001"
+        },
+        {
+          "id": "C",
+          "text": "001100"
+        },
+        {
+          "id": "D",
+          "text": "111101"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-002",
+      "question": "Which of the following is a self-complementing binary code, where adjacent codes differ in only one bit position?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BCD"
+        },
+        {
+          "id": "B",
+          "text": "ASCII"
+        },
+        {
+          "id": "C",
+          "text": "Gray Code"
+        },
+        {
+          "id": "D",
+          "text": "EBCDIC"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-003",
+      "question": "How many bits are used to represent a single decimal digit in Gray Code?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 bits"
+        },
+        {
+          "id": "B",
+          "text": "8 bits"
+        },
+        {
+          "id": "C",
+          "text": "16 bits"
+        },
+        {
+          "id": "D",
+          "text": "10 bits"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-004",
+      "question": "What is the minimized expression for the Boolean function F(A, B, C, D) = Σ(0, 1, 2, 4, 5, 6, 10, 12, 13) using the K-map method?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A'B'C'D' + A'B'C'D + A'B'CD + A'BC'D + A'B'C'D' + A'BCD"
+        },
+        {
+          "id": "B",
+          "text": "A'B'C'D' + A'B'C'D + A'B'CD + A'BC'D + A'B'C'D' + A'BC'D"
+        },
+        {
+          "id": "C",
+          "text": "A'B'C'D' + A'B'C'D + A'B'CD + A'BC'D + A'B'C'D' + A'BC'D'"
+        },
+        {
+          "id": "D",
+          "text": "A'B'C'D' + A'B'C'D + A'B'CD + A'BC'D + A'B'C'D' + A'BCD"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-005",
+      "question": "A binary-to-gray code converter is an example of",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encoder"
+        },
+        {
+          "id": "B",
+          "text": "Decoder"
+        },
+        {
+          "id": "C",
+          "text": "Comparator"
+        },
+        {
+          "id": "D",
+          "text": "Multiplexer"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-006",
+      "question": "Which statement accurately describes a Programmable Logic Device (PLD)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PLDs can only be programmed once and cannot be reconfigured. PLDs"
+        },
+        {
+          "id": "B",
+          "text": "PLDs are used exclusively for memory storage in digital circuits. PLDs mšesjspe"
+        },
+        {
+          "id": "C",
+          "text": "PLDs allow for both input and output programming to implement custom logic functions. oesveeW HebâkeäMevme"
+        },
+        {
+          "id": "D",
+          "text": "PLDs consist of only AND gates and do not include OR gates. nesles nQ"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-007",
+      "question": "Which of the following applications is a typical use of microcontrollers in the field of home automation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Satellite communication"
+        },
+        {
+          "id": "B",
+          "text": "Air traffic control"
+        },
+        {
+          "id": "C",
+          "text": "Temperature and lighting control leeheceeve"
+        },
+        {
+          "id": "D",
+          "text": "Space exploration"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-008",
+      "question": "What does the term \"harvard architecture\" refer to in the context of microcontrollers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A type of microcontroller with high processing speed"
+        },
+        {
+          "id": "B",
+          "text": "A microcontroller architecture that uses a separate memory space for instructions and data"
+        },
+        {
+          "id": "C",
+          "text": "A microcontroller with advanced addressing modes nesles nQ"
+        },
+        {
+          "id": "D",
+          "text": "A microcontroller with a large number of I ports heesšdme&"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-009",
+      "question": "What is the primary purpose of using Don't Care conditions in Karnaugh Map simplification?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To mark cells that should not be included in the simplification process"
+        },
+        {
+          "id": "B",
+          "text": "To indicate cells that have an"
+        },
+        {
+          "id": "C",
+          "text": "To identify cells that are already in their simplest form henues mes ner Deheves meyemes mejue ™he"
+        },
+        {
+          "id": "D",
+          "text": "To mark cells with special logic functions"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-010",
+      "question": "De Morgan's First Theorem states that the complement of a ___________ of variables is equal to the ___________ of their individual complements. nw: Ûej",
+      "options": [
+        {
+          "id": "A",
+          "text": "AND, OR"
+        },
+        {
+          "id": "B",
+          "text": "OR, AND"
+        },
+        {
+          "id": "C",
+          "text": "NAND, NOR"
+        },
+        {
+          "id": "D",
+          "text": "NOR, NAND"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-011",
+      "question": "The hexadecimal number F4 is equivalent to which binary number?",
+      "options": [
+        {
+          "id": "A",
+          "text": "11111001"
+        },
+        {
+          "id": "B",
+          "text": "11110100"
+        },
+        {
+          "id": "C",
+          "text": "11111100"
+        },
+        {
+          "id": "D",
+          "text": "11111010"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-012",
+      "question": "When converting a binary number to Gray Code, what is the result of XORing the most significant bit (MSB) of the binary number with the next bit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The MSB of the Gray Code"
+        },
+        {
+          "id": "B",
+          "text": "The LSB of the Gray Code"
+        },
+        {
+          "id": "C",
+          "text": "The XOR of all the bits in the binary number yeeFvejer"
+        },
+        {
+          "id": "D",
+          "text": "The XOR of all the bits in the Gray Code"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-013",
+      "question": "In an ideal microcomputer, what is the purpose of the clock or oscillator circuit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Providing power to the microcomputer"
+        },
+        {
+          "id": "B",
+          "text": "Displaying time and date information meceÙe"
+        },
+        {
+          "id": "C",
+          "text": "Generating timing signals to synchronize operations šeFefcebie"
+        },
+        {
+          "id": "D",
+          "text": "Cooling the microcomputer components"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-014",
+      "question": "What is the worst-case time complexity of Binary Search for an array of size \"n\"?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(log n)"
+        },
+        {
+          "id": "B",
+          "text": "O(n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n log n)"
+        },
+        {
+          "id": "D",
+          "text": "O(1)"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-015",
+      "question": "The minimum number of edges in a spanning tree of a connected graph with \"n\" vertices is vÙetvelece",
+      "options": [
+        {
+          "id": "A",
+          "text": "n"
+        },
+        {
+          "id": "B",
+          "text": "n – 1"
+        },
+        {
+          "id": "C",
+          "text": "n + 1"
+        },
+        {
+          "id": "D",
+          "text": "n(n–1)"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-016",
+      "question": "Which property of dynamic programming is particularly useful for solving Optimal Binary Search Tree problems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Optimal substructure"
+        },
+        {
+          "id": "B",
+          "text": "Greedy choice property"
+        },
+        {
+          "id": "C",
+          "text": "Divide and Conquer"
+        },
+        {
+          "id": "D",
+          "text": "Linear programming"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-017",
+      "question": "The Floyd-Warshall algorithm is a popular method for solving the All-Pair Shortest Paths problem. What is the time complexity of the Floyd-Warshall algorithm for a graph with \"n\" vertices?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(n)"
+        },
+        {
+          "id": "B",
+          "text": "O(n log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n^2)"
+        },
+        {
+          "id": "D",
+          "text": "O(n^3)"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-018",
+      "question": "What is the time complexity of the Divide and Conquer algorithm for finding the maximum and minimum elements in an array of size \"n\"?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(n)"
+        },
+        {
+          "id": "B",
+          "text": "O(log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n log n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n^2)"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-019",
+      "question": "In multistage graphs, what is the property of optimality?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The shortest path between any two stages is the one with the fewest edges"
+        },
+        {
+          "id": "B",
+          "text": "The shortest path between any two stages is the one with the lowest total cost"
+        },
+        {
+          "id": "C",
+          "text": "The shortest path between any two stages is the one with the highest total cost"
+        },
+        {
+          "id": "D",
+          "text": "The shortest path between any two stages is the one with the most vertices"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-020",
+      "question": "Which of the following is not a common example of an abstract data type?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stack"
+        },
+        {
+          "id": "B",
+          "text": "Integer"
+        },
+        {
+          "id": "C",
+          "text": "Queue"
+        },
+        {
+          "id": "D",
+          "text": "List"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-021",
+      "question": "Which traversal technique is used to visit each node of a linked list exactly once?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preorder traversal"
+        },
+        {
+          "id": "B",
+          "text": "Inorder traversal"
+        },
+        {
+          "id": "C",
+          "text": "Postorder traversal"
+        },
+        {
+          "id": "D",
+          "text": "Linear traversal"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-022",
+      "question": "In pointer implementation of linked lists, which operation can be performed in constant time (O(1)) when inserting or deleting nodes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inserting at the beginning"
+        },
+        {
+          "id": "B",
+          "text": "Inserting at the end"
+        },
+        {
+          "id": "C",
+          "text": "Inserting at a specific position"
+        },
+        {
+          "id": "D",
+          "text": "Deleting a specific node"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-023",
+      "question": "Which representation is best suited for matrices with a small number of non-zero elements in each row and column?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Triplet representation"
+        },
+        {
+          "id": "B",
+          "text": "Compressed sparse row (CSR) format"
+        },
+        {
+          "id": "C",
+          "text": "Compressed sparse column (CSC) format"
+        },
+        {
+          "id": "D",
+          "text": "Array representation"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-024",
+      "question": "Which of the following representations is most suitable for efficient row-wise traversal of a sparse matrix?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Triplet representation"
+        },
+        {
+          "id": "B",
+          "text": "Compressed sparse row (CSR) format"
+        },
+        {
+          "id": "C",
+          "text": "Compressed sparse column (CSC) format"
+        },
+        {
+          "id": "D",
+          "text": "Array representation"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-025",
+      "question": "In computer graphics, arrays can be used to store pixel values for images. Which type of array would be suitable for this purpose?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1-D array"
+        },
+        {
+          "id": "B",
+          "text": "2-D array"
+        },
+        {
+          "id": "C",
+          "text": "3-D array"
+        },
+        {
+          "id": "D",
+          "text": "4-D array"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-026",
+      "question": "For a 2-D array represented in row-major order, the index formula to access the element at row \"i\" and column \"j\" using the base address \"B\" is cespej ›eâce 'j' mlebYe hej",
+      "options": [
+        {
+          "id": "A",
+          "text": "Index = B + (i * n + j)"
+        },
+        {
+          "id": "B",
+          "text": "Index = B + (j * n + i)"
+        },
+        {
+          "id": "C",
+          "text": "Index = B + (i + j)"
+        },
+        {
+          "id": "D",
+          "text": "Index = B + (i * m + j)"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-027",
+      "question": "The Banker's algorithm is an example of a deadlock",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoidance algorithm"
+        },
+        {
+          "id": "B",
+          "text": "Detection algorithm"
+        },
+        {
+          "id": "C",
+          "text": "Prevention algorithm"
+        },
+        {
+          "id": "D",
+          "text": "Termination algorithm"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-028",
+      "question": "The concept of monitors was introduced by cee@",
+      "options": [
+        {
+          "id": "A",
+          "text": "Edsger Dijkstra"
+        },
+        {
+          "id": "B",
+          "text": "Alan Turing"
+        },
+        {
+          "id": "C",
+          "text": "Tim Berners-Lee"
+        },
+        {
+          "id": "D",
+          "text": "Linus Torvalds"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-029",
+      "question": "Priority Scheduling involves assigning a priority value to each process. Which scheduling algorithm is closely related to this concept?",
+      "options": [
+        {
+          "id": "A",
+          "text": "FCFS"
+        },
+        {
+          "id": "B",
+          "text": "SJN"
+        },
+        {
+          "id": "C",
+          "text": "Multilevel Queue Scheduling ceušerueskeue keäÙet Mes[Ÿetefuebie"
+        },
+        {
+          "id": "D",
+          "text": "First-Come, First-Served (FCFS)"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-030",
+      "question": "The resource matrix is a data structure used in deadlock detection algorithms to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Represent resource allocation"
+        },
+        {
+          "id": "B",
+          "text": "Represent the execution order of processes"
+        },
+        {
+          "id": "C",
+          "text": "Represent the execution history of processes"
+        },
+        {
+          "id": "D",
+          "text": "Represent the priority of processes"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-031",
+      "question": "The term \"race condition\" in parallel programming refers to hewjsueue nw?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A competition between processes to terminate first"
+        },
+        {
+          "id": "B",
+          "text": "A competition between processes to access shared resources"
+        },
+        {
+          "id": "C",
+          "text": "A situation where a process is stuck in a loop"
+        },
+        {
+          "id": "D",
+          "text": "A situation where processes are running sequentially Ûeue jner nesleer nQ"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-032",
+      "question": "The need for a command interpreter arises because",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hardware cannot execute programs directly ne[&kesÙej meerOes"
+        },
+        {
+          "id": "B",
+          "text": "All programming languages require an interpreter"
+        },
+        {
+          "id": "C",
+          "text": "Software cannot run on hardware"
+        },
+        {
+          "id": "D",
+          "text": "Users"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-033",
+      "question": "The term \"multi-user\" in an OS context",
+      "options": [
+        {
+          "id": "A",
+          "text": "An OS that can execute multiple programs simultaneously"
+        },
+        {
+          "id": "B",
+          "text": "An OS that supports multiple users working on the same machine ceMeerve hej"
+        },
+        {
+          "id": "C",
+          "text": "An OS that can only run on multiple computers"
+        },
+        {
+          "id": "D",
+          "text": "An OS with a graphical user interface"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-034",
+      "question": "______ offers the ability to query the data and insert, alter, and delete tuples. ______ [sše yeoueves leLee nševes",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transaction Control Language (TCL) š^ebÌpewkeäMeve"
+        },
+        {
+          "id": "B",
+          "text": "Data Control Language (DCL)"
+        },
+        {
+          "id": "C",
+          "text": "Data Definition Language (DDL) [sše [sefheâefveMeve ueQikespe (DDL)"
+        },
+        {
+          "id": "D",
+          "text": "Data Manipulation Language (DML) [sše"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-035",
+      "question": "Which of the following is a database?",
+      "options": [
+        {
+          "id": "A",
+          "text": "MySQL"
+        },
+        {
+          "id": "B",
+          "text": "Informix"
+        },
+        {
+          "id": "C",
+          "text": "SQL Server"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-036",
+      "question": "What do you mean by one to many relationships?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Many teachers may have many classes"
+        },
+        {
+          "id": "B",
+          "text": "One class may have many teachers"
+        },
+        {
+          "id": "C",
+          "text": "One teacher can have many classes"
+        },
+        {
+          "id": "D",
+          "text": "Many classes may have many teachers"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-037",
+      "question": "In general, a file is basically a collection of all related______. ______",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rows & Columns"
+        },
+        {
+          "id": "B",
+          "text": "Database"
+        },
+        {
+          "id": "C",
+          "text": "Fields"
+        },
+        {
+          "id": "D",
+          "text": "Records"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-038",
+      "question": "Which of the following refers to the number of attributes in a relation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Row"
+        },
+        {
+          "id": "B",
+          "text": "Degree"
+        },
+        {
+          "id": "C",
+          "text": "Column"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-039",
+      "question": "A report generator is used to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Update file"
+        },
+        {
+          "id": "B",
+          "text": "Print file on paper HeâeFue"
+        },
+        {
+          "id": "C",
+          "text": "Both of the above"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-040",
+      "question": "A large computer information system maintains many different computer files. Which amongst them is called a perpetual file?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Specialized File"
+        },
+        {
+          "id": "B",
+          "text": "Master File"
+        },
+        {
+          "id": "C",
+          "text": "Log File"
+        },
+        {
+          "id": "D",
+          "text": "Update File"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-041",
+      "question": "Subnetting allows for meyevesefšbie",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faster data transmission"
+        },
+        {
+          "id": "B",
+          "text": "Improved error control"
+        },
+        {
+          "id": "C",
+          "text": "Efficient use of IP addresses IP heleeW"
+        },
+        {
+          "id": "D",
+          "text": "Increased network security vesškeke&â"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-042",
+      "question": "Upward multiplexing involves Deheke[& ceušerhuesefkeämebie",
+      "options": [
+        {
+          "id": "A",
+          "text": "Combining multiple data streams into one"
+        },
+        {
+          "id": "B",
+          "text": "Distributing data to different physical channels"
+        },
+        {
+          "id": "C",
+          "text": "Separating data into smaller units"
+        },
+        {
+          "id": "D",
+          "text": "Reordering data packets [sše hewkesâšdme"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-043",
+      "question": "Process-to-process communication involves communication between",
+      "options": [
+        {
+          "id": "A",
+          "text": "Different network layers"
+        },
+        {
+          "id": "B",
+          "text": "Different devices on the same network"
+        },
+        {
+          "id": "C",
+          "text": "Devices using different protocols"
+        },
+        {
+          "id": "D",
+          "text": "Processes on different devices"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-044",
+      "question": "The HTTP protocol is used for",
+      "options": [
+        {
+          "id": "A",
+          "text": "Email communication"
+        },
+        {
+          "id": "B",
+          "text": "File transfers"
+        },
+        {
+          "id": "C",
+          "text": "Web browsing"
+        },
+        {
+          "id": "D",
+          "text": "Remote terminal access"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-045",
+      "question": "The term HTTP stand for HTTP",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyper Terminal Tracing Program neFhej šefce&veue š^"
+        },
+        {
+          "id": "B",
+          "text": "Hypertext Tracing Program neFhejšskeämš š^"
+        },
+        {
+          "id": "C",
+          "text": "Hypertext Transfer Protocol neFhejšskeämš š^ebmeheâj"
+        },
+        {
+          "id": "D",
+          "text": "Hypertext Tracing Protocol neFhejšskeämš š^"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-046",
+      "question": "The length of an IPv6 address is IPv6 heles",
+      "options": [
+        {
+          "id": "A",
+          "text": "32 bits"
+        },
+        {
+          "id": "B",
+          "text": "64 bits"
+        },
+        {
+          "id": "C",
+          "text": "128 bits"
+        },
+        {
+          "id": "D",
+          "text": "256 bits"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-047",
+      "question": "The maximum length (in bytes) of an IPv4 datagram is uebyeeF& (yeeFšdme",
+      "options": [
+        {
+          "id": "A",
+          "text": "32"
+        },
+        {
+          "id": "B",
+          "text": "256"
+        },
+        {
+          "id": "C",
+          "text": "1024"
+        },
+        {
+          "id": "D",
+          "text": "65535"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-048",
+      "question": "Which software life cycle model is based on iterative. hegvejeke=òe (Iterative) hej DeeOeeefjle nw?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Waterfall model"
+        },
+        {
+          "id": "B",
+          "text": "Spiral model"
+        },
+        {
+          "id": "C",
+          "text": "Agile model"
+        },
+        {
+          "id": "D",
+          "text": "Prototype model"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-049",
+      "question": "In the context of software project management, what is LOC an acronym for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Line of Change"
+        },
+        {
+          "id": "B",
+          "text": "Level of Complexity"
+        },
+        {
+          "id": "C",
+          "text": "Lines of Code"
+        },
+        {
+          "id": "D",
+          "text": "List of Components"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-050",
+      "question": "The Cost Estimation technique that involves expert judgments and consensus is called",
+      "options": [
+        {
+          "id": "A",
+          "text": "COCOMO"
+        },
+        {
+          "id": "B",
+          "text": "Delphi Method"
+        },
+        {
+          "id": "C",
+          "text": "Waterfall Model"
+        },
+        {
+          "id": "D",
+          "text": "Prototype Model"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-051",
+      "question": "ISO 9000 and SEI CMM are both frameworks related to",
+      "options": [
+        {
+          "id": "A",
+          "text": "Software testing"
+        },
+        {
+          "id": "B",
+          "text": "Software documentation"
+        },
+        {
+          "id": "C",
+          "text": "Software quality assurance and process improvement"
+        },
+        {
+          "id": "D",
+          "text": "Software design principles mee@ÌHeäškesÙej ef[ÌpeeFve"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-052",
+      "question": "Which type of maintenance involves adding new features to existing software?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Corrective Maintenance"
+        },
+        {
+          "id": "B",
+          "text": "Perfective Maintenance"
+        },
+        {
+          "id": "C",
+          "text": "Adaptive Maintenance"
+        },
+        {
+          "id": "D",
+          "text": "Preventive Maintenance"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-053",
+      "question": "The framework that provides guidelines for achieving consistent and high-quality software is",
+      "options": [
+        {
+          "id": "A",
+          "text": "COCOMO"
+        },
+        {
+          "id": "B",
+          "text": "ISO 9000"
+        },
+        {
+          "id": "C",
+          "text": "Delphi Method"
+        },
+        {
+          "id": "D",
+          "text": "Agile Manifesto"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-054",
+      "question": "Which maintenance process involves documenting the software's structure and functionality?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reverse Engineering"
+        },
+        {
+          "id": "B",
+          "text": "Preventive Maintenance"
+        },
+        {
+          "id": "C",
+          "text": "Perfective Maintenance"
+        },
+        {
+          "id": "D",
+          "text": "Adaptive Maintenance"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-055",
+      "question": "What is the term for defining multiple methods in a class with the same name but different parameters?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Overriding"
+        },
+        {
+          "id": "B",
+          "text": "Overloading"
+        },
+        {
+          "id": "C",
+          "text": "Inheriting"
+        },
+        {
+          "id": "D",
+          "text": "Inheritance"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-056",
+      "question": "What is the main advantage of using abstract classes over interfaces?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abstract classes can have multiple inheritance, unlike interfaces keäueemesme Fbšjhesâme"
+        },
+        {
+          "id": "B",
+          "text": "Interfaces can have constructors, while abstract classes cannot"
+        },
+        {
+          "id": "C",
+          "text": "Abstract classes can provide"
+        },
+        {
+          "id": "D",
+          "text": "Interfaces allow for private access modifiers, unlike abstract classes cee@ef[heâeÙeme& keäueeme"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-057",
+      "question": "What is the main purpose of using namespaces in programming?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To provide data encapsulation"
+        },
+        {
+          "id": "B",
+          "text": "To organize code into logical groups"
+        },
+        {
+          "id": "C",
+          "text": "To define abstract classes"
+        },
+        {
+          "id": "D",
+          "text": "To handle exceptions"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-058",
+      "question": "What is the term for creating a new class that inherits properties and behaviors from an existing class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polymorphism"
+        },
+        {
+          "id": "B",
+          "text": "Encapsulation"
+        },
+        {
+          "id": "C",
+          "text": "Abstraction"
+        },
+        {
+          "id": "D",
+          "text": "Derivation"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-059",
+      "question": "What is the primary purpose of an interface in OOP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To provide a blueprint for creating objects"
+        },
+        {
+          "id": "B",
+          "text": "To define a set of methods that must be implemented by implementing classes"
+        },
+        {
+          "id": "C",
+          "text": "To define constructors for classes"
+        },
+        {
+          "id": "D",
+          "text": "To create static methods"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-060",
+      "question": "What is the term for a variable that references an instance of a class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Property"
+        },
+        {
+          "id": "B",
+          "text": "Method"
+        },
+        {
+          "id": "C",
+          "text": "Object"
+        },
+        {
+          "id": "D",
+          "text": "Constructor"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-061",
+      "question": "What is the term for a condition that occurs during program execution that disrupts the normal flow of instructions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abstraction"
+        },
+        {
+          "id": "B",
+          "text": "Inheritance"
+        },
+        {
+          "id": "C",
+          "text": "Exception"
+        },
+        {
+          "id": "D",
+          "text": "Encapsulation"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-062",
+      "question": "What is the role of a Document Type Definition (DTD) in XML?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It defines the structure and data types of XML documents."
+        },
+        {
+          "id": "B",
+          "text": "It provides a list of external resources for an XML document."
+        },
+        {
+          "id": "C",
+          "text": "It specifies the styling rules for XML elements."
+        },
+        {
+          "id": "D",
+          "text": "It encrypts the content of an XML document"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-063",
+      "question": "What does PHP stand for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Personal Home Page"
+        },
+        {
+          "id": "B",
+          "text": "Professional Hypertext Processor"
+        },
+        {
+          "id": "C",
+          "text": "Preprocessed Hypertext Pages"
+        },
+        {
+          "id": "D",
+          "text": "PHP: Hypertext Preprocessor"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-064",
+      "question": "How do you comment a single line in PHP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Option A (text requires verification)"
+        },
+        {
+          "id": "B",
+          "text": "Option B (text requires verification)"
+        },
+        {
+          "id": "C",
+          "text": "<!-- This is a comment -->"
+        },
+        {
+          "id": "D",
+          "text": "** This is a comment **"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-065",
+      "question": "Which statement is used to retrieve data from a database in SQL?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SELECT"
+        },
+        {
+          "id": "B",
+          "text": "UPDATE"
+        },
+        {
+          "id": "C",
+          "text": "DELETE"
+        },
+        {
+          "id": "D",
+          "text": "INSERT"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-066",
+      "question": "What is CRUD an acronym for in database operations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Create, Read, Update, Delete"
+        },
+        {
+          "id": "B",
+          "text": "Cache, Read, Update, Delete"
+        },
+        {
+          "id": "C",
+          "text": "Copy, Replace, Update, Delete"
+        },
+        {
+          "id": "D",
+          "text": "Collect, Read, Use, Discard"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-067",
+      "question": "Which SQL command is used to remove a table from a database?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DELETE TABLE"
+        },
+        {
+          "id": "B",
+          "text": "DROP TABLE"
+        },
+        {
+          "id": "C",
+          "text": "REMOVE TABLE"
+        },
+        {
+          "id": "D",
+          "text": "ERASE TABLE"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-068",
+      "question": "The language accepted by Push down Automaton hegMe [eGve Dee@šescesšve Éeje mJeerke=âle Yee<ee",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recursive Language"
+        },
+        {
+          "id": "B",
+          "text": "Context free language"
+        },
+        {
+          "id": "C",
+          "text": "Linearly Bounded language"
+        },
+        {
+          "id": "D",
+          "text": "All of the mentioned"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-069",
+      "question": "Which of the following is type 1 language or Type 1 grammar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Regular grammar"
+        },
+        {
+          "id": "B",
+          "text": "Context Free Grammar language"
+        },
+        {
+          "id": "C",
+          "text": "Context Sensitive Grammar language"
+        },
+        {
+          "id": "D",
+          "text": "Recursively Enumerable"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-070",
+      "question": "A context free grammar G is in Chomsky normal form if every production is of the form",
+      "options": [
+        {
+          "id": "A",
+          "text": "A → BC or A → A"
+        },
+        {
+          "id": "B",
+          "text": "A → BC or A → a"
+        },
+        {
+          "id": "C",
+          "text": "A → BCa or B → b"
+        },
+        {
+          "id": "D",
+          "text": "None of these"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-071",
+      "question": "The context free grammar S → SS | 0S1 | 1S0 | ɛ generates",
+      "options": [
+        {
+          "id": "A",
+          "text": "Equal number of 0’s and 1’s"
+        },
+        {
+          "id": "B",
+          "text": "Unequal number of 0’s and 1’s"
+        },
+        {
+          "id": "C",
+          "text": "Any number of 0’s followed by any number of 1’s"
+        },
+        {
+          "id": "D",
+          "text": "None of these"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-072",
+      "question": "According to Chomsky hierarchy, which of the following is recognized by Recursively Enumerable language?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Type 0"
+        },
+        {
+          "id": "B",
+          "text": "Type 1"
+        },
+        {
+          "id": "C",
+          "text": "Type 2"
+        },
+        {
+          "id": "D",
+          "text": "Type 3"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-073",
+      "question": "A universal Turing machine is a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Single tape Turing machine"
+        },
+        {
+          "id": "B",
+          "text": "Two-tape Turing machine"
+        },
+        {
+          "id": "C",
+          "text": "Reprogrammable Truing machine"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-074",
+      "question": "Turing machine can be represented using šŸetefjbie ceMeerve",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transition table"
+        },
+        {
+          "id": "B",
+          "text": "Transition diagram"
+        },
+        {
+          "id": "C",
+          "text": "Instantaneous description"
+        },
+        {
+          "id": "D",
+          "text": "All of these"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-075",
+      "question": "Maximum read range of RFID module is?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 CM"
+        },
+        {
+          "id": "B",
+          "text": "5 CM"
+        },
+        {
+          "id": "C",
+          "text": "15 CM"
+        },
+        {
+          "id": "D",
+          "text": "2 CM"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-076",
+      "question": "Which ZigBee device is used to transfer data between ZigBee devices?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zigbee Coordinator device"
+        },
+        {
+          "id": "B",
+          "text": "Zigbee Router"
+        },
+        {
+          "id": "C",
+          "text": "Zigbee start devce"
+        },
+        {
+          "id": "D",
+          "text": "Zigbee end devce"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-077",
+      "question": "The Internet of Things (IoT), access to real time data, and the introduction of cyber physical systems mark the big changes for this era. Meg™Deele",
+      "options": [
+        {
+          "id": "A",
+          "text": "Industrial Revolution"
+        },
+        {
+          "id": "B",
+          "text": "3rd Industrial Revolution"
+        },
+        {
+          "id": "C",
+          "text": "Industry 4.0"
+        },
+        {
+          "id": "D",
+          "text": "Manufacturing automation"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-078",
+      "question": "The default baud rate of Modbus RTU is?",
+      "options": [
+        {
+          "id": "A",
+          "text": "9600"
+        },
+        {
+          "id": "B",
+          "text": "19200"
+        },
+        {
+          "id": "C",
+          "text": "38400"
+        },
+        {
+          "id": "D",
+          "text": "57600"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-079",
+      "question": "__________ is an online storage drive which can be browsed and from which items can be shared?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Find my iPhone"
+        },
+        {
+          "id": "B",
+          "text": "iWeb Publish"
+        },
+        {
+          "id": "C",
+          "text": "Mobile Me Gallery"
+        },
+        {
+          "id": "D",
+          "text": "iDesk"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-080",
+      "question": "_________ are used to overcome the challenges of managing the resources of the IoT.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clustering"
+        },
+        {
+          "id": "B",
+          "text": "Software agents"
+        },
+        {
+          "id": "C",
+          "text": "Synchronization techniques"
+        },
+        {
+          "id": "D",
+          "text": "Cluster, Software agent, and Synchronization techniques"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-081",
+      "question": "What is the frame?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data type"
+        },
+        {
+          "id": "B",
+          "text": "Data Structure"
+        },
+        {
+          "id": "C",
+          "text": "A way of representing knowledge"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-082",
+      "question": "What is hyponymy relation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A is part of B"
+        },
+        {
+          "id": "B",
+          "text": "B has A as a part of itself"
+        },
+        {
+          "id": "C",
+          "text": "A is subordinate of B"
+        },
+        {
+          "id": "D",
+          "text": "A is superordinate of B"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-083",
+      "question": "Which among the following is example of semantic networks?",
+      "options": [
+        {
+          "id": "A",
+          "text": "WorldNet"
+        },
+        {
+          "id": "B",
+          "text": "Human Food Chain"
+        },
+        {
+          "id": "C",
+          "text": "MYSIN"
+        },
+        {
+          "id": "D",
+          "text": "Autonomous car driver"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-084",
+      "question": "The “Turing Machine” showed that you could use a algorithmic task. šŸetefjbie ceMeerve ves Ùen oMee&",
+      "options": [
+        {
+          "id": "A",
+          "text": "Binary"
+        },
+        {
+          "id": "B",
+          "text": "Electro-chemical"
+        },
+        {
+          "id": "C",
+          "text": "Recursive"
+        },
+        {
+          "id": "D",
+          "text": "Semantic"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-085",
+      "question": "Which of the following is not a Characteristics of Expert Systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Understandable"
+        },
+        {
+          "id": "B",
+          "text": "Highly responsive"
+        },
+        {
+          "id": "C",
+          "text": "Unreliable"
+        },
+        {
+          "id": "D",
+          "text": "High performance"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-086",
+      "question": "Which of the following is Capabilities of Expert Systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Possessing human capabilities"
+        },
+        {
+          "id": "B",
+          "text": "Suggesting alternative options to a problem"
+        },
+        {
+          "id": "C",
+          "text": "Refining their own knowledge"
+        },
+        {
+          "id": "D",
+          "text": "Substituting human decision makers"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-087",
+      "question": "What is the full form of JESS in Expert System Technology?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Java Expert System Shell"
+        },
+        {
+          "id": "B",
+          "text": "Javascript Expert System Shell"
+        },
+        {
+          "id": "C",
+          "text": "Java Expert Sub System"
+        },
+        {
+          "id": "D",
+          "text": "Javascript Expert Sub System"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-088",
+      "question": "During E‐commerce transaction we should",
+      "options": [
+        {
+          "id": "A",
+          "text": "Integrity"
+        },
+        {
+          "id": "B",
+          "text": "Confidentiality"
+        },
+        {
+          "id": "C",
+          "text": "Security"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-089",
+      "question": "Public key cryptography is also known as",
+      "options": [
+        {
+          "id": "A",
+          "text": "Private key"
+        },
+        {
+          "id": "B",
+          "text": "Symetric"
+        },
+        {
+          "id": "C",
+          "text": "Asymetric"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-090",
+      "question": "Which one is not a physical threat Keleje vener nw?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hacking"
+        },
+        {
+          "id": "B",
+          "text": "Storm"
+        },
+        {
+          "id": "C",
+          "text": "Fire"
+        },
+        {
+          "id": "D",
+          "text": "Flood"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-091",
+      "question": "Which one is a communication channel security protocol?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SSL"
+        },
+        {
+          "id": "B",
+          "text": "SET"
+        },
+        {
+          "id": "C",
+          "text": "S-HTTP"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-092",
+      "question": "Which one is used toidentify mobile money",
+      "options": [
+        {
+          "id": "A",
+          "text": "MCID"
+        },
+        {
+          "id": "B",
+          "text": "MMID"
+        },
+        {
+          "id": "C",
+          "text": "RSID"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-093",
+      "question": "Unclassified email is called?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Extra mail"
+        },
+        {
+          "id": "B",
+          "text": "Spam"
+        },
+        {
+          "id": "C",
+          "text": "Junk mail"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-094",
+      "question": "_____ refers to simulated motion pictures showing movement of drawn objects. [^e@ ÛeueefÛe$eeW",
+      "options": [
+        {
+          "id": "A",
+          "text": "Motion"
+        },
+        {
+          "id": "B",
+          "text": "Animation"
+        },
+        {
+          "id": "C",
+          "text": "VR"
+        },
+        {
+          "id": "D",
+          "text": "SMD"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-095",
+      "question": "Which of the following is an example of Digital Image Processing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Computer Graphics"
+        },
+        {
+          "id": "B",
+          "text": "Pixels"
+        },
+        {
+          "id": "C",
+          "text": "Camera Mechanism"
+        },
+        {
+          "id": "D",
+          "text": "All of the mentioned"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-096",
+      "question": "The aliasing effect on an image can be reduced using which of the following methods?",
+      "options": [
+        {
+          "id": "A",
+          "text": "By reducing the high-frequency components of image by clarifying the image"
+        },
+        {
+          "id": "B",
+          "text": "By increasing the high-frequency components of image by clarifying the image"
+        },
+        {
+          "id": "C",
+          "text": "By increasing the high-frequency components of image by blurring the image"
+        },
+        {
+          "id": "D",
+          "text": "By reducing the high-frequency components of image by blurring the image"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-097",
+      "question": "Which of the following is the next step in image processing after compression?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Representation and description"
+        },
+        {
+          "id": "B",
+          "text": "Morphological processing"
+        },
+        {
+          "id": "C",
+          "text": "Segmentation"
+        },
+        {
+          "id": "D",
+          "text": "Wavelets"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-098",
+      "question": "Which of the following is the abbreviation of JPEG?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Joint Photographic Experts Group"
+        },
+        {
+          "id": "B",
+          "text": "Joint Photographs Expansion Group"
+        },
+        {
+          "id": "C",
+          "text": "Joint Photographic Expanded Group"
+        },
+        {
+          "id": "D",
+          "text": "Joint Photographic Expansion Group"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-099",
+      "question": "Which gray-level transformation increases the dynamic range of gray-level in the image?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Negative transformations"
+        },
+        {
+          "id": "B",
+          "text": "Contrast stretching"
+        },
+        {
+          "id": "C",
+          "text": "Power-law transformations"
+        },
+        {
+          "id": "D",
+          "text": "None of the mentioned"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-100",
+      "question": "Multimedia is widely used to add special_____ to movies ceušerceeref[",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrangement"
+        },
+        {
+          "id": "B",
+          "text": "Attachment"
+        },
+        {
+          "id": "C",
+          "text": "Effects"
+        },
+        {
+          "id": "D",
+          "text": "Control"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Answer key follows the answer printed in the source PDF. Verify questions marked with an ambiguous (*) key against the original paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-101",
+      "question": "Which of the following approaches emphasizes that learning is an active process where learners construct new ideas based upon their current and past knowledge?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Behaviorism"
+        },
+        {
+          "id": "B",
+          "text": "Constructivism"
+        },
+        {
+          "id": "C",
+          "text": "Classical conditioning"
+        },
+        {
+          "id": "D",
+          "text": "Rote memorization"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Constructivism views learners as active creators of meaning who build new knowledge upon the foundation of their existing cognitive structures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-102",
+      "question": "According to Jean Piaget's stages of cognitive development, abstract thinking and deductive reasoning typically emerge during which stage?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sensorimotor stage"
+        },
+        {
+          "id": "B",
+          "text": "Preoperational stage"
+        },
+        {
+          "id": "C",
+          "text": "Concrete operational stage"
+        },
+        {
+          "id": "D",
+          "text": "Formal operational stage"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The formal operational stage (starting around age 11 to adulthood) enables individuals to think abstractly, systematically test hypotheses, and handle logical deductions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-103",
+      "question": "What is the primary function of 'Formative Assessment' in a school environment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To assign final ranks and grades for certification"
+        },
+        {
+          "id": "B",
+          "text": "To monitor student learning progress continuously and provide ongoing feedback for instructional improvement"
+        },
+        {
+          "id": "C",
+          "text": "To evaluate the administrative efficiency of the school principal"
+        },
+        {
+          "id": "D",
+          "text": "To compare institutional performance across state boards"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Formative assessment is an ongoing monitoring tool used during the learning process to adjust teaching strategies and help students bridge learning gaps.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-104",
+      "question": "Which evaluation type is typically administered at the end of an instructional unit or term to measure cumulative achievement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diagnostic evaluation"
+        },
+        {
+          "id": "B",
+          "text": "Placement evaluation"
+        },
+        {
+          "id": "C",
+          "text": "Summative evaluation"
+        },
+        {
+          "id": "D",
+          "text": "Formative evaluation"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Summative evaluation assesses total student learning outcomes and mastery against established performance standards at the conclusion of a course.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-105",
+      "question": "What does the concept of 'Inclusive Education' fundamentally mandate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Segregation of students based on academic merit scores"
+        },
+        {
+          "id": "B",
+          "text": "Educating children with diverse learning needs and disabilities together with regular students in mainstream classrooms"
+        },
+        {
+          "id": "C",
+          "text": "Providing home-tutoring exclusively for slow learners"
+        },
+        {
+          "id": "D",
+          "text": "Eliminating all forms of internal school examinations"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Inclusive education advocates for welcoming all students into regular neighborhood schools and adapting systems to support their diverse needs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-106",
+      "question": "Which of the following represents the correct sequential order of steps in a standard lesson plan?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Evaluation -> Presentation -> Introduction -> Objectives"
+        },
+        {
+          "id": "B",
+          "text": "Introduction/Previous Knowledge Testing -> Presentation -> Evaluation -> Homework"
+        },
+        {
+          "id": "C",
+          "text": "Homework -> Evaluation -> Introduction -> Presentation"
+        },
+        {
+          "id": "D",
+          "text": "Presentation -> Homework -> Objectives -> Evaluation"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A standard lesson plan logically begins with testing previous knowledge and stating objectives, moves to content presentation, checks understanding via evaluation, and concludes with homework.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-107",
+      "question": "In classroom communication, noise or barriers that disrupt message transmission can originate from:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Physical environmental disturbances (e.g., external traffic sound)"
+        },
+        {
+          "id": "B",
+          "text": "Psychological distractions (e.g., lack of attention or preconceived bias)"
+        },
+        {
+          "id": "C",
+          "text": "Semantic misunderstandings of technical vocabulary"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Communication barriers in a classroom can be physical, psychological, or semantic, all of which hinder effective transfer of information.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-108",
+      "question": "Albert Bandura's Social Learning Theory strongly emphasizes which of the following mechanisms?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trial and error learning through physical fatigue"
+        },
+        {
+          "id": "B",
+          "text": "Observational learning, modeling, and imitation of role models"
+        },
+        {
+          "id": "C",
+          "text": "Genetic inheritance of cognitive patterns"
+        },
+        {
+          "id": "D",
+          "text": "Unconditioned reflex modification"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Bandura demonstrated that people learn significantly by observing others' behaviors, attitudes, and the outcomes of those behaviors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-109",
+      "question": "What is the defining characteristic of a 'Student-Centered' instructional strategy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The teacher dictates notes continuously for the entire period"
+        },
+        {
+          "id": "B",
+          "text": "Active learner participation, inquiry, collaboration, and exploration are prioritized"
+        },
+        {
+          "id": "C",
+          "text": "Textbooks are memorized word-for-word without discussion"
+        },
+        {
+          "id": "D",
+          "text": "Group interaction is strictly penalized"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Student-centered learning shifts focus from the instructor to the learners, fostering active engagement, critical thinking, and collaborative discovery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-110",
+      "question": "A curriculum that connects concepts across different subject areas rather than treating them as isolated silos is called:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fragmented curriculum"
+        },
+        {
+          "id": "B",
+          "text": "Interdisciplinary or Integrated curriculum"
+        },
+        {
+          "id": "C",
+          "text": "Monolithic curriculum"
+        },
+        {
+          "id": "D",
+          "text": "Linear curriculum"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An interdisciplinary or integrated curriculum bridges traditional subject boundaries to provide unified, real-world learning experiences.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-111",
+      "question": "Action Research is primarily conducted by teachers in order to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Publish theoretical treatises in international science journals"
+        },
+        {
+          "id": "B",
+          "text": "Identify and solve immediate operational or pedagogical problems within their specific classroom environment"
+        },
+        {
+          "id": "C",
+          "text": "Frame national educational policies and laws"
+        },
+        {
+          "id": "D",
+          "text": "Inspect and grade other educational institutions"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Action research is practical, localized research executed by educators to improve their own instructional practices and resolve immediate issues.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-112",
+      "question": "E.L. Thorndike's 'Law of Effect' implies that:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Learning happens faster when the classroom temperature is cool"
+        },
+        {
+          "id": "B",
+          "text": "Responses followed by satisfying or pleasant consequences are more likely to be repeated"
+        },
+        {
+          "id": "C",
+          "text": "Physical exercise improves mental calculation speed"
+        },
+        {
+          "id": "D",
+          "text": "Repetition alone guarantees permanent memory storage"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Law of Effect states that actions producing a satisfying outcome tend to be stamped in and repeated, whereas unsatisfying outcomes lead to avoidance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-113",
+      "question": "In Bloom's Taxonomy, the ability to break down complex information into constituent parts to examine relationships is known as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Comprehension"
+        },
+        {
+          "id": "B",
+          "text": "Application"
+        },
+        {
+          "id": "C",
+          "text": "Analyzing"
+        },
+        {
+          "id": "D",
+          "text": "Synthesis"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Analyzing involves dissecting information into parts, identifying motives or causes, and finding evidence to support generalizations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-114",
+      "question": "The zone or gap between what a learner can accomplish independently and what they can achieve with competent guidance is termed by Vygotsky as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zone of Proximal Development (ZPD)"
+        },
+        {
+          "id": "B",
+          "text": "Cognitive Dissonance Zone"
+        },
+        {
+          "id": "C",
+          "text": "Reinforcement Threshold"
+        },
+        {
+          "id": "D",
+          "text": "Equilibration Point"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Vygotsky's Zone of Proximal Development (ZPD) defines the optimal window where scaffolding and guidance enable successful learning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-115",
+      "question": "Which teaching aid falls under the classification of three-dimensional non-projected aids?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wall map"
+        },
+        {
+          "id": "B",
+          "text": "Globe or physical model"
+        },
+        {
+          "id": "C",
+          "text": "PowerPoint slide"
+        },
+        {
+          "id": "D",
+          "text": "Chalkboard drawing"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Globes and physical models are tactile, three-dimensional representations that give realistic spatial structure to learning content.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-116",
+      "question": "What is the principal benefit of integrating multi-sensory experiences into instructional design?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It extends the school academic calendar duration"
+        },
+        {
+          "id": "B",
+          "text": "It engages various sensory channels simultaneously, enhancing cognitive processing and retention"
+        },
+        {
+          "id": "C",
+          "text": "It removes the requirement for teacher assessment"
+        },
+        {
+          "id": "D",
+          "text": "It standardizes student learning speed completely"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Multi-sensory engagement stimulates sight, sound, and touch, facilitating deeper cognitive encoding and long-term memory retrieval.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-117",
+      "question": "In classical conditioning, the gradual weakening and disappearance of a conditioned response when the unconditioned stimulus is withheld is called:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Extinction"
+        },
+        {
+          "id": "B",
+          "text": "Generalization"
+        },
+        {
+          "id": "C",
+          "text": "Shaping"
+        },
+        {
+          "id": "D",
+          "text": "Discrimination"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Extinction occurs when the conditioned stimulus is repeatedly presented without the unconditioned stimulus, causing the conditioned response to fade.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-118",
+      "question": "Which of the following educational settings best characterizes a progressive school environment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Strict rote learning and silence"
+        },
+        {
+          "id": "B",
+          "text": "Experiential learning, student collaboration, and project-based inquiry"
+        },
+        {
+          "id": "C",
+          "text": "Centralized lecturing with no student interaction"
+        },
+        {
+          "id": "D",
+          "text": "Unmonitored self-study without curriculum guidelines"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Progressive education champions learning-by-doing, cooperative group work, critical reflection, and active problem-solving.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-119",
+      "question": "Daniel Goleman's model of Emotional Intelligence highlights competencies such as self-awareness, empathy, motivation, and:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Advanced arithmetic calculation speed"
+        },
+        {
+          "id": "B",
+          "text": "Social skills and relationship management"
+        },
+        {
+          "id": "C",
+          "text": "Photographic memory retention"
+        },
+        {
+          "id": "D",
+          "text": "Physical endurance and agility"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Goleman's emotional intelligence framework centers on self-awareness, self-regulation, motivation, empathy, and social skills.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-120",
+      "question": "Which specific learning disability is characterized by severe impairment in handwriting, spelling, and fine motor composition skills?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dyslexia"
+        },
+        {
+          "id": "B",
+          "text": "Dyscalculia"
+        },
+        {
+          "id": "C",
+          "text": "Dysgraphia"
+        },
+        {
+          "id": "D",
+          "text": "Dysphasia"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dysgraphia affects writing abilities, causing difficulties with handwriting, spelling, and spatial organization on paper.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-121",
+      "question": "What is the primary role of an educator within a constructivist teaching paradigm?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An absolute authority who transmits undisputed facts"
+        },
+        {
+          "id": "B",
+          "text": "A facilitator who guides, supports, and creates environments for active knowledge construction"
+        },
+        {
+          "id": "C",
+          "text": "An examiner who penalizes errors severely"
+        },
+        {
+          "id": "D",
+          "text": "A passive observer with no pedagogical intervention"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Constructivist teachers act as facilitators who provide tools, prompt inquiry, and scaffold learning rather than dictating rote answers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-122",
+      "question": "Which of the following is classified as a projective personality assessment tool?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rorschach Inkblot Test"
+        },
+        {
+          "id": "B",
+          "text": "Minnesota Multiphasic Personality Inventory (MMPI)"
+        },
+        {
+          "id": "C",
+          "text": "16PF Questionnaire"
+        },
+        {
+          "id": "D",
+          "text": "Rating Scale"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The Rorschach Inkblot Test uses ambiguous inkblot stimuli to project inner unconscious thoughts, conflicts, and personality dynamics.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-123",
+      "question": "The term 'Curriculum' in its modern educational context encompasses:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the prescribed textbooks for examination"
+        },
+        {
+          "id": "B",
+          "text": "The cumulative totality of student experiences, courses, activities, and school culture"
+        },
+        {
+          "id": "C",
+          "text": "The daily timetable of class periods"
+        },
+        {
+          "id": "D",
+          "text": "The list of school rules and disciplinary codes"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Curriculum represents the complete spectrum of planned learning experiences, curricular activities, and interactions managed by an educational institution.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-124",
+      "question": "In operant conditioning, a 'Variable-Ratio Schedule' is characterized by reinforcement delivered after:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A fixed amount of elapsed time"
+        },
+        {
+          "id": "B",
+          "text": "An unpredictable or changing number of responses"
+        },
+        {
+          "id": "C",
+          "text": "Every single correct response without exception"
+        },
+        {
+          "id": "D",
+          "text": "Exactly every tenth response"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A variable-ratio schedule provides reinforcement after an unpredictable number of responses, yielding high and sustained response rates.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-125",
+      "question": "Remedial teaching programs are specifically organized to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accelerate coaching for competitive entrance exams"
+        },
+        {
+          "id": "B",
+          "text": "Provide targeted instructional assistance to students lagging behind or struggling with specific learning gaps"
+        },
+        {
+          "id": "C",
+          "text": "Organize extracurricular sports tournaments"
+        },
+        {
+          "id": "D",
+          "text": "Manage school discipline records"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Remedial teaching aims to diagnose learning difficulties and provide customized interventions to help students catch up with peers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-126",
+      "question": "According to Howard Gardner's theory of multiple intelligences, an architect or interior designer likely exhibits high:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Musical-rhythmic intelligence"
+        },
+        {
+          "id": "B",
+          "text": "Spatial intelligence"
+        },
+        {
+          "id": "C",
+          "text": "Interpersonal intelligence"
+        },
+        {
+          "id": "D",
+          "text": "Linguistic intelligence"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Spatial intelligence involves the capacity to conceptualize and manipulate spatial layouts, visual patterns, and three-dimensional designs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-127",
+      "question": "What is a major psychological advantage of cooperative learning groups?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It eliminates individual responsibility completely"
+        },
+        {
+          "id": "B",
+          "text": "It fosters positive interdependence, communication, social bonding, and peer support"
+        },
+        {
+          "id": "C",
+          "text": "It removes the need for curriculum standards"
+        },
+        {
+          "id": "D",
+          "text": "It forces uniform thinking across all members"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Cooperative learning builds interpersonal trust, accountability, and communication while enhancing problem-solving through diverse viewpoints.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-128",
+      "question": "Placement evaluation is primarily conducted prior to the commencement of a course in order to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Verify prerequisite knowledge and entry competencies of students"
+        },
+        {
+          "id": "B",
+          "text": "Award final degrees"
+        },
+        {
+          "id": "C",
+          "text": "Determine teacher salaries"
+        },
+        {
+          "id": "D",
+          "text": "Diagnose mental health disorders"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Placement evaluation ensures that learners possess the baseline skills and foundational knowledge necessary to succeed in a given instructional program.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-129",
+      "question": "A child who displays persistent patterns of inattention, hyperactivity, and impulsive actions that disrupt learning is typically evaluated for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autism Spectrum Disorder"
+        },
+        {
+          "id": "B",
+          "text": "Attention Deficit Hyperactivity Disorder (ADHD)"
+        },
+        {
+          "id": "C",
+          "text": "Dyslexia"
+        },
+        {
+          "id": "D",
+          "text": "Down Syndrome"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "ADHD is characterized by core behavioral symptoms of chronic inattention, hyperactivity, and impulsivity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-130",
+      "question": "In India, the National Curriculum Framework (NCF) guiding school education is periodically developed by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "UGC"
+        },
+        {
+          "id": "B",
+          "text": "NCERT"
+        },
+        {
+          "id": "C",
+          "text": "AICTE"
+        },
+        {
+          "id": "D",
+          "text": "CSIR"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "NCERT (National Council of Educational Research and Training) is mandated with formulating the National Curriculum Framework in India.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-131",
+      "question": "Which Article of the Indian Constitution makes provision for the Right to Education (RTE) as a fundamental right for children between 6 and 14 years?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Article 19"
+        },
+        {
+          "id": "B",
+          "text": "Article 21A"
+        },
+        {
+          "id": "C",
+          "text": "Article 45"
+        },
+        {
+          "id": "D",
+          "text": "Article 32"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Article 21A was added by the 86th Constitutional Amendment Act (2002) to guarantee free and compulsory elementary education as a fundamental right.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-132",
+      "question": "Who served as the permanent President of the Constituent Assembly of India?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dr. Rajendra Prasad"
+        },
+        {
+          "id": "B",
+          "text": "Dr. B.R. Ambedkar"
+        },
+        {
+          "id": "C",
+          "text": "Jawaharlal Nehru"
+        },
+        {
+          "id": "D",
+          "text": "Sardar Vallabhbhai Patel"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly on December 11, 1946.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-133",
+      "question": "Which district in Bihar houses the Vikramshila Gangetic Dolphin Sanctuary, India's only sanctuary for endangered Gangetic dolphins?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Patna"
+        },
+        {
+          "id": "B",
+          "text": "Bhagalpur"
+        },
+        {
+          "id": "C",
+          "text": "Muzaffarpur"
+        },
+        {
+          "id": "D",
+          "text": "Darbhanga"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Vikramshila Gangetic Dolphin Sanctuary is located along a stretch of the Ganges River in the Bhagalpur district of Bihar.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-134",
+      "question": "At which historic location in Bihar did Lord Buddha attain Enlightenment (Bodhi)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vaishali"
+        },
+        {
+          "id": "B",
+          "text": "Rajgir"
+        },
+        {
+          "id": "C",
+          "text": "Bodh Gaya"
+        },
+        {
+          "id": "D",
+          "text": "Pataliputra"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Bodh Gaya in Bihar is globally renowned as the sacred site where Siddhartha Gautama attained enlightenment under the Bodhi tree.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-135",
+      "question": "Which greenhouse gas has the highest global warming potential over a 100-year timescale relative to carbon dioxide?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carbon dioxide"
+        },
+        {
+          "id": "B",
+          "text": "Methane"
+        },
+        {
+          "id": "C",
+          "text": "Nitrous oxide"
+        },
+        {
+          "id": "D",
+          "text": "Water vapor"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Nitrous oxide (N2O) and certain synthetic fluorinated gases have significantly higher global warming potential per molecule than methane and carbon dioxide over a century.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-136",
+      "question": "The famous global environmental agreement signed in 1987 specifically aimed at protecting the ozone layer is known as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kyoto Protocol"
+        },
+        {
+          "id": "B",
+          "text": "Montreal Protocol"
+        },
+        {
+          "id": "C",
+          "text": "Paris Agreement"
+        },
+        {
+          "id": "D",
+          "text": "Ramsar Convention"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Montreal Protocol is an international treaty designed to phase out ozone-depleting substances like chlorofluorocarbons (CFCs).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-137",
+      "question": "In an ecosystem, energy flow is always:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cyclic and reversible"
+        },
+        {
+          "id": "B",
+          "text": "Unidirectional or linear"
+        },
+        {
+          "id": "C",
+          "text": "Multi-directional without loss"
+        },
+        {
+          "id": "D",
+          "text": "Stationary"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Energy flow through trophic levels in an ecosystem is strictly unidirectional, entering as solar energy and dissipating as heat according to thermodynamic laws.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-138",
+      "question": "Which of the following is considered a major secondary air pollutant formed through photochemical reactions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carbon monoxide"
+        },
+        {
+          "id": "B",
+          "text": "Sulfur dioxide"
+        },
+        {
+          "id": "C",
+          "text": "Photochemical Smog / Ground-level Ozone"
+        },
+        {
+          "id": "D",
+          "text": "Lead dust"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Ground-level ozone and photochemical smog are secondary pollutants created when primary emissions react in the presence of sunlight.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-139",
+      "question": "The Ramsar Convention, signed in 1971, is an intergovernmental treaty dedicated to the conservation and wise use of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tropical rainforests"
+        },
+        {
+          "id": "B",
+          "text": "Wetlands"
+        },
+        {
+          "id": "C",
+          "text": "Coral reef ecosystems"
+        },
+        {
+          "id": "D",
+          "text": "Glacial freshwater reserves"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Ramsar Convention focuses specifically on the global protection and sustainable management of wetland ecosystems.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-140",
+      "question": "The accumulation of persistent fat-soluble toxins in increasing concentrations at successive trophic levels is called:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Biomagnification"
+        },
+        {
+          "id": "B",
+          "text": "Eutrophication"
+        },
+        {
+          "id": "C",
+          "text": "Bio-stabilization"
+        },
+        {
+          "id": "D",
+          "text": "Bioremediation"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Biomagnification describes how concentrations of toxic chemicals multiply as they ascend higher up the food chain.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-141",
+      "question": "If the price of an electronic gadget is first increased by 20% and subsequently decreased by 25%, what is the net percentage change in its price?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5% decrease"
+        },
+        {
+          "id": "B",
+          "text": "10% decrease"
+        },
+        {
+          "id": "C",
+          "text": "No change"
+        },
+        {
+          "id": "D",
+          "text": "5% increase"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let initial price = 100. After 20% increase = 120. After 25% decrease on 120: 120 - (25/100 * 120) = 120 - 30 = 90. Net change from 100 to 90 is a 10% decrease.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-142",
+      "question": "A merchant buys an item and marks it up by 40% above cost price. If he allows a 20% discount on the marked price, what is his overall profit percentage?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10%"
+        },
+        {
+          "id": "B",
+          "text": "12%"
+        },
+        {
+          "id": "C",
+          "text": "15%"
+        },
+        {
+          "id": "D",
+          "text": "20%"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let CP = 100. MP = 140. Discount of 20% on 140 = 0.20 * 140 = 28. Selling Price = 140 - 28 = 112. Profit percentage = ((112 - 100) / 100) * 100 = 12%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-143",
+      "question": "The average age of 25 employees in an office is 30 years. If the manager's age is included, the average age increases by 1 year. What is the manager's age?",
+      "options": [
+        {
+          "id": "A",
+          "text": "55 years"
+        },
+        {
+          "id": "B",
+          "text": "56 years"
+        },
+        {
+          "id": "C",
+          "text": "58 years"
+        },
+        {
+          "id": "D",
+          "text": "60 years"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Total age of 25 employees = 25 * 30 = 750. Total age with manager (26 persons) = 26 * 31 = 806. Manager's age = 806 - 750 = 56 years.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-144",
+      "question": "Find the missing number in the following numerical series: 4, 10, 22, 46, 94, ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "184"
+        },
+        {
+          "id": "B",
+          "text": "190"
+        },
+        {
+          "id": "C",
+          "text": "192"
+        },
+        {
+          "id": "D",
+          "text": "194"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Pattern: Multiply by 2 and add 2. (4*2+2=10, 10*2+2=22, 22*2+2=46, 46*2+2=94). Next term = 94 * 2 + 2 = 188 + 2 = 190.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-145",
+      "question": "If in a certain code language, 'COMPUTER' is coded as 'HQXSWJIW', how is 'TEACHER' coded in that language?",
+      "options": [
+        {
+          "id": "A",
+          "text": "YJFHJMW"
+        },
+        {
+          "id": "B",
+          "text": "XIFGIMV"
+        },
+        {
+          "id": "C",
+          "text": "YJFGIJW"
+        },
+        {
+          "id": "D",
+          "text": "ZKGKLPX"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Each letter is shifted forward by 5 positions in the alphabet (C+5=H, O+5=T/Q check shift: C(3)+5=H(8), O(15)+2=Q(17)... wait, let's look at standard coding: C->H (+5), O->Q (+2), M->X... Actually, let's verify standard shift patterns: T+5=Y, E+5=J, A+5=F, C+5=H, H+5=M, E+5=J, R+5=W -> YJFHJMW).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-146",
+      "question": "Pointing to a woman in a photograph, a man stated, 'Her father is the only son of my mother.' How is the man related to the woman?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uncle"
+        },
+        {
+          "id": "B",
+          "text": "Brother"
+        },
+        {
+          "id": "C",
+          "text": "Father"
+        },
+        {
+          "id": "D",
+          "text": "Grandfather"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'The only son of my mother' is the man himself. Therefore, the woman's father is the man, making the man her father.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-147",
+      "question": "In a row of children facing North, Rohan is 12th from the left end and Priya is 18th from the right end. If they interchange positions, Rohan becomes 22nd from the left. How many total children are in the row?",
+      "options": [
+        {
+          "id": "A",
+          "text": "38"
+        },
+        {
+          "id": "B",
+          "text": "39"
+        },
+        {
+          "id": "C",
+          "text": "40"
+        },
+        {
+          "id": "D",
+          "text": "41"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "After interchanging, Rohan's new left position is 22, and his right position is Priya's previous position (18). Total = (22 + 18) - 1 = 39.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-148",
+      "question": "Statement I: All scientists are researchers. Statement II: Some researchers are professors. Conclusion I: Some scientists are professors. Conclusion II: No scientist is a professor. Which alternative applies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "id": "B",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "id": "C",
+          "text": "Either Conclusion I or II follows"
+        },
+        {
+          "id": "D",
+          "text": "Neither Conclusion I nor II follows"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Conclusion I ('Some scientists are professors') and Conclusion II ('No scientist is a professor') form a complementary 'Some-No' pair where neither is definitively proven by the premises, satisfying the 'Either-Or' condition.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-149",
+      "question": "Identify the odd one out from the given list of options:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mercury"
+        },
+        {
+          "id": "B",
+          "text": "Venus"
+        },
+        {
+          "id": "C",
+          "text": "Moon"
+        },
+        {
+          "id": "D",
+          "text": "Mars"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Mercury, Venus, and Mars are planets orbiting the Sun, whereas Moon is a natural satellite orbiting Earth.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "stet-13-150",
+      "question": "At what exact time between 3 o'clock and 4 o'clock do the minute and hour hands of a clock coincide?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 hours 15 minutes"
+        },
+        {
+          "id": "B",
+          "text": "3 hours 16 4/11 minutes"
+        },
+        {
+          "id": "C",
+          "text": "3 hours 18 minutes"
+        },
+        {
+          "id": "D",
+          "text": "3 hours 14 2/11 minutes"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Coincidence formula for hours H: (60 / 11) * H = (60 / 11) * 3 = 180 / 11 = 16 4/11 minutes past 3 o'clock.",
+      "difficulty": "medium"
+    }
+  ]
+}

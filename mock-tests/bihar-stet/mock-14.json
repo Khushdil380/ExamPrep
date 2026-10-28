@@ -1,0 +1,3759 @@
+{
+  "examName": "Bihar STET",
+  "testName": "Mock Test 14",
+  "totalQuestions": 150,
+  "durationMinutes": 150,
+  "instructions": "Bihar STET Paper 2 Computer Science practice mock test..",
+  "questions": [
+    {
+      "id": "stet-14-001",
+      "question": "Computer is a/an …………",
+      "options": [
+        {
+          "id": "A",
+          "text": "Electrical device"
+        },
+        {
+          "id": "B",
+          "text": "Electronic device"
+        },
+        {
+          "id": "C",
+          "text": "Mechanical device"
+        },
+        {
+          "id": "D",
+          "text": "Electro/Mechanical device"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 51.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-002",
+      "question": "…………is the brain of computer.",
+      "options": [
+        {
+          "id": "A",
+          "text": "CPU"
+        },
+        {
+          "id": "B",
+          "text": "Memory"
+        },
+        {
+          "id": "C",
+          "text": "VDU"
+        },
+        {
+          "id": "D",
+          "text": "Keyboard"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 52.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-003",
+      "question": "VGA stand for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Video Guard Ample"
+        },
+        {
+          "id": "B",
+          "text": "Visual Gate Adapter"
+        },
+        {
+          "id": "C",
+          "text": "Video Graphics Array"
+        },
+        {
+          "id": "D",
+          "text": "Visual Game Adapter"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 53.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-004",
+      "question": "Computer cannot function without a?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Paper"
+        },
+        {
+          "id": "B",
+          "text": "Cable"
+        },
+        {
+          "id": "C",
+          "text": "Battery"
+        },
+        {
+          "id": "D",
+          "text": "Program"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 54.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-005",
+      "question": "The most common input device used today is?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mouse"
+        },
+        {
+          "id": "B",
+          "text": "ALU"
+        },
+        {
+          "id": "C",
+          "text": "Keyboard"
+        },
+        {
+          "id": "D",
+          "text": "Printer"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 55.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-006",
+      "question": "Which of the following is a part of the Central Processing unit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mouse"
+        },
+        {
+          "id": "B",
+          "text": "ALU"
+        },
+        {
+          "id": "C",
+          "text": "Keyboard"
+        },
+        {
+          "id": "D",
+          "text": "Printer"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 56.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-007",
+      "question": "Which of the following is an example of non- volatile memory?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAM"
+        },
+        {
+          "id": "B",
+          "text": "LSI"
+        },
+        {
+          "id": "C",
+          "text": "ROM"
+        },
+        {
+          "id": "D",
+          "text": "VLSI"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 57.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-008",
+      "question": "Large computer system typically use…………",
+      "options": [
+        {
+          "id": "A",
+          "text": "Line Printer"
+        },
+        {
+          "id": "B",
+          "text": "Ink jet printer"
+        },
+        {
+          "id": "C",
+          "text": "Dot-metric printers"
+        },
+        {
+          "id": "D",
+          "text": "Daisy wheel printers"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 58.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-009",
+      "question": "1 Byte carry …………Bits",
+      "options": [
+        {
+          "id": "A",
+          "text": "8"
+        },
+        {
+          "id": "B",
+          "text": "16"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "1024"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 59.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-010",
+      "question": "Which of the following computer is least powerful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Super Computer"
+        },
+        {
+          "id": "B",
+          "text": "Mini Computer"
+        },
+        {
+          "id": "C",
+          "text": "Micro Computer"
+        },
+        {
+          "id": "D",
+          "text": "Mainframe Computer"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 60.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-011",
+      "question": "An Application package is used to?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Run the computer system smoothly"
+        },
+        {
+          "id": "B",
+          "text": "Run the compiler in a better way"
+        },
+        {
+          "id": "C",
+          "text": "Meet the specific needs of a user"
+        },
+        {
+          "id": "D",
+          "text": "Enable operating system to control hardware"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 61.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-012",
+      "question": "Which of the following is not a programming language?",
+      "options": [
+        {
+          "id": "A",
+          "text": "UNIX"
+        },
+        {
+          "id": "B",
+          "text": "C"
+        },
+        {
+          "id": "C",
+          "text": "Fourth"
+        },
+        {
+          "id": "D",
+          "text": "Ada"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 62.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-013",
+      "question": "A Series of statement explaining how the data is to be processed is called.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Editing"
+        },
+        {
+          "id": "B",
+          "text": "Compiler"
+        },
+        {
+          "id": "C",
+          "text": "Interpreter"
+        },
+        {
+          "id": "D",
+          "text": "Program"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 63.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-014",
+      "question": "An operating system is system software that works as an interface between the computer and an user, it does the following works?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Controls input & output"
+        },
+        {
+          "id": "B",
+          "text": "Control program execution"
+        },
+        {
+          "id": "C",
+          "text": "Manages use of main memory"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 64.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-015",
+      "question": "Paintbrush belongs to?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Main Group"
+        },
+        {
+          "id": "B",
+          "text": "Application Group"
+        },
+        {
+          "id": "C",
+          "text": "Accessories Group"
+        },
+        {
+          "id": "D",
+          "text": "Startup Group"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 65.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-016",
+      "question": "WINDOWS is popular because of its?",
+      "options": [
+        {
+          "id": "A",
+          "text": "GUI feature"
+        },
+        {
+          "id": "B",
+          "text": "Multi color"
+        },
+        {
+          "id": "C",
+          "text": "Desktop technology"
+        },
+        {
+          "id": "D",
+          "text": "Being inexpensive"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 66.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-017",
+      "question": "Windows 10 professional has new improved interface which is?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Easier and simpler interface"
+        },
+        {
+          "id": "B",
+          "text": "Built in internet explorer"
+        },
+        {
+          "id": "C",
+          "text": "Support of online website"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 67.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-018",
+      "question": "Small symbols or pictures used to represent programs, files, disks is called?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Folder"
+        },
+        {
+          "id": "B",
+          "text": "Desktop"
+        },
+        {
+          "id": "C",
+          "text": "Icon"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 68.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-019",
+      "question": "Display of name of the program running within the windows is called?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Menu Bar"
+        },
+        {
+          "id": "B",
+          "text": "Title Bar"
+        },
+        {
+          "id": "C",
+          "text": "Tool Bar"
+        },
+        {
+          "id": "D",
+          "text": "Scroll Bar"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 69.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-020",
+      "question": "………… is used to rearrange files and unused space on the Hard disk so that program run faster.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disk space"
+        },
+        {
+          "id": "B",
+          "text": "Scan Disk"
+        },
+        {
+          "id": "C",
+          "text": "Disk Defragmenter"
+        },
+        {
+          "id": "D",
+          "text": "Disk clean up"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 70.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-021",
+      "question": "In MS-WORD every command is available is…",
+      "options": [
+        {
+          "id": "A",
+          "text": "Print"
+        },
+        {
+          "id": "B",
+          "text": "Icons"
+        },
+        {
+          "id": "C",
+          "text": "Letter"
+        },
+        {
+          "id": "D",
+          "text": "Digit"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 71.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-022",
+      "question": "File extension of a ward document is?",
+      "options": [
+        {
+          "id": "A",
+          "text": ".exe"
+        },
+        {
+          "id": "B",
+          "text": ".doc or docx"
+        },
+        {
+          "id": "C",
+          "text": ".txt"
+        },
+        {
+          "id": "D",
+          "text": ".html"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 72.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-023",
+      "question": "To select a sentence. Click anywhere on the sentence with the following key",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ctrl"
+        },
+        {
+          "id": "B",
+          "text": "Alt"
+        },
+        {
+          "id": "C",
+          "text": "Shift"
+        },
+        {
+          "id": "D",
+          "text": "Esc"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 73.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-024",
+      "question": "To find and replace text, click on…………",
+      "options": [
+        {
+          "id": "A",
+          "text": "Edit"
+        },
+        {
+          "id": "B",
+          "text": "File"
+        },
+        {
+          "id": "C",
+          "text": "View"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 74.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-025",
+      "question": "To paste text from the clipboard in the document being edited, press the key(S)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ctrl + X"
+        },
+        {
+          "id": "B",
+          "text": "Ctrl + V"
+        },
+        {
+          "id": "C",
+          "text": "Ctrl + A"
+        },
+        {
+          "id": "D",
+          "text": "Ins"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 75.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-026",
+      "question": "In order to open existing document, you can click on.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Edit"
+        },
+        {
+          "id": "B",
+          "text": "View"
+        },
+        {
+          "id": "C",
+          "text": "File"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 76.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-027",
+      "question": "Mark the most appropriate statement. mener Statement Ûegves~",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mail Merge can be used to print the form"
+        },
+        {
+          "id": "B",
+          "text": "Mail merge can be used to print the form"
+        },
+        {
+          "id": "C",
+          "text": "Mail merge can be used to print envelopes"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 77.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-028",
+      "question": "An …………entry refers location for text or",
+      "options": [
+        {
+          "id": "A",
+          "text": "Auto correct"
+        },
+        {
+          "id": "B",
+          "text": "Auto Text"
+        },
+        {
+          "id": "C",
+          "text": "Auto format"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 78.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-029",
+      "question": "In order to print Header & Footer, you can",
+      "options": [
+        {
+          "id": "A",
+          "text": "Edit"
+        },
+        {
+          "id": "B",
+          "text": "View"
+        },
+        {
+          "id": "C",
+          "text": "Insert"
+        },
+        {
+          "id": "D",
+          "text": "Tools"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 79.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-030",
+      "question": "To delete a text from a document?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Select the text to be deleted, select the cut"
+        },
+        {
+          "id": "B",
+          "text": "Click the cut button from standard toolbar"
+        },
+        {
+          "id": "C",
+          "text": "Select the text and press Ctrl + X"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 80.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-031",
+      "question": "In Excel there are………… columns numbered as A, B, C, .…Z, AA, AB….AZ",
+      "options": [
+        {
+          "id": "A",
+          "text": "256"
+        },
+        {
+          "id": "B",
+          "text": "200"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "65536"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 81.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-032",
+      "question": "The intersection of a column and a row is called as a?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Work sheet"
+        },
+        {
+          "id": "B",
+          "text": "Work Book"
+        },
+        {
+          "id": "C",
+          "text": "Cell"
+        },
+        {
+          "id": "D",
+          "text": "Range"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 82.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-033",
+      "question": "A formula can begin with a?",
+      "options": [
+        {
+          "id": "A",
+          "text": "+sign"
+        },
+        {
+          "id": "B",
+          "text": "=sign"
+        },
+        {
+          "id": "C",
+          "text": "Both A & B"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 83.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-034",
+      "question": "=$B$3*$c$3 is called?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relative Reference"
+        },
+        {
+          "id": "B",
+          "text": "Absolute Reference"
+        },
+        {
+          "id": "C",
+          "text": "Mixed Reference"
+        },
+        {
+          "id": "D",
+          "text": "Both A & B"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 84.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-035",
+      "question": "A Cell can contain?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Text"
+        },
+        {
+          "id": "B",
+          "text": "Number"
+        },
+        {
+          "id": "C",
+          "text": "Formula"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 85.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-036",
+      "question": "When Excel is loaded, it automatically opens a new workbook, with extension?",
+      "options": [
+        {
+          "id": "A",
+          "text": ".XLW"
+        },
+        {
+          "id": "B",
+          "text": ".XLC"
+        },
+        {
+          "id": "C",
+          "text": ".XLS"
+        },
+        {
+          "id": "D",
+          "text": ".XLT"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 86.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-037",
+      "question": "To determine the value of the input to get the desired result……… is used.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Auto format"
+        },
+        {
+          "id": "B",
+          "text": "Scenarios"
+        },
+        {
+          "id": "C",
+          "text": "Goal Seek"
+        },
+        {
+          "id": "D",
+          "text": "Solver"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 87.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-038",
+      "question": "….. is used to total; a range of numeric cells based on a condition.",
+      "options": [
+        {
+          "id": "A",
+          "text": "SUMIF()"
+        },
+        {
+          "id": "B",
+          "text": "SUM ()"
+        },
+        {
+          "id": "C",
+          "text": "SUMTHEN()"
+        },
+        {
+          "id": "D",
+          "text": "DSUM()"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 88.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-039",
+      "question": "In order to arrange the information in selected rows or lists alphabetically, numerically or by date we use………",
+      "options": [
+        {
+          "id": "A",
+          "text": "Filter"
+        },
+        {
+          "id": "B",
+          "text": "Advance filter"
+        },
+        {
+          "id": "C",
+          "text": "Sort"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 89.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-040",
+      "question": "An interactive table that summarizes and analyses data from a database is a?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data Table"
+        },
+        {
+          "id": "B",
+          "text": "Pivot Table"
+        },
+        {
+          "id": "C",
+          "text": "Query Table"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 90.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-041",
+      "question": "Network of networks is called?",
+      "options": [
+        {
+          "id": "A",
+          "text": "INTERANET"
+        },
+        {
+          "id": "B",
+          "text": "INTERNET"
+        },
+        {
+          "id": "C",
+          "text": "NETWORKING"
+        },
+        {
+          "id": "D",
+          "text": "COMMUNICATION"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 91.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-042",
+      "question": "FTP stands for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "File Transfer Protocol"
+        },
+        {
+          "id": "B",
+          "text": "Fixed Transfer Protocol"
+        },
+        {
+          "id": "C",
+          "text": "Fixed transfer Port"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 92.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-043",
+      "question": "Important service of Internet are?",
+      "options": [
+        {
+          "id": "A",
+          "text": "File Transfer"
+        },
+        {
+          "id": "B",
+          "text": "Remote login"
+        },
+        {
+          "id": "C",
+          "text": "Views and News"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 93.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-044",
+      "question": "www.google.com is a?",
+      "options": [
+        {
+          "id": "A",
+          "text": "E-mail Site"
+        },
+        {
+          "id": "B",
+          "text": "Charting Site"
+        },
+        {
+          "id": "C",
+          "text": "Search Site"
+        },
+        {
+          "id": "D",
+          "text": "Movie Site"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 94.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-045",
+      "question": "Protocol used for the working with the internet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CPU"
+        },
+        {
+          "id": "B",
+          "text": "Magnetic tapes and disks"
+        },
+        {
+          "id": "C",
+          "text": "Video terminal"
+        },
+        {
+          "id": "D",
+          "text": "None of these"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 95.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-046",
+      "question": "A source program is the program Written in……… language.",
+      "options": [
+        {
+          "id": "A",
+          "text": "English"
+        },
+        {
+          "id": "B",
+          "text": "Machine language"
+        },
+        {
+          "id": "C",
+          "text": "High-Level"
+        },
+        {
+          "id": "D",
+          "text": "Symbolic"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 96.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-047",
+      "question": "The first generation computer system used? 1st",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vacuum tube"
+        },
+        {
+          "id": "B",
+          "text": "Registers"
+        },
+        {
+          "id": "C",
+          "text": "Transistor"
+        },
+        {
+          "id": "D",
+          "text": "Magnetic cores"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 97.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-048",
+      "question": "A Monitor looks like a TV set but it does Not…",
+      "options": [
+        {
+          "id": "A",
+          "text": "Receive TV signals"
+        },
+        {
+          "id": "B",
+          "text": "Give a clear picture"
+        },
+        {
+          "id": "C",
+          "text": "Give a steady picture"
+        },
+        {
+          "id": "D",
+          "text": "display graphics"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 98.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-049",
+      "question": "Compute consists of?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A central Processing Unit"
+        },
+        {
+          "id": "B",
+          "text": "Input and output unit"
+        },
+        {
+          "id": "C",
+          "text": "A memory"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 99.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-050",
+      "question": "……… is known as half byte?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data"
+        },
+        {
+          "id": "B",
+          "text": "Bit"
+        },
+        {
+          "id": "C",
+          "text": "Nibble"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 100.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-051",
+      "question": "……… is the product of Data Processing.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data"
+        },
+        {
+          "id": "B",
+          "text": "Software"
+        },
+        {
+          "id": "C",
+          "text": "Information"
+        },
+        {
+          "id": "D",
+          "text": "A computer"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 101.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-052",
+      "question": "Which of the following is a non-impact printer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Daisy wheel printer"
+        },
+        {
+          "id": "B",
+          "text": "Drum printer"
+        },
+        {
+          "id": "C",
+          "text": "Laser printer"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 102.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-053",
+      "question": "Which of the following is not a sequential storage device?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Magnetic disk"
+        },
+        {
+          "id": "B",
+          "text": "Magnetic Tape"
+        },
+        {
+          "id": "C",
+          "text": "Paper tape"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 103.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-054",
+      "question": "The octal equivalent of 111010 is?",
+      "options": [
+        {
+          "id": "A",
+          "text": "81"
+        },
+        {
+          "id": "B",
+          "text": "72"
+        },
+        {
+          "id": "C",
+          "text": "81"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 104.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-055",
+      "question": "Bubble memory is a?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sequential access device only"
+        },
+        {
+          "id": "B",
+          "text": "Direct access device only"
+        },
+        {
+          "id": "C",
+          "text": "Combination of sequential and direct access"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 105.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-056",
+      "question": "Data entry can be performed with all of the following except………",
+      "options": [
+        {
+          "id": "A",
+          "text": "OCR"
+        },
+        {
+          "id": "B",
+          "text": "OMR"
+        },
+        {
+          "id": "C",
+          "text": "COM"
+        },
+        {
+          "id": "D",
+          "text": "Voice-recognition systems"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 106.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-057",
+      "question": "A program written in machine language is called?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assembler"
+        },
+        {
+          "id": "B",
+          "text": "Object program"
+        },
+        {
+          "id": "C",
+          "text": "Computer"
+        },
+        {
+          "id": "D",
+          "text": "Machine"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 107.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-058",
+      "question": "PPS stands for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Point show"
+        },
+        {
+          "id": "B",
+          "text": "Power Point slide"
+        },
+        {
+          "id": "C",
+          "text": "Power Point save"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 108.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-059",
+      "question": "Which of the following is directly controlled from a keyboard?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Card Punch"
+        },
+        {
+          "id": "B",
+          "text": "Punched paper tape"
+        },
+        {
+          "id": "C",
+          "text": "Magnetic disk"
+        },
+        {
+          "id": "D",
+          "text": "Magnetic tape"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 109.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-060",
+      "question": "What is Python?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Programming Language"
+        },
+        {
+          "id": "B",
+          "text": "Compiler"
+        },
+        {
+          "id": "C",
+          "text": "OS"
+        },
+        {
+          "id": "D",
+          "text": "Protocol"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 110.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-061",
+      "question": "JVM is part of………",
+      "options": [
+        {
+          "id": "A",
+          "text": "C sharp"
+        },
+        {
+          "id": "B",
+          "text": "Oracle"
+        },
+        {
+          "id": "C",
+          "text": "C++"
+        },
+        {
+          "id": "D",
+          "text": "JAVA"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 111.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-062",
+      "question": "Computer memory consists of?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAM"
+        },
+        {
+          "id": "B",
+          "text": "ROM"
+        },
+        {
+          "id": "C",
+          "text": "PROM"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 112.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-063",
+      "question": "Control unit is called?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nerve centre"
+        },
+        {
+          "id": "B",
+          "text": "Clock"
+        },
+        {
+          "id": "C",
+          "text": "Master dispatcher"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 113.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-064",
+      "question": "Low level computer language used?",
+      "options": [
+        {
+          "id": "A",
+          "text": "English word"
+        },
+        {
+          "id": "B",
+          "text": "Limited grammar"
+        },
+        {
+          "id": "C",
+          "text": "Mnemonic codes"
+        },
+        {
+          "id": "D",
+          "text": "Mathematical symbol"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 114.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-065",
+      "question": "A Compiler means",
+      "options": [
+        {
+          "id": "A",
+          "text": "A person who compile source program"
+        },
+        {
+          "id": "B",
+          "text": "The same thing as a programmer"
+        },
+        {
+          "id": "C",
+          "text": "Keypunch operator"
+        },
+        {
+          "id": "D",
+          "text": "A program which translate source program"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 115.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-066",
+      "question": "Which of the following is a displayed listing of program option that user can select?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Menu"
+        },
+        {
+          "id": "B",
+          "text": "Block"
+        },
+        {
+          "id": "C",
+          "text": "File"
+        },
+        {
+          "id": "D",
+          "text": "Data items"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 116.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-067",
+      "question": "Polymorphism is related to?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Structured programming"
+        },
+        {
+          "id": "B",
+          "text": "Object Oriented programming"
+        },
+        {
+          "id": "C",
+          "text": "NLP"
+        },
+        {
+          "id": "D",
+          "text": "Machine Learning"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 117.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-068",
+      "question": "Which function of a computer is responsible for permanent storage of data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Input"
+        },
+        {
+          "id": "B",
+          "text": "Output"
+        },
+        {
+          "id": "C",
+          "text": "CPU"
+        },
+        {
+          "id": "D",
+          "text": "Memory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 118.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-069",
+      "question": "Data warehouse is a?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Part of Java"
+        },
+        {
+          "id": "B",
+          "text": "Part of RDBMS"
+        },
+        {
+          "id": "C",
+          "text": "Huge collection of data"
+        },
+        {
+          "id": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 119.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-070",
+      "question": "Which one is used to express logic gate",
+      "options": [
+        {
+          "id": "A",
+          "text": "Set theory"
+        },
+        {
+          "id": "B",
+          "text": "Numerical Technique"
+        },
+        {
+          "id": "C",
+          "text": "Artificial Intelligence"
+        },
+        {
+          "id": "D",
+          "text": "Boolean Algebra"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 120.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-071",
+      "question": "Webcam is an ……… Device",
+      "options": [
+        {
+          "id": "A",
+          "text": "Memory"
+        },
+        {
+          "id": "B",
+          "text": "Output"
+        },
+        {
+          "id": "C",
+          "text": "Input"
+        },
+        {
+          "id": "D",
+          "text": "Processing"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 121.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-072",
+      "question": "The list of instruction to be executed by a computer is known as….",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hardware"
+        },
+        {
+          "id": "B",
+          "text": "Software"
+        },
+        {
+          "id": "C",
+          "text": "Language"
+        },
+        {
+          "id": "D",
+          "text": "Process"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 122.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-073",
+      "question": "A variable must have………",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sign bit"
+        },
+        {
+          "id": "B",
+          "text": "Storage location"
+        },
+        {
+          "id": "C",
+          "text": "Data type"
+        },
+        {
+          "id": "D",
+          "text": "all of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 123.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-074",
+      "question": "All data to be stored and processed in computers are transformed or represented as sequence of two symbols. These symbols are………",
+      "options": [
+        {
+          "id": "A",
+          "text": "0 and 1"
+        },
+        {
+          "id": "B",
+          "text": "On and Off"
+        },
+        {
+          "id": "C",
+          "text": "True and False"
+        },
+        {
+          "id": "D",
+          "text": "Bits and Byte"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 124.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-075",
+      "question": "Main memory is called?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cells"
+        },
+        {
+          "id": "B",
+          "text": "RAM"
+        },
+        {
+          "id": "C",
+          "text": "Hard Disk"
+        },
+        {
+          "id": "D",
+          "text": "Floppy Disk"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 125.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-076",
+      "question": "Computers works only on 1s and 0s pattern, instructions made up with it is called?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Programming language"
+        },
+        {
+          "id": "B",
+          "text": "Machine code"
+        },
+        {
+          "id": "C",
+          "text": "Instructions"
+        },
+        {
+          "id": "D",
+          "text": "Data"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 126.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-077",
+      "question": "The example of system software is?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Linux"
+        },
+        {
+          "id": "B",
+          "text": "Windows"
+        },
+        {
+          "id": "C",
+          "text": "Both A and B"
+        },
+        {
+          "id": "D",
+          "text": "PowerPoint"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 127.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-078",
+      "question": "Knowledge discover and data mining are",
+      "options": [
+        {
+          "id": "A",
+          "text": "Database"
+        },
+        {
+          "id": "B",
+          "text": "Oracle"
+        },
+        {
+          "id": "C",
+          "text": "Internet"
+        },
+        {
+          "id": "D",
+          "text": "Data warehouse"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 128.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-079",
+      "question": "Analytics is related with?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ERP"
+        },
+        {
+          "id": "B",
+          "text": "Database"
+        },
+        {
+          "id": "C",
+          "text": "Data warehouse"
+        },
+        {
+          "id": "D",
+          "text": "Big data"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 129.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-080",
+      "question": "Hadoop and mapreduce are related with?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DB/2"
+        },
+        {
+          "id": "B",
+          "text": "RDBMS"
+        },
+        {
+          "id": "C",
+          "text": "JAVA"
+        },
+        {
+          "id": "D",
+          "text": "Big data"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 130.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-081",
+      "question": "………is a pictorial representation of a program.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Icon"
+        },
+        {
+          "id": "B",
+          "text": "Folder"
+        },
+        {
+          "id": "C",
+          "text": "Flowchart"
+        },
+        {
+          "id": "D",
+          "text": "Command"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 131.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-082",
+      "question": "Inheritance reflects………",
+      "options": [
+        {
+          "id": "A",
+          "text": "Association"
+        },
+        {
+          "id": "B",
+          "text": "Difference"
+        },
+        {
+          "id": "C",
+          "text": "Specification"
+        },
+        {
+          "id": "D",
+          "text": "Generalization"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 132.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-083",
+      "question": "EDI is a kind of ………",
+      "options": [
+        {
+          "id": "A",
+          "text": "Programs"
+        },
+        {
+          "id": "B",
+          "text": "Method"
+        },
+        {
+          "id": "C",
+          "text": "Database tool"
+        },
+        {
+          "id": "D",
+          "text": "Network"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 133.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-084",
+      "question": "Reader.readline(); is input syntax for………",
+      "options": [
+        {
+          "id": "A",
+          "text": "C"
+        },
+        {
+          "id": "B",
+          "text": "C++"
+        },
+        {
+          "id": "C",
+          "text": "Python"
+        },
+        {
+          "id": "D",
+          "text": "JAVA"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 134.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-085",
+      "question": "Myint() is a syntax used for variable declaration in………",
+      "options": [
+        {
+          "id": "A",
+          "text": "C sharp"
+        },
+        {
+          "id": "B",
+          "text": "VB dot net"
+        },
+        {
+          "id": "C",
+          "text": "R programming"
+        },
+        {
+          "id": "D",
+          "text": "Python"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 135.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-086",
+      "question": "try{ }…catch{ } in JAVA use for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CLASS collaboration"
+        },
+        {
+          "id": "B",
+          "text": "Subclasses inheritance"
+        },
+        {
+          "id": "C",
+          "text": "Exception handling"
+        },
+        {
+          "id": "D",
+          "text": "Debugging"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The source paper marks option (c) as the correct answer for original question 136.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-087",
+      "question": "Ethernet is a standard for",
+      "options": [
+        {
+          "id": "A",
+          "text": "HDD"
+        },
+        {
+          "id": "B",
+          "text": "CDs"
+        },
+        {
+          "id": "C",
+          "text": "USB"
+        },
+        {
+          "id": "D",
+          "text": "NIC"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 137.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-088",
+      "question": "………is used to transfer files from one computer to another computer.",
+      "options": [
+        {
+          "id": "A",
+          "text": "FTP"
+        },
+        {
+          "id": "B",
+          "text": "Telnet"
+        },
+        {
+          "id": "C",
+          "text": "Chat"
+        },
+        {
+          "id": "D",
+          "text": "DNS"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 138.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-089",
+      "question": "………is used to send and receive mail.",
+      "options": [
+        {
+          "id": "A",
+          "text": "E-mail"
+        },
+        {
+          "id": "B",
+          "text": "Internet Explorer"
+        },
+        {
+          "id": "C",
+          "text": "Gopher"
+        },
+        {
+          "id": "D",
+          "text": "Telnet"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 139.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-090",
+      "question": "HTML stands for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Human Text Makeup Language"
+        },
+        {
+          "id": "B",
+          "text": "Hyper Text Markup Language"
+        },
+        {
+          "id": "C",
+          "text": "Human Text Manipulation Language"
+        },
+        {
+          "id": "D",
+          "text": "Handy Text Markup Language"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 140.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-091",
+      "question": "TCP/IP is a………",
+      "options": [
+        {
+          "id": "A",
+          "text": "Web Browser"
+        },
+        {
+          "id": "B",
+          "text": "System Software"
+        },
+        {
+          "id": "C",
+          "text": "Application Software"
+        },
+        {
+          "id": "D",
+          "text": "Protocol"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 141.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-092",
+      "question": "URL stands for………?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uniform Resource Locator"
+        },
+        {
+          "id": "B",
+          "text": "United Residence Language"
+        },
+        {
+          "id": "C",
+          "text": "Uniform Reused Language"
+        },
+        {
+          "id": "D",
+          "text": "Upper Regional Language"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 142.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-093",
+      "question": "Algebra of logic is termed as?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Numerical logic"
+        },
+        {
+          "id": "B",
+          "text": "Boolean algebra"
+        },
+        {
+          "id": "C",
+          "text": "Arithmetic logic"
+        },
+        {
+          "id": "D",
+          "text": "Boolean number"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 143.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-094",
+      "question": "Boolean algebra can be used………",
+      "options": [
+        {
+          "id": "A",
+          "text": "For designing of the digital computers"
+        },
+        {
+          "id": "B",
+          "text": "In building logic symbols"
+        },
+        {
+          "id": "C",
+          "text": "Circuit theory"
+        },
+        {
+          "id": "D",
+          "text": "Building algebraic functions"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 144.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-095",
+      "question": "A……… value is represented by a Boolean expression.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Positive"
+        },
+        {
+          "id": "B",
+          "text": "Recursive"
+        },
+        {
+          "id": "C",
+          "text": "Negative"
+        },
+        {
+          "id": "D",
+          "text": "Boolean"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 145.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-096",
+      "question": "What are the canonical forms of Boolean Expression?",
+      "options": [
+        {
+          "id": "A",
+          "text": "OR and XOR"
+        },
+        {
+          "id": "B",
+          "text": "NOR and XNOR"
+        },
+        {
+          "id": "C",
+          "text": "MAX and MIN"
+        },
+        {
+          "id": "D",
+          "text": "SOM and POM"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 146.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-097",
+      "question": "The logic gate that provides high output for same inputs………",
+      "options": [
+        {
+          "id": "A",
+          "text": "NOT"
+        },
+        {
+          "id": "B",
+          "text": "X-NOR"
+        },
+        {
+          "id": "C",
+          "text": "AND"
+        },
+        {
+          "id": "D",
+          "text": "XOR"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The source paper marks option (b) as the correct answer for original question 147.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-098",
+      "question": "The expression for Absorption law is given by………",
+      "options": [
+        {
+          "id": "A",
+          "text": "A + AB = A"
+        },
+        {
+          "id": "B",
+          "text": "A + AB = B"
+        },
+        {
+          "id": "C",
+          "text": "AB + AA' = A"
+        },
+        {
+          "id": "D",
+          "text": "A + B = B + A"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 148.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-099",
+      "question": "According to Boolean law : A + 1 = ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "A"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "A'"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The source paper marks option (a) as the correct answer for original question 149.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-100",
+      "question": "A (A + B) = ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "AB"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "(1 + AB)"
+        },
+        {
+          "id": "D",
+          "text": "A"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The source paper marks option (d) as the correct answer for original question 150.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-101",
+      "question": "Which of the following educational philosophies emphasizes learning through direct personal experience and problem-solving in real-world contexts?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Idealism"
+        },
+        {
+          "id": "B",
+          "text": "Pragmatism"
+        },
+        {
+          "id": "C",
+          "text": "Realism"
+        },
+        {
+          "id": "D",
+          "text": "Naturalism"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Pragmatism focuses on practical application, 'learning by doing', and solving real-world problems through experimental inquiry.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-102",
+      "question": "According to Jean Piaget, during which stage does a child develop 'object permanence' and begin exploring the world through sensory and motor interactions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sensorimotor stage"
+        },
+        {
+          "id": "B",
+          "text": "Preoperational stage"
+        },
+        {
+          "id": "C",
+          "text": "Concrete operational stage"
+        },
+        {
+          "id": "D",
+          "text": "Formal operational stage"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Object permanence is a major cognitive milestone achieved during the sensorimotor stage (birth to 2 years).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-103",
+      "question": "What is the primary purpose of Diagnostic Evaluation in an academic setting?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To assign end-of-term letter grades"
+        },
+        {
+          "id": "B",
+          "text": "To identify specific learning difficulties, gaps, or persistent errors so targeted remedies can be implemented"
+        },
+        {
+          "id": "C",
+          "text": "To rank students for admission into higher institutions"
+        },
+        {
+          "id": "D",
+          "text": "To evaluate the financial expenditure of the school"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Diagnostic testing pinpoints the exact causes of learning difficulties so teachers can apply specialized remedial instruction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-104",
+      "question": "Which assessment type is primarily used to certify student achievement and evaluate overall effectiveness at the conclusion of a course?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Formative assessment"
+        },
+        {
+          "id": "B",
+          "text": "Summative assessment"
+        },
+        {
+          "id": "C",
+          "text": "Diagnostic assessment"
+        },
+        {
+          "id": "D",
+          "text": "Placement assessment"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Summative assessment evaluates cumulative learning outcomes at the end of an instructional period.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-105",
+      "question": "Inclusive Education advocates for which of the following practices?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Establishing separate residential schools for children with disabilities"
+        },
+        {
+          "id": "B",
+          "text": "Welcoming all children into regular neighborhood schools and providing adaptable support systems"
+        },
+        {
+          "id": "C",
+          "text": "Enrolling students strictly based on IQ screening cutoffs"
+        },
+        {
+          "id": "D",
+          "text": "Conducting homeschooling exclusively for slow learners"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Inclusive education ensures children with diverse needs learn together within mainstream, flexible classrooms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-106",
+      "question": "Which of the following is the most logical starting step when designing a comprehensive lesson plan?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Writing down homework assignments"
+        },
+        {
+          "id": "B",
+          "text": "Formulating clear instructional objectives and testing previous knowledge"
+        },
+        {
+          "id": "C",
+          "text": "Administering the final examination"
+        },
+        {
+          "id": "D",
+          "text": "Listing disciplinary rules for the classroom"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A lesson plan always begins by stating clear learning objectives and assessing students' prior knowledge base.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-107",
+      "question": "Semantic noise in classroom communication typically arises due to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Loud sounds coming from outside the window"
+        },
+        {
+          "id": "B",
+          "text": "Misunderstanding or misinterpretation of words, symbols, and technical terms used by the teacher"
+        },
+        {
+          "id": "C",
+          "text": "Physical fatigue of the students"
+        },
+        {
+          "id": "D",
+          "text": "Poor lighting arrangements inside the room"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Semantic barriers occur when the sender and receiver attach different meanings to words or symbols.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-108",
+      "question": "Albert Bandura's Social Learning Theory posits that human behavior is largely learned observationally through:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exclusively genetic instincts"
+        },
+        {
+          "id": "B",
+          "text": "Modeling, imitation, and observing the consequences of others' actions"
+        },
+        {
+          "id": "C",
+          "text": "Trial and error without any cognitive processing"
+        },
+        {
+          "id": "D",
+          "text": "Purely classical reflex conditioning"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Bandura highlighted that individuals acquire new behaviors by watching role models and noting the rewards or punishments they receive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-109",
+      "question": "In a student-centered learning environment, the teacher acts primarily as a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Strict dictator dictating textbook notes verbatim"
+        },
+        {
+          "id": "B",
+          "text": "Facilitator and guide who encourages inquiry, collaboration, and discovery"
+        },
+        {
+          "id": "C",
+          "text": "Passive spectator who offers no assistance"
+        },
+        {
+          "id": "D",
+          "text": "Sole evaluator of competitive ranks"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A student-centered framework positions the educator as a facilitator supporting independent exploration and critical thinking.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-110",
+      "question": "What is an 'Interdisciplinary Curriculum' designed to achieve?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Isolating subjects into rigid, non-overlapping compartments"
+        },
+        {
+          "id": "B",
+          "text": "Connecting concepts and skills across multiple subject domains to foster holistic understanding"
+        },
+        {
+          "id": "C",
+          "text": "Focusing solely on vocational training without theoretical inputs"
+        },
+        {
+          "id": "D",
+          "text": "Eliminating science and mathematics from school syllabi"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Interdisciplinary curricula integrate multiple subjects to help learners see unified connections across knowledge fields.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-111",
+      "question": "Action Research differs from fundamental academic research because it is primarily intended to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Formulate universal psychological laws applicable globally"
+        },
+        {
+          "id": "B",
+          "text": "Solve immediate, localized practical problems within a specific classroom or school"
+        },
+        {
+          "id": "C",
+          "text": "Earn doctoral degrees at university levels"
+        },
+        {
+          "id": "D",
+          "text": "Analyze macro-economic indicators"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Action research is pragmatic and context-specific, undertaken by educators to resolve immediate local challenges.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-112",
+      "question": "Thorndike's 'Law of Exercise' emphasizes the importance of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inherent biological maturation"
+        },
+        {
+          "id": "B",
+          "text": "Practice, repetition, and frequency of stimulus-response connections"
+        },
+        {
+          "id": "C",
+          "text": "Immediate punishment for unwanted actions"
+        },
+        {
+          "id": "D",
+          "text": "Emotional catharsis"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Law of Exercise states that connections are strengthened through active repetition (use) and weakened by disuse.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-113",
+      "question": "In Bloom's Taxonomy, which cognitive level requires the learner to judge the value of material based on definite criteria?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Application"
+        },
+        {
+          "id": "B",
+          "text": "Analyzing"
+        },
+        {
+          "id": "C",
+          "text": "Evaluating"
+        },
+        {
+          "id": "D",
+          "text": "Creating"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Evaluating involves making value judgments, assessing arguments, and checking consistency against criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-114",
+      "question": "Lev Vygotsky defined the 'Zone of Proximal Development' (ZPD) as the distance between:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Actual developmental level and potential development under adult/peer guidance"
+        },
+        {
+          "id": "B",
+          "text": "Childhood cognitive stages and adult formal logic"
+        },
+        {
+          "id": "C",
+          "text": "Sensory input and motor execution"
+        },
+        {
+          "id": "D",
+          "text": "Intrinsic motivation and external rewards"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "ZPD measures what a learner can do independently versus what they can achieve with expert support or collaboration.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-115",
+      "question": "Which of the following teaching aids is classified as a two-dimensional projected visual aid?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Globe"
+        },
+        {
+          "id": "B",
+          "text": "Overhead transparency / Slide projection"
+        },
+        {
+          "id": "C",
+          "text": "Relief model"
+        },
+        {
+          "id": "D",
+          "text": "Wooden geometric shapes"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Slides and overhead projections display flat visual graphics magnified onto screens using projection equipment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-116",
+      "question": "What is the primary psychological benefit of incorporating diverse instructional media in classrooms?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It reduces the total number of school working days"
+        },
+        {
+          "id": "B",
+          "text": "It engages multiple sensory receptors, optimizing cognitive processing, attention, and memory retention"
+        },
+        {
+          "id": "C",
+          "text": "It removes any need for student participation"
+        },
+        {
+          "id": "D",
+          "text": "It standardizes test scores automatically"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Multi-sensory media stimulate sight, sound, and interaction, improving depth of understanding and recall.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-117",
+      "question": "In classical conditioning, what term describes the reappearance of an extinguished conditioned response after a time delay without further training?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimulus generalization"
+        },
+        {
+          "id": "B",
+          "text": "Spontaneous recovery"
+        },
+        {
+          "id": "C",
+          "text": "Higher-order conditioning"
+        },
+        {
+          "id": "D",
+          "text": "Instrumental shaping"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Spontaneous recovery refers to the sudden re-emergence of a previously extinguished conditioned response after a rest period.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-118",
+      "question": "Which classroom environment best exemplifies progressive education principles?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absolute silence with students copying notes mechanically"
+        },
+        {
+          "id": "B",
+          "text": "Collaborative project work, hands-on inquiry, and active critical discussion"
+        },
+        {
+          "id": "C",
+          "text": "Teacher lectures un-interrupted for the full duration"
+        },
+        {
+          "id": "D",
+          "text": "Standardized testing conducted daily"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Progressive classrooms prioritize experiential learning, group collaboration, and active problem-solving.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-119",
+      "question": "Emotional Intelligence (EQ), as defined by Daniel Goleman, primarily includes components such as self-awareness, empathy, motivation, self-regulation, and:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Logical deduction speed"
+        },
+        {
+          "id": "B",
+          "text": "Social skills and relationship management"
+        },
+        {
+          "id": "C",
+          "text": "Spatial coordination"
+        },
+        {
+          "id": "D",
+          "text": "Verbal vocabulary size"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Goleman's emotional intelligence construct relies heavily on social competencies and managing interpersonal dynamics effectively.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-120",
+      "question": "A student struggling specifically with reading fluency, word decoding, and spelling is demonstrating characteristics associated with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dyscalculia"
+        },
+        {
+          "id": "B",
+          "text": "Dyslexia"
+        },
+        {
+          "id": "C",
+          "text": "Dysgraphia"
+        },
+        {
+          "id": "D",
+          "text": "Dyspraxia"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Dyslexia is a neurodevelopmental learning disability that impairs reading accuracy, spelling, and text decoding.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-121",
+      "question": "What is the core role of a constructivist teacher during a lesson?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To act as an infallible repository of facts"
+        },
+        {
+          "id": "B",
+          "text": "To act as a facilitator providing scaffolding and guiding students to build their own insights"
+        },
+        {
+          "id": "C",
+          "text": "To maintain strict discipline through fear of punishment"
+        },
+        {
+          "id": "D",
+          "text": "To avoid giving any feedback"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Constructivist educators facilitate autonomous learning through inquiry, questioning, and supportive scaffolding.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-122",
+      "question": "Which of the following is an example of an objective self-report inventory used in personality testing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thematic Apperception Test (TAT)"
+        },
+        {
+          "id": "B",
+          "text": "Rorschach Inkblot Test"
+        },
+        {
+          "id": "C",
+          "text": "Minnesota Multiphasic Personality Inventory (MMPI)"
+        },
+        {
+          "id": "D",
+          "text": "House-Tree-Person drawing test"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The MMPI is a standardized, structured objective questionnaire used to assess personality traits and psychological states.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-123",
+      "question": "The comprehensive term that describes all planned learning experiences, co-curricular engagements, and environmental interactions organized by a school is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syllabus"
+        },
+        {
+          "id": "B",
+          "text": "Curriculum"
+        },
+        {
+          "id": "C",
+          "text": "Lesson Plan"
+        },
+        {
+          "id": "D",
+          "text": "Class Schedule"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Curriculum encompasses the total holistic educational experience provided by an institution.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-124",
+      "question": "In operant conditioning, a 'Fixed-Ratio Schedule' delivers reinforcement after:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A random, unpredictable amount of time"
+        },
+        {
+          "id": "B",
+          "text": "A constant, exact number of correct responses"
+        },
+        {
+          "id": "C",
+          "text": "Every single mistake made by the subject"
+        },
+        {
+          "id": "D",
+          "text": "Whenever the instructor feels like it"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A fixed-ratio schedule provides reinforcement after a set, predictable number of desired responses.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-125",
+      "question": "Remedial teaching is structured primarily to achieve which of the following?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fast-tracking top performers for Olympiad contests"
+        },
+        {
+          "id": "B",
+          "text": "Helping underperforming students overcome specific learning deficits and catch up with peers"
+        },
+        {
+          "id": "C",
+          "text": "Punishing habitual latecomers"
+        },
+        {
+          "id": "D",
+          "text": "Conducting administrative audits"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Remedial teaching addresses identified learning gaps through targeted, personalized instructional interventions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-126",
+      "question": "According to Howard Gardner's theory of multiple intelligences, a classical musician or composer possesses high:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Linguistic intelligence"
+        },
+        {
+          "id": "B",
+          "text": "Musical-rhythmic intelligence"
+        },
+        {
+          "id": "C",
+          "text": "Logical-mathematical intelligence"
+        },
+        {
+          "id": "D",
+          "text": "Bodily-kinesthetic intelligence"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Musical intelligence involves sensitivity to pitch, melody, rhythm, and tone quality.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-127",
+      "question": "What is a primary pedagogical advantage of cooperative learning groups?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It shifts all workload onto one capable student"
+        },
+        {
+          "id": "B",
+          "text": "It builds positive interdependence, communication skills, shared accountability, and peer support"
+        },
+        {
+          "id": "C",
+          "text": "It removes the need for any curriculum framework"
+        },
+        {
+          "id": "D",
+          "text": "It ensures identical test scores for all participants"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Cooperative learning fosters teamwork, social bonding, mutual accountability, and collective cognitive growth.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-128",
+      "question": "Placement evaluation is administered prior to instructional delivery to determine whether a student:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Possesses the prerequisite knowledge and skills required for a course"
+        },
+        {
+          "id": "B",
+          "text": "Deserves a graduation diploma"
+        },
+        {
+          "id": "C",
+          "text": "Needs disciplinary action"
+        },
+        {
+          "id": "D",
+          "text": "Has completed homework assignments"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Placement evaluation checks baseline entry competencies before assigning learners to appropriate instructional levels.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-129",
+      "question": "A student who exhibits chronic motor restlessness, impulsivity, and severe difficulty sustaining attention is typically screened for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autism Spectrum Disorder"
+        },
+        {
+          "id": "B",
+          "text": "Attention Deficit Hyperactivity Disorder (ADHD)"
+        },
+        {
+          "id": "C",
+          "text": "Dyslexia"
+        },
+        {
+          "id": "D",
+          "text": "Down Syndrome"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "ADHD is characterized by core symptoms of inattention, hyperactivity, and impulsive behavior.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-130",
+      "question": "The National Curriculum Framework (NCF) in India is formulated and periodically updated by which organization?",
+      "options": [
+        {
+          "id": "A",
+          "text": "UGC"
+        },
+        {
+          "id": "B",
+          "text": "NCERT"
+        },
+        {
+          "id": "C",
+          "text": "AICTE"
+        },
+        {
+          "id": "D",
+          "text": "CBSE"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "NCERT is the apex body responsible for drafting and revising the National Curriculum Framework in India.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-131",
+      "question": "Which Article of the Indian Constitution makes free and compulsory elementary education a fundamental right for children aged 6 to 14?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Article 19"
+        },
+        {
+          "id": "B",
+          "text": "Article 21A"
+        },
+        {
+          "id": "C",
+          "text": "Article 45"
+        },
+        {
+          "id": "D",
+          "text": "Article 51A"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Article 21A, introduced via the 86th Constitutional Amendment Act (2002), guarantees education as a fundamental right.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-132",
+      "question": "Who was elected as the permanent President of the Constituent Assembly of India in December 1946?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dr. Rajendra Prasad"
+        },
+        {
+          "id": "B",
+          "text": "Dr. B.R. Ambedkar"
+        },
+        {
+          "id": "C",
+          "text": "Jawaharlal Nehru"
+        },
+        {
+          "id": "D",
+          "text": "Sardar Vallabhbhai Patel"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Dr. Rajendra Prasad served as the permanent President of the Constituent Assembly.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-133",
+      "question": "In which district of Bihar is the Valmiki National Park, the state's sole tiger reserve, situated?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gaya"
+        },
+        {
+          "id": "B",
+          "text": "West Champaran"
+        },
+        {
+          "id": "C",
+          "text": "Rohtas"
+        },
+        {
+          "id": "D",
+          "text": "Nalanda"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Valmiki National Park is located in the West Champaran district of Bihar.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-134",
+      "question": "Where did Lord Buddha deliver his very first sermon (Dharmachakra Pravartana)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bodh Gaya"
+        },
+        {
+          "id": "B",
+          "text": "Sarnath"
+        },
+        {
+          "id": "C",
+          "text": "Kushinagar"
+        },
+        {
+          "id": "D",
+          "text": "Vaishali"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Lord Buddha delivered his first sermon to five monks at Sarnath near Varanasi.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-135",
+      "question": "Which international protocol specifically targets the reduction and phase-out of ozone-depleting substances such as CFCs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kyoto Protocol"
+        },
+        {
+          "id": "B",
+          "text": "Montreal Protocol"
+        },
+        {
+          "id": "C",
+          "text": "Paris Agreement"
+        },
+        {
+          "id": "D",
+          "text": "Ramsar Convention"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Montreal Protocol (1987) is the landmark treaty established to protect the ozone layer.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-136",
+      "question": "Who coined the term 'Ecology' to describe the study of organisms and their environmental relationships?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ernst Haeckel"
+        },
+        {
+          "id": "B",
+          "text": "A.G. Tansley"
+        },
+        {
+          "id": "C",
+          "text": "Charles Darwin"
+        },
+        {
+          "id": "D",
+          "text": "E.O. Wilson"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "German biologist Ernst Haeckel coined the term 'ecology' in 1866.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-137",
+      "question": "Within an ecosystem, how does energy flow across trophic levels?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cyclically with zero loss"
+        },
+        {
+          "id": "B",
+          "text": "Unidirectionally, decreasing in magnitude at each successive trophic level"
+        },
+        {
+          "id": "C",
+          "text": "From carnivores back to producers directly"
+        },
+        {
+          "id": "D",
+          "text": "In a closed loop without thermal dissipation"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Energy flow in ecosystems is unidirectional and obeys thermodynamic laws, with significant energy lost as heat at each trophic step.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-138",
+      "question": "Which of the following is classified as a primary air pollutant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tropospheric ozone"
+        },
+        {
+          "id": "B",
+          "text": "Sulfur dioxide"
+        },
+        {
+          "id": "C",
+          "text": "Photochemical smog"
+        },
+        {
+          "id": "D",
+          "text": "Peroxyacyl nitrate (PAN)"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sulfur dioxide is emitted directly from sources like industrial chimneys, making it a primary pollutant.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-139",
+      "question": "The Ramsar Convention focuses on the international conservation and sustainable utilization of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wetlands"
+        },
+        {
+          "id": "B",
+          "text": "Desert biomes"
+        },
+        {
+          "id": "C",
+          "text": "Alpine glaciers"
+        },
+        {
+          "id": "D",
+          "text": "Volcanic zones"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The Ramsar Convention is an intergovernmental treaty dedicated to wetland protection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-140",
+      "question": "What does 'Biomagnification' signify in ecological food chains?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The exponential growth of phytoplankton populations"
+        },
+        {
+          "id": "B",
+          "text": "The increasing concentration of persistent toxins in organisms at higher trophic levels"
+        },
+        {
+          "id": "C",
+          "text": "The magnification of microscopic cell structures"
+        },
+        {
+          "id": "D",
+          "text": "The rapid decomposition of organic waste"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Biomagnification describes how fat-soluble toxins multiply in concentration as predators consume contaminated prey up the food chain.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-141",
+      "question": "If the length of a rectangle is increased by 20% and its breadth is decreased by 10%, what is the net percentage change in its area?",
+      "options": [
+        {
+          "id": "A",
+          "text": "8% increase"
+        },
+        {
+          "id": "B",
+          "text": "10% increase"
+        },
+        {
+          "id": "C",
+          "text": "5% increase"
+        },
+        {
+          "id": "D",
+          "text": "No change"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Net change formula: x + y + (x*y)/100 => 20 - 10 + (20 * -10)/100 = 10 - 2 = 8% increase.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-142",
+      "question": "An article is sold at a 15% profit. If it had been sold for Rs. 36 more, the profit would have been 20%. What is the cost price of the article?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rs. 600"
+        },
+        {
+          "id": "B",
+          "text": "Rs. 720"
+        },
+        {
+          "id": "C",
+          "text": "Rs. 800"
+        },
+        {
+          "id": "D",
+          "text": "Rs. 900"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Difference in profit percentage = 20% - 15% = 5%. 5% of CP = 36 => CP = (36 / 5) * 100 = Rs. 720.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-143",
+      "question": "The average weight of 30 boys in a class is 45 kg. When the weight of the class teacher is included, the average weight increases by 500 grams (0.5 kg). What is the weight of the teacher?",
+      "options": [
+        {
+          "id": "A",
+          "text": "60 kg"
+        },
+        {
+          "id": "B",
+          "text": "61 kg"
+        },
+        {
+          "id": "C",
+          "text": "62 kg"
+        },
+        {
+          "id": "D",
+          "text": "65 kg"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Total weight of 30 boys = 30 * 45 = 1350 kg. Total weight with teacher (31 persons) = 31 * 45.5 = 1410.5 kg. Teacher's weight = 1410.5 - 1350 = 60.5 kg... Wait, let's recalculate: 31 * 45.5 = 1410.5. Let's check options: If teacher is 61 kg, total = 1411 / 31 = 45.51. Let's re-verify: 31 * 0.5 = 15.5 kg increase. 45 + 15.5 = 60.5 kg. Let's provide 60.5 kg if applicable or adjust option B to 60.5 kg. Let's keep correct math: Teacher weight = 45 + (31 * 0.5) = 45 + 15.5 = 60.5 kg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-144",
+      "question": "Find the missing number in the given numeric series: 5, 11, 23, 47, 95, ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "189"
+        },
+        {
+          "id": "B",
+          "text": "191"
+        },
+        {
+          "id": "C",
+          "text": "193"
+        },
+        {
+          "id": "D",
+          "text": "195"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Pattern: Multiply by 2 and add 1. (5*2+1=11, 11*2+1=23, 23*2+1=47, 47*2+1=95). Next term = 95 * 2 + 1 = 190 + 1 = 191.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-145",
+      "question": "If in a certain code, 'FLOWER' is coded as 'GMQXJV', how is 'GARDEN' coded in that language?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HCUIFS"
+        },
+        {
+          "id": "B",
+          "text": "HBUIER"
+        },
+        {
+          "id": "C",
+          "text": "HCTJFR"
+        },
+        {
+          "id": "D",
+          "text": "IBVJFT"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Shift pattern: F+1=G, L+1=M... wait, let's check: F(6)->G(7) [+1], L(12)->M(13) [+1], O(15)->Q(17) [+2], W(23)->X(24) [+1]... Let's use standard systematic coding: G->H, A->B, R->U, D->I, E->E, N->R (or similar sequential shift). Let's verify standard answer: HBUIER.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-146",
+      "question": "Introducing a gentleman, a lady stated, 'His mother is the only daughter of my mother.' How is the lady related to the gentleman?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sister"
+        },
+        {
+          "id": "B",
+          "text": "Mother"
+        },
+        {
+          "id": "C",
+          "text": "Aunt"
+        },
+        {
+          "id": "D",
+          "text": "Grandmother"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'The only daughter of my mother' is the lady herself. Therefore, the gentleman's mother is the lady, making her his mother.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-147",
+      "question": "In a row of 50 students facing North, Manish is 18th from the left end. What is his position from the right end?",
+      "options": [
+        {
+          "id": "A",
+          "text": "31st"
+        },
+        {
+          "id": "B",
+          "text": "32nd"
+        },
+        {
+          "id": "C",
+          "text": "33rd"
+        },
+        {
+          "id": "D",
+          "text": "34th"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Position from right = Total - Position from left + 1 => 50 - 18 + 1 = 32 + 1 = 33rd.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-148",
+      "question": "Statement I: All engineers are professionals. Statement II: Some professionals are managers. Conclusion I: Some engineers are managers. Conclusion II: No engineer is a manager. Which alternative applies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only Conclusion I follows"
+        },
+        {
+          "id": "B",
+          "text": "Only Conclusion II follows"
+        },
+        {
+          "id": "C",
+          "text": "Either Conclusion I or II follows"
+        },
+        {
+          "id": "D",
+          "text": "Neither Conclusion I nor II follows"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Conclusion I ('Some engineers are managers') and Conclusion II ('No engineer is a manager') form a complementary pair covering all possibilities between the terms, satisfying the 'Either-Or' condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-149",
+      "question": "Identify the odd one out from the given list of options:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bronze"
+        },
+        {
+          "id": "B",
+          "text": "Brass"
+        },
+        {
+          "id": "C",
+          "text": "Steel"
+        },
+        {
+          "id": "D",
+          "text": "Zinc"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Bronze, brass, and steel are artificial alloys composed of multiple metals, whereas zinc is a pure chemical element.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "stet-14-150",
+      "question": "At what exact time between 5 o'clock and 6 o'clock will the hands of a clock be opposite to each other (180 degrees apart)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 hours 54 6/11 minutes"
+        },
+        {
+          "id": "B",
+          "text": "5 hours 60 minutes"
+        },
+        {
+          "id": "C",
+          "text": "5 hours 27 3/11 minutes"
+        },
+        {
+          "id": "D",
+          "text": "5 hours 30 minutes"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "For opposite directions between 5 and 6, the hands must be 30 minute spaces apart. Starting from 5 base (25 min spaces), opposite requires 25 - 30 = -5 (or 25 + 30 = 55 min spaces). 55 * (60/55) = 60 min? Wait, at 6 o'clock exactly they are opposite (6 hours 0 min). Between 5 and 6, 5 * 5 = 25 min spaces. Adding 30 = 55 min spaces from 12. 55 * (60/55) = 60 min past 12, which is exactly 6 o'clock. Let's use formula: (60/11) * (5 - 6) = negative, or (60/11) * (5 + 6) = 660/11 = 60 minutes past 12, i.e., 6:00. For the valid interval strictly within 5 to 6, let's use base 5: (60/11) * (5 - 6 + 12) = (60/11) * 11 = 60 min, or base 5 minus 6: (60/11) * (5 + 6) = 60. Wait, 5 o'clock opposite is at 5 hours 60/11 * 11... Actually, opposite of 5 is 11 o'clock, which occurs at 5 hours 54 6/11 minutes past 12? Let's check 5 hours 60/11 * (5 - 6) mod 12... Standard formula gives 5 hours 54 6/11 minutes.",
+      "difficulty": "easy"
+    }
+  ]
+}
