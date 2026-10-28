@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "se-testing-001",
+    "question": "Verification primarily answers which question?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Are we building the product right?"
+      },
+      {
+        "id": "B",
+        "text": "Are we building the right product?"
+      },
+      {
+        "id": "C",
+        "text": "Will users accept the product?"
+      },
+      {
+        "id": "D",
+        "text": "Does the product meet market demand?"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Verification checks work products against specifications; it asks whether the product is being built correctly.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-002",
+    "question": "Validation primarily determines whether software",
+    "options": [
+      {
+        "id": "A",
+        "text": "conforms to coding standards only"
+      },
+      {
+        "id": "B",
+        "text": "matches each design document exactly"
+      },
+      {
+        "id": "C",
+        "text": "satisfies user needs and intended use"
+      },
+      {
+        "id": "D",
+        "text": "contains no defects of any kind"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Validation evaluates whether the developed software meets user needs and intended use.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-003",
+    "question": "Which activity is most clearly verification?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A user evaluates a release candidate against real workflows"
+      },
+      {
+        "id": "B",
+        "text": "A tester checks a requirements document for ambiguity"
+      },
+      {
+        "id": "C",
+        "text": "Customers try a beta version in their environment"
+      },
+      {
+        "id": "D",
+        "text": "An operator measures response time under peak load"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reviewing a requirements document for ambiguity is a static verification activity.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-004",
+    "question": "Which statement best distinguishes verification from validation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Verification is dynamic; validation is always static"
+      },
+      {
+        "id": "B",
+        "text": "Verification checks specified requirements; validation checks fitness for intended use"
+      },
+      {
+        "id": "C",
+        "text": "Verification is done only by developers; validation only by customers"
+      },
+      {
+        "id": "D",
+        "text": "Verification occurs after deployment; validation occurs before coding"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The distinction is about conformance to specifications versus suitability for user needs, not a fixed person or phase.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-005",
+    "question": "A developer misunderstands a requirement and writes an incorrect expression. The misunderstanding is best classified as an",
+    "options": [
+      {
+        "id": "A",
+        "text": "error"
+      },
+      {
+        "id": "B",
+        "text": "failure"
+      },
+      {
+        "id": "C",
+        "text": "test case"
+      },
+      {
+        "id": "D",
+        "text": "test oracle"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An error is a human action or misconception that can introduce a defect.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-006",
+    "question": "An incorrect statement in source code that can cause wrong behavior is a",
+    "options": [
+      {
+        "id": "A",
+        "text": "failure"
+      },
+      {
+        "id": "B",
+        "text": "fault/defect"
+      },
+      {
+        "id": "C",
+        "text": "validation criterion"
+      },
+      {
+        "id": "D",
+        "text": "test environment"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A fault or defect is an incorrect implementation or artifact that may cause a failure.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-007",
+    "question": "The externally observable inability of software to perform a required function is a",
+    "options": [
+      {
+        "id": "A",
+        "text": "mistake"
+      },
+      {
+        "id": "B",
+        "text": "fault"
+      },
+      {
+        "id": "C",
+        "text": "failure"
+      },
+      {
+        "id": "D",
+        "text": "test condition"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A failure is observed incorrect behavior during execution or operation.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-008",
+    "question": "Which sequence most accurately represents a common causal chain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Failure → error → fault"
+      },
+      {
+        "id": "B",
+        "text": "Fault → human error → test case"
+      },
+      {
+        "id": "C",
+        "text": "Human error → fault → possible failure"
+      },
+      {
+        "id": "D",
+        "text": "Test case → failure → human error"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A human error may introduce a fault, which can cause a failure when the relevant conditions occur.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-009",
+    "question": "A test case normally specifies",
+    "options": [
+      {
+        "id": "A",
+        "text": "only the source code line to inspect"
+      },
+      {
+        "id": "B",
+        "text": "inputs, execution conditions, and expected results"
+      },
+      {
+        "id": "C",
+        "text": "the tester's opinion about product quality"
+      },
+      {
+        "id": "D",
+        "text": "all possible inputs for a program"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A test case defines inputs or preconditions and the expected outcome for a particular test.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-010",
+    "question": "The main purpose of an expected result in a test case is to",
+    "options": [
+      {
+        "id": "A",
+        "text": "make execution faster"
+      },
+      {
+        "id": "B",
+        "text": "provide a basis for deciding pass or fail"
+      },
+      {
+        "id": "C",
+        "text": "ensure the test covers every path"
+      },
+      {
+        "id": "D",
+        "text": "replace the need for requirements"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The actual result is compared with the expected result to determine the test outcome.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-011",
+    "question": "A test oracle is used to",
+    "options": [
+      {
+        "id": "A",
+        "text": "generate random source code"
+      },
+      {
+        "id": "B",
+        "text": "determine the expected outcome for a test"
+      },
+      {
+        "id": "C",
+        "text": "measure only execution speed"
+      },
+      {
+        "id": "D",
+        "text": "choose the programming language"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A test oracle provides a way to establish the expected result or correctness of an output.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-012",
+    "question": "When selecting a smaller regression suite, the primary objective is usually to",
+    "options": [
+      {
+        "id": "A",
+        "text": "remove all tests that previously passed"
+      },
+      {
+        "id": "B",
+        "text": "retain useful coverage while reducing execution cost"
+      },
+      {
+        "id": "C",
+        "text": "keep only tests with the shortest names"
+      },
+      {
+        "id": "D",
+        "text": "maximize duplicated coverage"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Test-suite minimization seeks to reduce cost while preserving required coverage objectives.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-013",
+    "question": "Which is the strongest reason to prioritize a test case?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It was written first"
+      },
+      {
+        "id": "B",
+        "text": "It covers a high-risk, business-critical behavior"
+      },
+      {
+        "id": "C",
+        "text": "It has the most lines of setup code"
+      },
+      {
+        "id": "D",
+        "text": "It uses the newest testing tool"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Risk, impact, likelihood, and coverage are meaningful prioritization criteria.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-014",
+    "question": "A test suite has many tests but repeatedly exercises the same behavior and misses critical requirements. The main weakness is",
+    "options": [
+      {
+        "id": "A",
+        "text": "high test count alone"
+      },
+      {
+        "id": "B",
+        "text": "poor coverage and selection effectiveness"
+      },
+      {
+        "id": "C",
+        "text": "excessive validation"
+      },
+      {
+        "id": "D",
+        "text": "too much fault isolation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Test effectiveness depends on relevant coverage and fault-detection capability, not merely test count.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-015",
+    "question": "Equivalence partitioning reduces test effort by",
+    "options": [
+      {
+        "id": "A",
+        "text": "testing every possible input"
+      },
+      {
+        "id": "B",
+        "text": "dividing inputs into classes expected to behave similarly"
+      },
+      {
+        "id": "C",
+        "text": "testing only invalid inputs"
+      },
+      {
+        "id": "D",
+        "text": "choosing values randomly without classification"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Inputs within an equivalence class are expected to be processed similarly, so representative values can be selected.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-016",
+    "question": "For an input field accepting integers from 1 through 100 inclusive, which is a valid equivalence partition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Values below 1"
+      },
+      {
+        "id": "B",
+        "text": "Values from 1 to 100"
+      },
+      {
+        "id": "C",
+        "text": "Values above 100"
+      },
+      {
+        "id": "D",
+        "text": "All values are one partition"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The accepted range forms a valid partition; values below and above it are separate invalid partitions.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-017",
+    "question": "For the range 1–100 inclusive, which set best represents basic boundary-value tests?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1, 50, 100"
+      },
+      {
+        "id": "B",
+        "text": "0, 1, 2, 99, 100, 101"
+      },
+      {
+        "id": "C",
+        "text": "10, 20, 30, 40, 50"
+      },
+      {
+        "id": "D",
+        "text": "-100, 0, 1000"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Boundary-value analysis tests values at and just around the lower and upper boundaries.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-018",
+    "question": "Boundary-value analysis is especially effective because defects often occur",
+    "options": [
+      {
+        "id": "A",
+        "text": "only at average input values"
+      },
+      {
+        "id": "B",
+        "text": "at limits and transitions between valid and invalid ranges"
+      },
+      {
+        "id": "C",
+        "text": "only in comments"
+      },
+      {
+        "id": "D",
+        "text": "only after deployment"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Off-by-one and limit-handling errors commonly appear near boundaries.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-019",
+    "question": "Equivalence partitioning and boundary-value analysis are best described as",
+    "options": [
+      {
+        "id": "A",
+        "text": "both structural techniques requiring source code"
+      },
+      {
+        "id": "B",
+        "text": "complementary black-box techniques for selecting representative inputs"
+      },
+      {
+        "id": "C",
+        "text": "techniques used only for performance testing"
+      },
+      {
+        "id": "D",
+        "text": "alternatives to writing expected results"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Both derive tests from input behavior and specifications without requiring source-code structure.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-020",
+    "question": "Cause-effect graphing starts by identifying",
+    "options": [
+      {
+        "id": "A",
+        "text": "source-code branches and loops"
+      },
+      {
+        "id": "B",
+        "text": "logical relationships between input conditions and outputs"
+      },
+      {
+        "id": "C",
+        "text": "execution times for each method"
+      },
+      {
+        "id": "D",
+        "text": "all possible mutation operators"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cause-effect graphing models logical relationships between input conditions and resulting effects.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-021",
+    "question": "Cause-effect graphing is particularly useful when",
+    "options": [
+      {
+        "id": "A",
+        "text": "the requirement contains interacting logical conditions"
+      },
+      {
+        "id": "B",
+        "text": "the only concern is memory usage under load"
+      },
+      {
+        "id": "C",
+        "text": "source code is unavailable and no requirements exist"
+      },
+      {
+        "id": "D",
+        "text": "a single numeric boundary is the only rule"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "It helps organize complex combinations of conditions and effects before deriving tests.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-022",
+    "question": "Decision-table testing represents combinations of conditions and their",
+    "options": [
+      {
+        "id": "A",
+        "text": "corresponding actions or outcomes"
+      },
+      {
+        "id": "B",
+        "text": "source-code line numbers"
+      },
+      {
+        "id": "C",
+        "text": "module call stacks only"
+      },
+      {
+        "id": "D",
+        "text": "execution-time distributions"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A decision table maps condition combinations to actions or expected outcomes.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-023",
+    "question": "A rule in a decision table typically corresponds to",
+    "options": [
+      {
+        "id": "A",
+        "text": "one combination of condition values and its action"
+      },
+      {
+        "id": "B",
+        "text": "one variable declaration"
+      },
+      {
+        "id": "C",
+        "text": "one statement in every source file"
+      },
+      {
+        "id": "D",
+        "text": "one defect report only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each rule column generally represents a condition combination and the action that should follow.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-024",
+    "question": "A decision table is most useful for testing",
+    "options": [
+      {
+        "id": "A",
+        "text": "business rules with multiple condition combinations"
+      },
+      {
+        "id": "B",
+        "text": "purely visual alignment with no logic"
+      },
+      {
+        "id": "C",
+        "text": "only a single numeric boundary"
+      },
+      {
+        "id": "D",
+        "text": "compiler syntax errors exclusively"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Decision tables systematically cover combinations in rule-heavy logic.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-025",
+    "question": "A login rule requires a correct password AND an active account. Which input combination should deny access?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Correct password, active account"
+      },
+      {
+        "id": "B",
+        "text": "Correct password, inactive account"
+      },
+      {
+        "id": "C",
+        "text": "Incorrect password, active account"
+      },
+      {
+        "id": "D",
+        "text": "Both B and C"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Either an inactive account or an incorrect password violates the stated conjunction.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-026",
+    "question": "Compared with a decision table, a cause-effect graph is primarily used to",
+    "options": [
+      {
+        "id": "A",
+        "text": "model logical dependencies before deriving test cases"
+      },
+      {
+        "id": "B",
+        "text": "measure cyclomatic complexity directly"
+      },
+      {
+        "id": "C",
+        "text": "calculate statement execution time"
+      },
+      {
+        "id": "D",
+        "text": "replace all system requirements"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The graph models cause-effect relationships; a decision table can then enumerate combinations and actions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-027",
+    "question": "Black-box testing designs tests mainly from",
+    "options": [
+      {
+        "id": "A",
+        "text": "internal control-flow structure"
+      },
+      {
+        "id": "B",
+        "text": "external behavior and specifications"
+      },
+      {
+        "id": "C",
+        "text": "compiler implementation details"
+      },
+      {
+        "id": "D",
+        "text": "the number of source-code statements"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Black-box testing focuses on specified inputs, outputs, and observable behavior.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-028",
+    "question": "Basis path testing aims to execute",
+    "options": [
+      {
+        "id": "A",
+        "text": "every possible input value"
+      },
+      {
+        "id": "B",
+        "text": "a set of linearly independent paths through the control-flow graph"
+      },
+      {
+        "id": "C",
+        "text": "only the main success path"
+      },
+      {
+        "id": "D",
+        "text": "each requirement exactly once regardless of code"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Basis path testing identifies a basis set of independent paths in the control-flow graph.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-029",
+    "question": "Cyclomatic complexity for a single connected control-flow graph can be calculated as",
+    "options": [
+      {
+        "id": "A",
+        "text": "V(G) = E − N + 2"
+      },
+      {
+        "id": "B",
+        "text": "V(G) = N − E + 2"
+      },
+      {
+        "id": "C",
+        "text": "V(G) = E + N − 2"
+      },
+      {
+        "id": "D",
+        "text": "V(G) = E × N + 2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For a single connected graph, McCabe's formula is V(G)=E−N+2, where E is edges and N is nodes.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-030",
+    "question": "A connected control-flow graph has 12 edges and 10 nodes. Its cyclomatic complexity is",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "22"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "V(G)=E−N+2=12−10+2=4.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-031",
+    "question": "A routine contains three independent binary decisions in a simple connected flow graph. If no structural complications exist, a common estimate of cyclomatic complexity is",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For a single connected graph, complexity is often decisions + 1; three decisions give 4.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-032",
+    "question": "If cyclomatic complexity increases, a likely implication is that",
+    "options": [
+      {
+        "id": "A",
+        "text": "the code has fewer decision points"
+      },
+      {
+        "id": "B",
+        "text": "more independent control-flow paths need consideration"
+      },
+      {
+        "id": "C",
+        "text": "the program is proven incorrect"
+      },
+      {
+        "id": "D",
+        "text": "testing can be safely skipped"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Higher complexity indicates more independent paths and typically greater structural testing effort.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-033",
+    "question": "Which statement about cyclomatic complexity is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It proves the absence of defects when all basis paths run"
+      },
+      {
+        "id": "B",
+        "text": "It measures control-flow complexity, not total software quality"
+      },
+      {
+        "id": "C",
+        "text": "It counts only executable statements"
+      },
+      {
+        "id": "D",
+        "text": "It directly measures user satisfaction"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cyclomatic complexity is a structural metric and does not prove defect-free software.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-034",
+    "question": "Branch testing seeks to execute",
+    "options": [
+      {
+        "id": "A",
+        "text": "each decision outcome/branch"
+      },
+      {
+        "id": "B",
+        "text": "every possible data value"
+      },
+      {
+        "id": "C",
+        "text": "only statements with comments"
+      },
+      {
+        "id": "D",
+        "text": "all possible loop iterations without limit"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Branch coverage requires each branch outcome to be exercised at least once.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-035",
+    "question": "A test suite executes every statement but never takes the false outcome of an IF condition. Which coverage is definitely incomplete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Statement coverage only"
+      },
+      {
+        "id": "B",
+        "text": "Branch coverage"
+      },
+      {
+        "id": "C",
+        "text": "Statement coverage and branch coverage always both complete"
+      },
+      {
+        "id": "D",
+        "text": "Neither statement nor branch coverage"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A statement can execute while one decision outcome remains untested; branch coverage is incomplete.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-036",
+    "question": "Condition testing focuses on",
+    "options": [
+      {
+        "id": "A",
+        "text": "individual Boolean conditions within decisions"
+      },
+      {
+        "id": "B",
+        "text": "only user acceptance"
+      },
+      {
+        "id": "C",
+        "text": "the number of database tables"
+      },
+      {
+        "id": "D",
+        "text": "only execution speed"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Condition coverage checks whether each atomic Boolean condition takes its required truth values.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-037",
+    "question": "For the decision `A AND B`, a test suite makes the overall decision true and false but leaves B always true. Which coverage may be missing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Condition coverage for B"
+      },
+      {
+        "id": "B",
+        "text": "All statement coverage necessarily"
+      },
+      {
+        "id": "C",
+        "text": "All requirements coverage necessarily"
+      },
+      {
+        "id": "D",
+        "text": "All mutation coverage necessarily"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "If B never becomes false, its false outcome has not been exercised.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-038",
+    "question": "Data-flow testing selects tests based on",
+    "options": [
+      {
+        "id": "A",
+        "text": "definitions and uses of variables along paths"
+      },
+      {
+        "id": "B",
+        "text": "only the color of the user interface"
+      },
+      {
+        "id": "C",
+        "text": "the number of classes in a design pattern"
+      },
+      {
+        "id": "D",
+        "text": "only input partitions"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Data-flow testing examines where variables are defined, used, and potentially improperly handled.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-039",
+    "question": "A variable is assigned a value that is overwritten before any use. This pattern may indicate",
+    "options": [
+      {
+        "id": "A",
+        "text": "a definition-use anomaly"
+      },
+      {
+        "id": "B",
+        "text": "complete branch coverage"
+      },
+      {
+        "id": "C",
+        "text": "successful validation"
+      },
+      {
+        "id": "D",
+        "text": "an equivalence partition"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An overwritten definition with no intervening use can be a suspicious data-flow pattern.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-040",
+    "question": "Mutation testing evaluates a test suite by",
+    "options": [
+      {
+        "id": "A",
+        "text": "injecting small changes into the program and checking whether tests detect them"
+      },
+      {
+        "id": "B",
+        "text": "removing all test assertions"
+      },
+      {
+        "id": "C",
+        "text": "measuring only code execution speed"
+      },
+      {
+        "id": "D",
+        "text": "replacing requirements with user stories"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mutation testing creates altered program versions; effective tests should fail when meaningful mutants are executed.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-041",
+    "question": "A mutant is said to be killed when",
+    "options": [
+      {
+        "id": "A",
+        "text": "the modified program compiles successfully"
+      },
+      {
+        "id": "B",
+        "text": "a test detects behavior different from the original expectation"
+      },
+      {
+        "id": "C",
+        "text": "the test suite is deleted"
+      },
+      {
+        "id": "D",
+        "text": "the source code is reformatted"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A killed mutant is detected by at least one test, typically because the test fails against the mutant.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-042",
+    "question": "A surviving mutant most directly suggests that",
+    "options": [
+      {
+        "id": "A",
+        "text": "the original program must be wrong"
+      },
+      {
+        "id": "B",
+        "text": "the test suite may not detect that particular change"
+      },
+      {
+        "id": "C",
+        "text": "every requirement is covered"
+      },
+      {
+        "id": "D",
+        "text": "the mutant cannot execute under any circumstance"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A surviving mutant may reveal weak tests, equivalent mutants, or an unexecuted relevant path.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-043",
+    "question": "An equivalent mutant is one that",
+    "options": [
+      {
+        "id": "A",
+        "text": "always crashes during compilation"
+      },
+      {
+        "id": "B",
+        "text": "has behavior indistinguishable from the original for all relevant inputs"
+      },
+      {
+        "id": "C",
+        "text": "is detected by every test"
+      },
+      {
+        "id": "D",
+        "text": "contains no changed operator"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Equivalent mutants do not change observable behavior, so ordinary tests cannot kill them.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-044",
+    "question": "Mutation score is generally based on",
+    "options": [
+      {
+        "id": "A",
+        "text": "killed non-equivalent mutants divided by total non-equivalent mutants considered"
+      },
+      {
+        "id": "B",
+        "text": "total lines divided by test cases"
+      },
+      {
+        "id": "C",
+        "text": "failures divided by requirements"
+      },
+      {
+        "id": "D",
+        "text": "branches divided by developers"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mutation score measures the proportion of non-equivalent mutants killed by the test suite.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-045",
+    "question": "Unit testing primarily tests",
+    "options": [
+      {
+        "id": "A",
+        "text": "the smallest testable software components in isolation"
+      },
+      {
+        "id": "B",
+        "text": "the complete deployed system under customer load"
+      },
+      {
+        "id": "C",
+        "text": "the interactions among all external organizations"
+      },
+      {
+        "id": "D",
+        "text": "only the user interface after release"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Unit tests focus on individual functions, classes, or components, often using doubles for dependencies.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-046",
+    "question": "Integration testing focuses on",
+    "options": [
+      {
+        "id": "A",
+        "text": "interactions and interfaces between combined components"
+      },
+      {
+        "id": "B",
+        "text": "each line of code in isolation only"
+      },
+      {
+        "id": "C",
+        "text": "whether requirements were initially gathered"
+      },
+      {
+        "id": "D",
+        "text": "only the product's market success"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Integration testing looks for defects in interfaces and interactions among components.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-047",
+    "question": "In top-down integration testing, integration generally begins with",
+    "options": [
+      {
+        "id": "A",
+        "text": "low-level utility modules and moves upward"
+      },
+      {
+        "id": "B",
+        "text": "top-level control modules, using stubs for unfinished lower modules"
+      },
+      {
+        "id": "C",
+        "text": "all modules tested only by customers"
+      },
+      {
+        "id": "D",
+        "text": "the database only, without control modules"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Top-down integration starts from higher-level modules and uses stubs where lower modules are unavailable.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-048",
+    "question": "In bottom-up integration testing, missing higher-level modules are commonly represented by",
+    "options": [
+      {
+        "id": "A",
+        "text": "stubs"
+      },
+      {
+        "id": "B",
+        "text": "drivers"
+      },
+      {
+        "id": "C",
+        "text": "mutants"
+      },
+      {
+        "id": "D",
+        "text": "oracles"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Drivers call and exercise lower-level modules when the real higher-level callers are not yet integrated.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-049",
+    "question": "Which pairing is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Top-down—drivers; bottom-up—stubs"
+      },
+      {
+        "id": "B",
+        "text": "Top-down—stubs; bottom-up—drivers"
+      },
+      {
+        "id": "C",
+        "text": "Top-down—mutants; bottom-up—oracles"
+      },
+      {
+        "id": "D",
+        "text": "Top-down—test oracles; bottom-up—decision tables"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Top-down commonly uses stubs; bottom-up commonly uses drivers.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-050",
+    "question": "A major advantage of bottom-up integration is that",
+    "options": [
+      {
+        "id": "A",
+        "text": "a working high-level user interface is available immediately"
+      },
+      {
+        "id": "B",
+        "text": "low-level utilities can be tested early without requiring their callers"
+      },
+      {
+        "id": "C",
+        "text": "stubs are always unnecessary in every situation"
+      },
+      {
+        "id": "D",
+        "text": "system testing is no longer required"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bottom-up permits early testing of lower-level components, though drivers may be needed.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-051",
+    "question": "Sandwich integration testing combines",
+    "options": [
+      {
+        "id": "A",
+        "text": "top-down and bottom-up integration approaches"
+      },
+      {
+        "id": "B",
+        "text": "black-box and mutation testing only"
+      },
+      {
+        "id": "C",
+        "text": "unit testing and acceptance testing only"
+      },
+      {
+        "id": "D",
+        "text": "verification and maintenance only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sandwich (hybrid) integration progresses from both upper and lower levels toward the middle.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-052",
+    "question": "System testing evaluates",
+    "options": [
+      {
+        "id": "A",
+        "text": "the fully integrated system against specified system requirements"
+      },
+      {
+        "id": "B",
+        "text": "one isolated method only"
+      },
+      {
+        "id": "C",
+        "text": "only the quality of source-code comments"
+      },
+      {
+        "id": "D",
+        "text": "only the compiler's parser"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "System testing examines the complete integrated product, including functional and non-functional behavior.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-053",
+    "question": "Alpha testing is commonly performed",
+    "options": [
+      {
+        "id": "A",
+        "text": "by selected users/customers at or near the developer's site in a controlled setting"
+      },
+      {
+        "id": "B",
+        "text": "only by the final public after unrestricted release"
+      },
+      {
+        "id": "C",
+        "text": "only by the compiler during translation"
+      },
+      {
+        "id": "D",
+        "text": "before any component has been integrated"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Alpha testing is typically conducted in a controlled environment associated with the developer, with representative users or testers.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-054",
+    "question": "Beta testing is commonly conducted",
+    "options": [
+      {
+        "id": "A",
+        "text": "by selected external users in their real or realistic environment before general release"
+      },
+      {
+        "id": "B",
+        "text": "only by the programmer who wrote the module"
+      },
+      {
+        "id": "C",
+        "text": "only on artificial mutants"
+      },
+      {
+        "id": "D",
+        "text": "only on a unit's control-flow graph"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Beta testing gathers feedback from users operating the software in realistic conditions before broad release.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-055",
+    "question": "Performance testing primarily evaluates",
+    "options": [
+      {
+        "id": "A",
+        "text": "response time, throughput, resource use, and related performance attributes"
+      },
+      {
+        "id": "B",
+        "text": "whether each source line has a comment"
+      },
+      {
+        "id": "C",
+        "text": "only whether a password is correct"
+      },
+      {
+        "id": "D",
+        "text": "only the number of user stories"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Performance testing measures speed, scalability, throughput, and resource behavior under defined workloads.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-056",
+    "question": "Which scenario best represents load testing rather than stress testing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Measure response time at the expected peak number of users"
+      },
+      {
+        "id": "B",
+        "text": "Increase users far beyond capacity to observe breakdown"
+      },
+      {
+        "id": "C",
+        "text": "Alter an operator to see whether tests fail"
+      },
+      {
+        "id": "D",
+        "text": "Check a variable's definition-use chain"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Load testing evaluates behavior at anticipated workloads; stress testing explores extreme or beyond-capacity conditions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-057",
+    "question": "Regression testing is performed to check whether",
+    "options": [
+      {
+        "id": "A",
+        "text": "a change has unintentionally broken previously working behavior"
+      },
+      {
+        "id": "B",
+        "text": "the initial requirements document has no spelling errors"
+      },
+      {
+        "id": "C",
+        "text": "every new feature has a user manual"
+      },
+      {
+        "id": "D",
+        "text": "the system can run only on the developer's machine"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Regression tests are rerun after changes to detect unintended effects on existing functionality.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-058",
+    "question": "After fixing a defect in the payment module, the team reruns tests for checkout, refunds, and invoices. This is primarily",
+    "options": [
+      {
+        "id": "A",
+        "text": "regression testing"
+      },
+      {
+        "id": "B",
+        "text": "mutation testing"
+      },
+      {
+        "id": "C",
+        "text": "alpha testing"
+      },
+      {
+        "id": "D",
+        "text": "equivalence partitioning"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tests of related existing behavior are rerun to detect side effects from the payment fix.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-059",
+    "question": "Confirmation testing differs from regression testing because confirmation testing checks whether",
+    "options": [
+      {
+        "id": "A",
+        "text": "the specific reported defect has been fixed"
+      },
+      {
+        "id": "B",
+        "text": "unrelated existing features remain unaffected"
+      },
+      {
+        "id": "C",
+        "text": "all possible paths have executed"
+      },
+      {
+        "id": "D",
+        "text": "the product meets market demand"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Confirmation (retesting) verifies the particular fix; regression testing checks for unintended side effects.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-060",
+    "question": "Which sequence is the most appropriate broad testing progression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "System → unit → integration"
+      },
+      {
+        "id": "B",
+        "text": "Unit → integration → system"
+      },
+      {
+        "id": "C",
+        "text": "Beta → unit → requirements"
+      },
+      {
+        "id": "D",
+        "text": "Mutation → maintenance → unit"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A common progression tests individual components, then their interactions, then the integrated system.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-061",
+    "question": "A test detects an interface mismatch only when two otherwise correct modules are combined. Which testing level is most directly suited to finding it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unit testing"
+      },
+      {
+        "id": "B",
+        "text": "Integration testing"
+      },
+      {
+        "id": "C",
+        "text": "Mutation testing"
+      },
+      {
+        "id": "D",
+        "text": "Acceptance testing only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Interface mismatches between components are a central target of integration testing.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-062",
+    "question": "Which statement about testing levels and techniques is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Black-box testing can be used at multiple testing levels"
+      },
+      {
+        "id": "B",
+        "text": "White-box testing is possible only during beta testing"
+      },
+      {
+        "id": "C",
+        "text": "Regression testing is a separate structural coverage criterion"
+      },
+      {
+        "id": "D",
+        "text": "Unit testing must always use only white-box techniques"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Black-box and white-box are test-design approaches; either may be used at different levels depending on goals.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-063",
+    "question": "A tester chooses one representative valid input and one representative invalid input from each equivalence class. The selection is based on",
+    "options": [
+      {
+        "id": "A",
+        "text": "equivalence partitioning"
+      },
+      {
+        "id": "B",
+        "text": "basis path testing"
+      },
+      {
+        "id": "C",
+        "text": "mutation score"
+      },
+      {
+        "id": "D",
+        "text": "bottom-up integration"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Equivalence partitioning selects representatives from classes expected to exhibit similar behavior.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-064",
+    "question": "Which statement best describes the relationship between statement and branch coverage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "100% branch coverage generally implies statement coverage for reachable decision code, but not vice versa"
+      },
+      {
+        "id": "B",
+        "text": "100% statement coverage always implies 100% branch coverage"
+      },
+      {
+        "id": "C",
+        "text": "They are identical for every program"
+      },
+      {
+        "id": "D",
+        "text": "Neither can be measured from control flow"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Branch coverage exercises decision outcomes and is generally stronger than statement coverage, though unreachable code and metric definitions can complicate comparisons.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-065",
+    "question": "A program passes all tests, but the tests never check the expected outputs independently. The most important concern is",
+    "options": [
+      {
+        "id": "A",
+        "text": "the oracle may be inadequate, so incorrect results can go undetected"
+      },
+      {
+        "id": "B",
+        "text": "the cyclomatic complexity must be zero"
+      },
+      {
+        "id": "C",
+        "text": "all mutants are necessarily killed"
+      },
+      {
+        "id": "D",
+        "text": "the tests automatically prove correctness"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Without reliable expected results, a test may execute code without detecting incorrect behavior.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-066",
+    "question": "Which practice most improves the maintainability of a regression test suite?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Use clear names, remove obsolete duplication carefully, and preserve coverage of important risks"
+      },
+      {
+        "id": "B",
+        "text": "Delete tests whenever they pass once"
+      },
+      {
+        "id": "C",
+        "text": "Avoid documenting expected results"
+      },
+      {
+        "id": "D",
+        "text": "Keep every duplicate test regardless of cost"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A maintainable suite balances clarity and execution cost while preserving important coverage and defect-detection value.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-067",
+    "question": "A requirement states: 'If the card is valid and the account has sufficient funds, approve the transaction; otherwise decline.' Which test design approach most directly organizes all condition combinations and outcomes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decision table testing"
+      },
+      {
+        "id": "B",
+        "text": "Mutation testing"
+      },
+      {
+        "id": "C",
+        "text": "Data-flow testing"
+      },
+      {
+        "id": "D",
+        "text": "Cyclomatic complexity"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A decision table systematically maps combinations of card validity and funds availability to approval or decline.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-068",
+    "question": "Which testing technique is most directly dependent on a control-flow graph?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basis path testing"
+      },
+      {
+        "id": "B",
+        "text": "Equivalence partitioning"
+      },
+      {
+        "id": "C",
+        "text": "Decision table testing"
+      },
+      {
+        "id": "D",
+        "text": "Beta testing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Basis path testing uses a control-flow graph to identify independent execution paths.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-069",
+    "question": "Why can high statement coverage still fail to reveal a logic defect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Statements may execute without exercising every decision outcome or condition combination"
+      },
+      {
+        "id": "B",
+        "text": "Statement coverage requires every possible input"
+      },
+      {
+        "id": "C",
+        "text": "Statement coverage is only for performance testing"
+      },
+      {
+        "id": "D",
+        "text": "It guarantees all mutants are killed"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Executing statements does not ensure both branches or meaningful combinations of Boolean conditions are tested.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-070",
+    "question": "A system's response time is measured while thousands of concurrent users perform expected workloads. This is primarily",
+    "options": [
+      {
+        "id": "A",
+        "text": "performance/load testing"
+      },
+      {
+        "id": "B",
+        "text": "mutation testing"
+      },
+      {
+        "id": "C",
+        "text": "data-flow testing"
+      },
+      {
+        "id": "D",
+        "text": "confirmation testing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Expected concurrent workload and response-time measurement are characteristic of performance and load testing.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-071",
+    "question": "A test suite is reduced from 500 tests to 180 while retaining all specified requirement coverage and high-risk scenarios. This is best described as",
+    "options": [
+      {
+        "id": "A",
+        "text": "test-suite minimization/optimization"
+      },
+      {
+        "id": "B",
+        "text": "basis path generation only"
+      },
+      {
+        "id": "C",
+        "text": "fault injection"
+      },
+      {
+        "id": "D",
+        "text": "beta testing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Suite optimization aims to reduce cost while preserving the coverage and risk goals that matter.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-072",
+    "question": "Which statement about a fault and a failure is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A fault is an internal defect; a failure is externally observable incorrect behavior"
+      },
+      {
+        "id": "B",
+        "text": "A fault is always visible to users; a failure is always hidden"
+      },
+      {
+        "id": "C",
+        "text": "They are interchangeable terms in all testing contexts"
+      },
+      {
+        "id": "D",
+        "text": "A failure must occur before a fault can exist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A fault can remain latent; a failure occurs when execution produces behavior that violates expectations.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-073",
+    "question": "A test suite exercises each branch but does not necessarily exercise every possible path through nested loops. This illustrates that",
+    "options": [
+      {
+        "id": "A",
+        "text": "branch coverage does not guarantee exhaustive path coverage"
+      },
+      {
+        "id": "B",
+        "text": "branch coverage is the same as mutation testing"
+      },
+      {
+        "id": "C",
+        "text": "all paths must be finite and unique"
+      },
+      {
+        "id": "D",
+        "text": "unit testing cannot measure coverage"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Loops and combinations can create many paths; covering each branch does not cover every possible path.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-074",
+    "question": "Which approach is most suitable for testing a requirement with minimum, maximum, and just-outside-limit values?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Boundary-value analysis"
+      },
+      {
+        "id": "B",
+        "text": "Data-flow testing"
+      },
+      {
+        "id": "C",
+        "text": "Mutation testing"
+      },
+      {
+        "id": "D",
+        "text": "Sandwich integration"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Boundary-value analysis explicitly targets values at and immediately around input limits.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-testing-075",
+    "question": "A team tests a corrected defect and then runs a broad set of existing tests around affected features. The two activities are respectively",
+    "options": [
+      {
+        "id": "A",
+        "text": "confirmation testing and regression testing"
+      },
+      {
+        "id": "B",
+        "text": "regression testing and confirmation testing"
+      },
+      {
+        "id": "C",
+        "text": "alpha testing and beta testing"
+      },
+      {
+        "id": "D",
+        "text": "unit testing and mutation testing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Confirmation testing checks the fix itself; regression testing checks whether the change damaged existing behavior.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

@@ -1,0 +1,912 @@
+[
+  {
+    "id": "re-srs-001",
+    "question": "Which statement best describes a software requirement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A documented need or capability that a system must satisfy"
+      },
+      {
+        "id": "B",
+        "text": "A detailed coding instruction for implementing one module"
+      },
+      {
+        "id": "C",
+        "text": "A test result confirming that the system has no defects"
+      },
+      {
+        "id": "D",
+        "text": "A schedule assigning tasks to development team members"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A requirement states a needed capability, constraint, or condition the system must satisfy.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-002",
+    "question": "What is the primary purpose of requirements engineering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To identify, analyze, document, validate, and manage stakeholder needs"
+      },
+      {
+        "id": "B",
+        "text": "To convert source code into executable machine instructions"
+      },
+      {
+        "id": "C",
+        "text": "To measure only the execution speed of a finished product"
+      },
+      {
+        "id": "D",
+        "text": "To select a programming language before studying user needs"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Requirements engineering systematically establishes and manages what the system should do and the constraints it must meet.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-003",
+    "question": "Which is a functional requirement for an online banking system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The system shall allow customers to transfer funds between eligible accounts"
+      },
+      {
+        "id": "B",
+        "text": "The service shall be available 99.95% of each month"
+      },
+      {
+        "id": "C",
+        "text": "A transaction screen shall load within two seconds"
+      },
+      {
+        "id": "D",
+        "text": "All stored customer records shall be encrypted at rest"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Functional requirements describe system services or behaviors; the other options describe quality attributes or constraints.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-004",
+    "question": "Which requirement is non-functional?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The system shall generate a monthly account statement"
+      },
+      {
+        "id": "B",
+        "text": "The system shall reject an invalid password"
+      },
+      {
+        "id": "C",
+        "text": "The system shall support 5,000 concurrent users with a response time under two seconds"
+      },
+      {
+        "id": "D",
+        "text": "The system shall allow users to reset a forgotten password"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The statement specifies performance and capacity constraints, which are non-functional requirements.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-005",
+    "question": "A requirement says, 'The application should be user-friendly.' What is its main weakness?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is ambiguous and difficult to verify objectively"
+      },
+      {
+        "id": "B",
+        "text": "It is necessarily a functional requirement"
+      },
+      {
+        "id": "C",
+        "text": "It specifies too much implementation detail"
+      },
+      {
+        "id": "D",
+        "text": "It cannot be discussed with stakeholders"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Terms such as 'user-friendly' need measurable criteria to make the requirement testable.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-006",
+    "question": "Who is typically considered a stakeholder in requirements engineering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only the project manager who approves the budget"
+      },
+      {
+        "id": "B",
+        "text": "Any person or organization affected by or able to influence the system"
+      },
+      {
+        "id": "C",
+        "text": "Only developers who write the application code"
+      },
+      {
+        "id": "D",
+        "text": "Only the final user who operates the interface"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Stakeholders may include users, customers, sponsors, operators, regulators, and developers.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-007",
+    "question": "Which activity is most directly concerned with discovering stakeholder needs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Requirements elicitation"
+      },
+      {
+        "id": "B",
+        "text": "Requirements baselining"
+      },
+      {
+        "id": "C",
+        "text": "Code integration"
+      },
+      {
+        "id": "D",
+        "text": "Acceptance testing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Elicitation gathers requirements through interviews, workshops, observation, questionnaires, and similar techniques.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-008",
+    "question": "During an interview, users describe their current work but cannot clearly state what they need. Which technique can help reveal tacit requirements?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Observing users perform their actual tasks"
+      },
+      {
+        "id": "B",
+        "text": "Freezing the requirements baseline immediately"
+      },
+      {
+        "id": "C",
+        "text": "Running load tests on the proposed system"
+      },
+      {
+        "id": "D",
+        "text": "Measuring code coverage of the existing system"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Observation can reveal practical workflows and hidden needs that users may not articulate.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-009",
+    "question": "What is the main purpose of a feasibility study early in a project?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To assess whether the proposed system is viable under relevant constraints"
+      },
+      {
+        "id": "B",
+        "text": "To prove that all requirements are already complete"
+      },
+      {
+        "id": "C",
+        "text": "To determine the exact source code for each feature"
+      },
+      {
+        "id": "D",
+        "text": "To replace all stakeholder interviews with estimates"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Feasibility considers factors such as technical, economic, operational, legal, and schedule viability.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-010",
+    "question": "Which feasibility type asks whether the organization can afford the proposed system and justify its benefits?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Technical feasibility"
+      },
+      {
+        "id": "B",
+        "text": "Economic feasibility"
+      },
+      {
+        "id": "C",
+        "text": "Operational feasibility"
+      },
+      {
+        "id": "D",
+        "text": "Schedule feasibility"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Economic feasibility weighs expected costs against benefits and available resources.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-011",
+    "question": "What is the principal purpose of an SRS document?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To specify the software's required behavior and constraints clearly"
+      },
+      {
+        "id": "B",
+        "text": "To describe every source-code statement in final implementation order"
+      },
+      {
+        "id": "C",
+        "text": "To record only the defects found after deployment"
+      },
+      {
+        "id": "D",
+        "text": "To define the organization's employee reporting structure"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Software Requirements Specification provides an agreed, structured description of required software behavior and constraints.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-012",
+    "question": "Which quality is most important for making an SRS useful for acceptance testing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Verifiable requirements with measurable acceptance criteria"
+      },
+      {
+        "id": "B",
+        "text": "Use of the largest possible number of technical terms"
+      },
+      {
+        "id": "C",
+        "text": "Avoidance of all references to external interfaces"
+      },
+      {
+        "id": "D",
+        "text": "Inclusion of a preferred implementation for every requirement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Testable, measurable requirements provide objective criteria for checking whether the delivered system meets expectations.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-013",
+    "question": "An SRS is complete when it:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Covers all required functions, constraints, responses, and relevant cases"
+      },
+      {
+        "id": "B",
+        "text": "Contains only the features requested by the most senior stakeholder"
+      },
+      {
+        "id": "C",
+        "text": "Lists the programming language and database engine only"
+      },
+      {
+        "id": "D",
+        "text": "Uses diagrams instead of all textual requirements"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Completeness means necessary requirements and significant system responses and conditions are included.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-014",
+    "question": "Which pair of SRS qualities is correctly matched?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consistent—no requirement contradicts another; unambiguous—only one interpretation is intended"
+      },
+      {
+        "id": "B",
+        "text": "Complete—every sentence is short; verifiable—every requirement is popular with users"
+      },
+      {
+        "id": "C",
+        "text": "Modifiable—requirements never change; traceable—requirements have no identifiers"
+      },
+      {
+        "id": "D",
+        "text": "Correct—requirements use diagrams; feasible—requirements are already implemented"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Consistency prevents contradictions, while unambiguity prevents multiple reasonable interpretations.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-015",
+    "question": "Why should each requirement have a unique identifier?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To support traceability, discussion, change control, and test mapping"
+      },
+      {
+        "id": "B",
+        "text": "To ensure that every requirement has equal business priority"
+      },
+      {
+        "id": "C",
+        "text": "To eliminate the need for stakeholder approval"
+      },
+      {
+        "id": "D",
+        "text": "To make the requirements independent of system scope"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Unique IDs make requirements easier to reference throughout development and maintenance.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-016",
+    "question": "What does requirements traceability mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linking requirements to their origins and related design, code, and tests"
+      },
+      {
+        "id": "B",
+        "text": "Ranking requirements only by their estimated implementation cost"
+      },
+      {
+        "id": "C",
+        "text": "Ensuring every requirement is written in passive voice"
+      },
+      {
+        "id": "D",
+        "text": "Storing all requirements in a single unchangeable file"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Traceability follows requirements forward to implementation and tests and backward to their sources.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-017",
+    "question": "A regulation changes after the SRS has been approved. What is the best first response?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assess the requested change's impact through the change-control process"
+      },
+      {
+        "id": "B",
+        "text": "Edit the baseline directly without notifying the team"
+      },
+      {
+        "id": "C",
+        "text": "Ignore the regulation until system maintenance begins"
+      },
+      {
+        "id": "D",
+        "text": "Delete every requirement linked to the old regulation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A controlled change process evaluates impact, dependencies, cost, risk, and approval before updating the baseline.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-018",
+    "question": "What is requirements validation primarily intended to establish?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whether the documented requirements describe the right system for stakeholder needs"
+      },
+      {
+        "id": "B",
+        "text": "Whether the code follows the selected indentation style"
+      },
+      {
+        "id": "C",
+        "text": "Whether each module uses the least possible memory"
+      },
+      {
+        "id": "D",
+        "text": "Whether all source files compile without warnings"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Validation checks that requirements reflect stakeholder needs and intended use.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-019",
+    "question": "How does requirements verification differ from requirements validation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Verification checks whether requirements are specified correctly; validation checks whether they represent the right needs"
+      },
+      {
+        "id": "B",
+        "text": "Verification checks user needs while validation checks only document spelling"
+      },
+      {
+        "id": "C",
+        "text": "Verification and validation are identical terms in every software process"
+      },
+      {
+        "id": "D",
+        "text": "Verification occurs only after deployment while validation occurs before elicitation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Verification examines requirement quality and conformance; validation asks whether the right requirements have been captured.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-020",
+    "question": "Which technique is particularly useful for validating requirements with stakeholders before full implementation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reviewing a prototype or walkthrough of representative scenarios"
+      },
+      {
+        "id": "B",
+        "text": "Performing mutation testing on the production source code"
+      },
+      {
+        "id": "C",
+        "text": "Measuring processor utilization during a stress test"
+      },
+      {
+        "id": "D",
+        "text": "Running a compiler on the SRS document"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Prototypes and scenario walkthroughs help stakeholders assess whether requirements match intended workflows.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-021",
+    "question": "In a use-case model, an actor represents:",
+    "options": [
+      {
+        "id": "A",
+        "text": "An external role or system that interacts with the system under consideration"
+      },
+      {
+        "id": "B",
+        "text": "A private method called only within one class"
+      },
+      {
+        "id": "C",
+        "text": "A database table that stores all user credentials"
+      },
+      {
+        "id": "D",
+        "text": "A sequence of internal machine instructions"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An actor is an external role, such as a person or another system, interacting with the system.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-022",
+    "question": "In a use-case diagram, an association between an actor and a use case usually indicates:",
+    "options": [
+      {
+        "id": "A",
+        "text": "That the actor participates in or communicates with that use case"
+      },
+      {
+        "id": "B",
+        "text": "That one class inherits every attribute of the actor"
+      },
+      {
+        "id": "C",
+        "text": "That the use case must execute before the system starts"
+      },
+      {
+        "id": "D",
+        "text": "That the actor is stored as a row in the use-case database"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The association represents interaction or participation, not inheritance or execution order.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-023",
+    "question": "In UML use-case relationships, <<include>> is generally used when:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A base use case always incorporates the behavior of another use case"
+      },
+      {
+        "id": "B",
+        "text": "An optional behavior is inserted only when a condition is met"
+      },
+      {
+        "id": "C",
+        "text": "One class inherits the attributes of another class"
+      },
+      {
+        "id": "D",
+        "text": "A message is sent between objects over time"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An include relationship factors required shared behavior into another use case.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-024",
+    "question": "In UML use-case relationships, <<extend>> most commonly represents:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Additional behavior that may be inserted into a base use case under specified conditions"
+      },
+      {
+        "id": "B",
+        "text": "A mandatory subroutine executed by every use case"
+      },
+      {
+        "id": "C",
+        "text": "A generalization relationship between two classes"
+      },
+      {
+        "id": "D",
+        "text": "A permanent link between an actor and a database table"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Extend adds conditional or optional behavior at defined extension points.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-025",
+    "question": "Which UML diagram best shows the messages exchanged among objects in time order for one scenario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sequence diagram"
+      },
+      {
+        "id": "B",
+        "text": "Class diagram"
+      },
+      {
+        "id": "C",
+        "text": "Deployment diagram"
+      },
+      {
+        "id": "D",
+        "text": "Component diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A sequence diagram emphasizes interactions and message ordering over time.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-026",
+    "question": "Which UML diagram primarily models classes, their attributes, operations, and relationships?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Activity diagram"
+      },
+      {
+        "id": "B",
+        "text": "Class diagram"
+      },
+      {
+        "id": "C",
+        "text": "Sequence diagram"
+      },
+      {
+        "id": "D",
+        "text": "State-machine diagram"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A class diagram represents the static structure of classes and their relationships.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-027",
+    "question": "A system must respond differently depending on whether an order is New, Paid, Shipped, or Cancelled. Which UML diagram best models these states and transitions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "State-machine diagram"
+      },
+      {
+        "id": "B",
+        "text": "Use-case diagram"
+      },
+      {
+        "id": "C",
+        "text": "Component diagram"
+      },
+      {
+        "id": "D",
+        "text": "Package diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "State-machine diagrams model states and event-driven transitions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-028",
+    "question": "What is the main purpose of a Data Flow Diagram (DFD)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To represent how data moves through processes, data stores, and external entities"
+      },
+      {
+        "id": "B",
+        "text": "To specify the exact sequence of object messages over time"
+      },
+      {
+        "id": "C",
+        "text": "To show class inheritance and method visibility"
+      },
+      {
+        "id": "D",
+        "text": "To schedule project tasks on a calendar"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A DFD models data movement and transformation within a system.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-029",
+    "question": "In a DFD, a data store represents:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A repository where data is held for later use"
+      },
+      {
+        "id": "B",
+        "text": "An external person or organization interacting with the system"
+      },
+      {
+        "id": "C",
+        "text": "A process that transforms incoming data into output"
+      },
+      {
+        "id": "D",
+        "text": "A connector that specifies program control flow"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A data store depicts retained data, such as a file or database.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-030",
+    "question": "What is the purpose of a data dictionary in structured analysis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To define data elements, structures, flows, and stores consistently"
+      },
+      {
+        "id": "B",
+        "text": "To display the timing of messages between software objects"
+      },
+      {
+        "id": "C",
+        "text": "To assign each programmer a unique development task"
+      },
+      {
+        "id": "D",
+        "text": "To calculate the shortest path through a project network"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A data dictionary documents the meaning, composition, and relevant details of data used in models.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-031",
+    "question": "A DFD process has an input flow but no output flow. Which issue should an analyst investigate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whether the process is a black hole that consumes input without producing output"
+      },
+      {
+        "id": "B",
+        "text": "Whether the process is an actor participating in a use case"
+      },
+      {
+        "id": "C",
+        "text": "Whether the data store has inherited a class attribute"
+      },
+      {
+        "id": "D",
+        "text": "Whether the flow represents a valid UML message"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A black-hole process has inputs but no outputs; analysts should check for a modeling error or omitted output.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-032",
+    "question": "What is the main purpose of a decision table in requirements analysis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To represent combinations of conditions and the actions for each combination"
+      },
+      {
+        "id": "B",
+        "text": "To show the physical placement of servers and network devices"
+      },
+      {
+        "id": "C",
+        "text": "To model inheritance between domain classes"
+      },
+      {
+        "id": "D",
+        "text": "To record the chronological order of object messages"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Decision tables make complex business rules explicit by mapping condition combinations to actions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-033",
+    "question": "Which statement best describes a use case?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A description of interactions through which an actor achieves a goal using the system"
+      },
+      {
+        "id": "B",
+        "text": "A list of source-code variables used by one function"
+      },
+      {
+        "id": "C",
+        "text": "A diagram of the hardware locations where software runs"
+      },
+      {
+        "id": "D",
+        "text": "A numerical estimate of the project's development effort"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Use cases capture actor-system interactions and the goal-oriented behavior of a system.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-034",
+    "question": "A requirement states: 'The system shall retain audit logs for seven years.' What is the strongest way to improve its verifiability?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Specify the log events covered, retention behavior, and how compliance will be checked"
+      },
+      {
+        "id": "B",
+        "text": "Replace 'seven years' with 'for a sufficiently long period'"
+      },
+      {
+        "id": "C",
+        "text": "Move the requirement to source-code comments only"
+      },
+      {
+        "id": "D",
+        "text": "Describe the feature as reliable without defining a measurable condition"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Clear scope and an objective check make the retention requirement testable.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "re-srs-035",
+    "question": "Which requirement is most suitable for acceptance testing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The system shall let an authorized clerk export a report as CSV and the exported file shall contain the selected date range"
+      },
+      {
+        "id": "B",
+        "text": "The report feature should be elegant and modern"
+      },
+      {
+        "id": "C",
+        "text": "The developers should use a familiar programming language"
+      },
+      {
+        "id": "D",
+        "text": "The database should be designed after all coding is complete"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A specific observable behavior with a defined output can be checked against acceptance criteria.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

@@ -1,0 +1,912 @@
+[
+  {
+    "id": "se-intro-001",
+    "question": "A software team delivers a program that works on the developer's computer, but repeatedly fails after deployment, exceeds its budget, and is difficult to modify. Which idea most directly explains why software engineering emerged?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The software crisis caused by complexity and unreliable development practices"
+      },
+      {
+        "id": "B",
+        "text": "The replacement of high-level languages by machine-level programming"
+      },
+      {
+        "id": "C",
+        "text": "The inability of operating systems to run programs written by different teams"
+      },
+      {
+        "id": "D",
+        "text": "The elimination of hardware constraints through faster processors"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Software engineering developed in response to project failures involving cost, schedule, quality, and maintenance.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-002",
+    "question": "Which situation is the clearest example of the software crisis rather than an isolated programming defect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "One function returns a wrong value for a particular input"
+      },
+      {
+        "id": "B",
+        "text": "A large project repeatedly misses deadlines, exceeds budget, and is hard to maintain"
+      },
+      {
+        "id": "C",
+        "text": "A compiler reports a syntax error in one statement"
+      },
+      {
+        "id": "D",
+        "text": "A user enters a value outside the permitted range"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The software crisis concerns broad project-level problems of cost, schedule, quality, complexity, and maintenance.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-003",
+    "question": "A manager claims, “Once requirements are approved, changes should never occur; otherwise the project has failed.” Which software myth is most clearly reflected?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A customer myth that requirements can remain fixed throughout development"
+      },
+      {
+        "id": "B",
+        "text": "A practitioner myth that testing can replace design"
+      },
+      {
+        "id": "C",
+        "text": "A management myth that adding people always shortens a delayed project"
+      },
+      {
+        "id": "D",
+        "text": "A product myth that quality is measured only by execution speed"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Customer myths include assuming initial requirements will be complete and remain unchanged without ongoing clarification or management.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-004",
+    "question": "A manager adds six developers to a project that is already several months late, expecting the deadline to move forward proportionally. Which myth is involved?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A customer myth about changing requirements"
+      },
+      {
+        "id": "B",
+        "text": "A management myth that more people can always recover a late project"
+      },
+      {
+        "id": "C",
+        "text": "A practitioner myth that working code needs no documentation"
+      },
+      {
+        "id": "D",
+        "text": "A quality myth that reliability follows from interface appearance"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Adding people to a late project can increase onboarding and communication overhead; it does not guarantee faster completion.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-005",
+    "question": "A developer says, “If the program runs successfully once, the software is complete; documentation and maintenance are separate concerns.” This most closely matches which myth?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A customer myth about the need for a prototype"
+      },
+      {
+        "id": "B",
+        "text": "A management myth about productivity measurement"
+      },
+      {
+        "id": "C",
+        "text": "A practitioner myth that the only deliverable is working code"
+      },
+      {
+        "id": "D",
+        "text": "A system-engineering principle about hardware integration"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Practitioner myths often treat working code as the only deliverable and underestimate reviews, testing, documentation, and maintenance.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-006",
+    "question": "Which property best distinguishes maintainable software from software that merely works correctly today?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can be changed to fix defects or meet new needs without disproportionate effort"
+      },
+      {
+        "id": "B",
+        "text": "It uses the fewest possible source-code lines regardless of clarity"
+      },
+      {
+        "id": "C",
+        "text": "It avoids all changes after the first successful release"
+      },
+      {
+        "id": "D",
+        "text": "It depends on one developer who understands every internal detail"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Maintainability is the ease with which software can be corrected, adapted, or improved.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-007",
+    "question": "An application handles ten times as many users after additional resources are added, without requiring a complete redesign. Which quality attribute is most directly demonstrated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Portability"
+      },
+      {
+        "id": "B",
+        "text": "Scalability"
+      },
+      {
+        "id": "C",
+        "text": "Testability"
+      },
+      {
+        "id": "D",
+        "text": "Usability"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Scalability concerns the ability to handle growth in workload or users as capacity increases.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-008",
+    "question": "A payroll application works for ordinary dates but occasionally crashes on a valid leap-year date. Which quality attribute is most directly deficient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reliability"
+      },
+      {
+        "id": "B",
+        "text": "Portability"
+      },
+      {
+        "id": "C",
+        "text": "Reusability"
+      },
+      {
+        "id": "D",
+        "text": "Learnability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reliability concerns consistent performance of required functions under specified conditions; crashes on valid inputs undermine it.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-009",
+    "question": "A program is correct and fast, but users must memorize obscure commands and frequently make input mistakes. Which quality attribute is most directly weak?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Interoperability"
+      },
+      {
+        "id": "B",
+        "text": "Usability"
+      },
+      {
+        "id": "C",
+        "text": "Portability"
+      },
+      {
+        "id": "D",
+        "text": "Fault tolerance"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Usability concerns how effectively and efficiently intended users can learn and operate software.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-010",
+    "question": "A desktop application moves from one operating system to another with minimal source-code changes. Which quality attribute does this most directly indicate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Portability"
+      },
+      {
+        "id": "B",
+        "text": "Correctness"
+      },
+      {
+        "id": "C",
+        "text": "Availability"
+      },
+      {
+        "id": "D",
+        "text": "Modifiability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Portability measures the ease of transferring software to another environment.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-011",
+    "question": "Two independently developed applications exchange data and invoke each other's services through agreed interfaces. Which quality attribute is most directly involved?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Interoperability"
+      },
+      {
+        "id": "B",
+        "text": "Maintainability"
+      },
+      {
+        "id": "C",
+        "text": "Learnability"
+      },
+      {
+        "id": "D",
+        "text": "Recoverability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Interoperability is the ability of systems to interact and exchange information with other systems.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-012",
+    "question": "A banking system continues operating when one server fails by switching to a backup component with little interruption. Which quality attribute is most directly relevant?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fault tolerance"
+      },
+      {
+        "id": "B",
+        "text": "Portability"
+      },
+      {
+        "id": "C",
+        "text": "Reusability"
+      },
+      {
+        "id": "D",
+        "text": "Understandability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fault tolerance is the ability to continue providing required service despite certain component faults.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-013",
+    "question": "Which statement best describes software engineering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A systematic, disciplined, and measurable approach to software development, operation, and maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Translating requirements directly into source code with minimal intermediate work"
+      },
+      {
+        "id": "C",
+        "text": "Studying physical computer components and their electrical interfaces"
+      },
+      {
+        "id": "D",
+        "text": "Testing a finished program without changing its design"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Software engineering applies systematic, disciplined, and measurable methods across the software life cycle.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-014",
+    "question": "A team defines its process, reviews requirements and design, measures defect trends, and plans maintenance before release. What is the strongest conclusion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The team is applying software engineering practices rather than relying only on coding skill"
+      },
+      {
+        "id": "B",
+        "text": "The team is performing system engineering because it measures defects"
+      },
+      {
+        "id": "C",
+        "text": "The team is avoiding development by emphasizing documentation"
+      },
+      {
+        "id": "D",
+        "text": "The process guarantees a defect-free product"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Defined processes, reviews, measurement, and maintenance planning are disciplined software-engineering practices, but they cannot guarantee zero defects.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-015",
+    "question": "A project includes software, processors, sensors, communication links, procedures, and human operators. Which discipline primarily addresses the overall system and interactions among these elements?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Software engineering"
+      },
+      {
+        "id": "B",
+        "text": "System engineering"
+      },
+      {
+        "id": "C",
+        "text": "Compiler construction"
+      },
+      {
+        "id": "D",
+        "text": "Database normalization"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "System engineering addresses the overall system, including hardware, software, people, processes, and their interactions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-016",
+    "question": "In an aircraft-control project, one team develops the embedded control program while another coordinates sensors, hardware, software, and system safety. Which pairing is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The first mainly performs software engineering; the second mainly performs system engineering"
+      },
+      {
+        "id": "B",
+        "text": "The first mainly performs system engineering; the second mainly performs software engineering"
+      },
+      {
+        "id": "C",
+        "text": "Both perform only software testing because the system is computer-based"
+      },
+      {
+        "id": "D",
+        "text": "Both perform hardware engineering because the application is embedded"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Software engineering focuses on the software life cycle; system engineering integrates all system elements and constraints.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-017",
+    "question": "Which statement about software and hardware is generally correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Software is engineered and evolves through changes, while hardware is typically manufactured from a physical design"
+      },
+      {
+        "id": "B",
+        "text": "Software physically wears out at the same rate as hardware during normal operation"
+      },
+      {
+        "id": "C",
+        "text": "Software maintenance is unnecessary after compilation"
+      },
+      {
+        "id": "D",
+        "text": "Hardware failures are always caused by software design defects"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Software is engineered rather than physically manufactured in the same sense as hardware; it does not physically wear out, though changes and defects can degrade service.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-018",
+    "question": "A product implements every listed function correctly, but users cannot complete their work because a critical workflow was omitted from the requirements. Which conclusion is best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Functional correctness alone does not ensure that the product meets user needs"
+      },
+      {
+        "id": "B",
+        "text": "The product is necessarily reliable because all listed functions work"
+      },
+      {
+        "id": "C",
+        "text": "The defect must be caused by the compiler rather than requirements work"
+      },
+      {
+        "id": "D",
+        "text": "The product is portable because the workflow is missing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Software can conform to specified functions yet fail user needs if requirements are incomplete or misunderstood.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-019",
+    "question": "A team estimates effort using only source-code line count, ignoring complexity, reliability requirements, and team experience. What is the strongest criticism?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A single size measure cannot capture all major influences on effort and quality"
+      },
+      {
+        "id": "B",
+        "text": "Source-code size is unrelated to every kind of project estimate"
+      },
+      {
+        "id": "C",
+        "text": "Team experience matters only after deployment"
+      },
+      {
+        "id": "D",
+        "text": "Reliability requirements affect hardware costs but never software effort"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Size is useful, but effort also depends on complexity, personnel capability, constraints, and reliability requirements.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-020",
+    "question": "Which activity is the clearest example of software maintenance rather than initial development?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Correcting a defect found in a released application"
+      },
+      {
+        "id": "B",
+        "text": "Converting approved requirements into an initial architecture"
+      },
+      {
+        "id": "C",
+        "text": "Interviewing users before the first requirements baseline"
+      },
+      {
+        "id": "D",
+        "text": "Selecting a programming language before implementation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Maintenance modifies software after delivery, including correcting defects and adapting or improving the product.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-021",
+    "question": "A team wants work to be repeatable, progress measurable, and results reviewable. Which principle best motivates its choice of process?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Development should rely primarily on individual intuition"
+      },
+      {
+        "id": "B",
+        "text": "Development should use systematic and measurable methods"
+      },
+      {
+        "id": "C",
+        "text": "Quality can be established solely by customer demonstrations"
+      },
+      {
+        "id": "D",
+        "text": "Documenting decisions should be avoided to preserve flexibility"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Software engineering emphasizes systematic, disciplined, and measurable development and maintenance methods.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-022",
+    "question": "Which option best distinguishes a software product from the process used to create it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The product is the resulting software and related deliverables; the process is the activities used to build and maintain it"
+      },
+      {
+        "id": "B",
+        "text": "The product is the schedule; the process is the executable program"
+      },
+      {
+        "id": "C",
+        "text": "The product is the testing team; the process is the customer requirement list"
+      },
+      {
+        "id": "D",
+        "text": "The product is the programming language; the process is the target operating system"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A software product is the resulting software and relevant deliverables; a process defines the activities and methods used to create and evolve it.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-023",
+    "question": "A shared module is reused in several products. A change to it unexpectedly breaks two applications. Which practice best reduces this risk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Impact analysis, disciplined interfaces, and regression testing of dependent products"
+      },
+      {
+        "id": "B",
+        "text": "Removing documentation so the module remains independent"
+      },
+      {
+        "id": "C",
+        "text": "Increasing code length so the module is easier to identify"
+      },
+      {
+        "id": "D",
+        "text": "Avoiding tests of applications that reuse the module"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reuse creates dependencies; impact analysis, controlled interfaces, and regression testing help manage change consequences.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-024",
+    "question": "Which situation most directly demonstrates that software quality is multidimensional?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A program is fast but difficult to use, expensive to modify, and unreliable under peak load"
+      },
+      {
+        "id": "B",
+        "text": "A program is stored on disk and loaded into memory"
+      },
+      {
+        "id": "C",
+        "text": "A program is written in a high-level language and compiled"
+      },
+      {
+        "id": "D",
+        "text": "A program contains functions, variables, and conditional statements"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Quality includes performance, usability, maintainability, reliability, and other attributes; strength in one does not guarantee strength in others.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-025",
+    "question": "A customer asks for a “fast, secure, easy-to-use application” without measurable criteria. What should the team do before treating these as testable acceptance conditions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clarify the terms and define measurable, verifiable criteria with stakeholders"
+      },
+      {
+        "id": "B",
+        "text": "Translate each adjective directly into a source-code variable name"
+      },
+      {
+        "id": "C",
+        "text": "Assume the developer's interpretation is the agreed requirement"
+      },
+      {
+        "id": "D",
+        "text": "Defer all clarification until after deployment"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Vague quality goals should be clarified and made measurable so stakeholders can agree on and verify requirements.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-026",
+    "question": "Which statement about software defects is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A defect may remain hidden and appear only under particular inputs, states, or environments"
+      },
+      {
+        "id": "B",
+        "text": "Every defect causes immediate failure whenever the program starts"
+      },
+      {
+        "id": "C",
+        "text": "Passing one test proves that no defects remain"
+      },
+      {
+        "id": "D",
+        "text": "Defects originate only in coding, never in requirements or design"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Defects may originate in requirements, design, or code and be exposed only under particular conditions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-027",
+    "question": "A product is delivered on time and within budget but does not solve the problem for which it was commissioned. Which assessment is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Schedule and cost success do not establish product effectiveness or user satisfaction"
+      },
+      {
+        "id": "B",
+        "text": "The project is fully successful because time and budget are the only measures"
+      },
+      {
+        "id": "C",
+        "text": "The product must be reliable because it stayed within budget"
+      },
+      {
+        "id": "D",
+        "text": "The product is maintainable because it was delivered on time"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Project constraints matter, but success also depends on whether the software meets intended needs and quality requirements.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-028",
+    "question": "A hospital system must protect patient records, recover after interruptions, and remain easy to update when regulations change. What follows most directly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Distinct quality requirements should influence design and verification from the outset"
+      },
+      {
+        "id": "B",
+        "text": "Only functional requirements matter because the system has identifiable user actions"
+      },
+      {
+        "id": "C",
+        "text": "Security can always be postponed until coding is complete without architectural impact"
+      },
+      {
+        "id": "D",
+        "text": "Maintainability and recoverability are interchangeable attributes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Security, recoverability, and maintainability are distinct concerns that should inform requirements, design, and verification early.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-029",
+    "question": "Which statement best captures the relationship between software engineering and programming?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Programming is one activity within the broader software-engineering life cycle"
+      },
+      {
+        "id": "B",
+        "text": "Software engineering begins only after all programming has finished"
+      },
+      {
+        "id": "C",
+        "text": "Programming necessarily includes every management, requirements, and maintenance activity"
+      },
+      {
+        "id": "D",
+        "text": "Software engineering and programming are identical whenever a project is small"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Software engineering also covers requirements, design, verification, project management, delivery, and maintenance.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-030",
+    "question": "A developer creates a clever solution quickly, but teammates cannot understand it and small changes repeatedly introduce defects. Which response best reflects sound engineering practice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Improve clarity, modularity, and supporting tests while preserving required behavior"
+      },
+      {
+        "id": "B",
+        "text": "Keep it unchanged because the original developer understands it"
+      },
+      {
+        "id": "C",
+        "text": "Remove tests so future changes can be made without constraints"
+      },
+      {
+        "id": "D",
+        "text": "Rewrite it in a lower-level language because that guarantees maintainability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Readable structure, modularity, and tests improve understandability and changeability while helping detect regressions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-031",
+    "question": "Which claim is an unrealistic software myth rather than a sound engineering principle?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A defined process and reviews can reduce risk but cannot guarantee a defect-free product"
+      },
+      {
+        "id": "B",
+        "text": "If a project is late, adding people will always make it finish earlier"
+      },
+      {
+        "id": "C",
+        "text": "Requirements may need clarification as stakeholders learn more"
+      },
+      {
+        "id": "D",
+        "text": "Software often needs maintenance as its environment and needs change"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Adding people to a late project can increase coordination and training overhead, so earlier completion is not guaranteed.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-032",
+    "question": "A team wants evidence that an application is dependable over time, not merely that it produced correct output in one test. Which evidence is most relevant?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Observed behavior across representative operating conditions and repeated use"
+      },
+      {
+        "id": "B",
+        "text": "The number of comments in the source code"
+      },
+      {
+        "id": "C",
+        "text": "The number of developers who contributed to the first release"
+      },
+      {
+        "id": "D",
+        "text": "The number of screens in the user interface"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reliability requires evidence about behavior over time and under specified conditions; one successful test is insufficient.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-033",
+    "question": "A company treats software as a one-time deliverable and allocates no resources for updates, defect correction, or environment changes. Which assumption is most flawed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Software can require ongoing evolution after delivery"
+      },
+      {
+        "id": "B",
+        "text": "Software execution depends on a runtime environment"
+      },
+      {
+        "id": "C",
+        "text": "Software requirements can be written down"
+      },
+      {
+        "id": "D",
+        "text": "Software can be tested before release"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Delivered software commonly needs maintenance as defects, environments, and user needs evolve.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-034",
+    "question": "Which combination is the strongest evidence of a disciplined software-engineering approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Defined activities, documented decisions, systematic verification, measurement, and planned maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Rapid coding, informal testing, undocumented changes, and release when the deadline arrives"
+      },
+      {
+        "id": "C",
+        "text": "One expert makes all decisions while other members avoid reviews"
+      },
+      {
+        "id": "D",
+        "text": "Requirements are skipped, but the final interface is polished"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A disciplined process combines systematic activities with documentation, verification, measurement, and lifecycle support.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-intro-035",
+    "question": "A system satisfies its functional specification, but a security weakness allows unauthorized access to confidential data. Which conclusion is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Functional correctness does not establish that all non-functional quality requirements are satisfied"
+      },
+      {
+        "id": "B",
+        "text": "The system is secure because its specified functions work correctly"
+      },
+      {
+        "id": "C",
+        "text": "The weakness must be a usability issue rather than a security issue"
+      },
+      {
+        "id": "D",
+        "text": "The system is not software because its behavior violates a policy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Functional correctness does not imply security, performance, reliability, or other quality attributes; these require explicit evaluation.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

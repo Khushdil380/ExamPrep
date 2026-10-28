@@ -1,0 +1,652 @@
+[
+  {
+    "id": "se-scm-001",
+    "question": "The primary purpose of Software Configuration Management (SCM) is to",
+    "options": [
+      {
+        "id": "A",
+        "text": "control and track changes to software artifacts throughout their lifecycle"
+      },
+      {
+        "id": "B",
+        "text": "execute every unit test automatically after each commit"
+      },
+      {
+        "id": "C",
+        "text": "estimate project cost from source-code size"
+      },
+      {
+        "id": "D",
+        "text": "replace requirements engineering with version labels"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "SCM identifies, controls, tracks, and audits changes to software artifacts so product integrity is maintained.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-002",
+    "question": "Which set of items can typically be placed under configuration management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Source code only"
+      },
+      {
+        "id": "B",
+        "text": "Source code, requirements, design documents, test assets, build scripts, and releases"
+      },
+      {
+        "id": "C",
+        "text": "Only files that are executable after compilation"
+      },
+      {
+        "id": "D",
+        "text": "Only documents that are changed after deployment"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Configuration management can cover all important artifacts, not just source code.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-003",
+    "question": "An SCM repository is best described as",
+    "options": [
+      {
+        "id": "A",
+        "text": "a controlled store for configuration items and their history or metadata"
+      },
+      {
+        "id": "B",
+        "text": "a test environment that runs load tests"
+      },
+      {
+        "id": "C",
+        "text": "a list of defects without links to source artifacts"
+      },
+      {
+        "id": "D",
+        "text": "a temporary folder used only during compilation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A repository stores versioned configuration items and associated information such as history, branches, or metadata.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-004",
+    "question": "Which statement best distinguishes a repository from a working copy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The repository is the managed source of stored versions; the working copy is the local copy used for editing"
+      },
+      {
+        "id": "B",
+        "text": "The working copy stores all project history while the repository stores only screenshots"
+      },
+      {
+        "id": "C",
+        "text": "They are always the same physical directory"
+      },
+      {
+        "id": "D",
+        "text": "A repository is used only for backups and cannot track versions"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A working copy is the developer's checkout of files; the repository maintains managed versions and history, depending on the tool and workflow.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-005",
+    "question": "In SCM, a configuration item (CI) is",
+    "options": [
+      {
+        "id": "A",
+        "text": "an artifact selected for configuration management"
+      },
+      {
+        "id": "B",
+        "text": "any temporary variable created while a program runs"
+      },
+      {
+        "id": "C",
+        "text": "a user who approves every pull request"
+      },
+      {
+        "id": "D",
+        "text": "a defect that has already been fixed"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Configuration items are artifacts designated for identification, control, and tracking.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-006",
+    "question": "A baseline is most accurately defined as",
+    "options": [
+      {
+        "id": "A",
+        "text": "an approved snapshot of a configuration that serves as a reference for further work"
+      },
+      {
+        "id": "B",
+        "text": "the latest unreviewed change in a developer's working directory"
+      },
+      {
+        "id": "C",
+        "text": "a list of all test failures in the current build"
+      },
+      {
+        "id": "D",
+        "text": "a branch that must be deleted after each commit"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A baseline is a formally agreed configuration used as a stable reference; changes are controlled after establishment.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-007",
+    "question": "Why is a baseline useful during software development?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It provides a known reference for measuring and controlling subsequent changes"
+      },
+      {
+        "id": "B",
+        "text": "It prevents all future changes from being made"
+      },
+      {
+        "id": "C",
+        "text": "It guarantees that no defects exist in the approved version"
+      },
+      {
+        "id": "D",
+        "text": "It eliminates the need for change requests"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Baselines stabilize an agreed configuration while allowing authorized, traceable changes.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-008",
+    "question": "A customer requests a change to an approved baseline. A sound SCM process should normally",
+    "options": [
+      {
+        "id": "A",
+        "text": "evaluate, authorize, implement, and record the change through change control"
+      },
+      {
+        "id": "B",
+        "text": "modify the baseline immediately without recording it"
+      },
+      {
+        "id": "C",
+        "text": "reject every change because baselines are permanent"
+      },
+      {
+        "id": "D",
+        "text": "allow only the original author to make any future change"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Controlled change management assesses impact and approval before implementing and recording a baseline change.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-009",
+    "question": "Configuration identification primarily involves",
+    "options": [
+      {
+        "id": "A",
+        "text": "selecting and uniquely labeling configuration items and their versions"
+      },
+      {
+        "id": "B",
+        "text": "testing response time under peak load"
+      },
+      {
+        "id": "C",
+        "text": "deciding whether a feature is commercially profitable"
+      },
+      {
+        "id": "D",
+        "text": "repairing every defect found in production"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Configuration identification defines the items under control and how versions and configurations are uniquely identified.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-010",
+    "question": "Configuration control primarily ensures that",
+    "options": [
+      {
+        "id": "A",
+        "text": "changes to configuration items are evaluated and authorized before incorporation"
+      },
+      {
+        "id": "B",
+        "text": "every developer uses the same text editor"
+      },
+      {
+        "id": "C",
+        "text": "only the newest source file is retained"
+      },
+      {
+        "id": "D",
+        "text": "all test cases produce identical execution times"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Configuration control governs proposed changes, approval, implementation, and traceability.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-011",
+    "question": "Configuration status accounting/reporting provides",
+    "options": [
+      {
+        "id": "A",
+        "text": "recorded information about configuration items, versions, change requests, and their status"
+      },
+      {
+        "id": "B",
+        "text": "only a final list of unresolved compiler warnings"
+      },
+      {
+        "id": "C",
+        "text": "a guarantee that the product is secure"
+      },
+      {
+        "id": "D",
+        "text": "an automatic decision about all requested features"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Status accounting records and reports the state and history of configuration items and change activity.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-012",
+    "question": "A configuration audit is mainly performed to determine whether",
+    "options": [
+      {
+        "id": "A",
+        "text": "the product and records conform to specified configuration requirements and approved baselines"
+      },
+      {
+        "id": "B",
+        "text": "the project team has used the most popular programming language"
+      },
+      {
+        "id": "C",
+        "text": "the product contains the maximum possible number of features"
+      },
+      {
+        "id": "D",
+        "text": "the application has no performance bottlenecks whatsoever"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Configuration audits check consistency between actual artifacts, documentation, and approved configuration records.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-013",
+    "question": "Which is the best example of a functional configuration audit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Checking whether the delivered product satisfies the approved functional requirements for its baseline"
+      },
+      {
+        "id": "B",
+        "text": "Checking only whether filenames follow a naming convention"
+      },
+      {
+        "id": "C",
+        "text": "Counting commits without examining their content"
+      },
+      {
+        "id": "D",
+        "text": "Checking whether every developer has the same operating system"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Functional Configuration Audit (FCA) checks that the product's functional characteristics meet specified requirements.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-014",
+    "question": "Which is most closely associated with a Physical Configuration Audit (PCA)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Verifying that the as-built product and its documentation correctly identify the configuration to be delivered"
+      },
+      {
+        "id": "B",
+        "text": "Testing whether all requirements are useful to customers"
+      },
+      {
+        "id": "C",
+        "text": "Measuring the average time between failures"
+      },
+      {
+        "id": "D",
+        "text": "Checking only whether each branch has a merge commit"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A PCA examines the product configuration and associated documentation to establish that the released item is correctly identified and documented.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-015",
+    "question": "Version control is primarily used to",
+    "options": [
+      {
+        "id": "A",
+        "text": "record and manage successive revisions of files and support collaboration"
+      },
+      {
+        "id": "B",
+        "text": "approve business requirements automatically"
+      },
+      {
+        "id": "C",
+        "text": "replace system testing with code history"
+      },
+      {
+        "id": "D",
+        "text": "measure reliability without operational data"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Version control records revisions and helps developers compare, restore, branch, and merge changes.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-016",
+    "question": "In Git, a commit generally represents",
+    "options": [
+      {
+        "id": "A",
+        "text": "a recorded snapshot of repository content with metadata and parent history"
+      },
+      {
+        "id": "B",
+        "text": "a temporary file that disappears after compilation"
+      },
+      {
+        "id": "C",
+        "text": "a request that has automatically been approved for production"
+      },
+      {
+        "id": "D",
+        "text": "a remote server used only for issue tracking"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Git commit records a repository snapshot and metadata such as author, message, and parent commit references.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-017",
+    "question": "Which statement about Git and SVN is generally correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Git is distributed, while SVN is traditionally centralized"
+      },
+      {
+        "id": "B",
+        "text": "Git is centralized, while SVN is distributed"
+      },
+      {
+        "id": "C",
+        "text": "Both require every developer to commit directly to one central server to preserve all history"
+      },
+      {
+        "id": "D",
+        "text": "Neither supports tracking file revisions"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Git is a distributed version control system; Subversion (SVN) is traditionally centralized.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-018",
+    "question": "In a distributed version control system such as Git, a local clone normally contains",
+    "options": [
+      {
+        "id": "A",
+        "text": "a local repository with project history, allowing many operations offline"
+      },
+      {
+        "id": "B",
+        "text": "only the current source files with no commit history"
+      },
+      {
+        "id": "C",
+        "text": "only the remote repository's issue list"
+      },
+      {
+        "id": "D",
+        "text": "a compiled executable but no source files"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Git clone normally contains repository data and history locally, enabling offline commits and history inspection.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-019",
+    "question": "In Git, a branch is most accurately understood as",
+    "options": [
+      {
+        "id": "A",
+        "text": "a movable reference to a commit that supports an independent line of work"
+      },
+      {
+        "id": "B",
+        "text": "a separate physical computer for every feature"
+      },
+      {
+        "id": "C",
+        "text": "a permanent copy that cannot be merged"
+      },
+      {
+        "id": "D",
+        "text": "a file containing only the final release notes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Git branch is a lightweight reference to a commit, commonly used to isolate work before integration.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-020",
+    "question": "A merge conflict occurs when",
+    "options": [
+      {
+        "id": "A",
+        "text": "changes from different lines of work cannot be automatically reconciled"
+      },
+      {
+        "id": "B",
+        "text": "a commit message is longer than one line"
+      },
+      {
+        "id": "C",
+        "text": "a developer creates a branch from an older commit"
+      },
+      {
+        "id": "D",
+        "text": "a repository contains more than one file"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Conflicts arise when version-control tools cannot safely combine competing edits automatically.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-021",
+    "question": "Which pairing of Git commands and common purposes is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "commit—record local changes; pull—fetch and integrate remote changes; push—send local commits to a remote"
+      },
+      {
+        "id": "B",
+        "text": "commit—delete history; pull—publish local commits; push—discard remote changes"
+      },
+      {
+        "id": "C",
+        "text": "commit—create a repository backup only; pull—rename a branch; push—run unit tests"
+      },
+      {
+        "id": "D",
+        "text": "commit—approve a change request; pull—create a baseline automatically; push—perform an audit"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "These are the common roles of commit, pull, and push in Git workflows.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-022",
+    "question": "A pull request or merge request is primarily used to",
+    "options": [
+      {
+        "id": "A",
+        "text": "propose changes for review and controlled integration into another branch"
+      },
+      {
+        "id": "B",
+        "text": "guarantee that the proposed code contains no defects"
+      },
+      {
+        "id": "C",
+        "text": "replace the repository's version history"
+      },
+      {
+        "id": "D",
+        "text": "automatically create a software safety case"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pull/merge requests support discussion, review, checks, and approval before changes are merged.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-023",
+    "question": "A team tags a specific commit as `v2.0.0` before release. The tag primarily helps",
+    "options": [
+      {
+        "id": "A",
+        "text": "identify an important point in repository history such as a release"
+      },
+      {
+        "id": "B",
+        "text": "automatically roll back every user's local changes"
+      },
+      {
+        "id": "C",
+        "text": "prevent all future commits to the repository"
+      },
+      {
+        "id": "D",
+        "text": "replace the release's build and test records"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tags provide stable names for significant commits, commonly release points.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-024",
+    "question": "A developer changes a tracked file locally but has not committed the change. Which statement is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The working tree has modifications that are not yet recorded in a commit"
+      },
+      {
+        "id": "B",
+        "text": "The change is already part of the remote repository"
+      },
+      {
+        "id": "C",
+        "text": "The change has automatically changed the approved baseline"
+      },
+      {
+        "id": "D",
+        "text": "The change cannot be reviewed or compared"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Uncommitted edits exist in the working tree and are not yet represented by a new commit.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scm-025",
+    "question": "Before approving a proposed change to a configuration item, the change control board should primarily review",
+    "options": [
+      {
+        "id": "A",
+        "text": "its impact on cost, schedule, interfaces, risks, and related configuration items"
+      },
+      {
+        "id": "B",
+        "text": "only the number of lines that will be modified"
+      },
+      {
+        "id": "C",
+        "text": "whether the requester is the most senior developer"
+      },
+      {
+        "id": "D",
+        "text": "whether the change can avoid being recorded"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Impact analysis evaluates technical dependencies and project consequences before a change is authorized.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

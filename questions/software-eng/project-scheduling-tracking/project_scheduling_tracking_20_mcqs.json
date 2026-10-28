@@ -1,0 +1,522 @@
+[
+  {
+    "id": "se-scheduling-tracking-001",
+    "question": "A project manager wants a quick visual view of each task's planned start, finish, and duration across the calendar. Which tool is most directly suited to this purpose?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decision table"
+      },
+      {
+        "id": "B",
+        "text": "Gantt chart"
+      },
+      {
+        "id": "C",
+        "text": "Data dictionary"
+      },
+      {
+        "id": "D",
+        "text": "Cause-effect graph"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A Gantt chart displays project activities as bars against a timeline, making planned dates and durations easy to see.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-002",
+    "question": "In a project schedule, activity B can begin only after activity A is completed. This relationship is best described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Finish-to-start dependency"
+      },
+      {
+        "id": "B",
+        "text": "Start-to-start dependency"
+      },
+      {
+        "id": "C",
+        "text": "Finish-to-finish dependency"
+      },
+      {
+        "id": "D",
+        "text": "Start-to-finish dependency"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In a finish-to-start relationship, the predecessor activity must finish before the successor can start.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-003",
+    "question": "A Gantt chart shows that a task is scheduled to finish this week, but it does not clearly show which chain of dependent tasks determines the project's minimum completion time. Which technique best addresses that question?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Function Point Analysis"
+      },
+      {
+        "id": "B",
+        "text": "Earned Value Analysis"
+      },
+      {
+        "id": "C",
+        "text": "Critical Path Method"
+      },
+      {
+        "id": "D",
+        "text": "Software Reliability Growth Model"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "CPM identifies the critical path—the longest-duration path through dependent activities that determines the minimum project duration.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-004",
+    "question": "In CPM, an activity has zero total float. What does this normally indicate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It has no predecessor activity"
+      },
+      {
+        "id": "B",
+        "text": "It must have the shortest duration in the network"
+      },
+      {
+        "id": "C",
+        "text": "Its cost has already exceeded the budget"
+      },
+      {
+        "id": "D",
+        "text": "A delay in it will delay the project completion date, assuming the baseline schedule"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A zero-total-float activity lies on a critical path; delaying it generally delays project completion unless the schedule is otherwise changed.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-005",
+    "question": "Two independent paths lead to the final project milestone. Path X takes 12 days and Path Y takes 15 days. Ignoring resource constraints, the earliest project completion time is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 days"
+      },
+      {
+        "id": "B",
+        "text": "15 days"
+      },
+      {
+        "id": "C",
+        "text": "27 days"
+      },
+      {
+        "id": "D",
+        "text": "3 days"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The project cannot finish until both paths are complete, so the longer path determines the earliest completion time: 15 days.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-006",
+    "question": "For a non-critical activity, total float is 4 days. If it is delayed by 2 days and no other schedule changes occur, what is the usual result?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The project must finish 2 days late"
+      },
+      {
+        "id": "B",
+        "text": "The critical path becomes 2 days shorter"
+      },
+      {
+        "id": "C",
+        "text": "The delay can be absorbed by its float without delaying project completion"
+      },
+      {
+        "id": "D",
+        "text": "The activity becomes critical in every case"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A delay smaller than the available total float can normally be absorbed without changing the project completion date.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-007",
+    "question": "Which statement best distinguishes CPM from PERT in their traditional forms?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CPM commonly uses a single activity-duration estimate, while PERT uses optimistic, most likely, and pessimistic estimates"
+      },
+      {
+        "id": "B",
+        "text": "CPM is used only for software, while PERT is used only for construction"
+      },
+      {
+        "id": "C",
+        "text": "CPM measures earned value, while PERT measures source-code size"
+      },
+      {
+        "id": "D",
+        "text": "CPM has no activity dependencies, while PERT requires every task to be independent"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Traditional CPM uses deterministic duration estimates; PERT models uncertainty with three time estimates.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-008",
+    "question": "A PERT activity has optimistic time 3 days, most likely time 6 days, and pessimistic time 15 days. Using the standard weighted-average formula, its expected duration is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 days"
+      },
+      {
+        "id": "B",
+        "text": "7 days"
+      },
+      {
+        "id": "C",
+        "text": "8 days"
+      },
+      {
+        "id": "D",
+        "text": "9 days"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Expected time = (O + 4M + P) / 6 = (3 + 24 + 15) / 6 = 42 / 6 = 7 days.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-009",
+    "question": "In the standard PERT approximation, if optimistic time is 2 days and pessimistic time is 14 days, the activity-time variance is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 days²"
+      },
+      {
+        "id": "B",
+        "text": "4 days²"
+      },
+      {
+        "id": "C",
+        "text": "6 days²"
+      },
+      {
+        "id": "D",
+        "text": "16 days²"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "PERT variance = ((P − O) / 6)² = ((14 − 2) / 6)² = 2² = 4 days².",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-010",
+    "question": "A manager needs to compare the value of work actually completed with the amount that was planned to be completed by a status date. Which Earned Value Analysis measure represents the budgeted value of work performed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Actual Cost (AC)"
+      },
+      {
+        "id": "B",
+        "text": "Planned Value (PV)"
+      },
+      {
+        "id": "C",
+        "text": "Schedule Variance (SV)"
+      },
+      {
+        "id": "D",
+        "text": "Earned Value (EV)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Earned Value (EV) is the budgeted value of the work actually completed by the status date.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-011",
+    "question": "At a status date, a project has EV = ₹80,000 and PV = ₹100,000. What does the Schedule Variance (SV = EV − PV) indicate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SV = −₹20,000, so the project is behind its planned progress in earned-value terms"
+      },
+      {
+        "id": "B",
+        "text": "SV = +₹20,000, so the project is ahead of schedule"
+      },
+      {
+        "id": "C",
+        "text": "SV = −₹20,000, so the project is under budget"
+      },
+      {
+        "id": "D",
+        "text": "SV = +₹180,000, so the project has earned more than its total budget"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "SV = EV − PV = 80,000 − 100,000 = −₹20,000; a negative SV indicates less work earned than planned.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-012",
+    "question": "A project reports EV = ₹60,000 and AC = ₹75,000. Based on Cost Variance (CV = EV − AC), the project is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Under budget by ₹15,000"
+      },
+      {
+        "id": "B",
+        "text": "Ahead of schedule by ₹15,000"
+      },
+      {
+        "id": "C",
+        "text": "Over budget by ₹15,000"
+      },
+      {
+        "id": "D",
+        "text": "Exactly on budget because EV is positive"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "CV = 60,000 − 75,000 = −₹15,000; negative cost variance means the completed work cost more than its budgeted value.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-013",
+    "question": "A project's EV is ₹90,000 and PV is ₹75,000. Its Schedule Performance Index (SPI = EV/PV) is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.83, indicating less progress than planned"
+      },
+      {
+        "id": "B",
+        "text": "1.20, indicating more progress than planned"
+      },
+      {
+        "id": "C",
+        "text": "0.20, indicating 20% of the budget remains"
+      },
+      {
+        "id": "D",
+        "text": "1.67, indicating the project is over budget"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SPI = 90,000 ÷ 75,000 = 1.20; an SPI above 1 indicates more work earned than planned by that date.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-014",
+    "question": "A project has EV = ₹50,000 and AC = ₹40,000. What is its Cost Performance Index (CPI = EV/AC), and what does it suggest?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.80; cost efficiency is worse than planned"
+      },
+      {
+        "id": "B",
+        "text": "1.25; each unit of cost is earning more than one unit of budgeted work"
+      },
+      {
+        "id": "C",
+        "text": "1.25; the project is behind schedule"
+      },
+      {
+        "id": "D",
+        "text": "0.20; the project has completed 20% of its scope"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CPI = 50,000 ÷ 40,000 = 1.25; CPI greater than 1 indicates favorable cost performance.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-015",
+    "question": "Which set correctly matches the three core Earned Value Analysis quantities?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PV—actual expenditure; EV—planned work; AC—budgeted value of completed work"
+      },
+      {
+        "id": "B",
+        "text": "PV—budgeted value of scheduled work; EV—budgeted value of completed work; AC—actual cost of completed work"
+      },
+      {
+        "id": "C",
+        "text": "PV—remaining effort; EV—total project duration; AC—critical-path duration"
+      },
+      {
+        "id": "D",
+        "text": "PV—earned schedule; EV—actual schedule; AC—approved baseline"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "PV measures planned work in budget terms, EV measures completed work in budget terms, and AC is the actual cost incurred.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-016",
+    "question": "A project has EV = ₹120,000, AC = ₹100,000, and PV = ₹150,000. Which interpretation is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Over budget and ahead of schedule"
+      },
+      {
+        "id": "B",
+        "text": "Under budget and ahead of schedule"
+      },
+      {
+        "id": "C",
+        "text": "Over budget and behind schedule"
+      },
+      {
+        "id": "D",
+        "text": "Under budget and behind schedule"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "CV = EV − AC = +₹20,000 (under budget); SV = EV − PV = −₹30,000 (behind schedule in earned-value terms).",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-017",
+    "question": "Which statement about the critical path is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is always the path containing the largest number of activities"
+      },
+      {
+        "id": "B",
+        "text": "It is the path with the lowest total cost, regardless of duration"
+      },
+      {
+        "id": "C",
+        "text": "It is the longest-duration path through the activity network and determines the earliest completion time"
+      },
+      {
+        "id": "D",
+        "text": "It includes every activity that has a predecessor"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The critical path is determined by total path duration, not by activity count or cost.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-018",
+    "question": "Why is a Gantt chart often used together with CPM or PERT rather than as a complete replacement for them?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A Gantt chart cannot display calendar dates"
+      },
+      {
+        "id": "B",
+        "text": "CPM and PERT are used only after a project is finished"
+      },
+      {
+        "id": "C",
+        "text": "A Gantt chart calculates cost variance automatically from source-code size"
+      },
+      {
+        "id": "D",
+        "text": "A Gantt chart makes timing visible, while CPM/PERT analyze dependencies, critical paths, or duration uncertainty"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gantt charts are strong visual scheduling tools; CPM and PERT provide network-based critical-path and time-estimation analysis.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-019",
+    "question": "A task has earliest start (ES) = 5 days and latest start (LS) = 8 days. Assuming the same duration and standard CPM definitions, its total float is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 days"
+      },
+      {
+        "id": "B",
+        "text": "5 days"
+      },
+      {
+        "id": "C",
+        "text": "8 days"
+      },
+      {
+        "id": "D",
+        "text": "13 days"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Total float = LS − ES = 8 − 5 = 3 days.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-scheduling-tracking-020",
+    "question": "A project has a positive Schedule Variance (SV) but a negative Cost Variance (CV). Which interpretation is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Less work than planned has been completed, and spending is below the value earned"
+      },
+      {
+        "id": "B",
+        "text": "More work than planned has been completed in earned-value terms, but actual cost exceeds earned value"
+      },
+      {
+        "id": "C",
+        "text": "The project is ahead of schedule and under budget"
+      },
+      {
+        "id": "D",
+        "text": "The project is behind schedule, but actual cost is below earned value"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Positive SV means EV > PV (ahead of planned progress); negative CV means EV < AC (over budget for the work earned).",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

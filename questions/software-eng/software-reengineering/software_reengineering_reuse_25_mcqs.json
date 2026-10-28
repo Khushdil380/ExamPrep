@@ -1,0 +1,652 @@
+[
+  {
+    "id": "software_reengineering_reuse-001",
+    "question": "Business Process Re-engineering (BPR) primarily focuses on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fundamental redesign of business processes to achieve major improvements"
+      },
+      {
+        "id": "B",
+        "text": "Incremental correction of individual coding defects"
+      },
+      {
+        "id": "C",
+        "text": "Converting source code into machine code"
+      },
+      {
+        "id": "D",
+        "text": "Replacing every application with a purchased package"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "BPR radically rethinks and redesigns business processes to achieve substantial improvements in performance, cost, quality, or service.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-002",
+    "question": "Which statement best distinguishes software re-engineering from ordinary software maintenance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Re-engineering examines and transforms an existing system to improve it while preserving useful functionality"
+      },
+      {
+        "id": "B",
+        "text": "Maintenance never changes existing source code"
+      },
+      {
+        "id": "C",
+        "text": "Re-engineering always creates a completely new system from scratch"
+      },
+      {
+        "id": "D",
+        "text": "Re-engineering is limited to correcting syntax errors"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Software re-engineering analyzes and transforms an existing system to improve its structure or maintainability, often retaining its functionality.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-003",
+    "question": "A legacy application is analyzed, its design is recovered, and its code is reorganized without intentionally changing its external behavior. This is best described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Software restructuring"
+      },
+      {
+        "id": "B",
+        "text": "Forward engineering"
+      },
+      {
+        "id": "C",
+        "text": "Domain engineering"
+      },
+      {
+        "id": "D",
+        "text": "Business process re-engineering"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Restructuring reorganizes an existing system or its representations while generally preserving external behavior.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-004",
+    "question": "Which activity is most specifically associated with code restructuring?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Improving the organization of source code while preserving its intended behavior"
+      },
+      {
+        "id": "B",
+        "text": "Deriving reusable components for an entire domain"
+      },
+      {
+        "id": "C",
+        "text": "Building a new system solely from new requirements"
+      },
+      {
+        "id": "D",
+        "text": "Redefining the organization's business strategy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Code restructuring changes code organization or form to improve readability or maintainability without intended functional change.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-005",
+    "question": "Forward engineering is best described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Developing or rebuilding a system from requirements and design toward implementation"
+      },
+      {
+        "id": "B",
+        "text": "Recovering higher-level design information from source code only"
+      },
+      {
+        "id": "C",
+        "text": "Removing all documentation from a legacy system"
+      },
+      {
+        "id": "D",
+        "text": "Measuring only the amount of reused code"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Forward engineering proceeds from higher-level specifications or designs toward implementation.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-006",
+    "question": "Which statement correctly contrasts reverse engineering and forward engineering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reverse engineering derives higher-level representations from an existing system; forward engineering builds toward implementation"
+      },
+      {
+        "id": "B",
+        "text": "Reverse engineering is only testing, while forward engineering is only maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Both always begin with business requirements and end at source code"
+      },
+      {
+        "id": "D",
+        "text": "Forward engineering recovers design from code, while reverse engineering creates new code from design"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reverse engineering works from an existing implementation toward abstractions; forward engineering proceeds toward implementation.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-007",
+    "question": "A team converts unstructured code into modules, simplifies control flow, and standardizes data structures, but keeps the system's externally visible results unchanged. The main goal is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Improve internal structure and maintainability"
+      },
+      {
+        "id": "B",
+        "text": "Change the business process completely"
+      },
+      {
+        "id": "C",
+        "text": "Increase functional scope in every module"
+      },
+      {
+        "id": "D",
+        "text": "Replace the domain model with a new business domain"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Restructuring aims to improve internal organization while preserving intended behavior.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-008",
+    "question": "Which situation most strongly motivates software re-engineering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A new small application has no users yet"
+      },
+      {
+        "id": "B",
+        "text": "A business-critical legacy system still works but is difficult and costly to maintain"
+      },
+      {
+        "id": "C",
+        "text": "The only objective is to add one new report to a well-structured system"
+      },
+      {
+        "id": "D",
+        "text": "A system must be discarded despite being easy to maintain"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Re-engineering is often considered when a valuable legacy system remains useful but has become hard to maintain or evolve.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-009",
+    "question": "Which activity is most likely to be part of a software re-engineering process?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignoring the existing system's behavior and user needs"
+      },
+      {
+        "id": "B",
+        "text": "Inventory analysis, document restructuring, reverse engineering, code restructuring, and forward engineering"
+      },
+      {
+        "id": "C",
+        "text": "Deleting the source code before analysis"
+      },
+      {
+        "id": "D",
+        "text": "Skipping testing because the system already exists"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Common re-engineering activities include assessing assets, recovering understanding, restructuring representations, and validating the result.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-010",
+    "question": "Why should a re-engineered system undergo regression testing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To prove that no future maintenance will be needed"
+      },
+      {
+        "id": "B",
+        "text": "To check that restructuring has not unintentionally changed existing behavior"
+      },
+      {
+        "id": "C",
+        "text": "To measure the number of developers in the team"
+      },
+      {
+        "id": "D",
+        "text": "To automatically generate all business requirements"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Regression testing checks whether existing functionality continues to work after internal changes.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-011",
+    "question": "Which statement about BPR and software re-engineering is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BPR is only a method for renaming variables"
+      },
+      {
+        "id": "B",
+        "text": "BPR focuses on redesigning business processes, while software re-engineering focuses on transforming existing software assets"
+      },
+      {
+        "id": "C",
+        "text": "Software re-engineering always changes the business process, while BPR never involves technology"
+      },
+      {
+        "id": "D",
+        "text": "Both terms mean exactly the same activity"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "BPR targets business-process redesign; software re-engineering targets analysis and transformation of software systems, though they can support each other.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-012",
+    "question": "Which is a likely risk when restructuring legacy code without adequate understanding or tests?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All modules become independent automatically"
+      },
+      {
+        "id": "B",
+        "text": "Existing behavior may be altered unintentionally"
+      },
+      {
+        "id": "C",
+        "text": "The system's complexity is guaranteed to disappear"
+      },
+      {
+        "id": "D",
+        "text": "The code becomes reusable by definition"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Insufficient understanding and testing can allow behavior changes or regressions to pass unnoticed.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-013",
+    "question": "Component-Based Software Engineering (CBSE) emphasizes building systems by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Writing every function from scratch for each application"
+      },
+      {
+        "id": "B",
+        "text": "Assembling and integrating independently developed, reusable components"
+      },
+      {
+        "id": "C",
+        "text": "Avoiding component interfaces to simplify integration"
+      },
+      {
+        "id": "D",
+        "text": "Using only components created by the same developer"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CBSE constructs systems from components with defined interfaces, reducing the need to develop every part from scratch.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-014",
+    "question": "A software component is most useful for reuse when it has:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hidden implementation details but no defined interface"
+      },
+      {
+        "id": "B",
+        "text": "Dependencies on undocumented global variables throughout the application"
+      },
+      {
+        "id": "C",
+        "text": "A well-defined interface and limited, understood dependencies"
+      },
+      {
+        "id": "D",
+        "text": "A requirement that its source code be rewritten for every project"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Clear interfaces and manageable dependencies make components easier to understand, integrate, and reuse.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-015",
+    "question": "In CBSE, a component interface primarily specifies:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The complete project schedule for the consuming team"
+      },
+      {
+        "id": "B",
+        "text": "Every internal algorithm and private data structure"
+      },
+      {
+        "id": "C",
+        "text": "The services or operations the component exposes and the way clients interact with them"
+      },
+      {
+        "id": "D",
+        "text": "The exact business strategy of every system that uses it"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interfaces define externally visible services and interaction contracts, not necessarily internal implementation details.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-016",
+    "question": "Which is a common challenge in component-based development?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Components can never be tested separately"
+      },
+      {
+        "id": "B",
+        "text": "Reuse always reduces project cost to zero"
+      },
+      {
+        "id": "C",
+        "text": "Components may have mismatched interfaces, assumptions, or non-functional requirements"
+      },
+      {
+        "id": "D",
+        "text": "Component interfaces eliminate all compatibility issues"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Integration can be difficult when components differ in interface, version, performance, security, or assumptions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-017",
+    "question": "A team selects an existing authentication component but must adapt its interface and resolve incompatible dependencies. This illustrates that reuse:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Always costs less than developing a component from scratch"
+      },
+      {
+        "id": "B",
+        "text": "Removes the need for system-level testing"
+      },
+      {
+        "id": "C",
+        "text": "Can involve evaluation, adaptation, integration, and testing costs"
+      },
+      {
+        "id": "D",
+        "text": "Is possible only when the component is open source"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Reused assets can save development effort but still require assessment, adaptation, integration, and validation.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-018",
+    "question": "Which statement best describes domain engineering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Testing a single application after deployment"
+      },
+      {
+        "id": "B",
+        "text": "Rewriting one class to improve its naming"
+      },
+      {
+        "id": "C",
+        "text": "Identifying commonalities and variabilities in a domain to create reusable assets for a family of systems"
+      },
+      {
+        "id": "D",
+        "text": "Converting an application from source code to machine code"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Domain engineering studies a family of related systems and develops reusable domain assets and variation points.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-019",
+    "question": "Application engineering in a software product-line context primarily involves:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Removing variability from every product family"
+      },
+      {
+        "id": "B",
+        "text": "Discovering all possible domains without producing applications"
+      },
+      {
+        "id": "C",
+        "text": "Using domain assets and selecting or configuring variants to build a particular application"
+      },
+      {
+        "id": "D",
+        "text": "Replacing reusable assets with unrelated custom code"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Application engineering uses reusable domain assets to produce a specific system for particular requirements.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-020",
+    "question": "In domain engineering, commonality refers to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Features that must differ in every product"
+      },
+      {
+        "id": "B",
+        "text": "A defect shared by all deployed systems"
+      },
+      {
+        "id": "C",
+        "text": "The number of components rejected during integration"
+      },
+      {
+        "id": "D",
+        "text": "Features or characteristics shared across systems in a domain"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Commonality captures what related systems share; variability captures their differences.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-021",
+    "question": "A software product line supports multiple products from shared core assets. Which concept helps represent features that differ among products?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Code obfuscation"
+      },
+      {
+        "id": "B",
+        "text": "Business process mapping only"
+      },
+      {
+        "id": "C",
+        "text": "Regression failure"
+      },
+      {
+        "id": "D",
+        "text": "Variability management"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Variability management represents and controls product-specific differences while reusing common assets.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-022",
+    "question": "Which measure most directly represents the proportion of software functionality or assets obtained through reuse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mean time to repair"
+      },
+      {
+        "id": "B",
+        "text": "Defect density"
+      },
+      {
+        "id": "C",
+        "text": "Cyclomatic complexity"
+      },
+      {
+        "id": "D",
+        "text": "Reuse percentage or reuse ratio"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A reuse ratio estimates the share of a system or its assets that comes from reused material; the exact denominator should be defined.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-023",
+    "question": "A project contains 30,000 equivalent lines of code, of which 9,000 are reused. If reuse percentage is calculated as reused LOC divided by total equivalent LOC, what is it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "40%"
+      },
+      {
+        "id": "B",
+        "text": "21%"
+      },
+      {
+        "id": "C",
+        "text": "33.3%"
+      },
+      {
+        "id": "D",
+        "text": "30%"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Reuse percentage = (9,000 ÷ 30,000) × 100 = 30%.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-024",
+    "question": "Why should reuse metrics be interpreted carefully when comparing projects?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reuse metrics can never be calculated numerically"
+      },
+      {
+        "id": "B",
+        "text": "Reused components always have identical size and quality"
+      },
+      {
+        "id": "C",
+        "text": "A high reuse ratio proves the system has no defects"
+      },
+      {
+        "id": "D",
+        "text": "Projects may define the denominator differently and reused assets can require different adaptation effort"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Metrics are comparable only when their definitions and measurement methods are consistent; reuse quantity alone does not show quality or net savings.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_reengineering_reuse-025",
+    "question": "Which statement best captures the economic rationale for software reuse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reuse removes all licensing and integration concerns"
+      },
+      {
+        "id": "B",
+        "text": "Reuse guarantees shorter schedules for every project"
+      },
+      {
+        "id": "C",
+        "text": "Reuse is beneficial only if the reused asset is free"
+      },
+      {
+        "id": "D",
+        "text": "Reuse can reduce duplicated development, but benefits depend on acquisition, adaptation, integration, and maintenance costs"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Reuse can avoid repeated development, but its net benefit depends on the full cost and suitability of the reused asset.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

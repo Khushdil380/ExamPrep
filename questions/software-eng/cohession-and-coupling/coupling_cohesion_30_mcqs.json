@@ -1,0 +1,782 @@
+[
+  {
+    "id": "coupling-cohesion-001",
+    "question": "What does cohesion measure in a software module?",
+    "options": [
+      {
+        "id": "A",
+        "text": "How closely the responsibilities inside the module are related"
+      },
+      {
+        "id": "B",
+        "text": "How strongly the module depends on other modules"
+      },
+      {
+        "id": "C",
+        "text": "How many interfaces the complete system exposes"
+      },
+      {
+        "id": "D",
+        "text": "How many statements are executed during one run"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cohesion measures how strongly the elements within a module contribute to a common purpose.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-002",
+    "question": "What does coupling measure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The degree of dependency between different modules"
+      },
+      {
+        "id": "B",
+        "text": "The degree of relatedness among tasks within one module"
+      },
+      {
+        "id": "C",
+        "text": "The number of functions contained in one module"
+      },
+      {
+        "id": "D",
+        "text": "The number of tests required for one module"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Coupling describes interdependence between modules; lower coupling is generally desirable.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-003",
+    "question": "Which combination is generally preferred in a maintainable software design?",
+    "options": [
+      {
+        "id": "A",
+        "text": "High cohesion and low coupling"
+      },
+      {
+        "id": "B",
+        "text": "Low cohesion and high coupling"
+      },
+      {
+        "id": "C",
+        "text": "High cohesion and high coupling"
+      },
+      {
+        "id": "D",
+        "text": "Low cohesion and low responsibility"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Focused modules with few dependencies are easier to understand, change, test, and reuse.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-004",
+    "question": "A module groups unrelated tasks only because they happened to be coded together. Which cohesion type does this illustrate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coincidental cohesion"
+      },
+      {
+        "id": "B",
+        "text": "Logical cohesion"
+      },
+      {
+        "id": "C",
+        "text": "Temporal cohesion"
+      },
+      {
+        "id": "D",
+        "text": "Functional cohesion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Coincidental cohesion occurs when unrelated activities are placed in the same module without a meaningful relationship.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-005",
+    "question": "A module contains several operations of the same general category, selected by a control flag, such as input from keyboard, file, or network. Which cohesion is most likely?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Logical cohesion"
+      },
+      {
+        "id": "B",
+        "text": "Functional cohesion"
+      },
+      {
+        "id": "C",
+        "text": "Sequential cohesion"
+      },
+      {
+        "id": "D",
+        "text": "Communicational cohesion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Logical cohesion groups similar kinds of activities, often selected using a control flag.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-006",
+    "question": "A module performs all initialization tasks needed when a program starts. Which cohesion is most likely?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Temporal cohesion"
+      },
+      {
+        "id": "B",
+        "text": "Coincidental cohesion"
+      },
+      {
+        "id": "C",
+        "text": "Procedural cohesion"
+      },
+      {
+        "id": "D",
+        "text": "Functional cohesion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Temporal cohesion groups tasks because they occur at the same time, such as startup or shutdown.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-007",
+    "question": "A module contains steps that must follow a particular order, but the steps do not necessarily operate on the same data. Which cohesion is most likely?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Procedural cohesion"
+      },
+      {
+        "id": "B",
+        "text": "Communicational cohesion"
+      },
+      {
+        "id": "C",
+        "text": "Functional cohesion"
+      },
+      {
+        "id": "D",
+        "text": "Coincidental cohesion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Procedural cohesion groups elements because they follow a particular control sequence.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-008",
+    "question": "A module performs several operations on the same input data set, such as validating, formatting, and printing a customer record. Which cohesion is most likely?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Communicational cohesion"
+      },
+      {
+        "id": "B",
+        "text": "Temporal cohesion"
+      },
+      {
+        "id": "C",
+        "text": "Logical cohesion"
+      },
+      {
+        "id": "D",
+        "text": "Coincidental cohesion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Communicational cohesion groups operations that use or produce the same data.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-009",
+    "question": "A module's output from one part becomes the input to the next part. Which cohesion type best describes this relationship?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sequential cohesion"
+      },
+      {
+        "id": "B",
+        "text": "Procedural cohesion"
+      },
+      {
+        "id": "C",
+        "text": "Temporal cohesion"
+      },
+      {
+        "id": "D",
+        "text": "Logical cohesion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sequential cohesion exists when one activity's output is used as the next activity's input.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-010",
+    "question": "A module performs one clearly defined task, such as calculating an employee's net salary, and all its elements contribute to that task. This is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Functional cohesion"
+      },
+      {
+        "id": "B",
+        "text": "Coincidental cohesion"
+      },
+      {
+        "id": "C",
+        "text": "Logical cohesion"
+      },
+      {
+        "id": "D",
+        "text": "Temporal cohesion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Functional cohesion is the strongest traditional form: all elements contribute to one well-defined function.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-011",
+    "question": "In the traditional cohesion scale from weakest to strongest, which order is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coincidental → Logical → Temporal → Procedural → Communicational → Sequential → Functional"
+      },
+      {
+        "id": "B",
+        "text": "Functional → Sequential → Logical → Temporal → Procedural → Coincidental → Communicational"
+      },
+      {
+        "id": "C",
+        "text": "Logical → Coincidental → Functional → Temporal → Sequential → Procedural → Communicational"
+      },
+      {
+        "id": "D",
+        "text": "Coincidental → Temporal → Logical → Functional → Procedural → Communicational → Sequential"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The commonly taught order moves from unrelated grouping toward a single, focused function.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-012",
+    "question": "Which cohesion type is most strongly associated with a module that has one specific, well-defined responsibility?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Functional cohesion"
+      },
+      {
+        "id": "B",
+        "text": "Procedural cohesion"
+      },
+      {
+        "id": "C",
+        "text": "Temporal cohesion"
+      },
+      {
+        "id": "D",
+        "text": "Logical cohesion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A single, well-defined purpose is the hallmark of functional cohesion.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-013",
+    "question": "A module groups tasks that use the same data but does not pass one task's output as the next task's input. Which type is more appropriate than sequential cohesion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Communicational cohesion"
+      },
+      {
+        "id": "B",
+        "text": "Temporal cohesion"
+      },
+      {
+        "id": "C",
+        "text": "Coincidental cohesion"
+      },
+      {
+        "id": "D",
+        "text": "Logical cohesion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Communicational cohesion centers on shared data; sequential cohesion requires a data-output-to-input chain.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-014",
+    "question": "A single module contains code to handle all error cases, regardless of when or why those errors occur. If the grouping is based on the general category of activity, this is most likely:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Logical cohesion"
+      },
+      {
+        "id": "B",
+        "text": "Sequential cohesion"
+      },
+      {
+        "id": "C",
+        "text": "Functional cohesion"
+      },
+      {
+        "id": "D",
+        "text": "Communicational cohesion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Grouping related types of operation under one category is logical cohesion, especially when selected by a flag or condition.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-015",
+    "question": "Which example best illustrates temporal cohesion rather than logical cohesion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A module that performs startup initialization tasks together"
+      },
+      {
+        "id": "B",
+        "text": "A module that handles all kinds of input selected by a mode"
+      },
+      {
+        "id": "C",
+        "text": "A module that calculates a single tax amount"
+      },
+      {
+        "id": "D",
+        "text": "A module whose steps pass results from one to the next"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Temporal cohesion groups activities because they occur during the same time period or event.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-016",
+    "question": "A module directly reads and modifies another module's private internal variables. Which coupling type is this?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Content coupling"
+      },
+      {
+        "id": "B",
+        "text": "Data coupling"
+      },
+      {
+        "id": "C",
+        "text": "Stamp coupling"
+      },
+      {
+        "id": "D",
+        "text": "Control coupling"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Content coupling occurs when one module depends on or alters another module's internal implementation.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-017",
+    "question": "Two modules communicate by using the same global data area. Which coupling type is most directly indicated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Common coupling"
+      },
+      {
+        "id": "B",
+        "text": "Data coupling"
+      },
+      {
+        "id": "C",
+        "text": "Message coupling"
+      },
+      {
+        "id": "D",
+        "text": "Stamp coupling"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Common coupling arises when modules share global data or a common data area.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-018",
+    "question": "A caller passes a flag such as `mode = 1` that tells another module which internal path to execute. This is an example of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Control coupling"
+      },
+      {
+        "id": "B",
+        "text": "Data coupling"
+      },
+      {
+        "id": "C",
+        "text": "Content coupling"
+      },
+      {
+        "id": "D",
+        "text": "Stamp coupling"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Control coupling occurs when one module passes information that directs another module's internal logic.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-019",
+    "question": "A module passes an entire Customer record to another module, although the receiver uses only the customer's ID. This suggests:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stamp coupling"
+      },
+      {
+        "id": "B",
+        "text": "Data coupling"
+      },
+      {
+        "id": "C",
+        "text": "Content coupling"
+      },
+      {
+        "id": "D",
+        "text": "Common coupling"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Stamp coupling occurs when a composite data structure is passed even though only part of it is needed.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-020",
+    "question": "Two modules exchange only the simple values needed to perform their work, such as an item ID and quantity. This is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data coupling"
+      },
+      {
+        "id": "B",
+        "text": "Control coupling"
+      },
+      {
+        "id": "C",
+        "text": "Common coupling"
+      },
+      {
+        "id": "D",
+        "text": "Content coupling"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Data coupling involves communication through necessary data parameters rather than control flags or shared internals.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-021",
+    "question": "In the commonly taught traditional coupling scale, which type is generally considered the weakest or most undesirable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Content coupling"
+      },
+      {
+        "id": "B",
+        "text": "Stamp coupling"
+      },
+      {
+        "id": "C",
+        "text": "Data coupling"
+      },
+      {
+        "id": "D",
+        "text": "Message coupling"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Content coupling creates strong dependence on another module's internals and is generally the most undesirable traditional type.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-022",
+    "question": "Which sequence lists the traditional coupling types from strongest/most undesirable toward weaker/better coupling?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Content → Common → Control → Stamp → Data"
+      },
+      {
+        "id": "B",
+        "text": "Data → Stamp → Control → Common → Content"
+      },
+      {
+        "id": "C",
+        "text": "Common → Content → Data → Control → Stamp"
+      },
+      {
+        "id": "D",
+        "text": "Control → Data → Content → Stamp → Common"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The traditional sequence is commonly presented from content coupling through common, control, stamp, and data coupling.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-023",
+    "question": "A function receives a large object but uses only two fields. Which change would most directly reduce stamp coupling?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pass only the specific fields or a smaller purpose-built parameter"
+      },
+      {
+        "id": "B",
+        "text": "Pass the same object through a global variable instead"
+      },
+      {
+        "id": "C",
+        "text": "Add a control flag to select the two fields"
+      },
+      {
+        "id": "D",
+        "text": "Let the function modify the object's private state directly"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Passing only the required data reduces unnecessary dependence on the structure of the larger object.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-024",
+    "question": "Two modules share global variables for configuration, counters, and status. A change to one global variable unexpectedly affects several modules. Which design issue is the clearest?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Common coupling caused by shared global data"
+      },
+      {
+        "id": "B",
+        "text": "Functional cohesion caused by a single responsibility"
+      },
+      {
+        "id": "C",
+        "text": "Data coupling caused by explicit simple parameters"
+      },
+      {
+        "id": "D",
+        "text": "Sequential cohesion caused by passing intermediate output"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shared global state creates common coupling and can make side effects difficult to trace.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-025",
+    "question": "A module passes a Boolean parameter called `isAdminMode` that makes the receiving module skip or perform several operations. Which improvement is most likely to reduce control coupling?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Move the choice into clearly named operations or an appropriate abstraction"
+      },
+      {
+        "id": "B",
+        "text": "Replace the Boolean with a global variable"
+      },
+      {
+        "id": "C",
+        "text": "Pass the entire database record instead"
+      },
+      {
+        "id": "D",
+        "text": "Allow the receiver to inspect the caller's local variables"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explicit operations or a well-defined abstraction can avoid directing another module's internal logic with control flags.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-026",
+    "question": "Which design change is most likely to improve both cohesion and coupling?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Give each module one clear responsibility and communicate through a small, stable interface"
+      },
+      {
+        "id": "B",
+        "text": "Combine unrelated functions into one module and share its variables globally"
+      },
+      {
+        "id": "C",
+        "text": "Allow every module to access the internal data of every other module"
+      },
+      {
+        "id": "D",
+        "text": "Pass complete application state to every function to avoid parameter lists"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Focused responsibilities improve cohesion, while narrow interfaces and limited dependencies reduce coupling.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-027",
+    "question": "Suppose a design has 8 modules and 20 dependencies between distinct module pairs. A redesign keeps 8 modules but reduces dependencies to 9, while each module becomes more focused. What can be concluded?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The redesign likely improves modular independence through lower coupling and higher cohesion"
+      },
+      {
+        "id": "B",
+        "text": "The redesign necessarily reduces cohesion because the dependency count fell"
+      },
+      {
+        "id": "C",
+        "text": "The redesign proves that the software has no defects"
+      },
+      {
+        "id": "D",
+        "text": "The redesign is worse because good designs maximize inter-module dependencies"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fewer inter-module dependencies and more focused responsibilities are evidence of a better modular design, though counts alone are not a complete quality measure.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-028",
+    "question": "A team claims that the design with the lowest possible number of connections is always best. What is the most accurate response?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Connections should be minimized when practical, but modules must still collaborate to meet system requirements"
+      },
+      {
+        "id": "B",
+        "text": "All connections should be removed, even if the system can no longer perform its required tasks"
+      },
+      {
+        "id": "C",
+        "text": "Coupling is irrelevant if the total number of modules is fixed"
+      },
+      {
+        "id": "D",
+        "text": "Every module should use global variables so connections are not visible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The goal is appropriate low coupling, not eliminating necessary communication between components.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-029",
+    "question": "Which statement about mathematical optimization of cohesion and coupling is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "There is no single universal formula; metrics can guide trade-offs, while design goals favor focused modules and limited dependencies"
+      },
+      {
+        "id": "B",
+        "text": "A universal equation always proves the best design by dividing cohesion by the number of classes"
+      },
+      {
+        "id": "C",
+        "text": "Maximum cohesion requires every module to depend on every other module"
+      },
+      {
+        "id": "D",
+        "text": "Minimum coupling means each module must duplicate all data and logic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cohesion and coupling are design qualities assessed through context-dependent metrics and judgment, not one universal optimization equation.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "coupling-cohesion-030",
+    "question": "A developer splits one large module into many tiny modules, but each tiny module calls several others and has no meaningful independent responsibility. Which conclusion is best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "More modules alone do not guarantee good design; cohesion and coupling must also be considered"
+      },
+      {
+        "id": "B",
+        "text": "The design is automatically better because modularity is measured only by module count"
+      },
+      {
+        "id": "C",
+        "text": "The design has functional cohesion because each module is small"
+      },
+      {
+        "id": "D",
+        "text": "The design has data coupling because all dependencies are explicit"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Module count alone is not a quality measure; overly fragmented designs can increase dependencies and reduce clarity.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

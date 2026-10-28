@@ -18,6 +18,13 @@ def read_json(path):
         return json.load(file)
 
 
+def read_order(item, position, label):
+    order = item.get("order", position + 1)
+    if type(order) is not int or order < 1:
+        raise ValueError(f"{label} order must be a positive integer.")
+    return order
+
+
 def existing_names():
     subject_names = {}
     subject_order = {}
@@ -37,12 +44,17 @@ def existing_names():
         )
 
     master = read_json(MASTER_INDEX)
+    subject_orders = set()
     for subject_position, subject in enumerate(master.get("subjects", [])):
         subject_id = subject.get("subjectId")
         if not subject_id:
             continue
+        order = read_order(subject, subject_position, f"Subject '{subject_id}'")
+        if order in subject_orders:
+            raise ValueError(f"Duplicate subject order: {order}.")
+        subject_orders.add(order)
         subject_names[subject_id] = subject.get("subjectName", subject_id)
-        subject_order[subject_id] = subject_position
+        subject_order[subject_id] = order
 
         subject_index_path = ROOT / subject.get(
             "file", f"questions/{subject_id}/index.json"
@@ -51,19 +63,39 @@ def existing_names():
             continue
 
         subject_index = read_json(subject_index_path)
+        chapter_orders = set()
         for chapter_position, chapter in enumerate(
             subject_index.get("chapters", subject.get("chapters", []))
         ):
             chapter_id = chapter.get("chapterId")
             if not chapter_id:
                 continue
+            order = read_order(
+                chapter, chapter_position, f"Chapter '{chapter_id}'"
+            )
+            if order in chapter_orders:
+                raise ValueError(
+                    f"Duplicate chapter order {order} in subject '{subject_id}'."
+                )
+            chapter_orders.add(order)
             chapter_names[(subject_id, chapter_id)] = chapter.get(
                 "chapterName", chapter_id
             )
-            chapter_order[(subject_id, chapter_id)] = chapter_position
+            chapter_order[(subject_id, chapter_id)] = order
+            category_orders = set()
             for category_position, category in enumerate(chapter.get("categories", [])):
                 category_file = category.get("file")
                 if category_file:
+                    order = read_order(
+                        category,
+                        category_position,
+                        f"Topic '{category.get('categoryId', category_file)}'",
+                    )
+                    if order in category_orders:
+                        raise ValueError(
+                            f"Duplicate topic order {order} in chapter '{chapter_id}'."
+                        )
+                    category_orders.add(order)
                     category_key = (
                         subject_id,
                         chapter_id,
@@ -76,7 +108,7 @@ def existing_names():
                             category.get("categoryId", Path(category_file).stem),
                         ),
                     )
-                    category_order[category_key] = category_position
+                    category_order[category_key] = order
 
     return (
         subject_names,
@@ -117,11 +149,13 @@ def build_indexes():
     subject_indexes = []
     errors = []
     seen_chapters = {}
+    next_subject_order = max(subject_order.values(), default=0) + 1
 
     for subject_dir in sorted(
         (path for path in QUESTIONS_DIR.iterdir() if path.is_dir()),
         key=lambda path: (
-            subject_order.get(path.name, len(subject_order)),
+            path.name not in subject_order,
+            subject_order.get(path.name, 0),
             path.name.casefold(),
         ),
     ):
@@ -137,16 +171,52 @@ def build_indexes():
             )
 
         chapters = []
+        next_chapter_order = max(
+            (
+                order
+                for (saved_subject_id, _), order in chapter_order.items()
+                if saved_subject_id == subject_id
+            ),
+            default=0,
+        ) + 1
         for chapter_dir in sorted(
             (path for path in subject_dir.iterdir() if path.is_dir()),
             key=lambda path: (
-                chapter_order.get((subject_id, path.name), len(chapter_order)),
+                (subject_id, path.name) not in chapter_order,
+                chapter_order.get((subject_id, path.name), 0),
                 path.name.casefold(),
             ),
         ):
             categories = []
+            next_category_order = max(
+                (
+                    order
+                    for (saved_subject_id, saved_chapter_id, _), order
+                    in category_order.items()
+                    if saved_subject_id == subject_id
+                    and saved_chapter_id == chapter_dir.name
+                ),
+                default=0,
+            ) + 1
             for question_file in sorted(
-                chapter_dir.glob("*.json"), key=lambda path: path.name.casefold()
+                chapter_dir.glob("*.json"),
+                key=lambda path: (
+                    (
+                        subject_id,
+                        chapter_dir.name,
+                        path.relative_to(ROOT).as_posix(),
+                    )
+                    not in category_order,
+                    category_order.get(
+                        (
+                            subject_id,
+                            chapter_dir.name,
+                            path.relative_to(ROOT).as_posix(),
+                        ),
+                        0,
+                    ),
+                    path.name.casefold(),
+                ),
             ):
                 if question_file.name.casefold() == "index.json":
                     errors.append(
@@ -177,21 +247,20 @@ def build_indexes():
                     category_key,
                     (category_id, category_id),
                 )
+                order = category_order.get(category_key)
+                if order is None:
+                    order = next_category_order
+                    next_category_order += 1
                 categories.append(
                     {
                         "categoryId": saved_category[0],
                         "categoryName": saved_category[1],
                         "file": question_file.relative_to(ROOT).as_posix(),
-                        "_order": category_order.get(category_key, len(category_order)),
+                        "order": order,
                     }
                 )
 
             if categories:
-                categories.sort(
-                    key=lambda category: (category["_order"], category["file"])
-                )
-                for category in categories:
-                    category.pop("_order")
                 chapter_id = chapter_dir.name
                 previous_subject = seen_chapters.get(chapter_id)
                 if previous_subject and previous_subject != subject_id:
@@ -201,22 +270,32 @@ def build_indexes():
                         "must be unique across subjects."
                     )
                 seen_chapters[chapter_id] = subject_id
+                order = chapter_order.get((subject_id, chapter_id))
+                if order is None:
+                    order = next_chapter_order
+                    next_chapter_order += 1
                 chapters.append(
                     {
                         "chapterId": chapter_id,
                         "chapterName": chapter_names.get(
                             (subject_id, chapter_id), chapter_id
                         ),
+                        "order": order,
                         "categories": categories,
                     }
                 )
 
         if chapters:
+            order = subject_order.get(subject_id)
+            if order is None:
+                order = next_subject_order
+                next_subject_order += 1
             subjects.append(
                 {
                     "subjectId": subject_id,
                     "subjectName": subject_names.get(subject_id, subject_id),
                     "file": f"questions/{subject_id}/index.json",
+                    "order": order,
                 }
             )
             subject_indexes.append(

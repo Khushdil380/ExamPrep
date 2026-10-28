@@ -3,16 +3,19 @@
     {
       "chapterId": "number-systems",
       "chapterName": "Number Systems",
+      "order": 1,
       "categories": [
         {
           "categoryId": "weighted-number-systems",
           "categoryName": "Weighted Number Systems",
-          "file": "questions/digital-logic/number-systems/weighted.json"
+          "file": "questions/digital-logic/number-systems/weighted.json",
+          "order": 1
         },
         {
           "categoryId": "number-system-conversion",
           "categoryName": "Number System Conversion",
-          "file": "questions/digital-logic/number-systems/conversion.json"
+          "file": "questions/digital-logic/number-systems/conversion.json",
+          "order": 2
         }
       ]
     }

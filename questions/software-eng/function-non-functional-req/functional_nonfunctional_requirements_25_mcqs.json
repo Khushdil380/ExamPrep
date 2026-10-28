@@ -1,0 +1,652 @@
+[
+  {
+    "id": "req-fn-nfn-001",
+    "question": "Which option best defines a functional requirement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The service or behavior the system must provide"
+      },
+      {
+        "id": "B",
+        "text": "The quality level the system must achieve"
+      },
+      {
+        "id": "C",
+        "text": "The limit on the resources the system may consume"
+      },
+      {
+        "id": "D",
+        "text": "The condition under which the system is accepted"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Functional requirements describe what the system must do, such as services, operations, or responses.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-002",
+    "question": "Which option best defines a non-functional requirement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A requirement describing a system service or user task"
+      },
+      {
+        "id": "B",
+        "text": "A requirement describing a quality attribute or constraint on the system"
+      },
+      {
+        "id": "C",
+        "text": "A requirement describing only the order of development activities"
+      },
+      {
+        "id": "D",
+        "text": "A requirement describing the database tables used by developers"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Non-functional requirements specify qualities or constraints such as performance, security, usability, and reliability.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-003",
+    "question": "Which of the following is a performance requirement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The system shall allow a user to reset a password"
+      },
+      {
+        "id": "B",
+        "text": "The system shall display search results within two seconds"
+      },
+      {
+        "id": "C",
+        "text": "The system shall let an admin add a new account"
+      },
+      {
+        "id": "D",
+        "text": "The system shall generate an invoice after payment"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A response-time target is a measurable performance requirement.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-004",
+    "question": "Which requirement is primarily about reliability?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The service shall recover from a server failure and resume operation within five minutes"
+      },
+      {
+        "id": "B",
+        "text": "The user shall be able to change their profile picture"
+      },
+      {
+        "id": "C",
+        "text": "The system shall export a report as a PDF"
+      },
+      {
+        "id": "D",
+        "text": "The administrator shall create a new role"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reliability concerns continued correct service and recovery when faults occur.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-005",
+    "question": "Which quality attribute is most directly concerned with preventing unauthorized access?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usability"
+      },
+      {
+        "id": "B",
+        "text": "Security"
+      },
+      {
+        "id": "C",
+        "text": "Portability"
+      },
+      {
+        "id": "D",
+        "text": "Maintainability"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Security requirements control access and protect data and operations from unauthorized use.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-006",
+    "question": "Which requirement is most clearly about usability?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A new user should be able to complete registration without training in under three minutes"
+      },
+      {
+        "id": "B",
+        "text": "The service should process 2,000 requests per second"
+      },
+      {
+        "id": "C",
+        "text": "The application should run on Windows and Linux"
+      },
+      {
+        "id": "D",
+        "text": "The system should preserve data after a power failure"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Usability concerns how easily intended users can learn and operate the system; the example makes it measurable.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-007",
+    "question": "An online store must let customers place orders and must load its product page in under two seconds. Which classification is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both are functional requirements"
+      },
+      {
+        "id": "B",
+        "text": "Both are non-functional requirements"
+      },
+      {
+        "id": "C",
+        "text": "Placing orders is functional; the response-time target is non-functional"
+      },
+      {
+        "id": "D",
+        "text": "Placing orders is non-functional; the response-time target is functional"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Placing an order is a system service; the response-time limit specifies performance.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-008",
+    "question": "A requirement says, 'The app should be fast.' What is the main problem?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It describes a functional service instead of a quality"
+      },
+      {
+        "id": "B",
+        "text": "It is too vague to test consistently without a measurable target"
+      },
+      {
+        "id": "C",
+        "text": "It is automatically invalid because speed cannot be measured"
+      },
+      {
+        "id": "D",
+        "text": "It specifies the exact implementation rather than the expected result"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Words such as 'fast' need a measurable threshold, workload, and context to be objectively verified.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-009",
+    "question": "A team proposes: 'The system shall email a receipt after successful payment.' How should this usually be classified?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Functional, because it specifies a behavior triggered by payment"
+      },
+      {
+        "id": "B",
+        "text": "Non-functional, because email delivery uses a network"
+      },
+      {
+        "id": "C",
+        "text": "Non-functional, because receipts contain transaction data"
+      },
+      {
+        "id": "D",
+        "text": "Neither, because the requirement does not mention response time"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "It describes an observable system action after a defined event.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-010",
+    "question": "A hospital system must keep patient records confidential and allow only authorized staff to view them. This is primarily a requirement for:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Security"
+      },
+      {
+        "id": "B",
+        "text": "Portability"
+      },
+      {
+        "id": "C",
+        "text": "Usability"
+      },
+      {
+        "id": "D",
+        "text": "Performance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Confidentiality and access control are core security concerns.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-011",
+    "question": "A mobile application must work on both Android and iOS. Which quality attribute is most relevant?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Portability"
+      },
+      {
+        "id": "B",
+        "text": "Reliability"
+      },
+      {
+        "id": "C",
+        "text": "Efficiency"
+      },
+      {
+        "id": "D",
+        "text": "Usability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Portability concerns adapting or running software across different platforms or environments.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-012",
+    "question": "Users complain that a feature is difficult to find, even though it works correctly. Which requirement area should be reviewed first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usability"
+      },
+      {
+        "id": "B",
+        "text": "Throughput"
+      },
+      {
+        "id": "C",
+        "text": "Portability"
+      },
+      {
+        "id": "D",
+        "text": "Fault tolerance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The issue concerns discoverability and ease of use, rather than whether the feature exists or how fast it runs.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-013",
+    "question": "A payroll system must calculate each employee's salary using the approved rules. The requirement is primarily:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Functional"
+      },
+      {
+        "id": "B",
+        "text": "Non-functional"
+      },
+      {
+        "id": "C",
+        "text": "A usability constraint"
+      },
+      {
+        "id": "D",
+        "text": "A portability constraint"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The calculation is a core service the system must perform.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-014",
+    "question": "A system must support 10,000 users logged in at the same time. This requirement is most closely related to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Capacity and scalability"
+      },
+      {
+        "id": "B",
+        "text": "Usability and accessibility"
+      },
+      {
+        "id": "C",
+        "text": "Portability and compatibility"
+      },
+      {
+        "id": "D",
+        "text": "Maintainability and readability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Concurrent-user capacity and the ability to grow with demand are capacity/scalability concerns.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-015",
+    "question": "A user requests that the system 'never lose saved work.' What is the best next step for the analyst?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Record it as-is because all stakeholders understand the phrase identically"
+      },
+      {
+        "id": "B",
+        "text": "Clarify the expected situations and define measurable recovery or data-loss limits"
+      },
+      {
+        "id": "C",
+        "text": "Convert it into a functional requirement to avoid further discussion"
+      },
+      {
+        "id": "D",
+        "text": "Remove it because non-functional requirements cannot be tested"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The intent should be clarified into verifiable expectations, such as recovery behavior and maximum acceptable data loss.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-016",
+    "question": "The system shall let an employee download their payslip. The system shall make the payslip available within three seconds. Which statement is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The first requirement is functional and the second is a performance requirement"
+      },
+      {
+        "id": "B",
+        "text": "The first is a performance requirement and the second is functional"
+      },
+      {
+        "id": "C",
+        "text": "Both are usability requirements because employees use the system"
+      },
+      {
+        "id": "D",
+        "text": "Both are functional because they mention a system response"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Downloading the payslip is a service; the time limit is a performance constraint.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-017",
+    "question": "A requirement states that a report must be readable by screen-reader users. Which quality area does it most directly support?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accessibility and usability"
+      },
+      {
+        "id": "B",
+        "text": "Throughput and capacity"
+      },
+      {
+        "id": "C",
+        "text": "Portability and interoperability"
+      },
+      {
+        "id": "D",
+        "text": "Recoverability and availability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Accessibility helps people with different abilities use the system and is commonly treated within usability-related quality requirements.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-018",
+    "question": "A website is required to be available 99.9% of the time each month. This is mainly a measure of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Availability"
+      },
+      {
+        "id": "B",
+        "text": "Learnability"
+      },
+      {
+        "id": "C",
+        "text": "Portability"
+      },
+      {
+        "id": "D",
+        "text": "Testability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Availability expresses the proportion of time a service is operational and accessible.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-019",
+    "question": "A requirement says the software must be easy to modify when tax rules change. Which quality attribute is most relevant?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maintainability"
+      },
+      {
+        "id": "B",
+        "text": "Confidentiality"
+      },
+      {
+        "id": "C",
+        "text": "Throughput"
+      },
+      {
+        "id": "D",
+        "text": "Portability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Maintainability concerns how easily software can be corrected, adapted, or enhanced.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-020",
+    "question": "A feature works correctly but takes 20 seconds to respond when the agreed limit is two seconds. What has most clearly failed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A performance requirement"
+      },
+      {
+        "id": "B",
+        "text": "A functional requirement"
+      },
+      {
+        "id": "C",
+        "text": "A portability requirement"
+      },
+      {
+        "id": "D",
+        "text": "A user-role requirement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The behavior may be correct, but it violates the specified response-time target.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-021",
+    "question": "A requirement says, 'Only managers can approve refunds above ₹10,000.' This is best understood as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A functional business rule involving authorization"
+      },
+      {
+        "id": "B",
+        "text": "A performance target for refund processing"
+      },
+      {
+        "id": "C",
+        "text": "A portability requirement for payment services"
+      },
+      {
+        "id": "D",
+        "text": "A usability guideline for the refund screen"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "It specifies system behavior and an authorization rule for a particular business action.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-022",
+    "question": "A team is deciding whether to specify 'the system shall encrypt sensitive data' or 'the system shall let users print invoices.' Which is the best classification?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Encryption is security-related non-functional; printing invoices is functional"
+      },
+      {
+        "id": "B",
+        "text": "Encryption is functional; printing invoices is security-related non-functional"
+      },
+      {
+        "id": "C",
+        "text": "Both are non-functional because both affect system design"
+      },
+      {
+        "id": "D",
+        "text": "Both are functional because both can be implemented in code"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Encryption states a security constraint/quality; printing an invoice is a user-visible service.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-023",
+    "question": "A product owner says, 'The system must be reliable.' Which follow-up best improves the requirement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask what reliability means in this context and define measurable targets or failure scenarios"
+      },
+      {
+        "id": "B",
+        "text": "Replace it with 'the system shall use object-oriented programming'"
+      },
+      {
+        "id": "C",
+        "text": "Classify it as functional because reliability affects user tasks"
+      },
+      {
+        "id": "D",
+        "text": "Leave it unchanged because quality attributes should never be quantified"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Quality words become useful requirements when stakeholders define observable, measurable expectations.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-024",
+    "question": "A school portal must allow teachers to upload marks and must restrict each teacher to their assigned classes. Which statement is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uploading marks is functional; restricting access by assigned class is a security/authorization requirement"
+      },
+      {
+        "id": "B",
+        "text": "Uploading marks is non-functional; restricting access is a performance requirement"
+      },
+      {
+        "id": "C",
+        "text": "Both are portability requirements because teachers may use different devices"
+      },
+      {
+        "id": "D",
+        "text": "Both are reliability requirements because marks must be saved"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The upload is a system service, while role- and class-based access control protects data and permissions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "req-fn-nfn-025",
+    "question": "A requirement says the application must continue to operate if one server fails. Which quality attribute is most directly involved?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fault tolerance and availability"
+      },
+      {
+        "id": "B",
+        "text": "Learnability and accessibility"
+      },
+      {
+        "id": "C",
+        "text": "Portability and compatibility"
+      },
+      {
+        "id": "D",
+        "text": "Modularity and reusability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Continuing service despite a component failure relates to fault tolerance and supports availability.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

@@ -70,17 +70,31 @@ const Data = (() => {
     }));
   }
 
+  function _ordered(items) {
+    return items
+      .map((item, index) => ({
+        item,
+        index,
+        order: Number.isSafeInteger(item.order) && item.order > 0
+          ? item.order
+          : index + 1,
+      }))
+      .sort((a, b) => a.order - b.order || a.index - b.index)
+      .map(entry => entry.item);
+  }
+
   /* ── Practice: subjects / chapters ── */
   function getSubjects() {
-    return (_qIndex?.subjects || []).map(s => ({ id: s.subjectId, name: s.subjectName }));
+    return _ordered(_qIndex?.subjects || [])
+      .map(s => ({ id: s.subjectId, name: s.subjectName }));
   }
 
   function getChapters(subjectIds) {
     const ids = Array.isArray(subjectIds) ? subjectIds : [subjectIds];
     const result = [];
-    (_qIndex?.subjects || []).forEach(s => {
+    _ordered(_qIndex?.subjects || []).forEach(s => {
       if (!ids.includes(s.subjectId)) return;
-      (s.chapters || []).forEach(ch => {
+      _ordered(s.chapters || []).forEach(ch => {
         if (!result.find(r => r.id === ch.chapterId))
           result.push({ id: ch.chapterId, name: ch.chapterName, subjectId: s.subjectId });
       });
@@ -94,11 +108,11 @@ const Data = (() => {
     await loadSubjectIndexes(sIds);
     const files = [];
 
-    for (const subj of (_qIndex?.subjects || [])) {
+    for (const subj of _ordered(_qIndex?.subjects || [])) {
       if (!sIds.includes(subj.subjectId)) continue;
-      for (const ch of subj.chapters || []) {
+      for (const ch of _ordered(subj.chapters || [])) {
         if (chapterIds?.length && !chapterIds.includes(ch.chapterId)) continue;
-        for (const cat of ch.categories) {
+        for (const cat of _ordered(ch.categories || [])) {
           files.push({ subj, ch, cat });
         }
       }

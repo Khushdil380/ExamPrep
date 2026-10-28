@@ -1,0 +1,652 @@
+[
+  {
+    "id": "se-code-quality-001",
+    "question": "A team agrees that every variable should have a meaningful name, indentation should be consistent, and each function should have a clear purpose. These rules are primarily part of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coding standards and guidelines"
+      },
+      {
+        "id": "B",
+        "text": "Integration testing strategy"
+      },
+      {
+        "id": "C",
+        "text": "Software cost estimation"
+      },
+      {
+        "id": "D",
+        "text": "Configuration auditing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Coding standards define agreed conventions for naming, formatting, structure, and other coding practices.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-002",
+    "question": "Why are consistent coding standards especially useful when several developers maintain the same codebase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They guarantee that the program has no logical defects"
+      },
+      {
+        "id": "B",
+        "text": "They make code more uniform and easier to read, review, and maintain"
+      },
+      {
+        "id": "C",
+        "text": "They eliminate the need for software testing"
+      },
+      {
+        "id": "D",
+        "text": "They ensure that all modules contain the same number of lines"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Consistency reduces unnecessary variation and helps developers understand and maintain code; it does not guarantee defect-free software.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-003",
+    "question": "Which naming choice is most likely to improve code readability?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using a, b, c for every variable regardless of purpose"
+      },
+      {
+        "id": "B",
+        "text": "Using names that describe the role or meaning of the data"
+      },
+      {
+        "id": "C",
+        "text": "Using long names containing unrelated details and abbreviations"
+      },
+      {
+        "id": "D",
+        "text": "Using different names for the same concept in every module"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Meaningful names communicate intent and reduce the need for readers to infer what a variable or function represents.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-004",
+    "question": "A function validates input, writes to a database, sends an email, and formats a report. Which clean-code concern is most evident?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The function has too few parameters"
+      },
+      {
+        "id": "B",
+        "text": "The function uses a consistent naming convention"
+      },
+      {
+        "id": "C",
+        "text": "The function has too many unrelated responsibilities"
+      },
+      {
+        "id": "D",
+        "text": "The function is necessarily free of side effects"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A function with many unrelated responsibilities is harder to understand, test, and change; separating responsibilities can improve cohesion.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-005",
+    "question": "Which statement best describes the Single Responsibility Principle as it relates to clean code?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A module should have one well-defined responsibility or one primary reason to change"
+      },
+      {
+        "id": "B",
+        "text": "A module should contain exactly one function"
+      },
+      {
+        "id": "C",
+        "text": "Every function should use exactly one variable"
+      },
+      {
+        "id": "D",
+        "text": "A module should never depend on another module"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Single Responsibility is about a focused responsibility, not a fixed count of functions or variables and not eliminating all dependencies.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-006",
+    "question": "A developer copies the same validation logic into six different modules. Later, a rule changes and only four copies are updated. Which code-quality problem most directly contributed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Excessive encapsulation"
+      },
+      {
+        "id": "B",
+        "text": "Code duplication"
+      },
+      {
+        "id": "C",
+        "text": "Low cyclomatic complexity"
+      },
+      {
+        "id": "D",
+        "text": "Overuse of automated tests"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duplicated logic must be updated in multiple places and can lead to inconsistent behavior when some copies are missed.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-007",
+    "question": "A code review finds a deeply nested conditional that is difficult to follow. Which change is most likely to improve maintainability without changing behavior?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rename every variable to a shorter name"
+      },
+      {
+        "id": "B",
+        "text": "Add unrelated comments to every line"
+      },
+      {
+        "id": "C",
+        "text": "Refactor the logic into clear, well-named helper functions or guard clauses"
+      },
+      {
+        "id": "D",
+        "text": "Duplicate the conditional in another module"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Refactoring complex control flow into well-named units or guard clauses can make intent easier to understand while preserving behavior.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-008",
+    "question": "Which comment is generally most valuable in production code?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A comment that repeats each statement in plain language"
+      },
+      {
+        "id": "B",
+        "text": "A comment explaining a non-obvious reason, constraint, or design decision"
+      },
+      {
+        "id": "C",
+        "text": "A comment stating that the next line is the next line"
+      },
+      {
+        "id": "D",
+        "text": "A comment used instead of meaningful names and clear structure"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Useful comments explain why a non-obvious choice exists; comments that merely restate obvious code can add noise.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-009",
+    "question": "What is the main purpose of a formal or structured code review?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To inspect code for defects, standards violations, and maintainability concerns before or alongside testing"
+      },
+      {
+        "id": "B",
+        "text": "To execute every possible input against the running application"
+      },
+      {
+        "id": "C",
+        "text": "To estimate the project's function points"
+      },
+      {
+        "id": "D",
+        "text": "To replace requirements validation with source-code formatting"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Code review is a static examination of source code to detect issues and improve quality; it does not replace execution-based testing.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-010",
+    "question": "In a typical peer code review, who is primarily responsible for examining the submitted code and giving feedback?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only the end user, without developer involvement"
+      },
+      {
+        "id": "B",
+        "text": "A compiler, without any human review"
+      },
+      {
+        "id": "C",
+        "text": "Peer developers or designated reviewers"
+      },
+      {
+        "id": "D",
+        "text": "Only the project accountant"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Peer review involves developers or other qualified reviewers inspecting code and providing actionable feedback.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-011",
+    "question": "Which distinction between a code walkthrough and a formal inspection is generally accepted in software engineering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A walkthrough is usually author-led, while a formal inspection follows a more structured process with defined roles and procedures"
+      },
+      {
+        "id": "B",
+        "text": "A walkthrough always executes code, while an inspection only checks user interfaces"
+      },
+      {
+        "id": "C",
+        "text": "A walkthrough is performed only by customers, while an inspection is performed only by compilers"
+      },
+      {
+        "id": "D",
+        "text": "A walkthrough guarantees zero defects, while an inspection guarantees zero maintenance cost"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A walkthrough commonly has the author guide peers through the artifact; formal inspections use a more defined review process. Practices can vary by organization.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-012",
+    "question": "A review meeting is dominated by personal criticism of the programmer rather than discussion of the code. Which review principle is being violated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Review findings should be prioritized by KLOC"
+      },
+      {
+        "id": "B",
+        "text": "Review should focus on the work product and defects, not personal blame"
+      },
+      {
+        "id": "C",
+        "text": "Reviewers should avoid reporting defects until after release"
+      },
+      {
+        "id": "D",
+        "text": "Only the original author may identify a defect"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Effective reviews are objective and constructive, focusing on the artifact and its issues rather than blaming individuals.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-013",
+    "question": "Which task is most suitable for an automated linter or static-analysis tool?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confirming that every user finds the interface attractive"
+      },
+      {
+        "id": "B",
+        "text": "Proving that the complete application meets every business requirement"
+      },
+      {
+        "id": "C",
+        "text": "Detecting configured style violations and certain suspicious code patterns without running the program"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all peer reviews and all forms of testing"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Linters and static-analysis tools can detect style issues and some potential defects without executing the software, but they do not replace all reviews or tests.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-014",
+    "question": "A team improves code structure and names but deliberately preserves externally observable behavior. This activity is best described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Refactoring"
+      },
+      {
+        "id": "B",
+        "text": "Reverse engineering"
+      },
+      {
+        "id": "C",
+        "text": "System acceptance testing"
+      },
+      {
+        "id": "D",
+        "text": "Requirements elicitation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Refactoring restructures existing code to improve its internal design while preserving its observable behavior.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-015",
+    "question": "Which situation is the clearest example of technical debt?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A team writes automated tests before adding a feature"
+      },
+      {
+        "id": "B",
+        "text": "A team temporarily chooses a shortcut to meet a deadline, knowing it will make later changes more expensive"
+      },
+      {
+        "id": "C",
+        "text": "A team documents a stable interface before implementation"
+      },
+      {
+        "id": "D",
+        "text": "A team fixes a defect before merging the code"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Technical debt is the future cost of choosing a shortcut or suboptimal solution now; it may be deliberate or accidental.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-016",
+    "question": "A team repeatedly postpones refactoring a fragile module. Each new feature takes longer because developers must work around its complexity. This illustrates:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A reduction in maintenance cost caused by technical debt"
+      },
+      {
+        "id": "B",
+        "text": "The automatic removal of technical debt through feature delivery"
+      },
+      {
+        "id": "C",
+        "text": "The interest or carrying cost of technical debt"
+      },
+      {
+        "id": "D",
+        "text": "A proof that the module has no design problems"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Technical debt can accumulate carrying costs: extra effort, slower changes, and greater risk while the underlying problem remains.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-017",
+    "question": "Which approach is most appropriate when deciding whether to repay a piece of technical debt?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prioritize it using expected future impact, change frequency, risk, and remediation cost"
+      },
+      {
+        "id": "B",
+        "text": "Refactor every old module immediately, regardless of business impact"
+      },
+      {
+        "id": "C",
+        "text": "Ignore it because technical debt never affects delivery speed"
+      },
+      {
+        "id": "D",
+        "text": "Choose only the module with the most lines of code"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Debt repayment should be prioritized by its expected cost and risk relative to the effort required to address it.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-018",
+    "question": "Which statement about technical debt is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All technical debt is caused by careless programmers"
+      },
+      {
+        "id": "B",
+        "text": "Technical debt always makes the current release impossible"
+      },
+      {
+        "id": "C",
+        "text": "Technical debt is identical to a known runtime defect"
+      },
+      {
+        "id": "D",
+        "text": "Some technical debt may be a conscious trade-off, but it should be visible and managed"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Technical debt can be deliberate or unintentional; making it visible helps teams manage its future consequences.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-019",
+    "question": "A codebase has high coupling between modules and low cohesion within several modules. What is the likely maintenance consequence?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Changes are isolated and each module has a single clear purpose"
+      },
+      {
+        "id": "B",
+        "text": "A small change may affect many modules, and individual modules are harder to understand"
+      },
+      {
+        "id": "C",
+        "text": "The code automatically becomes more reusable and testable"
+      },
+      {
+        "id": "D",
+        "text": "Testing is unnecessary because dependencies expose every defect"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "High coupling increases inter-module dependencies, while low cohesion means a module groups weakly related responsibilities; both hinder maintenance.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-020",
+    "question": "A team wants to prevent style-related disagreements from repeatedly appearing in pull requests. Which practice is most effective?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Allow each developer to choose unrelated conventions for every file"
+      },
+      {
+        "id": "B",
+        "text": "Discuss formatting only after a production incident"
+      },
+      {
+        "id": "C",
+        "text": "Agree on documented conventions and automate consistently checkable rules in the development workflow"
+      },
+      {
+        "id": "D",
+        "text": "Use code review only to evaluate the author's experience"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Documented standards plus automated formatting or lint checks reduce repetitive style debates and leave reviewers more time for substantive issues.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-021",
+    "question": "Which code characteristic most directly supports testability?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hidden global state shared by unrelated modules"
+      },
+      {
+        "id": "B",
+        "text": "Functions with many unrelated side effects"
+      },
+      {
+        "id": "C",
+        "text": "Large methods that combine I/O, business rules, and user-interface logic"
+      },
+      {
+        "id": "D",
+        "text": "Small, focused units with explicit dependencies and predictable behavior"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Focused units and explicit dependencies are easier to isolate, control, and test than code with hidden state and unrelated side effects.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-022",
+    "question": "A reviewer notices that a variable is assigned a value that is never used and that one branch may dereference a null object. Which statement is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "These issues can potentially be identified by static analysis without executing the program"
+      },
+      {
+        "id": "B",
+        "text": "They can be identified only by acceptance testing with end users"
+      },
+      {
+        "id": "C",
+        "text": "They are both examples of project scheduling variance"
+      },
+      {
+        "id": "D",
+        "text": "They cannot be detected until technical debt is repaid"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Static-analysis tools can detect some unused assignments and possible null dereferences, although findings may need human verification.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-023",
+    "question": "Which statement best distinguishes code review from testing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Code review always executes the software, while testing never does"
+      },
+      {
+        "id": "B",
+        "text": "Code review examines code or artifacts, often without execution; testing evaluates behavior by executing software or components"
+      },
+      {
+        "id": "C",
+        "text": "Code review measures project cost, while testing measures only LOC"
+      },
+      {
+        "id": "D",
+        "text": "Code review and testing are identical activities with different names"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reviews are typically static examination activities; testing usually executes software to reveal failures. They complement each other.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-024",
+    "question": "A team wants to make a long method easier to understand. Which change is least likely to improve code quality?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Extracting a coherent block into a well-named helper function"
+      },
+      {
+        "id": "B",
+        "text": "Replacing unclear names with meaningful names"
+      },
+      {
+        "id": "C",
+        "text": "Splitting the method into arbitrary tiny functions that obscure the overall flow"
+      },
+      {
+        "id": "D",
+        "text": "Separating unrelated responsibilities"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Breaking code into functions helps only when the functions express meaningful units; arbitrary fragmentation can make control flow harder to follow.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-code-quality-025",
+    "question": "Which practice best supports a sustainable approach to code quality in an actively developed project?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Treat quality as a one-time cleanup task performed only before release"
+      },
+      {
+        "id": "B",
+        "text": "Rely entirely on developers remembering every rule without tooling"
+      },
+      {
+        "id": "C",
+        "text": "Accept all shortcuts permanently if the current feature works"
+      },
+      {
+        "id": "D",
+        "text": "Combine coding conventions, peer review, automated checks, tests, and deliberate debt management"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Code quality is sustained through complementary practices throughout development, rather than a single final inspection.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

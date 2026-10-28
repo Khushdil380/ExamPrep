@@ -15,7 +15,20 @@
    python scripts\sync_question_indexes.py
    ```
 
-Script folders aur JSON filenames se main aur subject indexes khud update karegi. `subject-id`, `chapter-id`, aur JSON filename ka naam default roop se app mein dikhne wala naam hoga. Naam alag chahiye to script ke baad index mein `subjectName`, `chapterName`, ya `categoryName` badal dein; dobara script chalane par yeh naam preserve rahenge.
+Script folders aur JSON filenames se main aur subject indexes khud update karegi. `subject-id`, `chapter-id`, aur JSON filename ka naam default roop se app mein dikhne wala naam hoga. Naam alag chahiye to index mein `subjectName`, `chapterName`, ya `categoryName` badal dein; dobara script chalane par yeh naam preserve rahenge.
+
+Subjects, chapters, aur topics/categories ke `order` field se display order control karein. Chhota number pehle dikhega; har list ke andar order number unique positive integer rakhein:
+
+```json
+{
+  "subjectId": "software-eng",
+  "subjectName": "Software Engineering",
+  "file": "questions/software-eng/index.json",
+  "order": 4
+}
+```
+
+Subject ka `order` `questions/index.json` mein badlein. Chapter aur topic/category ka `order` unke subject ke `index.json` mein badlein. Maujooda entries mein `order` na ho to script unka current index order preserve karke number degi; naye subjects, chapters, ya topics ko us list ke end mein agla order number milega. Order badalne ke baad script dobara chalayen; app indexes mein `order` ke mutabik dikhayegi.
 
 Existing topic ke questions badalne par wahi JSON file edit karein. Naya topic add karne par nayi JSON file rakhein aur script chalayen. Kisi topic ki JSON file delete karne par script uski index entry bhi hata degi.
 
@@ -40,3 +53,8 @@ git add questions mock-tests && git commit -m "Update questions" && git push ori
 ```
 
 Har question ka unique `id` rakhein. JSON mein `correctAnswer` option ID (`A`, `B`, `C`, `D`) se match hona chahiye. GitHub Actions deploy ke baad site update hogi: https://khushdil380.github.io/ExamPrep/
+
+
+local run
+python -m http.server 8000
+http://localhost:8000/

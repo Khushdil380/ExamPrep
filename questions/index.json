@@ -5,17 +5,26 @@
     {
       "subjectId": "computer-networks",
       "subjectName": "Computer Networks",
-      "file": "questions/computer-networks/index.json"
+      "file": "questions/computer-networks/index.json",
+      "order": 1
     },
     {
       "subjectId": "digital-logic",
       "subjectName": "Digital Logic",
-      "file": "questions/digital-logic/index.json"
+      "file": "questions/digital-logic/index.json",
+      "order": 2
     },
     {
       "subjectId": "hindi",
       "subjectName": "Hindi",
-      "file": "questions/hindi/index.json"
+      "file": "questions/hindi/index.json",
+      "order": 4
+    },
+    {
+      "subjectId": "software-eng",
+      "subjectName": "software-eng",
+      "file": "questions/software-eng/index.json",
+      "order": 3
     }
   ]
 }

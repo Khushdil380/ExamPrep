@@ -1,0 +1,522 @@
+[
+  {
+    "id": "se-risk-management-001",
+    "question": "A team waits until a major defect causes a release delay before deciding how to respond. Which risk strategy does this best illustrate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proactive risk management"
+      },
+      {
+        "id": "B",
+        "text": "Reactive risk management"
+      },
+      {
+        "id": "C",
+        "text": "Risk refinement"
+      },
+      {
+        "id": "D",
+        "text": "Risk projection"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reactive strategies respond after a risk has become a problem; proactive strategies identify and address risks in advance.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-002",
+    "question": "Before development begins, a project team lists possible staff turnover, changing requirements, and integration failures. This activity is primarily:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Risk identification"
+      },
+      {
+        "id": "B",
+        "text": "Risk monitoring"
+      },
+      {
+        "id": "C",
+        "text": "Risk management after occurrence"
+      },
+      {
+        "id": "D",
+        "text": "Risk closure"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Risk identification discovers and documents events or conditions that could adversely affect the project.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-003",
+    "question": "A risk register records a possible supplier delay. The team then estimates its likelihood and the damage it could cause to the project. This is mainly:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Risk identification"
+      },
+      {
+        "id": "B",
+        "text": "Risk refinement"
+      },
+      {
+        "id": "C",
+        "text": "Risk projection"
+      },
+      {
+        "id": "D",
+        "text": "Risk avoidance by default"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Risk projection, also called risk estimation, assesses probability and consequences or impact.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-004",
+    "question": "A broad risk statement says, “The new system may not perform well.” The team breaks it into database latency, peak-load response time, and network bottlenecks. This is an example of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Risk monitoring"
+      },
+      {
+        "id": "B",
+        "text": "Risk refinement"
+      },
+      {
+        "id": "C",
+        "text": "Risk transfer"
+      },
+      {
+        "id": "D",
+        "text": "Risk acceptance"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Risk refinement decomposes a broad risk into more specific, actionable causes or scenarios.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-005",
+    "question": "Which activity is the clearest example of proactive risk management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reassigning developers after a key employee resigns unexpectedly"
+      },
+      {
+        "id": "B",
+        "text": "Extending the release date after a critical outage"
+      },
+      {
+        "id": "C",
+        "text": "Preparing a recovery plan only after the database is corrupted"
+      },
+      {
+        "id": "D",
+        "text": "Cross-training staff and documenting critical knowledge before turnover occurs"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Proactive management anticipates potential problems and takes steps to reduce their likelihood or impact before they occur.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-006",
+    "question": "A risk has a 0.3 probability of occurring and would cause an estimated loss of ₹2,00,000. Using probability × loss as a simple risk-exposure estimate, the exposure is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "₹60,000"
+      },
+      {
+        "id": "B",
+        "text": "₹1,40,000"
+      },
+      {
+        "id": "C",
+        "text": "₹2,00,000"
+      },
+      {
+        "id": "D",
+        "text": "₹6,00,000"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Risk exposure = probability × loss = 0.3 × ₹2,00,000 = ₹60,000.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-007",
+    "question": "Two risks have the same probability. Risk X could delay delivery by one day, while Risk Y could cause a month-long delay and data loss. Which conclusion is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both risks must receive equal priority because their probabilities match"
+      },
+      {
+        "id": "B",
+        "text": "Risk Y should generally receive higher priority because its potential consequences are more severe"
+      },
+      {
+        "id": "C",
+        "text": "Risk X is always more important because schedule risks occur first"
+      },
+      {
+        "id": "D",
+        "text": "Neither risk can be ranked until it actually occurs"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Risk prioritization considers both likelihood and impact; equal probability does not imply equal overall risk.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-008",
+    "question": "Which item is most useful in a risk register for ensuring that an identified risk is acted upon rather than merely recorded?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The project logo and document formatting"
+      },
+      {
+        "id": "B",
+        "text": "The final source-code line count only"
+      },
+      {
+        "id": "C",
+        "text": "A named risk owner, response actions, and review status"
+      },
+      {
+        "id": "D",
+        "text": "A list of completed features without risk references"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Assigning ownership, recording responses, and tracking status make risk management actionable and accountable.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-009",
+    "question": "In an RMMM plan, what does the first “M” stand for?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Measurement"
+      },
+      {
+        "id": "B",
+        "text": "Mitigation"
+      },
+      {
+        "id": "C",
+        "text": "Modeling"
+      },
+      {
+        "id": "D",
+        "text": "Maintenance"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "RMMM stands for Risk Mitigation, Monitoring, and Management.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-010",
+    "question": "A team introduces automated regression tests to reduce the chance that future code changes will cause unnoticed failures. Within RMMM, this is primarily a mitigation action because it:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reduces the likelihood or impact of a potential risk"
+      },
+      {
+        "id": "B",
+        "text": "Records whether the risk indicator has changed this week"
+      },
+      {
+        "id": "C",
+        "text": "Describes the actions taken only after the risk becomes a problem"
+      },
+      {
+        "id": "D",
+        "text": "Removes the need to identify risks in later iterations"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mitigation consists of planned actions that reduce a risk's probability or consequences before it materializes.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-011",
+    "question": "A project lead checks weekly whether the only engineer familiar with a legacy module is showing signs of leaving, and reviews the availability of backup staff. This is mainly:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Risk identification only"
+      },
+      {
+        "id": "B",
+        "text": "Risk management after occurrence"
+      },
+      {
+        "id": "C",
+        "text": "Risk monitoring"
+      },
+      {
+        "id": "D",
+        "text": "Risk transfer"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Monitoring tracks risk indicators and whether assumptions, likelihood, or exposure are changing over time.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-012",
+    "question": "A key supplier has stopped delivering a required component, and the project activates a pre-agreed alternative supplier plan. In RMMM terms, this is mainly:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Risk projection"
+      },
+      {
+        "id": "B",
+        "text": "Risk refinement"
+      },
+      {
+        "id": "C",
+        "text": "Risk identification"
+      },
+      {
+        "id": "D",
+        "text": "Risk management / contingency response"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Management in RMMM addresses the response to a risk when it materializes, often through a contingency plan.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-013",
+    "question": "Which pairing correctly distinguishes mitigation from contingency management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mitigation reduces the chance or impact in advance; contingency management specifies what to do if the risk occurs"
+      },
+      {
+        "id": "B",
+        "text": "Mitigation is performed only after a failure; contingency management prevents all risks from being identified"
+      },
+      {
+        "id": "C",
+        "text": "Mitigation assigns project cost; contingency management estimates KLOC"
+      },
+      {
+        "id": "D",
+        "text": "Mitigation records probability only; contingency management records severity only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mitigation is preventive; contingency or risk management actions are triggered if the risk becomes reality.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-014",
+    "question": "During risk projection, a team estimates both the probability of a risk and the consequences if it occurs. What is a practical next use of these estimates?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Replace the project schedule with a risk list"
+      },
+      {
+        "id": "B",
+        "text": "Prioritize risks and decide where response effort is most valuable"
+      },
+      {
+        "id": "C",
+        "text": "Treat every risk as equally urgent"
+      },
+      {
+        "id": "D",
+        "text": "Stop monitoring risks with a probability below 50%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Probability and impact estimates support risk ranking and help allocate limited mitigation and monitoring resources.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-015",
+    "question": "A risk statement says, “The project may miss the deadline.” Which refinement makes it most actionable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The project has a schedule and a deadline"
+      },
+      {
+        "id": "B",
+        "text": "The team should work harder if the deadline is missed"
+      },
+      {
+        "id": "C",
+        "text": "If the external API is delivered late, integration testing may start two weeks late and delay release"
+      },
+      {
+        "id": "D",
+        "text": "All projects have some possibility of being delayed"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A refined risk connects a specific cause to a possible event and its project consequence, enabling targeted action.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-016",
+    "question": "Which situation best illustrates a risk trigger or warning indicator?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The team archives the final project report after release"
+      },
+      {
+        "id": "B",
+        "text": "The team counts all completed user stories at project closure"
+      },
+      {
+        "id": "C",
+        "text": "The project manager removes every risk from the register at kickoff"
+      },
+      {
+        "id": "D",
+        "text": "The number of unresolved high-severity defects exceeds a predefined threshold"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A risk trigger is an observable condition that signals a risk may be occurring or requires a planned response.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-017",
+    "question": "A team identifies a risk that a new technology may be harder to use than expected. Which response is most clearly a mitigation step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Build a small proof of concept early and train the team before full implementation"
+      },
+      {
+        "id": "B",
+        "text": "Wait until the final release to determine whether the technology works"
+      },
+      {
+        "id": "C",
+        "text": "Record the problem only after implementation has failed"
+      },
+      {
+        "id": "D",
+        "text": "Cancel all monitoring because the risk is already documented"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An early proof of concept and training reduce uncertainty and the likelihood or impact of technology-related problems.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-018",
+    "question": "Why should risk monitoring continue after a mitigation action has been introduced?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because mitigation automatically increases the probability of every risk"
+      },
+      {
+        "id": "B",
+        "text": "Because the action may be ineffective or the risk's likelihood and impact may change"
+      },
+      {
+        "id": "C",
+        "text": "Because monitoring replaces the need for contingency plans"
+      },
+      {
+        "id": "D",
+        "text": "Because risks cannot be reassessed once they are identified"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Monitoring checks whether responses work and whether project changes create new or altered risks.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-019",
+    "question": "A team chooses not to take additional preventive action for a low-impact risk but documents that it will accept the consequences if it occurs. This is best described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Risk refinement"
+      },
+      {
+        "id": "B",
+        "text": "Risk projection"
+      },
+      {
+        "id": "C",
+        "text": "Risk acceptance"
+      },
+      {
+        "id": "D",
+        "text": "Risk monitoring"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Risk acceptance is a response choice in which the team acknowledges a risk and decides not to actively reduce or transfer it, often because its exposure is low.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-risk-management-020",
+    "question": "Which sequence best represents a practical proactive risk-management workflow?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait for failure → estimate its cost → identify its cause → close the project"
+      },
+      {
+        "id": "B",
+        "text": "Create the schedule → ignore uncertainty → monitor only after release"
+      },
+      {
+        "id": "C",
+        "text": "Estimate KLOC → calculate function points → remove the risk register"
+      },
+      {
+        "id": "D",
+        "text": "Identify risks → analyze probability and impact → refine and prioritize → plan mitigation, monitoring, and contingency actions"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Proactive risk management identifies and analyzes risks early, prioritizes them, and plans actions before problems occur.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

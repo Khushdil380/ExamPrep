@@ -1,0 +1,522 @@
+[
+  {
+    "id": "core-design-concepts-001",
+    "question": "What is abstraction in software design?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Representing essential features while suppressing unnecessary detail"
+      },
+      {
+        "id": "B",
+        "text": "Dividing a system into separate modules with defined interfaces"
+      },
+      {
+        "id": "C",
+        "text": "Keeping a module's internal decisions hidden from other modules"
+      },
+      {
+        "id": "D",
+        "text": "Changing code structure without changing its external behavior"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Abstraction focuses on what is essential and leaves out lower-level details that are not currently needed.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-002",
+    "question": "A developer uses a payment service through a simple `pay()` operation without needing to know how its internal payment gateway calls work. This best illustrates:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abstraction"
+      },
+      {
+        "id": "B",
+        "text": "Refactoring"
+      },
+      {
+        "id": "C",
+        "text": "Modularity"
+      },
+      {
+        "id": "D",
+        "text": "Functional independence"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The simple operation exposes essential behavior while hiding implementation detail from the user of the service.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-003",
+    "question": "Which statement best describes modularity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dividing software into manageable components with defined responsibilities"
+      },
+      {
+        "id": "B",
+        "text": "Showing only essential features and omitting unnecessary detail"
+      },
+      {
+        "id": "C",
+        "text": "Changing internal code structure while preserving behavior"
+      },
+      {
+        "id": "D",
+        "text": "Preventing all communication between components"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Modularity organizes a system into smaller components that can be developed and understood more easily.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-004",
+    "question": "A large application is divided into separate modules for login, billing, and reporting. What is the most direct design benefit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Each area can be understood and changed with less impact on unrelated areas"
+      },
+      {
+        "id": "B",
+        "text": "All modules can be developed without any interfaces"
+      },
+      {
+        "id": "C",
+        "text": "Every module is guaranteed to have zero dependencies"
+      },
+      {
+        "id": "D",
+        "text": "The application no longer requires integration testing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Well-designed modules group related responsibilities and help limit the impact of changes.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-005",
+    "question": "What is information hiding primarily concerned with?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Concealing a module's internal design decisions behind a stable interface"
+      },
+      {
+        "id": "B",
+        "text": "Removing all documentation about the software"
+      },
+      {
+        "id": "C",
+        "text": "Making every internal variable globally accessible"
+      },
+      {
+        "id": "D",
+        "text": "Combining all modules into one large component"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Information hiding protects implementation decisions so other modules depend on the interface rather than internals.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-006",
+    "question": "A module stores account balance privately and allows changes only through validated deposit and withdrawal operations. This is an example of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Information hiding"
+      },
+      {
+        "id": "B",
+        "text": "Refactoring"
+      },
+      {
+        "id": "C",
+        "text": "Low cohesion"
+      },
+      {
+        "id": "D",
+        "text": "Decomposition into processes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The internal data representation is protected and accessed through controlled operations.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-007",
+    "question": "Functional independence is best achieved when modules have:",
+    "options": [
+      {
+        "id": "A",
+        "text": "High cohesion and low coupling"
+      },
+      {
+        "id": "B",
+        "text": "Low cohesion and high coupling"
+      },
+      {
+        "id": "C",
+        "text": "High cohesion and high coupling"
+      },
+      {
+        "id": "D",
+        "text": "Low cohesion and low responsibility"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Independent modules focus on a clear task and have limited dependence on other modules.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-008",
+    "question": "In software design, cohesion refers to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "How strongly the responsibilities within one module belong together"
+      },
+      {
+        "id": "B",
+        "text": "How strongly one module depends on other modules"
+      },
+      {
+        "id": "C",
+        "text": "How many modules exist in the complete system"
+      },
+      {
+        "id": "D",
+        "text": "How many lines of code a function contains"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cohesion measures how closely related the elements within a module are.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-009",
+    "question": "Coupling refers to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The degree of dependency between modules"
+      },
+      {
+        "id": "B",
+        "text": "The relatedness of tasks within one module"
+      },
+      {
+        "id": "C",
+        "text": "The process of simplifying an algorithm's description"
+      },
+      {
+        "id": "D",
+        "text": "The preservation of behavior during code restructuring"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Coupling describes interdependence between modules; lower coupling is generally preferred.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-010",
+    "question": "Which design is generally the most functionally independent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A report module that performs reporting and has few dependencies on other modules"
+      },
+      {
+        "id": "B",
+        "text": "A report module that directly changes the private data of several other modules"
+      },
+      {
+        "id": "C",
+        "text": "A report module that contains unrelated billing and authentication logic"
+      },
+      {
+        "id": "D",
+        "text": "A report module that relies on many shared global variables"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A focused responsibility and few dependencies support high cohesion and low coupling.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-011",
+    "question": "What is refactoring?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Improving internal code structure without changing its externally observable behavior"
+      },
+      {
+        "id": "B",
+        "text": "Adding a new user-visible feature to meet a changed requirement"
+      },
+      {
+        "id": "C",
+        "text": "Correcting a defect by changing the system's expected output"
+      },
+      {
+        "id": "D",
+        "text": "Rewriting requirements so that implementation becomes unnecessary"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Refactoring restructures code to improve clarity or maintainability while preserving behavior.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-012",
+    "question": "A developer extracts a repeated block of code into a well-named helper function and confirms that tests still pass. This is an example of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Refactoring"
+      },
+      {
+        "id": "B",
+        "text": "Requirement elicitation"
+      },
+      {
+        "id": "C",
+        "text": "System deployment"
+      },
+      {
+        "id": "D",
+        "text": "Functional decomposition only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Extracting a helper can improve structure without changing the program's behavior.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-013",
+    "question": "A team wants to refactor a module safely. Which practice provides the strongest immediate support for checking behavior preservation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Running relevant automated tests before and after the change"
+      },
+      {
+        "id": "B",
+        "text": "Changing the public interface and ignoring existing callers"
+      },
+      {
+        "id": "C",
+        "text": "Removing tests because refactoring should not change behavior"
+      },
+      {
+        "id": "D",
+        "text": "Combining the module with unrelated features before testing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tests help detect unintended behavior changes during structural improvements.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-014",
+    "question": "Which statement correctly distinguishes abstraction from information hiding?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abstraction emphasizes essential behavior; information hiding conceals internal design decisions"
+      },
+      {
+        "id": "B",
+        "text": "Abstraction means splitting modules; information hiding means combining them"
+      },
+      {
+        "id": "C",
+        "text": "Abstraction preserves behavior during code changes; information hiding adds new features"
+      },
+      {
+        "id": "D",
+        "text": "Abstraction measures dependencies; information hiding measures internal relatedness"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "They are related but distinct: abstraction defines a useful view, while information hiding protects implementation details.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-015",
+    "question": "Which statement correctly distinguishes cohesion from coupling?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cohesion concerns relationships within a module; coupling concerns dependencies between modules"
+      },
+      {
+        "id": "B",
+        "text": "Cohesion concerns dependencies between modules; coupling concerns relationships within a module"
+      },
+      {
+        "id": "C",
+        "text": "Cohesion and coupling both measure only the number of lines of code"
+      },
+      {
+        "id": "D",
+        "text": "Cohesion is a refactoring technique; coupling is a type of abstraction"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cohesion is intra-module relatedness; coupling is inter-module dependence.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-016",
+    "question": "A change to the database schema forces edits in many unrelated modules because they all access its tables directly. Which design weakness is most evident?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Excessive coupling and inadequate information hiding"
+      },
+      {
+        "id": "B",
+        "text": "Excessive abstraction and excessive cohesion"
+      },
+      {
+        "id": "C",
+        "text": "Successful functional independence"
+      },
+      {
+        "id": "D",
+        "text": "Refactoring that preserved behavior"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Direct dependence on internal database details spreads change impact and weakens encapsulation.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-017",
+    "question": "A module performs input validation, invoice calculation, email delivery, and report formatting, all in one place. Which improvement is most consistent with good modular design?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Separate responsibilities into focused modules with clear interfaces"
+      },
+      {
+        "id": "B",
+        "text": "Expose all internal variables so each responsibility can share them"
+      },
+      {
+        "id": "C",
+        "text": "Move all functions into one global routine to avoid interfaces"
+      },
+      {
+        "id": "D",
+        "text": "Duplicate the same logic in every module to reduce dependencies"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Separating distinct responsibilities can improve cohesion and make modules easier to maintain.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-018",
+    "question": "Why should refactoring generally be performed in small, behavior-preserving steps?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It makes unintended changes easier to detect and isolate"
+      },
+      {
+        "id": "B",
+        "text": "It guarantees that no testing is needed afterward"
+      },
+      {
+        "id": "C",
+        "text": "It allows developers to ignore dependencies between modules"
+      },
+      {
+        "id": "D",
+        "text": "It ensures that every refactoring adds a new feature"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Small steps reduce risk and help pinpoint the source of regressions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-019",
+    "question": "A class exposes a method `getInternalArray()` that lets other modules modify its internal collection directly. Which principle is most clearly weakened?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Information hiding"
+      },
+      {
+        "id": "B",
+        "text": "Abstraction only"
+      },
+      {
+        "id": "C",
+        "text": "Refactoring"
+      },
+      {
+        "id": "D",
+        "text": "Modularity only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Exposing mutable internal data allows callers to depend on and alter implementation details.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "core-design-concepts-020",
+    "question": "Which statement about good design concepts is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They complement one another: modularity organizes components, abstraction simplifies views, information hiding protects internals, and functional independence limits dependencies"
+      },
+      {
+        "id": "B",
+        "text": "They are interchangeable terms that all mean dividing code into files"
+      },
+      {
+        "id": "C",
+        "text": "They mainly reduce the number of requirements and eliminate maintenance"
+      },
+      {
+        "id": "D",
+        "text": "They guarantee that software will never contain defects"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "These concepts address different but related aspects of a maintainable software design.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

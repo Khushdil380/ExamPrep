@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "se-sdlc-001",
+    "question": "Which sequence best represents the usual high-level software life cycle?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Requirements, design, implementation, testing, deployment, maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Design, maintenance, requirements, deployment, implementation, testing"
+      },
+      {
+        "id": "C",
+        "text": "Implementation, requirements, testing, design, maintenance, deployment"
+      },
+      {
+        "id": "D",
+        "text": "Testing, implementation, deployment, requirements, design, maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A typical life cycle moves from understanding requirements through design and implementation to verification, delivery, and ongoing maintenance; specific models may organize or repeat these activities differently.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-002",
+    "question": "A team begins coding before clarifying important user needs. Later, major features must be redesigned. Which SDLC activity was most clearly inadequate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Requirements analysis"
+      },
+      {
+        "id": "B",
+        "text": "Deployment planning"
+      },
+      {
+        "id": "C",
+        "text": "Post-release maintenance"
+      },
+      {
+        "id": "D",
+        "text": "Operational monitoring"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Requirements analysis identifies and clarifies what stakeholders need before design and implementation depend on those decisions.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-003",
+    "question": "Which activity primarily converts approved requirements into the structure, components, interfaces, and data organization of a solution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Software design"
+      },
+      {
+        "id": "B",
+        "text": "Software deployment"
+      },
+      {
+        "id": "C",
+        "text": "Acceptance testing"
+      },
+      {
+        "id": "D",
+        "text": "Corrective maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Design defines how the system will be structured and how its parts will realize the requirements.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-004",
+    "question": "A developer translates a module's design into source code and checks syntax and basic execution. Which SDLC phase is primarily involved?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Implementation or coding"
+      },
+      {
+        "id": "B",
+        "text": "Requirements elicitation"
+      },
+      {
+        "id": "C",
+        "text": "System deployment"
+      },
+      {
+        "id": "D",
+        "text": "Feasibility analysis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Implementation converts design specifications into executable code.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-005",
+    "question": "After deployment, a government rule changes and the application must be updated to remain compliant. Which life-cycle activity handles this change?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Requirements elicitation only"
+      },
+      {
+        "id": "B",
+        "text": "Software maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Initial feasibility study only"
+      },
+      {
+        "id": "D",
+        "text": "Initial architectural design only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Maintenance includes adapting software to changed external conditions, including new regulations.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-006",
+    "question": "Which statement about SDLC is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every SDLC model uses exactly the same sequence with no iteration"
+      },
+      {
+        "id": "B",
+        "text": "SDLC describes organized activities used to develop and maintain software"
+      },
+      {
+        "id": "C",
+        "text": "SDLC begins only after source code has been written"
+      },
+      {
+        "id": "D",
+        "text": "SDLC refers only to testing and deployment"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SDLC organizes software development and maintenance activities; different process models arrange and revisit them differently.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-007",
+    "question": "A team performs requirements, design, coding, and testing in small repeated cycles, delivering usable increments after each cycle. Which statement best describes this approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The life cycle can be iterative and incremental"
+      },
+      {
+        "id": "B",
+        "text": "The life cycle must be strictly one-pass and sequential"
+      },
+      {
+        "id": "C",
+        "text": "Maintenance must finish before implementation begins"
+      },
+      {
+        "id": "D",
+        "text": "Testing is excluded until the entire product is retired"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Iterative development revisits activities; incremental development delivers the product in successive usable portions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-008",
+    "question": "Which of the following is generally considered an umbrella activity rather than a phase performed only once?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Software quality assurance throughout the project"
+      },
+      {
+        "id": "B",
+        "text": "Writing the first version of a single module"
+      },
+      {
+        "id": "C",
+        "text": "Installing the first production release"
+      },
+      {
+        "id": "D",
+        "text": "Conducting the initial stakeholder interview"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Umbrella activities, such as quality assurance, risk management, measurement, and configuration management, span multiple life-cycle activities.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-009",
+    "question": "A project tracks risks, manages changes, measures progress, and conducts quality reviews during requirements, design, coding, and testing. These are best classified as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Umbrella activities supporting the life cycle"
+      },
+      {
+        "id": "B",
+        "text": "Activities restricted to the coding phase"
+      },
+      {
+        "id": "C",
+        "text": "Deployment tasks that begin after acceptance"
+      },
+      {
+        "id": "D",
+        "text": "Maintenance tasks that cannot occur during development"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Risk management, software quality assurance, configuration management, and project tracking commonly continue across the life cycle.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-010",
+    "question": "Which activity is most directly concerned with determining whether a proposed software project is technically, economically, and operationally feasible?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Feasibility study"
+      },
+      {
+        "id": "B",
+        "text": "Unit testing"
+      },
+      {
+        "id": "C",
+        "text": "Code refactoring"
+      },
+      {
+        "id": "D",
+        "text": "Release installation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A feasibility study evaluates whether the proposed solution is practical and worthwhile under relevant constraints.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-011",
+    "question": "In a project, a stakeholder confirms that the delivered system supports the intended business tasks and satisfies agreed needs. Which activity is most directly represented?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Validation or acceptance-oriented evaluation"
+      },
+      {
+        "id": "B",
+        "text": "Lexical analysis"
+      },
+      {
+        "id": "C",
+        "text": "Source-code compilation"
+      },
+      {
+        "id": "D",
+        "text": "Configuration-item naming"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Validation asks whether the product meets user needs; acceptance testing often provides evidence for stakeholder acceptance.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-012",
+    "question": "Which statement best distinguishes verification from validation in the SDLC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Verification checks conformance to specified requirements; validation checks whether the product meets user needs"
+      },
+      {
+        "id": "B",
+        "text": "Verification occurs only after release; validation occurs only before design"
+      },
+      {
+        "id": "C",
+        "text": "Verification checks usability only; validation checks source-code syntax only"
+      },
+      {
+        "id": "D",
+        "text": "Verification and validation are identical terms for compiling code"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Verification evaluates whether work products meet specifications; validation evaluates whether the resulting product is the right one for users.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-013",
+    "question": "A team tests each module separately before combining the modules into a complete application. Which testing level is being used first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unit testing"
+      },
+      {
+        "id": "B",
+        "text": "System testing"
+      },
+      {
+        "id": "C",
+        "text": "Acceptance testing"
+      },
+      {
+        "id": "D",
+        "text": "Operational acceptance only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Unit testing checks individual components or modules in isolation before broader integration and system testing.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-014",
+    "question": "A project has passed module-level tests, but data is incorrectly passed between two modules when they are combined. Which activity is most directly intended to uncover such problems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Integration testing"
+      },
+      {
+        "id": "B",
+        "text": "Feasibility analysis"
+      },
+      {
+        "id": "C",
+        "text": "Requirements elicitation"
+      },
+      {
+        "id": "D",
+        "text": "User training"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Integration testing focuses on interactions and interfaces among combined components.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-015",
+    "question": "Which sequence is most appropriate when a team follows a traditional staged process with formal phase completion and approval before the next phase begins?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Requirements → Design → Implementation → Testing → Deployment"
+      },
+      {
+        "id": "B",
+        "text": "Implementation → Deployment → Requirements → Design → Testing"
+      },
+      {
+        "id": "C",
+        "text": "Testing → Requirements → Maintenance → Design → Implementation"
+      },
+      {
+        "id": "D",
+        "text": "Deployment → Design → Testing → Requirements → Implementation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A staged process commonly moves from requirements to design, implementation, testing, and deployment, though real projects may revisit earlier work.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-016",
+    "question": "Which limitation is most commonly associated with a strict Waterfall-style process when requirements change substantially late in development?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Revisiting completed phases can be costly and disruptive"
+      },
+      {
+        "id": "B",
+        "text": "It cannot produce any written documentation"
+      },
+      {
+        "id": "C",
+        "text": "It requires every feature to be released daily"
+      },
+      {
+        "id": "D",
+        "text": "It eliminates the need for requirements analysis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Waterfall emphasizes staged progression, so substantial late changes may require costly rework in earlier phases.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-017",
+    "question": "Which statement about the Spiral model is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Each cycle emphasizes identifying and addressing risks before committing to further development"
+      },
+      {
+        "id": "B",
+        "text": "It prohibits prototyping and risk analysis"
+      },
+      {
+        "id": "C",
+        "text": "It requires all requirements to remain unchanged from the beginning"
+      },
+      {
+        "id": "D",
+        "text": "It is simply a name for testing after coding"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Spiral model is risk-driven; each loop typically includes objective setting, risk analysis, development/validation, and planning the next cycle.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-018",
+    "question": "A project has major technical uncertainties and a high cost of failure. The team wants to evaluate risks and prototypes in repeated cycles before committing fully. Which model is the strongest fit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Spiral model"
+      },
+      {
+        "id": "B",
+        "text": "Strict Waterfall model"
+      },
+      {
+        "id": "C",
+        "text": "Big-bang development without planned iterations"
+      },
+      {
+        "id": "D",
+        "text": "A maintenance-only process"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Spiral model is especially suited to risk-intensive projects because risk analysis guides each development cycle.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-019",
+    "question": "A team builds a quick working version so users can clarify poorly understood requirements before the final product is engineered. Which approach is being used?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prototyping model"
+      },
+      {
+        "id": "B",
+        "text": "Strict one-pass Waterfall without feedback"
+      },
+      {
+        "id": "C",
+        "text": "Configuration auditing"
+      },
+      {
+        "id": "D",
+        "text": "Post-release corrective maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Prototyping uses an early model to obtain feedback and clarify requirements or design choices.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-020",
+    "question": "Which risk can arise if a quick prototype is repeatedly patched and then treated as production software without suitable redesign?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prototype shortcuts may leave a weak architecture and difficult-to-maintain code"
+      },
+      {
+        "id": "B",
+        "text": "User feedback becomes impossible to collect"
+      },
+      {
+        "id": "C",
+        "text": "Requirements automatically become complete and stable"
+      },
+      {
+        "id": "D",
+        "text": "All testing becomes unnecessary because users saw the prototype"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A prototype may prioritize learning and speed over robust architecture; turning it directly into a product can preserve shortcuts and technical weaknesses.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-021",
+    "question": "Which model explicitly organizes development into a sequence of stages and commonly associates each development stage with a corresponding testing stage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "V-Model"
+      },
+      {
+        "id": "B",
+        "text": "Kanban"
+      },
+      {
+        "id": "C",
+        "text": "Big-bang model"
+      },
+      {
+        "id": "D",
+        "text": "Pure maintenance model"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The V-Model links development activities with corresponding test levels, emphasizing test planning and verification/validation relationships.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-022",
+    "question": "In the V-Model, system requirements are most directly associated with planning which corresponding test level?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acceptance testing"
+      },
+      {
+        "id": "B",
+        "text": "Unit testing"
+      },
+      {
+        "id": "C",
+        "text": "Statement coverage testing only"
+      },
+      {
+        "id": "D",
+        "text": "Compiler integration testing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In the common V-Model mapping, user or system requirements correspond to acceptance testing; architecture and detailed design map to lower test levels.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-023",
+    "question": "A product is delivered in several planned releases, each adding a useful subset of functionality. Which development characteristic is most clearly present?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incremental delivery"
+      },
+      {
+        "id": "B",
+        "text": "Single final delivery with no intermediate builds"
+      },
+      {
+        "id": "C",
+        "text": "Maintenance before any working software exists"
+      },
+      {
+        "id": "D",
+        "text": "Testing limited to the first release"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Incremental development builds and delivers functionality in successive portions rather than waiting for one complete final release.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-024",
+    "question": "What is the key distinction between iterative and incremental development?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iteration refines the solution through repeated cycles; increments add usable pieces of functionality"
+      },
+      {
+        "id": "B",
+        "text": "Iteration means adding features only; increment means repeating the same phase only"
+      },
+      {
+        "id": "C",
+        "text": "Iteration is limited to testing; increments are limited to requirements"
+      },
+      {
+        "id": "D",
+        "text": "They are always mutually exclusive and cannot be combined"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Iteration emphasizes refinement through repetition, while increment emphasizes staged addition of functionality; a project can use both.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-025",
+    "question": "Which statement best describes the CMMI maturity-level sequence for staged representation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Initial, Managed, Defined, Quantitatively Managed, Optimizing"
+      },
+      {
+        "id": "B",
+        "text": "Managed, Initial, Defined, Optimizing, Quantitatively Managed"
+      },
+      {
+        "id": "C",
+        "text": "Initial, Defined, Managed, Optimizing, Quantitatively Managed"
+      },
+      {
+        "id": "D",
+        "text": "Defined, Initial, Managed, Quantitatively Managed, Optimizing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The five staged CMMI maturity levels are Level 1 Initial, Level 2 Managed, Level 3 Defined, Level 4 Quantitatively Managed, and Level 5 Optimizing.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-026",
+    "question": "An organization has unpredictable processes that depend heavily on individual effort, with little consistent project control. Which CMMI maturity level best describes this situation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Level 1 — Initial"
+      },
+      {
+        "id": "B",
+        "text": "Level 2 — Managed"
+      },
+      {
+        "id": "C",
+        "text": "Level 3 — Defined"
+      },
+      {
+        "id": "D",
+        "text": "Level 4 — Quantitatively Managed"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "At Initial maturity, processes are often ad hoc or unpredictable and success may depend on individual effort.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-027",
+    "question": "A company establishes project-level planning, monitoring, and control so that commitments are managed and work products are tracked. Which CMMI maturity level is the best match?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Level 1 — Initial"
+      },
+      {
+        "id": "B",
+        "text": "Level 2 — Managed"
+      },
+      {
+        "id": "C",
+        "text": "Level 4 — Quantitatively Managed"
+      },
+      {
+        "id": "D",
+        "text": "Level 5 — Optimizing"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Managed processes are planned, monitored, and controlled at the project level.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-028",
+    "question": "A software organization defines and standardizes a common process across projects, allowing teams to tailor it under established guidelines. Which CMMI level best fits?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Level 1 — Initial"
+      },
+      {
+        "id": "B",
+        "text": "Level 2 — Managed"
+      },
+      {
+        "id": "C",
+        "text": "Level 3 — Defined"
+      },
+      {
+        "id": "D",
+        "text": "Level 5 — Optimizing"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Defined maturity means organizational processes are documented, standardized, and tailored for individual projects as appropriate.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-029",
+    "question": "An organization uses statistical and quantitative techniques to control process performance and determine whether process objectives are being met. Which CMMI level is most directly indicated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Level 2 — Managed"
+      },
+      {
+        "id": "B",
+        "text": "Level 3 — Defined"
+      },
+      {
+        "id": "C",
+        "text": "Level 4 — Quantitatively Managed"
+      },
+      {
+        "id": "D",
+        "text": "Level 5 — Optimizing"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Quantitatively Managed focuses on controlling process performance using quantitative objectives and measurement.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-030",
+    "question": "A mature organization systematically improves its processes using quantitative feedback, root-cause analysis, and innovation. Which CMMI maturity level best matches this emphasis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Level 1 — Initial"
+      },
+      {
+        "id": "B",
+        "text": "Level 2 — Managed"
+      },
+      {
+        "id": "C",
+        "text": "Level 4 — Quantitatively Managed"
+      },
+      {
+        "id": "D",
+        "text": "Level 5 — Optimizing"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Optimizing maturity emphasizes continuous process improvement, including innovation and analysis of causes of variation or defects.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-031",
+    "question": "Which CMMI maturity level comes immediately after Defined in the five-level staged representation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Managed"
+      },
+      {
+        "id": "B",
+        "text": "Quantitatively Managed"
+      },
+      {
+        "id": "C",
+        "text": "Optimizing"
+      },
+      {
+        "id": "D",
+        "text": "Initial"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The sequence is Initial, Managed, Defined, Quantitatively Managed, and Optimizing.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-032",
+    "question": "A team uses a board with columns such as To Do, In Progress, and Done, limits work in progress, and continuously pulls the next task when capacity becomes available. Which approach is most directly described?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kanban"
+      },
+      {
+        "id": "B",
+        "text": "Waterfall"
+      },
+      {
+        "id": "C",
+        "text": "V-Model"
+      },
+      {
+        "id": "D",
+        "text": "Big-bang development"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kanban visualizes workflow, limits work in progress, and supports a continuous flow of work.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-033",
+    "question": "Which statement about Scrum is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Work is organized into time-boxed Sprints, with defined accountabilities and inspect-and-adapt events"
+      },
+      {
+        "id": "B",
+        "text": "All requirements must be fully frozen before any Sprint can begin"
+      },
+      {
+        "id": "C",
+        "text": "Scrum prohibits review of working product until the final release"
+      },
+      {
+        "id": "D",
+        "text": "Scrum requires every task to be completed by one individual only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Scrum uses Sprints and defined accountabilities, events, and artifacts to support transparency, inspection, and adaptation.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-034",
+    "question": "In Scrum, which artifact contains the ordered list of work needed to improve the product and serves as the single source of work for the Scrum Team?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Product Backlog"
+      },
+      {
+        "id": "B",
+        "text": "Sprint Retrospective"
+      },
+      {
+        "id": "C",
+        "text": "Definition of Done"
+      },
+      {
+        "id": "D",
+        "text": "Daily Scrum"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Product Backlog is the ordered, evolving list of work needed to improve the product.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-035",
+    "question": "Which statement best reflects the Agile Manifesto's emphasis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Individuals and interactions, working software, customer collaboration, and responding to change are valued"
+      },
+      {
+        "id": "B",
+        "text": "Comprehensive documentation and contract negotiation are valued above all alternatives"
+      },
+      {
+        "id": "C",
+        "text": "Following a fixed plan is valued over responding to changing circumstances"
+      },
+      {
+        "id": "D",
+        "text": "Tools and processes replace the need for communication with customers"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Agile Manifesto values individuals and interactions, working software, customer collaboration, and responding to change, while still valuing the items on the right.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-036",
+    "question": "A team delivers small working releases frequently, invites customer feedback, and adjusts its backlog as needs change. Which approach does this most strongly reflect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agile development"
+      },
+      {
+        "id": "B",
+        "text": "Strict Waterfall with no feedback"
+      },
+      {
+        "id": "C",
+        "text": "A one-time deployment process"
+      },
+      {
+        "id": "D",
+        "text": "A configuration audit"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Frequent delivery, collaboration, feedback, and adaptation are central characteristics of Agile approaches.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-037",
+    "question": "Which practice is most closely associated with Extreme Programming (XP)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pair programming and test-driven development"
+      },
+      {
+        "id": "B",
+        "text": "Avoiding automated tests until the product is complete"
+      },
+      {
+        "id": "C",
+        "text": "Freezing all requirements before the first iteration"
+      },
+      {
+        "id": "D",
+        "text": "Separating developers so that code is never reviewed"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "XP promotes engineering practices such as pair programming, test-driven development, continuous integration, and frequent small releases.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-038",
+    "question": "A team wants to shorten feedback cycles by integrating code changes frequently and running automated builds and tests. Which practice is most directly relevant?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continuous integration"
+      },
+      {
+        "id": "B",
+        "text": "Big-bang integration at project end"
+      },
+      {
+        "id": "C",
+        "text": "One-time acceptance testing only"
+      },
+      {
+        "id": "D",
+        "text": "Requirements sign-off without code integration"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Continuous integration merges changes frequently and validates them with automated builds and tests to detect integration problems early.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-039",
+    "question": "A software team has a stable, well-understood project with clearly specified requirements and formal approval gates. Which process model may be reasonable if changes are expected to be limited?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Waterfall model"
+      },
+      {
+        "id": "B",
+        "text": "Risk-driven Spiral model in every case"
+      },
+      {
+        "id": "C",
+        "text": "Prototype-only model with no final engineering"
+      },
+      {
+        "id": "D",
+        "text": "Kanban without any agreed workflow"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Waterfall can suit projects with relatively stable requirements and a need for staged documentation and approvals, though no model fits every project.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-040",
+    "question": "A system's most important uncertainty is whether users can operate a proposed interface. The team creates a low-cost mock-up and asks representative users to try it before finalizing the design. What is the main purpose?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reduce uncertainty and refine requirements or design through feedback"
+      },
+      {
+        "id": "B",
+        "text": "Prove that the final system has no defects"
+      },
+      {
+        "id": "C",
+        "text": "Replace all later integration and system testing"
+      },
+      {
+        "id": "D",
+        "text": "Establish the final production architecture without further analysis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Prototypes help explore uncertain requirements and design choices by gathering early feedback; they do not prove the finished product defect-free.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-041",
+    "question": "Which activity is most directly concerned with tracking whether actual project work is progressing according to planned schedule and effort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Project monitoring and control"
+      },
+      {
+        "id": "B",
+        "text": "Requirements elicitation only"
+      },
+      {
+        "id": "C",
+        "text": "User acceptance testing only"
+      },
+      {
+        "id": "D",
+        "text": "Source-code compilation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Project monitoring and control compares actual progress with plans and supports corrective action when deviations occur.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-042",
+    "question": "Which statement about documentation in the SDLC is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Documentation can support communication, traceability, maintenance, and compliance when appropriate to project needs"
+      },
+      {
+        "id": "B",
+        "text": "Documentation is useful only after software has been retired"
+      },
+      {
+        "id": "C",
+        "text": "Agile methods forbid all documentation"
+      },
+      {
+        "id": "D",
+        "text": "Documentation makes testing and stakeholder communication unnecessary"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Documentation supports communication and future work; Agile values working software but does not prohibit useful documentation.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-043",
+    "question": "A team changes a requirement during development. It records the change, assesses its impact on design and tests, and obtains approval before implementation. Which supporting activity is most directly involved?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Configuration and change management"
+      },
+      {
+        "id": "B",
+        "text": "Lexical analysis"
+      },
+      {
+        "id": "C",
+        "text": "Load balancing"
+      },
+      {
+        "id": "D",
+        "text": "Memory allocation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Change management evaluates, approves, records, and tracks changes to controlled requirements and other work products.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-044",
+    "question": "Which of the following is NOT normally an SDLC phase or life-cycle activity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Requirements analysis"
+      },
+      {
+        "id": "B",
+        "text": "Software design"
+      },
+      {
+        "id": "C",
+        "text": "Implementation"
+      },
+      {
+        "id": "D",
+        "text": "CPU instruction decoding by the processor"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "CPU instruction decoding is a processor operation, not a software development life-cycle activity.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-045",
+    "question": "A product is released, and the team continues fixing defects, improving performance, and adapting it to a new operating environment. Which statement is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maintenance can include corrective, perfective, and adaptive changes after delivery"
+      },
+      {
+        "id": "B",
+        "text": "Maintenance means only correcting syntax errors before the first release"
+      },
+      {
+        "id": "C",
+        "text": "Once deployed, the product is outside the software life cycle"
+      },
+      {
+        "id": "D",
+        "text": "Performance improvement is never considered software maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Post-delivery maintenance includes correcting faults, adapting to environmental changes, and improving performance or other qualities.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-046",
+    "question": "Which pairing is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alpha testing—typically conducted at the developer's site; Beta testing—evaluated by selected users in a real or user environment"
+      },
+      {
+        "id": "B",
+        "text": "Alpha testing—performed only by the compiler; Beta testing—performed only by the database"
+      },
+      {
+        "id": "C",
+        "text": "Alpha testing—after retirement; Beta testing—before requirements are collected"
+      },
+      {
+        "id": "D",
+        "text": "Alpha testing—only unit testing; Beta testing—only code review"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In common usage, alpha testing occurs in a controlled developer environment, while beta testing involves selected external users or a user environment before wider release.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-047",
+    "question": "Which statement about a software process model is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It provides an organized framework for carrying out life-cycle activities"
+      },
+      {
+        "id": "B",
+        "text": "It is a programming language used to implement requirements"
+      },
+      {
+        "id": "C",
+        "text": "It guarantees that a project will finish within budget"
+      },
+      {
+        "id": "D",
+        "text": "It replaces the need to understand stakeholder requirements"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A process model organizes and guides life-cycle activities; choosing a model cannot by itself guarantee project success.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-048",
+    "question": "A project team discovers that a design assumption is invalid during implementation. Which response is most consistent with sound SDLC practice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Review the affected design and requirements, assess impacts, and revise controlled work products as needed"
+      },
+      {
+        "id": "B",
+        "text": "Ignore the issue because design must never be revisited"
+      },
+      {
+        "id": "C",
+        "text": "Delete the requirements so the implementation can continue"
+      },
+      {
+        "id": "D",
+        "text": "Release immediately and let users discover the impact"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A disciplined life cycle allows justified feedback and rework while managing changes and preserving traceability.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-049",
+    "question": "Which option best describes the purpose of software quality assurance as an umbrella activity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To provide planned activities that help processes and work products conform to applicable quality requirements"
+      },
+      {
+        "id": "B",
+        "text": "To test only the user interface after deployment"
+      },
+      {
+        "id": "C",
+        "text": "To replace project planning with defect counting"
+      },
+      {
+        "id": "D",
+        "text": "To guarantee that no defect can ever occur"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "SQA spans the project and helps provide confidence that processes and products follow applicable standards and requirements; it cannot guarantee zero defects.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-sdlc-050",
+    "question": "A company uses CMMI to improve how it develops software. Which interpretation is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CMMI provides a framework for assessing and improving process capability or maturity"
+      },
+      {
+        "id": "B",
+        "text": "CMMI is a software testing technique used only on individual functions"
+      },
+      {
+        "id": "C",
+        "text": "CMMI is a programming language for writing process models"
+      },
+      {
+        "id": "D",
+        "text": "CMMI specifies one mandatory SDLC model for every project"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "CMMI is a process-improvement framework; it does not prescribe one universal development model for every project.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

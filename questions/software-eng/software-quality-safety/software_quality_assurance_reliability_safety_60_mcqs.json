@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "se-quality-safety-001",
+    "question": "Software quality is best understood as the degree to which a software product",
+    "options": [
+      {
+        "id": "A",
+        "text": "conforms to coding conventions regardless of user needs"
+      },
+      {
+        "id": "B",
+        "text": "satisfies stated and implied requirements and fitness for use"
+      },
+      {
+        "id": "C",
+        "text": "contains the maximum number of features"
+      },
+      {
+        "id": "D",
+        "text": "uses the newest available technology"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Quality includes conformance to requirements and fitness for intended use; coding style and feature count alone are insufficient.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-002",
+    "question": "Quality assurance differs most directly from quality control because QA is primarily",
+    "options": [
+      {
+        "id": "A",
+        "text": "process-oriented and preventive, while QC evaluates product outputs"
+      },
+      {
+        "id": "B",
+        "text": "product-oriented only, while QC improves the development process"
+      },
+      {
+        "id": "C",
+        "text": "performed only after release, while QC is done before coding"
+      },
+      {
+        "id": "D",
+        "text": "concerned only with reliability, while QC concerns usability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "SQA emphasizes planned processes that prevent defects; quality control checks deliverables for conformance.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-003",
+    "question": "Which activity is most clearly a software quality assurance activity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Executing one final test and recording its output"
+      },
+      {
+        "id": "B",
+        "text": "Auditing whether the team follows defined development and review processes"
+      },
+      {
+        "id": "C",
+        "text": "Fixing a specific defect after a crash"
+      },
+      {
+        "id": "D",
+        "text": "Measuring one function's execution time only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Process audits and compliance checks are characteristic SQA activities.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-004",
+    "question": "A product conforms to every documented requirement but is difficult for intended users to operate. The strongest conclusion is that",
+    "options": [
+      {
+        "id": "A",
+        "text": "quality is guaranteed by conformance alone"
+      },
+      {
+        "id": "B",
+        "text": "the product may still have poor usability or fitness for use"
+      },
+      {
+        "id": "C",
+        "text": "the product cannot contain any defects"
+      },
+      {
+        "id": "D",
+        "text": "verification automatically proves user satisfaction"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Quality also includes usability and fitness for use, not only conformance to written specifications.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-005",
+    "question": "Garvin's quality framework is commonly associated with how many dimensions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Five"
+      },
+      {
+        "id": "B",
+        "text": "Six"
+      },
+      {
+        "id": "C",
+        "text": "Eight"
+      },
+      {
+        "id": "D",
+        "text": "Ten"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Garvin's product-quality framework identifies eight dimensions.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-006",
+    "question": "In Garvin's dimensions, 'performance' most directly concerns",
+    "options": [
+      {
+        "id": "A",
+        "text": "the primary operating characteristics of the product"
+      },
+      {
+        "id": "B",
+        "text": "the ease of repairing the product after release"
+      },
+      {
+        "id": "C",
+        "text": "the number of defects found during inspection"
+      },
+      {
+        "id": "D",
+        "text": "the time required to train developers"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Performance refers to the product's primary operating characteristics.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-007",
+    "question": "A software product offers extra capabilities beyond its core functions. In Garvin's framework, these are most closely related to",
+    "options": [
+      {
+        "id": "A",
+        "text": "features"
+      },
+      {
+        "id": "B",
+        "text": "conformance"
+      },
+      {
+        "id": "C",
+        "text": "durability"
+      },
+      {
+        "id": "D",
+        "text": "serviceability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Features are supplementary characteristics beyond the product's basic performance.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-008",
+    "question": "A product works according to its specified behavior and tolerances. Which Garvin dimension is most directly represented?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aesthetics"
+      },
+      {
+        "id": "B",
+        "text": "Conformance"
+      },
+      {
+        "id": "C",
+        "text": "Perceived quality"
+      },
+      {
+        "id": "D",
+        "text": "Serviceability"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Conformance concerns meeting established specifications and standards.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-009",
+    "question": "The effort and speed involved in diagnosing and fixing a software defect are most closely related to",
+    "options": [
+      {
+        "id": "A",
+        "text": "serviceability"
+      },
+      {
+        "id": "B",
+        "text": "aesthetics"
+      },
+      {
+        "id": "C",
+        "text": "features"
+      },
+      {
+        "id": "D",
+        "text": "perceived quality"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Serviceability concerns repairability and the ease or speed of service.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-010",
+    "question": "McCall's software quality model groups quality factors into which broad categories?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Operation, revision, and transition"
+      },
+      {
+        "id": "B",
+        "text": "Input, processing, and output"
+      },
+      {
+        "id": "C",
+        "text": "Planning, coding, and deployment"
+      },
+      {
+        "id": "D",
+        "text": "Reliability, cost, and schedule only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "McCall groups factors into product operation, product revision, and product transition.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-011",
+    "question": "In McCall's model, correctness, reliability, efficiency, integrity, and usability primarily belong to",
+    "options": [
+      {
+        "id": "A",
+        "text": "product operation"
+      },
+      {
+        "id": "B",
+        "text": "product revision"
+      },
+      {
+        "id": "C",
+        "text": "product transition"
+      },
+      {
+        "id": "D",
+        "text": "project scheduling"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "These factors concern how well the software operates for its users.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-012",
+    "question": "Which McCall factor most directly concerns the effort needed to locate and fix an error?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Portability"
+      },
+      {
+        "id": "B",
+        "text": "Maintainability"
+      },
+      {
+        "id": "C",
+        "text": "Interoperability"
+      },
+      {
+        "id": "D",
+        "text": "Correctness"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Maintainability concerns the effort required to locate and fix faults or make changes.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-013",
+    "question": "The ability of software to be moved to a different hardware or software environment is",
+    "options": [
+      {
+        "id": "A",
+        "text": "testability"
+      },
+      {
+        "id": "B",
+        "text": "portability"
+      },
+      {
+        "id": "C",
+        "text": "integrity"
+      },
+      {
+        "id": "D",
+        "text": "flexibility"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Portability is the ease of transferring software across environments.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-014",
+    "question": "The ability of a software system to interact with other systems is most directly captured by McCall's",
+    "options": [
+      {
+        "id": "A",
+        "text": "interoperability"
+      },
+      {
+        "id": "B",
+        "text": "reliability"
+      },
+      {
+        "id": "C",
+        "text": "testability"
+      },
+      {
+        "id": "D",
+        "text": "correctness"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Interoperability concerns interaction and data exchange with other systems.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-015",
+    "question": "Which mapping of McCall categories is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Operation—portability; revision—integrity; transition—usability"
+      },
+      {
+        "id": "B",
+        "text": "Operation—usability; revision—maintainability; transition—portability"
+      },
+      {
+        "id": "C",
+        "text": "Operation—testability; revision—correctness; transition—reliability only"
+      },
+      {
+        "id": "D",
+        "text": "Operation—interoperability; revision—efficiency; transition—conformance"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Usability is an operation factor, maintainability a revision factor, and portability a transition factor.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-016",
+    "question": "ISO/IEC 9126 is a software product quality model historically organized around which six characteristics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Functionality, reliability, usability, efficiency, maintainability, portability"
+      },
+      {
+        "id": "B",
+        "text": "Correctness, integrity, flexibility, testability, interoperability, reusability"
+      },
+      {
+        "id": "C",
+        "text": "Performance, features, conformance, durability, serviceability, aesthetics"
+      },
+      {
+        "id": "D",
+        "text": "Safety, privacy, availability, auditability, scalability, cost"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ISO/IEC 9126 defined six major software quality characteristics: functionality, reliability, usability, efficiency, maintainability, and portability.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-017",
+    "question": "ISO/IEC 25010 superseded the ISO/IEC 9126 product quality model and its product quality model includes",
+    "options": [
+      {
+        "id": "A",
+        "text": "eight quality characteristics"
+      },
+      {
+        "id": "B",
+        "text": "six quality characteristics only"
+      },
+      {
+        "id": "C",
+        "text": "three process maturity levels"
+      },
+      {
+        "id": "D",
+        "text": "five defect severity classes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ISO/IEC 25010's product quality model uses eight characteristics, expanding and refining the earlier model.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-018",
+    "question": "Which characteristic is included in ISO/IEC 25010's product quality model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Compatibility"
+      },
+      {
+        "id": "B",
+        "text": "Marketing reach"
+      },
+      {
+        "id": "C",
+        "text": "Developer seniority"
+      },
+      {
+        "id": "D",
+        "text": "Project budget adherence"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compatibility is one of ISO/IEC 25010's product quality characteristics.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-019",
+    "question": "A system continues to provide acceptable service when faults occur and can recover from failures. This most closely relates to",
+    "options": [
+      {
+        "id": "A",
+        "text": "reliability"
+      },
+      {
+        "id": "B",
+        "text": "aesthetics"
+      },
+      {
+        "id": "C",
+        "text": "portability"
+      },
+      {
+        "id": "D",
+        "text": "feature completeness"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reliability includes the ability to perform specified functions under stated conditions, including fault tolerance and recoverability.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-020",
+    "question": "The quality characteristic concerned with protection against unauthorized access and data disclosure is",
+    "options": [
+      {
+        "id": "A",
+        "text": "security"
+      },
+      {
+        "id": "B",
+        "text": "usability"
+      },
+      {
+        "id": "C",
+        "text": "portability"
+      },
+      {
+        "id": "D",
+        "text": "functional suitability"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Security covers protection of information and data from unauthorized access and actions.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-021",
+    "question": "The extent to which a system can exchange information with other systems and coexist with them concerns",
+    "options": [
+      {
+        "id": "A",
+        "text": "compatibility"
+      },
+      {
+        "id": "B",
+        "text": "maintainability"
+      },
+      {
+        "id": "C",
+        "text": "learnability only"
+      },
+      {
+        "id": "D",
+        "text": "recoverability only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compatibility includes co-existence and interoperability.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-022",
+    "question": "Which statement about ISO/IEC 9126 and ISO/IEC 25010 is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are identical standards with the same number of product characteristics"
+      },
+      {
+        "id": "B",
+        "text": "ISO/IEC 25010 updates the quality model and includes a broader eight-characteristic product model"
+      },
+      {
+        "id": "C",
+        "text": "ISO/IEC 9126 is only a safety hazard standard"
+      },
+      {
+        "id": "D",
+        "text": "ISO/IEC 25010 measures only software development cost"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "ISO/IEC 25010 replaced the older 9126 product quality model with an updated model of eight characteristics.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-023",
+    "question": "Six Sigma primarily aims to",
+    "options": [
+      {
+        "id": "A",
+        "text": "reduce process variation and defects using data-driven improvement"
+      },
+      {
+        "id": "B",
+        "text": "maximize the number of code reviews regardless of results"
+      },
+      {
+        "id": "C",
+        "text": "replace all testing with customer surveys"
+      },
+      {
+        "id": "D",
+        "text": "ensure every project finishes in exactly six phases"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Six Sigma is a data-driven approach focused on reducing variation and defects.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-024",
+    "question": "In the conventional Six Sigma model, a commonly quoted long-term target is approximately",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.4 defects per million opportunities"
+      },
+      {
+        "id": "B",
+        "text": "34 defects per thousand opportunities"
+      },
+      {
+        "id": "C",
+        "text": "six defects per hundred lines of code"
+      },
+      {
+        "id": "D",
+        "text": "zero defects guaranteed for every product"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The commonly quoted Six Sigma benchmark is 3.4 defects per million opportunities, using the conventional 1.5-sigma shift assumption.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-025",
+    "question": "The DMAIC sequence in Six Sigma stands for",
+    "options": [
+      {
+        "id": "A",
+        "text": "Define, Measure, Analyze, Improve, Control"
+      },
+      {
+        "id": "B",
+        "text": "Design, Model, Assess, Inspect, Certify"
+      },
+      {
+        "id": "C",
+        "text": "Detect, Monitor, Audit, Integrate, Correct"
+      },
+      {
+        "id": "D",
+        "text": "Define, Maintain, Approve, Implement, Compare"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "DMAIC is the structured improvement cycle: Define, Measure, Analyze, Improve, Control.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-026",
+    "question": "A team measures defect rates, identifies the root causes of variation, applies a process change, and monitors whether gains persist. This most closely follows",
+    "options": [
+      {
+        "id": "A",
+        "text": "DMAIC"
+      },
+      {
+        "id": "B",
+        "text": "top-down integration"
+      },
+      {
+        "id": "C",
+        "text": "basis path testing"
+      },
+      {
+        "id": "D",
+        "text": "forward engineering"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The sequence reflects measuring, analyzing causes, improving the process, and controlling the gains.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-027",
+    "question": "Cleanroom Software Engineering emphasizes",
+    "options": [
+      {
+        "id": "A",
+        "text": "defect prevention, formal specification, and statistically based certification"
+      },
+      {
+        "id": "B",
+        "text": "finding most defects only through late system testing"
+      },
+      {
+        "id": "C",
+        "text": "rapid coding without design review"
+      },
+      {
+        "id": "D",
+        "text": "releasing every build before verification"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cleanroom stresses formal methods, disciplined development, defect prevention, and statistical usage-based certification.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-028",
+    "question": "Which practice is most associated with Cleanroom software engineering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Formal methods and correctness-oriented development"
+      },
+      {
+        "id": "B",
+        "text": "Mutation testing as the only quality activity"
+      },
+      {
+        "id": "C",
+        "text": "Unstructured code changes after release"
+      },
+      {
+        "id": "D",
+        "text": "Using only beta testing to prove correctness"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Formal specification and verification are central to Cleanroom's defect-prevention approach.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-029",
+    "question": "Cleanroom's statistical testing is primarily used to",
+    "options": [
+      {
+        "id": "A",
+        "text": "estimate software reliability for a defined usage profile"
+      },
+      {
+        "id": "B",
+        "text": "prove all possible executions are defect-free by random testing"
+      },
+      {
+        "id": "C",
+        "text": "replace requirements specification"
+      },
+      {
+        "id": "D",
+        "text": "calculate coupling between modules"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Statistical usage-based testing supports reliability estimation for expected operational usage.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-030",
+    "question": "Which statement best distinguishes defect prevention from defect detection?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prevention reduces the chance of introducing defects; detection identifies defects already present"
+      },
+      {
+        "id": "B",
+        "text": "Prevention occurs only after release; detection only before design"
+      },
+      {
+        "id": "C",
+        "text": "They are identical activities with different names"
+      },
+      {
+        "id": "D",
+        "text": "Detection guarantees that no new defects will be introduced"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Prevention targets causes before defects are introduced; detection finds defects in existing work products.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-031",
+    "question": "A Formal Technical Review (FTR) is primarily intended to",
+    "options": [
+      {
+        "id": "A",
+        "text": "identify defects in a work product through a structured peer review"
+      },
+      {
+        "id": "B",
+        "text": "measure end-user response time under peak load"
+      },
+      {
+        "id": "C",
+        "text": "estimate project cost from KLOC alone"
+      },
+      {
+        "id": "D",
+        "text": "replace all acceptance testing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FTR is a structured technical review aimed at finding defects and checking conformance.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-032",
+    "question": "Which is a typical objective of an FTR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Expose defects early and verify adherence to requirements or standards"
+      },
+      {
+        "id": "B",
+        "text": "Guarantee that the reviewed artifact has no possible defects"
+      },
+      {
+        "id": "C",
+        "text": "Assign blame to the author for each issue"
+      },
+      {
+        "id": "D",
+        "text": "Avoid recording review findings"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FTRs detect defects early and assess technical compliance; they cannot guarantee defect-free work.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-033",
+    "question": "Which practice is most appropriate during an effective formal technical review?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Review against agreed criteria and record defects and action items"
+      },
+      {
+        "id": "B",
+        "text": "Debate personal performance rather than the artifact"
+      },
+      {
+        "id": "C",
+        "text": "Skip preparation to preserve spontaneity"
+      },
+      {
+        "id": "D",
+        "text": "Treat review approval as proof that dynamic testing is unnecessary"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Preparation, defined criteria, defect logging, and follow-up are core elements of disciplined reviews.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-034",
+    "question": "A review meeting spends most of its time discussing solutions rather than identifying defects in the artifact. The best correction is to",
+    "options": [
+      {
+        "id": "A",
+        "text": "keep the review focused on defect identification and handle detailed rework planning separately when appropriate"
+      },
+      {
+        "id": "B",
+        "text": "cancel all future reviews"
+      },
+      {
+        "id": "C",
+        "text": "replace the review with performance testing"
+      },
+      {
+        "id": "D",
+        "text": "avoid documenting the issues found"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Formal reviews are primarily for finding and recording issues; extensive problem-solving can reduce review effectiveness.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-035",
+    "question": "Which statement about FTR and testing is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FTR is static examination; testing typically executes software or a test object"
+      },
+      {
+        "id": "B",
+        "text": "FTR always requires running the complete application"
+      },
+      {
+        "id": "C",
+        "text": "FTR and beta testing are identical"
+      },
+      {
+        "id": "D",
+        "text": "FTR can review code but not requirements or design"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Formal reviews examine artifacts without executing them, whereas dynamic testing observes execution behavior.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-036",
+    "question": "MTTF stands for",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mean Time To Failure"
+      },
+      {
+        "id": "B",
+        "text": "Mean Time For Fixing"
+      },
+      {
+        "id": "C",
+        "text": "Maximum Time To Function"
+      },
+      {
+        "id": "D",
+        "text": "Mean Test Frequency"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "MTTF is the mean operating time until a failure, commonly used for non-repairable items or time-to-failure analysis.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-037",
+    "question": "MTBF is commonly defined for a repairable system as",
+    "options": [
+      {
+        "id": "A",
+        "text": "mean time between successive failures"
+      },
+      {
+        "id": "B",
+        "text": "mean time required to write a feature"
+      },
+      {
+        "id": "C",
+        "text": "maximum time before a test begins"
+      },
+      {
+        "id": "D",
+        "text": "mean time spent reviewing source code"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "MTBF describes the average time between failures in a repairable system; conventions may include uptime and repair time depending on context.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-038",
+    "question": "Availability is generally the proportion of time a system is",
+    "options": [
+      {
+        "id": "A",
+        "text": "capable of providing service when required"
+      },
+      {
+        "id": "B",
+        "text": "free from every defect forever"
+      },
+      {
+        "id": "C",
+        "text": "undergoing maintenance"
+      },
+      {
+        "id": "D",
+        "text": "being tested by developers"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Availability measures readiness for use over time, rather than a guarantee of no failures.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-039",
+    "question": "For a simple repairable system under steady-state assumptions, availability can be approximated by",
+    "options": [
+      {
+        "id": "A",
+        "text": "MTTF / (MTTF + MTTR)"
+      },
+      {
+        "id": "B",
+        "text": "MTTR / (MTTF + MTTR)"
+      },
+      {
+        "id": "C",
+        "text": "MTBF × MTTR"
+      },
+      {
+        "id": "D",
+        "text": "MTTF + MTTR"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A common approximation is uptime divided by uptime plus repair downtime; with MTTF used for mean operating time and MTTR for repair time, availability ≈ MTTF/(MTTF+MTTR).",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-040",
+    "question": "A system has mean operating time of 90 hours and mean repair time of 10 hours. Using the simple availability approximation, availability is",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.10"
+      },
+      {
+        "id": "B",
+        "text": "0.50"
+      },
+      {
+        "id": "C",
+        "text": "0.90"
+      },
+      {
+        "id": "D",
+        "text": "0.99"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Availability ≈ 90/(90+10)=0.90, or 90%.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-041",
+    "question": "MTTR most directly measures",
+    "options": [
+      {
+        "id": "A",
+        "text": "average time needed to restore or repair after a failure"
+      },
+      {
+        "id": "B",
+        "text": "average operating time before the first failure"
+      },
+      {
+        "id": "C",
+        "text": "the total number of failures in a test suite"
+      },
+      {
+        "id": "D",
+        "text": "the time between requirement changes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "MTTR is mean time to repair or restore service after a failure.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-042",
+    "question": "If failures are rare and repair time is very short, a repairable system will generally have",
+    "options": [
+      {
+        "id": "A",
+        "text": "high availability"
+      },
+      {
+        "id": "B",
+        "text": "zero possible failures"
+      },
+      {
+        "id": "C",
+        "text": "low availability by definition"
+      },
+      {
+        "id": "D",
+        "text": "no need for recovery mechanisms"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Low failure frequency and short restoration time both tend to increase availability.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-043",
+    "question": "Software reliability is best described as the probability that software",
+    "options": [
+      {
+        "id": "A",
+        "text": "operates without failure for a specified time under specified conditions"
+      },
+      {
+        "id": "B",
+        "text": "contains no source-code comments"
+      },
+      {
+        "id": "C",
+        "text": "meets every possible future requirement"
+      },
+      {
+        "id": "D",
+        "text": "never needs maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reliability is probability of failure-free operation over a specified interval and operational environment.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-044",
+    "question": "Reliability and availability differ because availability accounts more directly for",
+    "options": [
+      {
+        "id": "A",
+        "text": "how quickly service is restored after failure"
+      },
+      {
+        "id": "B",
+        "text": "only the number of source-code statements"
+      },
+      {
+        "id": "C",
+        "text": "only whether requirements are documented"
+      },
+      {
+        "id": "D",
+        "text": "the number of developers assigned"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Availability reflects both failure behavior and restoration/recovery time; reliability focuses on failure-free operation over time.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-045",
+    "question": "Software safety is primarily concerned with",
+    "options": [
+      {
+        "id": "A",
+        "text": "preventing software behavior from contributing to unacceptable hazards"
+      },
+      {
+        "id": "B",
+        "text": "maximizing user-interface animation speed"
+      },
+      {
+        "id": "C",
+        "text": "ensuring all requirements have the same priority"
+      },
+      {
+        "id": "D",
+        "text": "minimizing source-code length regardless of risk"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Safety focuses on avoiding hazardous system states and unacceptable harm, including software contributions to hazards.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-046",
+    "question": "A hazard is best described as",
+    "options": [
+      {
+        "id": "A",
+        "text": "a system condition or state that can lead to harm"
+      },
+      {
+        "id": "B",
+        "text": "any coding style violation"
+      },
+      {
+        "id": "C",
+        "text": "a failure that always causes no consequence"
+      },
+      {
+        "id": "D",
+        "text": "a test case with an invalid input"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A hazard is a condition with the potential to cause harm; risk analysis considers likelihood and severity.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-047",
+    "question": "Which sequence best represents a safety-analysis approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Identify hazards, analyze causes and consequences, define controls, verify controls"
+      },
+      {
+        "id": "B",
+        "text": "Write code, release it, then decide whether hazards exist"
+      },
+      {
+        "id": "C",
+        "text": "Count code lines, estimate salary, select a framework"
+      },
+      {
+        "id": "D",
+        "text": "Run only happy-path tests and assume safety"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Safety analysis identifies hazards, evaluates risk and causal scenarios, and establishes and verifies mitigations.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-048",
+    "question": "Failure Mode and Effects Analysis (FMEA) generally examines",
+    "options": [
+      {
+        "id": "A",
+        "text": "potential failure modes and their effects"
+      },
+      {
+        "id": "B",
+        "text": "only the software's visual appearance"
+      },
+      {
+        "id": "C",
+        "text": "the number of developers per module"
+      },
+      {
+        "id": "D",
+        "text": "the sequence of database normalization forms"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FMEA systematically considers possible failure modes, effects, and often severity/likelihood/detectability.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-049",
+    "question": "Fault Tree Analysis (FTA) typically reasons from",
+    "options": [
+      {
+        "id": "A",
+        "text": "an undesired top event backward through contributing causes using logic"
+      },
+      {
+        "id": "B",
+        "text": "individual input partitions forward to UI labels"
+      },
+      {
+        "id": "C",
+        "text": "source-code formatting to code style"
+      },
+      {
+        "id": "D",
+        "text": "test-suite size to the number of programmers"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FTA starts from a hazardous or undesired top event and models combinations of causes using logical gates.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-050",
+    "question": "A risk matrix commonly classifies hazards using",
+    "options": [
+      {
+        "id": "A",
+        "text": "severity and likelihood"
+      },
+      {
+        "id": "B",
+        "text": "source-code length and developer count"
+      },
+      {
+        "id": "C",
+        "text": "test count and screen size"
+      },
+      {
+        "id": "D",
+        "text": "maintenance budget and programming language only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Risk matrices commonly combine likelihood/probability and severity/consequence.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-051",
+    "question": "In a safety-critical system, a software control that prevents an actuator from activating under unsafe conditions is an example of",
+    "options": [
+      {
+        "id": "A",
+        "text": "a safety constraint or mitigation"
+      },
+      {
+        "id": "B",
+        "text": "a quality metric only"
+      },
+      {
+        "id": "C",
+        "text": "a test oracle only"
+      },
+      {
+        "id": "D",
+        "text": "a reverse-engineering output"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A safety constraint restricts system behavior to prevent or reduce hazardous states.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-052",
+    "question": "Which statement about software safety and reliability is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Highly reliable software can still be unsafe if its correct behavior creates a hazard"
+      },
+      {
+        "id": "B",
+        "text": "Reliability and safety are identical concepts"
+      },
+      {
+        "id": "C",
+        "text": "Safety matters only when software crashes"
+      },
+      {
+        "id": "D",
+        "text": "Reliable software never requires hazard analysis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Safety concerns consequences and hazards, not merely whether software behaves consistently; a consistently wrong control can be unsafe.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-053",
+    "question": "Reverse engineering primarily involves",
+    "options": [
+      {
+        "id": "A",
+        "text": "analyzing an existing system to recover higher-level design or specification information"
+      },
+      {
+        "id": "B",
+        "text": "transforming a design into a new implementation only"
+      },
+      {
+        "id": "C",
+        "text": "writing test cases without examining artifacts"
+      },
+      {
+        "id": "D",
+        "text": "measuring availability from repair logs only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reverse engineering works from an existing implementation or artifacts toward abstractions such as design, architecture, or requirements.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-054",
+    "question": "Forward engineering primarily moves from",
+    "options": [
+      {
+        "id": "A",
+        "text": "higher-level models or specifications toward implementation"
+      },
+      {
+        "id": "B",
+        "text": "an implementation toward recovered design only"
+      },
+      {
+        "id": "C",
+        "text": "failure logs toward MTBF only"
+      },
+      {
+        "id": "D",
+        "text": "test results toward mutation operators only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Forward engineering transforms requirements/design models into an implemented system.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-055",
+    "question": "A team inspects a legacy application's source code to recover undocumented module relationships and business rules. This is",
+    "options": [
+      {
+        "id": "A",
+        "text": "reverse engineering"
+      },
+      {
+        "id": "B",
+        "text": "forward engineering"
+      },
+      {
+        "id": "C",
+        "text": "statistical quality control"
+      },
+      {
+        "id": "D",
+        "text": "availability modeling"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Recovering design and requirements from an existing system is reverse engineering.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-056",
+    "question": "A team uses a newly approved design model to build a replacement application. This is primarily",
+    "options": [
+      {
+        "id": "A",
+        "text": "forward engineering"
+      },
+      {
+        "id": "B",
+        "text": "reverse engineering"
+      },
+      {
+        "id": "C",
+        "text": "fault tree analysis"
+      },
+      {
+        "id": "D",
+        "text": "FTR"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Building an implementation from requirements and design artifacts is forward engineering.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-057",
+    "question": "Which statement about reverse and forward engineering is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reverse engineering recovers abstractions from an existing system; forward engineering creates or transforms an implementation from higher-level artifacts"
+      },
+      {
+        "id": "B",
+        "text": "Both always mean translating source code into machine code"
+      },
+      {
+        "id": "C",
+        "text": "Reverse engineering is only a testing technique; forward engineering is only a reliability metric"
+      },
+      {
+        "id": "D",
+        "text": "Forward engineering must happen after every production failure"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The key distinction is the direction of transformation between implementation and higher-level representations.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-058",
+    "question": "A team uses reverse engineering to understand a legacy system before modifying it. The most direct benefit is",
+    "options": [
+      {
+        "id": "A",
+        "text": "reduced uncertainty about existing structure and behavior"
+      },
+      {
+        "id": "B",
+        "text": "proof that the legacy system has no defects"
+      },
+      {
+        "id": "C",
+        "text": "automatic elimination of all technical debt"
+      },
+      {
+        "id": "D",
+        "text": "guaranteed increase in availability without changes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Recovered design and behavior information can support safer maintenance, but it does not prove defect-free operation.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-059",
+    "question": "Which statement correctly pairs a model or technique with its primary purpose?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Six Sigma—reduce process variation; FTR—find defects through structured review; Cleanroom—prevent defects with formal methods"
+      },
+      {
+        "id": "B",
+        "text": "Six Sigma—recover architecture; FTR—measure MTBF; Cleanroom—test only UI appearance"
+      },
+      {
+        "id": "C",
+        "text": "Six Sigma—calculate cyclomatic complexity; FTR—run load tests; Cleanroom—maximize code changes"
+      },
+      {
+        "id": "D",
+        "text": "Six Sigma—identify top hazards only; FTR—replace QA; Cleanroom—skip specifications"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The three approaches serve distinct but complementary quality goals: process improvement, structured review, and defect prevention.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-quality-safety-060",
+    "question": "Which statement best captures a balanced software quality strategy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Combine defined processes, reviews, testing, measurement, and risk-based safety analysis"
+      },
+      {
+        "id": "B",
+        "text": "Rely exclusively on final testing because process work adds no value"
+      },
+      {
+        "id": "C",
+        "text": "Use one quality metric as proof of every quality attribute"
+      },
+      {
+        "id": "D",
+        "text": "Treat reliability as the only meaningful quality concern"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Software quality requires complementary preventive, evaluative, measurement, and risk-management practices.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

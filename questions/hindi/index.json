@@ -3,11 +3,13 @@
     {
       "chapterId": "vilom-shabd",
       "chapterName": "विलोम शब्द",
+      "order": 1,
       "categories": [
         {
           "categoryId": "competitive-vilom-shabd",
           "categoryName": "विलोम शब्द — प्रतियोगी परीक्षा अभ्यास",
-          "file": "questions/hindi/vilom-shabd/competitive.json"
+          "file": "questions/hindi/vilom-shabd/competitive.json",
+          "order": 1
         }
       ]
     }

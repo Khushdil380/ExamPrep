@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "analysis-modeling-ooa-001",
+    "question": "What does a Data Flow Diagram (DFD) primarily represent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "How data moves through processes, data stores, and external entities"
+      },
+      {
+        "id": "B",
+        "text": "How program instructions execute in chronological order"
+      },
+      {
+        "id": "C",
+        "text": "How classes inherit attributes and operations"
+      },
+      {
+        "id": "D",
+        "text": "How hardware devices are physically connected"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A DFD models the movement and transformation of data through a system.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-002",
+    "question": "In a context diagram (often called Level 0 DFD), the system is usually shown as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A single process interacting with external entities"
+      },
+      {
+        "id": "B",
+        "text": "Several internal processes connected to database tables"
+      },
+      {
+        "id": "C",
+        "text": "A detailed sequence of program statements"
+      },
+      {
+        "id": "D",
+        "text": "A collection of classes with inheritance relationships"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The context diagram presents the system as one process and shows its interactions with external entities.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-003",
+    "question": "Which item is normally shown as an external entity in a DFD?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A customer who sends an order to the system"
+      },
+      {
+        "id": "B",
+        "text": "A calculation that totals an order"
+      },
+      {
+        "id": "C",
+        "text": "A database that stores order details"
+      },
+      {
+        "id": "D",
+        "text": "A data flow carrying the order number"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "External entities are sources or destinations of data outside the system boundary.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-004",
+    "question": "In a DFD, a process should generally:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Transform incoming data into outgoing data"
+      },
+      {
+        "id": "B",
+        "text": "Represent only a person outside the system"
+      },
+      {
+        "id": "C",
+        "text": "Store data permanently without processing it"
+      },
+      {
+        "id": "D",
+        "text": "Represent the timing of messages between objects"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A process transforms or handles input data to produce output data.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-005",
+    "question": "Which DFD symbol represents stored data?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data store"
+      },
+      {
+        "id": "B",
+        "text": "External entity"
+      },
+      {
+        "id": "C",
+        "text": "Process"
+      },
+      {
+        "id": "D",
+        "text": "Data flow"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A data store represents data retained for later access, such as a file or database.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-006",
+    "question": "A data-flow arrow in a DFD indicates:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The movement of data between modeled components"
+      },
+      {
+        "id": "B",
+        "text": "The order in which processes must execute"
+      },
+      {
+        "id": "C",
+        "text": "The inheritance of one object from another"
+      },
+      {
+        "id": "D",
+        "text": "The physical direction of network traffic only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A data flow names or represents data moving between processes, stores, and external entities.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-007",
+    "question": "What is the main purpose of decomposing a DFD from Level 0 to Level 1 and Level 2?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To show progressively more detail about the system's processes"
+      },
+      {
+        "id": "B",
+        "text": "To convert the DFD into executable code automatically"
+      },
+      {
+        "id": "C",
+        "text": "To replace all external entities with data stores"
+      },
+      {
+        "id": "D",
+        "text": "To show only the physical location of each component"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "DFD levels progressively decompose processes to reveal more detailed data processing.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-008",
+    "question": "When a Level 1 process is decomposed into a Level 2 DFD, what should generally be preserved?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The inputs and outputs crossing the decomposed process boundary"
+      },
+      {
+        "id": "B",
+        "text": "The exact number of processes shown at the higher level"
+      },
+      {
+        "id": "C",
+        "text": "The same positions and shapes of all symbols"
+      },
+      {
+        "id": "D",
+        "text": "The order of source-code statements in each process"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Balancing means the parent process's external inputs and outputs remain consistent in its child diagram.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-009",
+    "question": "A DFD process has input flows but no output flows. This is commonly called a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Black hole"
+      },
+      {
+        "id": "B",
+        "text": "Miracle"
+      },
+      {
+        "id": "C",
+        "text": "Gray hole"
+      },
+      {
+        "id": "D",
+        "text": "Data dictionary"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A black-hole process consumes input data without producing output; check whether the model is incomplete or incorrect.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-010",
+    "question": "A DFD process produces output despite having no input. This is commonly called a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gray hole"
+      },
+      {
+        "id": "B",
+        "text": "Black hole"
+      },
+      {
+        "id": "C",
+        "text": "Miracle"
+      },
+      {
+        "id": "D",
+        "text": "Balanced process"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A miracle process generates output without any input, which often indicates a modeling error.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-011",
+    "question": "A process receives some input but produces output that cannot reasonably be derived from it. This may indicate a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gray hole"
+      },
+      {
+        "id": "B",
+        "text": "Black hole"
+      },
+      {
+        "id": "C",
+        "text": "Miracle"
+      },
+      {
+        "id": "D",
+        "text": "External entity"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A gray hole suggests the process's output is not justified by its inputs.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-012",
+    "question": "Which DFD rule is generally correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An external entity should not exchange data directly with a data store without a process"
+      },
+      {
+        "id": "B",
+        "text": "A data store must always connect directly to an external entity"
+      },
+      {
+        "id": "C",
+        "text": "Every data flow must connect two external entities"
+      },
+      {
+        "id": "D",
+        "text": "A process may have outputs but must never have inputs"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Data movement between external entities and stores is normally mediated by a process.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-013",
+    "question": "Why should a DFD avoid showing detailed control logic such as loops and conditional execution order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DFDs focus on data movement and transformation, not program control flow"
+      },
+      {
+        "id": "B",
+        "text": "DFDs are used only to describe database table indexes"
+      },
+      {
+        "id": "C",
+        "text": "Control logic is represented only by ER relationship cardinalities"
+      },
+      {
+        "id": "D",
+        "text": "DFDs cannot include processes or arrows"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "DFDs are data-oriented models; flowcharts or activity diagrams are better suited to detailed control flow.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-014",
+    "question": "What is the main purpose of a data dictionary?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To define the meaning, structure, and format of data used in the system"
+      },
+      {
+        "id": "B",
+        "text": "To show the order of messages exchanged by objects"
+      },
+      {
+        "id": "C",
+        "text": "To specify the visual layout of a user interface"
+      },
+      {
+        "id": "D",
+        "text": "To determine which project task has the longest duration"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A data dictionary gives consistent definitions of data elements, structures, flows, and stores.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-015",
+    "question": "A data dictionary entry for CustomerAddress specifies its type, length, and allowed format. This mainly helps:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clarify data definitions and reduce inconsistent interpretations"
+      },
+      {
+        "id": "B",
+        "text": "Determine the execution order of system processes"
+      },
+      {
+        "id": "C",
+        "text": "Show the inheritance structure of customer objects"
+      },
+      {
+        "id": "D",
+        "text": "Calculate the number of paths in a program"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Documented data attributes make the meaning and constraints of data explicit.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-016",
+    "question": "A decision table is especially useful when a business rule depends on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Combinations of several conditions and their corresponding actions"
+      },
+      {
+        "id": "B",
+        "text": "The physical placement of network equipment"
+      },
+      {
+        "id": "C",
+        "text": "The inheritance between classes"
+      },
+      {
+        "id": "D",
+        "text": "The chronological order of object messages"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Decision tables systematically map combinations of conditions to actions.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-017",
+    "question": "In a decision table, what does a rule column typically represent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A particular combination of condition values and the resulting actions"
+      },
+      {
+        "id": "B",
+        "text": "A single database entity and all its attributes"
+      },
+      {
+        "id": "C",
+        "text": "A process's physical location on a server"
+      },
+      {
+        "id": "D",
+        "text": "A timeline of messages exchanged by objects"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each rule column represents a condition combination and the actions that apply.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-018",
+    "question": "A decision tree represents business logic mainly through:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Branches for conditions and paths to possible outcomes"
+      },
+      {
+        "id": "B",
+        "text": "Rows for data records and columns for attributes"
+      },
+      {
+        "id": "C",
+        "text": "Arrows showing data stores and external entities"
+      },
+      {
+        "id": "D",
+        "text": "Boxes showing class methods and inheritance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Decision trees display conditions and outcomes in a branching structure.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-019",
+    "question": "A loan approval rule has many condition combinations and repeated actions. Which tool is often easiest to use to check whether combinations are covered?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decision table"
+      },
+      {
+        "id": "B",
+        "text": "Sequence diagram"
+      },
+      {
+        "id": "C",
+        "text": "Data dictionary"
+      },
+      {
+        "id": "D",
+        "text": "Object diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Decision tables make condition combinations and resulting actions easy to inspect systematically.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-020",
+    "question": "Which is a useful difference between a decision tree and a decision table?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A tree emphasizes branching paths; a table emphasizes condition combinations in tabular form"
+      },
+      {
+        "id": "B",
+        "text": "A tree models data stores; a table models message timing"
+      },
+      {
+        "id": "C",
+        "text": "A tree is only for databases; a table is only for classes"
+      },
+      {
+        "id": "D",
+        "text": "A tree cannot represent conditions; a table cannot represent actions"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Both model decision logic, but they present it in different visual forms.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-021",
+    "question": "In an Entity-Relationship (ER) diagram, an entity represents:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A distinguishable real-world object or concept about which data is stored"
+      },
+      {
+        "id": "B",
+        "text": "A process that transforms input data into output"
+      },
+      {
+        "id": "C",
+        "text": "A message sent from one object to another"
+      },
+      {
+        "id": "D",
+        "text": "A condition used to select an action"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Entities are identifiable things or concepts, such as Student, Course, or Order.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-022",
+    "question": "In an ER diagram, an attribute describes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A property of an entity or relationship"
+      },
+      {
+        "id": "B",
+        "text": "A data flow between two DFD processes"
+      },
+      {
+        "id": "C",
+        "text": "A state transition triggered by an event"
+      },
+      {
+        "id": "D",
+        "text": "A method call between software objects"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Attributes describe properties such as a student's name or a product's price.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-023",
+    "question": "A primary key is used to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uniquely identify each entity occurrence or table row"
+      },
+      {
+        "id": "B",
+        "text": "Allow duplicate identification values for related rows"
+      },
+      {
+        "id": "C",
+        "text": "Describe the order in which events occur"
+      },
+      {
+        "id": "D",
+        "text": "Show the direction of data movement in a DFD"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A primary key uniquely identifies each record in the entity's corresponding relation.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-024",
+    "question": "A relationship between one department and many employees is an example of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "One-to-one cardinality"
+      },
+      {
+        "id": "B",
+        "text": "One-to-many cardinality"
+      },
+      {
+        "id": "C",
+        "text": "Many-to-many cardinality"
+      },
+      {
+        "id": "D",
+        "text": "No cardinality"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "One department can be associated with multiple employees, while each employee belongs to one department in this example.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-025",
+    "question": "Students can enroll in many courses, and each course can have many students. The relationship is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "One-to-one"
+      },
+      {
+        "id": "B",
+        "text": "One-to-many"
+      },
+      {
+        "id": "C",
+        "text": "Many-to-many"
+      },
+      {
+        "id": "D",
+        "text": "Unary only"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Both sides can have multiple related instances, so the relationship is many-to-many.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-026",
+    "question": "In a relational database design, a many-to-many relationship is commonly implemented using:",
+    "options": [
+      {
+        "id": "A",
+        "text": "An associative or junction table containing related keys"
+      },
+      {
+        "id": "B",
+        "text": "A single column that stores every related row without structure"
+      },
+      {
+        "id": "C",
+        "text": "A separate DFD for every individual record"
+      },
+      {
+        "id": "D",
+        "text": "A state chart containing one state per relationship"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A junction table typically stores foreign keys referencing the two related entities.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-027",
+    "question": "A weak entity is generally one that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Depends on an owner entity for identification and existence"
+      },
+      {
+        "id": "B",
+        "text": "Has no attributes of any kind"
+      },
+      {
+        "id": "C",
+        "text": "Must always participate in a many-to-many relationship"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be represented in an ER diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A weak entity often uses an owner's key together with a partial key for identification.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-028",
+    "question": "Which is an example of a composite attribute?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FullName made up of FirstName and LastName"
+      },
+      {
+        "id": "B",
+        "text": "Age represented by one indivisible value"
+      },
+      {
+        "id": "C",
+        "text": "StudentID used as a unique identifier"
+      },
+      {
+        "id": "D",
+        "text": "CourseCount calculated from a separate query"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A composite attribute can be divided into smaller meaningful subattributes.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-029",
+    "question": "Which statement best describes a derived attribute?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Its value can be calculated from other stored attributes"
+      },
+      {
+        "id": "B",
+        "text": "It must always be a primary key"
+      },
+      {
+        "id": "C",
+        "text": "It cannot be displayed in a conceptual model"
+      },
+      {
+        "id": "D",
+        "text": "It represents a relationship's cardinality"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For example, Age can be derived from DateOfBirth.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-030",
+    "question": "What does total participation in an ER relationship indicate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every entity instance on that side must participate in the relationship"
+      },
+      {
+        "id": "B",
+        "text": "Only one entity instance can participate on that side"
+      },
+      {
+        "id": "C",
+        "text": "The relationship has no attributes"
+      },
+      {
+        "id": "D",
+        "text": "All participating entities must share the same primary key value"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Total participation means participation is mandatory for every instance of the relevant entity set.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-031",
+    "question": "What is the main purpose of UML?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To provide a standard visual language for modeling software structure and behavior"
+      },
+      {
+        "id": "B",
+        "text": "To act as a programming language that directly runs an application"
+      },
+      {
+        "id": "C",
+        "text": "To replace requirements gathering with database administration"
+      },
+      {
+        "id": "D",
+        "text": "To specify only the network protocols used by a system"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "UML provides standardized diagrams for visualizing, specifying, and documenting software systems.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-032",
+    "question": "Which UML diagram is most suitable for showing system functions from the perspective of external users or systems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Use-case diagram"
+      },
+      {
+        "id": "B",
+        "text": "Class diagram"
+      },
+      {
+        "id": "C",
+        "text": "Object diagram"
+      },
+      {
+        "id": "D",
+        "text": "State-machine diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Use-case diagrams show actors and the goals or services they interact with.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-033",
+    "question": "In a use-case diagram, an actor is best understood as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "An external role that interacts with the system"
+      },
+      {
+        "id": "B",
+        "text": "A class method that performs an internal calculation"
+      },
+      {
+        "id": "C",
+        "text": "A database row representing a specific customer"
+      },
+      {
+        "id": "D",
+        "text": "A state that the system enters after an event"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Actors represent roles played by people, organizations, or external systems interacting with the system.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-034",
+    "question": "In a use-case diagram, the system boundary indicates:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Which use cases are inside the system being modeled"
+      },
+      {
+        "id": "B",
+        "text": "Which source-code statements are executed first"
+      },
+      {
+        "id": "C",
+        "text": "Which class owns every database attribute"
+      },
+      {
+        "id": "D",
+        "text": "Which actors are allowed to inherit from one another"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The boundary distinguishes the modeled system's use cases from external actors.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-035",
+    "question": "A shared authentication behavior is required every time either of two use cases runs. Which relationship is generally appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "<<include>>"
+      },
+      {
+        "id": "B",
+        "text": "<<extend>>"
+      },
+      {
+        "id": "C",
+        "text": "Generalization only"
+      },
+      {
+        "id": "D",
+        "text": "Object association"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Include represents required reused behavior incorporated into a base use case.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-036",
+    "question": "A user may optionally apply a discount code during checkout. Which use-case relationship can represent this conditional extra behavior?",
+    "options": [
+      {
+        "id": "A",
+        "text": "<<extend>>"
+      },
+      {
+        "id": "B",
+        "text": "<<include>>"
+      },
+      {
+        "id": "C",
+        "text": "Composition"
+      },
+      {
+        "id": "D",
+        "text": "Realization"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Extend represents optional or conditional behavior inserted into a base use case at an extension point.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-037",
+    "question": "Which UML diagram shows classes, attributes, operations, and relationships at the design or analysis level?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Class diagram"
+      },
+      {
+        "id": "B",
+        "text": "Sequence diagram"
+      },
+      {
+        "id": "C",
+        "text": "Activity diagram"
+      },
+      {
+        "id": "D",
+        "text": "State-machine diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Class diagrams model the static structure of classes and their relationships.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-038",
+    "question": "Which statement best describes an object diagram?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It shows instances and their links at a particular moment"
+      },
+      {
+        "id": "B",
+        "text": "It shows all possible states and transitions of one object"
+      },
+      {
+        "id": "C",
+        "text": "It shows the chronological messages in a scenario"
+      },
+      {
+        "id": "D",
+        "text": "It shows external actors and system goals only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Object diagrams present a snapshot of object instances and links, often illustrating a class model.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-039",
+    "question": "In UML, inheritance or generalization between classes is commonly shown by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A solid line with a hollow triangle pointing to the more general class"
+      },
+      {
+        "id": "B",
+        "text": "A dashed arrow pointing to the child class with a filled diamond"
+      },
+      {
+        "id": "C",
+        "text": "A circle at each end of the association line"
+      },
+      {
+        "id": "D",
+        "text": "A curved arrow labelled with a time duration"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The hollow triangle points toward the superclass or more general classifier.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-040",
+    "question": "In a class diagram, multiplicity 1..* most commonly means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "At least one instance"
+      },
+      {
+        "id": "B",
+        "text": "Zero or one instance"
+      },
+      {
+        "id": "C",
+        "text": "Exactly one instance"
+      },
+      {
+        "id": "D",
+        "text": "Zero or more instances"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The lower bound is one and the upper bound is unbounded, so one or more instances are required.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-041",
+    "question": "Which UML diagram best shows messages exchanged between objects in chronological order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sequence diagram"
+      },
+      {
+        "id": "B",
+        "text": "Class diagram"
+      },
+      {
+        "id": "C",
+        "text": "Object diagram"
+      },
+      {
+        "id": "D",
+        "text": "Use-case diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sequence diagrams emphasize message order and interaction over time.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-042",
+    "question": "In a sequence diagram, a lifeline usually represents:",
+    "options": [
+      {
+        "id": "A",
+        "text": "An interacting participant over the course of an interaction"
+      },
+      {
+        "id": "B",
+        "text": "A condition-action rule in a decision table"
+      },
+      {
+        "id": "C",
+        "text": "A database attribute with a unique value"
+      },
+      {
+        "id": "D",
+        "text": "A process that stores data permanently"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A lifeline shows a participant and its existence during the modeled interaction.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-043",
+    "question": "A sequence diagram shows a dashed arrow returning from a called operation to its caller. This usually represents:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A return message"
+      },
+      {
+        "id": "B",
+        "text": "A class inheritance link"
+      },
+      {
+        "id": "C",
+        "text": "A data-store symbol"
+      },
+      {
+        "id": "D",
+        "text": "A state entry action"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A dashed return arrow commonly indicates the response or return from a call.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-044",
+    "question": "Which UML diagram is best for modeling an object's states and event-triggered transitions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "State-machine diagram"
+      },
+      {
+        "id": "B",
+        "text": "Class diagram"
+      },
+      {
+        "id": "C",
+        "text": "Use-case diagram"
+      },
+      {
+        "id": "D",
+        "text": "Deployment diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "State-machine diagrams model states, events, guards, and transitions.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-045",
+    "question": "An order moves through Created, Confirmed, Shipped, and Delivered states. Which model is most directly suited to show valid transitions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "State-machine diagram"
+      },
+      {
+        "id": "B",
+        "text": "Data dictionary"
+      },
+      {
+        "id": "C",
+        "text": "Context DFD"
+      },
+      {
+        "id": "D",
+        "text": "Object diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A state-machine diagram can represent the order's lifecycle and permitted state changes.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-046",
+    "question": "Which statement correctly distinguishes a class diagram from a sequence diagram?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A class diagram shows static structure; a sequence diagram shows interactions over time"
+      },
+      {
+        "id": "B",
+        "text": "A class diagram shows only external actors; a sequence diagram shows only database tables"
+      },
+      {
+        "id": "C",
+        "text": "A class diagram models decisions; a sequence diagram models data definitions"
+      },
+      {
+        "id": "D",
+        "text": "A class diagram shows deployment hardware; a sequence diagram shows inheritance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Class diagrams focus on structural elements and relationships, while sequence diagrams show interaction ordering.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-047",
+    "question": "A system's requirements include both a user's goal and the messages exchanged between collaborating objects to achieve it. Which pair of diagrams is most directly useful?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Use-case diagram and sequence diagram"
+      },
+      {
+        "id": "B",
+        "text": "ER diagram and data dictionary"
+      },
+      {
+        "id": "C",
+        "text": "Context DFD and decision tree"
+      },
+      {
+        "id": "D",
+        "text": "Object diagram and deployment diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Use cases capture the external goal; sequence diagrams can detail the object interactions that realize a scenario.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-048",
+    "question": "Which model is most useful for showing whether a business decision covers all combinations of conditions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decision table"
+      },
+      {
+        "id": "B",
+        "text": "Class diagram"
+      },
+      {
+        "id": "C",
+        "text": "State-machine diagram"
+      },
+      {
+        "id": "D",
+        "text": "Object diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Decision tables systematically enumerate condition combinations and associated actions.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-049",
+    "question": "Which statement about DFD and UML is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A DFD emphasizes data movement; UML offers several diagrams for structural and behavioral views"
+      },
+      {
+        "id": "B",
+        "text": "A DFD is a type of class diagram; UML is used only for database keys"
+      },
+      {
+        "id": "C",
+        "text": "A DFD primarily shows message timing; UML primarily shows data-flow balancing"
+      },
+      {
+        "id": "D",
+        "text": "A DFD and a use-case diagram always represent exactly the same information"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "DFDs focus on data movement and transformation; UML diagrams cover different views of a system.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "analysis-modeling-ooa-050",
+    "question": "Which UML diagram would best show the physical arrangement of software components or nodes in a deployed system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deployment diagram"
+      },
+      {
+        "id": "B",
+        "text": "Sequence diagram"
+      },
+      {
+        "id": "C",
+        "text": "Use-case diagram"
+      },
+      {
+        "id": "D",
+        "text": "State-machine diagram"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A deployment diagram models the runtime hardware nodes and the artifacts or components deployed on them.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

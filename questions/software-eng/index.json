@@ -1,0 +1,238 @@
+{
+  "chapters": [
+    {
+      "chapterId": "architecture-design-pattern",
+      "chapterName": "architecture-design-pattern",
+      "order": 1,
+      "categories": [
+        {
+          "categoryId": "architectural_styles_patterns_ui_35_mcqs",
+          "categoryName": "architectural_styles_patterns_ui_35_mcqs",
+          "file": "questions/software-eng/architecture-design-pattern/architectural_styles_patterns_ui_35_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "coding-standard-quality",
+      "chapterName": "coding-standard-quality",
+      "order": 2,
+      "categories": [
+        {
+          "categoryId": "coding_standards_code_quality_25_mcqs",
+          "categoryName": "coding_standards_code_quality_25_mcqs",
+          "file": "questions/software-eng/coding-standard-quality/coding_standards_code_quality_25_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "cohession-and-coupling",
+      "chapterName": "cohession-and-coupling",
+      "order": 3,
+      "categories": [
+        {
+          "categoryId": "coupling_cohesion_30_mcqs",
+          "categoryName": "coupling_cohesion_30_mcqs",
+          "file": "questions/software-eng/cohession-and-coupling/coupling_cohesion_30_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "cost-estimation",
+      "chapterName": "cost-estimation",
+      "order": 4,
+      "categories": [
+        {
+          "categoryId": "software_cost_estimation_models_22_mcqs",
+          "categoryName": "software_cost_estimation_models_22_mcqs",
+          "file": "questions/software-eng/cost-estimation/software_cost_estimation_models_22_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "function-non-functional-req",
+      "chapterName": "function-non-functional-req",
+      "order": 5,
+      "categories": [
+        {
+          "categoryId": "functional_nonfunctional_requirements_25_mcqs",
+          "categoryName": "functional_nonfunctional_requirements_25_mcqs",
+          "file": "questions/software-eng/function-non-functional-req/functional_nonfunctional_requirements_25_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "introduction-to-soft-eng",
+      "chapterName": "introduction-to-soft-eng",
+      "order": 6,
+      "categories": [
+        {
+          "categoryId": "introduction_software_engineering",
+          "categoryName": "introduction_software_engineering",
+          "file": "questions/software-eng/introduction-to-soft-eng/introduction_software_engineering.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "project-scheduling-tracking",
+      "chapterName": "project-scheduling-tracking",
+      "order": 7,
+      "categories": [
+        {
+          "categoryId": "project_scheduling_tracking_20_mcqs",
+          "categoryName": "project_scheduling_tracking_20_mcqs",
+          "file": "questions/software-eng/project-scheduling-tracking/project_scheduling_tracking_20_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "requrement-and-srs",
+      "chapterName": "requrement-and-srs",
+      "order": 8,
+      "categories": [
+        {
+          "categoryId": "requirements_and_srs_35_mcqs",
+          "categoryName": "requirements_and_srs_35_mcqs",
+          "file": "questions/software-eng/requrement-and-srs/requirements_and_srs_35_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "risk-management",
+      "chapterName": "risk-management",
+      "order": 9,
+      "categories": [
+        {
+          "categoryId": "risk_management_20_mcqs",
+          "categoryName": "risk_management_20_mcqs",
+          "file": "questions/software-eng/risk-management/risk_management_20_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "soft-analysis-modeling-tool",
+      "chapterName": "soft-analysis-modeling-tool",
+      "order": 10,
+      "categories": [
+        {
+          "categoryId": "analysis_modeling_tools_ooa_50_mcqs",
+          "categoryName": "analysis_modeling_tools_ooa_50_mcqs",
+          "file": "questions/software-eng/soft-analysis-modeling-tool/analysis_modeling_tools_ooa_50_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "software-configuration",
+      "chapterName": "software-configuration",
+      "order": 11,
+      "categories": [
+        {
+          "categoryId": "software_configuration_management_scm_25_mcqs",
+          "categoryName": "software_configuration_management_scm_25_mcqs",
+          "file": "questions/software-eng/software-configuration/software_configuration_management_scm_25_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "software-design-concept",
+      "chapterName": "software-design-concept",
+      "order": 12,
+      "categories": [
+        {
+          "categoryId": "core_design_concepts_20_mcqs",
+          "categoryName": "core_design_concepts_20_mcqs",
+          "file": "questions/software-eng/software-design-concept/core_design_concepts_20_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "software-maintainance",
+      "chapterName": "software-maintainance",
+      "order": 13,
+      "categories": [
+        {
+          "categoryId": "software_maintenance_modern_tools_42_mcqs",
+          "categoryName": "software_maintenance_modern_tools_42_mcqs",
+          "file": "questions/software-eng/software-maintainance/software_maintenance_modern_tools_42_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "software-metrics",
+      "chapterName": "software-metrics",
+      "order": 14,
+      "categories": [
+        {
+          "categoryId": "software_metrics_18_mcqs",
+          "categoryName": "software_metrics_18_mcqs",
+          "file": "questions/software-eng/software-metrics/software_metrics_18_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "software-quality-safety",
+      "chapterName": "software-quality-safety",
+      "order": 15,
+      "categories": [
+        {
+          "categoryId": "software_quality_assurance_reliability_safety_60_mcqs",
+          "categoryName": "software_quality_assurance_reliability_safety_60_mcqs",
+          "file": "questions/software-eng/software-quality-safety/software_quality_assurance_reliability_safety_60_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "software-reengineering",
+      "chapterName": "software-reengineering",
+      "order": 16,
+      "categories": [
+        {
+          "categoryId": "software_reengineering_reuse_25_mcqs",
+          "categoryName": "software_reengineering_reuse_25_mcqs",
+          "file": "questions/software-eng/software-reengineering/software_reengineering_reuse_25_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "software-sdlc",
+      "chapterName": "software-sdlc",
+      "order": 17,
+      "categories": [
+        {
+          "categoryId": "sdlc_software_development_life_cycle_50_mcqs",
+          "categoryName": "sdlc_software_development_life_cycle_50_mcqs",
+          "file": "questions/software-eng/software-sdlc/sdlc_software_development_life_cycle_50_mcqs.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "software-testing",
+      "chapterName": "software-testing",
+      "order": 18,
+      "categories": [
+        {
+          "categoryId": "software_testing_fundamentals_black_white_box_levels_75_mcqs",
+          "categoryName": "software_testing_fundamentals_black_white_box_levels_75_mcqs",
+          "file": "questions/software-eng/software-testing/software_testing_fundamentals_black_white_box_levels_75_mcqs.json",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

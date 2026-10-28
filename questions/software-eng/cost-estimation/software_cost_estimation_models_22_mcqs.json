@@ -1,0 +1,574 @@
+[
+  {
+    "id": "se-cost-estimation-001",
+    "question": "A project manager has only a rough estimate of software size in KLOC and wants an early estimate of effort using COCOMO. Which model variant is most appropriate when detailed cost drivers are not yet available?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Detailed COCOMO, because it allocates effort to every phase"
+      },
+      {
+        "id": "B",
+        "text": "Intermediate COCOMO, because it requires a complete phase-wise schedule"
+      },
+      {
+        "id": "C",
+        "text": "Basic COCOMO, because it uses size and the project mode"
+      },
+      {
+        "id": "D",
+        "text": "Putnam model, because it uses only KLOC and project mode"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Basic COCOMO estimates effort from software size and development mode; it does not use the full set of cost drivers.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-002",
+    "question": "In the classic Basic COCOMO model, estimated effort is expressed in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Person-months"
+      },
+      {
+        "id": "B",
+        "text": "Calendar months only"
+      },
+      {
+        "id": "C",
+        "text": "Thousands of source instructions"
+      },
+      {
+        "id": "D",
+        "text": "Function points per person"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Basic COCOMO's effort equation produces effort in person-months; KLOC is the size input.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-003",
+    "question": "Which equation represents the Basic COCOMO effort estimate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "E = a + b(KLOC)"
+      },
+      {
+        "id": "B",
+        "text": "E = a(KLOC)^b"
+      },
+      {
+        "id": "C",
+        "text": "E = KLOC/(a + b)"
+      },
+      {
+        "id": "D",
+        "text": "E = a(KLOC) + b^KLOC"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Basic COCOMO estimates effort with E = a × (KLOC)^b, where coefficients depend on the development mode.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-004",
+    "question": "A software project is classified as organic in classic COCOMO. Which description best fits this mode?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A very tightly constrained system with substantial hardware and operational restrictions"
+      },
+      {
+        "id": "B",
+        "text": "A project with novel requirements and exceptionally strict constraints in every area"
+      },
+      {
+        "id": "C",
+        "text": "A project whose effort is estimated entirely from function-point counts"
+      },
+      {
+        "id": "D",
+        "text": "A relatively familiar, comparatively small project developed by an experienced team"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Organic projects are relatively familiar and less constrained, often handled by experienced teams in a stable environment.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-005",
+    "question": "Which mapping of classic COCOMO development modes to their typical characteristics is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Organic—familiar and relatively unconstrained; semi-detached—intermediate complexity; embedded—strong constraints"
+      },
+      {
+        "id": "B",
+        "text": "Organic—strict hardware constraints; semi-detached—small familiar project; embedded—no operational constraints"
+      },
+      {
+        "id": "C",
+        "text": "Organic—phase-wise estimation; semi-detached—cost-driver estimation; embedded—size-only estimation"
+      },
+      {
+        "id": "D",
+        "text": "Organic—real-time systems only; semi-detached—business apps only; embedded—prototype systems only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Classic COCOMO distinguishes organic, semi-detached, and embedded modes by project complexity, team experience, and constraints.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-006",
+    "question": "What is the main addition made by Intermediate COCOMO compared with Basic COCOMO?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It replaces software size with the number of developers"
+      },
+      {
+        "id": "B",
+        "text": "It includes an Effort Adjustment Factor based on cost drivers"
+      },
+      {
+        "id": "C",
+        "text": "It calculates effort only after every phase is complete"
+      },
+      {
+        "id": "D",
+        "text": "It estimates schedule without estimating effort"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Intermediate COCOMO multiplies the basic size-based effort estimate by an Effort Adjustment Factor derived from cost drivers.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-007",
+    "question": "In Intermediate COCOMO, which group contains examples of cost-driver categories?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inputs, outputs, inquiries, logical files, and interfaces"
+      },
+      {
+        "id": "B",
+        "text": "Actors, use cases, states, messages, and transitions"
+      },
+      {
+        "id": "C",
+        "text": "Product, hardware, personnel, and project attributes"
+      },
+      {
+        "id": "D",
+        "text": "Corrective, adaptive, perfective, and preventive activities"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Intermediate COCOMO uses cost drivers grouped around product, hardware/computer, personnel, and project attributes.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-008",
+    "question": "If the Effort Adjustment Factor in Intermediate COCOMO is greater than 1, with KLOC and project mode unchanged, the estimated effort will generally be:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lower than the Basic COCOMO estimate"
+      },
+      {
+        "id": "B",
+        "text": "Exactly equal to the Basic COCOMO estimate"
+      },
+      {
+        "id": "C",
+        "text": "Independent of the Basic COCOMO estimate"
+      },
+      {
+        "id": "D",
+        "text": "Higher than the Basic COCOMO estimate"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Intermediate effort is the size-based estimate multiplied by the EAF; an EAF above 1 increases the estimate.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-009",
+    "question": "Which statement best describes Detailed COCOMO?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It uses no cost drivers and produces only a single size estimate"
+      },
+      {
+        "id": "B",
+        "text": "It applies cost-driver effects with phase-sensitive effort distribution"
+      },
+      {
+        "id": "C",
+        "text": "It estimates software cost only from the number of user transactions"
+      },
+      {
+        "id": "D",
+        "text": "It is a different name for the Putnam resource allocation model"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Detailed COCOMO extends the cost-driver approach by considering how effort is distributed across development phases.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-010",
+    "question": "A question gives KLOC and asks for a COCOMO effort estimate but does not specify whether the project is organic, semi-detached, or embedded. What is the most important issue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The project mode is needed to select the appropriate model coefficients"
+      },
+      {
+        "id": "B",
+        "text": "The programming language must always be converted into function points first"
+      },
+      {
+        "id": "C",
+        "text": "The number of maintenance releases uniquely determines the coefficient"
+      },
+      {
+        "id": "D",
+        "text": "The calendar start date determines the COCOMO exponent"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In classic Basic COCOMO, coefficients vary by project mode, so the mode is needed for a specific numeric estimate.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-011",
+    "question": "For classic Basic COCOMO, an organic project has 10 KLOC. Using E = 2.4 × (KLOC)^1.05, the effort is closest to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 person-months"
+      },
+      {
+        "id": "B",
+        "text": "24 person-months"
+      },
+      {
+        "id": "C",
+        "text": "27 person-months"
+      },
+      {
+        "id": "D",
+        "text": "105 person-months"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "E = 2.4 × 10^1.05 ≈ 26.9 person-months, or about 27.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-012",
+    "question": "In the classic Basic COCOMO schedule equation, development time is commonly represented as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "TDEV = c × E^d"
+      },
+      {
+        "id": "B",
+        "text": "TDEV = E/KLOC"
+      },
+      {
+        "id": "C",
+        "text": "TDEV = a × KLOC^b"
+      },
+      {
+        "id": "D",
+        "text": "TDEV = KLOC × E"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Classic COCOMO uses TDEV = c × E^d, with coefficients depending on the project mode.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-013",
+    "question": "Why does a higher estimated effort not necessarily mean a proportionally longer development schedule in COCOMO?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Effort and schedule are separate model outputs related by a nonlinear schedule equation"
+      },
+      {
+        "id": "B",
+        "text": "Effort is measured in KLOC, whereas schedule is measured in defects"
+      },
+      {
+        "id": "C",
+        "text": "Schedule is always fixed at one month for every project mode"
+      },
+      {
+        "id": "D",
+        "text": "The model assumes effort and schedule are interchangeable quantities"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effort is person-months and schedule is calendar time; the schedule equation is nonlinear rather than a direct one-to-one conversion.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-014",
+    "question": "Which statement about the classic COCOMO model family is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic COCOMO uses phase-specific cost drivers, while Detailed COCOMO uses size alone"
+      },
+      {
+        "id": "B",
+        "text": "Intermediate COCOMO ignores project size and relies only on personnel experience"
+      },
+      {
+        "id": "C",
+        "text": "All three variants use identical inputs and differ only in the units reported"
+      },
+      {
+        "id": "D",
+        "text": "Basic uses size and mode; Intermediate adds cost drivers; Detailed also distributes effort by phase"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This is the standard distinction among the Basic, Intermediate, and Detailed COCOMO variants.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-015",
+    "question": "The Putnam model is especially associated with which idea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Estimating functionality by counting external inputs and logical files"
+      },
+      {
+        "id": "B",
+        "text": "Relating software size, effort, development time, and the staffing pattern over time"
+      },
+      {
+        "id": "C",
+        "text": "Estimating effort from KLOC and three fixed COCOMO project modes only"
+      },
+      {
+        "id": "D",
+        "text": "Measuring software reliability from failure intervals only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Putnam model relates size, effort, and development time and is associated with a time-dependent staffing/resource profile.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-016",
+    "question": "In the Putnam resource allocation model, the staffing pattern over the project life cycle is commonly represented by a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Constant flat line with identical staffing from start to finish"
+      },
+      {
+        "id": "B",
+        "text": "Series of unrelated random staffing values"
+      },
+      {
+        "id": "C",
+        "text": "Rayleigh-type curve that rises, peaks, and then declines"
+      },
+      {
+        "id": "D",
+        "text": "Strictly decreasing line beginning with maximum staffing"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The Putnam model commonly uses a Rayleigh curve to represent staffing rising toward a peak and declining later.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-017",
+    "question": "A project plan attempts to cut the delivery time substantially while keeping the required software size and quality unchanged. What does the Putnam model broadly warn?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A shorter schedule can require a disproportionately greater resource commitment"
+      },
+      {
+        "id": "B",
+        "text": "Effort always falls in direct proportion to the schedule reduction"
+      },
+      {
+        "id": "C",
+        "text": "Schedule has no relationship to the total effort required"
+      },
+      {
+        "id": "D",
+        "text": "The same staffing profile can always meet any deadline"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Putnam's software equation shows a strong nonlinear trade-off between development time and required effort/resources.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-018",
+    "question": "In the classic Putnam software equation, which form is commonly used to express the relationship among size, effort, development time, and a technology/productivity factor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "S = Ck × E × T"
+      },
+      {
+        "id": "B",
+        "text": "S = Ck × E^(1/3) × T^(4/3)"
+      },
+      {
+        "id": "C",
+        "text": "S = E/(Ck × T^3)"
+      },
+      {
+        "id": "D",
+        "text": "S = Ck × E^(1/2) × T^(1/2)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A common Putnam software equation is S = Ck × E^(1/3) × T^(4/3), where Ck is a technology/productivity factor.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-019",
+    "question": "Which input is central to classic COCOMO but is not the direct primary size measure in the original model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "KLOC"
+      },
+      {
+        "id": "B",
+        "text": "Development mode"
+      },
+      {
+        "id": "C",
+        "text": "Effort in person-months"
+      },
+      {
+        "id": "D",
+        "text": "The model coefficients associated with project mode"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Effort is an output of the COCOMO estimate; KLOC is the size input, while project mode selects coefficients.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-020",
+    "question": "A team has a reliable size estimate but knows that the product has unusually high reliability requirements and the available team has limited experience. Which classic COCOMO variant best accommodates these factors directly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic COCOMO, because it models all personnel and reliability attributes implicitly"
+      },
+      {
+        "id": "B",
+        "text": "Intermediate COCOMO, because its cost drivers account for product and personnel attributes"
+      },
+      {
+        "id": "C",
+        "text": "Basic COCOMO, because project mode replaces every cost driver"
+      },
+      {
+        "id": "D",
+        "text": "Putnam model, because it classifies projects only by reliability and team experience"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Intermediate COCOMO explicitly includes cost drivers for product attributes such as reliability and personnel attributes such as experience.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-021",
+    "question": "In cost estimation, why should a numeric estimate be treated as an estimate rather than a guaranteed project cost?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because models cannot use any historical project data"
+      },
+      {
+        "id": "B",
+        "text": "Because software effort is always exactly known from the first requirements meeting"
+      },
+      {
+        "id": "C",
+        "text": "Because model outputs depend on assumptions, size estimates, project context, and calibration"
+      },
+      {
+        "id": "D",
+        "text": "Because effort models calculate only the number of defects, not project resources"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Estimation models depend on input quality, assumptions, and calibration against relevant project experience; uncertainty remains.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-cost-estimation-022",
+    "question": "Which statement best captures the difference between COCOMO and the Putnam model at a high level?",
+    "options": [
+      {
+        "id": "A",
+        "text": "COCOMO is a cost-estimation model family using size and project attributes; Putnam emphasizes the relationship between size, effort, schedule, and staffing over time"
+      },
+      {
+        "id": "B",
+        "text": "COCOMO estimates only quality, while Putnam estimates only lines of code"
+      },
+      {
+        "id": "C",
+        "text": "COCOMO is exclusively for maintenance, while Putnam is exclusively for requirements analysis"
+      },
+      {
+        "id": "D",
+        "text": "COCOMO uses no project size, while Putnam requires only the number of programmers"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "COCOMO's classic variants estimate effort and schedule using size and project attributes; Putnam focuses strongly on the size-effort-time and staffing-profile relationship.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

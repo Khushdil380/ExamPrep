@@ -1,0 +1,1094 @@
+[
+  {
+    "id": "software_maintenance_modern_tools-001",
+    "question": "Which type of software maintenance is primarily performed to correct a defect discovered after delivery?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Corrective maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Adaptive maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Perfective maintenance"
+      },
+      {
+        "id": "D",
+        "text": "Preventive maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Corrective maintenance fixes faults found in software after delivery.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-002",
+    "question": "A tax application must be modified because government tax rules have changed. Which maintenance type is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adaptive maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Preventive maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Corrective maintenance"
+      },
+      {
+        "id": "D",
+        "text": "Perfective maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adaptive maintenance changes software to remain usable in a changed environment.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-003",
+    "question": "Users request a faster search feature and a more convenient report filter. This work is mainly:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perfective maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Preventive maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Corrective maintenance"
+      },
+      {
+        "id": "D",
+        "text": "Adaptive maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Perfective maintenance improves performance, maintainability, or functionality based on user needs.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-004",
+    "question": "Refactoring a fragile module to reduce the likelihood of future failures, without changing its external behavior, is mainly:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Preventive maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Corrective maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Perfective maintenance"
+      },
+      {
+        "id": "D",
+        "text": "Adaptive maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Preventive maintenance reduces the likelihood or impact of future problems.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-005",
+    "question": "A browser update causes an existing web application to stop rendering a page correctly. The required change is best classified as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adaptive maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Perfective maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Preventive maintenance"
+      },
+      {
+        "id": "D",
+        "text": "Corrective maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The software must adapt to a changed external platform or environment.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-006",
+    "question": "Which statement best distinguishes corrective from preventive maintenance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Corrective fixes an existing fault; preventive reduces future fault risk"
+      },
+      {
+        "id": "B",
+        "text": "Corrective responds to changed hardware; preventive adds user features"
+      },
+      {
+        "id": "C",
+        "text": "Corrective improves structure; preventive adapts to new regulations"
+      },
+      {
+        "id": "D",
+        "text": "Corrective adds capacity; preventive fixes reported failures"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Corrective addresses an observed defect; preventive aims to avoid future defects or failures.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-007",
+    "question": "Adding a requested export-to-CSV feature to an otherwise correctly functioning product is usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perfective maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Corrective maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Adaptive maintenance"
+      },
+      {
+        "id": "D",
+        "text": "Preventive maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A new user-facing capability is a typical perfective change.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-008",
+    "question": "Replacing obsolete code with a clearer, well-structured implementation to make future changes safer is most directly:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Preventive maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Adaptive maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Perfective maintenance"
+      },
+      {
+        "id": "D",
+        "text": "Corrective maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "When the purpose is to reduce future maintenance risk, the work is preventive.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-009",
+    "question": "A maintenance team changes database connectivity because the organization has migrated to a new database server. This is primarily:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adaptive maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Perfective maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Corrective maintenance"
+      },
+      {
+        "id": "D",
+        "text": "Preventive maintenance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A changed operating environment requires adaptive maintenance.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-010",
+    "question": "Which maintenance category is most associated with improving response time after users report that the current response time is unsatisfactory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perfective"
+      },
+      {
+        "id": "B",
+        "text": "Adaptive"
+      },
+      {
+        "id": "C",
+        "text": "Preventive"
+      },
+      {
+        "id": "D",
+        "text": "Corrective"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Performance improvement is commonly classified as perfective maintenance.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-011",
+    "question": "Which statement about maintenance cost is generally most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can form a large share of total software life-cycle cost"
+      },
+      {
+        "id": "B",
+        "text": "It ends once the first major release is delivered"
+      },
+      {
+        "id": "C",
+        "text": "It depends only on the number of lines changed"
+      },
+      {
+        "id": "D",
+        "text": "It is always lower than initial development cost"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Software may remain in service for years, so cumulative maintenance can be a major life-cycle expense.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-012",
+    "question": "Which factor is most likely to make a small maintenance change unexpectedly expensive?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A clear module boundary and automated tests"
+      },
+      {
+        "id": "B",
+        "text": "High coupling and poor documentation"
+      },
+      {
+        "id": "C",
+        "text": "A reproducible defect with a narrow cause"
+      },
+      {
+        "id": "D",
+        "text": "A stable interface with strong regression coverage"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tight coupling and weak documentation make impact analysis and safe modification harder.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-013",
+    "question": "Why can maintenance require more effort than the size of the code change suggests?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every change requires rewriting the whole system"
+      },
+      {
+        "id": "B",
+        "text": "Impact analysis, regression testing, and deployment also consume effort"
+      },
+      {
+        "id": "C",
+        "text": "Maintenance does not reuse existing code"
+      },
+      {
+        "id": "D",
+        "text": "Only newly written code needs testing"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The total effort includes understanding, impact analysis, testing, documentation, and release work.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-014",
+    "question": "Which practice is most likely to reduce long-term maintenance effort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Avoiding tests to speed up releases"
+      },
+      {
+        "id": "B",
+        "text": "Modular design, useful documentation, and automated regression tests"
+      },
+      {
+        "id": "C",
+        "text": "Keeping all functions in one module"
+      },
+      {
+        "id": "D",
+        "text": "Making changes directly in production"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Maintainable structure and reliable tests reduce the cost and risk of future changes.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-015",
+    "question": "Software maintenance becomes difficult when the original developers have left mainly because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "All source code becomes invalid automatically"
+      },
+      {
+        "id": "B",
+        "text": "Undocumented design decisions and system behavior may be hard to recover"
+      },
+      {
+        "id": "C",
+        "text": "Testing is no longer needed after delivery"
+      },
+      {
+        "id": "D",
+        "text": "Maintenance is always a different programming language"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Knowledge loss increases the effort needed to understand the system before changing it.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-016",
+    "question": "A team spends substantial effort understanding existing code before making a two-line fix. This illustrates the importance of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only initial requirements elicitation"
+      },
+      {
+        "id": "B",
+        "text": "Program comprehension during maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Eliminating regression tests"
+      },
+      {
+        "id": "D",
+        "text": "Replacing maintenance with deployment"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Understanding the existing system is often a significant part of maintenance work.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-017",
+    "question": "Which is a likely consequence of repeated changes made without adequate restructuring?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coupling always decreases"
+      },
+      {
+        "id": "B",
+        "text": "Software structure may deteriorate and future changes become harder"
+      },
+      {
+        "id": "C",
+        "text": "Regression testing becomes unnecessary"
+      },
+      {
+        "id": "D",
+        "text": "The need for documentation disappears"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Uncontrolled changes can increase complexity and make future maintenance more costly.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-018",
+    "question": "In Lehman's laws, the law of continuing change broadly states that an evolving software system must keep changing because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every release must use a new programming language"
+      },
+      {
+        "id": "B",
+        "text": "Otherwise it becomes progressively less satisfactory in its changing environment"
+      },
+      {
+        "id": "C",
+        "text": "Software quality automatically increases with age"
+      },
+      {
+        "id": "D",
+        "text": "All systems must be rewritten annually"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Continuing change reflects the need to keep software useful as its environment and needs evolve.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-019",
+    "question": "Lehman's law of increasing complexity suggests that, unless work is done to maintain or reduce complexity:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of users must fall to zero"
+      },
+      {
+        "id": "B",
+        "text": "The structure tends to become more complex as the system evolves"
+      },
+      {
+        "id": "C",
+        "text": "Testing effort becomes constant"
+      },
+      {
+        "id": "D",
+        "text": "Every new release becomes smaller"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Increasing complexity is a recognized tendency in evolving software unless counteracted.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-020",
+    "question": "Lehman's law of conservation of familiarity is concerned with keeping:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every release identical to the previous release"
+      },
+      {
+        "id": "B",
+        "text": "The growth of change per release at a level developers can understand"
+      },
+      {
+        "id": "C",
+        "text": "The codebase free of all maintenance"
+      },
+      {
+        "id": "D",
+        "text": "The user interface unchanged forever"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Conservation of familiarity concerns limiting change so developers can maintain a working understanding of the system.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-021",
+    "question": "The law of continuing growth states that an evolving software system generally needs to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Remove features in every release"
+      },
+      {
+        "id": "B",
+        "text": "Grow in functionality to maintain user satisfaction"
+      },
+      {
+        "id": "C",
+        "text": "Freeze requirements after delivery"
+      },
+      {
+        "id": "D",
+        "text": "Avoid adapting to new users"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Continuing growth describes pressure to add functionality as user needs evolve.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-022",
+    "question": "Which statement best captures Lehman's law of declining quality?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quality always improves as the code gets older"
+      },
+      {
+        "id": "B",
+        "text": "Unless adapted to its environment, perceived quality tends to decline"
+      },
+      {
+        "id": "C",
+        "text": "Quality depends only on the programming language"
+      },
+      {
+        "id": "D",
+        "text": "Quality is unrelated to changes in the operating environment"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A system that does not adapt to a changing environment can become less satisfactory or useful.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-023",
+    "question": "Which is the best example of preventive maintenance rather than corrective maintenance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fixing a crash that users have reported"
+      },
+      {
+        "id": "B",
+        "text": "Updating a program to support a new operating system"
+      },
+      {
+        "id": "C",
+        "text": "Removing a known source of future defects before it causes a failure"
+      },
+      {
+        "id": "D",
+        "text": "Adding a requested dashboard"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Preventive work reduces future failure risk before an operational fault occurs.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-024",
+    "question": "In a CI workflow, what is the main purpose of integrating developers' changes frequently into a shared codebase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deploy every change directly to all users"
+      },
+      {
+        "id": "B",
+        "text": "Eliminate the need for version control"
+      },
+      {
+        "id": "C",
+        "text": "Detect integration problems early"
+      },
+      {
+        "id": "D",
+        "text": "Replace unit testing with manual review"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Frequent integration and automated checks reveal conflicts and defects earlier.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-025",
+    "question": "Which sequence best represents a typical CI pipeline?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deploy → code → commit → test"
+      },
+      {
+        "id": "B",
+        "text": "Manual release → design → compile → commit"
+      },
+      {
+        "id": "C",
+        "text": "Commit/change → build → automated tests → report feedback"
+      },
+      {
+        "id": "D",
+        "text": "Monitor → delete repository → build → test"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A common CI pipeline builds and tests changes after they are committed or submitted.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-026",
+    "question": "Continuous delivery differs from continuous deployment because continuous delivery:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Never uses automated tests"
+      },
+      {
+        "id": "B",
+        "text": "Deploys every successful change to production automatically"
+      },
+      {
+        "id": "C",
+        "text": "Keeps changes deployable but may require approval for production release"
+      },
+      {
+        "id": "D",
+        "text": "Means integrating code only once per project"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Continuous delivery prepares changes for release; production deployment may still have a manual approval gate.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-027",
+    "question": "In continuous deployment, a change that passes the required automated pipeline is typically:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Held until the end of the semester"
+      },
+      {
+        "id": "B",
+        "text": "Merged without any testing"
+      },
+      {
+        "id": "C",
+        "text": "Automatically deployed to production"
+      },
+      {
+        "id": "D",
+        "text": "Released only after rewriting the application"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Continuous deployment automates production release after the configured checks pass.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-028",
+    "question": "A build fails immediately after a developer commits a change. Which CI benefit is being demonstrated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elimination of source control"
+      },
+      {
+        "id": "B",
+        "text": "Guaranteed absence of all production defects"
+      },
+      {
+        "id": "C",
+        "text": "Fast feedback about a change-related problem"
+      },
+      {
+        "id": "D",
+        "text": "Automatic proof of functional correctness"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "CI provides rapid feedback, although passing a pipeline cannot prove that all defects are absent.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-029",
+    "question": "Which task is most suitable for automated testing in a CI pipeline?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deciding an ambiguous business goal without criteria"
+      },
+      {
+        "id": "B",
+        "text": "Replacing all usability research"
+      },
+      {
+        "id": "C",
+        "text": "Running repeatable unit and regression tests on each change"
+      },
+      {
+        "id": "D",
+        "text": "Approving every product decision automatically"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Repeatable tests are well suited to automation and frequent execution.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-030",
+    "question": "What is a key limitation of automated testing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It cannot execute the same test more than once"
+      },
+      {
+        "id": "B",
+        "text": "It always requires production deployment"
+      },
+      {
+        "id": "C",
+        "text": "It checks defined scenarios but cannot guarantee that every defect is found"
+      },
+      {
+        "id": "D",
+        "text": "It can only test user interfaces"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Automated tests are limited by their assertions, coverage, test data, and the scenarios designed.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-031",
+    "question": "A pipeline runs unit tests on every commit and a broader end-to-end suite nightly. This is best described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Infrastructure provisioning without tests"
+      },
+      {
+        "id": "B",
+        "text": "Continuous deployment without integration"
+      },
+      {
+        "id": "C",
+        "text": "Using different test scopes at appropriate pipeline stages"
+      },
+      {
+        "id": "D",
+        "text": "Manual configuration management only"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Teams often run fast tests frequently and more expensive end-to-end suites at later or scheduled stages.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-032",
+    "question": "Infrastructure as Code (IaC) primarily means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Writing application requirements only in source code"
+      },
+      {
+        "id": "B",
+        "text": "Buying hardware through an online store"
+      },
+      {
+        "id": "C",
+        "text": "Managing infrastructure configuration through machine-readable, version-controlled definitions"
+      },
+      {
+        "id": "D",
+        "text": "Manually configuring each server through a graphical interface"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "IaC expresses infrastructure setup declaratively or programmatically so it can be reviewed and reproduced.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-033",
+    "question": "Which is a major benefit of Infrastructure as Code?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It guarantees that cloud services never fail"
+      },
+      {
+        "id": "B",
+        "text": "It removes the need to manage credentials securely"
+      },
+      {
+        "id": "C",
+        "text": "It makes version control unnecessary"
+      },
+      {
+        "id": "D",
+        "text": "It makes infrastructure changes repeatable and reviewable"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Versioned infrastructure definitions improve repeatability, review, and consistency across environments.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-034",
+    "question": "A team uses the same versioned configuration to create development and staging environments. This most directly supports:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uncontrolled configuration drift"
+      },
+      {
+        "id": "B",
+        "text": "Manual-only deployment"
+      },
+      {
+        "id": "C",
+        "text": "Elimination of all environment differences by definition"
+      },
+      {
+        "id": "D",
+        "text": "Consistency and reproducibility of environments"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Reusing reviewed configuration helps environments be created consistently, though differences can still exist.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-035",
+    "question": "What is configuration drift in infrastructure management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A program is converted from one language to another"
+      },
+      {
+        "id": "B",
+        "text": "A source-code branch is renamed"
+      },
+      {
+        "id": "C",
+        "text": "A test case has more than one assertion"
+      },
+      {
+        "id": "D",
+        "text": "The actual environment gradually differs from its intended configuration"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Drift occurs when the running infrastructure diverges from its declared or approved state.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-036",
+    "question": "Which concern is especially important when using IaC in a shared repository?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Store production secrets in plain text for convenience"
+      },
+      {
+        "id": "B",
+        "text": "Allow every user unrestricted production access"
+      },
+      {
+        "id": "C",
+        "text": "Disable change history"
+      },
+      {
+        "id": "D",
+        "text": "Protect secrets and review privileged infrastructure changes"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Infrastructure definitions can control sensitive resources, so secrets management and access controls are essential.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-037",
+    "question": "A SaaS application is hosted and operated by a provider and accessed by customers over a network. Which responsibility is typically retained by the customer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maintaining the provider's physical servers"
+      },
+      {
+        "id": "B",
+        "text": "Patching the provider's hypervisor"
+      },
+      {
+        "id": "C",
+        "text": "Replacing the provider's network switches"
+      },
+      {
+        "id": "D",
+        "text": "Managing their users, access settings, and use of the service"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "In SaaS, the provider manages the application platform and infrastructure, while customers still manage their own users and data-related settings.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-038",
+    "question": "Which statement best distinguishes SaaS from traditional on-premises deployment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SaaS can never be accessed through a browser"
+      },
+      {
+        "id": "B",
+        "text": "SaaS requires each customer to maintain the physical server"
+      },
+      {
+        "id": "C",
+        "text": "SaaS means the application has no updates"
+      },
+      {
+        "id": "D",
+        "text": "SaaS is generally provider-hosted and delivered as a service, often by subscription"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "SaaS typically provides centrally hosted software that customers access as a service.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-039",
+    "question": "Which issue should be considered when deploying a SaaS application for multiple customer organizations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disabling audit logs"
+      },
+      {
+        "id": "B",
+        "text": "Removing authentication to simplify onboarding"
+      },
+      {
+        "id": "C",
+        "text": "Sharing all customer records by default"
+      },
+      {
+        "id": "D",
+        "text": "Tenant data isolation and access control"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Multi-tenant SaaS systems must prevent one tenant from accessing another tenant's data.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-040",
+    "question": "Why are monitoring and rollback strategies important in modern deployment pipelines?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They guarantee that releases contain no bugs"
+      },
+      {
+        "id": "B",
+        "text": "They prevent all configuration changes"
+      },
+      {
+        "id": "C",
+        "text": "They eliminate the need for deployment testing"
+      },
+      {
+        "id": "D",
+        "text": "They help detect production problems and restore a known-good version"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Monitoring surfaces failures, while rollback can reduce impact when a release behaves badly.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-041",
+    "question": "Which practice best connects maintenance with modern DevOps workflows?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Batch all changes into one annual release"
+      },
+      {
+        "id": "B",
+        "text": "Make untracked production edits and document them later"
+      },
+      {
+        "id": "C",
+        "text": "Separate developers from operational feedback completely"
+      },
+      {
+        "id": "D",
+        "text": "Use version control, automated checks, repeatable deployments, and monitoring"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "DevOps supports ongoing change through collaboration, automation, observability, and repeatable release processes.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "software_maintenance_modern_tools-042",
+    "question": "A production issue appears after a release. The team uses logs and metrics to identify the regression, rolls back, then adds a regression test. This workflow mainly demonstrates:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only adaptive maintenance"
+      },
+      {
+        "id": "B",
+        "text": "A guarantee that future incidents are impossible"
+      },
+      {
+        "id": "C",
+        "text": "Infrastructure provisioning without feedback"
+      },
+      {
+        "id": "D",
+        "text": "Operational feedback feeding corrective maintenance and improved automation"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The team restores service, fixes the immediate issue, and adds a test to catch similar regressions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

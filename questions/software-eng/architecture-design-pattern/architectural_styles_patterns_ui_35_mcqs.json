@@ -1,0 +1,912 @@
+[
+  {
+    "id": "architecture-patterns-ui-001",
+    "question": "In a data-centered architecture, the main organizing element is typically:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A shared data repository accessed by multiple components"
+      },
+      {
+        "id": "B",
+        "text": "A sequence of filters connected by data streams"
+      },
+      {
+        "id": "C",
+        "text": "A set of independent services with separate databases only"
+      },
+      {
+        "id": "D",
+        "text": "A user interface that directly contains all business rules"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Data-centered architectures organize components around a central repository or shared data store.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-002",
+    "question": "Which architecture is most suitable when several components need to read and update a common repository of information?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data-centered"
+      },
+      {
+        "id": "B",
+        "text": "Pipe-and-filter"
+      },
+      {
+        "id": "C",
+        "text": "Call-and-return only"
+      },
+      {
+        "id": "D",
+        "text": "Event-driven UI only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A shared repository supports multiple components that work with common data.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-003",
+    "question": "In a pipe-and-filter architecture, a filter usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Transforms input data and passes the result onward"
+      },
+      {
+        "id": "B",
+        "text": "Stores all system data in a central database"
+      },
+      {
+        "id": "C",
+        "text": "Defines the visual presentation of a user interface"
+      },
+      {
+        "id": "D",
+        "text": "Creates objects by selecting concrete classes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each filter performs a transformation, while pipes carry data between filters.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-004",
+    "question": "A system reads raw records, validates them, sorts them, and formats a report through separate processing stages. Which style fits best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pipe-and-filter"
+      },
+      {
+        "id": "B",
+        "text": "Data-centered"
+      },
+      {
+        "id": "C",
+        "text": "Layered"
+      },
+      {
+        "id": "D",
+        "text": "Singleton"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The workflow is a sequence of independent transformations connected by data flow.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-005",
+    "question": "Which is a key advantage of pipe-and-filter design?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Filters can often be reused or rearranged if their input/output contracts remain compatible"
+      },
+      {
+        "id": "B",
+        "text": "Every filter must know the internal code of all other filters"
+      },
+      {
+        "id": "C",
+        "text": "All data must be stored permanently in one global repository"
+      },
+      {
+        "id": "D",
+        "text": "User-interface and business logic must be implemented in the same component"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Independent filters with compatible interfaces can be composed and reused.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-006",
+    "question": "Which situation is a potential disadvantage of pipe-and-filter architecture?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Converting data between filters may add overhead or require a common data format"
+      },
+      {
+        "id": "B",
+        "text": "It cannot support any sequence of processing steps"
+      },
+      {
+        "id": "C",
+        "text": "It requires every filter to share private variables with all others"
+      },
+      {
+        "id": "D",
+        "text": "It is limited to systems that have no data transformations"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Intermediate data conversion and stream-handling overhead can complicate or slow a pipeline.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-007",
+    "question": "In a call-and-return architecture, control generally moves when:",
+    "options": [
+      {
+        "id": "A",
+        "text": "One component calls another component or routine and later receives control back"
+      },
+      {
+        "id": "B",
+        "text": "All components independently update a central repository without calls"
+      },
+      {
+        "id": "C",
+        "text": "Data automatically passes through filters without explicit calls"
+      },
+      {
+        "id": "D",
+        "text": "An observer receives every notification from a subject"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Call-and-return structures organize control around procedure or function calls and returns.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-008",
+    "question": "Which statement best describes layered architecture?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Each layer provides services to the layer above and uses services of a lower layer"
+      },
+      {
+        "id": "B",
+        "text": "All components communicate only through a shared global variable"
+      },
+      {
+        "id": "C",
+        "text": "Every request must pass through a sequence of unrelated data filters"
+      },
+      {
+        "id": "D",
+        "text": "The user interface contains all database operations and business rules"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Layers separate responsibilities and typically depend on lower-level services.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-009",
+    "question": "A change to the database driver should ideally require little or no change to the presentation layer. Which design approach helps support this?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Layered architecture with clear interfaces"
+      },
+      {
+        "id": "B",
+        "text": "Direct access from every screen to database internals"
+      },
+      {
+        "id": "C",
+        "text": "Content coupling between presentation and storage"
+      },
+      {
+        "id": "D",
+        "text": "Combining presentation, business logic, and persistence into one module"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Layer boundaries and interfaces isolate implementation changes in lower layers.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-010",
+    "question": "Which can be a disadvantage of a strictly layered architecture?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Requests may incur extra overhead by passing through several layers"
+      },
+      {
+        "id": "B",
+        "text": "It cannot separate concerns"
+      },
+      {
+        "id": "C",
+        "text": "It always requires one database per layer"
+      },
+      {
+        "id": "D",
+        "text": "It prevents layers from exposing any services"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Layer-to-layer processing can add latency and may create unnecessary indirection if overused.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-011",
+    "question": "In Model–View–Controller (MVC), which component manages application data and core business state?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Model"
+      },
+      {
+        "id": "B",
+        "text": "View"
+      },
+      {
+        "id": "C",
+        "text": "Controller"
+      },
+      {
+        "id": "D",
+        "text": "Pipe"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Model represents the application's data and domain behavior.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-012",
+    "question": "In MVC, the View is primarily responsible for:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Presenting information to the user"
+      },
+      {
+        "id": "B",
+        "text": "Storing all domain data permanently"
+      },
+      {
+        "id": "C",
+        "text": "Choosing the database transaction isolation level"
+      },
+      {
+        "id": "D",
+        "text": "Creating every object in the application"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The View handles presentation, such as displaying data and interface elements.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-013",
+    "question": "In MVC, the Controller typically:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Handles user input and coordinates the appropriate model or view actions"
+      },
+      {
+        "id": "B",
+        "text": "Acts as the only permanent data repository"
+      },
+      {
+        "id": "C",
+        "text": "Transforms every input through a fixed filter pipeline"
+      },
+      {
+        "id": "D",
+        "text": "Defines the operating system's process scheduler"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Controller interprets input and coordinates application behavior.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-014",
+    "question": "Which statement about MVC is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It separates data/domain concerns, presentation, and input coordination"
+      },
+      {
+        "id": "B",
+        "text": "It is a creational design pattern used only to instantiate objects"
+      },
+      {
+        "id": "C",
+        "text": "It requires every view to store its own duplicate database"
+      },
+      {
+        "id": "D",
+        "text": "It is identical to pipe-and-filter architecture"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "MVC separates concerns to make interface and application behavior easier to manage independently.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-015",
+    "question": "Microservices architecture organizes an application as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Small, independently deployable services organized around capabilities"
+      },
+      {
+        "id": "B",
+        "text": "One executable with all features tightly coupled in a single module"
+      },
+      {
+        "id": "C",
+        "text": "A set of filters that must share one process and memory space"
+      },
+      {
+        "id": "D",
+        "text": "Only a user interface and a central controller"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Microservices split an application into services that can often be developed and deployed independently.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-016",
+    "question": "Which is a common benefit of microservices?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Individual services can often be deployed and scaled independently"
+      },
+      {
+        "id": "B",
+        "text": "Distributed communication and failure handling become unnecessary"
+      },
+      {
+        "id": "C",
+        "text": "Every service must use the same programming language and release cycle"
+      },
+      {
+        "id": "D",
+        "text": "Integration testing is no longer required"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Independent deployment and scaling are major potential benefits, although they add operational complexity.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-017",
+    "question": "Which is a common challenge of microservices compared with a single monolithic deployment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Network failures, service coordination, and distributed data consistency"
+      },
+      {
+        "id": "B",
+        "text": "An inability to deploy one service without recompiling every other service"
+      },
+      {
+        "id": "C",
+        "text": "A requirement that all business logic reside in the user interface"
+      },
+      {
+        "id": "D",
+        "text": "A complete lack of communication between services"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Distributed systems introduce network latency, partial failures, monitoring, and consistency challenges.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-018",
+    "question": "A small application has a few tightly related features and a small team. Which conclusion about microservices is most reasonable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A modular monolith may be simpler unless independent deployment or scaling needs justify microservices"
+      },
+      {
+        "id": "B",
+        "text": "Microservices are always the best choice regardless of complexity"
+      },
+      {
+        "id": "C",
+        "text": "A monolith cannot have modular internal design"
+      },
+      {
+        "id": "D",
+        "text": "Microservices eliminate the need to define service boundaries"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Microservices have operational costs; architecture should match the system's scale and needs.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-019",
+    "question": "Which of the following is a creational design pattern?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Factory Method"
+      },
+      {
+        "id": "B",
+        "text": "Adapter"
+      },
+      {
+        "id": "C",
+        "text": "Observer"
+      },
+      {
+        "id": "D",
+        "text": "Decorator"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Factory Method is creational because it concerns how objects are created.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-020",
+    "question": "What is the main intent of the Singleton pattern?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ensure a class has one shared instance and provide a controlled access point to it"
+      },
+      {
+        "id": "B",
+        "text": "Convert one interface into another expected by a client"
+      },
+      {
+        "id": "C",
+        "text": "Notify many dependent objects when one object's state changes"
+      },
+      {
+        "id": "D",
+        "text": "Add responsibilities to an object through a wrapping structure"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Singleton controls instance creation so a class has one instance accessible through a defined mechanism.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-021",
+    "question": "What is the main purpose of the Factory Method pattern?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Defer the choice of which concrete product to create to subclasses or a factory method"
+      },
+      {
+        "id": "B",
+        "text": "Ensure all objects in the system share one global instance"
+      },
+      {
+        "id": "C",
+        "text": "Notify subscribers when an object's state changes"
+      },
+      {
+        "id": "D",
+        "text": "Separate a user interface into model, view, and controller"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Factory Method encapsulates object creation and lets subclasses or implementations select the product.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-022",
+    "question": "An application must create different notification objects (EmailNotification, SMSNotification) based on configuration without scattering `new` calls throughout the code. Which pattern is a natural fit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Factory Method or a simple factory approach"
+      },
+      {
+        "id": "B",
+        "text": "Observer pattern"
+      },
+      {
+        "id": "C",
+        "text": "Adapter pattern"
+      },
+      {
+        "id": "D",
+        "text": "Singleton pattern in every notification class"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A factory centralizes object creation and reduces direct dependence on concrete classes.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-023",
+    "question": "Which of the following is a structural design pattern?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adapter"
+      },
+      {
+        "id": "B",
+        "text": "Observer"
+      },
+      {
+        "id": "C",
+        "text": "Strategy"
+      },
+      {
+        "id": "D",
+        "text": "Factory Method"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adapter is structural: it lets incompatible interfaces work together.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-024",
+    "question": "A legacy component exposes an interface different from the one expected by the new application. Which pattern can bridge the interface mismatch?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adapter"
+      },
+      {
+        "id": "B",
+        "text": "Observer"
+      },
+      {
+        "id": "C",
+        "text": "Singleton"
+      },
+      {
+        "id": "D",
+        "text": "State"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adapter wraps or translates one interface into another expected by the client.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-025",
+    "question": "Which pattern adds responsibilities to an object by wrapping it, often without changing the original class?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decorator"
+      },
+      {
+        "id": "B",
+        "text": "Factory Method"
+      },
+      {
+        "id": "C",
+        "text": "Observer"
+      },
+      {
+        "id": "D",
+        "text": "Command"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Decorator dynamically adds behavior through a wrapper that conforms to the same interface.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-026",
+    "question": "Which of the following is a behavioral design pattern?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Observer"
+      },
+      {
+        "id": "B",
+        "text": "Factory Method"
+      },
+      {
+        "id": "C",
+        "text": "Adapter"
+      },
+      {
+        "id": "D",
+        "text": "Singleton"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Observer defines a notification relationship between a subject and dependent observers.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-027",
+    "question": "A weather display should update automatically whenever the weather station's data changes. Which pattern best fits?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Observer"
+      },
+      {
+        "id": "B",
+        "text": "Factory Method"
+      },
+      {
+        "id": "C",
+        "text": "Adapter"
+      },
+      {
+        "id": "D",
+        "text": "Singleton"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Observer allows dependent objects to receive notifications when the subject changes.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-028",
+    "question": "Which statement best describes the Strategy pattern?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It allows interchangeable algorithms to be selected without embedding all algorithm choices in one large conditional"
+      },
+      {
+        "id": "B",
+        "text": "It guarantees that a class can have only one instance"
+      },
+      {
+        "id": "C",
+        "text": "It translates an incompatible interface into the expected interface"
+      },
+      {
+        "id": "D",
+        "text": "It notifies subscribers whenever an object's state changes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Strategy encapsulates alternative algorithms behind a common interface.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-029",
+    "question": "Which statement correctly matches pattern category and purpose?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Creational—object creation; Structural—composition of classes/objects; Behavioral—interaction and responsibility"
+      },
+      {
+        "id": "B",
+        "text": "Creational—user accessibility; Structural—object notification; Behavioral—database storage"
+      },
+      {
+        "id": "C",
+        "text": "Creational—data-flow pipelines; Structural—object creation; Behavioral—layer boundaries"
+      },
+      {
+        "id": "D",
+        "text": "Creational—message timing; Structural—test coverage; Behavioral—memory allocation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "These are the broad purposes of the three common design-pattern categories.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-030",
+    "question": "Why can overusing Singleton be harmful?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can introduce hidden global state and make testing or dependency management harder"
+      },
+      {
+        "id": "B",
+        "text": "It prevents a class from being instantiated more than once, which is always a defect"
+      },
+      {
+        "id": "C",
+        "text": "It forces all classes to use different interfaces"
+      },
+      {
+        "id": "D",
+        "text": "It automatically converts a monolith into microservices"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Singleton may create global dependencies and complicate isolation in tests; it is useful only when justified.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-031",
+    "question": "Which UI design principle is most directly supported by consistent placement and behavior of buttons across screens?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consistency"
+      },
+      {
+        "id": "B",
+        "text": "Error prevention"
+      },
+      {
+        "id": "C",
+        "text": "Visibility of system status"
+      },
+      {
+        "id": "D",
+        "text": "Flexibility only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Consistent conventions reduce the effort needed to learn and use an interface.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-032",
+    "question": "A form shows a clear progress indicator while a file is uploading. Which UI principle does this best illustrate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Visibility of system status and feedback"
+      },
+      {
+        "id": "B",
+        "text": "Information hiding between software modules"
+      },
+      {
+        "id": "C",
+        "text": "Factory-based object creation"
+      },
+      {
+        "id": "D",
+        "text": "Low coupling between microservices"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Feedback keeps users informed about what the system is doing and whether their action succeeded.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-033",
+    "question": "A delete operation asks for confirmation and offers an undo option when practical. Which UI goal is most directly supported?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Error prevention and recovery"
+      },
+      {
+        "id": "B",
+        "text": "Maximizing the number of interface elements"
+      },
+      {
+        "id": "C",
+        "text": "Reducing all feedback to zero"
+      },
+      {
+        "id": "D",
+        "text": "Making every action irreversible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Confirmation for destructive actions and undo support help prevent or recover from user errors.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-034",
+    "question": "Which interface design choice best supports recognition rather than recall?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Show available commands and meaningful labels where users need them"
+      },
+      {
+        "id": "B",
+        "text": "Require users to memorize hidden command names"
+      },
+      {
+        "id": "C",
+        "text": "Use different meanings for the same icon on different screens"
+      },
+      {
+        "id": "D",
+        "text": "Hide system status until the user asks for it"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Visible options and recognizable labels reduce the need to remember commands from memory.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "architecture-patterns-ui-035",
+    "question": "A UI uses an unfamiliar icon for saving, with no label or tooltip. What is the most likely usability issue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Users may not recognize the action or understand its meaning"
+      },
+      {
+        "id": "B",
+        "text": "The application necessarily has high coupling"
+      },
+      {
+        "id": "C",
+        "text": "The system has violated the Factory Method pattern"
+      },
+      {
+        "id": "D",
+        "text": "The data model cannot be normalized"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Clear labels, familiar conventions, and appropriate cues help users understand controls.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]

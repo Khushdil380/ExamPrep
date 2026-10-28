@@ -1,0 +1,470 @@
+[
+  {
+    "id": "se-metrics-001",
+    "question": "A team wants to know whether its development process is becoming more predictable across several projects. Which measurement is most directly useful?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Number of defects found in one released product"
+      },
+      {
+        "id": "B",
+        "text": "Average time taken to resolve a customer ticket"
+      },
+      {
+        "id": "C",
+        "text": "Variation in development cycle time across projects"
+      },
+      {
+        "id": "D",
+        "text": "Lines of code in the largest source file"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Process metrics evaluate how development activities perform; cycle-time variation helps assess process predictability.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-002",
+    "question": "A manager compares defect density in two released applications to assess their relative quality. This is primarily an example of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Product measurement"
+      },
+      {
+        "id": "B",
+        "text": "Process measurement"
+      },
+      {
+        "id": "C",
+        "text": "Project scheduling"
+      },
+      {
+        "id": "D",
+        "text": "Risk response planning"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Defect density describes defects in a software product, so it is a product metric.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-003",
+    "question": "An organization records how many defects are introduced during each development phase and how many are removed before release. The main purpose is to improve:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The source-code size estimate only"
+      },
+      {
+        "id": "B",
+        "text": "The development and defect-removal process"
+      },
+      {
+        "id": "C",
+        "text": "The number of functions delivered to users"
+      },
+      {
+        "id": "D",
+        "text": "The physical size of the deployment package"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Phase-wise defect data helps identify process weaknesses and improve defect prevention and removal.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-004",
+    "question": "Which statement best distinguishes product metrics from process metrics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Product metrics describe the software or its quality; process metrics describe how software is developed or maintained."
+      },
+      {
+        "id": "B",
+        "text": "Product metrics apply before coding; process metrics apply only after release."
+      },
+      {
+        "id": "C",
+        "text": "Product metrics are always qualitative; process metrics are always quantitative."
+      },
+      {
+        "id": "D",
+        "text": "Product metrics measure people; process metrics measure only source code."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The distinction is what is measured: the product itself versus the activities and workflow used to build or maintain it.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-005",
+    "question": "A team uses the number of defects per thousand lines of code to compare modules. What is the main limitation of this comparison?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It cannot be calculated after testing is complete."
+      },
+      {
+        "id": "B",
+        "text": "It measures development effort directly rather than product size."
+      },
+      {
+        "id": "C",
+        "text": "It is independent of the programming language used."
+      },
+      {
+        "id": "D",
+        "text": "LOC counting rules and coding style can affect the denominator."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "LOC-based measures can vary with language, formatting, coding style, and counting conventions.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-006",
+    "question": "Two teams implement equivalent functionality. Team X writes 2,000 lines in a concise language, while Team Y writes 5,000 lines in a more verbose language. What is the safest conclusion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Team X necessarily delivered higher-quality software."
+      },
+      {
+        "id": "B",
+        "text": "The LOC difference alone does not establish which team was more productive or effective."
+      },
+      {
+        "id": "C",
+        "text": "Team Y necessarily spent more effort on requirements analysis."
+      },
+      {
+        "id": "D",
+        "text": "Team Y's software must contain more user-visible features."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "LOC is influenced by language and style, so line count alone cannot establish quality, effort, or productivity across implementations.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-007",
+    "question": "A project has 24,000 source lines under the organization's LOC counting convention. Its size in KLOC is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.4 KLOC"
+      },
+      {
+        "id": "B",
+        "text": "240 KLOC"
+      },
+      {
+        "id": "C",
+        "text": "24 KLOC"
+      },
+      {
+        "id": "D",
+        "text": "0.24 KLOC"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "KLOC means thousands of lines of code; 24,000 ÷ 1,000 = 24 KLOC.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-008",
+    "question": "A software team reports 40 defects in a codebase of 20 KLOC. Using defects per KLOC, the defect density is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.5 defects/KLOC"
+      },
+      {
+        "id": "B",
+        "text": "2 defects/KLOC"
+      },
+      {
+        "id": "C",
+        "text": "20 defects/KLOC"
+      },
+      {
+        "id": "D",
+        "text": "800 defects/KLOC"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Defect density = 40 ÷ 20 = 2 defects per KLOC.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-009",
+    "question": "A developer's output is measured as 3 KLOC produced in 150 person-hours. Under a simple LOC-based productivity measure, the result is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 LOC per person-hour"
+      },
+      {
+        "id": "B",
+        "text": "50 LOC per person-hour"
+      },
+      {
+        "id": "C",
+        "text": "0.02 KLOC per person-hour"
+      },
+      {
+        "id": "D",
+        "text": "450 KLOC per person-hour"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "3 KLOC = 3,000 LOC; 3,000 ÷ 150 = 20 LOC per person-hour.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-010",
+    "question": "Why can LOC be a weak basis for estimating software size early in a project?",
+    "options": [
+      {
+        "id": "A",
+        "text": "LOC cannot be counted once the program is compiled."
+      },
+      {
+        "id": "B",
+        "text": "LOC measures user requirements without relying on implementation."
+      },
+      {
+        "id": "C",
+        "text": "LOC always remains the same when a program is rewritten."
+      },
+      {
+        "id": "D",
+        "text": "The amount of code is difficult to predict before design and implementation details are known."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "LOC is implementation-dependent and is often hard to estimate accurately before the solution is designed.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-011",
+    "question": "Function Point Analysis primarily estimates software size by considering:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of statements and comments in source files"
+      },
+      {
+        "id": "B",
+        "text": "The number of developers and their total working hours"
+      },
+      {
+        "id": "C",
+        "text": "The functionality delivered to the user"
+      },
+      {
+        "id": "D",
+        "text": "The number of test cases executed during system testing"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "FPA is function-oriented and estimates size from user-visible functionality rather than source-code length.",
+    "difficulty": "easy",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-012",
+    "question": "Which set contains the five traditional Function Point Analysis component types?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inputs, outputs, algorithms, classes, and interfaces"
+      },
+      {
+        "id": "B",
+        "text": "External inputs, external outputs, external inquiries, internal logical files, and external interface files"
+      },
+      {
+        "id": "C",
+        "text": "Modules, methods, statements, branches, and test cases"
+      },
+      {
+        "id": "D",
+        "text": "Actors, use cases, objects, messages, and states"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Traditional FPA counts EI, EO, EQ, ILF, and EIF, with complexity weights applied to these function types.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-013",
+    "question": "A user submits a form that updates records maintained within the application. In traditional FPA, this transaction is most likely counted as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "An external input (EI)"
+      },
+      {
+        "id": "B",
+        "text": "An external output (EO)"
+      },
+      {
+        "id": "C",
+        "text": "An external inquiry (EQ)"
+      },
+      {
+        "id": "D",
+        "text": "An external interface file (EIF)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An external input crosses the application boundary and maintains internal logical data, such as by adding or updating records.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-014",
+    "question": "A screen retrieves and displays stored information without updating internal data or performing significant derived processing. Which FPA transaction type best fits?",
+    "options": [
+      {
+        "id": "A",
+        "text": "External input (EI)"
+      },
+      {
+        "id": "B",
+        "text": "External output (EO)"
+      },
+      {
+        "id": "C",
+        "text": "Internal logical file (ILF)"
+      },
+      {
+        "id": "D",
+        "text": "External inquiry (EQ)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "An external inquiry retrieves and presents information without updating internal logical files and without significant derived processing.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-015",
+    "question": "An application maintains its own customer records. In traditional FPA, this logical data group is classified as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "External interface file (EIF)"
+      },
+      {
+        "id": "B",
+        "text": "Internal logical file (ILF)"
+      },
+      {
+        "id": "C",
+        "text": "External output (EO)"
+      },
+      {
+        "id": "D",
+        "text": "External inquiry (EQ)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An ILF is a logical group of data maintained within the application's boundary by the application.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-016",
+    "question": "A system reads a shared product catalogue maintained by another application, but does not maintain that data itself. How is the catalogue most appropriately classified for this system's FPA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Internal logical file (ILF)"
+      },
+      {
+        "id": "B",
+        "text": "External output (EO)"
+      },
+      {
+        "id": "C",
+        "text": "External interface file (EIF)"
+      },
+      {
+        "id": "D",
+        "text": "External input (EI)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "An EIF is a logical data group referenced by the application but maintained outside its boundary.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-017",
+    "question": "Two projects are implemented in different programming languages but provide comparable business functionality. Which size measure is generally more suitable for a language-independent comparison?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Function points, because they focus on delivered functionality"
+      },
+      {
+        "id": "B",
+        "text": "Raw LOC, because line counts have identical meaning across languages"
+      },
+      {
+        "id": "C",
+        "text": "Number of source files, because file structure is standardized"
+      },
+      {
+        "id": "D",
+        "text": "Number of developers, because staffing reflects software size"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Function points are based on functionality and are less dependent on programming language than LOC.",
+    "difficulty": "medium",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  },
+  {
+    "id": "se-metrics-018",
+    "question": "In traditional FPA, a team has counted the five function types and applied their complexity weights to obtain the Unadjusted Function Point count. What is the next step in the classic adjusted-FP approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Divide the count by the number of source files"
+      },
+      {
+        "id": "B",
+        "text": "Convert the count directly into KLOC using a universal fixed ratio"
+      },
+      {
+        "id": "C",
+        "text": "Multiply the count by the number of developers"
+      },
+      {
+        "id": "D",
+        "text": "Apply the value adjustment factor based on general system characteristics"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "In the classic adjusted-FP method, the unadjusted count is adjusted using a value adjustment factor derived from general system characteristics.",
+    "difficulty": "hard",
+    "source": "प्रतियोगी परीक्षा अभ्यास"
+  }
+]
