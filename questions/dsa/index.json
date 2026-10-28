@@ -1,0 +1,173 @@
+{
+  "chapters": [
+    {
+      "chapterId": "address-calculation",
+      "chapterName": "address-calculation",
+      "order": 1,
+      "categories": [
+        {
+          "categoryId": "address_calculation",
+          "categoryName": "address_calculation",
+          "file": "questions/dsa/address-calculation/address_calculation.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "arrays-fundamental",
+      "chapterName": "arrays-fundamental",
+      "order": 2,
+      "categories": [
+        {
+          "categoryId": "arrays_fundamentals",
+          "categoryName": "arrays_fundamentals",
+          "file": "questions/dsa/arrays-fundamental/arrays_fundamentals.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "bst-and-balenced-tree",
+      "chapterName": "bst-and-balenced-tree",
+      "order": 3,
+      "categories": [
+        {
+          "categoryId": "bst_balanced_search_trees",
+          "categoryName": "bst_balanced_search_trees",
+          "file": "questions/dsa/bst-and-balenced-tree/bst_balanced_search_trees.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "hashing-hash-table",
+      "chapterName": "hashing-hash-table",
+      "order": 4,
+      "categories": [
+        {
+          "categoryId": "hashing_hash_tables",
+          "categoryName": "hashing_hash_tables",
+          "file": "questions/dsa/hashing-hash-table/hashing_hash_tables.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "heaps-priority-queue",
+      "chapterName": "heaps-priority-queue",
+      "order": 5,
+      "categories": [
+        {
+          "categoryId": "heaps_priority_queues",
+          "categoryName": "heaps_priority_queues",
+          "file": "questions/dsa/heaps-priority-queue/heaps_priority_queues.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "introduction-to-dsa",
+      "chapterName": "introduction-to-dsa",
+      "order": 6,
+      "categories": [
+        {
+          "categoryId": "dsa_introduction",
+          "categoryName": "dsa_introduction",
+          "file": "questions/dsa/introduction-to-dsa/dsa_introduction.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "linked-list",
+      "chapterName": "linked-list",
+      "order": 7,
+      "categories": [
+        {
+          "categoryId": "linked_list",
+          "categoryName": "linked_list",
+          "file": "questions/dsa/linked-list/linked_list.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "queue",
+      "chapterName": "queue",
+      "order": 8,
+      "categories": [
+        {
+          "categoryId": "queues",
+          "categoryName": "queues",
+          "file": "questions/dsa/queue/queues.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "searching-algorithm",
+      "chapterName": "searching-algorithm",
+      "order": 9,
+      "categories": [
+        {
+          "categoryId": "searching_algorithms",
+          "categoryName": "searching_algorithms",
+          "file": "questions/dsa/searching-algorithm/searching_algorithms.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "sorting",
+      "chapterName": "sorting",
+      "order": 10,
+      "categories": [
+        {
+          "categoryId": "sorting_algorithm",
+          "categoryName": "sorting_algorithm",
+          "file": "questions/dsa/sorting/sorting_algorithm.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "stack",
+      "chapterName": "stack",
+      "order": 11,
+      "categories": [
+        {
+          "categoryId": "stacks",
+          "categoryName": "stacks",
+          "file": "questions/dsa/stack/stacks.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "time-and-space-complexity",
+      "chapterName": "time-and-space-complexity",
+      "order": 12,
+      "categories": [
+        {
+          "categoryId": "dsa_time_space_complexity",
+          "categoryName": "dsa_time_space_complexity",
+          "file": "questions/dsa/time-and-space-complexity/dsa_time_space_complexity.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "trees",
+      "chapterName": "trees",
+      "order": 13,
+      "categories": [
+        {
+          "categoryId": "trees_80",
+          "categoryName": "trees_80",
+          "file": "questions/dsa/trees/trees_80.json",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

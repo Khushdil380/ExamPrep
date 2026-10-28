@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "heaps-pq-001",
+    "question": "A heap is most commonly represented as which kind of structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A linked list with sorted nodes"
+      },
+      {
+        "id": "B",
+        "text": "A complete binary tree"
+      },
+      {
+        "id": "C",
+        "text": "A binary search tree"
+      },
+      {
+        "id": "D",
+        "text": "A strictly full binary tree"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Binary heaps are complete binary trees, usually stored compactly in arrays.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-002",
+    "question": "In a max-heap, every parent node is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Always smaller than the root"
+      },
+      {
+        "id": "B",
+        "text": "Equal to both children"
+      },
+      {
+        "id": "C",
+        "text": "Smaller than or equal to its children"
+      },
+      {
+        "id": "D",
+        "text": "Greater than or equal to its children"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A max-heap maintains parent ≥ child for every parent-child edge.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-003",
+    "question": "In a min-heap, the root contains the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maximum key"
+      },
+      {
+        "id": "B",
+        "text": "Median key"
+      },
+      {
+        "id": "C",
+        "text": "Minimum key"
+      },
+      {
+        "id": "D",
+        "text": "Most recently inserted key"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A min-heap places the minimum key at the root.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-004",
+    "question": "Which statement about a binary heap is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It satisfies heap order and completeness, but is not necessarily a BST"
+      },
+      {
+        "id": "B",
+        "text": "It must have all keys distinct"
+      },
+      {
+        "id": "C",
+        "text": "Its inorder traversal is always sorted"
+      },
+      {
+        "id": "D",
+        "text": "Every left child is smaller than every right child"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A heap enforces parent-child priority order and shape completeness, not BST ordering.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-005",
+    "question": "What is the height of a binary heap containing n elements, asymptotically?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(1)"
+      },
+      {
+        "id": "D",
+        "text": "O(n log n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A complete binary tree has logarithmic height.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-006",
+    "question": "In a zero-indexed array representation, the left child of index i is at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2i + 2"
+      },
+      {
+        "id": "B",
+        "text": "2i"
+      },
+      {
+        "id": "C",
+        "text": "⌊i/2⌋"
+      },
+      {
+        "id": "D",
+        "text": "2i + 1"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For zero-based indexing, the left child index is 2i + 1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-007",
+    "question": "In a zero-indexed array representation, the right child of index i is at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "i − 1"
+      },
+      {
+        "id": "B",
+        "text": "⌊(i−1)/2⌋"
+      },
+      {
+        "id": "C",
+        "text": "2i + 2"
+      },
+      {
+        "id": "D",
+        "text": "2i + 1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For zero-based indexing, the right child index is 2i + 2.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-008",
+    "question": "In a zero-indexed heap array, the parent of a non-root node at index i is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "⌊(i−1)/2⌋"
+      },
+      {
+        "id": "B",
+        "text": "2i + 1"
+      },
+      {
+        "id": "C",
+        "text": "2i + 2"
+      },
+      {
+        "id": "D",
+        "text": "⌊i/2⌋"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The parent index is floor((i − 1)/2) for i > 0.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-009",
+    "question": "Which element is removed by the standard extract operation on a max-heap?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The smallest element"
+      },
+      {
+        "id": "B",
+        "text": "The root, which is the maximum"
+      },
+      {
+        "id": "C",
+        "text": "Any leaf"
+      },
+      {
+        "id": "D",
+        "text": "The last array element only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Extract-max removes the root because the root stores the maximum key.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-010",
+    "question": "Which element is removed by extract-min from a min-heap?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The leftmost leaf always"
+      },
+      {
+        "id": "B",
+        "text": "The maximum at the root"
+      },
+      {
+        "id": "C",
+        "text": "The minimum at the root"
+      },
+      {
+        "id": "D",
+        "text": "The last inserted element"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Extract-min removes the root of a min-heap.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-011",
+    "question": "After removing the root of a binary heap, what is commonly done before restoring heap order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sort the entire array"
+      },
+      {
+        "id": "B",
+        "text": "Delete the left subtree"
+      },
+      {
+        "id": "C",
+        "text": "Move the first leaf to the root"
+      },
+      {
+        "id": "D",
+        "text": "Move the last element to the root"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The last element fills the root vacancy, then sift-down restores heap order.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-012",
+    "question": "When inserting a new key into a binary heap, where is it initially placed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At the next available position to preserve completeness"
+      },
+      {
+        "id": "B",
+        "text": "At the leftmost position regardless of level"
+      },
+      {
+        "id": "C",
+        "text": "At the position dictated by BST ordering"
+      },
+      {
+        "id": "D",
+        "text": "At the root"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Insertion first appends at the next open position, then sifts upward as needed.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-013",
+    "question": "The operation that moves a newly inserted element upward until heap order is restored is called:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sift-down only"
+      },
+      {
+        "id": "B",
+        "text": "Sift-up / bubble-up"
+      },
+      {
+        "id": "C",
+        "text": "Partitioning"
+      },
+      {
+        "id": "D",
+        "text": "Inorder rotation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sift-up swaps an inserted element with its parent while heap order is violated.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-014",
+    "question": "The operation that moves a root element downward after extraction is commonly called:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Binary search"
+      },
+      {
+        "id": "B",
+        "text": "Path compression"
+      },
+      {
+        "id": "C",
+        "text": "Bubble-up"
+      },
+      {
+        "id": "D",
+        "text": "Sift-down / heapify-down"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Sift-down restores heap order by swapping with the appropriate child.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-015",
+    "question": "The time complexity of inserting one element into a binary heap is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(log n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n)"
+      },
+      {
+        "id": "D",
+        "text": "O(1) worst case"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In the worst case, the new key travels up the heap's height, which is O(log n).",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-016",
+    "question": "The time complexity of extracting the maximum or minimum from a binary heap is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1) worst case"
+      },
+      {
+        "id": "B",
+        "text": "O(n)"
+      },
+      {
+        "id": "C",
+        "text": "O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n log n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "After replacing the root, sift-down takes at most the heap height, O(log n).",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-017",
+    "question": "Looking at the root of a heap without removing it takes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1)"
+      },
+      {
+        "id": "B",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The root is directly accessible, so peek is O(1).",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-018",
+    "question": "Building a binary heap from an arbitrary array using bottom-up heap construction takes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n²)"
+      },
+      {
+        "id": "B",
+        "text": "O(n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bottom-up heap construction is linear time overall.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-019",
+    "question": "Why is bottom-up heap construction O(n) rather than O(n log n)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every node is sorted using binary search"
+      },
+      {
+        "id": "B",
+        "text": "It visits only the root"
+      },
+      {
+        "id": "C",
+        "text": "The heap contains exactly log n nodes"
+      },
+      {
+        "id": "D",
+        "text": "Most nodes are near the leaves and require little or no sift-down work"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The majority of nodes have small heights, so the summed sift-down work is linear.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-020",
+    "question": "Which statement about a max-heap is always true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The array is sorted in descending order"
+      },
+      {
+        "id": "B",
+        "text": "Every parent is smaller than both children"
+      },
+      {
+        "id": "C",
+        "text": "The root is the maximum, but siblings need not be ordered"
+      },
+      {
+        "id": "D",
+        "text": "The right subtree contains only larger keys than the left subtree"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Heap order constrains each parent relative to its children, not the order of siblings or subtrees.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-021",
+    "question": "A priority queue removes items according to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alphabetical order in every implementation"
+      },
+      {
+        "id": "B",
+        "text": "The memory address of the item"
+      },
+      {
+        "id": "C",
+        "text": "Only their insertion time"
+      },
+      {
+        "id": "D",
+        "text": "Priority, according to the queue's defined policy"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A priority queue serves the item with the highest or lowest priority as defined by its policy.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-022",
+    "question": "Which data structure is commonly used to implement an efficient priority queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unsorted string"
+      },
+      {
+        "id": "B",
+        "text": "Binary heap"
+      },
+      {
+        "id": "C",
+        "text": "Circular linked list without ordering"
+      },
+      {
+        "id": "D",
+        "text": "Stack only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Binary heaps provide efficient insertion and removal of the highest/lowest-priority item.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-023",
+    "question": "In a max-priority queue, the next item removed is normally the item with:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The oldest timestamp in all cases"
+      },
+      {
+        "id": "B",
+        "text": "The smallest priority value in every convention"
+      },
+      {
+        "id": "C",
+        "text": "The greatest priority according to the chosen convention"
+      },
+      {
+        "id": "D",
+        "text": "The shortest data field"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A max-priority queue removes the item with the greatest priority under its priority definition.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-024",
+    "question": "Which is a common application of a priority queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CPU/job scheduling by priority"
+      },
+      {
+        "id": "B",
+        "text": "Representing a fixed matrix only"
+      },
+      {
+        "id": "C",
+        "text": "Maintaining only the last-in-first-out item"
+      },
+      {
+        "id": "D",
+        "text": "Checking syntax without ordering"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Priority queues support scheduling and algorithms that repeatedly select the highest/lowest priority item.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-025",
+    "question": "Dijkstra's shortest-path algorithm commonly uses a priority queue to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sort all edges alphabetically"
+      },
+      {
+        "id": "B",
+        "text": "Store the graph only as a tree"
+      },
+      {
+        "id": "C",
+        "text": "Choose the unsettled vertex with the smallest tentative distance"
+      },
+      {
+        "id": "D",
+        "text": "Choose the vertex with the largest distance"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A min-priority queue selects the unsettled vertex with minimum tentative distance.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-026",
+    "question": "Heap sort typically uses which type of heap for sorting in ascending order in-place?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Max-heap"
+      },
+      {
+        "id": "B",
+        "text": "Min-heap only"
+      },
+      {
+        "id": "C",
+        "text": "A binary search tree"
+      },
+      {
+        "id": "D",
+        "text": "A heap with no root"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Heap sort commonly builds a max-heap and repeatedly moves the maximum to the array's end.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-027",
+    "question": "The worst-case time complexity of heap sort is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n²)"
+      },
+      {
+        "id": "B",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Heap construction is O(n) and n extractions cost O(log n) each, giving O(n log n).",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-028",
+    "question": "Which statement about heap sort is generally correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It always needs O(n) auxiliary array space"
+      },
+      {
+        "id": "B",
+        "text": "It requires keys to be inserted in sorted order"
+      },
+      {
+        "id": "C",
+        "text": "It is stable by default"
+      },
+      {
+        "id": "D",
+        "text": "It has O(n log n) worst-case time and is usually in-place"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Standard heap sort is in-place and O(n log n) worst-case, but it is not stable by default.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-029",
+    "question": "A max-heap contains root 90, children 70 and 80. Which statement must hold for these three nodes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "70 must be greater than 80"
+      },
+      {
+        "id": "B",
+        "text": "90 ≥ 70 and 90 ≥ 80"
+      },
+      {
+        "id": "C",
+        "text": "The three values must be sorted left to right"
+      },
+      {
+        "id": "D",
+        "text": "80 must be the left child"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The heap condition compares the parent with each child; it does not order siblings.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-030",
+    "question": "In a min-heap, if a parent is 12 and one child is 9, the heap property is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Satisfied because 12 > 9"
+      },
+      {
+        "id": "B",
+        "text": "Satisfied only if the other child is 15"
+      },
+      {
+        "id": "C",
+        "text": "Violated because parent must be ≤ each child"
+      },
+      {
+        "id": "D",
+        "text": "Impossible to determine without the root"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A min-heap requires each parent key to be no greater than its children.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-031",
+    "question": "Which shape property must a binary heap satisfy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every level must be completely full"
+      },
+      {
+        "id": "B",
+        "text": "All leaves must be at the same depth"
+      },
+      {
+        "id": "C",
+        "text": "Every node has exactly two children"
+      },
+      {
+        "id": "D",
+        "text": "All levels except possibly the last are full, and the last fills left to right"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A binary heap is complete, so the final level is filled from left to right.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-032",
+    "question": "Can a binary heap efficiently answer an arbitrary search for a key that is not the root?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Generally O(n), because heap order does not provide full BST ordering"
+      },
+      {
+        "id": "B",
+        "text": "Never, because heaps contain no keys"
+      },
+      {
+        "id": "C",
+        "text": "Always O(1)"
+      },
+      {
+        "id": "D",
+        "text": "Always O(log n), like a BST"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Heap order alone does not determine which subtree contains an arbitrary key, so search may inspect O(n) nodes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-033",
+    "question": "Which structure is better suited when frequent access to the globally smallest/largest item is required?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ordinary queue"
+      },
+      {
+        "id": "B",
+        "text": "Unsorted array with no scan"
+      },
+      {
+        "id": "C",
+        "text": "Stack"
+      },
+      {
+        "id": "D",
+        "text": "Binary heap"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A heap gives O(1) access to its root priority item and O(log n) extraction.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-034",
+    "question": "When a max-heap is represented by an array, the array's first element is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The maximum key"
+      },
+      {
+        "id": "B",
+        "text": "Always the second-smallest key"
+      },
+      {
+        "id": "C",
+        "text": "The minimum key"
+      },
+      {
+        "id": "D",
+        "text": "The last inserted key"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The root is stored at index 0 in a zero-indexed array and is the maximum in a max-heap.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-035",
+    "question": "Which operation on a binary heap is typically O(log n) in the worst case?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Check whether the heap is empty"
+      },
+      {
+        "id": "B",
+        "text": "Peek at the root"
+      },
+      {
+        "id": "C",
+        "text": "Insert a key"
+      },
+      {
+        "id": "D",
+        "text": "Read the array length"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Insertion can require sift-up along the height, O(log n).",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-036",
+    "question": "A priority queue differs from a regular FIFO queue because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can never contain duplicate priorities"
+      },
+      {
+        "id": "B",
+        "text": "Removal is based on priority rather than strictly arrival order"
+      },
+      {
+        "id": "C",
+        "text": "It must use a heap"
+      },
+      {
+        "id": "D",
+        "text": "It has no insertion operation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A priority queue selects by priority; FIFO queues select by arrival order.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-037",
+    "question": "If equal-priority items must be served in arrival order, what additional behavior is needed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All equal priorities must be deleted"
+      },
+      {
+        "id": "B",
+        "text": "Heap order automatically guarantees FIFO among ties"
+      },
+      {
+        "id": "C",
+        "text": "A max-heap must be converted into a BST"
+      },
+      {
+        "id": "D",
+        "text": "A stable tie-breaking rule such as an insertion counter/timestamp"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A binary heap does not automatically preserve FIFO order among equal priorities; a tie-breaker can enforce it.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-038",
+    "question": "Which statement about a d-ary heap is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Each node must have exactly d children"
+      },
+      {
+        "id": "B",
+        "text": "It is always a binary search tree"
+      },
+      {
+        "id": "C",
+        "text": "Each node can have at most d children"
+      },
+      {
+        "id": "D",
+        "text": "It cannot be represented by an array"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A d-ary heap generalizes a binary heap by allowing up to d children per node.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-039",
+    "question": "Which is the correct general complexity comparison for a binary heap?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peek O(1), insert O(log n), extract O(log n)"
+      },
+      {
+        "id": "B",
+        "text": "All three operations are always O(1)"
+      },
+      {
+        "id": "C",
+        "text": "Peek O(log n), insert O(1), extract O(n)"
+      },
+      {
+        "id": "D",
+        "text": "Peek O(n), insert O(log n), extract O(1)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Peek accesses the root directly; insertion and extraction may traverse the heap height.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "heaps-pq-040",
+    "question": "In an array-based max-heap, after adding a key smaller than its parent, the inserted key usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keeps moving upward to the root"
+      },
+      {
+        "id": "B",
+        "text": "Stays in place because it does not violate max-heap order with its parent"
+      },
+      {
+        "id": "C",
+        "text": "Causes the array to be sorted"
+      },
+      {
+        "id": "D",
+        "text": "Must be swapped with every sibling"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For a max-heap, a new key smaller than its parent does not violate the parent ≥ child rule, so sift-up can stop.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

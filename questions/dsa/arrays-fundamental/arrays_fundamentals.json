@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "arrays-001",
+    "question": "Which property most directly distinguishes a conventional array from a linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insertion at every position takes constant time"
+      },
+      {
+        "id": "B",
+        "text": "Every element must have a different data type"
+      },
+      {
+        "id": "C",
+        "text": "Elements are stored in contiguous memory locations"
+      },
+      {
+        "id": "D",
+        "text": "The structure cannot be traversed sequentially"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Conventional arrays store elements contiguously, enabling direct index-based access.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-002",
+    "question": "For an array declared with capacity 20 and currently containing 13 valid elements, which statement is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Its length and capacity must both be 13"
+      },
+      {
+        "id": "B",
+        "text": "Its length is 13 and its capacity is 20"
+      },
+      {
+        "id": "C",
+        "text": "Its length is 20 and its capacity is 13"
+      },
+      {
+        "id": "D",
+        "text": "Its length is 7 and its capacity is 20"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Length counts valid elements; capacity is the maximum number that can be stored without resizing.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-003",
+    "question": "Which operation on a conventional array is typically Θ(1) when the index is valid?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deleting an element from the middle"
+      },
+      {
+        "id": "B",
+        "text": "Inserting at the beginning"
+      },
+      {
+        "id": "C",
+        "text": "Accessing an element by index"
+      },
+      {
+        "id": "D",
+        "text": "Searching for an arbitrary value"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Index-based access is constant time; shifting for insertion/deletion can take linear time.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-004",
+    "question": "A fixed-size array has capacity 10 and currently stores 10 elements. What is generally required to append one more element?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Converting every element to a linked-list node"
+      },
+      {
+        "id": "B",
+        "text": "Nothing; arrays automatically grow in every language"
+      },
+      {
+        "id": "C",
+        "text": "Only sorting the array first"
+      },
+      {
+        "id": "D",
+        "text": "A larger backing array or a different data structure"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A full fixed-capacity array cannot accept another element unless storage is expanded or the representation changes.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-005",
+    "question": "Which statement about arrays is generally true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arrays can only store numeric values"
+      },
+      {
+        "id": "B",
+        "text": "Direct indexed access is efficient, but middle insertions may require shifting"
+      },
+      {
+        "id": "C",
+        "text": "Array elements are normally scattered arbitrarily through memory"
+      },
+      {
+        "id": "D",
+        "text": "All array operations are Θ(1)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Arrays trade efficient indexing for potentially costly insertion/deletion away from the end.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-006",
+    "question": "In a zero-based array of length n, which index is the last valid index when n > 0?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n − 1"
+      },
+      {
+        "id": "B",
+        "text": "n"
+      },
+      {
+        "id": "C",
+        "text": "n + 1"
+      },
+      {
+        "id": "D",
+        "text": "n − 2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Zero-based indices run from 0 through n−1.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-007",
+    "question": "A one-dimensional array contains 8 elements. Which access is out of bounds under zero-based indexing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A[7]"
+      },
+      {
+        "id": "B",
+        "text": "A[0]"
+      },
+      {
+        "id": "C",
+        "text": "A[3]"
+      },
+      {
+        "id": "D",
+        "text": "A[8]"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For length 8, valid indices are 0 through 7.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-008",
+    "question": "Which best describes a multidimensional array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An array that cannot store numeric values"
+      },
+      {
+        "id": "B",
+        "text": "A collection that must have unequal row lengths"
+      },
+      {
+        "id": "C",
+        "text": "An array organized using more than one index dimension"
+      },
+      {
+        "id": "D",
+        "text": "An array whose elements are always linked nodes"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A two-dimensional array, for example, is indexed by row and column.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-009",
+    "question": "Which statement about a two-dimensional array is correct in the abstract model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can contain only square matrices"
+      },
+      {
+        "id": "B",
+        "text": "An element is identified using row and column indices"
+      },
+      {
+        "id": "C",
+        "text": "It is always stored as a linked list"
+      },
+      {
+        "id": "D",
+        "text": "Every matrix operation must be Θ(n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A 2D array is accessed using two indices, though physical storage layout depends on the language/representation.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-010",
+    "question": "What is the main limitation of a conventional fixed-size static array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It does not support indexed access"
+      },
+      {
+        "id": "B",
+        "text": "It cannot be traversed"
+      },
+      {
+        "id": "C",
+        "text": "Its size cannot be changed after allocation in the usual fixed-array model"
+      },
+      {
+        "id": "D",
+        "text": "It must contain duplicate values"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Fixed-size arrays may waste unused capacity or run out of space when the required size changes.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-011",
+    "question": "Which statement best distinguishes a dynamic array from a fixed-size array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A dynamic array never uses contiguous memory"
+      },
+      {
+        "id": "B",
+        "text": "A dynamic array can grow its backing storage, often by allocating and copying"
+      },
+      {
+        "id": "C",
+        "text": "A dynamic array cannot be indexed"
+      },
+      {
+        "id": "D",
+        "text": "A dynamic array always provides Θ(1) insertion at every position"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dynamic arrays commonly resize when capacity is reached; an individual resize can be expensive.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-012",
+    "question": "In a typical dynamic array, appending one element has which usual complexity claim over a long sequence of appends?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n²) total for n appends"
+      },
+      {
+        "id": "B",
+        "text": "Θ(log n) worst case for every append"
+      },
+      {
+        "id": "C",
+        "text": "Θ(1) amortized per append"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n) amortized per append"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Geometric resizing makes total work over n appends Θ(n), so amortized append cost is Θ(1).",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-013",
+    "question": "What is the typical time complexity of traversing all n elements of an array once?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(1)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each element is visited once, producing linear work.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-014",
+    "question": "Inserting an element at index 0 into an array of n valid elements usually takes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(1), regardless of n"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n), because elements may need to shift"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Existing elements generally need to be shifted one position to make room.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-015",
+    "question": "Deleting an element from the middle of a packed array usually requires:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rebuilding the entire computer memory"
+      },
+      {
+        "id": "B",
+        "text": "Shifting later elements left to preserve packed order"
+      },
+      {
+        "id": "C",
+        "text": "No changes to any other element"
+      },
+      {
+        "id": "D",
+        "text": "Sorting the array in descending order"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In a packed array, later elements are moved left to close the gap.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-016",
+    "question": "Which statement about updating A[i] when i is a valid index is usually correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It requires a linear search in every array implementation"
+      },
+      {
+        "id": "B",
+        "text": "It always resizes the array"
+      },
+      {
+        "id": "C",
+        "text": "It is Θ(1) when the index is already known"
+      },
+      {
+        "id": "D",
+        "text": "It is Θ(n²)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Replacing a known indexed element is a constant-time operation.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-017",
+    "question": "Searching for a value in an unsorted array using a simple sequential scan has worst-case time:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(1)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n log n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The value may be at the end or absent, requiring inspection of all n elements.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-018",
+    "question": "Binary search is directly applicable to which array condition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The array is stored in reverse memory order"
+      },
+      {
+        "id": "B",
+        "text": "The array has an even number of elements"
+      },
+      {
+        "id": "C",
+        "text": "The array has no duplicate values"
+      },
+      {
+        "id": "D",
+        "text": "The array is sorted according to the searched ordering"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Binary search relies on sorted order to discard half the remaining search interval.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-019",
+    "question": "What is the time complexity of deleting the last element from a dynamic array when no resizing or extra work is triggered?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(1)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Removing the final logical element typically only changes the stored length.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-020",
+    "question": "Which is the most accurate complexity summary for a conventional array of n elements?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Index access Θ(n), search Θ(1), insertion Θ(log n)"
+      },
+      {
+        "id": "B",
+        "text": "Every operation is Θ(n)"
+      },
+      {
+        "id": "C",
+        "text": "Index access Θ(log n), traversal Θ(1), deletion Θ(1)"
+      },
+      {
+        "id": "D",
+        "text": "Index access Θ(1), traversal Θ(n), middle insertion Θ(n)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "These are typical bounds for direct access, a full scan, and insertion requiring shifts.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-021",
+    "question": "Which traversal visits array elements in their stored order from the first index to the last?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Forward traversal"
+      },
+      {
+        "id": "B",
+        "text": "Binary traversal"
+      },
+      {
+        "id": "C",
+        "text": "Randomized traversal"
+      },
+      {
+        "id": "D",
+        "text": "Reverse traversal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Forward traversal processes indices in increasing order.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-022",
+    "question": "A matrix has 4 rows and 6 columns. How many elements does it contain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "46"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A rectangular matrix with r rows and c columns contains r × c elements.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-023",
+    "question": "For matrices A and B of the same dimensions, matrix addition is performed by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Transposing A and then ignoring B"
+      },
+      {
+        "id": "B",
+        "text": "Adding row indices and column indices only"
+      },
+      {
+        "id": "C",
+        "text": "Multiplying every element of A by every element of B"
+      },
+      {
+        "id": "D",
+        "text": "Adding corresponding elements at the same row and column positions"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Matrix addition is element-wise and requires equal dimensions.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-024",
+    "question": "If A is an r × c matrix and B is a c × p matrix, the product AB has dimensions:",
+    "options": [
+      {
+        "id": "A",
+        "text": "r × p"
+      },
+      {
+        "id": "B",
+        "text": "p × r"
+      },
+      {
+        "id": "C",
+        "text": "r × c"
+      },
+      {
+        "id": "D",
+        "text": "c × c"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For AB, the inner dimensions c must match; the product has the outer dimensions r × p.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-025",
+    "question": "Which condition is required for the product AB to be defined?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of rows of A equals the number of rows of B"
+      },
+      {
+        "id": "B",
+        "text": "A and B must both be square and the same size"
+      },
+      {
+        "id": "C",
+        "text": "A and B must be symmetric"
+      },
+      {
+        "id": "D",
+        "text": "The number of columns of A equals the number of rows of B"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Matrix multiplication is defined when A's column count equals B's row count.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-026",
+    "question": "If A is an r × c matrix, what are the dimensions of its transpose Aᵀ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "c × r"
+      },
+      {
+        "id": "B",
+        "text": "r × r"
+      },
+      {
+        "id": "C",
+        "text": "c × c"
+      },
+      {
+        "id": "D",
+        "text": "r × c"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Transpose interchanges rows and columns.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-027",
+    "question": "Which statement about matrix multiplication is generally correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every matrix commutes with every other matrix of compatible dimensions"
+      },
+      {
+        "id": "B",
+        "text": "AB is defined exactly when BA is defined"
+      },
+      {
+        "id": "C",
+        "text": "AB always equals BA"
+      },
+      {
+        "id": "D",
+        "text": "Matrix multiplication is generally not commutative"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "In general AB ≠ BA, and the two products may even differ in whether they are defined.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-028",
+    "question": "A square matrix is symmetric if:",
+    "options": [
+      {
+        "id": "A",
+        "text": "All entries above the main diagonal are zero"
+      },
+      {
+        "id": "B",
+        "text": "It equals its transpose"
+      },
+      {
+        "id": "C",
+        "text": "Its diagonal entries are all distinct"
+      },
+      {
+        "id": "D",
+        "text": "All its entries are zero"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A symmetric matrix satisfies A = Aᵀ, so corresponding entries across the main diagonal match.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-029",
+    "question": "In a square upper triangular matrix, which entries must be zero?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All entries below the main diagonal"
+      },
+      {
+        "id": "B",
+        "text": "All entries in the first row"
+      },
+      {
+        "id": "C",
+        "text": "All entries above the main diagonal"
+      },
+      {
+        "id": "D",
+        "text": "All entries on the main diagonal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An upper triangular matrix has zeros strictly below the main diagonal.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-030",
+    "question": "In a square lower triangular matrix, which entries must be zero?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All entries in the last row"
+      },
+      {
+        "id": "B",
+        "text": "All entries strictly above the main diagonal"
+      },
+      {
+        "id": "C",
+        "text": "All entries strictly below the main diagonal"
+      },
+      {
+        "id": "D",
+        "text": "All diagonal entries"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A lower triangular matrix has zeros strictly above the main diagonal.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-031",
+    "question": "A diagonal matrix is a square matrix in which:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every entry is nonzero"
+      },
+      {
+        "id": "B",
+        "text": "Every row contains exactly one nonzero entry"
+      },
+      {
+        "id": "C",
+        "text": "All entries outside the main diagonal are zero"
+      },
+      {
+        "id": "D",
+        "text": "All diagonal entries are equal to 1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A diagonal matrix permits nonzero values on the main diagonal and has zeros elsewhere.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-032",
+    "question": "Which statement about a diagonal matrix is true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is both upper and lower triangular"
+      },
+      {
+        "id": "B",
+        "text": "It must contain only zeroes"
+      },
+      {
+        "id": "C",
+        "text": "It must be non-square"
+      },
+      {
+        "id": "D",
+        "text": "It cannot be an identity matrix"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A diagonal matrix has zeros both above and below the diagonal, satisfying both triangular conditions.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-033",
+    "question": "A sparse matrix is generally one that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Must be square and symmetric"
+      },
+      {
+        "id": "B",
+        "text": "Has mostly zero entries"
+      },
+      {
+        "id": "C",
+        "text": "Has exactly one nonzero entry in every row"
+      },
+      {
+        "id": "D",
+        "text": "Has no zero entries"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sparse matrices contain relatively few nonzero values compared with the total number of entries.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-034",
+    "question": "Why can compact storage be useful for a sparse matrix?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It stores only nonzero values and their locations, reducing wasted space"
+      },
+      {
+        "id": "B",
+        "text": "It converts every sparse matrix into a diagonal matrix"
+      },
+      {
+        "id": "C",
+        "text": "It makes every matrix operation constant time"
+      },
+      {
+        "id": "D",
+        "text": "It increases the number of zero values"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sparse formats avoid storing many zeros explicitly, though operations depend on the format and sparsity pattern.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-035",
+    "question": "In a common triplet representation of a sparse matrix, each stored entry records:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The row sum, column sum, and determinant"
+      },
+      {
+        "id": "B",
+        "text": "Row index, column index, and nonzero value"
+      },
+      {
+        "id": "C",
+        "text": "Only the diagonal entries"
+      },
+      {
+        "id": "D",
+        "text": "Only the value, without its position"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A triplet typically stores (row, column, value) for each nonzero element, sometimes with a header for dimensions/count.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-036",
+    "question": "A matrix has 100 × 100 entries but only 8 nonzero values. Which representation is likely to use less storage for the values, assuming modest index overhead?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A transpose, because transposition removes zeros"
+      },
+      {
+        "id": "B",
+        "text": "A full dense array in all circumstances"
+      },
+      {
+        "id": "C",
+        "text": "A sparse representation storing nonzero values and their coordinates"
+      },
+      {
+        "id": "D",
+        "text": "A triangular representation, because every sparse matrix is triangular"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "With very few nonzero values, triplet or another sparse format can use far less storage than all 10,000 entries.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-037",
+    "question": "How many entries are on or above the main diagonal of an n × n upper triangular matrix?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n(n + 1)/2"
+      },
+      {
+        "id": "B",
+        "text": "2n"
+      },
+      {
+        "id": "C",
+        "text": "n²"
+      },
+      {
+        "id": "D",
+        "text": "n(n − 1)/2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "There are n entries in the first row on/above the diagonal, n−1 in the next, and so on: n(n+1)/2 total.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-038",
+    "question": "How many entries are strictly above the main diagonal of an n × n matrix?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n(n + 1)/2"
+      },
+      {
+        "id": "B",
+        "text": "n"
+      },
+      {
+        "id": "C",
+        "text": "n²"
+      },
+      {
+        "id": "D",
+        "text": "n(n − 1)/2"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The count is (n−1)+(n−2)+...+1 = n(n−1)/2.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-039",
+    "question": "Which is a realistic application of matrices in data representation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Representing a grayscale image as rows and columns of pixel intensities"
+      },
+      {
+        "id": "B",
+        "text": "Ensuring all data are stored in alphabetical order"
+      },
+      {
+        "id": "C",
+        "text": "Eliminating the need for indexing"
+      },
+      {
+        "id": "D",
+        "text": "Representing every linked list as one scalar only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Images, tables, adjacency matrices, and numerical data are common matrix applications.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-040",
+    "question": "An adjacency matrix for a simple graph with n vertices uses how many matrix entries?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n − 1"
+      },
+      {
+        "id": "B",
+        "text": "n"
+      },
+      {
+        "id": "C",
+        "text": "2n"
+      },
+      {
+        "id": "D",
+        "text": "n²"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "An adjacency matrix is n × n, with one entry for each ordered pair of vertices.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-041",
+    "question": "Which operation is usually Θ(r c) for two dense matrices of the same r × c dimensions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Changing one element"
+      },
+      {
+        "id": "B",
+        "text": "Adding the matrices"
+      },
+      {
+        "id": "C",
+        "text": "Finding a single element by index"
+      },
+      {
+        "id": "D",
+        "text": "Reading one known element"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Addition processes each of the rc corresponding positions once.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-042",
+    "question": "For standard multiplication of an r × c matrix by a c × p matrix, the basic algorithm takes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(r c p)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(r p) in all cases regardless of c"
+      },
+      {
+        "id": "C",
+        "text": "Θ(log(rcp))"
+      },
+      {
+        "id": "D",
+        "text": "Θ(r + c + p)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The standard triple-loop method performs work proportional to r × c × p.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-043",
+    "question": "Which statement about matrix transpose is correct for a dense r × c matrix when constructing a new matrix?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It requires Θ(r²c²) time"
+      },
+      {
+        "id": "B",
+        "text": "It usually visits all rc elements, so Θ(rc) time"
+      },
+      {
+        "id": "C",
+        "text": "It is always Θ(1)"
+      },
+      {
+        "id": "D",
+        "text": "It is impossible unless the matrix is square"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Every element must be placed at its swapped row/column position.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-044",
+    "question": "Which is a common in-place array problem pattern that can be solved with two pointers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Computing every permutation of n distinct elements"
+      },
+      {
+        "id": "B",
+        "text": "Listing all subsets of a set"
+      },
+      {
+        "id": "C",
+        "text": "Finding a pair in a sorted array whose sum equals a target"
+      },
+      {
+        "id": "D",
+        "text": "Multiplying any two rectangular matrices"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Two pointers can move inward based on the current sum in a sorted array.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-045",
+    "question": "Which technique is often used to answer many range-sum queries efficiently on a static array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using only a stack and discarding all values"
+      },
+      {
+        "id": "B",
+        "text": "Prefix sums"
+      },
+      {
+        "id": "C",
+        "text": "Replacing the array with a single maximum value"
+      },
+      {
+        "id": "D",
+        "text": "Repeatedly sort the array before every query"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Prefix sums allow a range sum to be computed from two prefix values in constant time after linear preprocessing.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-046",
+    "question": "For a fixed-size array, which statement about deleting an element is the best general answer when preserving order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only the logical length changes; all later elements stay in place"
+      },
+      {
+        "id": "B",
+        "text": "The array automatically becomes a linked list"
+      },
+      {
+        "id": "C",
+        "text": "It always takes Θ(log n)"
+      },
+      {
+        "id": "D",
+        "text": "Later elements may need to shift left, taking Θ(n) time in the worst case"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Maintaining packed order requires shifting later elements after deletion.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-047",
+    "question": "An array has length 12 and capacity 16. After deleting 3 elements, assuming no shrinking policy, what are its length and capacity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Length 9, capacity 12"
+      },
+      {
+        "id": "B",
+        "text": "Length 9, capacity 16"
+      },
+      {
+        "id": "C",
+        "text": "Length 16, capacity 9"
+      },
+      {
+        "id": "D",
+        "text": "Length 12, capacity 13"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Deletion reduces the number of valid elements; capacity remains 16 if the implementation does not shrink.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-048",
+    "question": "Which statement about duplicates in an array is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Duplicate values may occur unless a separate constraint forbids them"
+      },
+      {
+        "id": "B",
+        "text": "Arrays cannot contain duplicate values"
+      },
+      {
+        "id": "C",
+        "text": "A duplicate value automatically changes the array into a set"
+      },
+      {
+        "id": "D",
+        "text": "Duplicates make indexed access impossible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Arrays generally permit repeated values; uniqueness is a property of an application or data structure contract.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-049",
+    "question": "A row-major representation of a matrix stores:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only diagonal elements"
+      },
+      {
+        "id": "B",
+        "text": "Only nonzero entries"
+      },
+      {
+        "id": "C",
+        "text": "All elements of the first column, then the second column, and so on"
+      },
+      {
+        "id": "D",
+        "text": "All elements of the first row, then the second row, and so on"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Row-major layout places consecutive rows consecutively in memory; exact layout is language-dependent.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "arrays-050",
+    "question": "Which statement about array-based problem solving is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sorting is unnecessary before binary search in every case"
+      },
+      {
+        "id": "B",
+        "text": "A sliding window can only be used with matrices"
+      },
+      {
+        "id": "C",
+        "text": "Prefix sums, sliding windows, and two pointers are reusable patterns for suitable array problems"
+      },
+      {
+        "id": "D",
+        "text": "Two pointers always work on unsorted arrays for every target-sum problem"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "These are common patterns, but each has preconditions; for example, two-pointer target-sum often relies on sorted order.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "sorting-algorithms-001",
+    "question": "In bubble sort, which operation is primarily performed during a pass?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Comparing adjacent elements and swapping them if they are out of order"
+      },
+      {
+        "id": "B",
+        "text": "Selecting a pivot and partitioning the array"
+      },
+      {
+        "id": "C",
+        "text": "Counting the frequency of each key"
+      },
+      {
+        "id": "D",
+        "text": "Merging two sorted halves"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Bubble sort repeatedly compares adjacent elements; a larger element moves toward the end during ascending sorting.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-002",
+    "question": "What is the worst-case time complexity of standard bubble sort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n²)"
+      },
+      {
+        "id": "C",
+        "text": "O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In reverse order, bubble sort performs a quadratic number of comparisons and swaps.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-003",
+    "question": "When does optimized bubble sort achieve O(n) best-case time?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When the input is in reverse order"
+      },
+      {
+        "id": "B",
+        "text": "When every element is distinct"
+      },
+      {
+        "id": "C",
+        "text": "When the input is already sorted and a pass makes no swaps"
+      },
+      {
+        "id": "D",
+        "text": "Only when n is a power of two"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A swap flag allows the algorithm to stop after a no-swap pass on sorted input.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-004",
+    "question": "For n distinct elements, how many comparisons does ordinary bubble sort make if it always completes all n−1 passes without early stopping?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n−1"
+      },
+      {
+        "id": "B",
+        "text": "n²"
+      },
+      {
+        "id": "C",
+        "text": "n log₂ n"
+      },
+      {
+        "id": "D",
+        "text": "n(n−1)/2"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The pass comparisons are (n−1)+(n−2)+…+1 = n(n−1)/2.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-005",
+    "question": "In selection sort in ascending order, what is done during each pass over the unsorted suffix?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The minimum element is selected and placed at the beginning of that suffix"
+      },
+      {
+        "id": "B",
+        "text": "A frequency table is constructed"
+      },
+      {
+        "id": "C",
+        "text": "The array is divided into two equal halves"
+      },
+      {
+        "id": "D",
+        "text": "The maximum element is moved to the end by adjacent swaps"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Selection sort finds the minimum remaining element and swaps it into the next sorted position.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-006",
+    "question": "For an array of n elements, how many key comparisons does standard selection sort make regardless of the input order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At most n"
+      },
+      {
+        "id": "B",
+        "text": "n(n−1)/2"
+      },
+      {
+        "id": "C",
+        "text": "n−1"
+      },
+      {
+        "id": "D",
+        "text": "n log₂ n"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Selection sort scans each unsorted suffix, resulting in a fixed quadratic comparison count.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-007",
+    "question": "Which property is generally true of standard selection sort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It performs O(n log n) comparisons on sorted input"
+      },
+      {
+        "id": "B",
+        "text": "It requires O(n) auxiliary array space"
+      },
+      {
+        "id": "C",
+        "text": "It performs O(n²) comparisons but at most O(n) swaps"
+      },
+      {
+        "id": "D",
+        "text": "It is stable by default in its usual swap-based form"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each pass makes at most one swap, so swaps are linear even though comparisons are quadratic.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-008",
+    "question": "In insertion sort, what happens to elements larger than the current key in the sorted prefix?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are moved into a separate hash table"
+      },
+      {
+        "id": "B",
+        "text": "They are merged with the unsorted suffix"
+      },
+      {
+        "id": "C",
+        "text": "They are all swapped with the first element"
+      },
+      {
+        "id": "D",
+        "text": "They are shifted one position to the right"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Insertion sort shifts larger prefix elements right to create a position for the key.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-009",
+    "question": "What is the best-case time complexity of insertion sort on an already sorted array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n²)"
+      },
+      {
+        "id": "C",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each element needs only a small constant number of checks when no shifts are required.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-010",
+    "question": "Which elementary sorting algorithm is typically adaptive and stable when implemented with the usual shifting method?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Heap sort"
+      },
+      {
+        "id": "B",
+        "text": "Insertion sort"
+      },
+      {
+        "id": "C",
+        "text": "Standard in-place quicksort"
+      },
+      {
+        "id": "D",
+        "text": "Selection sort"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Insertion sort preserves equal-key order when it shifts only elements strictly greater than the key, and it is efficient on nearly sorted data.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-011",
+    "question": "After the first full pass of ascending bubble sort on [5, 1, 4, 2], what is the array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "[2, 1, 4, 5]"
+      },
+      {
+        "id": "B",
+        "text": "[1, 2, 4, 5]"
+      },
+      {
+        "id": "C",
+        "text": "[1, 4, 2, 5]"
+      },
+      {
+        "id": "D",
+        "text": "[1, 5, 4, 2]"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Adjacent swaps move 5 rightward: [5,1,4,2] → [1,5,4,2] → [1,4,5,2] → [1,4,2,5].",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-012",
+    "question": "In ascending selection sort on [4, 2, 5, 1], what is the array after the first pass?",
+    "options": [
+      {
+        "id": "A",
+        "text": "[2, 4, 5, 1]"
+      },
+      {
+        "id": "B",
+        "text": "[1, 4, 5, 2]"
+      },
+      {
+        "id": "C",
+        "text": "[2, 1, 5, 4]"
+      },
+      {
+        "id": "D",
+        "text": "[1, 2, 5, 4]"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The minimum value 1 is swapped with the first element 4.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-013",
+    "question": "Which statement best describes merge sort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It divides the sequence into smaller parts, sorts them recursively, and merges sorted parts"
+      },
+      {
+        "id": "B",
+        "text": "It repeatedly selects the smallest remaining value using a full scan"
+      },
+      {
+        "id": "C",
+        "text": "It sorts only by swapping adjacent elements"
+      },
+      {
+        "id": "D",
+        "text": "It requires keys to be small non-negative integers"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Merge sort follows divide-and-conquer: split, sort subproblems, and merge.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-014",
+    "question": "What is the worst-case time complexity of merge sort on an array of n elements?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n²)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "There are O(log n) levels of splitting and O(n) total merge work per level.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-015",
+    "question": "What is a common auxiliary-space requirement of array-based merge sort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n²)"
+      },
+      {
+        "id": "B",
+        "text": "O(1) in the standard implementation"
+      },
+      {
+        "id": "C",
+        "text": "O(n)"
+      },
+      {
+        "id": "D",
+        "text": "O(log log n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Merging array segments typically uses temporary storage proportional to the number of elements.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-016",
+    "question": "Why can merge sort be stable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It always swaps equal elements twice"
+      },
+      {
+        "id": "B",
+        "text": "It chooses a random pivot"
+      },
+      {
+        "id": "C",
+        "text": "It converts all keys to unique integers"
+      },
+      {
+        "id": "D",
+        "text": "During merging, equal keys from the left run can be taken before equal keys from the right run"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Choosing the left item first on equality preserves the original relative order of equal-key records.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-017",
+    "question": "Quicksort primarily sorts by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Partitioning elements around a pivot, then sorting the resulting subarrays"
+      },
+      {
+        "id": "B",
+        "text": "Repeatedly removing the minimum from a priority queue only"
+      },
+      {
+        "id": "C",
+        "text": "Merging two fully sorted halves using a temporary array"
+      },
+      {
+        "id": "D",
+        "text": "Counting the frequency of each possible key"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Quicksort partitions around a pivot and recursively sorts the partitions.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-018",
+    "question": "What is the average-case time complexity of well-implemented quicksort with reasonably balanced partitions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(log n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n²)"
+      },
+      {
+        "id": "D",
+        "text": "O(n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Balanced partitions produce logarithmic recursion depth with linear partition work per level.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-019",
+    "question": "What is the worst-case time complexity of quicksort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n²)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Repeatedly highly unbalanced partitions can cause quadratic total work.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-020",
+    "question": "Which pivot choice can cause worst-case quicksort behavior on already sorted input for a common partition scheme?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Randomly choosing a pivot"
+      },
+      {
+        "id": "B",
+        "text": "Choosing a median-like pivot"
+      },
+      {
+        "id": "C",
+        "text": "Choosing a pivot near the middle by value"
+      },
+      {
+        "id": "D",
+        "text": "Always choosing the first or last element as pivot"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "On sorted data, an extreme endpoint pivot can repeatedly produce partitions of sizes 0 and n−1.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-021",
+    "question": "What is the purpose of partitioning in quicksort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Place the pivot in its partition position and separate values according to the pivot rule"
+      },
+      {
+        "id": "B",
+        "text": "Count every key in a frequency array"
+      },
+      {
+        "id": "C",
+        "text": "Fully sort both halves before choosing a pivot"
+      },
+      {
+        "id": "D",
+        "text": "Guarantee that the entire array is sorted after one pass"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Partitioning rearranges elements around the pivot; recursive calls complete the sort.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-022",
+    "question": "With consistently balanced partitions, the recursion depth of quicksort is approximately:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n²)"
+      },
+      {
+        "id": "B",
+        "text": "O(log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(1) for every input"
+      },
+      {
+        "id": "D",
+        "text": "O(n log n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each level reduces subproblem sizes by a constant fraction, giving logarithmic depth.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-023",
+    "question": "What is the worst-case recursion depth of quicksort when each pivot leaves one empty side and one side of size n−1?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(log n)"
+      },
+      {
+        "id": "B",
+        "text": "O(√n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n)"
+      },
+      {
+        "id": "D",
+        "text": "O(1)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The recursion then removes only one element per level, creating linear depth.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-024",
+    "question": "Heap sort uses which underlying structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A trie"
+      },
+      {
+        "id": "B",
+        "text": "A hash table"
+      },
+      {
+        "id": "C",
+        "text": "A linked queue"
+      },
+      {
+        "id": "D",
+        "text": "A binary heap"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Heap sort builds a max-heap for ascending order and repeatedly extracts the maximum to the end.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-025",
+    "question": "What is the worst-case time complexity of heap sort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "O(log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n²)"
+      },
+      {
+        "id": "D",
+        "text": "O(n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Building a heap is O(n), followed by n removals or root placements costing O(log n) each.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-026",
+    "question": "Which statement about standard in-place heap sort is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It requires the input to be already sorted"
+      },
+      {
+        "id": "B",
+        "text": "It uses O(1) auxiliary array space and is not stable"
+      },
+      {
+        "id": "C",
+        "text": "It is stable and requires O(n) extra array space"
+      },
+      {
+        "id": "D",
+        "text": "Its worst case is O(n²)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Heap sort can be performed in place, but heap rearrangements do not preserve equal-key order.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-027",
+    "question": "Shell sort improves on insertion sort mainly by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using a count array for each key"
+      },
+      {
+        "id": "B",
+        "text": "Using a pivot to create two partitions"
+      },
+      {
+        "id": "C",
+        "text": "Initially comparing and moving elements separated by a gap, then reducing the gap"
+      },
+      {
+        "id": "D",
+        "text": "Merging only adjacent sorted runs"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Shell sort performs gapped insertion sorts, with the gap eventually reduced to 1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-028",
+    "question": "Which statement about Shell sort's complexity is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is always O(n log n) for every gap sequence"
+      },
+      {
+        "id": "B",
+        "text": "It always uses O(n) auxiliary space"
+      },
+      {
+        "id": "C",
+        "text": "It is always stable"
+      },
+      {
+        "id": "D",
+        "text": "Its time complexity depends on the chosen gap sequence"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Different gap sequences yield different bounds; there is no single complexity independent of the sequence.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-029",
+    "question": "Which non-comparison sorting algorithm is especially suitable when integer keys lie in a small known range?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Counting sort"
+      },
+      {
+        "id": "B",
+        "text": "Comparison-based merge sort"
+      },
+      {
+        "id": "C",
+        "text": "Heap sort"
+      },
+      {
+        "id": "D",
+        "text": "Quicksort"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Counting sort counts occurrences of each key or key value in a bounded range.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-030",
+    "question": "If n items have integer keys in a range of size k, the typical time complexity of counting sort is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n²)"
+      },
+      {
+        "id": "B",
+        "text": "O(n + k)"
+      },
+      {
+        "id": "C",
+        "text": "O(k log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n log n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Counting and outputting items takes time proportional to the number of items plus the key range.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-031",
+    "question": "A major limitation of counting sort is that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "It always has quadratic time complexity"
+      },
+      {
+        "id": "B",
+        "text": "It must compare every pair of elements"
+      },
+      {
+        "id": "C",
+        "text": "Its time and space can become large when the key range is huge relative to n"
+      },
+      {
+        "id": "D",
+        "text": "It can sort only linked lists"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Counting sort allocates count storage based on the range of possible keys.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-032",
+    "question": "How does radix sort commonly process fixed-width integer keys?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It partitions only around a pivot"
+      },
+      {
+        "id": "B",
+        "text": "It merges arbitrary subarrays without considering digits"
+      },
+      {
+        "id": "C",
+        "text": "It repeatedly chooses the global minimum with comparisons"
+      },
+      {
+        "id": "D",
+        "text": "It sorts by one digit or position at a time using a stable sub-sort"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Radix sort processes digits or positions in sequence; stable passes preserve earlier digit ordering.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-033",
+    "question": "Why is stability important in least-significant-digit radix sort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Each digit pass must preserve the order established by less significant digits"
+      },
+      {
+        "id": "B",
+        "text": "It removes the need to examine digits"
+      },
+      {
+        "id": "C",
+        "text": "It ensures every pass runs in O(1)"
+      },
+      {
+        "id": "D",
+        "text": "It makes all keys unique"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A stable pass preserves prior ordering, allowing digit-wise results to combine correctly.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-034",
+    "question": "Bucket sort tends to work well when:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only two values are permitted"
+      },
+      {
+        "id": "B",
+        "text": "Input values are distributed fairly uniformly over a known range"
+      },
+      {
+        "id": "C",
+        "text": "All keys are arbitrary objects with no ordering"
+      },
+      {
+        "id": "D",
+        "text": "The input is guaranteed to be reverse sorted and buckets cannot be allocated"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Uniform distribution can spread elements among buckets, making the expected bucket-level work small.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-035",
+    "question": "Which statement about comparison-based sorting is correct in the general comparison model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It must use a heap"
+      },
+      {
+        "id": "B",
+        "text": "It can always sort in O(n) comparisons"
+      },
+      {
+        "id": "C",
+        "text": "Its worst-case lower bound is Ω(n log n) for sorting arbitrary distinct keys"
+      },
+      {
+        "id": "D",
+        "text": "It never needs comparisons"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Decision-tree arguments establish an Ω(n log n) comparison lower bound for general comparison sorting.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-036",
+    "question": "Which algorithm is typically stable in its standard form?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Heap sort"
+      },
+      {
+        "id": "B",
+        "text": "In-place quicksort"
+      },
+      {
+        "id": "C",
+        "text": "Selection sort"
+      },
+      {
+        "id": "D",
+        "text": "Merge sort"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A stable merge procedure takes equal keys from the left run first; standard merge sort can therefore be stable.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-037",
+    "question": "Which algorithm is usually adaptive in its common implementation, performing especially well on nearly sorted input?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insertion sort"
+      },
+      {
+        "id": "B",
+        "text": "Standard selection sort"
+      },
+      {
+        "id": "C",
+        "text": "Heap sort"
+      },
+      {
+        "id": "D",
+        "text": "Counting sort in every implementation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Insertion sort makes few shifts and comparisons when the input is already or nearly sorted.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-038",
+    "question": "Which algorithm has O(n log n) worst-case time and is commonly used when a predictable comparison-sort bound is required?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Selection sort"
+      },
+      {
+        "id": "B",
+        "text": "Heap sort"
+      },
+      {
+        "id": "C",
+        "text": "Bubble sort"
+      },
+      {
+        "id": "D",
+        "text": "Basic quicksort with endpoint pivot"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Heap sort guarantees O(n log n) worst-case time, unlike basic quicksort.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-039",
+    "question": "For a stable sort of records by a secondary key followed by a primary key, which approach is generally valid?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sort by the secondary key only"
+      },
+      {
+        "id": "B",
+        "text": "Randomly shuffle records between the two sorts"
+      },
+      {
+        "id": "C",
+        "text": "Stable-sort by the secondary key first, then stable-sort by the primary key"
+      },
+      {
+        "id": "D",
+        "text": "Use an unstable sort by the primary key first and discard the secondary key"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A stable primary-key pass preserves the secondary-key order among records with equal primary keys.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-040",
+    "question": "Which algorithm's worst-case time can become quadratic because of repeatedly unbalanced partitions, even though its average case is O(n log n)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Merge sort"
+      },
+      {
+        "id": "B",
+        "text": "Heap sort"
+      },
+      {
+        "id": "C",
+        "text": "Counting sort"
+      },
+      {
+        "id": "D",
+        "text": "Quicksort"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Quicksort's partition balance determines its recursion depth and total work.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-041",
+    "question": "For n = 8 elements, how many comparisons does standard selection sort make?",
+    "options": [
+      {
+        "id": "A",
+        "text": "28"
+      },
+      {
+        "id": "B",
+        "text": "21"
+      },
+      {
+        "id": "C",
+        "text": "64"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Comparisons = n(n−1)/2 = 8×7/2 = 28.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-042",
+    "question": "For insertion sort on an already sorted array of n elements, how many element shifts are typically required?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n(n−1)/2 shifts"
+      },
+      {
+        "id": "B",
+        "text": "Zero shifts of prior elements"
+      },
+      {
+        "id": "C",
+        "text": "Exactly n log₂ n shifts"
+      },
+      {
+        "id": "D",
+        "text": "At least n² shifts"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "No element is greater than the next key, so the standard insertion method performs no rightward shifts.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-043",
+    "question": "Which statement correctly compares merge sort and quicksort on arrays?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Merge sort always uses O(1) auxiliary space in standard array implementations"
+      },
+      {
+        "id": "B",
+        "text": "Both always have O(n) worst-case time"
+      },
+      {
+        "id": "C",
+        "text": "Merge sort has O(n log n) worst-case time; ordinary quicksort can have O(n²) worst-case time"
+      },
+      {
+        "id": "D",
+        "text": "Quicksort is always stable and merge sort is never stable"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Merge sort maintains O(n log n) worst-case time, while quicksort's worst case depends on partition quality.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-044",
+    "question": "Which factor most directly affects the auxiliary stack space of recursive quicksort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of distinct key values only"
+      },
+      {
+        "id": "B",
+        "text": "Whether the keys are integers or strings only"
+      },
+      {
+        "id": "C",
+        "text": "The number of swaps in bubble sort"
+      },
+      {
+        "id": "D",
+        "text": "The depth of its recursion tree"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Stack space is proportional to recursion depth, which depends on partition balance.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-045",
+    "question": "Which is the usual best-case time complexity of merge sort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n²)"
+      },
+      {
+        "id": "C",
+        "text": "O(n)"
+      },
+      {
+        "id": "D",
+        "text": "O(1)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Standard merge sort continues dividing and merging even if the input is already sorted.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-046",
+    "question": "Which sorting algorithm is non-comparison-based and can be stable when implemented with cumulative counts and output placement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Selection sort"
+      },
+      {
+        "id": "B",
+        "text": "Counting sort"
+      },
+      {
+        "id": "C",
+        "text": "Heap sort"
+      },
+      {
+        "id": "D",
+        "text": "Quicksort"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The stable counting-sort variant computes cumulative counts and places items into output in a way that preserves equal-key order.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-047",
+    "question": "Which statement about radix sort's complexity is generally accurate for d digit passes and n items, assuming each stable digit sort costs O(n + b)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n²) regardless of digit count"
+      },
+      {
+        "id": "B",
+        "text": "O(log n) for any key representation"
+      },
+      {
+        "id": "C",
+        "text": "O(d(n + b))"
+      },
+      {
+        "id": "D",
+        "text": "O(b log n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each of the d passes processes the items and digit alphabet/range, yielding O(d(n+b)).",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-048",
+    "question": "Which property means that equal-key records retain their original relative order after sorting?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In-place behavior"
+      },
+      {
+        "id": "B",
+        "text": "Completeness"
+      },
+      {
+        "id": "C",
+        "text": "Adaptiveness"
+      },
+      {
+        "id": "D",
+        "text": "Stability"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Stability preserves the relative order of records whose sort keys are equal.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-049",
+    "question": "Which algorithm is generally not adaptive in its standard form because it scans the remaining suffix even when the array is already sorted?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Selection sort"
+      },
+      {
+        "id": "B",
+        "text": "Insertion sort"
+      },
+      {
+        "id": "C",
+        "text": "Optimized bubble sort"
+      },
+      {
+        "id": "D",
+        "text": "Natural merge sort"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Selection sort still searches the full unsorted suffix to identify its minimum on each pass.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-050",
+    "question": "Which statement about the lower bound for comparison sorting and non-comparison sorting is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every sorting algorithm must make Ω(n log n) key comparisons"
+      },
+      {
+        "id": "B",
+        "text": "Counting and radix sort can beat the comparison lower bound by using assumptions about key representation or range"
+      },
+      {
+        "id": "C",
+        "text": "Non-comparison sorts work for arbitrary keys without constraints"
+      },
+      {
+        "id": "D",
+        "text": "Comparison sorting has no theoretical lower bound"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Ω(n log n) lower bound applies to comparison sorting; non-comparison methods exploit structure such as bounded integer keys.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-051",
+    "question": "For an ascending sort, a max-heap is commonly used by heap sort because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The minimum is always at the root of a max-heap"
+      },
+      {
+        "id": "B",
+        "text": "A max-heap guarantees stable ordering of duplicates"
+      },
+      {
+        "id": "C",
+        "text": "The maximum can be repeatedly moved to the last position of the unsorted prefix"
+      },
+      {
+        "id": "D",
+        "text": "A max-heap stores all values in fully sorted order"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The root of a max-heap is the maximum; swapping it to the end grows the sorted suffix.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-052",
+    "question": "Which sorting algorithm most directly benefits from an input that contains very few inversions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Selection sort"
+      },
+      {
+        "id": "B",
+        "text": "Counting sort"
+      },
+      {
+        "id": "C",
+        "text": "Heap sort"
+      },
+      {
+        "id": "D",
+        "text": "Insertion sort"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Insertion sort's shifts are closely related to inversions, so nearly sorted inputs can be processed efficiently.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-053",
+    "question": "Which statement about bubble sort stability is correct for the usual implementation that swaps only when left > right?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is stable because equal adjacent elements are not swapped"
+      },
+      {
+        "id": "B",
+        "text": "It is stable only if the array is reverse sorted"
+      },
+      {
+        "id": "C",
+        "text": "Stability cannot be defined for bubble sort"
+      },
+      {
+        "id": "D",
+        "text": "It is unstable because every pass swaps equal elements"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Not swapping equal elements preserves their relative order.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-054",
+    "question": "What is a key trade-off of merge sort compared with in-place heap sort on arrays?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both require the input to be sorted before running"
+      },
+      {
+        "id": "B",
+        "text": "Merge sort commonly needs O(n) extra space but is stable; heap sort is in-place but unstable"
+      },
+      {
+        "id": "C",
+        "text": "Heap sort is stable and merge sort is always unstable"
+      },
+      {
+        "id": "D",
+        "text": "Merge sort is always quadratic while heap sort is linear"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Standard array merge sort uses auxiliary storage and can be stable; heap sort typically sorts in place but is unstable.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-055",
+    "question": "Which algorithm can be especially efficient when keys are small integers and the key range k is not much larger than n?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quicksort"
+      },
+      {
+        "id": "B",
+        "text": "Selection sort"
+      },
+      {
+        "id": "C",
+        "text": "Counting sort"
+      },
+      {
+        "id": "D",
+        "text": "Heap sort"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "When k is reasonably small, O(n+k) counting sort can outperform comparison-based methods.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-056",
+    "question": "What is the typical worst-case time complexity of insertion sort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n²)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Reverse-sorted input requires shifting many elements for each inserted key, producing quadratic work.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-057",
+    "question": "Which sorting algorithm generally has guaranteed O(n log n) time in best, average, and worst cases, but typically requires extra array storage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Merge sort"
+      },
+      {
+        "id": "B",
+        "text": "Insertion sort"
+      },
+      {
+        "id": "C",
+        "text": "Bubble sort"
+      },
+      {
+        "id": "D",
+        "text": "Quicksort with fixed endpoint pivot"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Standard merge sort has O(n log n) time across cases and commonly uses O(n) extra array space.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-058",
+    "question": "Which statement about counting comparisons, swaps, and passes is correct for selection sort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Its comparison count is O(log n)"
+      },
+      {
+        "id": "B",
+        "text": "It performs n−1 selection passes and about n(n−1)/2 key comparisons"
+      },
+      {
+        "id": "C",
+        "text": "It performs only one pass for any n"
+      },
+      {
+        "id": "D",
+        "text": "It performs exactly n(n−1)/2 swaps"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each pass selects the minimum from the remaining suffix; comparison count is quadratic and there are n−1 passes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-059",
+    "question": "For an array of n elements, how many passes are needed in the worst case by standard bubble sort?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n(n − 1)/2 passes"
+      },
+      {
+        "id": "B",
+        "text": "Exactly n passes"
+      },
+      {
+        "id": "C",
+        "text": "n − 1 passes"
+      },
+      {
+        "id": "D",
+        "text": "log₂ n passes"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A standard bubble sort needs at most n−1 passes; each pass places another largest remaining element at the end.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "sorting-algorithms-060",
+    "question": "Which sorting algorithm is usually in-place, unstable, and has O(n log n) average time but O(n²) worst-case time?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Radix sort"
+      },
+      {
+        "id": "B",
+        "text": "Merge sort"
+      },
+      {
+        "id": "C",
+        "text": "Counting sort"
+      },
+      {
+        "id": "D",
+        "text": "Quicksort"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Typical in-place quicksort is unstable, averages O(n log n), and can degrade to O(n²) with poor partitions.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

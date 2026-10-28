@@ -1,0 +1,912 @@
+[
+  {
+    "id": "hashing-hash-tables-001",
+    "question": "What is the primary purpose of a hash function in a hash table?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To store every key in a linked list in sorted order"
+      },
+      {
+        "id": "B",
+        "text": "To sort all keys in ascending order"
+      },
+      {
+        "id": "C",
+        "text": "To guarantee that every key has a unique binary representation"
+      },
+      {
+        "id": "D",
+        "text": "To map a key to an index in a table"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A hash function transforms a key into a table index or hash value used to locate its storage position.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-002",
+    "question": "A collision occurs when:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two different keys map to the same table index"
+      },
+      {
+        "id": "B",
+        "text": "A hash function returns a negative value only"
+      },
+      {
+        "id": "C",
+        "text": "The table contains an empty slot"
+      },
+      {
+        "id": "D",
+        "text": "A key is deleted from the table"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A collision happens when distinct keys produce the same table index.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-003",
+    "question": "Which property is most desirable in a hash function for a hash table?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It must produce a different index for every possible key"
+      },
+      {
+        "id": "B",
+        "text": "It must preserve the alphabetical order of keys"
+      },
+      {
+        "id": "C",
+        "text": "It always maps keys to consecutive slots"
+      },
+      {
+        "id": "D",
+        "text": "It distributes expected keys uniformly across table slots"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Uniform distribution reduces clustering and helps keep average operation times low.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-004",
+    "question": "If a table has m slots, which range is commonly used for valid table indices?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 through m"
+      },
+      {
+        "id": "B",
+        "text": "0 through m − 1"
+      },
+      {
+        "id": "C",
+        "text": "0 through m"
+      },
+      {
+        "id": "D",
+        "text": "−m through m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For a zero-indexed table of size m, valid indices are 0 to m−1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-005",
+    "question": "For table size m, the division method commonly computes the index as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "key mod m"
+      },
+      {
+        "id": "B",
+        "text": "key multiplied by m"
+      },
+      {
+        "id": "C",
+        "text": "key divided by m, rounded upward"
+      },
+      {
+        "id": "D",
+        "text": "m mod key"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The division method uses the remainder after dividing the key by the table size.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-006",
+    "question": "If h(k) = k mod 11, what index is produced for key 47?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "47 mod 11 = 3, so the key maps to index 3.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-007",
+    "question": "Using h(k) = k mod 10, which pair of keys collides?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24 and 54"
+      },
+      {
+        "id": "B",
+        "text": "17 and 28"
+      },
+      {
+        "id": "C",
+        "text": "21 and 32"
+      },
+      {
+        "id": "D",
+        "text": "13 and 26"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "24 mod 10 and 54 mod 10 both equal 4.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-008",
+    "question": "The load factor α of a hash table is usually defined as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Table size divided by number of hash functions"
+      },
+      {
+        "id": "B",
+        "text": "Number of stored entries divided by number of slots"
+      },
+      {
+        "id": "C",
+        "text": "Number of empty slots divided by number of entries"
+      },
+      {
+        "id": "D",
+        "text": "Number of collisions divided by number of keys"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Load factor α = n/m, where n is the number of stored entries and m is the number of slots; exact interpretation depends on collision strategy.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-009",
+    "question": "If a table has 20 slots and stores 15 entries, its load factor is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.33"
+      },
+      {
+        "id": "B",
+        "text": "0.25"
+      },
+      {
+        "id": "C",
+        "text": "0.75"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "α = 15/20 = 0.75.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-010",
+    "question": "Which collision-resolution technique stores multiple entries in a bucket, often using a linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linear probing"
+      },
+      {
+        "id": "B",
+        "text": "Separate chaining"
+      },
+      {
+        "id": "C",
+        "text": "Quadratic probing"
+      },
+      {
+        "id": "D",
+        "text": "Double hashing"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Separate chaining keeps a collection of entries at each table index, commonly a linked list.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-011",
+    "question": "In linear probing, the next candidate slot after a collision is commonly found by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jumping to a random slot each time"
+      },
+      {
+        "id": "B",
+        "text": "Following a pointer stored in the key"
+      },
+      {
+        "id": "C",
+        "text": "Checking successive slots in a fixed step"
+      },
+      {
+        "id": "D",
+        "text": "Sorting the entire table"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Linear probing checks the next slot, then the next, wrapping around the table if needed.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-012",
+    "question": "Primary clustering is especially associated with:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Merge sort"
+      },
+      {
+        "id": "B",
+        "text": "Linear probing"
+      },
+      {
+        "id": "C",
+        "text": "Binary search"
+      },
+      {
+        "id": "D",
+        "text": "Separate chaining only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Linear probing can form long contiguous runs of occupied slots called primary clusters.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-013",
+    "question": "Quadratic probing changes the probe sequence by using:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only the next consecutive slot"
+      },
+      {
+        "id": "B",
+        "text": "A second independent table for every key"
+      },
+      {
+        "id": "C",
+        "text": "A linked list sorted by key"
+      },
+      {
+        "id": "D",
+        "text": "Quadratic offsets from the initial hash index"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Quadratic probing uses offsets such as c1i + c2i² to reduce primary clustering.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-014",
+    "question": "Double hashing typically computes a probe sequence using:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A hash function followed by binary search"
+      },
+      {
+        "id": "B",
+        "text": "A primary hash and a second hash for the step size"
+      },
+      {
+        "id": "C",
+        "text": "A sorting function and a search function"
+      },
+      {
+        "id": "D",
+        "text": "Two copies of the same linked list"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The second hash function determines the step between successive probes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-015",
+    "question": "Why must the step size in double hashing be chosen carefully?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It should allow the probe sequence to reach all relevant slots"
+      },
+      {
+        "id": "B",
+        "text": "It must equal the primary hash value"
+      },
+      {
+        "id": "C",
+        "text": "It should always be larger than the table size"
+      },
+      {
+        "id": "D",
+        "text": "It must always be zero"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "If the step and table size are not relatively prime, the sequence may visit only a subset of slots.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-016",
+    "question": "Which statement about average hash-table search time is generally correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is always O(log n)"
+      },
+      {
+        "id": "B",
+        "text": "It is always O(n log n)"
+      },
+      {
+        "id": "C",
+        "text": "It can be O(1) under suitable assumptions"
+      },
+      {
+        "id": "D",
+        "text": "It is guaranteed O(1) even with severe collisions"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Expected constant-time operations rely on a good hash function and a controlled load factor; worst cases can be linear.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-017",
+    "question": "What is the worst-case search time in a hash table with n entries?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(log log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(1)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "If many keys collide, searching may require examining up to n entries.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-018",
+    "question": "In open addressing, all entries are stored:",
+    "options": [
+      {
+        "id": "A",
+        "text": "In a disk file indexed by binary search"
+      },
+      {
+        "id": "B",
+        "text": "In a separate balanced tree for every key"
+      },
+      {
+        "id": "C",
+        "text": "Directly within the hash table's slots"
+      },
+      {
+        "id": "D",
+        "text": "Only in external linked lists"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Open addressing resolves collisions by probing for another slot inside the table.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-019",
+    "question": "In open addressing, deletion is often handled using a tombstone because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Marking a slot simply empty may break later searches in a probe sequence"
+      },
+      {
+        "id": "B",
+        "text": "Deleted keys must remain permanently searchable"
+      },
+      {
+        "id": "C",
+        "text": "A tombstone automatically rehashes all entries"
+      },
+      {
+        "id": "D",
+        "text": "The table cannot store numeric keys"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A tombstone marks a deleted slot while allowing searches to continue through the probe sequence.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-020",
+    "question": "Which statement correctly compares separate chaining and open addressing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chaining cannot handle collisions"
+      },
+      {
+        "id": "B",
+        "text": "Open addressing always uses linked lists, while chaining never uses them"
+      },
+      {
+        "id": "C",
+        "text": "Both require every key to occupy a unique hash index"
+      },
+      {
+        "id": "D",
+        "text": "Chaining stores collided entries outside the primary slot sequence; open addressing probes table slots"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The key distinction is where colliding entries are stored and how they are found.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-021",
+    "question": "A table becomes overloaded as its load factor rises. A common response is to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Set every occupied slot to empty"
+      },
+      {
+        "id": "B",
+        "text": "Stop using the hash function"
+      },
+      {
+        "id": "C",
+        "text": "Resize the table and reinsert entries using the hash function"
+      },
+      {
+        "id": "D",
+        "text": "Sort the table and use only binary search"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Resizing and rehashing can restore a lower load factor and reduce probe lengths or chain lengths.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-022",
+    "question": "Why are entries usually rehashed after a hash table is resized?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The old indices are guaranteed to remain valid"
+      },
+      {
+        "id": "B",
+        "text": "The new table size can change the index computed by the hash function"
+      },
+      {
+        "id": "C",
+        "text": "Keys are no longer allowed to be compared"
+      },
+      {
+        "id": "D",
+        "text": "Rehashing converts all keys to strings"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For methods such as key mod table_size, changing table size changes many computed indices.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-023",
+    "question": "What does a good hash function generally aim to minimize?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uneven distribution and excessive collisions"
+      },
+      {
+        "id": "B",
+        "text": "The number of distinct keys supported by the program"
+      },
+      {
+        "id": "C",
+        "text": "The size of every key's original data type"
+      },
+      {
+        "id": "D",
+        "text": "The number of comparisons needed to define equality"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A good hash function spreads typical keys across slots rather than concentrating them.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-024",
+    "question": "If h(k) = k mod 7, what index does key 32 receive?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "32 mod 7 = 4.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-025",
+    "question": "With linear probing and table size 10, a key hashes to index 8, but slots 8 and 9 are occupied. Assuming wraparound and slot 0 is empty, where is it inserted?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Index 9"
+      },
+      {
+        "id": "B",
+        "text": "Index 7"
+      },
+      {
+        "id": "C",
+        "text": "Index 0"
+      },
+      {
+        "id": "D",
+        "text": "Index 8"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Linear probing checks 8, then 9, then wraps around to 0.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-026",
+    "question": "With linear probing, keys 18, 28, and 38 are inserted in that order into an initially empty table of size 10 using h(k)=k mod 10. Where is key 38 stored?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Index 2"
+      },
+      {
+        "id": "B",
+        "text": "Index 3"
+      },
+      {
+        "id": "C",
+        "text": "Index 9"
+      },
+      {
+        "id": "D",
+        "text": "Index 8"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "All three keys hash to 8. Key 18 occupies 8, 28 probes to 9, and 38 probes to 0—not 2.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-027",
+    "question": "With linear probing and table size 10, keys 18, 28, and 38 are inserted in order using h(k)=k mod 10. Where is key 38 stored?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Index 8"
+      },
+      {
+        "id": "B",
+        "text": "Index 0"
+      },
+      {
+        "id": "C",
+        "text": "Index 1"
+      },
+      {
+        "id": "D",
+        "text": "Index 9"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "All three keys hash to 8. Key 18 occupies index 8, key 28 goes to 9, and key 38 wraps around to index 0.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-028",
+    "question": "Which situation is most likely to cause a long probe sequence in open addressing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A low load factor and uniform distribution"
+      },
+      {
+        "id": "B",
+        "text": "A table with many empty slots"
+      },
+      {
+        "id": "C",
+        "text": "A high load factor combined with clustering"
+      },
+      {
+        "id": "D",
+        "text": "Keys that are all different strings"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "High occupancy and clustering increase the number of slots examined during operations.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-029",
+    "question": "A hash table contains 12 entries and 16 slots. What is its load factor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.25"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "1.33"
+      },
+      {
+        "id": "D",
+        "text": "0.75"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "α = 12/16 = 0.75.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-030",
+    "question": "Why should a hash table still compare keys for equality after finding a matching hash value?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hash values are always encrypted"
+      },
+      {
+        "id": "B",
+        "text": "Collisions can give different keys the same hash value"
+      },
+      {
+        "id": "C",
+        "text": "The table index is never derived from the key"
+      },
+      {
+        "id": "D",
+        "text": "Equality checks are only needed for integer keys"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A hash match narrows the search, but key equality confirms that the requested entry was found.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-031",
+    "question": "Which data structure is commonly used to implement a dictionary or symbol table when fast expected lookup is needed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stack only"
+      },
+      {
+        "id": "B",
+        "text": "Queue only"
+      },
+      {
+        "id": "C",
+        "text": "Unsorted traversal of a complete binary tree only"
+      },
+      {
+        "id": "D",
+        "text": "Hash table"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Hash tables are widely used for dictionaries, maps, caches, and symbol tables.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-032",
+    "question": "What is a major limitation of ordinary hash tables compared with balanced search trees?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They do not naturally maintain keys in sorted order"
+      },
+      {
+        "id": "B",
+        "text": "They cannot support exact-key lookup"
+      },
+      {
+        "id": "C",
+        "text": "They always require O(n) average search time"
+      },
+      {
+        "id": "D",
+        "text": "They cannot store string keys"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hash tables are optimized for key-based access, not ordered traversal or range queries.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-033",
+    "question": "Which operation is generally not efficiently supported by a basic hash table without extra structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Retrieving a value by exact key"
+      },
+      {
+        "id": "B",
+        "text": "Checking whether a specific key exists"
+      },
+      {
+        "id": "C",
+        "text": "Finding all keys in a specified sorted range"
+      },
+      {
+        "id": "D",
+        "text": "Inserting a key-value pair"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Range queries need ordering; a basic hash table does not keep keys sorted.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-034",
+    "question": "In a hash table using separate chaining, if all n keys map to one bucket, worst-case search is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1)"
+      },
+      {
+        "id": "B",
+        "text": "O(n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "If all entries share one chain, a search may traverse the entire chain.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "hashing-hash-tables-035",
+    "question": "What is rehashing in the context of hash tables?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sorting keys by their original values"
+      },
+      {
+        "id": "B",
+        "text": "Removing every collided key"
+      },
+      {
+        "id": "C",
+        "text": "Recomputing entry positions, commonly after resizing"
+      },
+      {
+        "id": "D",
+        "text": "Replacing every key with its hash value permanently"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Rehashing reinserts entries according to the hash function and the current table capacity.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

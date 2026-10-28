@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "queue-001",
+    "question": "Which principle governs the normal removal order in a queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Highest-priority-first in every queue"
+      },
+      {
+        "id": "B",
+        "text": "FIFO"
+      },
+      {
+        "id": "C",
+        "text": "LIFO"
+      },
+      {
+        "id": "D",
+        "text": "Random order"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FIFO means the earliest inserted item is removed first.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-002",
+    "question": "A queue ADT normally inserts elements at the _____ and removes them from the _____.",
+    "options": [
+      {
+        "id": "A",
+        "text": "front; front"
+      },
+      {
+        "id": "B",
+        "text": "rear; rear"
+      },
+      {
+        "id": "C",
+        "text": "rear; front"
+      },
+      {
+        "id": "D",
+        "text": "front; rear"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Enqueue adds at the rear; dequeue removes from the front.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-003",
+    "question": "What does enqueue do in a standard queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Removes the front item"
+      },
+      {
+        "id": "B",
+        "text": "Adds an item at the rear"
+      },
+      {
+        "id": "C",
+        "text": "Reverses the queue"
+      },
+      {
+        "id": "D",
+        "text": "Returns the rear item and removes it"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Enqueue inserts an item at the rear end.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-004",
+    "question": "What does dequeue normally do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Removes the front item"
+      },
+      {
+        "id": "B",
+        "text": "Returns the rear item without removing it"
+      },
+      {
+        "id": "C",
+        "text": "Sorts the queue by value"
+      },
+      {
+        "id": "D",
+        "text": "Adds an item at the front"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Dequeue removes the oldest queued item from the front.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-005",
+    "question": "What does `front` identify in a conventional queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The index after the rear"
+      },
+      {
+        "id": "B",
+        "text": "The newest item inserted"
+      },
+      {
+        "id": "C",
+        "text": "The next item to be removed"
+      },
+      {
+        "id": "D",
+        "text": "The capacity of the queue"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Front identifies the oldest element waiting to be dequeued.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-006",
+    "question": "What does `rear` usually identify?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The queue's first allocated memory address in every implementation"
+      },
+      {
+        "id": "B",
+        "text": "The newest item currently in the queue"
+      },
+      {
+        "id": "C",
+        "text": "The next item to be removed"
+      },
+      {
+        "id": "D",
+        "text": "The smallest item"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Rear tracks the most recently enqueued item in a typical array queue.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-007",
+    "question": "What does a `peek` or `front` operation generally do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Moves the rear pointer to the front"
+      },
+      {
+        "id": "B",
+        "text": "Removes the front item"
+      },
+      {
+        "id": "C",
+        "text": "Inspects the front item without removing it"
+      },
+      {
+        "id": "D",
+        "text": "Adds an item to the rear"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Peek reads the front item while leaving the queue unchanged.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-008",
+    "question": "Which statement best distinguishes a queue ADT from its implementation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The ADT defines behavior; implementation chooses array, links, or other storage"
+      },
+      {
+        "id": "B",
+        "text": "A queue ADT must use an array"
+      },
+      {
+        "id": "C",
+        "text": "An implementation may ignore FIFO and still be a standard queue"
+      },
+      {
+        "id": "D",
+        "text": "A queue ADT requires fixed capacity"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The ADT specifies operations and semantics rather than a particular memory layout.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-009",
+    "question": "Which is a valid way to implement a queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only a stack"
+      },
+      {
+        "id": "B",
+        "text": "Only a fixed array"
+      },
+      {
+        "id": "C",
+        "text": "Only a binary tree"
+      },
+      {
+        "id": "D",
+        "text": "An array or a linked structure"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Queues can be implemented with arrays or linked nodes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-010",
+    "question": "Which is the usual time complexity of enqueue in a linked queue that maintains a rear pointer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n²)"
+      },
+      {
+        "id": "B",
+        "text": "O(1)"
+      },
+      {
+        "id": "C",
+        "text": "O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The rear pointer allows a new node to be attached without traversing the queue.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-011",
+    "question": "What is the usual time complexity of dequeue in a linked queue with a front pointer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1)"
+      },
+      {
+        "id": "B",
+        "text": "O(n)"
+      },
+      {
+        "id": "C",
+        "text": "O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n log n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Removing the front node only requires advancing the front pointer and releasing the old node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-012",
+    "question": "What is the usual time complexity of reading the front item when the front index/pointer is maintained?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(1)"
+      },
+      {
+        "id": "C",
+        "text": "O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n²)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The front reference directly identifies the next item to be removed.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-013",
+    "question": "What is queue underflow?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attempting to dequeue from an empty queue"
+      },
+      {
+        "id": "B",
+        "text": "Attempting to enqueue when a fixed queue is full"
+      },
+      {
+        "id": "C",
+        "text": "The rear reaching the final array index"
+      },
+      {
+        "id": "D",
+        "text": "Moving front to the next slot"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Underflow occurs when a removal is attempted with no item available.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-014",
+    "question": "In a fixed-capacity array queue, overflow generally means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Removing the last element"
+      },
+      {
+        "id": "B",
+        "text": "The queue contains only one element"
+      },
+      {
+        "id": "C",
+        "text": "Peeking at the front"
+      },
+      {
+        "id": "D",
+        "text": "Trying to insert when no capacity remains under the implementation's rules"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Overflow is an insertion failure when the queue has no available capacity.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-015",
+    "question": "In a simple linear array queue using front/rear indices, what is false overflow?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The queue is empty but front is at index zero"
+      },
+      {
+        "id": "B",
+        "text": "Rear reaches the last array index even though earlier slots were freed by dequeues"
+      },
+      {
+        "id": "C",
+        "text": "Front and rear always wrap around automatically"
+      },
+      {
+        "id": "D",
+        "text": "The queue stores items in sorted order"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A linear queue may appear full because rear cannot advance, while unused slots exist before front.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-016",
+    "question": "Why does a circular queue help avoid false overflow?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It shifts every element after each dequeue"
+      },
+      {
+        "id": "B",
+        "text": "It stores items only in linked nodes"
+      },
+      {
+        "id": "C",
+        "text": "It reuses freed array slots by wrapping indices around"
+      },
+      {
+        "id": "D",
+        "text": "It always doubles the array size"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Circular indexing allows rear to wrap to the beginning when space is available.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-017",
+    "question": "For an array circular queue of capacity N, a common next-index calculation is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "index + N"
+      },
+      {
+        "id": "B",
+        "text": "(index + 1) % N"
+      },
+      {
+        "id": "C",
+        "text": "index * N"
+      },
+      {
+        "id": "D",
+        "text": "index - 1 without wrap logic"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Modulo N wraps index N-1 back to index 0.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-018",
+    "question": "In a circular queue of capacity 8, if rear is at index 7 and an enqueue is allowed, the next rear index is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(7 + 1) % 8 = 0.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-019",
+    "question": "A circular queue implementation that reserves one array slot to distinguish full from empty is full when:",
+    "options": [
+      {
+        "id": "A",
+        "text": "front == -1 only"
+      },
+      {
+        "id": "B",
+        "text": "rear == front"
+      },
+      {
+        "id": "C",
+        "text": "rear == N"
+      },
+      {
+        "id": "D",
+        "text": "(rear + 1) % N == front"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "With one unused slot, the queue is full when advancing rear would meet front.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-020",
+    "question": "In the same one-unused-slot circular queue convention, the maximum number of stored items in an array of size N is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "N / 2"
+      },
+      {
+        "id": "B",
+        "text": "N + 1"
+      },
+      {
+        "id": "C",
+        "text": "N - 1"
+      },
+      {
+        "id": "D",
+        "text": "N"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "One slot is reserved to distinguish full from empty, leaving N-1 usable positions.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-021",
+    "question": "Why do circular queue implementations need a clearly defined empty/full convention?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because front and rear values can otherwise be ambiguous in some designs"
+      },
+      {
+        "id": "B",
+        "text": "Because FIFO stops applying after wrap-around"
+      },
+      {
+        "id": "C",
+        "text": "Because a queue cannot have zero items"
+      },
+      {
+        "id": "D",
+        "text": "Because modulo arithmetic sorts values"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Depending on representation, equal front/rear indices may indicate empty or full unless extra state or a reserved slot is used.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-022",
+    "question": "Which statement about a queue implemented with a linked list and both front and rear pointers is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enqueue must scan from the front to the rear"
+      },
+      {
+        "id": "B",
+        "text": "Enqueue and dequeue can both be O(1)"
+      },
+      {
+        "id": "C",
+        "text": "The queue cannot become empty"
+      },
+      {
+        "id": "D",
+        "text": "Dequeue must scan to the rear"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Rear supports insertion and front supports removal in constant time.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-023",
+    "question": "When the final item is dequeued from a linked queue, which pointer update is usually necessary?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Set front to the old rear"
+      },
+      {
+        "id": "B",
+        "text": "Set front to the middle node"
+      },
+      {
+        "id": "C",
+        "text": "Leave rear pointing to the freed node"
+      },
+      {
+        "id": "D",
+        "text": "Set front to NULL and also rear to NULL"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Both pointers should represent an empty queue rather than leaving rear dangling.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-024",
+    "question": "Which queue variant permits insertion and deletion at both ends?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deque"
+      },
+      {
+        "id": "B",
+        "text": "Simple queue"
+      },
+      {
+        "id": "C",
+        "text": "Stack"
+      },
+      {
+        "id": "D",
+        "text": "Priority queue"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A double-ended queue allows operations at both front and rear.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-025",
+    "question": "In an input-restricted deque, which rule applies?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both insertion and deletion are allowed only at the front"
+      },
+      {
+        "id": "B",
+        "text": "Insertion is allowed at both ends; deletion only at one end"
+      },
+      {
+        "id": "C",
+        "text": "Only the highest-priority item can be removed"
+      },
+      {
+        "id": "D",
+        "text": "Insertion is allowed at only one end; deletion is allowed at both ends"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Input-restricted deques restrict insertion to one end while allowing deletion at both ends.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-026",
+    "question": "In an output-restricted deque, which rule applies?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insertion is allowed at both ends; deletion is allowed at only one end"
+      },
+      {
+        "id": "B",
+        "text": "Insertion is forbidden"
+      },
+      {
+        "id": "C",
+        "text": "Insertion is allowed at one end; deletion at both ends"
+      },
+      {
+        "id": "D",
+        "text": "Deletion always chooses the highest priority"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Output-restricted deques restrict deletion to one end but permit insertion at both.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-027",
+    "question": "What determines which item is removed first from a priority queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The item with the longest label"
+      },
+      {
+        "id": "B",
+        "text": "The assigned priority, according to the queue's convention"
+      },
+      {
+        "id": "C",
+        "text": "The physical memory address"
+      },
+      {
+        "id": "D",
+        "text": "Only the item's insertion time in every priority queue"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Priority queues select based on priority; tie-breaking rules may vary.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-028",
+    "question": "Which statement about a priority queue is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It removes elements according to priority rather than simple FIFO alone"
+      },
+      {
+        "id": "B",
+        "text": "It always removes the most recently inserted element"
+      },
+      {
+        "id": "C",
+        "text": "It permits only one item"
+      },
+      {
+        "id": "D",
+        "text": "It is always implemented as a sorted linked list"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Priority order determines removal; heaps and other structures can implement it.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-029",
+    "question": "Which application naturally uses a FIFO queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Evaluating a postfix expression"
+      },
+      {
+        "id": "B",
+        "text": "Undoing the most recent edit first"
+      },
+      {
+        "id": "C",
+        "text": "Managing print jobs in arrival order"
+      },
+      {
+        "id": "D",
+        "text": "Depth-first search"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Print jobs are commonly handled in arrival order using a queue.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-030",
+    "question": "Which algorithm commonly uses a queue to explore vertices level by level?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insertion sort"
+      },
+      {
+        "id": "B",
+        "text": "Binary search"
+      },
+      {
+        "id": "C",
+        "text": "Depth-first search"
+      },
+      {
+        "id": "D",
+        "text": "Breadth-first search"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "BFS uses a queue to process discovered vertices in increasing distance layers.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-031",
+    "question": "Which algorithm typically uses a stack or recursion rather than a FIFO queue for its core traversal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Depth-first search"
+      },
+      {
+        "id": "B",
+        "text": "Breadth-first search"
+      },
+      {
+        "id": "C",
+        "text": "Printer buffering"
+      },
+      {
+        "id": "D",
+        "text": "Round-robin scheduling"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "DFS explores a path deeply and uses a stack or call stack to manage backtracking.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-032",
+    "question": "Which statement best compares a stack and a queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both always remove the newest item first"
+      },
+      {
+        "id": "B",
+        "text": "A queue allows only one item"
+      },
+      {
+        "id": "C",
+        "text": "Stack is FIFO; queue is LIFO"
+      },
+      {
+        "id": "D",
+        "text": "Stack removes the newest item first; queue removes the oldest item first"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Stacks follow LIFO, while queues follow FIFO.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-033",
+    "question": "Which is a common use of queues in operating systems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Managing ready processes or I/O requests"
+      },
+      {
+        "id": "B",
+        "text": "Reversing strings by popping"
+      },
+      {
+        "id": "C",
+        "text": "Matching nested parentheses"
+      },
+      {
+        "id": "D",
+        "text": "Storing only recursive function returns"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Queues help organize tasks waiting for CPU time or I/O service.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-034",
+    "question": "Why is a queue useful in buffering data between a producer and a consumer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It eliminates the need for memory"
+      },
+      {
+        "id": "B",
+        "text": "It guarantees the producer and consumer run at exactly the same speed"
+      },
+      {
+        "id": "C",
+        "text": "It can preserve arrival order while decoupling production and consumption rates"
+      },
+      {
+        "id": "D",
+        "text": "It sorts all incoming data"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A buffer queue stores produced items until the consumer is ready to process them.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-035",
+    "question": "In a standard queue, after enqueueing A, then B, then C, which item is dequeued first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "The item with the largest value"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FIFO removes A because it was inserted first.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-036",
+    "question": "Starting with an empty queue, enqueue(3), enqueue(6), dequeue(), enqueue(9): what is at the front?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "The queue is empty"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dequeue removes 3; 6 remains at the front when 9 is added at the rear.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-037",
+    "question": "Starting with an empty queue, enqueue(1), enqueue(2), dequeue(), dequeue(): what remains?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The queue is empty"
+      },
+      {
+        "id": "B",
+        "text": "Only 1"
+      },
+      {
+        "id": "C",
+        "text": "Both 1 and 2"
+      },
+      {
+        "id": "D",
+        "text": "Only 2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The two dequeues remove 1 and then 2 in FIFO order.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-038",
+    "question": "In a simple array queue, why can repeated dequeue operations waste usable array positions in a naive implementation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dequeued values move to the rear automatically"
+      },
+      {
+        "id": "B",
+        "text": "The array changes to a stack"
+      },
+      {
+        "id": "C",
+        "text": "Front advances but freed positions before it are not reused automatically"
+      },
+      {
+        "id": "D",
+        "text": "The front pointer always decreases"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A linear array queue may leave earlier slots unused unless elements are shifted or the queue is circular.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-039",
+    "question": "Which is a potential disadvantage of shifting all remaining elements left after every dequeue in an array queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dequeue may require O(n) time"
+      },
+      {
+        "id": "B",
+        "text": "The queue changes to LIFO"
+      },
+      {
+        "id": "C",
+        "text": "Front and rear no longer exist"
+      },
+      {
+        "id": "D",
+        "text": "Enqueue becomes impossible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shifting k remaining items costs proportional to k.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-040",
+    "question": "A circular queue has capacity 6 and uses modulo indexing. If front is at index 4, the next front index after a dequeue is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The next index after 4 is (4+1) % 6 = 5.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-041",
+    "question": "A circular queue has capacity 6 and rear is at index 5. After a successful enqueue that advances rear, the new rear index is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The rear wraps around because (5+1) % 6 = 0.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-042",
+    "question": "For a circular queue, which statement about the modulo operator is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It helps wrap an index back into the valid range"
+      },
+      {
+        "id": "B",
+        "text": "It distinguishes priorities automatically"
+      },
+      {
+        "id": "C",
+        "text": "It ensures the queue is sorted"
+      },
+      {
+        "id": "D",
+        "text": "It makes every queue operation O(n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Modulo keeps computed indices within 0 through N-1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-043",
+    "question": "Which is a common way to distinguish empty and full states in a circular queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assume front always equals -1 when full"
+      },
+      {
+        "id": "B",
+        "text": "Use a count/flag or reserve one array slot"
+      },
+      {
+        "id": "C",
+        "text": "Sort the queue before every enqueue"
+      },
+      {
+        "id": "D",
+        "text": "Set rear to the capacity value"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A count, full flag, or unused-slot convention removes ambiguity.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-044",
+    "question": "Which queue operation normally takes O(1) time in a standard linked queue with front and rear pointers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sort all queue elements"
+      },
+      {
+        "id": "B",
+        "text": "Find the maximum priority by scanning every item"
+      },
+      {
+        "id": "C",
+        "text": "Enqueue at rear"
+      },
+      {
+        "id": "D",
+        "text": "Search for a particular value"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The rear pointer enables direct insertion at the end.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-045",
+    "question": "Which operation is O(n) in a basic queue if no auxiliary structure or priority index is maintained?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Search for a specific value"
+      },
+      {
+        "id": "B",
+        "text": "Dequeue from front"
+      },
+      {
+        "id": "C",
+        "text": "Peek at front"
+      },
+      {
+        "id": "D",
+        "text": "Enqueue at rear with a rear pointer"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Searching for an arbitrary item may require inspecting every queued element.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-046",
+    "question": "What is the main purpose of maintaining both front and rear pointers in a linked queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To eliminate all pointer updates"
+      },
+      {
+        "id": "B",
+        "text": "To allow constant-time search for any value"
+      },
+      {
+        "id": "C",
+        "text": "To make front deletion and rear insertion efficient"
+      },
+      {
+        "id": "D",
+        "text": "To keep every node in sorted order"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The two pointers provide direct access to both ends used by enqueue and dequeue.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-047",
+    "question": "Which statement about a deque is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It always removes by priority"
+      },
+      {
+        "id": "B",
+        "text": "It is identical to a stack in every permitted operation"
+      },
+      {
+        "id": "C",
+        "text": "It cannot be implemented with a circular array"
+      },
+      {
+        "id": "D",
+        "text": "It can support both queue-like and stack-like behavior"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A deque supports insertion and deletion at both ends, allowing either access pattern.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-048",
+    "question": "Which structure is the best match for selecting the next task by urgency rather than arrival order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Circular queue only"
+      },
+      {
+        "id": "B",
+        "text": "Simple FIFO queue"
+      },
+      {
+        "id": "C",
+        "text": "Priority queue"
+      },
+      {
+        "id": "D",
+        "text": "Stack"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A priority queue chooses the next item using its priority value or ordering.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-049",
+    "question": "Which statement about equal-priority elements is safest?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They cannot coexist"
+      },
+      {
+        "id": "B",
+        "text": "Tie-breaking depends on the implementation or specified policy"
+      },
+      {
+        "id": "C",
+        "text": "They must always be removed alphabetically"
+      },
+      {
+        "id": "D",
+        "text": "They must always be removed in reverse arrival order"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Priority queues do not universally prescribe how equal-priority elements are ordered.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-050",
+    "question": "A queue using two stacks can implement enqueue in O(1) amortized time and dequeue in O(1) amortized time by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Storing the oldest element at the top of both stacks"
+      },
+      {
+        "id": "B",
+        "text": "Always popping from both stacks at once"
+      },
+      {
+        "id": "C",
+        "text": "Moving elements from the input stack to the output stack when needed"
+      },
+      {
+        "id": "D",
+        "text": "Sorting both stacks after every operation"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "New elements enter one stack; when the output stack is empty, transfer reverses order to expose the oldest item.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-051",
+    "question": "Why can a stack be implemented using queues, though the operations may need extra work?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Queues do not store elements"
+      },
+      {
+        "id": "B",
+        "text": "Stack and queue have identical removal order"
+      },
+      {
+        "id": "C",
+        "text": "A queue naturally removes the newest item first"
+      },
+      {
+        "id": "D",
+        "text": "The implementation can rearrange or rotate queue elements to enforce LIFO behavior"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Extra transfers or rotations can make the newest item the next one removed.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-052",
+    "question": "Which condition commonly indicates an empty linked queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "rear == front->next always"
+      },
+      {
+        "id": "B",
+        "text": "rear == capacity - 1"
+      },
+      {
+        "id": "C",
+        "text": "front == NULL"
+      },
+      {
+        "id": "D",
+        "text": "front == -1 in all linked implementations"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A common linked representation uses a NULL front pointer to indicate no nodes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-053",
+    "question": "What should a circular queue do when rear is at the last index and there is space at the beginning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Declare overflow unconditionally"
+      },
+      {
+        "id": "B",
+        "text": "Wrap rear to index 0"
+      },
+      {
+        "id": "C",
+        "text": "Set front to -1 without checking the queue"
+      },
+      {
+        "id": "D",
+        "text": "Shift all items right"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Circular indexing reuses the beginning of the array when available.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-054",
+    "question": "Which is NOT a defining property of a basic FIFO queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The earliest inserted item is normally removed first"
+      },
+      {
+        "id": "B",
+        "text": "New items are added at the rear"
+      },
+      {
+        "id": "C",
+        "text": "Items are removed from the front"
+      },
+      {
+        "id": "D",
+        "text": "The highest-priority item is always removed first"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Priority-based removal characterizes a priority queue, not an ordinary FIFO queue.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-055",
+    "question": "In BFS, why is a queue used rather than a stack for the standard traversal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It always explores the deepest vertex first"
+      },
+      {
+        "id": "B",
+        "text": "It processes vertices in the order they are discovered, supporting level-by-level exploration"
+      },
+      {
+        "id": "C",
+        "text": "It prevents vertices from being marked visited"
+      },
+      {
+        "id": "D",
+        "text": "It sorts vertices by label"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FIFO processing ensures vertices are explored by distance layers in an unweighted graph.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-056",
+    "question": "If a linear array queue uses front = 0 and rear = -1 to represent empty initially, what is a common rear update on a successful enqueue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "rear--"
+      },
+      {
+        "id": "B",
+        "text": "rear = capacity"
+      },
+      {
+        "id": "C",
+        "text": "front = rear = -1 after every insertion"
+      },
+      {
+        "id": "D",
+        "text": "rear++ then store the new item at that index"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "With rear initialized to -1, incrementing it selects index 0 for the first insertion.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-057",
+    "question": "Which statement about queue operation complexity is generally correct when pointers/indices are maintained appropriately?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Front inspection is always O(log n)"
+      },
+      {
+        "id": "B",
+        "text": "Enqueue and dequeue can both be O(1)"
+      },
+      {
+        "id": "C",
+        "text": "Circular queues require O(n) for every index update"
+      },
+      {
+        "id": "D",
+        "text": "Every dequeue must be O(n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "With front/rear pointers or indices, insertion and removal can use constant-time updates.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-058",
+    "question": "What is the purpose of a queue in level-order traversal of a tree?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To select the largest key first"
+      },
+      {
+        "id": "B",
+        "text": "To reverse each path"
+      },
+      {
+        "id": "C",
+        "text": "To visit only leaf nodes"
+      },
+      {
+        "id": "D",
+        "text": "To visit nodes level by level"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A FIFO queue processes discovered children after earlier nodes at the current level.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-059",
+    "question": "A priority queue is different from a simple queue because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "It must always be circular"
+      },
+      {
+        "id": "B",
+        "text": "It may choose an item based on priority rather than insertion order alone"
+      },
+      {
+        "id": "C",
+        "text": "It only permits deletion from the rear"
+      },
+      {
+        "id": "D",
+        "text": "It follows LIFO by definition"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The priority ordering governs which item is served next.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-060",
+    "question": "Which of the following best describes the role of a queue in network packet buffering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It guarantees no packet loss regardless of capacity"
+      },
+      {
+        "id": "B",
+        "text": "The queue automatically compresses packets"
+      },
+      {
+        "id": "C",
+        "text": "Packets are always transmitted in reverse arrival order"
+      },
+      {
+        "id": "D",
+        "text": "Packets can wait in arrival order until the network device can process or transmit them"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A queue buffers packets while the consumer/network interface catches up, though finite capacity can still overflow.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-061",
+    "question": "A circular queue has N = 10 slots and rear = 8. After one successful enqueue, what is the updated rear index?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "(8 + 1) % 10 = 9.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-062",
+    "question": "A circular queue has N = 10 slots and rear = 9. After one successful enqueue, what is the updated rear index?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "(9 + 1) % 10 = 0.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-063",
+    "question": "Which statement about a linear queue and a circular queue is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A circular queue can reuse freed slots at the beginning without shifting all items"
+      },
+      {
+        "id": "B",
+        "text": "A linear queue always wraps rear to index 0"
+      },
+      {
+        "id": "C",
+        "text": "A circular queue cannot become full"
+      },
+      {
+        "id": "D",
+        "text": "A linear queue uses LIFO"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Circular indexing lets the rear wrap around to earlier available slots.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-064",
+    "question": "In a queue with exactly one item, what happens to the front and rear after that item is dequeued in a typical linked implementation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rear points to freed memory by design"
+      },
+      {
+        "id": "B",
+        "text": "Front becomes the old rear forever"
+      },
+      {
+        "id": "C",
+        "text": "The queue becomes a stack"
+      },
+      {
+        "id": "D",
+        "text": "Both become NULL"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "When the final node is removed, both end pointers must indicate that the queue is empty.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-065",
+    "question": "Why should a queue implementation update the rear pointer when the first node is enqueued into an empty linked queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To prevent the front pointer from changing"
+      },
+      {
+        "id": "B",
+        "text": "To make the queue LIFO"
+      },
+      {
+        "id": "C",
+        "text": "So rear identifies the newly inserted node as well as front"
+      },
+      {
+        "id": "D",
+        "text": "To reserve one node permanently"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For a one-node queue, front and rear both point to that node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-066",
+    "question": "Which operation is not normally O(1) in a basic linked queue that only maintains front and rear pointers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Find an arbitrary value"
+      },
+      {
+        "id": "B",
+        "text": "Peek at front"
+      },
+      {
+        "id": "C",
+        "text": "Enqueue at rear"
+      },
+      {
+        "id": "D",
+        "text": "Dequeue at front"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Searching for an arbitrary value may require scanning the queue.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-067",
+    "question": "A circular queue has capacity 5 and rear = 3. After a successful enqueue advances rear, what is the new rear index?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "(3 + 1) % 5 = 4.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-068",
+    "question": "A circular queue has capacity 5 and rear = 4. After a successful enqueue advances rear, what is the new rear index?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "(4 + 1) % 5 = 0, so the rear wraps to the first slot.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-069",
+    "question": "Which statement about the front and rear indices of a circular queue is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They always begin at index 1"
+      },
+      {
+        "id": "B",
+        "text": "They must always satisfy rear >= front"
+      },
+      {
+        "id": "C",
+        "text": "They may wrap around and are not required to increase monotonically"
+      },
+      {
+        "id": "D",
+        "text": "They can never have the same value"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Modulo indexing allows either index to wrap from the last array slot to zero.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "queue-070",
+    "question": "If a queue is used to schedule tasks in arrival order, what is the expected behavior when a new task is added?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is placed before all existing tasks"
+      },
+      {
+        "id": "B",
+        "text": "It immediately replaces the front task"
+      },
+      {
+        "id": "C",
+        "text": "It is served only if its priority is maximum"
+      },
+      {
+        "id": "D",
+        "text": "It normally joins behind tasks already waiting"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "FIFO queues preserve arrival order by adding new entries at the rear.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

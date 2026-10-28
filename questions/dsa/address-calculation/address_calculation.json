@@ -1,0 +1,652 @@
+[
+  {
+    "id": "array-address-001",
+    "question": "A one-dimensional array A has base address 1200, element size 4 bytes, and lower bound 0. What is the address of A[5]?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1224"
+      },
+      {
+        "id": "B",
+        "text": "1204"
+      },
+      {
+        "id": "C",
+        "text": "1220"
+      },
+      {
+        "id": "D",
+        "text": "1225"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Address = base + (index − lower bound) × element size = 1200 + (5−0)×4 = 1220.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-002",
+    "question": "A[1..10] is stored contiguously, each element occupies 2 bytes, and the base address is the address of A[1] = 500. What is the address of A[7]?",
+    "options": [
+      {
+        "id": "A",
+        "text": "510"
+      },
+      {
+        "id": "B",
+        "text": "508"
+      },
+      {
+        "id": "C",
+        "text": "514"
+      },
+      {
+        "id": "D",
+        "text": "512"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Offset = (7−1)×2 = 12 bytes; address = 500 + 12 = 512.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-003",
+    "question": "For a one-dimensional array with lower bound L, element size w bytes, and base address BA = address of A[L], the address of A[i] is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "BA + (i − L)w"
+      },
+      {
+        "id": "B",
+        "text": "BA + (i + L)w"
+      },
+      {
+        "id": "C",
+        "text": "BA + iw − L"
+      },
+      {
+        "id": "D",
+        "text": "BA × (i − L)w"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The element offset is the index difference from the lower bound multiplied by the element size.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-004",
+    "question": "A language stores A[−3..6] with 8-byte elements. If address(A[−3]) = 2000, what is address(A[2])?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2032"
+      },
+      {
+        "id": "B",
+        "text": "2024"
+      },
+      {
+        "id": "C",
+        "text": "2040"
+      },
+      {
+        "id": "D",
+        "text": "2008"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Index difference = 2 − (−3) = 5; byte offset = 5×8 = 40; address = 2040.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-005",
+    "question": "An array A[0..n−1] has element size w and base address BA = address(A[0]). Which expression gives address(A[n−1])?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BA + (n−1)w"
+      },
+      {
+        "id": "B",
+        "text": "BA + (n+1)w"
+      },
+      {
+        "id": "C",
+        "text": "BA + nw"
+      },
+      {
+        "id": "D",
+        "text": "BA + (n−1)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The last valid index is n−1, so its offset is (n−1) elements.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-006",
+    "question": "A two-dimensional array A[L1..U1, L2..U2] has row-major storage. Let N2 = U2−L2+1 and w be the element size. If BA is address(A[L1,L2]), address(A[i,j]) is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "BA + ((i−L1)+(j−L2))w"
+      },
+      {
+        "id": "B",
+        "text": "BA + (iN2+j)w"
+      },
+      {
+        "id": "C",
+        "text": "BA + ((i−L1)N2 + (j−L2))w"
+      },
+      {
+        "id": "D",
+        "text": "BA + ((j−L2)N2 + (i−L1))w"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Row-major ordering stores all columns of one row contiguously; the row offset is multiplied by the number of columns.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-007",
+    "question": "For a 3×4 row-major matrix of 2-byte elements, base address(A[0,0]) = 1000. What is address(A[2,1])?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1022"
+      },
+      {
+        "id": "B",
+        "text": "1018"
+      },
+      {
+        "id": "C",
+        "text": "1020"
+      },
+      {
+        "id": "D",
+        "text": "1010"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Linear offset = 2×4 + 1 = 9 elements; byte offset = 9×2 = 18; address = 1018.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-008",
+    "question": "For a 3×4 column-major matrix of 2-byte elements, base address(A[0,0]) = 1000. What is address(A[2,1])?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1010"
+      },
+      {
+        "id": "B",
+        "text": "1012"
+      },
+      {
+        "id": "C",
+        "text": "1016"
+      },
+      {
+        "id": "D",
+        "text": "1018"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Column-major offset = (column index × number of rows) + row index = 1×3 + 2 = 5 elements; address = 1000 + 5×2 = 1010.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-009",
+    "question": "A matrix has 5 rows and 7 columns. In row-major storage, how many elements are skipped when moving from A[i,j] to A[i+1,j] (same column, next row), ignoring the current element?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "35"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Moving to the same column in the next row advances by one row stride (7 elements); the number of intervening elements is 7−1 = 6.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-010",
+    "question": "A matrix has 4 rows and 6 columns. In column-major storage, what is the element stride between A[i,j] and A[i,j+1]?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 element"
+      },
+      {
+        "id": "B",
+        "text": "24 elements"
+      },
+      {
+        "id": "C",
+        "text": "4 elements"
+      },
+      {
+        "id": "D",
+        "text": "6 elements"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Column-major storage places each column contiguously, so moving to the next column advances by the number of rows.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-011",
+    "question": "A[2..6, 1..4] is stored row-major, each element uses 4 bytes, and address(A[2,1]) = 300. What is address(A[4,3])?",
+    "options": [
+      {
+        "id": "A",
+        "text": "332"
+      },
+      {
+        "id": "B",
+        "text": "344"
+      },
+      {
+        "id": "C",
+        "text": "336"
+      },
+      {
+        "id": "D",
+        "text": "340"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "There are 4 columns. Offset = (4−2)×4 + (3−1) = 10 elements; 10×4 = 40 bytes; address = 340.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-012",
+    "question": "A[1..4, −2..2] is stored column-major with 2-byte elements. If address(A[1,−2]) = 800, what is address(A[3,0])?",
+    "options": [
+      {
+        "id": "A",
+        "text": "828"
+      },
+      {
+        "id": "B",
+        "text": "820"
+      },
+      {
+        "id": "C",
+        "text": "824"
+      },
+      {
+        "id": "D",
+        "text": "816"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "There are 4 rows. Column-major offset = (0−(−2))×4 + (3−1) = 10 elements; 10×2 = 20 bytes; address = 820.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-013",
+    "question": "In row-major storage, a 2D array has bounds A[1..3, 1..5]. Which element is stored immediately after A[2,5]?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A[3,1]"
+      },
+      {
+        "id": "B",
+        "text": "A[1,1]"
+      },
+      {
+        "id": "C",
+        "text": "A[2,4]"
+      },
+      {
+        "id": "D",
+        "text": "A[3,5]"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Row-major storage completes a row before moving to the first element of the next row.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-014",
+    "question": "In column-major storage, a 3×4 array uses indices A[1..3,1..4]. Which element is stored immediately after A[2,2]?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A[1,3]"
+      },
+      {
+        "id": "B",
+        "text": "A[3,2]"
+      },
+      {
+        "id": "C",
+        "text": "A[2,3]"
+      },
+      {
+        "id": "D",
+        "text": "A[3,3]"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Column-major storage completes a column before moving to the first element of the next column.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-015",
+    "question": "An array dimension is declared as A[L..U], inclusive at both ends. How many elements does this dimension contain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "U×L"
+      },
+      {
+        "id": "B",
+        "text": "U+L+1"
+      },
+      {
+        "id": "C",
+        "text": "U−L"
+      },
+      {
+        "id": "D",
+        "text": "U−L+1"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Inclusive lower and upper bounds give U−L+1 elements.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-016",
+    "question": "A three-dimensional array has dimensions 2×3×4. How many scalar elements does it contain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "36"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiply the extents: 2×3×4 = 24 elements.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-017",
+    "question": "A[0..2, 0..3, 0..4] is stored row-major, element size 1 byte, base address(A[0,0,0]) = 100. What is the address of A[1,2,3]?",
+    "options": [
+      {
+        "id": "A",
+        "text": "128"
+      },
+      {
+        "id": "B",
+        "text": "131"
+      },
+      {
+        "id": "C",
+        "text": "133"
+      },
+      {
+        "id": "D",
+        "text": "135"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For dimensions 3×4×5, row-major offset = ((1×4)+2)×5 + 3 = 33 elements; with 1-byte elements, address = 100+33 = 133.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-018",
+    "question": "A[1..2,1..3,1..4] is stored column-major with 2-byte elements. Base address(A[1,1,1]) = 1000. What is address(A[2,2,3])?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1034"
+      },
+      {
+        "id": "B",
+        "text": "1030"
+      },
+      {
+        "id": "C",
+        "text": "1038"
+      },
+      {
+        "id": "D",
+        "text": "1026"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Column-major offset = (i−L1) + d1(j−L2) + d1d2(k−L3) = 1 + 2×1 + 2×3×2 = 15 elements; byte offset = 30; address = 1030.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-019",
+    "question": "A[1..10] stores 10 elements of 4 bytes each. If the base address is the address of A[1] and equals 400, what is the address of the one-past-the-end position A[11], if calculated mathematically?",
+    "options": [
+      {
+        "id": "A",
+        "text": "444"
+      },
+      {
+        "id": "B",
+        "text": "400"
+      },
+      {
+        "id": "C",
+        "text": "436"
+      },
+      {
+        "id": "D",
+        "text": "440"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The one-past-the-end address is base + 10×4 = 440; A[11] is not a valid array element, but the address calculation is a mathematical extension.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-020",
+    "question": "A 2D array has 6 rows and 8 columns. In row-major order, what is the linear element offset of A[4,5] when indices start at 0?",
+    "options": [
+      {
+        "id": "A",
+        "text": "32"
+      },
+      {
+        "id": "B",
+        "text": "45"
+      },
+      {
+        "id": "C",
+        "text": "37"
+      },
+      {
+        "id": "D",
+        "text": "29"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Offset = row×number_of_columns + column = 4×8+5 = 37 elements.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-021",
+    "question": "A 2D array has 6 rows and 8 columns. In column-major order, what is the linear element offset of A[4,5] when indices start at 0?",
+    "options": [
+      {
+        "id": "A",
+        "text": "37"
+      },
+      {
+        "id": "B",
+        "text": "29"
+      },
+      {
+        "id": "C",
+        "text": "35"
+      },
+      {
+        "id": "D",
+        "text": "34"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Offset = column×number_of_rows + row = 5×6+4 = 34 elements.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-022",
+    "question": "A row-major matrix has 10 columns and element size 4 bytes. How many bytes separate the addresses of A[i,j] and A[i+1,j] when both are valid?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "40"
+      },
+      {
+        "id": "C",
+        "text": "400"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The row stride is number of columns × element size = 10×4 = 40 bytes.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-023",
+    "question": "A column-major matrix has 12 rows and element size 8 bytes. How many bytes separate A[i,j] and A[i,j+1]?",
+    "options": [
+      {
+        "id": "A",
+        "text": "96"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "120"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The column stride is number of rows × element size = 12×8 = 96 bytes.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-024",
+    "question": "A[−2..3, 5..9] is stored row-major. Each element occupies 4 bytes and address(A[−2,5]) = 1000. What is address(A[1,7])?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1060"
+      },
+      {
+        "id": "B",
+        "text": "1068"
+      },
+      {
+        "id": "C",
+        "text": "1072"
+      },
+      {
+        "id": "D",
+        "text": "1052"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "There are 5 columns. Offset = (1−(−2))×5 + (7−5) = 17 elements; 17×4 = 68 bytes; address = 1068.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "array-address-025",
+    "question": "Which statement about address calculation for arrays is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The address formula depends on base address, element size, indices/bounds, dimensions, and storage order"
+      },
+      {
+        "id": "B",
+        "text": "The upper bound is never needed to calculate a multidimensional row stride"
+      },
+      {
+        "id": "C",
+        "text": "The base address alone determines every element address, regardless of element size and bounds"
+      },
+      {
+        "id": "D",
+        "text": "Row-major and column-major always give identical addresses for every non-first element"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Address calculation requires the layout convention, element size, dimensions/strides, bounds, and base-address convention.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

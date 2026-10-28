@@ -15,16 +15,22 @@
       "order": 2
     },
     {
+      "subjectId": "software-eng",
+      "subjectName": "software-eng",
+      "file": "questions/software-eng/index.json",
+      "order": 3
+    },
+    {
       "subjectId": "hindi",
       "subjectName": "Hindi",
       "file": "questions/hindi/index.json",
       "order": 4
     },
     {
-      "subjectId": "software-eng",
-      "subjectName": "software-eng",
-      "file": "questions/software-eng/index.json",
-      "order": 3
+      "subjectId": "dsa",
+      "subjectName": "dsa",
+      "file": "questions/dsa/index.json",
+      "order": 5
     }
   ]
 }

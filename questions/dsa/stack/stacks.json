@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "stack-001",
+    "question": "Which principle governs the order of removal in a stack?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Priority order"
+      },
+      {
+        "id": "B",
+        "text": "Random order"
+      },
+      {
+        "id": "C",
+        "text": "FIFO"
+      },
+      {
+        "id": "D",
+        "text": "LIFO"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "LIFO means the most recently pushed item is removed first.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-002",
+    "question": "A stack is best described as which abstract data type?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A structure that supports direct access to every item in constant time"
+      },
+      {
+        "id": "B",
+        "text": "A structure that always stores sorted data"
+      },
+      {
+        "id": "C",
+        "text": "A structure that permits insertion and deletion at one designated end"
+      },
+      {
+        "id": "D",
+        "text": "A structure that permits deletion only from the middle"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A stack ADT restricts the usual insertion and removal operations to the top.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-003",
+    "question": "In a conventional stack, where are both push and pop performed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At the middle"
+      },
+      {
+        "id": "B",
+        "text": "At the top"
+      },
+      {
+        "id": "C",
+        "text": "At the bottom"
+      },
+      {
+        "id": "D",
+        "text": "At any arbitrary position"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The top is the designated end for stack insertion and removal.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-004",
+    "question": "What does the `push` operation do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adds an element to the top"
+      },
+      {
+        "id": "B",
+        "text": "Reverses the order of all elements"
+      },
+      {
+        "id": "C",
+        "text": "Removes the top element"
+      },
+      {
+        "id": "D",
+        "text": "Returns the stack size and clears it"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Push inserts a new item at the top of the stack.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-005",
+    "question": "What does `pop` normally do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adds an item at the top"
+      },
+      {
+        "id": "B",
+        "text": "Returns the bottom element without changing the stack"
+      },
+      {
+        "id": "C",
+        "text": "Sorts the stack"
+      },
+      {
+        "id": "D",
+        "text": "Removes and returns the top element"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pop removes the top item; implementations may also return its value.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-006",
+    "question": "What is the main purpose of `peek` or `top`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inspect the top item without removing it"
+      },
+      {
+        "id": "B",
+        "text": "Check whether the stack is sorted"
+      },
+      {
+        "id": "C",
+        "text": "Insert an item below the top"
+      },
+      {
+        "id": "D",
+        "text": "Remove the top item permanently"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Peek/top reads the current top element without changing the stack.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-007",
+    "question": "What should `isEmpty()` report for a stack containing zero elements?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Overflow"
+      },
+      {
+        "id": "B",
+        "text": "The previous top index"
+      },
+      {
+        "id": "C",
+        "text": "False"
+      },
+      {
+        "id": "D",
+        "text": "True"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "An empty stack contains no elements, so isEmpty returns true.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-008",
+    "question": "Under the common array-stack convention where `top = -1` initially, what does `top = -1` indicate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The array is full"
+      },
+      {
+        "id": "B",
+        "text": "The stack is empty"
+      },
+      {
+        "id": "C",
+        "text": "The next element is at index -1 in memory"
+      },
+      {
+        "id": "D",
+        "text": "The stack has one element"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "With zero-based array storage, -1 is a common empty-stack marker.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-009",
+    "question": "For an array stack of capacity N using zero-based indices, what is the index of the last valid array slot?",
+    "options": [
+      {
+        "id": "A",
+        "text": "N - 1"
+      },
+      {
+        "id": "B",
+        "text": "-1"
+      },
+      {
+        "id": "C",
+        "text": "N + 1"
+      },
+      {
+        "id": "D",
+        "text": "N"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The N slots are indexed from 0 through N-1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-010",
+    "question": "In an array stack of capacity N with `top` storing the current top index, the stack is full when:",
+    "options": [
+      {
+        "id": "A",
+        "text": "top == 0"
+      },
+      {
+        "id": "B",
+        "text": "top == N"
+      },
+      {
+        "id": "C",
+        "text": "top == N - 1"
+      },
+      {
+        "id": "D",
+        "text": "top == -1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The last available slot has index N-1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-011",
+    "question": "What is stack underflow?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trying to pop or inspect a top element when the stack is empty"
+      },
+      {
+        "id": "B",
+        "text": "Trying to push into a full fixed-size stack"
+      },
+      {
+        "id": "C",
+        "text": "Increasing the stack capacity"
+      },
+      {
+        "id": "D",
+        "text": "Using a linked implementation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Underflow refers to an attempted removal/access from an empty stack.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-012",
+    "question": "What is stack overflow in a fixed-size array implementation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Popping the final item"
+      },
+      {
+        "id": "B",
+        "text": "Attempting to add an item when no capacity remains"
+      },
+      {
+        "id": "C",
+        "text": "Setting top to -1 after clearing the stack"
+      },
+      {
+        "id": "D",
+        "text": "Peeking at a non-empty stack"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A fixed-size stack overflows when a push is attempted at capacity.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-013",
+    "question": "Which is a valid difference between a stack ADT and a particular stack implementation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The ADT requires a fixed capacity"
+      },
+      {
+        "id": "B",
+        "text": "The implementation determines that LIFO does not apply"
+      },
+      {
+        "id": "C",
+        "text": "The ADT specifies behavior; an implementation chooses storage and code"
+      },
+      {
+        "id": "D",
+        "text": "The ADT always requires an array"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The ADT describes operations and semantics, while implementation details may vary.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-014",
+    "question": "Which is a valid stack implementation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only a binary search tree"
+      },
+      {
+        "id": "B",
+        "text": "Either an array or linked nodes"
+      },
+      {
+        "id": "C",
+        "text": "Array-based storage"
+      },
+      {
+        "id": "D",
+        "text": "Linked nodes"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Stacks can be implemented using arrays or linked lists.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-015",
+    "question": "In an array-based stack, which item is usually stored at `array[top]`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The most recently pushed item still in the stack"
+      },
+      {
+        "id": "B",
+        "text": "The bottom item"
+      },
+      {
+        "id": "C",
+        "text": "The stack capacity"
+      },
+      {
+        "id": "D",
+        "text": "The next unused slot"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The top index points to the most recently inserted item that has not been popped.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-016",
+    "question": "In a linked-list stack, a common efficient choice is to use the head node as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The bottom, so every pop traverses the list"
+      },
+      {
+        "id": "B",
+        "text": "A sentinel that cannot store data"
+      },
+      {
+        "id": "C",
+        "text": "The top, so push and pop can be constant time"
+      },
+      {
+        "id": "D",
+        "text": "A capacity counter only"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Head insertion and deletion take O(1), making the head a convenient stack top.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-017",
+    "question": "What is the usual time complexity of push in a stack implemented with a fixed-size array, assuming capacity is available?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(1)"
+      },
+      {
+        "id": "C",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Push typically increments top and writes one array element.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-018",
+    "question": "What is the usual time complexity of pop in an array-based stack?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1)"
+      },
+      {
+        "id": "B",
+        "text": "O(log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n²)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pop reads/removes the top item and updates top in constant time.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-019",
+    "question": "What is the usual time complexity of peek/top?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n)"
+      },
+      {
+        "id": "C",
+        "text": "O(1)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The top item is directly identified by the top index or top node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-020",
+    "question": "What is the time complexity of push in a linked-list stack when insertion is at the head?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1)"
+      },
+      {
+        "id": "B",
+        "text": "O(n)"
+      },
+      {
+        "id": "C",
+        "text": "O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n²)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A new node can be attached at the head using a constant number of pointer updates.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-021",
+    "question": "Which operation normally requires O(n) time if the stack offers only standard top access?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peek"
+      },
+      {
+        "id": "B",
+        "text": "Push"
+      },
+      {
+        "id": "C",
+        "text": "Pop"
+      },
+      {
+        "id": "D",
+        "text": "Searching for an arbitrary value"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "An arbitrary value may be anywhere, so the stack may need to be traversed or temporarily popped.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-022",
+    "question": "Which statement about a fixed-size array stack is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Its capacity is bounded by the allocated array size"
+      },
+      {
+        "id": "B",
+        "text": "It needs a pointer field in every element"
+      },
+      {
+        "id": "C",
+        "text": "It grows automatically without any implementation support"
+      },
+      {
+        "id": "D",
+        "text": "It never overflows"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A fixed array has a predetermined number of available slots.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-023",
+    "question": "A dynamically growing array stack reaches capacity. What may the implementation do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reject all future pushes permanently by definition"
+      },
+      {
+        "id": "B",
+        "text": "Set top to -1"
+      },
+      {
+        "id": "C",
+        "text": "Allocate a larger array and copy elements"
+      },
+      {
+        "id": "D",
+        "text": "Convert every item into a linked-list node automatically by definition"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Dynamic arrays can grow by allocating larger storage and copying existing items.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-024",
+    "question": "What is a common advantage of a linked-list stack over a fixed-size array stack?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can grow node by node until memory/resources are exhausted"
+      },
+      {
+        "id": "B",
+        "text": "It has guaranteed O(1) random access"
+      },
+      {
+        "id": "C",
+        "text": "It uses no extra pointer memory"
+      },
+      {
+        "id": "D",
+        "text": "It can never run out of memory"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Linked stacks need not reserve a fixed capacity in advance, though memory is still finite.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-025",
+    "question": "What is a common disadvantage of a linked-list stack?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It must shift every item on pop"
+      },
+      {
+        "id": "B",
+        "text": "It cannot implement push"
+      },
+      {
+        "id": "C",
+        "text": "It requires all nodes to be contiguous"
+      },
+      {
+        "id": "D",
+        "text": "Each node needs link storage and allocation overhead"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pointers and per-node allocation increase memory and runtime overhead.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-026",
+    "question": "After popping the only element from a stack, the stack should be:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Circular"
+      },
+      {
+        "id": "B",
+        "text": "Empty"
+      },
+      {
+        "id": "C",
+        "text": "In an overflow state"
+      },
+      {
+        "id": "D",
+        "text": "Full"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Removing the sole item leaves no elements in the stack.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-027",
+    "question": "In an array stack where `top` is the index of the current top element, a successful push usually performs which update?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increment top, then store the new element at array[top]"
+      },
+      {
+        "id": "B",
+        "text": "Set top to -1 after every push"
+      },
+      {
+        "id": "C",
+        "text": "Write at top, then decrement top"
+      },
+      {
+        "id": "D",
+        "text": "Set top to capacity"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "With top initialized to -1, incrementing first yields index 0 for the first push.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-028",
+    "question": "In the same convention, a successful pop usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Moves the bottom element to the top"
+      },
+      {
+        "id": "B",
+        "text": "Increments top and reads array[top]"
+      },
+      {
+        "id": "C",
+        "text": "Reads array[top] and then decrements top"
+      },
+      {
+        "id": "D",
+        "text": "Sets top to capacity-1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The current top value is retrieved, then top moves to the previous item.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-029",
+    "question": "Which edge case must be handled by pop in a stack implementation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The top value is positive"
+      },
+      {
+        "id": "B",
+        "text": "The stack is empty"
+      },
+      {
+        "id": "C",
+        "text": "The capacity is a prime number"
+      },
+      {
+        "id": "D",
+        "text": "The stack is sorted"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Popping an empty stack must be detected or handled according to the API contract.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-030",
+    "question": "Why should `peek` generally check for an empty stack first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because an empty stack is always full"
+      },
+      {
+        "id": "B",
+        "text": "Because peek requires sorting"
+      },
+      {
+        "id": "C",
+        "text": "Because there is no valid top element to read"
+      },
+      {
+        "id": "D",
+        "text": "Because peek always deletes an item"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Without an element, reading the top would be invalid or undefined.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-031",
+    "question": "If the push sequence is A, then B, then C, which item is popped first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "C"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "The item with the smallest value"
+      },
+      {
+        "id": "D",
+        "text": "A"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Stack removal follows LIFO, so the latest pushed item is removed first.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-032",
+    "question": "Starting from an empty stack, perform push(4), push(7), pop(), push(9). What is the top item?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "The stack is empty"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "After 7 is popped, 4 remains; pushing 9 makes 9 the new top.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-033",
+    "question": "Starting from an empty stack, perform push(2), push(5), pop(), pop(). What remains?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only 2"
+      },
+      {
+        "id": "B",
+        "text": "Two elements remain"
+      },
+      {
+        "id": "C",
+        "text": "The stack is empty"
+      },
+      {
+        "id": "D",
+        "text": "Only 5"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The first pop removes 5 and the second removes 2.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-034",
+    "question": "Which property does a stack NOT inherently guarantee?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Automatic sorting by value"
+      },
+      {
+        "id": "B",
+        "text": "A top element when non-empty"
+      },
+      {
+        "id": "C",
+        "text": "LIFO removal"
+      },
+      {
+        "id": "D",
+        "text": "Insertion and removal at the top"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A stack controls access order, not the relative order of values.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-035",
+    "question": "Why is a stack considered a restricted-access data structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It must have exactly two elements"
+      },
+      {
+        "id": "B",
+        "text": "Only a limited end is used for ordinary insertion and removal"
+      },
+      {
+        "id": "C",
+        "text": "It always stores only integers"
+      },
+      {
+        "id": "D",
+        "text": "It allows direct access to all internal elements"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Standard stack operations expose the top rather than arbitrary positions.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-036",
+    "question": "What is the key storage difference between a stack and a queue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither defines an access order"
+      },
+      {
+        "id": "B",
+        "text": "Both must remove the newest item first"
+      },
+      {
+        "id": "C",
+        "text": "A stack is LIFO, while a queue is FIFO"
+      },
+      {
+        "id": "D",
+        "text": "A stack is FIFO, while a queue is LIFO"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A queue normally removes the earliest inserted item; a stack removes the latest.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-037",
+    "question": "Which situation is a natural stack use?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Processing items strictly in arrival order"
+      },
+      {
+        "id": "B",
+        "text": "Keeping track of nested function calls"
+      },
+      {
+        "id": "C",
+        "text": "Maintaining a sorted sequence automatically"
+      },
+      {
+        "id": "D",
+        "text": "Selecting the minimum item in O(1) without extra design"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Function calls nest, and the most recent call must return before its caller resumes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-038",
+    "question": "When a function calls another function, the call stack typically records:",
+    "options": [
+      {
+        "id": "A",
+        "text": "All heap objects in sorted order"
+      },
+      {
+        "id": "B",
+        "text": "Only global variables"
+      },
+      {
+        "id": "C",
+        "text": "Only the source-code file name"
+      },
+      {
+        "id": "D",
+        "text": "Return information and call-specific state such as local variables"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A stack frame commonly holds return address, parameters, saved state and local data.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-039",
+    "question": "What is recursion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A function can only be called once"
+      },
+      {
+        "id": "B",
+        "text": "A stack operation that deletes all nodes"
+      },
+      {
+        "id": "C",
+        "text": "A function directly or indirectly calls itself"
+      },
+      {
+        "id": "D",
+        "text": "A sorting method that always uses queues"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Recursive execution creates nested calls, typically represented by call-stack frames.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-040",
+    "question": "What can happen if recursion continues without reaching a base case?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The stack automatically sorts the calls"
+      },
+      {
+        "id": "B",
+        "text": "The stack depth may grow until a stack overflow or resource exhaustion occurs"
+      },
+      {
+        "id": "C",
+        "text": "The call stack becomes a queue"
+      },
+      {
+        "id": "D",
+        "text": "The function returns after one call by definition"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Unbounded recursive calls can exhaust available call-stack resources.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-041",
+    "question": "In an undo feature, why is a stack a suitable structure for storing actions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The earliest action must always be undone first"
+      },
+      {
+        "id": "B",
+        "text": "Actions are automatically grouped by type"
+      },
+      {
+        "id": "C",
+        "text": "A stack provides random access to all actions"
+      },
+      {
+        "id": "D",
+        "text": "The most recent action is typically undone first"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Undo generally reverses the most recent operation before earlier operations.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-042",
+    "question": "Which data structure is commonly used to support depth-first search iteratively?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sorted array only"
+      },
+      {
+        "id": "B",
+        "text": "Stack"
+      },
+      {
+        "id": "C",
+        "text": "Queue only"
+      },
+      {
+        "id": "D",
+        "text": "Hash table only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "DFS explores a path deeply before backtracking, which a stack can manage.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-043",
+    "question": "A balanced-delimiter checker commonly uses a stack because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A stack makes every string comparison O(1)"
+      },
+      {
+        "id": "B",
+        "text": "Delimiters are always sorted"
+      },
+      {
+        "id": "C",
+        "text": "The first opening delimiter must close first"
+      },
+      {
+        "id": "D",
+        "text": "The most recently opened unmatched delimiter should be matched first"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Nested delimiters close in reverse order of opening.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-044",
+    "question": "For a correctly balanced expression, when a closing parenthesis is encountered during stack-based matching, what is normally required?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pop a matching opening parenthesis from the top"
+      },
+      {
+        "id": "B",
+        "text": "Sort the opening parentheses"
+      },
+      {
+        "id": "C",
+        "text": "Clear the entire stack"
+      },
+      {
+        "id": "D",
+        "text": "Push the closing parenthesis and ignore the top"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The most recent unmatched opening delimiter must match the closing delimiter.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-045",
+    "question": "Which condition is necessary at the end of a delimiter-matching scan for the expression to be balanced?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The stack must be sorted"
+      },
+      {
+        "id": "B",
+        "text": "The stack must contain at least one opening delimiter"
+      },
+      {
+        "id": "C",
+        "text": "The stack must contain only closing delimiters"
+      },
+      {
+        "id": "D",
+        "text": "The stack must be empty and no mismatch may have occurred"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Any leftover opening delimiter indicates an unmatched opener.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-046",
+    "question": "In postfix notation, where is the operator placed relative to its operands?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Between the two operands"
+      },
+      {
+        "id": "B",
+        "text": "After the operands"
+      },
+      {
+        "id": "C",
+        "text": "Only at the beginning"
+      },
+      {
+        "id": "D",
+        "text": "Before the operands"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Postfix places the operator after its operand(s), e.g. AB+.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-047",
+    "question": "In prefix notation, where is a binary operator placed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At the end of the whole expression only"
+      },
+      {
+        "id": "B",
+        "text": "After both operands"
+      },
+      {
+        "id": "C",
+        "text": "Between its operands"
+      },
+      {
+        "id": "D",
+        "text": "Before its operands"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Prefix notation places the operator before its operands, e.g. +AB.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-048",
+    "question": "Which is the postfix form of the infix expression `A + B`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BA+"
+      },
+      {
+        "id": "B",
+        "text": "A+B"
+      },
+      {
+        "id": "C",
+        "text": "AB+"
+      },
+      {
+        "id": "D",
+        "text": "+AB"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For a single addition, the operands appear first followed by the operator.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-049",
+    "question": "Which is the prefix form of the infix expression `A + B`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A+B"
+      },
+      {
+        "id": "B",
+        "text": "AB+"
+      },
+      {
+        "id": "C",
+        "text": "BA+"
+      },
+      {
+        "id": "D",
+        "text": "+AB"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Prefix notation places + before A and B.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-050",
+    "question": "Why are parentheses often unnecessary in a valid postfix expression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parentheses are automatically evaluated as numbers"
+      },
+      {
+        "id": "B",
+        "text": "Every operator has the same precedence"
+      },
+      {
+        "id": "C",
+        "text": "Operator order and operand placement encode the evaluation order"
+      },
+      {
+        "id": "D",
+        "text": "Postfix expressions contain no operators"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The postfix sequence explicitly determines when operators are applied.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-051",
+    "question": "When converting infix to postfix, which operator is generally popped from the operator stack before pushing a new operator of lower precedence?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An operator of lower precedence only"
+      },
+      {
+        "id": "B",
+        "text": "No operators under any circumstances"
+      },
+      {
+        "id": "C",
+        "text": "Every operand on the stack"
+      },
+      {
+        "id": "D",
+        "text": "An operator of higher precedence on the stack"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Higher-precedence operators must be output before a lower-precedence operator; associativity also matters for equal precedence.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-052",
+    "question": "For most programming-language arithmetic conventions, which operator has higher precedence?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Subtraction (-)"
+      },
+      {
+        "id": "B",
+        "text": "Multiplication (*)"
+      },
+      {
+        "id": "C",
+        "text": "They always have equal precedence"
+      },
+      {
+        "id": "D",
+        "text": "Addition (+)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Multiplication normally binds more tightly than addition.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-053",
+    "question": "For left-associative subtraction, `A - B - C` is interpreted as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "(A - B) - C"
+      },
+      {
+        "id": "B",
+        "text": "A - (B + C)"
+      },
+      {
+        "id": "C",
+        "text": "A - (B - C)"
+      },
+      {
+        "id": "D",
+        "text": "(A - C) - B"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Left associativity groups equal-precedence subtraction from left to right.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-054",
+    "question": "Which infix expression is represented by postfix `AB+C*`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A + B + C"
+      },
+      {
+        "id": "B",
+        "text": "A + (B * C)"
+      },
+      {
+        "id": "C",
+        "text": "A * (B + C)"
+      },
+      {
+        "id": "D",
+        "text": "(A + B) * C"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "AB+ evaluates A+B first; the following * combines that result with C.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-055",
+    "question": "When evaluating a postfix expression with a stack, what is done when an operand is read?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Push the operator"
+      },
+      {
+        "id": "B",
+        "text": "Clear the stack"
+      },
+      {
+        "id": "C",
+        "text": "Push the operand onto the stack"
+      },
+      {
+        "id": "D",
+        "text": "Pop two operands and discard them"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Operands are pushed until an operator needs them.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-056",
+    "question": "When evaluating a binary operator in postfix notation, which operand is normally popped first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The operator's result"
+      },
+      {
+        "id": "B",
+        "text": "The right operand"
+      },
+      {
+        "id": "C",
+        "text": "The bottom of the stack"
+      },
+      {
+        "id": "D",
+        "text": "The left operand"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The first popped value is the right operand; the next popped value is the left operand.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-057",
+    "question": "Evaluate postfix `2 3 +`.",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "23"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Push 2 and 3, then apply + to obtain 5.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-058",
+    "question": "Evaluate postfix `5 2 -`.",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "-3"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "2.5"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pop right operand 2, then left operand 5; compute 5 - 2 = 3.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-059",
+    "question": "Which is a valid advantage of postfix notation for machine evaluation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It eliminates the need to store operands"
+      },
+      {
+        "id": "B",
+        "text": "It guarantees every expression has the same result"
+      },
+      {
+        "id": "C",
+        "text": "It can be evaluated using a simple stack without precedence parsing during evaluation"
+      },
+      {
+        "id": "D",
+        "text": "It always uses fewer symbols than infix"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The postfix order already encodes operator application order.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-060",
+    "question": "What is a common use of a stack in backtracking?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Replacing every recursive function with constant memory"
+      },
+      {
+        "id": "B",
+        "text": "Sorting all possible solutions automatically"
+      },
+      {
+        "id": "C",
+        "text": "Guaranteeing a solution exists"
+      },
+      {
+        "id": "D",
+        "text": "Remembering choices or states to return to the most recent decision point"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Backtracking often returns to the most recent unresolved choice.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-061",
+    "question": "If a fixed-size stack has capacity 5 and currently contains 5 items, what happens on another push in a safe implementation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It changes LIFO to FIFO"
+      },
+      {
+        "id": "B",
+        "text": "It must overwrite the oldest item"
+      },
+      {
+        "id": "C",
+        "text": "It reports or handles overflow"
+      },
+      {
+        "id": "D",
+        "text": "It decrements top and succeeds"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "No free slot remains, so the implementation must prevent an invalid write or grow storage if supported.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-062",
+    "question": "A stack has `top = -1` initially. After three successful pushes, what is `top`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "-1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The pushes use indices 0, 1 and 2.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-063",
+    "question": "Which statement about a dynamically growing array stack is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A push that triggers resizing may take O(n), though push is often amortized O(1)"
+      },
+      {
+        "id": "B",
+        "text": "Every push is guaranteed worst-case O(1)"
+      },
+      {
+        "id": "C",
+        "text": "Resizing always takes O(1)"
+      },
+      {
+        "id": "D",
+        "text": "A dynamic array never copies elements"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Resizing copies existing elements, but geometric growth makes the amortized push cost constant.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-064",
+    "question": "Which notation is most useful when operators have different precedence and parentheses must be respected during conversion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Postfix"
+      },
+      {
+        "id": "B",
+        "text": "The notation alone does not determine precedence"
+      },
+      {
+        "id": "C",
+        "text": "Infix"
+      },
+      {
+        "id": "D",
+        "text": "Prefix"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Infix places operators between operands, so precedence and parentheses guide parsing/conversion.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-065",
+    "question": "In postfix evaluation, what should be true after a valid expression with one final result has been completely processed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The stack contains exactly one result"
+      },
+      {
+        "id": "B",
+        "text": "The stack contains exactly two operands"
+      },
+      {
+        "id": "C",
+        "text": "The stack contains every operator"
+      },
+      {
+        "id": "D",
+        "text": "The stack is necessarily empty"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A well-formed postfix expression reduces its operands to one final value.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-066",
+    "question": "Which statement about operator associativity is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It determines the memory size of an operand"
+      },
+      {
+        "id": "B",
+        "text": "It determines grouping when operators of equal precedence appear together"
+      },
+      {
+        "id": "C",
+        "text": "It always overrides parentheses"
+      },
+      {
+        "id": "D",
+        "text": "It is relevant only to linked-list stacks"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Associativity specifies grouping for operators at the same precedence level.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-067",
+    "question": "A function returns to its caller. Which call-stack behavior normally occurs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All earlier frames are permanently deleted"
+      },
+      {
+        "id": "B",
+        "text": "The stack is converted into a queue"
+      },
+      {
+        "id": "C",
+        "text": "The caller's frame is always pushed below the heap"
+      },
+      {
+        "id": "D",
+        "text": "The caller's frame becomes the active frame again after the callee's frame is removed"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Returning removes the current call frame and resumes the caller.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-068",
+    "question": "Which expression is balanced?",
+    "options": [
+      {
+        "id": "A",
+        "text": "`((()`"
+      },
+      {
+        "id": "B",
+        "text": "`([{}])`"
+      },
+      {
+        "id": "C",
+        "text": "`{[}]`"
+      },
+      {
+        "id": "D",
+        "text": "`([)]`"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each closing delimiter matches the most recent unmatched opening delimiter.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-069",
+    "question": "Which pair correctly matches the expression notation and its operator placement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prefix — operator after operands"
+      },
+      {
+        "id": "B",
+        "text": "Infix — operator before operands"
+      },
+      {
+        "id": "C",
+        "text": "Postfix — operator between operands"
+      },
+      {
+        "id": "D",
+        "text": "Postfix — operator after operands"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Postfix places operators after their operands.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "stack-070",
+    "question": "Which is the usual result of popping from a stack and then immediately peeking, assuming at least two items were present before the pop?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peek returns the item that was second from the top before the pop"
+      },
+      {
+        "id": "B",
+        "text": "Peek returns the bottom item in every stack"
+      },
+      {
+        "id": "C",
+        "text": "Peek returns the item that was popped"
+      },
+      {
+        "id": "D",
+        "text": "Peek reports overflow"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pop removes the former top; the next item becomes the new top and is returned by peek.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

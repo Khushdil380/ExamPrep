@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "bst-balanced-001",
+    "question": "Which condition must hold for every node in a BST that uses distinct keys?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Each node must have exactly two children"
+      },
+      {
+        "id": "B",
+        "text": "All leaves must occur at the same level"
+      },
+      {
+        "id": "C",
+        "text": "Only the immediate left child must be smaller; deeper descendants are unrestricted"
+      },
+      {
+        "id": "D",
+        "text": "Every key in the left subtree is smaller and every key in the right subtree is larger"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The BST ordering rule applies to the entire left and right subtrees, not just immediate children.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-002",
+    "question": "When searching for key 42 at a BST node containing 35, where should the search continue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Right subtree"
+      },
+      {
+        "id": "B",
+        "text": "Stop because 42 is not the root"
+      },
+      {
+        "id": "C",
+        "text": "Both subtrees"
+      },
+      {
+        "id": "D",
+        "text": "Left subtree"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since 42 is greater than 35, follow the right subtree.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-003",
+    "question": "In a BST with distinct keys, which traversal produces keys in increasing order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Preorder"
+      },
+      {
+        "id": "B",
+        "text": "Level-order"
+      },
+      {
+        "id": "C",
+        "text": "Inorder"
+      },
+      {
+        "id": "D",
+        "text": "Postorder"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Inorder visits left subtree, node, then right subtree, producing sorted keys in a BST.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-004",
+    "question": "To find the minimum key in a nonempty BST, follow:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Any leaf link"
+      },
+      {
+        "id": "B",
+        "text": "Left links until null"
+      },
+      {
+        "id": "C",
+        "text": "Right links until null"
+      },
+      {
+        "id": "D",
+        "text": "Parent links to the root only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The minimum key is at the leftmost node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-005",
+    "question": "To find the maximum key in a nonempty BST, follow:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Left links until null"
+      },
+      {
+        "id": "B",
+        "text": "The first leaf encountered"
+      },
+      {
+        "id": "C",
+        "text": "Right links until null"
+      },
+      {
+        "id": "D",
+        "text": "The root's parent link"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The maximum key is at the rightmost node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-006",
+    "question": "In an unbalanced BST, searching for a key can take worst-case time:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(log log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(1)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A degenerate BST can have height n − 1, making search linear.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-007",
+    "question": "For a reasonably balanced BST, search, insertion and deletion typically take:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1) in all cases"
+      },
+      {
+        "id": "B",
+        "text": "O(n²)"
+      },
+      {
+        "id": "C",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "When height is logarithmic, these operations follow a path of O(log n) nodes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-008",
+    "question": "Insert 40, 20, 60, 10 into an initially empty BST. What is the parent of 10?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 has no parent"
+      },
+      {
+        "id": "B",
+        "text": "20"
+      },
+      {
+        "id": "C",
+        "text": "60"
+      },
+      {
+        "id": "D",
+        "text": "40"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "10 < 40, then 10 < 20, so 10 becomes the left child of 20.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-009",
+    "question": "Insert 50, 30, 70, 20, 40, 60, 80. What is the inorder traversal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20, 30, 40, 50, 60, 70, 80"
+      },
+      {
+        "id": "B",
+        "text": "80, 70, 60, 50, 40, 30, 20"
+      },
+      {
+        "id": "C",
+        "text": "50, 30, 20, 40, 70, 60, 80"
+      },
+      {
+        "id": "D",
+        "text": "20, 40, 30, 60, 80, 70, 50"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Inorder traversal of a BST lists distinct keys in ascending order.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-010",
+    "question": "In a BST, deleting a leaf node usually requires:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Replacing it with its inorder successor"
+      },
+      {
+        "id": "B",
+        "text": "Rebuilding the entire tree"
+      },
+      {
+        "id": "C",
+        "text": "Removing the node and clearing its parent's corresponding link"
+      },
+      {
+        "id": "D",
+        "text": "Rotating every ancestor"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A leaf has no children, so its parent's link can simply be set to null.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-011",
+    "question": "When deleting a BST node with exactly one child, the usual operation is to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Leave the node but change its value to zero"
+      },
+      {
+        "id": "B",
+        "text": "Always delete its child too"
+      },
+      {
+        "id": "C",
+        "text": "Always replace it with the maximum key"
+      },
+      {
+        "id": "D",
+        "text": "Replace it with the child by linking the parent to that child"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The node is bypassed and its sole child is linked into its place.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-012",
+    "question": "When deleting a BST node with two children, a common method is to replace its key with:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The root key in every case"
+      },
+      {
+        "id": "B",
+        "text": "Its inorder successor or predecessor"
+      },
+      {
+        "id": "C",
+        "text": "Any random key"
+      },
+      {
+        "id": "D",
+        "text": "The smallest key in the whole tree regardless of subtree"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The inorder successor or predecessor preserves the BST ordering property.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-013",
+    "question": "The inorder successor of a node is the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parent in all cases"
+      },
+      {
+        "id": "B",
+        "text": "Leftmost key in the whole tree in all cases"
+      },
+      {
+        "id": "C",
+        "text": "Smallest key greater than it"
+      },
+      {
+        "id": "D",
+        "text": "Largest key smaller than it"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The successor is the next larger key in inorder order.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-014",
+    "question": "The inorder predecessor of a node is the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Next node visited in preorder"
+      },
+      {
+        "id": "B",
+        "text": "Right child in all cases"
+      },
+      {
+        "id": "C",
+        "text": "Smallest key greater than it"
+      },
+      {
+        "id": "D",
+        "text": "Largest key smaller than it"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The predecessor is the next smaller key in inorder order.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-015",
+    "question": "If a node has a right subtree, its inorder successor is found by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Taking the right child and then going left as far as possible"
+      },
+      {
+        "id": "B",
+        "text": "Moving to the root unconditionally"
+      },
+      {
+        "id": "C",
+        "text": "Taking the left child and then going right"
+      },
+      {
+        "id": "D",
+        "text": "Choosing the rightmost node of the right subtree"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The successor is the minimum node in the right subtree.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-016",
+    "question": "If a node has no right subtree, its inorder successor can be found by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Selecting the root regardless of structure"
+      },
+      {
+        "id": "B",
+        "text": "Moving upward until it is a left child of an ancestor"
+      },
+      {
+        "id": "C",
+        "text": "Moving upward until it is a right child of an ancestor"
+      },
+      {
+        "id": "D",
+        "text": "Choosing its leftmost descendant"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The first ancestor for which the node lies in its left subtree is the successor.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-017",
+    "question": "What is a common duplicate-key policy in BST implementations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Duplicates must always be stored at the root"
+      },
+      {
+        "id": "B",
+        "text": "Duplicates make all BST operations impossible"
+      },
+      {
+        "id": "C",
+        "text": "Reject duplicates or consistently place them on a chosen side / count them"
+      },
+      {
+        "id": "D",
+        "text": "Duplicate keys must be stored only in leaves"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Implementations define a consistent policy such as rejecting duplicates, counting them, or routing equals consistently.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-018",
+    "question": "Inserting already sorted ascending keys into an ordinary BST without balancing tends to create a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perfect tree"
+      },
+      {
+        "id": "B",
+        "text": "Right-skewed tree"
+      },
+      {
+        "id": "C",
+        "text": "Left-skewed tree"
+      },
+      {
+        "id": "D",
+        "text": "Complete tree"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each new larger key becomes the right child of the previous node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-019",
+    "question": "For n distinct keys inserted in ascending order into an ordinary BST, search for the largest key in the worst case may inspect:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n) nodes"
+      },
+      {
+        "id": "B",
+        "text": "log₂ n nodes exactly"
+      },
+      {
+        "id": "C",
+        "text": "1 node"
+      },
+      {
+        "id": "D",
+        "text": "Θ(log log n) nodes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The resulting right-skewed tree can require visiting all n nodes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-020",
+    "question": "Why is a BST's average-case O(log n) performance not a worst-case guarantee?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BSTs cannot store integers"
+      },
+      {
+        "id": "B",
+        "text": "Inorder traversal is always linear"
+      },
+      {
+        "id": "C",
+        "text": "Every BST is automatically balanced"
+      },
+      {
+        "id": "D",
+        "text": "Insertion order can create a highly skewed shape"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "An ordinary BST does not rebalance itself, so some insertion orders produce linear height.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-021",
+    "question": "For a BST with distinct keys, the root key after inserting 25, 15, 35, 10, 20 is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "35"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The first inserted key becomes the root.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-022",
+    "question": "Insert 8, 3, 10, 1, 6, 14, 4 into a BST. Which key is the parent of 4?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "4 < 8, > 3, and < 6, so it becomes the left child of 6.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-023",
+    "question": "A BST node has two children. Its inorder successor has which property?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It must be the root"
+      },
+      {
+        "id": "B",
+        "text": "It must have two children"
+      },
+      {
+        "id": "C",
+        "text": "It is always the node's parent"
+      },
+      {
+        "id": "D",
+        "text": "It has no left child"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The successor is the leftmost node of the right subtree, so it cannot have a left child.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-024",
+    "question": "Which is the most appropriate way to preserve BST order after deleting a node with two children?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Swap it with the root without checking keys"
+      },
+      {
+        "id": "B",
+        "text": "Replace it with its inorder successor and remove that successor from its old position"
+      },
+      {
+        "id": "C",
+        "text": "Delete both subtrees"
+      },
+      {
+        "id": "D",
+        "text": "Replace it with an arbitrary leaf key"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Replacing with the successor and then removing the successor from its old position preserves ordering.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-025",
+    "question": "An AVL tree is a BST in which each node's balance factor is commonly defined as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Left key − right key"
+      },
+      {
+        "id": "B",
+        "text": "Number of leaves in the whole tree"
+      },
+      {
+        "id": "C",
+        "text": "Height(left subtree) − height(right subtree)"
+      },
+      {
+        "id": "D",
+        "text": "Number of descendants − number of ancestors"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "AVL balance factor is the difference between left and right subtree heights; some texts reverse the sign convention.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-026",
+    "question": "Under the convention BF = height(left) − height(right), which values are allowed at every AVL node?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Any integer"
+      },
+      {
+        "id": "B",
+        "text": "−1, 0, +1"
+      },
+      {
+        "id": "C",
+        "text": "Only 0"
+      },
+      {
+        "id": "D",
+        "text": "−2, −1, 0, +1, +2"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "AVL nodes must have a balance factor of −1, 0 or +1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-027",
+    "question": "Insert 30, 20, 10 into an empty AVL tree. Which rotation restores balance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "LL single right rotation"
+      },
+      {
+        "id": "B",
+        "text": "LR double rotation"
+      },
+      {
+        "id": "C",
+        "text": "RR single left rotation"
+      },
+      {
+        "id": "D",
+        "text": "RL double rotation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The insertion is in the left subtree of the left child, an LL case fixed by a right rotation.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-028",
+    "question": "Insert 10, 20, 30 into an empty AVL tree. Which rotation is required?",
+    "options": [
+      {
+        "id": "A",
+        "text": "LR"
+      },
+      {
+        "id": "B",
+        "text": "LL"
+      },
+      {
+        "id": "C",
+        "text": "RL"
+      },
+      {
+        "id": "D",
+        "text": "RR single left rotation"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The insertion is in the right subtree of the right child, so a left rotation fixes the RR case.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-029",
+    "question": "Insert 30, 10, 20 into an empty AVL tree. Which case occurs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RL"
+      },
+      {
+        "id": "B",
+        "text": "RR"
+      },
+      {
+        "id": "C",
+        "text": "LR"
+      },
+      {
+        "id": "D",
+        "text": "LL"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The new key enters the right subtree of the left child: an LR case.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-030",
+    "question": "Insert 10, 30, 20 into an empty AVL tree. Which case occurs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "LL"
+      },
+      {
+        "id": "B",
+        "text": "RR"
+      },
+      {
+        "id": "C",
+        "text": "LR"
+      },
+      {
+        "id": "D",
+        "text": "RL"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The new key enters the left subtree of the right child: an RL case.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-031",
+    "question": "An LR imbalance is normally corrected by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "One left rotation at the left child, then one right rotation at the unbalanced node"
+      },
+      {
+        "id": "B",
+        "text": "Two left rotations"
+      },
+      {
+        "id": "C",
+        "text": "One right rotation at the right child, then a left rotation"
+      },
+      {
+        "id": "D",
+        "text": "One right rotation only at the unbalanced node"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "LR uses a left rotation on the left child followed by a right rotation on the unbalanced node.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-032",
+    "question": "An RL imbalance is normally corrected by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two right rotations"
+      },
+      {
+        "id": "B",
+        "text": "One right rotation at the right child, then one left rotation at the unbalanced node"
+      },
+      {
+        "id": "C",
+        "text": "One left rotation only"
+      },
+      {
+        "id": "D",
+        "text": "One right rotation at the root regardless of position"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "RL uses a right rotation on the right child followed by a left rotation on the unbalanced node.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-033",
+    "question": "The main purpose of AVL rotations is to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Restore height balance while preserving BST inorder order"
+      },
+      {
+        "id": "B",
+        "text": "Reduce the number of keys"
+      },
+      {
+        "id": "C",
+        "text": "Sort all keys after every operation"
+      },
+      {
+        "id": "D",
+        "text": "Turn every tree into a complete tree"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rotations locally restore balance without violating the BST ordering property.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-034",
+    "question": "A single rotation in an AVL tree changes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "All key values"
+      },
+      {
+        "id": "B",
+        "text": "The number of nodes"
+      },
+      {
+        "id": "C",
+        "text": "The local links and subtree arrangement while preserving key order"
+      },
+      {
+        "id": "D",
+        "text": "The relative inorder sequence of keys"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Rotations rearrange pointers but preserve inorder ordering and node count.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-035",
+    "question": "What is the worst-case search time in an AVL tree with n nodes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1)"
+      },
+      {
+        "id": "B",
+        "text": "O(log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n log n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "AVL height is logarithmic, so search takes O(log n) time.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-036",
+    "question": "Which statement about AVL trees is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They allow arbitrary balance factors"
+      },
+      {
+        "id": "B",
+        "text": "They are not binary search trees"
+      },
+      {
+        "id": "C",
+        "text": "They never require rotations after insertion"
+      },
+      {
+        "id": "D",
+        "text": "They are more strictly height-balanced than red-black trees in the usual sense"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "AVL trees enforce a strict local height-balance condition, often yielding shorter search paths.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-037",
+    "question": "If an AVL node has left subtree height 4 and right subtree height 3, its balance factor under BF = left − right is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "+7"
+      },
+      {
+        "id": "B",
+        "text": "−1"
+      },
+      {
+        "id": "C",
+        "text": "+1"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The balance factor is 4 − 3 = +1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-038",
+    "question": "If a node's balance factor is +2 under BF = left − right, the node is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balanced"
+      },
+      {
+        "id": "B",
+        "text": "Left-heavy beyond the AVL limit"
+      },
+      {
+        "id": "C",
+        "text": "Right-heavy beyond the AVL limit"
+      },
+      {
+        "id": "D",
+        "text": "A leaf necessarily"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A balance factor of +2 means the left subtree is too tall under this convention.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-039",
+    "question": "After insertion into an AVL tree, rebalancing is performed when a node's balance factor becomes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only 0"
+      },
+      {
+        "id": "B",
+        "text": "Only +1"
+      },
+      {
+        "id": "C",
+        "text": "Any value from −1 to +1"
+      },
+      {
+        "id": "D",
+        "text": "+2 or −2"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A balance factor outside −1, 0, +1 violates the AVL condition.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-040",
+    "question": "A red-black tree is best described as a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Self-balancing binary search tree"
+      },
+      {
+        "id": "B",
+        "text": "Multiway tree with every node having four children"
+      },
+      {
+        "id": "C",
+        "text": "Hash table with linked buckets"
+      },
+      {
+        "id": "D",
+        "text": "Complete binary tree with no ordering"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A red-black tree is a self-balancing BST using node colors and structural rules.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-041",
+    "question": "In a standard red-black tree, which property is required?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All nodes must have two non-null children"
+      },
+      {
+        "id": "B",
+        "text": "A red node cannot have a red child"
+      },
+      {
+        "id": "C",
+        "text": "Every leaf key must be larger than the root"
+      },
+      {
+        "id": "D",
+        "text": "Every node must be red"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Red nodes cannot have red children, so there are no consecutive red nodes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-042",
+    "question": "A standard red-black tree's root is normally required to be:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Black"
+      },
+      {
+        "id": "B",
+        "text": "Uncolored"
+      },
+      {
+        "id": "C",
+        "text": "Red"
+      },
+      {
+        "id": "D",
+        "text": "A leaf"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The root is black under the standard red-black tree properties.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-043",
+    "question": "In red-black tree terminology, NIL/sentinel leaves are treated as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Red"
+      },
+      {
+        "id": "B",
+        "text": "Ordinary keys"
+      },
+      {
+        "id": "C",
+        "text": "Uncolored and ignored for all properties"
+      },
+      {
+        "id": "D",
+        "text": "Black"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "NIL leaves are conventionally black, helping define black-height consistently.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-044",
+    "question": "The black-height property of a red-black tree requires that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every internal node has equal key values"
+      },
+      {
+        "id": "B",
+        "text": "All leaves have the same key"
+      },
+      {
+        "id": "C",
+        "text": "Every root-to-leaf path has the same number of black nodes"
+      },
+      {
+        "id": "D",
+        "text": "Every path has exactly two red nodes"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Every path from a node to descendant NIL leaves contains the same number of black nodes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-045",
+    "question": "Red-black trees guarantee search, insertion and deletion in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n²) worst case"
+      },
+      {
+        "id": "B",
+        "text": "O(1) worst case"
+      },
+      {
+        "id": "C",
+        "text": "O(n) worst case in every case"
+      },
+      {
+        "id": "D",
+        "text": "O(log n) worst case"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Their balancing rules keep height logarithmic.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-046",
+    "question": "Compared with AVL trees, red-black trees generally:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Require stricter height balance"
+      },
+      {
+        "id": "B",
+        "text": "Allow somewhat looser balance and can need fewer rotations in updates"
+      },
+      {
+        "id": "C",
+        "text": "Are not ordered by key"
+      },
+      {
+        "id": "D",
+        "text": "Always have lower height"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Red-black trees allow looser balance than AVL trees, often reducing rebalancing work for updates.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-047",
+    "question": "Which operations may be used in red-black tree rebalancing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hashing and probing"
+      },
+      {
+        "id": "B",
+        "text": "Only array resizing"
+      },
+      {
+        "id": "C",
+        "text": "Rotations and recoloring"
+      },
+      {
+        "id": "D",
+        "text": "Only inorder traversal"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Red-black balancing uses rotations together with recoloring.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-048",
+    "question": "Why can a red-black tree have a longer search path than an AVL tree with similar node count?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Its balance constraints are less strict"
+      },
+      {
+        "id": "B",
+        "text": "It has no BST ordering"
+      },
+      {
+        "id": "C",
+        "text": "It must be a linked list"
+      },
+      {
+        "id": "D",
+        "text": "It cannot rotate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Red-black trees enforce less strict height balance than AVL trees.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-049",
+    "question": "A B-tree is especially useful for:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Replacing arithmetic operators"
+      },
+      {
+        "id": "B",
+        "text": "Disk-based indexes and storage systems"
+      },
+      {
+        "id": "C",
+        "text": "Only recursive function calls"
+      },
+      {
+        "id": "D",
+        "text": "Storing a single Boolean value"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "B-trees reduce disk I/O by storing multiple keys per node and having high branching factor.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-050",
+    "question": "A multiway search tree node can contain:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only a color bit"
+      },
+      {
+        "id": "B",
+        "text": "Only leaf pointers and no keys in any variant"
+      },
+      {
+        "id": "C",
+        "text": "Multiple keys and more than two child pointers"
+      },
+      {
+        "id": "D",
+        "text": "Only one child and no keys"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Multiway search trees generalize binary search trees to multiple keys and children per node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-051",
+    "question": "In a B-tree, keys within a node are generally stored in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sorted order"
+      },
+      {
+        "id": "B",
+        "text": "Hash order"
+      },
+      {
+        "id": "C",
+        "text": "Reverse insertion order only"
+      },
+      {
+        "id": "D",
+        "text": "Unspecified order"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sorted keys guide the search into the appropriate child range.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-052",
+    "question": "A key property of a B-tree is that, in the standard definition, all leaves are:",
+    "options": [
+      {
+        "id": "A",
+        "text": "At different depths by design"
+      },
+      {
+        "id": "B",
+        "text": "Always the root"
+      },
+      {
+        "id": "C",
+        "text": "Always empty"
+      },
+      {
+        "id": "D",
+        "text": "At the same depth"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "B-tree balance keeps all leaves at the same depth.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-053",
+    "question": "When a B-tree node overflows during insertion, the usual response is to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Convert the whole tree to a linked list"
+      },
+      {
+        "id": "B",
+        "text": "Delete the root immediately"
+      },
+      {
+        "id": "C",
+        "text": "Split the node and promote a separator key to the parent"
+      },
+      {
+        "id": "D",
+        "text": "Ignore the extra key permanently"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Splitting and promoting a middle separator preserves B-tree node-capacity and ordering rules.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-054",
+    "question": "If a B-tree split causes the root to split, the tree's height:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Must decrease by one"
+      },
+      {
+        "id": "B",
+        "text": "Increases by one"
+      },
+      {
+        "id": "C",
+        "text": "Never changes"
+      },
+      {
+        "id": "D",
+        "text": "Becomes zero"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A new root is created above the split root, increasing height by one.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-055",
+    "question": "A B+ tree differs from a typical B-tree because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Its leaves are not linked in common implementations"
+      },
+      {
+        "id": "B",
+        "text": "It has no keys"
+      },
+      {
+        "id": "C",
+        "text": "It permits only two children"
+      },
+      {
+        "id": "D",
+        "text": "Internal nodes commonly store separator keys while records/data pointers are at leaves"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "B+ trees typically store record references at leaves and use internal keys for navigation.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-056",
+    "question": "A common B+ tree feature that helps range queries is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linked leaf nodes"
+      },
+      {
+        "id": "B",
+        "text": "Randomly ordered leaves"
+      },
+      {
+        "id": "C",
+        "text": "A mandatory stack at each node"
+      },
+      {
+        "id": "D",
+        "text": "No separator keys"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Linked leaves allow efficient sequential scans over a key range.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-057",
+    "question": "In a B+ tree, a search for a record usually proceeds through:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A stack of every record in the database"
+      },
+      {
+        "id": "B",
+        "text": "Internal separator keys to a leaf"
+      },
+      {
+        "id": "C",
+        "text": "The leaf chain only, without using internal nodes"
+      },
+      {
+        "id": "D",
+        "text": "Only the root, then stops"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Internal nodes guide the search to the relevant leaf where records or record pointers are stored.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-058",
+    "question": "Why are B-trees and B+ trees effective for external-memory indexes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They prohibit sorted keys"
+      },
+      {
+        "id": "B",
+        "text": "They require every node to fit exactly one record"
+      },
+      {
+        "id": "C",
+        "text": "Their high fan-out reduces tree height and disk accesses"
+      },
+      {
+        "id": "D",
+        "text": "They store one key per entire tree"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Many children per node make the tree shallow, reducing I/O operations.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-059",
+    "question": "In a B-tree of order m, under the common convention that order means maximum children, the maximum number of keys in a node is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "m + 1"
+      },
+      {
+        "id": "B",
+        "text": "2m"
+      },
+      {
+        "id": "C",
+        "text": "m"
+      },
+      {
+        "id": "D",
+        "text": "m − 1"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A node with at most m children can hold at most m − 1 separator keys.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-060",
+    "question": "Under the common order-m B-tree convention (maximum m children), a non-root internal node typically has at least how many children?",
+    "options": [
+      {
+        "id": "A",
+        "text": "⌈m/2⌉"
+      },
+      {
+        "id": "B",
+        "text": "m"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "m − 1 always"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Except for the root, internal nodes must meet the minimum occupancy of at least ceil(m/2) children under this convention.",
+    "difficulty": "hard",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-061",
+    "question": "When deleting from a B-tree causes a node to fall below minimum occupancy, a standard fix may be to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Randomly reorder all keys"
+      },
+      {
+        "id": "B",
+        "text": "Promote every leaf key to the root"
+      },
+      {
+        "id": "C",
+        "text": "Remove all sibling nodes"
+      },
+      {
+        "id": "D",
+        "text": "Borrow/redistribute from a sibling or merge nodes"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "B-tree deletion repairs underflow by redistribution from a sibling or merging with a sibling and separator.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-062",
+    "question": "Which comparison between BSTs and B/B+ trees is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "B/B+ trees are designed for high fan-out and external storage; ordinary BSTs are binary"
+      },
+      {
+        "id": "B",
+        "text": "A B-tree has no ordering property"
+      },
+      {
+        "id": "C",
+        "text": "B+ trees cannot support range queries"
+      },
+      {
+        "id": "D",
+        "text": "BSTs always have more children per node"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "B/B+ trees use multiway nodes and are widely used for disk/page-oriented indexes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-063",
+    "question": "Which structure typically keeps actual record references only at the leaves, with internal nodes guiding search?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AVL tree"
+      },
+      {
+        "id": "B",
+        "text": "Red-black tree"
+      },
+      {
+        "id": "C",
+        "text": "B+ tree"
+      },
+      {
+        "id": "D",
+        "text": "Ordinary unbalanced BST"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "In common B+ tree designs, records or record pointers reside at the leaf level.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-064",
+    "question": "Which structure is generally best suited to maintain a dynamic ordered set in memory with guaranteed logarithmic operations and strict height balance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unsorted linked list"
+      },
+      {
+        "id": "B",
+        "text": "AVL tree"
+      },
+      {
+        "id": "C",
+        "text": "Unbalanced BST"
+      },
+      {
+        "id": "D",
+        "text": "Stack"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "AVL trees maintain strict height balance and guarantee logarithmic search/update paths.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-065",
+    "question": "A database index is more likely to use a B+ tree than an AVL tree mainly because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "B+ trees always use fewer comparisons for every possible workload"
+      },
+      {
+        "id": "B",
+        "text": "AVL trees cannot store ordered keys"
+      },
+      {
+        "id": "C",
+        "text": "B+ trees are designed for page-oriented storage and efficient range scans"
+      },
+      {
+        "id": "D",
+        "text": "AVL trees require all keys to be duplicated"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "B+ trees have high fan-out and linked leaves, making them suitable for disk-backed indexes and range scans.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-066",
+    "question": "Which statement about rotations in AVL and red-black trees is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rotations are used only in B+ trees"
+      },
+      {
+        "id": "B",
+        "text": "Rotations change structure while preserving BST inorder ordering"
+      },
+      {
+        "id": "C",
+        "text": "Rotations always increase tree height"
+      },
+      {
+        "id": "D",
+        "text": "Rotations change key values but not links"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A rotation changes local pointer relationships while preserving the inorder order of keys.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-067",
+    "question": "A BST has height h measured in edges. A standard search follows at most roughly how many nodes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(log n) regardless of h"
+      },
+      {
+        "id": "B",
+        "text": "O(n²)"
+      },
+      {
+        "id": "C",
+        "text": "O(1)"
+      },
+      {
+        "id": "D",
+        "text": "O(h + 1)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A search follows one root-to-node path, which contains at most h + 1 nodes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-068",
+    "question": "Which input order most clearly demonstrates why an ordinary BST may need balancing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Already sorted keys inserted one by one"
+      },
+      {
+        "id": "B",
+        "text": "Keys stored as strings rather than integers"
+      },
+      {
+        "id": "C",
+        "text": "Randomly mixed keys always make a perfect tree"
+      },
+      {
+        "id": "D",
+        "text": "Keys inserted only once"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sorted insertion order creates a chain in an unbalanced BST.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-069",
+    "question": "Which statement about BST deletion is false?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A two-child node may be replaced by its successor"
+      },
+      {
+        "id": "B",
+        "text": "A leaf can be removed directly"
+      },
+      {
+        "id": "C",
+        "text": "A node with two children must always be replaced by the root"
+      },
+      {
+        "id": "D",
+        "text": "A one-child node can be bypassed by its child"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A two-child node is commonly replaced by its inorder successor or predecessor, not necessarily the root.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-070",
+    "question": "A BST has keys 15, 10, 20, 8, 12, 17, 25. What is the inorder successor of 15?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "17"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The right subtree of 15 has minimum key 17, which is its inorder successor.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-071",
+    "question": "A BST has keys 15, 10, 20, 8, 12, 17, 25. What is the inorder predecessor of 15?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "17"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The left subtree of 15 has maximum key 12, its inorder predecessor.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-072",
+    "question": "Which statement about balanced search trees is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing controls height to keep search paths short"
+      },
+      {
+        "id": "B",
+        "text": "Balancing changes the set of stored keys"
+      },
+      {
+        "id": "C",
+        "text": "Every balanced search tree is a B-tree"
+      },
+      {
+        "id": "D",
+        "text": "Balancing removes the ordering property"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Balancing maintains a controlled height while preserving ordered-search semantics.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-073",
+    "question": "Which tree is typically a multiway search tree rather than a binary search tree?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AVL"
+      },
+      {
+        "id": "B",
+        "text": "Ordinary BST"
+      },
+      {
+        "id": "C",
+        "text": "B-tree"
+      },
+      {
+        "id": "D",
+        "text": "Red-black"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "B-trees allow multiple keys and more than two children per node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-074",
+    "question": "A red-black tree's logarithmic height guarantee depends primarily on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "All keys being inserted in sorted order"
+      },
+      {
+        "id": "B",
+        "text": "Color and black-height invariants"
+      },
+      {
+        "id": "C",
+        "text": "Every node having exactly two real children"
+      },
+      {
+        "id": "D",
+        "text": "Using an array representation only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Red-black color rules and equal black-height bound the longest root-to-leaf path.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "bst-balanced-075",
+    "question": "Which statement about the height of a degenerate BST with n nodes is correct when height is measured in edges?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n − 1"
+      },
+      {
+        "id": "B",
+        "text": "⌊log₂ n⌋"
+      },
+      {
+        "id": "C",
+        "text": "2n"
+      },
+      {
+        "id": "D",
+        "text": "0 for all n"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A chain of n nodes has n − 1 edges on its longest root-to-leaf path.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

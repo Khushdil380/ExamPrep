@@ -1,0 +1,2082 @@
+[
+  {
+    "id": "trees-001",
+    "question": "In a tree data structure, the node with no parent is called the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Root"
+      },
+      {
+        "id": "B",
+        "text": "Leaf"
+      },
+      {
+        "id": "C",
+        "text": "Sibling"
+      },
+      {
+        "id": "D",
+        "text": "Internal node"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The root is the unique node with no parent.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-002",
+    "question": "In a rooted tree, nodes that share the same parent are called:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ancestors"
+      },
+      {
+        "id": "B",
+        "text": "Descendants"
+      },
+      {
+        "id": "C",
+        "text": "Leaves"
+      },
+      {
+        "id": "D",
+        "text": "Siblings"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Siblings have the same parent.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-003",
+    "question": "A node with no children is known as a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Internal node"
+      },
+      {
+        "id": "B",
+        "text": "Leaf"
+      },
+      {
+        "id": "C",
+        "text": "Root"
+      },
+      {
+        "id": "D",
+        "text": "Ancestor"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A leaf node has no children.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-004",
+    "question": "In a tree with n nodes, the number of edges is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2n"
+      },
+      {
+        "id": "B",
+        "text": "n"
+      },
+      {
+        "id": "C",
+        "text": "n - 1"
+      },
+      {
+        "id": "D",
+        "text": "n + 1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Every tree with n nodes has exactly n − 1 edges.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-005",
+    "question": "A node that has at least one child is generally called a/an:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Isolated node"
+      },
+      {
+        "id": "B",
+        "text": "Internal node"
+      },
+      {
+        "id": "C",
+        "text": "Sibling"
+      },
+      {
+        "id": "D",
+        "text": "Leaf"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An internal node has one or more children.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-006",
+    "question": "The degree of a node in a rooted tree is the number of its:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Edges in the whole tree"
+      },
+      {
+        "id": "B",
+        "text": "Levels"
+      },
+      {
+        "id": "C",
+        "text": "Ancestors"
+      },
+      {
+        "id": "D",
+        "text": "Children"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "In rooted-tree terminology, node degree commonly means the number of children.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-007",
+    "question": "The unique path between two nodes in a tree is guaranteed because a tree is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Connected and acyclic"
+      },
+      {
+        "id": "B",
+        "text": "Directed and cyclic"
+      },
+      {
+        "id": "C",
+        "text": "Disconnected"
+      },
+      {
+        "id": "D",
+        "text": "A complete graph"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A tree is connected and has no cycles, so exactly one simple path joins any two nodes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-008",
+    "question": "The depth of the root is conventionally:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Depends on its number of children"
+      },
+      {
+        "id": "B",
+        "text": "−1"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Depth is often counted as the number of edges from the root, making root depth 0.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-009",
+    "question": "The height of a leaf node is usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "Its depth"
+      },
+      {
+        "id": "C",
+        "text": "Its degree"
+      },
+      {
+        "id": "D",
+        "text": "1 + number of siblings"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Height counts the longest downward path in edges; a leaf has height 0.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-010",
+    "question": "A subtree rooted at node x consists of x and:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only its ancestors"
+      },
+      {
+        "id": "B",
+        "text": "All nodes at the same level"
+      },
+      {
+        "id": "C",
+        "text": "All descendants of x"
+      },
+      {
+        "id": "D",
+        "text": "Only its immediate children"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A subtree contains the node and all its descendants.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-011",
+    "question": "A forest is best described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A tree with cycles"
+      },
+      {
+        "id": "B",
+        "text": "A collection of disjoint trees"
+      },
+      {
+        "id": "C",
+        "text": "A tree with two roots"
+      },
+      {
+        "id": "D",
+        "text": "A binary tree with no leaves"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A forest is a collection of disjoint trees.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-012",
+    "question": "An ordered tree is one in which:",
+    "options": [
+      {
+        "id": "A",
+        "text": "No node has a parent"
+      },
+      {
+        "id": "B",
+        "text": "All leaves are at one level"
+      },
+      {
+        "id": "C",
+        "text": "Every node has exactly two children"
+      },
+      {
+        "id": "D",
+        "text": "Children have a defined order"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "In an ordered tree, the relative order of a node's children matters.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-013",
+    "question": "If a rooted tree has 12 nodes, how many edges does it have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A tree with n nodes has n − 1 edges, so 12 nodes give 11 edges.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-014",
+    "question": "If node P is an ancestor of node Q, then Q is a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sibling of P"
+      },
+      {
+        "id": "B",
+        "text": "Parent of P"
+      },
+      {
+        "id": "C",
+        "text": "Root of P"
+      },
+      {
+        "id": "D",
+        "text": "Descendant of P"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A descendant lies below an ancestor in the rooted tree.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-015",
+    "question": "The level of a node is sometimes defined differently across textbooks. If root is at level 1, a node at depth 3 is at level:",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "With root level 1 and root depth 0, level = depth + 1.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-016",
+    "question": "A path length in a tree is normally measured by the number of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nodes visited including both endpoints"
+      },
+      {
+        "id": "B",
+        "text": "Edges traversed"
+      },
+      {
+        "id": "C",
+        "text": "Children of the destination"
+      },
+      {
+        "id": "D",
+        "text": "Leaves on the path"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Path length is usually the number of edges traversed.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-017",
+    "question": "A rooted tree has 1 root and 8 other nodes. The number of edges is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "There are 9 nodes total, so the tree has 9 − 1 = 8 edges.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-018",
+    "question": "Which statement about a tree is always true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is disconnected"
+      },
+      {
+        "id": "B",
+        "text": "Every node has two children"
+      },
+      {
+        "id": "C",
+        "text": "There is a unique simple path between every pair of nodes"
+      },
+      {
+        "id": "D",
+        "text": "It has exactly one cycle"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Connected acyclic graphs have a unique simple path between every pair of vertices.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-019",
+    "question": "A node's ancestors are the nodes that lie:",
+    "options": [
+      {
+        "id": "A",
+        "text": "At the same depth"
+      },
+      {
+        "id": "B",
+        "text": "Below it"
+      },
+      {
+        "id": "C",
+        "text": "Only immediately above it"
+      },
+      {
+        "id": "D",
+        "text": "On the path from the root to that node, excluding the node itself"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Ancestors are all nodes on the root-to-node path, excluding the node itself.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-020",
+    "question": "In an unordered tree, swapping two children of a node:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Removes an edge"
+      },
+      {
+        "id": "B",
+        "text": "Does not change the child ordering because no order is defined"
+      },
+      {
+        "id": "C",
+        "text": "Always changes the tree's meaning"
+      },
+      {
+        "id": "D",
+        "text": "Makes it a binary tree"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In an unordered tree, children have no defined left-to-right order.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-021",
+    "question": "A binary tree node can have at most how many children?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Three"
+      },
+      {
+        "id": "B",
+        "text": "One"
+      },
+      {
+        "id": "C",
+        "text": "Any number"
+      },
+      {
+        "id": "D",
+        "text": "Two"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A binary tree node has at most two children, conventionally called left and right.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-022",
+    "question": "A strict (full) binary tree is one where every node has:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exactly one child"
+      },
+      {
+        "id": "B",
+        "text": "At most one child"
+      },
+      {
+        "id": "C",
+        "text": "Either zero or two children"
+      },
+      {
+        "id": "D",
+        "text": "Exactly two children including leaves"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "In a strict/full binary tree, each node has either 0 or 2 children.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-023",
+    "question": "A complete binary tree has:",
+    "options": [
+      {
+        "id": "A",
+        "text": "All levels full except possibly the last, which fills left to right"
+      },
+      {
+        "id": "B",
+        "text": "Every node with two children"
+      },
+      {
+        "id": "C",
+        "text": "All leaves at the same depth"
+      },
+      {
+        "id": "D",
+        "text": "Every level full with no exceptions"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A complete tree fills levels from top down and the final level from left to right.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-024",
+    "question": "A perfect binary tree has:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A full last level but arbitrary earlier levels"
+      },
+      {
+        "id": "B",
+        "text": "All internal nodes with two children and all leaves at the same level"
+      },
+      {
+        "id": "C",
+        "text": "No internal nodes"
+      },
+      {
+        "id": "D",
+        "text": "Only one child per node"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A perfect binary tree has every internal node with two children and all leaves at the same depth.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-025",
+    "question": "A skewed binary tree is one in which:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The root has no children"
+      },
+      {
+        "id": "B",
+        "text": "All leaves have equal depth"
+      },
+      {
+        "id": "C",
+        "text": "Each non-leaf node has only one child, forming a chain"
+      },
+      {
+        "id": "D",
+        "text": "Every node has two children"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A skewed tree forms a chain leaning left or right.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-026",
+    "question": "A degenerate binary tree resembles a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linked list"
+      },
+      {
+        "id": "B",
+        "text": "Perfect tree"
+      },
+      {
+        "id": "C",
+        "text": "Complete graph"
+      },
+      {
+        "id": "D",
+        "text": "Balanced heap"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A degenerate tree has essentially one child per non-leaf node, resembling a linked list.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-027",
+    "question": "The maximum number of nodes at depth d in a binary tree (root depth 0) is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2d"
+      },
+      {
+        "id": "B",
+        "text": "2^d"
+      },
+      {
+        "id": "C",
+        "text": "2^(d+1)"
+      },
+      {
+        "id": "D",
+        "text": "d"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "At depth d, a binary tree can contain at most 2^d nodes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-028",
+    "question": "The maximum number of nodes in a binary tree of height h (root height measured in edges) is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2h + 1"
+      },
+      {
+        "id": "B",
+        "text": "h²"
+      },
+      {
+        "id": "C",
+        "text": "2^h − 1"
+      },
+      {
+        "id": "D",
+        "text": "2^(h+1) − 1"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A perfect binary tree of height h has 1 + 2 + ... + 2^h = 2^(h+1) − 1 nodes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-029",
+    "question": "The minimum number of nodes in a binary tree of height h, when height is measured in edges, is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "h − 1"
+      },
+      {
+        "id": "B",
+        "text": "2h"
+      },
+      {
+        "id": "C",
+        "text": "h + 1"
+      },
+      {
+        "id": "D",
+        "text": "2^h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A chain of h edges contains h + 1 nodes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-030",
+    "question": "A perfect binary tree of height 3 (height in edges) contains:",
+    "options": [
+      {
+        "id": "A",
+        "text": "15"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The node count is 2^(3+1) − 1 = 15.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-031",
+    "question": "A strict binary tree with I internal nodes has how many leaves?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I − 1"
+      },
+      {
+        "id": "B",
+        "text": "I + 1"
+      },
+      {
+        "id": "C",
+        "text": "2I"
+      },
+      {
+        "id": "D",
+        "text": "I"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In a full/strict binary tree, the number of leaves is I + 1.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-032",
+    "question": "In a binary tree stored in a zero-indexed array, the left child of index i is at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2i + 2"
+      },
+      {
+        "id": "B",
+        "text": "2i"
+      },
+      {
+        "id": "C",
+        "text": "i // 2"
+      },
+      {
+        "id": "D",
+        "text": "2i + 1"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For zero-based array representation, left child index is 2i + 1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-033",
+    "question": "In a zero-indexed array representation, the right child of index i is at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2i + 2"
+      },
+      {
+        "id": "B",
+        "text": "i − 1"
+      },
+      {
+        "id": "C",
+        "text": "2i + 1"
+      },
+      {
+        "id": "D",
+        "text": "i // 2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For zero-based array representation, right child index is 2i + 2.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-034",
+    "question": "For a zero-indexed array representation, the parent index of a non-root node i is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "(i + 1) // 2"
+      },
+      {
+        "id": "B",
+        "text": "2i + 1"
+      },
+      {
+        "id": "C",
+        "text": "i // 2"
+      },
+      {
+        "id": "D",
+        "text": "(i − 1) // 2"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The parent index is floor((i − 1)/2).",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-035",
+    "question": "In a one-indexed array representation, the left child of node i is at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2i + 1"
+      },
+      {
+        "id": "B",
+        "text": "i // 2"
+      },
+      {
+        "id": "C",
+        "text": "2i"
+      },
+      {
+        "id": "D",
+        "text": "2i − 1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "With one-based indexing, left and right child indices are 2i and 2i + 1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-036",
+    "question": "Which representation usually wastes less space for a highly skewed binary tree?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A fixed-size array with heap-style indices"
+      },
+      {
+        "id": "B",
+        "text": "Linked representation"
+      },
+      {
+        "id": "C",
+        "text": "A full array allocated for all possible positions"
+      },
+      {
+        "id": "D",
+        "text": "Both always use identical space"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Linked representation stores existing nodes and links without reserving many absent positions.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-037",
+    "question": "In linked representation, a typical binary tree node stores:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A key and left/right child links"
+      },
+      {
+        "id": "B",
+        "text": "Only array indices"
+      },
+      {
+        "id": "C",
+        "text": "Only a key"
+      },
+      {
+        "id": "D",
+        "text": "A key and three parent pointers only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A typical node stores data and links to left and right children.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-038",
+    "question": "A binary tree with 5 levels, where the root is level 1, can have at most:",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 nodes"
+      },
+      {
+        "id": "B",
+        "text": "31 nodes"
+      },
+      {
+        "id": "C",
+        "text": "32 nodes"
+      },
+      {
+        "id": "D",
+        "text": "15 nodes"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For 5 levels, maximum nodes = 2^5 − 1 = 31.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-039",
+    "question": "A complete binary tree with n nodes is commonly represented compactly using:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A hash table only"
+      },
+      {
+        "id": "B",
+        "text": "A stack only"
+      },
+      {
+        "id": "C",
+        "text": "An adjacency matrix only"
+      },
+      {
+        "id": "D",
+        "text": "An array"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Complete trees have few gaps, so array representation is space-efficient.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-040",
+    "question": "A binary tree is height-balanced (in the common AVL-style local sense) when:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every node has equal left and right subtree sizes"
+      },
+      {
+        "id": "B",
+        "text": "Every internal node has two children"
+      },
+      {
+        "id": "C",
+        "text": "At every node, left and right subtree heights differ by at most 1"
+      },
+      {
+        "id": "D",
+        "text": "All leaves must be at depth 1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "AVL-style balance requires the subtree-height difference at each node to be at most one.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-041",
+    "question": "Which statement distinguishes complete from perfect binary trees?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every perfect tree is complete, but not every complete tree is perfect"
+      },
+      {
+        "id": "B",
+        "text": "Complete trees must be skewed"
+      },
+      {
+        "id": "C",
+        "text": "A perfect tree may have missing nodes at upper levels"
+      },
+      {
+        "id": "D",
+        "text": "Every complete tree is perfect"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Perfect binary trees are complete, but complete trees can have a partially filled final level.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-042",
+    "question": "If a binary tree has 9 nodes, what is the maximum possible number of leaves?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "For n nodes, the maximum number of leaves is ceil(n/2); with 9 nodes, it is 5.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-043",
+    "question": "Preorder traversal visits nodes in which order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Left, Root, Right"
+      },
+      {
+        "id": "B",
+        "text": "Root, Left, Right"
+      },
+      {
+        "id": "C",
+        "text": "Left, Right, Root"
+      },
+      {
+        "id": "D",
+        "text": "Right, Root, Left"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Preorder is Root–Left–Right.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-044",
+    "question": "Inorder traversal of a binary tree visits nodes in which order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Right, Left, Root"
+      },
+      {
+        "id": "B",
+        "text": "Left, Right, Root"
+      },
+      {
+        "id": "C",
+        "text": "Root, Left, Right"
+      },
+      {
+        "id": "D",
+        "text": "Left, Root, Right"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Inorder is Left–Root–Right.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-045",
+    "question": "Postorder traversal visits nodes in which order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Left, Root, Right"
+      },
+      {
+        "id": "B",
+        "text": "Left, Right, Root"
+      },
+      {
+        "id": "C",
+        "text": "Root, Left, Right"
+      },
+      {
+        "id": "D",
+        "text": "Right, Left, Root"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Postorder is Left–Right–Root.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-046",
+    "question": "Level-order traversal typically uses which data structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Priority queue"
+      },
+      {
+        "id": "B",
+        "text": "Stack"
+      },
+      {
+        "id": "C",
+        "text": "Queue"
+      },
+      {
+        "id": "D",
+        "text": "Recursion only"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Breadth-first level-order traversal uses a queue.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-047",
+    "question": "Which traversal visits the root before its subtrees?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Postorder"
+      },
+      {
+        "id": "B",
+        "text": "Inorder"
+      },
+      {
+        "id": "C",
+        "text": "Level-order only"
+      },
+      {
+        "id": "D",
+        "text": "Preorder"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Preorder visits the root first.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-048",
+    "question": "Which traversal is especially useful for deleting/freeing a tree because children are processed before the parent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Postorder"
+      },
+      {
+        "id": "B",
+        "text": "Preorder"
+      },
+      {
+        "id": "C",
+        "text": "Level-order"
+      },
+      {
+        "id": "D",
+        "text": "Inorder"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Postorder processes children before the parent node.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-049",
+    "question": "For a binary search tree with distinct keys, which traversal yields keys in sorted order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Preorder"
+      },
+      {
+        "id": "B",
+        "text": "Level-order"
+      },
+      {
+        "id": "C",
+        "text": "Postorder"
+      },
+      {
+        "id": "D",
+        "text": "Inorder"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Inorder traversal of a BST visits keys in ascending order.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-050",
+    "question": "For a tree with root A, left child B and right child C, preorder is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A C B"
+      },
+      {
+        "id": "B",
+        "text": "A B C"
+      },
+      {
+        "id": "C",
+        "text": "B C A"
+      },
+      {
+        "id": "D",
+        "text": "B A C"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Preorder visits root, then left subtree, then right subtree: A B C.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-051",
+    "question": "For a tree with root A, left child B and right child C, postorder is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "B C A"
+      },
+      {
+        "id": "B",
+        "text": "A B C"
+      },
+      {
+        "id": "C",
+        "text": "C B A"
+      },
+      {
+        "id": "D",
+        "text": "B A C"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Postorder visits left subtree, right subtree, then root: B C A.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-052",
+    "question": "For a tree with root A, left child B and right child C, inorder is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A B C"
+      },
+      {
+        "id": "B",
+        "text": "C A B"
+      },
+      {
+        "id": "C",
+        "text": "B A C"
+      },
+      {
+        "id": "D",
+        "text": "B C A"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Inorder visits left, root, right: B A C.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-053",
+    "question": "Given preorder ABC and inorder BAC with distinct keys, the root is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cannot be determined"
+      },
+      {
+        "id": "B",
+        "text": "A"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "B"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The first preorder item is the root, so A is root.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-054",
+    "question": "For distinct keys, which pair of traversals is generally sufficient to reconstruct a binary tree uniquely?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inorder and preorder"
+      },
+      {
+        "id": "B",
+        "text": "Preorder alone"
+      },
+      {
+        "id": "C",
+        "text": "Level-order alone"
+      },
+      {
+        "id": "D",
+        "text": "Preorder and postorder for every arbitrary binary tree"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Inorder plus preorder uniquely reconstructs a binary tree with distinct keys.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-055",
+    "question": "For distinct keys, inorder combined with which traversal can uniquely reconstruct a binary tree?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Level-order only"
+      },
+      {
+        "id": "B",
+        "text": "Preorder only if tree is complete"
+      },
+      {
+        "id": "C",
+        "text": "Reverse inorder only"
+      },
+      {
+        "id": "D",
+        "text": "Postorder"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Inorder and postorder uniquely reconstruct a binary tree when keys are distinct.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-056",
+    "question": "Why can repeated keys complicate reconstruction from inorder and preorder?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The root disappears"
+      },
+      {
+        "id": "B",
+        "text": "Preorder cannot include leaves"
+      },
+      {
+        "id": "C",
+        "text": "A repeated value may not identify a unique split position in inorder"
+      },
+      {
+        "id": "D",
+        "text": "Traversal length changes"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Duplicate values can make the root's position in inorder ambiguous.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-057",
+    "question": "For expression tree operators at internal nodes and operands at leaves, preorder corresponds to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Postfix (Reverse Polish) notation"
+      },
+      {
+        "id": "B",
+        "text": "Prefix (Polish) notation"
+      },
+      {
+        "id": "C",
+        "text": "Level notation"
+      },
+      {
+        "id": "D",
+        "text": "Infix notation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Preorder outputs operator before operands, yielding prefix notation.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-058",
+    "question": "For an expression tree, postorder traversal corresponds to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prefix notation"
+      },
+      {
+        "id": "B",
+        "text": "Level-order notation"
+      },
+      {
+        "id": "C",
+        "text": "Infix notation without parentheses always"
+      },
+      {
+        "id": "D",
+        "text": "Postfix notation"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Postorder places operators after their operands, yielding postfix notation.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-059",
+    "question": "For the expression tree with root +, left leaf a and right leaf b, inorder traversal gives:",
+    "options": [
+      {
+        "id": "A",
+        "text": "a+b"
+      },
+      {
+        "id": "B",
+        "text": "+ab"
+      },
+      {
+        "id": "C",
+        "text": "ba+"
+      },
+      {
+        "id": "D",
+        "text": "ab+"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Inorder gives left, root, right: a+b; parentheses may be needed for larger expressions.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-060",
+    "question": "An iterative preorder traversal is commonly implemented using a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hash map only"
+      },
+      {
+        "id": "B",
+        "text": "Queue"
+      },
+      {
+        "id": "C",
+        "text": "Stack"
+      },
+      {
+        "id": "D",
+        "text": "Priority queue"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A stack can simulate recursive preorder traversal.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-061",
+    "question": "A recursive traversal relies primarily on the program's:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hash table"
+      },
+      {
+        "id": "B",
+        "text": "Call stack"
+      },
+      {
+        "id": "C",
+        "text": "Heap sort"
+      },
+      {
+        "id": "D",
+        "text": "Queue buffer"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Recursive calls are managed by the runtime call stack.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-062",
+    "question": "A binary tree has root 1, left child 2, right child 3; node 2 has left child 4. Its preorder is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 4 1 3"
+      },
+      {
+        "id": "B",
+        "text": "4 2 1 3"
+      },
+      {
+        "id": "C",
+        "text": "1 3 2 4"
+      },
+      {
+        "id": "D",
+        "text": "1 2 4 3"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Preorder: root 1, left subtree (2,4), then right subtree (3).",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-063",
+    "question": "For the same tree (1 with children 2 and 3; 2 has left child 4), postorder is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 1 4 2"
+      },
+      {
+        "id": "B",
+        "text": "2 4 1 3"
+      },
+      {
+        "id": "C",
+        "text": "4 2 3 1"
+      },
+      {
+        "id": "D",
+        "text": "1 2 4 3"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Postorder visits 4, then 2, then 3, then root 1.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-064",
+    "question": "A tree's inorder traversal is defined for:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Binary trees, where left and right positions are distinguished"
+      },
+      {
+        "id": "B",
+        "text": "Every general tree without any child ordering"
+      },
+      {
+        "id": "C",
+        "text": "Only BSTs"
+      },
+      {
+        "id": "D",
+        "text": "Only complete binary trees"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Inorder is specifically defined for binary trees with left and right subtrees.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-065",
+    "question": "A general tree differs from a binary tree because a general-tree node may have:",
+    "options": [
+      {
+        "id": "A",
+        "text": "No parent pointer"
+      },
+      {
+        "id": "B",
+        "text": "Any number of children"
+      },
+      {
+        "id": "C",
+        "text": "At most two children"
+      },
+      {
+        "id": "D",
+        "text": "Exactly three children"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A general tree allows a node to have any number of children.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-066",
+    "question": "A common way to represent a general tree as a binary tree is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Heap sort"
+      },
+      {
+        "id": "B",
+        "text": "Inorder threading only"
+      },
+      {
+        "id": "C",
+        "text": "Adjacency matrix only"
+      },
+      {
+        "id": "D",
+        "text": "Left-child right-sibling representation"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Left-child right-sibling uses left link for first child and right link for next sibling.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-067",
+    "question": "In left-child right-sibling representation, the left pointer usually refers to the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "First child"
+      },
+      {
+        "id": "B",
+        "text": "Parent"
+      },
+      {
+        "id": "C",
+        "text": "Root only"
+      },
+      {
+        "id": "D",
+        "text": "Next sibling"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The left link points to the first child.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-068",
+    "question": "In left-child right-sibling representation, the right pointer usually refers to the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parent"
+      },
+      {
+        "id": "B",
+        "text": "First child"
+      },
+      {
+        "id": "C",
+        "text": "Next sibling"
+      },
+      {
+        "id": "D",
+        "text": "Last descendant"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The right link points to the next sibling.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-069",
+    "question": "Which is a natural application of hierarchical tree structures?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Representing a directory and its subdirectories"
+      },
+      {
+        "id": "B",
+        "text": "Performing modulo arithmetic only"
+      },
+      {
+        "id": "C",
+        "text": "Storing only a single scalar"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all graphs"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "File systems naturally form parent-child hierarchies.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-070",
+    "question": "An expression tree is useful because it represents:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only variable names"
+      },
+      {
+        "id": "B",
+        "text": "A sorted array"
+      },
+      {
+        "id": "C",
+        "text": "Only the final numeric result"
+      },
+      {
+        "id": "D",
+        "text": "Operators and operands with their evaluation structure"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Expression trees encode operators and operands and their evaluation order.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-071",
+    "question": "In a directory tree, a directory can be represented as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "An edge without nodes"
+      },
+      {
+        "id": "B",
+        "text": "The only possible root"
+      },
+      {
+        "id": "C",
+        "text": "A parent node with child entries"
+      },
+      {
+        "id": "D",
+        "text": "A leaf in every case"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Directories contain child files and subdirectories, forming a hierarchy.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-072",
+    "question": "Which structure is most appropriate for representing an organization's reporting hierarchy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unsorted array only"
+      },
+      {
+        "id": "B",
+        "text": "Tree"
+      },
+      {
+        "id": "C",
+        "text": "Queue"
+      },
+      {
+        "id": "D",
+        "text": "Stack"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reporting relationships are hierarchical and naturally modeled by trees.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-073",
+    "question": "When converting a general tree to left-child right-sibling form, a node's siblings are linked through:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Left pointers"
+      },
+      {
+        "id": "B",
+        "text": "Array indices only"
+      },
+      {
+        "id": "C",
+        "text": "Right pointers"
+      },
+      {
+        "id": "D",
+        "text": "Parent pointers only"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Right pointers connect each node to its next sibling.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-074",
+    "question": "Which statement about a tree and a forest is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Removing a root from a rooted tree can produce a forest of its subtrees"
+      },
+      {
+        "id": "B",
+        "text": "A forest has exactly one tree"
+      },
+      {
+        "id": "C",
+        "text": "A tree always contains multiple roots"
+      },
+      {
+        "id": "D",
+        "text": "A forest must contain a cycle"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Removing the root separates its child subtrees into a forest.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-075",
+    "question": "A node with two children in a binary tree has degree (number of children):",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Under the child-count definition, its degree is 2.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-076",
+    "question": "Which traversal is most directly aligned with visiting a directory before its contents?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reverse level order only"
+      },
+      {
+        "id": "B",
+        "text": "Inorder only"
+      },
+      {
+        "id": "C",
+        "text": "Postorder"
+      },
+      {
+        "id": "D",
+        "text": "Preorder"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Preorder visits a node before its descendants.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-077",
+    "question": "Which statement is always true for a nonempty tree with n nodes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It has n edges"
+      },
+      {
+        "id": "B",
+        "text": "It has n − 1 edges"
+      },
+      {
+        "id": "C",
+        "text": "It has 2n edges"
+      },
+      {
+        "id": "D",
+        "text": "It has n + 1 edges"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A tree with n nodes has n − 1 edges.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-078",
+    "question": "If a binary tree has height h measured in edges, what is the minimum possible node count?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2^(h+1) − 1"
+      },
+      {
+        "id": "B",
+        "text": "h"
+      },
+      {
+        "id": "C",
+        "text": "2h + 1"
+      },
+      {
+        "id": "D",
+        "text": "h + 1"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The minimum is a chain of h edges, containing h + 1 nodes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-079",
+    "question": "Which pair of tree properties is most useful to distinguish a perfect binary tree from a complete one?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whether traversal is recursive"
+      },
+      {
+        "id": "B",
+        "text": "Whether nodes use pointers"
+      },
+      {
+        "id": "C",
+        "text": "Whether all leaves share a depth and all internal nodes have two children"
+      },
+      {
+        "id": "D",
+        "text": "Node labels and data types"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Perfect trees have all leaves at the same depth and every internal node has two children.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "trees-080",
+    "question": "For a binary tree with n nodes, which statement about the number of edges is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is always n − 1"
+      },
+      {
+        "id": "B",
+        "text": "It is always 2n"
+      },
+      {
+        "id": "C",
+        "text": "It is always n"
+      },
+      {
+        "id": "D",
+        "text": "It depends on whether traversal is recursive"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Every nonempty tree with n nodes has exactly n − 1 edges.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

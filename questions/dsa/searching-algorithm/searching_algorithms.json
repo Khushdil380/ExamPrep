@@ -1,0 +1,912 @@
+[
+  {
+    "id": "searching-algorithms-001",
+    "question": "Which search algorithm checks elements one by one until the target is found or the list ends?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Interpolation search"
+      },
+      {
+        "id": "B",
+        "text": "Binary search"
+      },
+      {
+        "id": "C",
+        "text": "Linear search"
+      },
+      {
+        "id": "D",
+        "text": "Exponential search"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Linear search examines elements sequentially and does not require the data to be sorted.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-002",
+    "question": "What is the worst-case time complexity of linear search on n elements?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(log log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(1)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "If the target is absent or at the last position, linear search may inspect all n elements.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-003",
+    "question": "Which condition is required for ordinary binary search to work correctly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of elements must be a power of two"
+      },
+      {
+        "id": "B",
+        "text": "The data must be stored in a linked list"
+      },
+      {
+        "id": "C",
+        "text": "The data must contain distinct elements only"
+      },
+      {
+        "id": "D",
+        "text": "The data must be sorted according to the searched ordering"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Binary search discards half the remaining range based on ordering, so the sequence must be sorted.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-004",
+    "question": "In the worst case, how many elements does binary search reduce the candidate range to after each iteration?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exactly one quarter"
+      },
+      {
+        "id": "B",
+        "text": "Approximately half"
+      },
+      {
+        "id": "C",
+        "text": "One fewer element only"
+      },
+      {
+        "id": "D",
+        "text": "The same number"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Binary search compares with a midpoint and retains only one half of the current range.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-005",
+    "question": "For an array indexed from low to high, which midpoint calculation is safer against integer overflow in many languages?",
+    "options": [
+      {
+        "id": "A",
+        "text": "low + (high - low) // 2"
+      },
+      {
+        "id": "B",
+        "text": "high - low // 2"
+      },
+      {
+        "id": "C",
+        "text": "low + high + 1"
+      },
+      {
+        "id": "D",
+        "text": "(low + high) * 2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Computing low + (high−low)/2 avoids the potential overflow of low + high.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-006",
+    "question": "In an iterative binary search on an ascending array, if a[mid] < target, the next search range should be:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Restart from index 0"
+      },
+      {
+        "id": "B",
+        "text": "low = mid + 1 through high"
+      },
+      {
+        "id": "C",
+        "text": "low through high = mid − 1"
+      },
+      {
+        "id": "D",
+        "text": "low = mid through high"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "If the midpoint value is smaller than the target, the target can only be in the right half, excluding mid.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-007",
+    "question": "In binary search on an ascending array, if a[mid] > target, which update is appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "high = mid − 1"
+      },
+      {
+        "id": "B",
+        "text": "low = mid − 1"
+      },
+      {
+        "id": "C",
+        "text": "high = mid + 1"
+      },
+      {
+        "id": "D",
+        "text": "low = mid + 1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The target, if present, must lie to the left of mid, so high becomes mid−1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-008",
+    "question": "Which loop condition is commonly used for binary search on a closed interval [low, high]?",
+    "options": [
+      {
+        "id": "A",
+        "text": "high >= array length"
+      },
+      {
+        "id": "B",
+        "text": "low == high + 1 only"
+      },
+      {
+        "id": "C",
+        "text": "low < 0"
+      },
+      {
+        "id": "D",
+        "text": "low <= high"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "With a closed interval, the single remaining element must still be checked, hence low <= high.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-009",
+    "question": "Why can using low < high with a closed-interval binary-search implementation miss a final candidate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It stops when low equals high, before checking that index"
+      },
+      {
+        "id": "B",
+        "text": "It makes the midpoint negative"
+      },
+      {
+        "id": "C",
+        "text": "It always causes an array overflow"
+      },
+      {
+        "id": "D",
+        "text": "It sorts the array in descending order"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "When low == high, one candidate remains; low < high exits before examining it unless the algorithm is designed for that convention.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-010",
+    "question": "Which statement best describes recursive binary search?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It requires a separate linked list for every midpoint"
+      },
+      {
+        "id": "B",
+        "text": "It works only when the target is the first element"
+      },
+      {
+        "id": "C",
+        "text": "It calls itself on a smaller half-range after each comparison"
+      },
+      {
+        "id": "D",
+        "text": "It always scans from the first element to the last"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Recursive binary search repeats the same logic on a reduced range until found or empty.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-011",
+    "question": "What is the typical auxiliary space complexity of iterative binary search?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "O(1)"
+      },
+      {
+        "id": "C",
+        "text": "O(n)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The iterative version maintains a constant number of indices and variables.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-012",
+    "question": "What is the typical auxiliary space complexity of recursive binary search on n elements?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(log n) due to the call stack"
+      },
+      {
+        "id": "B",
+        "text": "O(2ⁿ)"
+      },
+      {
+        "id": "C",
+        "text": "O(n²)"
+      },
+      {
+        "id": "D",
+        "text": "O(1) in every implementation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each recursive call halves the range, giving O(log n) call-stack depth.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-013",
+    "question": "For a sorted array of 64 elements, the worst-case number of binary-search comparisons is closest to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "32"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "64"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Binary search needs at most about ⌊log₂ n⌋+1 comparisons; for 64 elements this is 7.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-014",
+    "question": "What is the best-case time complexity of both linear search and binary search?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1)"
+      },
+      {
+        "id": "B",
+        "text": "O(n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Both can find the target immediately if it is at the first element checked (the first position for linear search or the midpoint for binary search).",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-015",
+    "question": "For a uniformly likely successful linear search in an array of n distinct elements, the average number of comparisons is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "n²"
+      },
+      {
+        "id": "B",
+        "text": "log₂ n"
+      },
+      {
+        "id": "C",
+        "text": "n − 1"
+      },
+      {
+        "id": "D",
+        "text": "(n + 1) / 2"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "If each position is equally likely, the average comparisons are (1+2+…+n)/n = (n+1)/2.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-016",
+    "question": "Which comparison of worst-case time complexities is correct for searching an ordered array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linear search O(log n); binary search O(n)"
+      },
+      {
+        "id": "B",
+        "text": "Both are always O(1)"
+      },
+      {
+        "id": "C",
+        "text": "Linear search O(n); binary search O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "Linear search O(n log n); binary search O(log log n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Binary search uses the sorted order to discard half the remaining candidates at each step.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-017",
+    "question": "A successful search means that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The target key is present and is found"
+      },
+      {
+        "id": "B",
+        "text": "The target key is absent after checking all candidates"
+      },
+      {
+        "id": "C",
+        "text": "The array must be sorted"
+      },
+      {
+        "id": "D",
+        "text": "The algorithm always uses O(1) time"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Successful search means the searched item exists in the collection.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-018",
+    "question": "An unsuccessful linear search on an array of n elements typically makes how many key comparisons?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "log₂ n"
+      },
+      {
+        "id": "C",
+        "text": "n/2 in every case"
+      },
+      {
+        "id": "D",
+        "text": "n"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "If the key is absent, every element must be checked.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-019",
+    "question": "In a sorted array [2, 4, 6, 8, 10, 12, 14], using low=0 and high=6, what is the first midpoint index?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "mid = 0 + (6−0)//2 = 3; the element at index 3 is 8.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-020",
+    "question": "In [2, 4, 6, 8, 10, 12, 14], binary search looks for 12. With low=0, high=6 and mid=3, what should happen next?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Set low = 3"
+      },
+      {
+        "id": "B",
+        "text": "Set low = 4"
+      },
+      {
+        "id": "C",
+        "text": "Set high = 3"
+      },
+      {
+        "id": "D",
+        "text": "Set high = 2"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "At index 3 the value is 8, which is less than 12; search the right half starting at index 4.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-021",
+    "question": "What is the main purpose of lower_bound in a sorted array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Find any occurrence of the target only"
+      },
+      {
+        "id": "B",
+        "text": "Find the last position whose value is strictly less than the target"
+      },
+      {
+        "id": "C",
+        "text": "Find the array's minimum regardless of order"
+      },
+      {
+        "id": "D",
+        "text": "Find the first position whose value is not less than the target"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Lower bound returns the first index with value >= target, or the insertion position if none exists.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-022",
+    "question": "What is the usual meaning of upper_bound for target x in a sorted array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Any position where x occurs"
+      },
+      {
+        "id": "B",
+        "text": "The last position whose value is less than x"
+      },
+      {
+        "id": "C",
+        "text": "The first position whose value is greater than x"
+      },
+      {
+        "id": "D",
+        "text": "The first position whose value equals x"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Upper bound identifies the first element strictly greater than the target.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-023",
+    "question": "In a sorted array with duplicates, how can the first occurrence of target be found using binary search?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Always move low to mid + 1 after a match"
+      },
+      {
+        "id": "B",
+        "text": "Switch to linear search from the array's end"
+      },
+      {
+        "id": "C",
+        "text": "Stop immediately at the first match encountered"
+      },
+      {
+        "id": "D",
+        "text": "When target is found, continue searching the left half"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "After a match, record the index and keep searching left to find an earlier occurrence.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-024",
+    "question": "In a sorted array with duplicates, how can the last occurrence of target be found using binary search?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When target is found, continue searching the right half"
+      },
+      {
+        "id": "B",
+        "text": "Always move high to mid − 1 after a match"
+      },
+      {
+        "id": "C",
+        "text": "Reverse the array before every comparison"
+      },
+      {
+        "id": "D",
+        "text": "Stop at the first match"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "After a match, record the index and continue right to locate a later occurrence.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-025",
+    "question": "If lower_bound(x) is p and upper_bound(x) is q in a sorted array, how many occurrences of x are present?",
+    "options": [
+      {
+        "id": "A",
+        "text": "p + q"
+      },
+      {
+        "id": "B",
+        "text": "p − q"
+      },
+      {
+        "id": "C",
+        "text": "q − p + 1"
+      },
+      {
+        "id": "D",
+        "text": "q − p"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The occurrences occupy the half-open index interval [p, q), whose length is q−p.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-026",
+    "question": "Binary search on answer is most suitable when:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The task requires traversing every node in a linked list"
+      },
+      {
+        "id": "B",
+        "text": "Feasibility can be expressed as a monotonic true/false condition over candidate answers"
+      },
+      {
+        "id": "C",
+        "text": "The input is unsorted and no ordering or monotonicity exists"
+      },
+      {
+        "id": "D",
+        "text": "Every answer candidate must be tested with no structure"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Binary search on answer narrows a candidate answer range when feasibility changes monotonically.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-027",
+    "question": "For a minimization problem, which feasibility pattern can support binary search on answer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All candidates are infeasible"
+      },
+      {
+        "id": "B",
+        "text": "Feasibility alternates true and false randomly"
+      },
+      {
+        "id": "C",
+        "text": "Candidates below a threshold are infeasible and candidates at or above it are feasible"
+      },
+      {
+        "id": "D",
+        "text": "Only one arbitrary candidate is feasible with no pattern"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A monotonic transition from false to true lets binary search locate the first feasible candidate.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-028",
+    "question": "A rotated sorted array is typically formed by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Replacing all elements with their indices"
+      },
+      {
+        "id": "B",
+        "text": "Sorting the array in descending order"
+      },
+      {
+        "id": "C",
+        "text": "Randomly shuffling every element"
+      },
+      {
+        "id": "D",
+        "text": "Moving a prefix of a sorted array to its end, preserving the order within each part"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Rotation changes the starting point of a sorted sequence but preserves sorted order in two segments.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-029",
+    "question": "What key idea allows binary-search-style search in a rotated sorted array with distinct elements?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sort the array fully before every comparison as a required step"
+      },
+      {
+        "id": "B",
+        "text": "Determine which half is sorted, then decide whether the target lies in that half"
+      },
+      {
+        "id": "C",
+        "text": "Compare only the first and last elements"
+      },
+      {
+        "id": "D",
+        "text": "Always search the left half first"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "At least one half is sorted; its endpoints help determine whether the target can lie there.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-030",
+    "question": "Which issue can degrade rotated-array binary search with many duplicate values?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The algorithm must become O(n log n) in every case"
+      },
+      {
+        "id": "B",
+        "text": "The array becomes impossible to access by index"
+      },
+      {
+        "id": "C",
+        "text": "It may be impossible to identify the sorted half from endpoint comparisons, so boundaries may need to shrink"
+      },
+      {
+        "id": "D",
+        "text": "All duplicate values are automatically removed"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Duplicates can make both halves appear equivalent, requiring incremental boundary movement and a possible O(n) worst case.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-031",
+    "question": "Which search algorithm is generally preferable for a sorted array stored in a singly linked list if random access is unavailable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linear search"
+      },
+      {
+        "id": "B",
+        "text": "Binary search with O(1) midpoint access"
+      },
+      {
+        "id": "C",
+        "text": "Lower_bound using direct indexing"
+      },
+      {
+        "id": "D",
+        "text": "Standard array-based binary search"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Linked lists do not provide O(1) access to the midpoint, so standard binary search loses its usual efficiency advantage.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-032",
+    "question": "Which statement about binary search's preconditions is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The array must contain no repeated values"
+      },
+      {
+        "id": "B",
+        "text": "The searched range must be ordered consistently with the comparison used by the algorithm"
+      },
+      {
+        "id": "C",
+        "text": "The array must have an even number of elements"
+      },
+      {
+        "id": "D",
+        "text": "The keys must be integers only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Binary search relies on a consistent ordering; duplicate values are allowed, though finding specific occurrences needs care.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-033",
+    "question": "For a sorted array [1, 3, 3, 3, 7], what is the lower_bound index of 3 using zero-based indexing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The first value that is >= 3 occurs at index 1.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-034",
+    "question": "For a sorted array [1, 3, 3, 3, 7], what is the upper_bound index of 3 using zero-based indexing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The first value strictly greater than 3 is 7 at index 4.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "searching-algorithms-035",
+    "question": "Which is true about unsuccessful binary search in a sorted array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It must always inspect every element"
+      },
+      {
+        "id": "B",
+        "text": "It can only terminate if the target is larger than the maximum"
+      },
+      {
+        "id": "C",
+        "text": "It terminates when the candidate range becomes empty"
+      },
+      {
+        "id": "D",
+        "text": "It always uses exactly one comparison"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "In a closed interval implementation, failure is established when low exceeds high.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

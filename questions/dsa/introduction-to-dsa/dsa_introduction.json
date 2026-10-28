@@ -1,0 +1,1432 @@
+[
+  {
+    "id": "dsa_introduction-001",
+    "question": "Which option best distinguishes data from information?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data are always numerical; information is always textual"
+      },
+      {
+        "id": "B",
+        "text": "Data and information have exactly the same meaning"
+      },
+      {
+        "id": "C",
+        "text": "Data are raw facts; information is data processed or interpreted to convey meaning"
+      },
+      {
+        "id": "D",
+        "text": "Data are processed output; information is unorganized input"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Data are raw facts; information is data organized or interpreted to convey meaning.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-002",
+    "question": "In programming, a data type primarily specifies:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The kind of values a variable can represent and operations applicable to them"
+      },
+      {
+        "id": "B",
+        "text": "The order in which a program's functions execute"
+      },
+      {
+        "id": "C",
+        "text": "The physical location of every variable in memory"
+      },
+      {
+        "id": "D",
+        "text": "The number of algorithms in a program"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A data type defines the values and operations associated with them.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-003",
+    "question": "Which is generally a primitive data type in common programming languages?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Binary tree"
+      },
+      {
+        "id": "B",
+        "text": "Integer"
+      },
+      {
+        "id": "C",
+        "text": "Graph"
+      },
+      {
+        "id": "D",
+        "text": "Linked list"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Integer is primitive in many languages; lists, trees, and graphs are non-primitive structures.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-004",
+    "question": "Which statement about data structures is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A data structure is always stored contiguously"
+      },
+      {
+        "id": "B",
+        "text": "A data structure can contain only one data item"
+      },
+      {
+        "id": "C",
+        "text": "A data structure is identical to an algorithm"
+      },
+      {
+        "id": "D",
+        "text": "A data structure organizes data to support efficient access and modification"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Data structures organize data and relationships to support required operations.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-005",
+    "question": "A good choice of data structure depends most directly on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whether the application uses a graphical interface"
+      },
+      {
+        "id": "B",
+        "text": "The required operations, data relationships, and resource constraints"
+      },
+      {
+        "id": "C",
+        "text": "The number of comments in source code"
+      },
+      {
+        "id": "D",
+        "text": "The programmer's preferred variable names only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Search, insertion, deletion, traversal, and resource constraints influence the choice.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-006",
+    "question": "Which is commonly considered when evaluating a data structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Time and space efficiency of supported operations"
+      },
+      {
+        "id": "B",
+        "text": "The number of pages in its documentation"
+      },
+      {
+        "id": "C",
+        "text": "The color of the program editor"
+      },
+      {
+        "id": "D",
+        "text": "The brand of computer used to write it"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Efficiency, memory use, supported operations, and implementation complexity matter.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-007",
+    "question": "Which pairing is correctly classified?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Graph—linear; stack—non-linear"
+      },
+      {
+        "id": "B",
+        "text": "Tree—linear; array—non-linear"
+      },
+      {
+        "id": "C",
+        "text": "Array—linear; tree—non-linear"
+      },
+      {
+        "id": "D",
+        "text": "Queue—non-linear; linked list—non-linear"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Arrays and linked lists are linear; trees and graphs are non-linear.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-008",
+    "question": "Which statement best describes a linear data structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It must always use linked memory"
+      },
+      {
+        "id": "B",
+        "text": "Every element must have exactly two children"
+      },
+      {
+        "id": "C",
+        "text": "Its elements can never be traversed sequentially"
+      },
+      {
+        "id": "D",
+        "text": "Its elements are arranged in a sequential logical order"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Linear structures arrange elements in a sequence, regardless of physical representation.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-009",
+    "question": "Which structure naturally represents hierarchical relationships?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Queue"
+      },
+      {
+        "id": "B",
+        "text": "Tree"
+      },
+      {
+        "id": "C",
+        "text": "One-dimensional array only"
+      },
+      {
+        "id": "D",
+        "text": "Stack"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Trees represent parent-child hierarchies such as file systems.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-010",
+    "question": "Which example most naturally requires a graph representation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A last-in, first-out collection"
+      },
+      {
+        "id": "B",
+        "text": "A simple ordered list of marks"
+      },
+      {
+        "id": "C",
+        "text": "Cities connected by roads, with roads representing relationships"
+      },
+      {
+        "id": "D",
+        "text": "A fixed-size sequence of bytes"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Graphs model entities and relationships such as cities and roads.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-011",
+    "question": "A fixed-size array allocated with capacity for 100 elements is most commonly described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dynamic in size by definition"
+      },
+      {
+        "id": "B",
+        "text": "Non-linear"
+      },
+      {
+        "id": "C",
+        "text": "A recursive structure"
+      },
+      {
+        "id": "D",
+        "text": "Static in size"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A static-size array has capacity fixed for its allocation or declaration in the given context.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-012",
+    "question": "Which statement about dynamic data structures is generally correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They cannot grow after initialization"
+      },
+      {
+        "id": "B",
+        "text": "They must use contiguous memory"
+      },
+      {
+        "id": "C",
+        "text": "Their size or storage can change during execution"
+      },
+      {
+        "id": "D",
+        "text": "They always have lower memory overhead than static structures"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Dynamic structures can allocate or release storage as execution proceeds.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-013",
+    "question": "A matrix whose entries all have the same declared element type is a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Structure with no element type"
+      },
+      {
+        "id": "B",
+        "text": "Homogeneous collection"
+      },
+      {
+        "id": "C",
+        "text": "Non-homogeneous collection"
+      },
+      {
+        "id": "D",
+        "text": "Non-linear structure by necessity"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Homogeneous collections contain elements of the same type.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-014",
+    "question": "A record containing a student's name, roll number, and percentage is typically:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non-homogeneous because its fields may have different types"
+      },
+      {
+        "id": "B",
+        "text": "Homogeneous because it has three fields"
+      },
+      {
+        "id": "C",
+        "text": "A linear structure only if linked"
+      },
+      {
+        "id": "D",
+        "text": "A primitive type in every language"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Records can combine fields of different data types.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-015",
+    "question": "Which correctly contrasts contiguous and linked memory representation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linked representation guarantees constant-time indexed access"
+      },
+      {
+        "id": "B",
+        "text": "Contiguous elements occupy adjacent locations; linked nodes may be separate and connected by references"
+      },
+      {
+        "id": "C",
+        "text": "Both require all elements to occupy adjacent locations"
+      },
+      {
+        "id": "D",
+        "text": "Contiguous representation always uses pointers between every pair"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Arrays commonly use contiguous storage; linked nodes connect through pointers or references.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-016",
+    "question": "What is a common advantage of contiguous array storage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It requires no memory for elements"
+      },
+      {
+        "id": "B",
+        "text": "Insertion anywhere is always constant time"
+      },
+      {
+        "id": "C",
+        "text": "It expands without relocation in every implementation"
+      },
+      {
+        "id": "D",
+        "text": "Direct index-based access is typically efficient"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Array element addresses can be calculated from the base address and index, giving O(1) indexed access under standard assumptions.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-017",
+    "question": "What is a common trade-off of linked representation compared with an array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linked nodes can never be inserted or removed"
+      },
+      {
+        "id": "B",
+        "text": "Every linked list has fixed capacity"
+      },
+      {
+        "id": "C",
+        "text": "Links use extra memory and random indexed access is generally slower"
+      },
+      {
+        "id": "D",
+        "text": "Linked representation requires adjacent nodes"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "References add overhead, and reaching a position generally requires traversal.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-018",
+    "question": "An Abstract Data Type (ADT) primarily describes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only the syntax used to declare variables"
+      },
+      {
+        "id": "B",
+        "text": "The exact byte layout of every object"
+      },
+      {
+        "id": "C",
+        "text": "The processor instructions used by an implementation"
+      },
+      {
+        "id": "D",
+        "text": "The values and operations exposed, independent of implementation details"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "An ADT specifies behavior and operations; an implementation chooses representation and algorithms.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-019",
+    "question": "A stack ADT is implemented using an array in one program and a linked list in another. Which is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An ADT requires contiguous storage"
+      },
+      {
+        "id": "B",
+        "text": "Both can realize the same ADT if they provide the specified stack behavior"
+      },
+      {
+        "id": "C",
+        "text": "Only the array version is a stack"
+      },
+      {
+        "id": "D",
+        "text": "Changing representation necessarily changes the ADT"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The ADT defines observable behavior, not a single internal representation.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-020",
+    "question": "Which option is an algorithm rather than a data structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Binary search procedure"
+      },
+      {
+        "id": "B",
+        "text": "Queue"
+      },
+      {
+        "id": "C",
+        "text": "Array"
+      },
+      {
+        "id": "D",
+        "text": "Graph"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Binary search is a step-by-step procedure; the other choices organize data.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-021",
+    "question": "Which property requires every step of an algorithm to be precise and unambiguous?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Input"
+      },
+      {
+        "id": "B",
+        "text": "Generality"
+      },
+      {
+        "id": "C",
+        "text": "Finiteness"
+      },
+      {
+        "id": "D",
+        "text": "Definiteness"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Definiteness requires instructions to have clear, unambiguous meanings.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-022",
+    "question": "Which algorithm characteristic means it must finish after a finite number of steps?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Output"
+      },
+      {
+        "id": "B",
+        "text": "Finiteness"
+      },
+      {
+        "id": "C",
+        "text": "Effectiveness"
+      },
+      {
+        "id": "D",
+        "text": "Generality"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Finiteness requires termination after a finite number of steps for valid inputs.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-023",
+    "question": "Effectiveness requires algorithm steps to be:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Written only in a high-level language"
+      },
+      {
+        "id": "B",
+        "text": "Executed in constant time in every case"
+      },
+      {
+        "id": "C",
+        "text": "Graphically represented"
+      },
+      {
+        "id": "D",
+        "text": "Basic enough to be carried out exactly in finite time"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each operation should be sufficiently elementary to be performed exactly in finite time.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-024",
+    "question": "Which statement about algorithm input and output is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An algorithm cannot accept user input"
+      },
+      {
+        "id": "B",
+        "text": "Every algorithm must accept at least two inputs"
+      },
+      {
+        "id": "C",
+        "text": "An algorithm may have zero or more inputs and should specify one or more outputs under the standard textbook formulation"
+      },
+      {
+        "id": "D",
+        "text": "Output must always be a printed sentence"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Textbook definitions commonly allow zero or more inputs and specify one or more outputs.",
+    "difficulty": "hard",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-025",
+    "question": "Which best distinguishes an algorithm and a program?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An algorithm must be written in C"
+      },
+      {
+        "id": "B",
+        "text": "An algorithm is always longer than its program"
+      },
+      {
+        "id": "C",
+        "text": "A program has no execution steps"
+      },
+      {
+        "id": "D",
+        "text": "An algorithm is a language-independent procedure; a program implements it in a programming language"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "An algorithm describes a solution method; a program encodes it in a language.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-026",
+    "question": "Pseudocode is useful mainly because it:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Describes algorithm logic in a language-independent, code-like form"
+      },
+      {
+        "id": "B",
+        "text": "Must compile on every computer"
+      },
+      {
+        "id": "C",
+        "text": "Has one universally enforced syntax standard"
+      },
+      {
+        "id": "D",
+        "text": "Replaces the need to understand the problem"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pseudocode communicates logic without requiring a particular language's exact syntax.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-027",
+    "question": "A flowchart represents an algorithm using:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Machine instructions alone"
+      },
+      {
+        "id": "B",
+        "text": "Only natural-language paragraphs"
+      },
+      {
+        "id": "C",
+        "text": "Standard graphical symbols and directed flow lines"
+      },
+      {
+        "id": "D",
+        "text": "Only mathematical equations"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Flowcharts use conventional symbols and arrows to represent control flow.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-028",
+    "question": "In a conventional flowchart, which symbol commonly represents a decision?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oval"
+      },
+      {
+        "id": "B",
+        "text": "Rectangle"
+      },
+      {
+        "id": "C",
+        "text": "Parallelogram"
+      },
+      {
+        "id": "D",
+        "text": "Diamond"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A diamond commonly represents a decision or conditional branch.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-029",
+    "question": "An algorithm passes some test cases but fails for some valid inputs. It is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "General because it accepts input"
+      },
+      {
+        "id": "B",
+        "text": "Finite only if recursive"
+      },
+      {
+        "id": "C",
+        "text": "Not correct over the full specified input domain"
+      },
+      {
+        "id": "D",
+        "text": "Proven correct because some tests passed"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correctness must hold across all valid inputs, not only tested samples.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-030",
+    "question": "Generality of an algorithm refers to its ability to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Avoid all input values"
+      },
+      {
+        "id": "B",
+        "text": "Solve a class of valid problem instances rather than one isolated instance"
+      },
+      {
+        "id": "C",
+        "text": "Be expressed only as a flowchart"
+      },
+      {
+        "id": "D",
+        "text": "Use the greatest possible memory"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A general algorithm handles a defined class of problem instances.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-031",
+    "question": "Which best distinguishes termination from correctness?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Termination means it finishes; correctness also requires its result to satisfy the specification"
+      },
+      {
+        "id": "B",
+        "text": "Termination and correctness are identical"
+      },
+      {
+        "id": "C",
+        "text": "If an algorithm terminates, it must be correct"
+      },
+      {
+        "id": "D",
+        "text": "Correctness means the algorithm has no input"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An algorithm can terminate and still return a wrong result.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-032",
+    "question": "Which situation is an example of iteration?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A function calls itself on a smaller subproblem"
+      },
+      {
+        "id": "B",
+        "text": "A problem is defined without steps"
+      },
+      {
+        "id": "C",
+        "text": "A function returns without executing"
+      },
+      {
+        "id": "D",
+        "text": "A loop repeatedly updates a counter until a condition becomes false"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Iteration repeats instructions using loops or equivalent constructs.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-033",
+    "question": "Which statement about recursion is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recursion means storing all data contiguously"
+      },
+      {
+        "id": "B",
+        "text": "Recursion cannot solve repeated subproblems"
+      },
+      {
+        "id": "C",
+        "text": "A recursive solution calls itself directly or indirectly and needs a stopping condition"
+      },
+      {
+        "id": "D",
+        "text": "Every recursive algorithm uses less memory than iteration"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Recursive procedures call themselves and require a reachable base case or other stopping condition.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-034",
+    "question": "A recursive function has no reachable base case for a given input. What may happen?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It always returns zero"
+      },
+      {
+        "id": "B",
+        "text": "Calls may continue until a resource limit or runtime failure occurs"
+      },
+      {
+        "id": "C",
+        "text": "It automatically converts to iteration"
+      },
+      {
+        "id": "D",
+        "text": "It becomes a non-linear data structure"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Without a reachable stopping condition, recursion may not terminate and can exhaust the call stack.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-035",
+    "question": "Compared with an iterative version, recursion may incur extra space because of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The use of a flowchart"
+      },
+      {
+        "id": "B",
+        "text": "The absence of variables"
+      },
+      {
+        "id": "C",
+        "text": "Activation records or stack frames for recursive calls"
+      },
+      {
+        "id": "D",
+        "text": "The array index alone"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Recursive calls commonly use call-stack space for parameters, local state, and return information.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-036",
+    "question": "Which approach is generally called brute force?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trying a straightforward direct or exhaustive method before sophisticated optimization"
+      },
+      {
+        "id": "B",
+        "text": "Always choosing the shortest source code"
+      },
+      {
+        "id": "C",
+        "text": "Using domain-specific knowledge to skip all candidates"
+      },
+      {
+        "id": "D",
+        "text": "Proving no solution exists without examining the problem"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Brute force uses a direct, often exhaustive approach; it may be simple but inefficient at scale.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-037",
+    "question": "Linear search checks elements one by one until a target is found or the sequence ends. It is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A divide-and-conquer algorithm"
+      },
+      {
+        "id": "B",
+        "text": "Dynamic programming by definition"
+      },
+      {
+        "id": "C",
+        "text": "A straightforward sequential search approach"
+      },
+      {
+        "id": "D",
+        "text": "A graph traversal in every case"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Linear search scans a sequence sequentially.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-038",
+    "question": "Why is problem specification important before algorithm design?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It guarantees constant time"
+      },
+      {
+        "id": "B",
+        "text": "It clarifies valid inputs, required outputs, constraints, and what counts as a correct solution"
+      },
+      {
+        "id": "C",
+        "text": "It removes the need for testing or proof"
+      },
+      {
+        "id": "D",
+        "text": "It determines the language automatically"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A specification defines the problem and provides a basis for evaluating solutions.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-039",
+    "question": "For a search algorithm, best-case time complexity describes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The least cost among inputs of a given size under the stated model"
+      },
+      {
+        "id": "B",
+        "text": "Expected time under every distribution"
+      },
+      {
+        "id": "C",
+        "text": "The maximum time for every input"
+      },
+      {
+        "id": "D",
+        "text": "The number of source-code lines"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Best-case analysis measures the most favorable input behavior for a given size.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-040",
+    "question": "Worst-case analysis considers:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only the input that finishes fastest"
+      },
+      {
+        "id": "B",
+        "text": "The maximum cost among inputs of a given size"
+      },
+      {
+        "id": "C",
+        "text": "Compilation cost only"
+      },
+      {
+        "id": "D",
+        "text": "The average of the first and last test cases"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Worst-case analysis bounds the largest operation count or resource cost for inputs of a given size.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-041",
+    "question": "Average-case complexity is most accurately described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The maximum cost among all inputs"
+      },
+      {
+        "id": "B",
+        "text": "Always equal to best case"
+      },
+      {
+        "id": "C",
+        "text": "Expected cost over an assumed distribution of inputs of a given size"
+      },
+      {
+        "id": "D",
+        "text": "The number of statements in pseudocode"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Average-case analysis depends on an input distribution or an explicit averaging assumption.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-042",
+    "question": "For linear search in an unsorted array of n elements, best-case comparisons equal:",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "n²"
+      },
+      {
+        "id": "C",
+        "text": "log₂ n"
+      },
+      {
+        "id": "D",
+        "text": "n"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "If the target is the first element checked, one comparison is enough.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-043",
+    "question": "For linear search in an unsorted array of n elements, worst-case comparisons are:",
+    "options": [
+      {
+        "id": "A",
+        "text": "n − 1 in all cases"
+      },
+      {
+        "id": "B",
+        "text": "log₂ n"
+      },
+      {
+        "id": "C",
+        "text": "n"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "If the target is last or absent, up to n elements are checked.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-044",
+    "question": "If an algorithm performs approximately 3n + 7 basic operations, its asymptotic time complexity is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(log n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n²)"
+      },
+      {
+        "id": "C",
+        "text": "O(1)"
+      },
+      {
+        "id": "D",
+        "text": "O(n)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The linear term dominates constant factors and additive constants as n grows.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-045",
+    "question": "Which statement about Big-O notation is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It expresses an asymptotic upper bound on growth under the chosen interpretation"
+      },
+      {
+        "id": "B",
+        "text": "It is only for recursive algorithms"
+      },
+      {
+        "id": "C",
+        "text": "It describes only memory use"
+      },
+      {
+        "id": "D",
+        "text": "It gives exact runtime in seconds"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Big-O expresses an asymptotic upper bound on growth, not exact runtime.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-046",
+    "question": "An algorithm uses O(n) extra memory in addition to input storage. This describes its:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Input size in bits only"
+      },
+      {
+        "id": "B",
+        "text": "Correctness condition"
+      },
+      {
+        "id": "C",
+        "text": "Best-case time only"
+      },
+      {
+        "id": "D",
+        "text": "Auxiliary space complexity"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Auxiliary space measures extra memory used, excluding input storage under the stated convention.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-047",
+    "question": "Which statement about choosing a data structure and algorithm together is true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The algorithm never affects structure choice"
+      },
+      {
+        "id": "B",
+        "text": "The structure affects operation costs, and the algorithm determines how operations are used"
+      },
+      {
+        "id": "C",
+        "text": "The same structure guarantees identical complexity for every operation"
+      },
+      {
+        "id": "D",
+        "text": "Only data type matters, not operations"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Performance depends on both representation and the procedure that uses it.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-048",
+    "question": "A stack manages nested function calls. LIFO means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The oldest item is removed first"
+      },
+      {
+        "id": "B",
+        "text": "Items can only be read, never removed"
+      },
+      {
+        "id": "C",
+        "text": "Items are removed in sorted order"
+      },
+      {
+        "id": "D",
+        "text": "The most recently added item is removed first"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "LIFO means last in, first out.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-049",
+    "question": "Which statement distinguishes a queue from a stack?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A queue typically follows FIFO, while a stack follows LIFO"
+      },
+      {
+        "id": "B",
+        "text": "A stack must be contiguous but a queue never can"
+      },
+      {
+        "id": "C",
+        "text": "A queue is non-linear and a stack is non-linear"
+      },
+      {
+        "id": "D",
+        "text": "A queue cannot store repeated values"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Queues typically remove the earliest inserted item first; stacks remove the latest inserted item first.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-050",
+    "question": "Which example illustrates an ADT rather than a particular implementation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A specific array with a fixed address and length"
+      },
+      {
+        "id": "B",
+        "text": "A queue specified by enqueue, dequeue, and front operations without requiring a storage representation"
+      },
+      {
+        "id": "C",
+        "text": "An allocator's exact block layout"
+      },
+      {
+        "id": "D",
+        "text": "A linked-list node containing a pointer and integer"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An ADT defines operations and behavior while leaving the implementation open.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-051",
+    "question": "A flowchart, pseudocode, and a program can describe the same solution. Which is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are different representations or implementations of solution logic with different conventions"
+      },
+      {
+        "id": "B",
+        "text": "A flowchart must compile directly to machine code"
+      },
+      {
+        "id": "C",
+        "text": "A program cannot represent an algorithm"
+      },
+      {
+        "id": "D",
+        "text": "Pseudocode is necessarily executable unchanged"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Flowcharts visualize control flow, pseudocode expresses steps, and programs implement logic in a language.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-052",
+    "question": "Which statement about algorithm analysis is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Runtime on one machine fully determines asymptotic complexity"
+      },
+      {
+        "id": "B",
+        "text": "Asymptotic analysis studies resource growth with input size, abstracting away many machine-specific details"
+      },
+      {
+        "id": "C",
+        "text": "Average-case analysis needs no assumptions about inputs"
+      },
+      {
+        "id": "D",
+        "text": "Worst-case analysis predicts exact runtime of every execution"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Asymptotic analysis focuses on growth as input size increases; average-case analysis requires input assumptions.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-053",
+    "question": "An algorithm terminates for every valid input but is correct only when n is even. If odd n is valid, which property is missing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Correctness over the specified input domain"
+      },
+      {
+        "id": "B",
+        "text": "Finiteness"
+      },
+      {
+        "id": "C",
+        "text": "The existence of an input"
+      },
+      {
+        "id": "D",
+        "text": "Definiteness"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The result must satisfy the specification for all valid inputs, including odd-sized instances.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-054",
+    "question": "Which best describes the relationship between an algorithm and a data structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An algorithm is a memory layout and a data structure is instructions"
+      },
+      {
+        "id": "B",
+        "text": "Algorithms are used only with non-primitive types"
+      },
+      {
+        "id": "C",
+        "text": "An algorithm processes data; a data structure organizes the data it operates on"
+      },
+      {
+        "id": "D",
+        "text": "A data structure determines one unique algorithm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Algorithms specify solution steps; data structures organize information for those steps.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "dsa_introduction-055",
+    "question": "Which approach is usually most appropriate when a problem's constraints are unknown at the start?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Define input constraints and required operations, then compare suitable approaches"
+      },
+      {
+        "id": "B",
+        "text": "Choose a structure only by its name"
+      },
+      {
+        "id": "C",
+        "text": "Assume every operation must be O(1)"
+      },
+      {
+        "id": "D",
+        "text": "Use recursion for every problem"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A clear problem specification and operation profile help select an appropriate data structure and algorithm.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

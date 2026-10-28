@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "complexity-001",
+    "question": "In algorithm analysis, what does input size n most commonly represent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of variables declared in the program"
+      },
+      {
+        "id": "B",
+        "text": "The number of primitive operations performed"
+      },
+      {
+        "id": "C",
+        "text": "The number of lines in the source code"
+      },
+      {
+        "id": "D",
+        "text": "A measure of the amount of input to be processed"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Input size n measures the size of the instance, such as the number of array elements or vertices.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-002",
+    "question": "An algorithm performs 5n + 12 basic operations. Its asymptotic time complexity is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(1)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n²)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The linear term dominates the constant term as n grows, so the function is Θ(n).",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-003",
+    "question": "Which statement best distinguishes time complexity from running time?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Time complexity describes growth with input size; running time is measured for a particular execution/environment"
+      },
+      {
+        "id": "B",
+        "text": "Running time ignores input size, while time complexity counts source-code lines"
+      },
+      {
+        "id": "C",
+        "text": "They are identical whenever the same algorithm is used"
+      },
+      {
+        "id": "D",
+        "text": "Time complexity is always measured in seconds; running time is unit-free"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Complexity models how resource use grows; measured runtime depends on hardware, implementation, compiler, and input.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-004",
+    "question": "A program uses 4n + 20 bytes for its input array and 12 additional bytes for temporary variables. If only extra working memory is counted, the auxiliary space is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(1)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The array is input storage; the fixed 12-byte temporary storage is constant auxiliary space.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-005",
+    "question": "Which expression grows fastest as n tends to infinity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n⁴"
+      },
+      {
+        "id": "B",
+        "text": "2ⁿ"
+      },
+      {
+        "id": "C",
+        "text": "n³"
+      },
+      {
+        "id": "D",
+        "text": "n log n"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Exponential growth 2ⁿ eventually exceeds any fixed-degree polynomial.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-006",
+    "question": "Which ordering is correct from slowest to fastest asymptotic growth?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1, log n, n, n log n, n²"
+      },
+      {
+        "id": "B",
+        "text": "log n, 1, n log n, n, n²"
+      },
+      {
+        "id": "C",
+        "text": "1, n, log n, n², n log n"
+      },
+      {
+        "id": "D",
+        "text": "1, log n, n log n, n, n²"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The usual order is 1 < log n < n < n log n < n².",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-007",
+    "question": "What does f(n) = O(g(n)) formally communicate in standard asymptotic analysis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "f is bounded below by a constant multiple of g"
+      },
+      {
+        "id": "B",
+        "text": "f and g must be equal for every n"
+      },
+      {
+        "id": "C",
+        "text": "f is bounded above by a constant multiple of g for sufficiently large n"
+      },
+      {
+        "id": "D",
+        "text": "f has exactly the same growth as g"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Big-O denotes an asymptotic upper bound, not necessarily a tight bound.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-008",
+    "question": "If f(n) = Θ(n log n), which statement must be true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "f(n) = Θ(n²)"
+      },
+      {
+        "id": "B",
+        "text": "f(n) = O(n log n) and f(n) = Ω(n log n)"
+      },
+      {
+        "id": "C",
+        "text": "f(n) = Ω(n²)"
+      },
+      {
+        "id": "D",
+        "text": "f(n) = O(n²), but not O(n log n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Theta means both an asymptotic upper and lower bound of the same order.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-009",
+    "question": "Which notation expresses an asymptotic lower bound?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O"
+      },
+      {
+        "id": "B",
+        "text": "o"
+      },
+      {
+        "id": "C",
+        "text": "Ω"
+      },
+      {
+        "id": "D",
+        "text": "Θ"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Big-Omega (Ω) represents an asymptotic lower bound.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-010",
+    "question": "An algorithm takes Θ(n²) time in the worst case. Which conclusion is justified?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Its best case must also be Θ(n²)"
+      },
+      {
+        "id": "B",
+        "text": "Its worst-case growth is bounded above and below by constant multiples of n² for sufficiently large n"
+      },
+      {
+        "id": "C",
+        "text": "It cannot use more than Θ(n²) memory"
+      },
+      {
+        "id": "D",
+        "text": "Every input of size n takes exactly n² seconds"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Theta characterizes a tight asymptotic bound for the stated case; it does not specify seconds or space.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-011",
+    "question": "For linear search in an unsorted array of n elements, the best-case number of comparisons is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "n"
+      },
+      {
+        "id": "B",
+        "text": "log₂ n"
+      },
+      {
+        "id": "C",
+        "text": "n/2"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The target at the first position is found after one comparison.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-012",
+    "question": "For linear search in an unsorted array, the worst-case time complexity is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(1)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The target may be last or absent, requiring up to n comparisons.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-013",
+    "question": "For a successful linear search, assuming the target is equally likely to be at any of n positions, the average number of comparisons is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "log₂ n"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "(n + 1)/2"
+      },
+      {
+        "id": "D",
+        "text": "n"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each position requires 1 through n comparisons, whose mean is (n+1)/2.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-014",
+    "question": "Which statement about best-, average-, and worst-case complexity is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Best case is the most useful measure for every application"
+      },
+      {
+        "id": "B",
+        "text": "They describe different input-case measures for an algorithm"
+      },
+      {
+        "id": "C",
+        "text": "Worst case is always the average of best and average case"
+      },
+      {
+        "id": "D",
+        "text": "They must have identical asymptotic bounds"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The measures describe minimum, expected/average under an input model, and maximum resource use for size n.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-015",
+    "question": "A dynamic array occasionally reallocates and copies its elements during append. Over n appends, the amortized cost per append for geometric capacity growth is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(1)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Some individual appends cost Θ(n), but total work across n appends is Θ(n), giving Θ(1) amortized cost.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-016",
+    "question": "Amortized analysis is primarily used to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bound the cost per operation over a sequence, even if some operations are expensive"
+      },
+      {
+        "id": "B",
+        "text": "Assume every operation has the same worst-case cost"
+      },
+      {
+        "id": "C",
+        "text": "Analyze average performance over randomly chosen inputs only"
+      },
+      {
+        "id": "D",
+        "text": "Replace asymptotic analysis with wall-clock benchmarking"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Amortized analysis bounds a sequence of operations and is not the same as average-case probabilistic analysis.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-017",
+    "question": "Which is a typical time-space trade-off?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Choosing Big-O instead of Big-Theta"
+      },
+      {
+        "id": "B",
+        "text": "Replacing all loops with recursion to eliminate stack use"
+      },
+      {
+        "id": "C",
+        "text": "Reducing memory while guaranteeing the same or lower time in every algorithm"
+      },
+      {
+        "id": "D",
+        "text": "Using a lookup table to spend extra memory and reduce repeated computation"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Precomputation or caching can use more space to reduce time spent recomputing results.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-018",
+    "question": "Which complexity class is commonly associated with repeatedly halving a search interval?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(2ⁿ)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n²)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each step reduces the remaining problem size by a constant factor, yielding logarithmic growth.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-019",
+    "question": "Which expression is Θ(1)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "42"
+      },
+      {
+        "id": "B",
+        "text": "n log n"
+      },
+      {
+        "id": "C",
+        "text": "7n + 3"
+      },
+      {
+        "id": "D",
+        "text": "n² + n"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A constant-valued function has constant asymptotic growth.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-020",
+    "question": "Which statement about O(2n) versus O(n) is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(2n) means exponential time"
+      },
+      {
+        "id": "B",
+        "text": "O(2n) and O(n) represent the same asymptotic class"
+      },
+      {
+        "id": "C",
+        "text": "O(2n) is asymptotically larger than O(n)"
+      },
+      {
+        "id": "D",
+        "text": "O(2n) is always Θ(n²)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Constant multiplicative factors are ignored in asymptotic notation.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-021",
+    "question": "Which function is linearithmic?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n²"
+      },
+      {
+        "id": "B",
+        "text": "2ⁿ"
+      },
+      {
+        "id": "C",
+        "text": "log n"
+      },
+      {
+        "id": "D",
+        "text": "n log n"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Linearithmic growth is n log n, common in efficient comparison sorting algorithms.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-022",
+    "question": "For a recursive algorithm, total space complexity may include:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Auxiliary data structures and memory used by active recursive calls"
+      },
+      {
+        "id": "B",
+        "text": "Only the input data and never the call stack"
+      },
+      {
+        "id": "C",
+        "text": "Only the number of arithmetic operations"
+      },
+      {
+        "id": "D",
+        "text": "The algorithm's source-code file size"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Total space can include input storage, auxiliary structures, and recursion-stack frames; auxiliary space conventions vary.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-023",
+    "question": "Which statement about auxiliary space is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It measures execution time in bytes"
+      },
+      {
+        "id": "B",
+        "text": "It usually refers to extra working storage beyond the input representation"
+      },
+      {
+        "id": "C",
+        "text": "It always includes all input storage"
+      },
+      {
+        "id": "D",
+        "text": "It is always equal to total space complexity"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Auxiliary space generally excludes the input itself, though definitions can vary by context.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-024",
+    "question": "An algorithm has best-case Θ(1) and worst-case Θ(n). Which example fits this pattern?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A loop that always visits every element"
+      },
+      {
+        "id": "B",
+        "text": "Binary search on every possible input"
+      },
+      {
+        "id": "C",
+        "text": "Linear search when the target may be first or last"
+      },
+      {
+        "id": "D",
+        "text": "A fixed number of arithmetic operations"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Linear search may finish immediately or inspect all n elements.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-025",
+    "question": "Which statement about factorial growth is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n! eventually grows faster than cⁿ for any fixed c > 1"
+      },
+      {
+        "id": "B",
+        "text": "n! is a constant-time function"
+      },
+      {
+        "id": "C",
+        "text": "n! grows more slowly than log n"
+      },
+      {
+        "id": "D",
+        "text": "n! is asymptotically slower than n²"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Factorial growth eventually exceeds any fixed-base exponential cⁿ.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-026",
+    "question": "If an algorithm uses Θ(n) time and Θ(n²) extra memory, which conclusion follows?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Its total space is necessarily constant"
+      },
+      {
+        "id": "B",
+        "text": "Its time is quadratic while its extra space is linear"
+      },
+      {
+        "id": "C",
+        "text": "Its time and space complexities must be equal"
+      },
+      {
+        "id": "D",
+        "text": "Its time is linear while its extra space is quadratic"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Time and space are separate resource measures and need not have the same order.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-027",
+    "question": "Which is the strongest generally valid interpretation of O(n²) for a function that is actually Θ(n)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It proves the function is quadratic"
+      },
+      {
+        "id": "B",
+        "text": "It is a valid but non-tight upper bound"
+      },
+      {
+        "id": "C",
+        "text": "It is invalid because only Θ notation may be used"
+      },
+      {
+        "id": "D",
+        "text": "It means the function is bounded below by n²"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A linear function is also O(n²), though O(n) is a tighter upper bound.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-028",
+    "question": "Which statement about average-case complexity requires care?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is independent of input assumptions"
+      },
+      {
+        "id": "B",
+        "text": "It is always exactly halfway between best and worst case"
+      },
+      {
+        "id": "C",
+        "text": "It depends on a model or distribution of inputs"
+      },
+      {
+        "id": "D",
+        "text": "It can never equal the worst-case bound"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Average-case analysis depends on how inputs are modeled or distributed.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-029",
+    "question": "If an algorithm uses O(log n) auxiliary space, what is a plausible source of that usage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A fixed number of scalar variables only"
+      },
+      {
+        "id": "B",
+        "text": "A recursion stack of logarithmic depth"
+      },
+      {
+        "id": "C",
+        "text": "A two-dimensional n by n table"
+      },
+      {
+        "id": "D",
+        "text": "Storing a copy of every input element"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Recursive divide-and-conquer procedures may use a logarithmic-depth call stack.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-030",
+    "question": "For sufficiently large n, which comparison is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n² = O(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "2ⁿ = O(n³)"
+      },
+      {
+        "id": "C",
+        "text": "log n = O(n)"
+      },
+      {
+        "id": "D",
+        "text": "n log n = O(n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Logarithmic growth is bounded above by linear growth; the other proposed upper bounds fail asymptotically.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-031",
+    "question": "How many times does the body execute? `for (i = 0; i < n; i++)`",
+    "options": [
+      {
+        "id": "A",
+        "text": "n + 1 times"
+      },
+      {
+        "id": "B",
+        "text": "n times"
+      },
+      {
+        "id": "C",
+        "text": "n² times"
+      },
+      {
+        "id": "D",
+        "text": "log₂ n times"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The values 0 through n−1 give n body executions.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-032",
+    "question": "What is the time complexity of two sequential loops, each iterating n times and doing constant work per iteration?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(1)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(2n), hence Θ(n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n²)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sequential costs add: n + n = 2n, which is Θ(n).",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-033",
+    "question": "What is the time complexity of `for i=1..n` containing `for j=1..n` with constant work in the inner body?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(2ⁿ)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n²)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The inner loop runs n times for each of n outer iterations, giving n² executions.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-034",
+    "question": "A loop doubles i each iteration: `i = 1; while (i < n) i *= 2`. Its time complexity is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(1)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n²)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "After k iterations i is 2^k, so reaching n takes about log₂ n iterations.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-035",
+    "question": "A loop halves n each iteration until it reaches 1. Assuming integer division and n ≥ 1, the number of iterations is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(1) for all n"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Repeated halving takes logarithmically many steps.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-036",
+    "question": "What is the time complexity of `for i=1..n` followed by `for j=1..n²`, each with constant work?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n³)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n + n²) = Θ(n²)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Sequential loop costs add to n + n², dominated by n².",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-037",
+    "question": "Consider `for i=1..n` and, for each i, `for j=1..i`. How many total inner-body executions occur?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n log n"
+      },
+      {
+        "id": "B",
+        "text": "n²"
+      },
+      {
+        "id": "C",
+        "text": "n(n+1)/2"
+      },
+      {
+        "id": "D",
+        "text": "2ⁿ"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The total is 1 + 2 + ... + n = n(n+1)/2, which is Θ(n²).",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-038",
+    "question": "What is the complexity of `for i=1..n` with an inner loop running n/i times, interpreted as integer floor division?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n²)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The total is approximately n(1 + 1/2 + ... + 1/n) = Θ(n log n).",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-039",
+    "question": "An outer loop runs n times; an inner loop runs m times independently. The total time is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n + m) in all cases"
+      },
+      {
+        "id": "B",
+        "text": "Θ(log(nm))"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n² + m²)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(nm)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The inner body executes nm times when the bounds are independent.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-040",
+    "question": "An outer loop runs n times, and the inner loop runs i times on outer iteration i. What is the total complexity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n³)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Summing i from 1 to n yields n(n+1)/2 = Θ(n²).",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-041",
+    "question": "If a loop iterates n times and contains an if/else where each branch performs O(1) work, the overall complexity is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(1)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Only one branch executes per iteration, and each iteration costs constant time.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-042",
+    "question": "A program performs a Θ(n) preprocessing loop and then a Θ(n²) loop. Its total time is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(2ⁿ)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n³)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sequential phases add, and n² dominates n.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-043",
+    "question": "For `for (i=1; i<=n; i*=3)`, assuming multiplication by 3 each iteration, the time complexity is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(log₃ n), therefore Θ(log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(3ⁿ)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The loop variable grows geometrically, so the iteration count is logarithmic.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-044",
+    "question": "A loop uses `i = 0; while (i < n) i += 3`. Its time complexity is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(1)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n²)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adding a fixed constant each iteration requires a number of iterations proportional to n.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-045",
+    "question": "What is the complexity of the following pattern: outer loop runs n times; inner loop doubles j from 1 while j < n?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(2ⁿ)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n log n)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each outer iteration costs Θ(log n), repeated n times.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-046",
+    "question": "For the recurrence T(n) = T(n−1) + Θ(1), with T(1)=Θ(1), the time complexity is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(2ⁿ)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The recurrence adds constant work for each of n levels.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-047",
+    "question": "For T(n) = 2T(n/2) + Θ(n), assuming a standard divide-and-conquer split, the solution is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "At each of log n levels, the total nonrecursive work is Θ(n), yielding Θ(n log n).",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-048",
+    "question": "For T(n) = T(n/2) + Θ(1), with a constant-size base case, the solution is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(2ⁿ)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(log n)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "There is one recursive subproblem of half the size and constant work per level, across Θ(log n) levels.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-049",
+    "question": "For T(n) = 2T(n−1) + Θ(1), with T(1)=Θ(1), the growth is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(2ⁿ)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(log n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each level roughly doubles the number of calls while depth is linear, producing exponential growth.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-050",
+    "question": "Which logarithm identity is correct for positive a and b (with valid bases)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "log(a/b) = log a + log b"
+      },
+      {
+        "id": "B",
+        "text": "log(a + b) = log a + log b"
+      },
+      {
+        "id": "C",
+        "text": "log(aᵏ) = k log a"
+      },
+      {
+        "id": "D",
+        "text": "log(ab) = log a · log b"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The power rule is log(a^k) = k log(a); product and quotient have their own sum/difference rules.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-051",
+    "question": "In asymptotic complexity, changing the logarithm base from 2 to 10 changes the growth class because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The base changes Θ(log n) into Θ((log n)²)"
+      },
+      {
+        "id": "B",
+        "text": "The base adds a factor of n"
+      },
+      {
+        "id": "C",
+        "text": "The base changes the exponent from logarithmic to linear"
+      },
+      {
+        "id": "D",
+        "text": "It does not change the asymptotic class; bases differ by a constant factor"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "By change of base, log_a n = log_b n / log_b a, a constant multiple for fixed bases.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-052",
+    "question": "Which order is correct from slowest to fastest growth?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1, log n, n log n, n, 2ⁿ, n²"
+      },
+      {
+        "id": "B",
+        "text": "1, log n, n, n log n, n², 2ⁿ"
+      },
+      {
+        "id": "C",
+        "text": "1, n, log n, n log n, 2ⁿ, n²"
+      },
+      {
+        "id": "D",
+        "text": "log n, 1, n, n², 2ⁿ"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For large n: 1 < log n < n < n log n < n² < 2ⁿ.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-053",
+    "question": "An algorithm has two nested loops, but the inner loop always executes exactly 4 times regardless of n. The total time is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(1)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A constant four iterations per outer iteration gives 4n operations, hence Θ(n).",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-054",
+    "question": "A loop starts at i = 1 and executes while i <= n, increasing i by 1 each time. For integer n >= 1, how many times does the body execute?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n"
+      },
+      {
+        "id": "B",
+        "text": "log₂ n"
+      },
+      {
+        "id": "C",
+        "text": "n + 1"
+      },
+      {
+        "id": "D",
+        "text": "n − 1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The body runs for i = 1, 2, ..., n: exactly n executions. The loop condition is checked one additional time, but that is not a body execution.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-055",
+    "question": "Which statement about `O(n + n²)` is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It simplifies to O(n)"
+      },
+      {
+        "id": "B",
+        "text": "It simplifies to O(n³)"
+      },
+      {
+        "id": "C",
+        "text": "It simplifies to O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "It simplifies to O(n²)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The quadratic term dominates the linear term for sufficiently large n.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-056",
+    "question": "Which statement about `O(2n)` is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is quadratic because n is multiplied"
+      },
+      {
+        "id": "B",
+        "text": "It means exactly 2n seconds"
+      },
+      {
+        "id": "C",
+        "text": "It is equivalent to O(n) asymptotically"
+      },
+      {
+        "id": "D",
+        "text": "It is exponential because it contains 2"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The 2 is a constant multiplier, not an exponent.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-057",
+    "question": "A loop executes n times, and each iteration performs an operation that itself takes Θ(log n). The total time is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n log n)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n² log n)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Multiplying n iterations by Θ(log n) work per iteration gives Θ(n log n).",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-058",
+    "question": "For a conditional algorithm, branch 1 takes Θ(n) and branch 2 takes Θ(n²). If worst-case complexity is requested, what bound applies?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Θ(log n)"
+      },
+      {
+        "id": "B",
+        "text": "Θ(n³)"
+      },
+      {
+        "id": "C",
+        "text": "Θ(n²)"
+      },
+      {
+        "id": "D",
+        "text": "Θ(n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The worst case follows the more expensive branch, giving Θ(n²) when that branch can occur.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-059",
+    "question": "A recursive function makes one call on n−1 and another call on n−2, with constant work per call. Its recurrence has exponential growth. Which classic recurrence is this closest to?",
+    "options": [
+      {
+        "id": "A",
+        "text": "T(n)=T(n−1)+T(n−2)+Θ(1)"
+      },
+      {
+        "id": "B",
+        "text": "T(n)=2T(n/2)+n"
+      },
+      {
+        "id": "C",
+        "text": "T(n)=T(n−1)+1"
+      },
+      {
+        "id": "D",
+        "text": "T(n)=T(n/2)+1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Fibonacci-style recurrence branches into two smaller calls and has exponential growth (Θ(φⁿ) for the naive version).",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "complexity-calc-060",
+    "question": "Which is the most accurate way to analyze a loop whose bound depends on the current outer-loop index?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignore the inner loop if its bound is not n"
+      },
+      {
+        "id": "B",
+        "text": "Sum the actual inner iteration counts over outer iterations"
+      },
+      {
+        "id": "C",
+        "text": "Always treat the inner loop as constant time"
+      },
+      {
+        "id": "D",
+        "text": "Always multiply the maximum bounds without checking the dependence"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dependent bounds require summation; the result may differ from simply multiplying two maximum bounds.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

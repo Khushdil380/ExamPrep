@@ -1,0 +1,2082 @@
+[
+  {
+    "id": "linked-list-001",
+    "question": "In a linked-list node, which part stores the actual value?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Head pointer"
+      },
+      {
+        "id": "B",
+        "text": "Data field"
+      },
+      {
+        "id": "C",
+        "text": "Null marker"
+      },
+      {
+        "id": "D",
+        "text": "Link field"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The data field stores the value; the link field stores a reference to another node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-002",
+    "question": "What does the head pointer normally identify in a non-empty singly linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The first node"
+      },
+      {
+        "id": "B",
+        "text": "The last node"
+      },
+      {
+        "id": "C",
+        "text": "The node with the smallest value"
+      },
+      {
+        "id": "D",
+        "text": "The middle node"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The head points to the first node, allowing traversal to begin.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-003",
+    "question": "In a singly linked list, the link field of the final node usually contains:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The address of the head in every case"
+      },
+      {
+        "id": "B",
+        "text": "The address of the previous node"
+      },
+      {
+        "id": "C",
+        "text": "The number of nodes"
+      },
+      {
+        "id": "D",
+        "text": "NULL"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A standard non-circular singly linked list ends when the last node's next link is NULL.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-004",
+    "question": "Which statement best describes a linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A collection of nodes connected through links"
+      },
+      {
+        "id": "B",
+        "text": "A collection whose elements must occupy consecutive memory locations"
+      },
+      {
+        "id": "C",
+        "text": "A sorted collection by definition"
+      },
+      {
+        "id": "D",
+        "text": "A fixed-size block with direct indexing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Linked-list nodes can be located separately in memory and are connected by pointers.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-005",
+    "question": "What is the usual time complexity of accessing the element at index i in a singly linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1)"
+      },
+      {
+        "id": "B",
+        "text": "O(n)"
+      },
+      {
+        "id": "C",
+        "text": "O(log n)"
+      },
+      {
+        "id": "D",
+        "text": "O( n log n)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The list must be traversed from the head until the desired position is reached.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-006",
+    "question": "Which is a major advantage of a linked list over a conventional array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No pointer storage overhead"
+      },
+      {
+        "id": "B",
+        "text": "Constant-time random access"
+      },
+      {
+        "id": "C",
+        "text": "Guaranteed better cache locality"
+      },
+      {
+        "id": "D",
+        "text": "Easy insertion/deletion when the relevant link or node is already known"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A link update can insert or remove a node without shifting subsequent elements.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-007",
+    "question": "Which is a common disadvantage of a linked list compared with an array?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insertion at the head is O(n)"
+      },
+      {
+        "id": "B",
+        "text": "It cannot grow dynamically"
+      },
+      {
+        "id": "C",
+        "text": "It requires extra memory for links"
+      },
+      {
+        "id": "D",
+        "text": "It always requires contiguous memory"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each node stores one or more links in addition to its data.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-008",
+    "question": "For a standard singly linked list with n nodes, how long does a complete traversal take?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n²)"
+      },
+      {
+        "id": "B",
+        "text": "O(log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(1)"
+      },
+      {
+        "id": "D",
+        "text": "O(n)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each node is visited at most once during a complete traversal.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-009",
+    "question": "What does the expression `head == NULL` usually indicate in a basic singly linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The list is empty"
+      },
+      {
+        "id": "B",
+        "text": "The final node is the head"
+      },
+      {
+        "id": "C",
+        "text": "The list is circular"
+      },
+      {
+        "id": "D",
+        "text": "The list contains exactly one node"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In a conventional representation, NULL head means no first node exists.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-010",
+    "question": "When inserting a new node at the beginning of a singly linked list, which update order is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "head = newNode; newNode->next = head"
+      },
+      {
+        "id": "B",
+        "text": "head->next = newNode; newNode->next = NULL"
+      },
+      {
+        "id": "C",
+        "text": "newNode->next = NULL; head->next = newNode"
+      },
+      {
+        "id": "D",
+        "text": "newNode->next = head; head = newNode"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "First preserve the old head in newNode->next, then move head to the new node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-011",
+    "question": "Inserting a node at the head of a singly linked list takes how much time, assuming allocation is O(1)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "B",
+        "text": "O(log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(1)"
+      },
+      {
+        "id": "D",
+        "text": "O(n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Only the new node's link and the head pointer need updating.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-012",
+    "question": "Appending to a singly linked list that stores only a head pointer and no tail pointer usually takes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n), because the last node must be found"
+      },
+      {
+        "id": "B",
+        "text": "O(log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(1) for every list length"
+      },
+      {
+        "id": "D",
+        "text": "O(n²)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Without a tail pointer, the list is traversed to locate the final node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-013",
+    "question": "If a singly linked list also maintains a tail pointer, appending a node can be performed in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n²)"
+      },
+      {
+        "id": "C",
+        "text": "O(1)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The tail pointer gives direct access to the last node; the empty-list case must also be handled.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-014",
+    "question": "Searching for a value in an unsorted singly linked list has worst-case time complexity:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(1)"
+      },
+      {
+        "id": "D",
+        "text": "O(n log n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The value may be absent or at the final node, requiring inspection of all n nodes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-015",
+    "question": "Deleting the first node of a non-empty singly linked list usually takes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n²)"
+      },
+      {
+        "id": "B",
+        "text": "O(n)"
+      },
+      {
+        "id": "C",
+        "text": "O(1)"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Move head to head->next and release the old first node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-016",
+    "question": "In a singly linked list, deleting the last node without a tail-predecessor pointer generally takes O(n) because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The predecessor must be found by traversal"
+      },
+      {
+        "id": "B",
+        "text": "The head pointer cannot be changed"
+      },
+      {
+        "id": "C",
+        "text": "All nodes must be shifted"
+      },
+      {
+        "id": "D",
+        "text": "The last node stores no data"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "To set the new last node's next to NULL, its predecessor must be located.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-017",
+    "question": "If a node is already known and its predecessor is also available, deleting it from a singly linked list is typically:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(log n) pointer work"
+      },
+      {
+        "id": "B",
+        "text": "O(n) pointer work"
+      },
+      {
+        "id": "C",
+        "text": "O(1) pointer work"
+      },
+      {
+        "id": "D",
+        "text": "Impossible without an array"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Relinking the predecessor to the deleted node's successor takes constant pointer work.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-018",
+    "question": "Why is direct indexing not naturally supported by a linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nodes store no data"
+      },
+      {
+        "id": "B",
+        "text": "Nodes are connected by links rather than contiguous indexed positions"
+      },
+      {
+        "id": "C",
+        "text": "The head pointer changes on every read"
+      },
+      {
+        "id": "D",
+        "text": "Every linked list is sorted"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "To reach a position, traversal generally follows links from a known node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-019",
+    "question": "Which statement about dynamic memory allocation for linked lists is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nodes can be allocated as needed during execution"
+      },
+      {
+        "id": "B",
+        "text": "Every node must be allocated in one contiguous block"
+      },
+      {
+        "id": "C",
+        "text": "Dynamic allocation guarantees no memory overhead"
+      },
+      {
+        "id": "D",
+        "text": "A list can never release a node"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Nodes are commonly created and released individually as list size changes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-020",
+    "question": "What is a likely result of losing the only pointer to a dynamically allocated node without freeing it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The node becomes the head"
+      },
+      {
+        "id": "B",
+        "text": "The list becomes sorted"
+      },
+      {
+        "id": "C",
+        "text": "A memory leak may occur"
+      },
+      {
+        "id": "D",
+        "text": "The node is automatically reinserted"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The allocated memory can no longer be reached for proper deallocation.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-021",
+    "question": "Which operation on a singly linked list generally requires no traversal if the head pointer is available?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Search for a key"
+      },
+      {
+        "id": "B",
+        "text": "Insert at the beginning"
+      },
+      {
+        "id": "C",
+        "text": "Find the middle node"
+      },
+      {
+        "id": "D",
+        "text": "Find the maximum value"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Insertion at the beginning uses a constant number of pointer updates.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-022",
+    "question": "A node in a standard singly linked list contains:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only a previous link"
+      },
+      {
+        "id": "B",
+        "text": "Only a head pointer"
+      },
+      {
+        "id": "C",
+        "text": "Data and previous/next links"
+      },
+      {
+        "id": "D",
+        "text": "Data and one next link"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A singly linked node ordinarily stores its data and a link to the next node.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-023",
+    "question": "Which structure typically provides better cache locality for sequential scans?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A doubly linked list by definition"
+      },
+      {
+        "id": "B",
+        "text": "A conventional array"
+      },
+      {
+        "id": "C",
+        "text": "A pointer-based linked list"
+      },
+      {
+        "id": "D",
+        "text": "A circular linked list in every implementation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Array elements are contiguous, which usually improves spatial locality.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-024",
+    "question": "For inserting at a specified position p in a singly linked list, the usual overall time complexity is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(log n)"
+      },
+      {
+        "id": "B",
+        "text": "O(1) regardless of p"
+      },
+      {
+        "id": "C",
+        "text": "O(n) due to locating the position"
+      },
+      {
+        "id": "D",
+        "text": "O(n²)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Pointer relinking is constant time, but reaching the preceding node may take linear time.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-025",
+    "question": "What must be updated when inserting the first node into an empty singly linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both head and, if maintained, tail"
+      },
+      {
+        "id": "B",
+        "text": "Only the new node's data"
+      },
+      {
+        "id": "C",
+        "text": "Only the old tail's next link"
+      },
+      {
+        "id": "D",
+        "text": "No pointer; the node is found automatically"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For an empty list, head must point to the new node and a maintained tail must too.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-026",
+    "question": "In a circular singly linked list with a tail pointer, which link commonly identifies the first node?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NULL"
+      },
+      {
+        "id": "B",
+        "text": "tail->next"
+      },
+      {
+        "id": "C",
+        "text": "tail->next->next"
+      },
+      {
+        "id": "D",
+        "text": "head->next->next only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In this common representation, the tail's next link points back to the head.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-027",
+    "question": "How does traversal of a circular singly linked list usually terminate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When current returns to the starting node"
+      },
+      {
+        "id": "B",
+        "text": "When the data value becomes zero"
+      },
+      {
+        "id": "C",
+        "text": "After exactly two nodes"
+      },
+      {
+        "id": "D",
+        "text": "When current becomes NULL"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Circular links do not naturally reach NULL, so traversal detects a full cycle.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-028",
+    "question": "Which statement correctly distinguishes a doubly linked list from a singly linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A doubly linked list has no data field"
+      },
+      {
+        "id": "B",
+        "text": "A doubly linked node has both next and previous links"
+      },
+      {
+        "id": "C",
+        "text": "A singly linked list supports backward traversal directly"
+      },
+      {
+        "id": "D",
+        "text": "A doubly linked list must be circular"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The previous link permits direct movement toward the predecessor.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-029",
+    "question": "A main benefit of a doubly linked list is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Backward traversal and easier deletion with a node reference"
+      },
+      {
+        "id": "B",
+        "text": "No need to update links during insertion"
+      },
+      {
+        "id": "C",
+        "text": "Lower pointer memory than a singly linked list"
+      },
+      {
+        "id": "D",
+        "text": "Constant-time search by value"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A node reference plus prev/next links can make local deletion constant time.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-030",
+    "question": "Compared with a singly linked node, a doubly linked node typically needs:",
+    "options": [
+      {
+        "id": "A",
+        "text": "No link fields"
+      },
+      {
+        "id": "B",
+        "text": "The same links in all implementations"
+      },
+      {
+        "id": "C",
+        "text": "One fewer link"
+      },
+      {
+        "id": "D",
+        "text": "One additional link"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "It usually stores both next and prev pointers, increasing per-node storage.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-031",
+    "question": "A circular doubly linked list has which property?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every node has only a next link"
+      },
+      {
+        "id": "B",
+        "text": "The last node's next and first node's prev connect the ends"
+      },
+      {
+        "id": "C",
+        "text": "It cannot be traversed backward"
+      },
+      {
+        "id": "D",
+        "text": "Only the last node points to NULL"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Both forward and backward links wrap around the list.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-032",
+    "question": "A header node is commonly used to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Provide a special starting node that may simplify list operations"
+      },
+      {
+        "id": "B",
+        "text": "Replace every data node"
+      },
+      {
+        "id": "C",
+        "text": "Store only the maximum element"
+      },
+      {
+        "id": "D",
+        "text": "Guarantee sorted order"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A header node is an extra node used for metadata or to simplify boundary cases.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-033",
+    "question": "A sentinel node is primarily intended to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Store the last user value only"
+      },
+      {
+        "id": "B",
+        "text": "Make all searches O(1)"
+      },
+      {
+        "id": "C",
+        "text": "Act as a boundary marker and simplify special-case logic"
+      },
+      {
+        "id": "D",
+        "text": "Force the list to be doubly linked"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sentinels provide stable boundary nodes that can reduce empty/end-case branches.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-034",
+    "question": "Which is true of a circular linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Its last node links back to the first node"
+      },
+      {
+        "id": "B",
+        "text": "It always ends with NULL"
+      },
+      {
+        "id": "C",
+        "text": "It must be doubly linked"
+      },
+      {
+        "id": "D",
+        "text": "It cannot contain one node"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Circularity means a link reconnects the end to the start.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-035",
+    "question": "For a one-node circular singly linked list, the only node's next pointer typically points to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A newly allocated dummy node in all implementations"
+      },
+      {
+        "id": "B",
+        "text": "NULL"
+      },
+      {
+        "id": "C",
+        "text": "Itself"
+      },
+      {
+        "id": "D",
+        "text": "The previous node, which must be different"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The single node is both first and last, so its next link returns to itself.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-036",
+    "question": "Which list type is often useful when repeated cycling through elements is required?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unsorted array only"
+      },
+      {
+        "id": "B",
+        "text": "Circular linked list"
+      },
+      {
+        "id": "C",
+        "text": "Linear singly linked list only"
+      },
+      {
+        "id": "D",
+        "text": "Stack only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Circular links support repeated round-robin traversal without restarting from NULL.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-037",
+    "question": "Which list type is generally most memory-efficient per node among these pointer-based choices?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Circular doubly linked list"
+      },
+      {
+        "id": "B",
+        "text": "All always use identical pointer storage"
+      },
+      {
+        "id": "C",
+        "text": "Doubly linked list"
+      },
+      {
+        "id": "D",
+        "text": "Singly linked list"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A singly linked node usually stores one link rather than both prev and next.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-038",
+    "question": "Which statement about insertion after a known node in a singly linked list is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can be O(1) once the node is known"
+      },
+      {
+        "id": "B",
+        "text": "It always requires searching from the head"
+      },
+      {
+        "id": "C",
+        "text": "It requires shifting all following nodes"
+      },
+      {
+        "id": "D",
+        "text": "It is impossible unless the list is sorted"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A new node can be linked between the known node and its former successor.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-039",
+    "question": "When traversing a standard non-circular singly linked list, a common loop condition is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "current->next == head"
+      },
+      {
+        "id": "B",
+        "text": "current->prev != NULL"
+      },
+      {
+        "id": "C",
+        "text": "current != NULL"
+      },
+      {
+        "id": "D",
+        "text": "current == tail->next in every representation"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Traversal follows next pointers until the NULL link is reached.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-040",
+    "question": "Which statement about linked-list insertion and deletion is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are only possible at the head"
+      },
+      {
+        "id": "B",
+        "text": "They are always O(1), including locating a position"
+      },
+      {
+        "id": "C",
+        "text": "They always require shifting elements"
+      },
+      {
+        "id": "D",
+        "text": "They can be O(1) after the relevant location is known, but locating it may be O(n)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Separate the cost of locating a node from the cost of relinking pointers.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-041",
+    "question": "If a singly linked list stores both head and tail, deleting the tail is still generally O(n) because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The previous node is not directly available"
+      },
+      {
+        "id": "B",
+        "text": "The last node has no data field"
+      },
+      {
+        "id": "C",
+        "text": "The head must always be NULL"
+      },
+      {
+        "id": "D",
+        "text": "The tail pointer cannot point to a node"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A tail pointer identifies the last node but does not identify its predecessor.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-042",
+    "question": "Which statement best compares array and linked-list insertion at the beginning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linked-list insertion requires shifting every node"
+      },
+      {
+        "id": "B",
+        "text": "Array insertion is usually O(n), linked-list insertion is O(1)"
+      },
+      {
+        "id": "C",
+        "text": "Array insertion is O(log n), linked-list insertion is O(n)"
+      },
+      {
+        "id": "D",
+        "text": "Both are always O(1)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An array typically shifts elements, while a linked list updates the head and one link.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-043",
+    "question": "Which linked-list operation needs a full scan in the general unsorted case?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insert at head"
+      },
+      {
+        "id": "B",
+        "text": "Change head to head->next"
+      },
+      {
+        "id": "C",
+        "text": "Delete head"
+      },
+      {
+        "id": "D",
+        "text": "Search by value"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Without ordering or an auxiliary index, a value may occur anywhere.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-044",
+    "question": "In a singly linked list, the `next` pointer of a newly allocated node should be initialized before linking it into the list mainly to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ensure memory is contiguous"
+      },
+      {
+        "id": "B",
+        "text": "Guarantee O(1) search"
+      },
+      {
+        "id": "C",
+        "text": "Avoid an uninitialized or unintended link"
+      },
+      {
+        "id": "D",
+        "text": "Make the data field immutable"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Initializing links prevents traversal through an indeterminate address.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-045",
+    "question": "Which operation is typically O(1) when a reference to the node and its predecessor is available?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Find the minimum value"
+      },
+      {
+        "id": "B",
+        "text": "Delete that node by relinking"
+      },
+      {
+        "id": "C",
+        "text": "Find the list length"
+      },
+      {
+        "id": "D",
+        "text": "Search for an arbitrary key"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Only a small number of links need to be changed.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-046",
+    "question": "A linked list's length is not usually available in O(1) when:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A length counter is maintained"
+      },
+      {
+        "id": "B",
+        "text": "The implementation stores a count field"
+      },
+      {
+        "id": "C",
+        "text": "The list is empty"
+      },
+      {
+        "id": "D",
+        "text": "No count is maintained and length must be calculated"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Without a maintained count, counting requires traversing the nodes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-047",
+    "question": "What is the usual worst-case time to find the kth node from the head of a singly linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1) for any k"
+      },
+      {
+        "id": "B",
+        "text": "O(k)"
+      },
+      {
+        "id": "C",
+        "text": "O(log k)"
+      },
+      {
+        "id": "D",
+        "text": "O(1)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The traversal advances node by node until reaching the requested position.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-048",
+    "question": "Which is a typical application of a doubly linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maintaining browser history with backward and forward navigation"
+      },
+      {
+        "id": "B",
+        "text": "Guaranteeing sorted insertion without search"
+      },
+      {
+        "id": "C",
+        "text": "Directly calculating array indices"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all graph representations"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Prev and next links support movement in both directions.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-049",
+    "question": "Which list structure is commonly suitable for round-robin CPU scheduling?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A static array with no wrap-around logic"
+      },
+      {
+        "id": "B",
+        "text": "A linear list that always stops at NULL"
+      },
+      {
+        "id": "C",
+        "text": "A stack with LIFO access"
+      },
+      {
+        "id": "D",
+        "text": "Circular linked list"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Circular traversal naturally returns to the next process after the last one.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-050",
+    "question": "What is the main role of the `head` reference in a linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Provide access to the first node"
+      },
+      {
+        "id": "B",
+        "text": "Always point to the last node"
+      },
+      {
+        "id": "C",
+        "text": "Store the list length in every implementation"
+      },
+      {
+        "id": "D",
+        "text": "Point to the smallest data value"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The head reference anchors traversal of a conventional list.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-051",
+    "question": "If `head` points to node X and X->next points to node Y, which node is visited next during forward traversal from X?",
+    "options": [
+      {
+        "id": "A",
+        "text": "X again"
+      },
+      {
+        "id": "B",
+        "text": "The predecessor of X"
+      },
+      {
+        "id": "C",
+        "text": "Y"
+      },
+      {
+        "id": "D",
+        "text": "NULL in every case"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The next link identifies the next node in forward traversal.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-052",
+    "question": "Which statement about memory use is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linked lists never waste memory"
+      },
+      {
+        "id": "B",
+        "text": "Doubly linked lists use fewer links than singly linked lists"
+      },
+      {
+        "id": "C",
+        "text": "Arrays require a link pointer per element"
+      },
+      {
+        "id": "D",
+        "text": "Linked lists trade pointer overhead for flexible node allocation"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The flexible allocation model comes with per-node link storage and allocation overhead.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-053",
+    "question": "In a linear doubly linked list, the first node's `prev` and last node's `next` are commonly:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both required to point to sentinels in every implementation"
+      },
+      {
+        "id": "B",
+        "text": "Both NULL"
+      },
+      {
+        "id": "C",
+        "text": "Both self-references"
+      },
+      {
+        "id": "D",
+        "text": "Both the head pointer"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A conventional non-circular doubly linked list uses NULL at both ends.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-054",
+    "question": "Which of the following is NOT guaranteed by choosing a linked list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nodes can be dynamically allocated"
+      },
+      {
+        "id": "B",
+        "text": "Insertion at head can be O(1)"
+      },
+      {
+        "id": "C",
+        "text": "Nodes are connected by links"
+      },
+      {
+        "id": "D",
+        "text": "Random access by index is O(1)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Linked lists generally require sequential traversal for indexed access.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-055",
+    "question": "For a list of n nodes, deleting a node at position i by position alone in a singly linked list usually takes:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1) for all i"
+      },
+      {
+        "id": "B",
+        "text": "O(n²) in every implementation"
+      },
+      {
+        "id": "C",
+        "text": "O(n) to locate the predecessor"
+      },
+      {
+        "id": "D",
+        "text": "O(log n)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The predecessor must usually be found by traversing from the head.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-056",
+    "question": "Which statement about an empty circular singly linked list using a tail pointer is a common convention?",
+    "options": [
+      {
+        "id": "A",
+        "text": "tail is NULL"
+      },
+      {
+        "id": "B",
+        "text": "tail must point to a node containing zero"
+      },
+      {
+        "id": "C",
+        "text": "tail points to an invalid address"
+      },
+      {
+        "id": "D",
+        "text": "tail->next is always a separate head node"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A common representation uses a NULL tail to represent no nodes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-057",
+    "question": "Which list type supports direct traversal from a node to its predecessor without starting from the head?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All linear lists equally"
+      },
+      {
+        "id": "B",
+        "text": "Singly linked list with no extra metadata"
+      },
+      {
+        "id": "C",
+        "text": "Singly linked list"
+      },
+      {
+        "id": "D",
+        "text": "Doubly linked list"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A prev link gives direct access to the predecessor.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-058",
+    "question": "Why can a linked list be preferable when the number of elements changes frequently?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It supports O(1) indexed reads"
+      },
+      {
+        "id": "B",
+        "text": "It always uses less memory than arrays"
+      },
+      {
+        "id": "C",
+        "text": "It can grow or shrink by allocating or releasing nodes"
+      },
+      {
+        "id": "D",
+        "text": "It never needs memory management"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Nodes can be added and removed without resizing a contiguous array.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-059",
+    "question": "Which is a potential drawback of frequent node allocation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It removes the need for pointers"
+      },
+      {
+        "id": "B",
+        "text": "It guarantees constant-time search"
+      },
+      {
+        "id": "C",
+        "text": "It makes all links contiguous"
+      },
+      {
+        "id": "D",
+        "text": "It can add allocation overhead and memory fragmentation"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Individual allocations may add overhead and scatter nodes in memory.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-060",
+    "question": "In a circular doubly linked list with a sentinel node, an empty-list convention often has:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The sentinel deleted immediately"
+      },
+      {
+        "id": "B",
+        "text": "The sentinel pointing to a random node"
+      },
+      {
+        "id": "C",
+        "text": "Sentinel's next and prev pointing to itself"
+      },
+      {
+        "id": "D",
+        "text": "Sentinel's next and prev both NULL in every implementation"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Self-links provide a consistent empty-state boundary for circular doubly linked lists.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-065",
+    "question": "Which pointer update is essential when reversing a singly linked list iteratively?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Swap only the data fields of the first and last nodes"
+      },
+      {
+        "id": "B",
+        "text": "Set each node's next to its previous node while preserving the original next"
+      },
+      {
+        "id": "C",
+        "text": "Sort the data values before changing links"
+      },
+      {
+        "id": "D",
+        "text": "Set every next pointer to NULL before saving successors"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Save the next node before reversing the current link, then advance the previous/current references.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-066",
+    "question": "For a singly linked list, Floyd's cycle-detection algorithm uses:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A stack and a queue"
+      },
+      {
+        "id": "B",
+        "text": "A tail pointer and a length counter only"
+      },
+      {
+        "id": "C",
+        "text": "A slow pointer moving one step and a fast pointer moving two steps"
+      },
+      {
+        "id": "D",
+        "text": "Two pointers that both move one step from the head"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "If a cycle exists, the fast and slow pointers eventually meet.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-067",
+    "question": "To find the middle node of a singly linked list in one traversal, a common method is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Use binary search on node addresses"
+      },
+      {
+        "id": "B",
+        "text": "Move slow one step and fast two steps"
+      },
+      {
+        "id": "C",
+        "text": "Move both pointers two steps at a time"
+      },
+      {
+        "id": "D",
+        "text": "Move head backward from tail"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "When fast reaches the end, slow is around the middle.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-068",
+    "question": "When merging two already sorted singly linked lists of lengths m and n, the standard merge can run in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(m+n)"
+      },
+      {
+        "id": "B",
+        "text": "O(log(m+n))"
+      },
+      {
+        "id": "C",
+        "text": "O(mn)"
+      },
+      {
+        "id": "D",
+        "text": "O(1)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each node is examined and linked at most a constant number of times.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-069",
+    "question": "A common way to check whether a singly linked list is a palindrome with O(1) auxiliary space (excluding any recursion) is to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Compare only the head and tail values"
+      },
+      {
+        "id": "B",
+        "text": "Sort the list and compare adjacent values"
+      },
+      {
+        "id": "C",
+        "text": "Reverse the second half, compare halves, and optionally restore it"
+      },
+      {
+        "id": "D",
+        "text": "Count nodes only"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Comparing the two halves after reversing one half checks symmetric values without an extra array.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-070",
+    "question": "In a polynomial linked-list representation, each term node commonly stores:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A matrix row and column only"
+      },
+      {
+        "id": "B",
+        "text": "Only an array index"
+      },
+      {
+        "id": "C",
+        "text": "Only the polynomial's degree"
+      },
+      {
+        "id": "D",
+        "text": "Coefficient, exponent, and next link"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A term is represented by its coefficient and exponent plus a link to the next term.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-071",
+    "question": "In a linked representation of a sparse matrix, a node often stores:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only a zero value"
+      },
+      {
+        "id": "B",
+        "text": "Row index, column index, non-zero value, and link(s)"
+      },
+      {
+        "id": "C",
+        "text": "The address of every zero entry"
+      },
+      {
+        "id": "D",
+        "text": "Only the matrix dimension"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sparse representations store non-zero entries and their positions to avoid storing many zeros.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-072",
+    "question": "In a linked-list implementation of a stack, the most natural O(1) push/pop end is usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The tail when no tail pointer exists, for both push and pop"
+      },
+      {
+        "id": "B",
+        "text": "The middle node"
+      },
+      {
+        "id": "C",
+        "text": "The head of a singly linked list"
+      },
+      {
+        "id": "D",
+        "text": "The node found by searching for the largest value"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Insertion and deletion at the head take constant time.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-073",
+    "question": "In a queue implemented with a linked list and both front and rear pointers, enqueue at the rear is normally:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1)"
+      },
+      {
+        "id": "B",
+        "text": "O(log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n²)"
+      },
+      {
+        "id": "D",
+        "text": "O(n)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The rear pointer lets the implementation attach a new node without traversing.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-074",
+    "question": "A dangling pointer is best described as a pointer that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Always contains NULL"
+      },
+      {
+        "id": "B",
+        "text": "Points to memory that is no longer valid for the intended object"
+      },
+      {
+        "id": "C",
+        "text": "Stores a valid node count"
+      },
+      {
+        "id": "D",
+        "text": "Points to the first node of every list"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A pointer can become dangling after the pointed-to memory is freed or the object lifetime ends.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-075",
+    "question": "When deleting the only node in a list that maintains both head and tail, the implementation should generally:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Set tail to the old head without freeing it"
+      },
+      {
+        "id": "B",
+        "text": "Set head to the freed node"
+      },
+      {
+        "id": "C",
+        "text": "Set head to NULL and tail to NULL"
+      },
+      {
+        "id": "D",
+        "text": "Set head->next to itself in every list type"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "After deleting the sole node, both boundary references must represent an empty list.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-076",
+    "question": "A frequent bug when deleting a node from a singly linked list is to free the node before:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Setting the list's name"
+      },
+      {
+        "id": "B",
+        "text": "Saving or updating the links needed to continue traversal"
+      },
+      {
+        "id": "C",
+        "text": "Reading its data field during allocation"
+      },
+      {
+        "id": "D",
+        "text": "Checking the CPU clock"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "After freeing a node, dereferencing its fields is invalid; preserve needed links first.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-077",
+    "question": "If a linked list contains duplicate values and the task is to remove duplicates from an unsorted list using a hash set, expected time can be:",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(1) total"
+      },
+      {
+        "id": "B",
+        "text": "O(n²) even with hashing"
+      },
+      {
+        "id": "C",
+        "text": "O(n log n) always"
+      },
+      {
+        "id": "D",
+        "text": "O(n) expected"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A hash set supports expected constant-time membership checks per node.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-078",
+    "question": "Concatenating two singly linked lists in O(1) is straightforward when:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The first list's tail pointer is available and its link can be updated"
+      },
+      {
+        "id": "B",
+        "text": "Neither list has a head"
+      },
+      {
+        "id": "C",
+        "text": "Every node stores a previous link"
+      },
+      {
+        "id": "D",
+        "text": "The lists must both be sorted"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A known tail allows the first list to link directly to the second list's head.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-079",
+    "question": "Which statement about recursively reversing a singly linked list is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The final node must always link to the original head"
+      },
+      {
+        "id": "B",
+        "text": "Recursion makes the algorithm O(1) auxiliary space in all languages"
+      },
+      {
+        "id": "C",
+        "text": "Only the head data is swapped"
+      },
+      {
+        "id": "D",
+        "text": "The recursive call can reverse the suffix, then the current node's link is redirected"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "After reversing the suffix, redirect the next node's link and set the current node's next to NULL at the new tail.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-080",
+    "question": "Which issue can occur if a removed node is unlinked but never deallocated in a manually managed memory environment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cycle detection becomes impossible in all lists"
+      },
+      {
+        "id": "B",
+        "text": "Memory leak"
+      },
+      {
+        "id": "C",
+        "text": "All remaining nodes are automatically freed"
+      },
+      {
+        "id": "D",
+        "text": "The list necessarily becomes circular"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Unreachable allocated memory that is not released can accumulate as a leak.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-081",
+    "question": "A linked list is split into two parts at a known node by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sorting both parts"
+      },
+      {
+        "id": "B",
+        "text": "Setting every node's next pointer to itself"
+      },
+      {
+        "id": "C",
+        "text": "Copying every pointer value into the data field"
+      },
+      {
+        "id": "D",
+        "text": "Changing the appropriate link(s) to separate the two chains"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Splitting is done by adjusting the boundary link, with head/tail metadata updated as needed.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-082",
+    "question": "Why should a circular-list traversal not use only `while (current != NULL)` as its stopping rule?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Circular lists contain no pointers"
+      },
+      {
+        "id": "B",
+        "text": "Every circular list has a NULL head"
+      },
+      {
+        "id": "C",
+        "text": "The traversal may never reach NULL"
+      },
+      {
+        "id": "D",
+        "text": "The data values are always nonzero"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "In a properly circular list, links cycle among nodes rather than ending at NULL.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-083",
+    "question": "In a singly linked list with nodes 10 -> 20 -> 30 -> NULL, after deleting the node containing 20, the correct remaining links are:",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 -> NULL -> 30"
+      },
+      {
+        "id": "B",
+        "text": "10 -> 30 -> NULL"
+      },
+      {
+        "id": "C",
+        "text": "20 -> 10 -> 30 -> NULL"
+      },
+      {
+        "id": "D",
+        "text": "10 -> 20 -> 30 -> NULL"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The predecessor node's next pointer is updated to the deleted node's successor.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "linked-list-084",
+    "question": "Which is the safest general rule when updating a list pointer that is the only route to the remaining nodes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Overwrite the link first and search for the successor later"
+      },
+      {
+        "id": "B",
+        "text": "Assume the allocator can reconstruct lost links"
+      },
+      {
+        "id": "C",
+        "text": "Free all nodes before changing links"
+      },
+      {
+        "id": "D",
+        "text": "Preserve the successor/reference before overwriting the only link to it"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Overwriting the only reference can make the rest of the chain unreachable.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]
