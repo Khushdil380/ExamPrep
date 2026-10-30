@@ -1,5 +1,5 @@
 const Preloader = (() => {
-  const minimumDisplayMs = 2200;
+  const minimumDisplayMs = 1000;
   const startedAt = performance.now();
   let hideRequested = false;
 
