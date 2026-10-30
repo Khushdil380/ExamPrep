@@ -70,4 +70,10 @@ const App = (() => {
   return { init, openSettings, closeSettings, openSampleChoice, closeSampleChoice, downloadSample };
 })();
 
-window.addEventListener('DOMContentLoaded', () => App.init());
+window.addEventListener('DOMContentLoaded', async () => {
+  try {
+    await App.init();
+  } finally {
+    Preloader.hide();
+  }
+});

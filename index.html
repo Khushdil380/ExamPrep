@@ -4,13 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ExamPrep</title>
+  <link rel="icon" type="image/png" href="assets/examPrepLogo.png">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/preloader.css">
   <link rel="stylesheet" href="css/exam.css">
   <link rel="stylesheet" href="css/settings.css">
   <link rel="stylesheet" href="css/results.css">
 </head>
 <body>
+
+<!-- Startup preloader -->
+<div id="app-preloader" class="app-preloader" role="status" aria-live="polite">
+  <div class="preloader-content">
+    <div class="preloader-logo-wrap">
+      <span class="preloader-ring" aria-hidden="true"></span>
+      <img class="preloader-logo" src="assets/examPrepLogo.png" alt="">
+    </div>
+    <p class="preloader-title">ExamPrep</p>
+    <p class="preloader-message">Getting things ready</p>
+    <div class="preloader-progress" aria-hidden="true"><span></span></div>
+  </div>
+</div>
 
 <!-- Toast -->
 <div id="toastContainer"></div>
@@ -228,6 +243,7 @@
 </div>
 
 <!-- Load order: storage → ui → data → exam → results → settings → app -->
+<script src="js/preloader.js"></script>
 <script src="js/storage.js"></script>
 <script src="js/ui.js"></script>
 <script src="js/data.js"></script>
