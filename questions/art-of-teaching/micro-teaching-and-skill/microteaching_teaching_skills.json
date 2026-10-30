@@ -1,0 +1,652 @@
+[
+  {
+    "id": "microteaching-skills-001",
+    "question": "What is the main purpose of microteaching?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To assess students' final examination performance"
+      },
+      {
+        "id": "B",
+        "text": "To teach the entire syllabus in one short session"
+      },
+      {
+        "id": "C",
+        "text": "To practise a specific teaching skill in a scaled-down lesson and improve it through feedback"
+      },
+      {
+        "id": "D",
+        "text": "To replace all classroom teaching permanently"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Microteaching simplifies teaching by focusing on a limited skill, a short lesson, and a small group so the teacher can practise and improve.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-002",
+    "question": "In the microteaching cycle given in this syllabus, which step comes immediately after Teach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Re-feedback"
+      },
+      {
+        "id": "B",
+        "text": "Re-teach"
+      },
+      {
+        "id": "C",
+        "text": "Re-plan"
+      },
+      {
+        "id": "D",
+        "text": "Feedback"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The cycle proceeds: Teach → Feedback → Re-plan → Re-teach → Re-feedback.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-003",
+    "question": "According to the specified microteaching timings, how long is the Re-plan stage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 minutes"
+      },
+      {
+        "id": "B",
+        "text": "24 minutes"
+      },
+      {
+        "id": "C",
+        "text": "18 minutes"
+      },
+      {
+        "id": "D",
+        "text": "6 minutes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Re-plan takes 12 minutes—double the 6-minute duration of the other listed stages.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-004",
+    "question": "Which sequence correctly matches the specified microteaching cycle and timings?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Teach 6 min → Feedback 12 min → Re-plan 6 min → Re-teach 6 min → Re-feedback 6 min"
+      },
+      {
+        "id": "B",
+        "text": "Teach 12 min → Feedback 6 min → Re-plan 6 min → Re-teach 6 min → Re-feedback 6 min"
+      },
+      {
+        "id": "C",
+        "text": "Teach 6 min → Feedback 6 min → Re-plan 12 min → Re-teach 6 min → Re-feedback 6 min"
+      },
+      {
+        "id": "D",
+        "text": "Teach 6 min → Re-plan 6 min → Feedback 12 min → Re-teach 6 min → Re-feedback 6 min"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The specified cycle uses 6 minutes for Teach, Feedback, Re-teach, and Re-feedback, with 12 minutes for Re-plan.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-005",
+    "question": "Why is the Re-plan stage given double time in this microteaching cycle?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To allow time to reflect on feedback and revise the lesson or skill performance"
+      },
+      {
+        "id": "B",
+        "text": "To avoid considering the feedback"
+      },
+      {
+        "id": "C",
+        "text": "To repeat the original lesson word for word"
+      },
+      {
+        "id": "D",
+        "text": "To conduct the students' final examination"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Re-planning requires the teacher to interpret feedback and make useful changes before teaching again, so it is allocated 12 minutes in this cycle.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-006",
+    "question": "A trainee teacher receives feedback that their questions were too simple and did not encourage reasoning. What should they do next in the cycle?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Skip re-teaching because feedback has been received"
+      },
+      {
+        "id": "B",
+        "text": "Immediately begin a different topic without changes"
+      },
+      {
+        "id": "C",
+        "text": "Re-plan the lesson and improve the questions before re-teaching"
+      },
+      {
+        "id": "D",
+        "text": "Repeat the same teaching exactly as before"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "After feedback, the teacher should re-plan the lesson using the suggestions and then re-teach the skill.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-007",
+    "question": "A teacher begins a lesson on fractions by showing a pizza divided into equal parts and asking students what they notice. Which teaching skill is most directly demonstrated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Skill of probing questions"
+      },
+      {
+        "id": "B",
+        "text": "Skill of blackboard writing"
+      },
+      {
+        "id": "C",
+        "text": "Skill of reinforcement"
+      },
+      {
+        "id": "D",
+        "text": "Skill of introducing a lesson"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "An engaging, relevant opening that connects to the topic demonstrates the skill of introducing a lesson.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-008",
+    "question": "During a discussion, a teacher asks, 'Why do you think that?', 'Can you explain further?' and 'What evidence supports your answer?' This mainly demonstrates:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Skill of stimulus variation"
+      },
+      {
+        "id": "B",
+        "text": "Skill of introducing a lesson"
+      },
+      {
+        "id": "C",
+        "text": "Skill of probing questions"
+      },
+      {
+        "id": "D",
+        "text": "Skill of blackboard writing"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Probing questions deepen an initial response, encourage reasoning, and help students clarify or extend their thinking.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-009",
+    "question": "A teacher changes voice tone, moves around the room, uses gestures, and shifts between a diagram and oral explanation to regain attention. Which skill is this?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reinforcement"
+      },
+      {
+        "id": "B",
+        "text": "Introducing a lesson"
+      },
+      {
+        "id": "C",
+        "text": "Blackboard writing"
+      },
+      {
+        "id": "D",
+        "text": "Stimulus variation"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Stimulus variation involves changing teaching behaviours or sensory stimuli—such as movement, gestures, voice, and media—to maintain attention.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-010",
+    "question": "A student gives a correct explanation, and the teacher responds, 'Good reasoning—your example clearly supports your answer.' This is an example of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Probing questions only"
+      },
+      {
+        "id": "B",
+        "text": "Re-planning"
+      },
+      {
+        "id": "C",
+        "text": "Reinforcement"
+      },
+      {
+        "id": "D",
+        "text": "Blackboard writing"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Specific positive feedback acknowledges a useful response and encourages continued participation; this is reinforcement.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-011",
+    "question": "Which practice best demonstrates effective blackboard-writing skill?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using inconsistent abbreviations without explanation"
+      },
+      {
+        "id": "B",
+        "text": "Writing legibly with suitable spacing, headings, and an organized layout"
+      },
+      {
+        "id": "C",
+        "text": "Writing very small and crowded notes to fit everything"
+      },
+      {
+        "id": "D",
+        "text": "Turning away from students for the entire explanation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Effective board work should be readable, organized, appropriately spaced, and easy for learners to follow.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-012",
+    "question": "A trainee writes every sentence on the board while speaking continuously with their back to the class. What is the most appropriate improvement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Write key points clearly, face learners when explaining, and check visibility"
+      },
+      {
+        "id": "B",
+        "text": "Write faster so the board fills sooner"
+      },
+      {
+        "id": "C",
+        "text": "Use smaller letters to fit more content"
+      },
+      {
+        "id": "D",
+        "text": "Avoid looking at students so the writing remains neat"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Clear, selective board work and interaction with learners support visibility, comprehension, and classroom communication.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-013",
+    "question": "A learner answers only 'photosynthesis' when asked how plants make food. The teacher asks, 'What do plants take in from the air, and what role does sunlight play?' This is mainly:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reinforcement"
+      },
+      {
+        "id": "B",
+        "text": "Introducing a lesson"
+      },
+      {
+        "id": "C",
+        "text": "Stimulus variation"
+      },
+      {
+        "id": "D",
+        "text": "Probing questions"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The teacher follows up on an incomplete answer with focused prompts to help the learner explain the concept more fully.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-014",
+    "question": "Which action is the best example of reinforcement that encourages effort without embarrassing other students?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Praising only the fastest student every time"
+      },
+      {
+        "id": "B",
+        "text": "Acknowledging a student's thoughtful attempt and guiding them toward improvement"
+      },
+      {
+        "id": "C",
+        "text": "Mocking a wrong answer so others avoid it"
+      },
+      {
+        "id": "D",
+        "text": "Ignoring every contribution"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Constructive, specific acknowledgment supports participation while preserving a respectful learning environment.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-015",
+    "question": "A teacher notices that students are losing attention during a long explanation. Which response is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Speak in exactly the same tone and remain in one place"
+      },
+      {
+        "id": "B",
+        "text": "Scold the whole class immediately"
+      },
+      {
+        "id": "C",
+        "text": "Use a relevant visual, vary voice and movement, and involve students with a question"
+      },
+      {
+        "id": "D",
+        "text": "Continue without checking whether students are following"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Relevant variation and active participation can regain attention more constructively than monotony or immediate scolding.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-016",
+    "question": "Which question is the best example of a probing question rather than a simple recall question?",
+    "options": [
+      {
+        "id": "A",
+        "text": "What makes you choose that answer, and can you support it with an example?"
+      },
+      {
+        "id": "B",
+        "text": "Which word is written on the board?"
+      },
+      {
+        "id": "C",
+        "text": "What is the capital of Bihar?"
+      },
+      {
+        "id": "D",
+        "text": "What is 5 × 6?"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A probing question asks learners to justify, clarify, or extend a response rather than merely recall a fact.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-017",
+    "question": "What is the most useful purpose of feedback in microteaching?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To focus only on the trainee's personality"
+      },
+      {
+        "id": "B",
+        "text": "To rank the trainee publicly"
+      },
+      {
+        "id": "C",
+        "text": "To replace the need for re-planning"
+      },
+      {
+        "id": "D",
+        "text": "To identify strengths and specific areas for improvement in the teaching performance"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Feedback should provide actionable information about teaching behaviour so the trainee can refine performance during re-planning.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-018",
+    "question": "After re-teaching, the observer should mainly:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Give re-feedback on the revised teaching performance"
+      },
+      {
+        "id": "B",
+        "text": "Start a new unrelated lesson immediately"
+      },
+      {
+        "id": "C",
+        "text": "Ignore whether the earlier suggestions were applied"
+      },
+      {
+        "id": "D",
+        "text": "Repeat the first feedback without observing the new performance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Re-feedback evaluates the re-taught performance and helps the trainee see whether the changes improved the targeted skill.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-019",
+    "question": "A teacher asks a question, waits briefly, then invites a quieter student to respond and follows up with 'Can you add to that idea?' Which combination is most evident?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Blackboard writing and lesson introduction only"
+      },
+      {
+        "id": "B",
+        "text": "Probing questions with supportive participation"
+      },
+      {
+        "id": "C",
+        "text": "Only stimulus variation through movement"
+      },
+      {
+        "id": "D",
+        "text": "Only the re-plan stage"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The follow-up invites elaboration and supports participation, showing probing-question skill and a supportive classroom approach.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-020",
+    "question": "Which statement about microteaching is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It focuses practice on a limited teaching skill and uses feedback to guide improvement"
+      },
+      {
+        "id": "B",
+        "text": "It is useful only for experienced teachers"
+      },
+      {
+        "id": "C",
+        "text": "It should focus on every teaching skill at once in a full-length lesson"
+      },
+      {
+        "id": "D",
+        "text": "Feedback should be vague so trainees discover all issues alone"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Microteaching narrows the teaching task so a particular skill can be practised, observed, and improved.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-021",
+    "question": "A trainee receives feedback that the lesson introduction did not connect to learners' prior knowledge. Which re-plan is best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Remove the introduction entirely in every lesson"
+      },
+      {
+        "id": "B",
+        "text": "Begin with a familiar example or question linked to the new topic"
+      },
+      {
+        "id": "C",
+        "text": "Add more unrelated facts to the introduction"
+      },
+      {
+        "id": "D",
+        "text": "Keep the same opening and ignore the feedback"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A familiar, relevant prompt can activate prior knowledge and make the introduction more meaningful.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-022",
+    "question": "A teacher praises every answer with 'Excellent!' even when answers are incomplete, and students stop explaining their reasoning. What is the best improvement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stop giving any feedback"
+      },
+      {
+        "id": "B",
+        "text": "Make all responses competitive and public"
+      },
+      {
+        "id": "C",
+        "text": "Praise only students who already know the answer"
+      },
+      {
+        "id": "D",
+        "text": "Use specific, truthful reinforcement and follow-up questions that encourage fuller reasoning"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Reinforcement is more helpful when it is genuine and specific; probing follow-ups can encourage students to explain their thinking.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-023",
+    "question": "Which general classroom response is most appropriate when a student gives an incorrect answer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immediately label the student as careless"
+      },
+      {
+        "id": "B",
+        "text": "Respond respectfully, identify the misconception, and guide the student toward the correct reasoning"
+      },
+      {
+        "id": "C",
+        "text": "Ignore the student and move on every time"
+      },
+      {
+        "id": "D",
+        "text": "Laugh so the class remembers the mistake"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A respectful, constructive response preserves confidence and uses the error as an opportunity to clarify understanding.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-024",
+    "question": "A teacher has only a few minutes to explain a complex idea. Which board-writing choice is likely to help students most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Write without headings or sequence"
+      },
+      {
+        "id": "B",
+        "text": "Copy the whole textbook passage onto the board"
+      },
+      {
+        "id": "C",
+        "text": "Use unexplained symbols and abbreviations to save space"
+      },
+      {
+        "id": "D",
+        "text": "Show a clear diagram or key terms in a logical sequence and explain their connections"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Selective, well-organized board work highlights the structure of an idea and avoids overwhelming learners with unnecessary text.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "microteaching-skills-025",
+    "question": "During microteaching, a trainee's second attempt is better because they applied observer suggestions and checked whether students followed the explanation. This best demonstrates:",
+    "options": [
+      {
+        "id": "A",
+        "text": "That feedback should occur only after a final exam"
+      },
+      {
+        "id": "B",
+        "text": "The improvement purpose of the teach–feedback–re-plan–re-teach cycle"
+      },
+      {
+        "id": "C",
+        "text": "That a teaching skill cannot be practised"
+      },
+      {
+        "id": "D",
+        "text": "That re-planning is unnecessary"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The cycle supports improvement through feedback, planned changes, a second attempt, and review of the revised performance.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

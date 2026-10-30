@@ -1,0 +1,574 @@
+[
+  {
+    "id": "lesson-planning-001",
+    "question": "What is the main purpose of lesson planning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To organize objectives, content, activities, resources, and assessment in advance"
+      },
+      {
+        "id": "B",
+        "text": "To ensure every lesson uses the same teaching method"
+      },
+      {
+        "id": "C",
+        "text": "To follow a textbook page without considering learners"
+      },
+      {
+        "id": "D",
+        "text": "To eliminate the need for teacher preparation during class"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lesson planning organizes what learners should achieve and how teaching, learning activities, resources, and assessment will support those outcomes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-002",
+    "question": "Which is an important benefit of preparing a lesson plan before teaching?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It guarantees that every learner will learn at exactly the same pace"
+      },
+      {
+        "id": "B",
+        "text": "It prevents the teacher from adapting the lesson"
+      },
+      {
+        "id": "C",
+        "text": "It helps the teacher use class time purposefully and anticipate learning needs"
+      },
+      {
+        "id": "D",
+        "text": "It removes the need to assess student understanding"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Planning supports purposeful use of time, alignment between objectives and activities, and preparation for likely learner needs; it should still allow flexibility.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-003",
+    "question": "A teacher writes an objective, chooses activities that practise it, and then prepares questions to check whether students achieved it. This best illustrates:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Herbartian application step alone"
+      },
+      {
+        "id": "B",
+        "text": "A lesson plan based only on classroom decoration"
+      },
+      {
+        "id": "C",
+        "text": "A unit plan with no daily teaching sequence"
+      },
+      {
+        "id": "D",
+        "text": "Alignment among objectives, learning activities, and assessment"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Effective planning aligns intended outcomes, learning experiences, and assessment evidence.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-004",
+    "question": "In the Herbartian approach, the Preparation/Introduction step primarily aims to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Evaluate the complete unit at its conclusion"
+      },
+      {
+        "id": "B",
+        "text": "Connect prior knowledge and arouse readiness or interest for the new lesson"
+      },
+      {
+        "id": "C",
+        "text": "Ask learners to apply a rule they have not encountered"
+      },
+      {
+        "id": "D",
+        "text": "Present the entire new topic in full detail"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Preparation activates relevant prior knowledge and creates readiness for the new learning.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-005",
+    "question": "During which Herbartian step does the teacher mainly develop the new content through explanations, examples, demonstrations, or learning materials?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Generalization"
+      },
+      {
+        "id": "B",
+        "text": "Application"
+      },
+      {
+        "id": "C",
+        "text": "Presentation"
+      },
+      {
+        "id": "D",
+        "text": "Association/Comparison"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Presentation is the stage in which the new content is introduced and developed.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-006",
+    "question": "After presenting examples of nouns and verbs, a teacher asks students to compare their features and identify similarities and differences. Which Herbartian step is this?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Association/Comparison"
+      },
+      {
+        "id": "B",
+        "text": "Application"
+      },
+      {
+        "id": "C",
+        "text": "Generalization"
+      },
+      {
+        "id": "D",
+        "text": "Preparation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Association or comparison connects new learning with related ideas by examining similarities, differences, and relationships.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-007",
+    "question": "Students compare several examples and then state a general rule in their own words. In the Herbartian sequence, this is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Application"
+      },
+      {
+        "id": "B",
+        "text": "Generalization"
+      },
+      {
+        "id": "C",
+        "text": "Preparation"
+      },
+      {
+        "id": "D",
+        "text": "Presentation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Generalization is the step in which learners formulate a broad rule or principle from the lesson content.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-008",
+    "question": "After students learn a rule for adding fractions, the teacher gives them new fraction problems to solve. This is mainly:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Presentation"
+      },
+      {
+        "id": "B",
+        "text": "Association/Comparison"
+      },
+      {
+        "id": "C",
+        "text": "Application"
+      },
+      {
+        "id": "D",
+        "text": "Preparation"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Application checks whether learners can use the newly learned rule or principle in relevant situations.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-009",
+    "question": "Which sequence correctly represents the five Herbartian steps listed in this syllabus?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Introduction, Application, Presentation, Association, Generalization"
+      },
+      {
+        "id": "B",
+        "text": "Preparation/Introduction, Presentation, Association/Comparison, Generalization, Application"
+      },
+      {
+        "id": "C",
+        "text": "Presentation, Preparation, Application, Generalization, Association"
+      },
+      {
+        "id": "D",
+        "text": "Preparation, Generalization, Presentation, Application, Association"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The sequence is Preparation/Introduction, Presentation, Association/Comparison, Generalization, and Application.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-010",
+    "question": "A teacher begins a lesson by asking questions about what students already know before introducing a new concept. This is primarily:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Association/Comparison"
+      },
+      {
+        "id": "B",
+        "text": "Application"
+      },
+      {
+        "id": "C",
+        "text": "Generalization"
+      },
+      {
+        "id": "D",
+        "text": "Preparation/Introduction"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Questions that activate relevant prior knowledge and prepare learners for new content belong to the preparation or introduction stage.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-011",
+    "question": "Which statement best distinguishes a unit plan from a daily lesson plan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A unit plan contains no objectives, while a daily lesson plan contains only objectives"
+      },
+      {
+        "id": "B",
+        "text": "A unit plan organizes learning across a broader topic or sequence, while a daily lesson plan focuses on a particular lesson"
+      },
+      {
+        "id": "C",
+        "text": "A daily lesson plan always covers an entire term, while a unit plan covers five minutes"
+      },
+      {
+        "id": "D",
+        "text": "They are identical in scope and purpose"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A unit plan covers a larger unit or sequence of lessons; a daily lesson plan specifies the teaching and learning for a particular class session.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-012",
+    "question": "A teacher is preparing a two-week unit on fractions with several connected lessons, resources, and assessments. Which planning format is most suitable for the overall sequence?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A record of attendance"
+      },
+      {
+        "id": "B",
+        "text": "A seating chart"
+      },
+      {
+        "id": "C",
+        "text": "Unit plan"
+      },
+      {
+        "id": "D",
+        "text": "Daily lesson plan only, with no overview"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A unit plan provides an overview of connected lessons and the learning outcomes, resources, and assessment across a broader topic.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-013",
+    "question": "Which information is most directly expected in a daily lesson plan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only the names of students who are absent"
+      },
+      {
+        "id": "B",
+        "text": "Only the annual school calendar"
+      },
+      {
+        "id": "C",
+        "text": "A complete curriculum map for every subject in the year"
+      },
+      {
+        "id": "D",
+        "text": "Specific lesson objectives, activities, resources, timing, and checks for learning"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A daily plan typically details the objectives and classroom sequence for one lesson, including activities, resources, and assessment.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-014",
+    "question": "The 5E instructional model is commonly arranged in which order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Engage, Explore, Explain, Elaborate, Evaluate"
+      },
+      {
+        "id": "B",
+        "text": "Explain, Engage, Evaluate, Explore, Elaborate"
+      },
+      {
+        "id": "C",
+        "text": "Explore, Evaluate, Engage, Elaborate, Explain"
+      },
+      {
+        "id": "D",
+        "text": "Engage, Explain, Explore, Evaluate, Elaborate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The standard 5E sequence is Engage, Explore, Explain, Elaborate, and Evaluate.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-015",
+    "question": "In the 5E model, the main purpose of the Engage phase is to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Give the final explanation before students investigate"
+      },
+      {
+        "id": "B",
+        "text": "Introduce a phenomenon or question that captures interest and connects to prior knowledge"
+      },
+      {
+        "id": "C",
+        "text": "Test mastery only after all instruction is complete"
+      },
+      {
+        "id": "D",
+        "text": "Require students to transfer a concept to an advanced new context"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Engage sparks curiosity and elicits learners' prior ideas to prepare them for investigation.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-016",
+    "question": "During the Explore phase of a 5E lesson, students should generally:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Investigate, manipulate materials, discuss observations, or gather evidence"
+      },
+      {
+        "id": "B",
+        "text": "Write a broad rule before seeing any evidence"
+      },
+      {
+        "id": "C",
+        "text": "Memorize the teacher's final definition without investigation"
+      },
+      {
+        "id": "D",
+        "text": "Complete only a final graded test"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Explore gives learners opportunities to investigate and collect observations or evidence before formal explanation.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-017",
+    "question": "Which teacher action best fits the Explain phase of the 5E model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask students to begin a completely unrelated topic"
+      },
+      {
+        "id": "B",
+        "text": "Avoid discussing students' observations"
+      },
+      {
+        "id": "C",
+        "text": "Help students articulate findings and introduce or clarify key concepts and vocabulary"
+      },
+      {
+        "id": "D",
+        "text": "Conduct only an attendance check"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "In Explain, learners share their understanding and the teacher clarifies concepts, terminology, and evidence-based explanations.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-018",
+    "question": "Students use a concept they learned to solve a more complex problem in a new context. In the 5E model, this most closely fits:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elaborate"
+      },
+      {
+        "id": "B",
+        "text": "Engage"
+      },
+      {
+        "id": "C",
+        "text": "Explore"
+      },
+      {
+        "id": "D",
+        "text": "Evaluate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Elaborate extends learning by applying and transferring the concept to new or more complex situations.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-019",
+    "question": "Which activity best represents Evaluate in the 5E model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Let students investigate before any explanation"
+      },
+      {
+        "id": "B",
+        "text": "Give students a new application task solely to extend learning"
+      },
+      {
+        "id": "C",
+        "text": "Show a surprising picture to spark curiosity"
+      },
+      {
+        "id": "D",
+        "text": "Use an exit ticket, explanation, task, or observation to gather evidence of understanding"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Evaluate gathers evidence of learners' understanding and can include formal or informal assessment.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-020",
+    "question": "A teacher's lesson plan is detailed, but students reveal a misconception during the activity. What should the teacher do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adapt the explanation or activity while keeping the learning objective in view"
+      },
+      {
+        "id": "B",
+        "text": "Follow the plan rigidly even if no one understands"
+      },
+      {
+        "id": "C",
+        "text": "Cancel the learning objective permanently"
+      },
+      {
+        "id": "D",
+        "text": "Skip assessment because the plan is complete"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A lesson plan is a guide, not a script; teachers should respond to evidence of learners' understanding while retaining the intended outcome.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-021",
+    "question": "Which situation best shows that lesson planning supports inclusive teaching?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Giving every learner the same task regardless of readiness and access needs"
+      },
+      {
+        "id": "B",
+        "text": "Avoiding checks for understanding"
+      },
+      {
+        "id": "C",
+        "text": "Planning only for the fastest learners"
+      },
+      {
+        "id": "D",
+        "text": "Preparing alternative examples, supports, or response methods so diverse learners can participate"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Anticipating learner differences and preparing appropriate supports helps make participation and learning more accessible.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "lesson-planning-022",
+    "question": "A teacher wants to assess both understanding during the lesson and whether objectives were achieved at the end. Which planning choice is best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Use a single attendance question as the only evidence"
+      },
+      {
+        "id": "B",
+        "text": "Write only a title and omit assessment"
+      },
+      {
+        "id": "C",
+        "text": "Plan formative checks during learning and an end-of-lesson assessment aligned to objectives"
+      },
+      {
+        "id": "D",
+        "text": "Wait until the next term to check learning"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Planning both in-lesson checks and an aligned end assessment helps the teacher adjust instruction and judge progress toward objectives.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

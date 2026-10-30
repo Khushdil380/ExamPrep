@@ -1,0 +1,782 @@
+[
+  {
+    "id": "teaching-objectives-instructional-aims-001",
+    "question": "Which statement best distinguishes an educational aim from an instructional objective?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An aim must be measurable, while an objective is always philosophical"
+      },
+      {
+        "id": "B",
+        "text": "An aim describes only classroom activities, while an objective describes school buildings"
+      },
+      {
+        "id": "C",
+        "text": "Aims and objectives are identical terms in every educational context"
+      },
+      {
+        "id": "D",
+        "text": "An aim is usually broad and long-term, while an objective states a more specific intended learning outcome"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "An educational aim expresses a broad direction or purpose, whereas an instructional objective specifies a more focused outcome expected from learners. Objectives are generally easier to align with teaching activities and assessment.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-002",
+    "question": "Which of the following is the best example of a specific instructional objective?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The class will learn about memory"
+      },
+      {
+        "id": "B",
+        "text": "Students will list three differences between RAM and ROM after the lesson"
+      },
+      {
+        "id": "C",
+        "text": "The teacher will explain database concepts"
+      },
+      {
+        "id": "D",
+        "text": "Students will appreciate computer science"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A useful instructional objective describes an observable learner outcome. 'List three differences' specifies what students should demonstrate; the other options are broad or describe teacher activity rather than learner performance.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-003",
+    "question": "In the revised Bloom's cognitive taxonomy, which sequence moves from lower to higher cognitive processes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Understanding, Remembering, Evaluating, Applying, Creating, Analyzing"
+      },
+      {
+        "id": "B",
+        "text": "Applying, Remembering, Creating, Understanding, Evaluating, Analyzing"
+      },
+      {
+        "id": "C",
+        "text": "Remembering, Understanding, Applying, Analyzing, Evaluating, Creating"
+      },
+      {
+        "id": "D",
+        "text": "Remembering, Applying, Understanding, Creating, Analyzing, Evaluating"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The revised taxonomy commonly progresses from Remembering to Understanding, Applying, Analyzing, Evaluating and Creating. It is a planning framework, not a rule that every lesson must use all six levels.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-004",
+    "question": "A teacher asks learners to reproduce the definition of an algorithm exactly as given in the textbook. Which cognitive process is primarily targeted?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Remembering"
+      },
+      {
+        "id": "B",
+        "text": "Analyzing"
+      },
+      {
+        "id": "C",
+        "text": "Evaluating"
+      },
+      {
+        "id": "D",
+        "text": "Creating"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reproducing a previously learned definition primarily requires retrieving information from memory, which aligns with Remembering. Explaining it in one's own words would target Understanding.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-005",
+    "question": "Students explain why an operating system is needed and give an example from everyday computer use. Which cognitive process is most directly demonstrated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Creating"
+      },
+      {
+        "id": "B",
+        "text": "Remembering only"
+      },
+      {
+        "id": "C",
+        "text": "Understanding"
+      },
+      {
+        "id": "D",
+        "text": "Evaluating"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explaining a concept and illustrating it with an example show that learners grasp its meaning. This is more than simple recall and is commonly classified as Understanding.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-006",
+    "question": "A teacher gives students a new set of data and asks them to use a previously taught spreadsheet formula to calculate totals. Which Bloom's cognitive level is primarily involved?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Remembering"
+      },
+      {
+        "id": "B",
+        "text": "Applying"
+      },
+      {
+        "id": "C",
+        "text": "Evaluating"
+      },
+      {
+        "id": "D",
+        "text": "Creating"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Applying means using a learned procedure, rule or concept in a task. Here students use a known formula on data rather than merely recalling or judging it.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-007",
+    "question": "Learners inspect a program and separate it into logical components to identify where an error originates. This task most directly involves:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Creating"
+      },
+      {
+        "id": "B",
+        "text": "Remembering"
+      },
+      {
+        "id": "C",
+        "text": "Affective responding"
+      },
+      {
+        "id": "D",
+        "text": "Analyzing"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Analyzing involves breaking information or a system into parts and examining relationships. Locating an error by inspecting program components is an analysis task.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-008",
+    "question": "Students compare two proposed network designs using stated criteria and justify which is more reliable. Which cognitive process is most directly assessed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Evaluating"
+      },
+      {
+        "id": "B",
+        "text": "Applying"
+      },
+      {
+        "id": "C",
+        "text": "Understanding"
+      },
+      {
+        "id": "D",
+        "text": "Remembering"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Evaluating involves making a judgement based on criteria or standards. Comparing alternatives and defending a choice using reliability criteria fits this level.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-009",
+    "question": "Which classroom task most clearly represents the Creating level of revised Bloom's taxonomy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Naming the parts of a database table"
+      },
+      {
+        "id": "B",
+        "text": "Designing and producing an original database solution for a stated need"
+      },
+      {
+        "id": "C",
+        "text": "Explaining the meaning of a primary key"
+      },
+      {
+        "id": "D",
+        "text": "Classifying examples using a supplied rule"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Creating involves putting elements together to form a coherent or original product, plan or solution. Designing a database for a need requires learners to generate and organise a solution.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-010",
+    "question": "Which option is most closely associated with the affective domain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Showing respect for classmates' viewpoints during a group discussion"
+      },
+      {
+        "id": "B",
+        "text": "Calculating a program's execution time"
+      },
+      {
+        "id": "C",
+        "text": "Identifying the output of a loop"
+      },
+      {
+        "id": "D",
+        "text": "Following the steps to install an operating system"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The affective domain concerns interests, attitudes, values and dispositions. Respectful participation reflects attitudes and values, whereas calculations and procedures mainly target cognitive or psychomotor outcomes.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-011",
+    "question": "A student consistently follows laboratory safety rules because they have become an important personal value, even when no teacher is watching. This most strongly reflects which affective-domain emphasis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Receiving"
+      },
+      {
+        "id": "B",
+        "text": "Remembering"
+      },
+      {
+        "id": "C",
+        "text": "Imitating a physical movement only"
+      },
+      {
+        "id": "D",
+        "text": "Valuing or internalising a value"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Consistently acting in accordance with a personally accepted value indicates more than merely noticing or obeying an instruction. It reflects valuing and, depending on the framework, integration of the value into behaviour.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-012",
+    "question": "A learner practises typing accurately and gradually improves finger coordination and speed. Which domain is most directly involved?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Affective"
+      },
+      {
+        "id": "B",
+        "text": "Cognitive only"
+      },
+      {
+        "id": "C",
+        "text": "Psychomotor"
+      },
+      {
+        "id": "D",
+        "text": "Verbal comprehension only"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The psychomotor domain concerns physical and coordinated skills. Typing practice develops controlled movement and coordination, though knowledge and motivation can support performance.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-013",
+    "question": "Which objective is written most appropriately as a behavioural or instructional objective?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Students will understand computer networks"
+      },
+      {
+        "id": "B",
+        "text": "Given a diagram, students will correctly identify four network topologies"
+      },
+      {
+        "id": "C",
+        "text": "The teacher will discuss network topologies"
+      },
+      {
+        "id": "D",
+        "text": "Students will become familiar with networks someday"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A behavioural objective should describe an observable learner performance and, where useful, the conditions and criterion. Identifying four topologies from a diagram is observable and assessable; 'understand' and 'be familiar' are difficult to measure directly.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-014",
+    "question": "Which component of an instructional objective states the circumstances or resources under which learners perform?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Condition"
+      },
+      {
+        "id": "B",
+        "text": "Criterion"
+      },
+      {
+        "id": "C",
+        "text": "Behaviour"
+      },
+      {
+        "id": "D",
+        "text": "Broad aim"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In a common objective-writing format, the condition specifies the situation, tools or resources available (for example, 'given a flowchart'). Behaviour describes the observable action and criterion specifies the expected standard.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-015",
+    "question": "In the objective 'Given a list of ten statements, students will classify at least eight as functional or non-functional requirements,' what does 'at least eight' specify?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The condition"
+      },
+      {
+        "id": "B",
+        "text": "The broad educational aim"
+      },
+      {
+        "id": "C",
+        "text": "The teaching method"
+      },
+      {
+        "id": "D",
+        "text": "The performance criterion"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'At least eight' sets the required level of performance, so it is the criterion. 'Given a list of ten statements' supplies the condition, and 'classify' is the observable behaviour.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-016",
+    "question": "Which verb is generally most suitable when writing a measurable learning objective?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Appreciate"
+      },
+      {
+        "id": "B",
+        "text": "Understand"
+      },
+      {
+        "id": "C",
+        "text": "Identify"
+      },
+      {
+        "id": "D",
+        "text": "Know"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Identify' describes an observable action that can be checked through an appropriate task. Words such as 'know' and 'understand' may express intended learning but do not specify directly observable evidence by themselves.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-017",
+    "question": "A teacher writes: 'Students will learn about cybersecurity.' What is the main weakness of this objective?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It specifies too many conditions for performance"
+      },
+      {
+        "id": "B",
+        "text": "It does not state an observable learner behaviour or clear success criterion"
+      },
+      {
+        "id": "C",
+        "text": "It is too specific and includes a measurable criterion"
+      },
+      {
+        "id": "D",
+        "text": "It describes a psychomotor performance precisely"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Learn about' is broad and does not indicate what learners should demonstrate. A clearer version might be: 'Given three scenarios, students will identify two phishing indicators in each scenario.'",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-018",
+    "question": "A teacher's broad aim is to develop responsible digital citizens. Which objective best aligns with this aim?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Students will sit quietly during the lecture"
+      },
+      {
+        "id": "B",
+        "text": "The teacher will finish the digital citizenship chapter"
+      },
+      {
+        "id": "C",
+        "text": "Students will copy the chapter title into their notebooks"
+      },
+      {
+        "id": "D",
+        "text": "Given sample online messages, students will identify three signs of a potentially fraudulent message"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The objective translates the broad aim into an observable learning outcome connected to responsible digital behaviour. Finishing a chapter or copying a title describes activity, not the intended competence.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-019",
+    "question": "A teacher wants to assess whether students can evaluate information found online. Which task best matches that objective?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask students to name a web browser"
+      },
+      {
+        "id": "B",
+        "text": "Ask students to copy a URL"
+      },
+      {
+        "id": "C",
+        "text": "Give students two online claims and ask them to judge credibility using evidence and stated criteria"
+      },
+      {
+        "id": "D",
+        "text": "Ask students to memorise the definition of a website"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Judging credibility with evidence and criteria directly assesses evaluation. Naming or copying items mainly checks recall and does not show whether learners can assess reliability.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-020",
+    "question": "A student answers incorrectly during a class discussion and classmates begin to mock the student. What should the teacher do first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stop the disrespect, reinforce a safe discussion norm and help the class examine the answer constructively"
+      },
+      {
+        "id": "B",
+        "text": "Publicly compare the student with the highest scorer"
+      },
+      {
+        "id": "C",
+        "text": "Ignore the mockery to avoid interrupting the lesson"
+      },
+      {
+        "id": "D",
+        "text": "Ban all questions for the rest of the period"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A psychologically safe classroom supports participation and learning. The teacher should address disrespect promptly, preserve the student's dignity and use the error as a constructive learning opportunity.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-021",
+    "question": "A teacher notices that a few fast learners dominate group work while others remain silent. Which action is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grade only the fastest student's work as the group result"
+      },
+      {
+        "id": "B",
+        "text": "Give the group no structure and wait for the issue to disappear"
+      },
+      {
+        "id": "C",
+        "text": "Allow the same students to answer every question"
+      },
+      {
+        "id": "D",
+        "text": "Assign rotating roles and ensure each learner has a meaningful contribution"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Rotating roles and structured participation distribute responsibility and create opportunities for every learner to contribute. This supports inclusion and gives the teacher better evidence of individual learning.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-022",
+    "question": "A learner repeatedly fails to complete a task. What should the teacher do before assuming the learner is not trying?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Publicly label the learner as lazy"
+      },
+      {
+        "id": "B",
+        "text": "Stop providing feedback to the learner"
+      },
+      {
+        "id": "C",
+        "text": "Check whether instructions, prior knowledge, task difficulty or access to resources are creating barriers"
+      },
+      {
+        "id": "D",
+        "text": "Immediately lower all expectations permanently"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Repeated difficulty can have several causes, including unclear instructions, gaps in prior learning, excessive task difficulty or resource barriers. Diagnosing the barrier allows the teacher to provide targeted support while maintaining suitable expectations.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-023",
+    "question": "A teacher has only ten minutes left and realises that students have not understood the lesson's key idea. What is the best response?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prioritise the essential learning objective, clarify it briefly and check understanding"
+      },
+      {
+        "id": "B",
+        "text": "Give a surprise test on details never taught"
+      },
+      {
+        "id": "C",
+        "text": "Conclude that the objectives do not matter"
+      },
+      {
+        "id": "D",
+        "text": "Rush through every remaining slide regardless of understanding"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "When time is limited, the teacher should prioritise the essential objective rather than merely finish all material. A focused explanation and quick check provide evidence about whether learners are ready to move on.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-024",
+    "question": "Two students disagree about a solution and begin arguing personally. Which teacher response best supports learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tell them that disagreement always means one student is disrespectful"
+      },
+      {
+        "id": "B",
+        "text": "Ask both to explain their reasoning, establish respectful discussion rules and compare the solutions against criteria"
+      },
+      {
+        "id": "C",
+        "text": "Choose the student with higher marks without hearing either explanation"
+      },
+      {
+        "id": "D",
+        "text": "End all collaborative activities permanently"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The teacher can turn disagreement into academic discussion by requiring evidence, respectful communication and explicit criteria. This develops reasoning while maintaining a safe classroom climate.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-025",
+    "question": "A teacher wants to know whether an objective has been achieved. Which approach is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Use an assessment task that directly elicits the behaviour stated in the objective"
+      },
+      {
+        "id": "B",
+        "text": "Assume that teaching the content means everyone mastered it"
+      },
+      {
+        "id": "C",
+        "text": "Count the pages in students' notebooks"
+      },
+      {
+        "id": "D",
+        "text": "Ask only whether students liked the teacher"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Assessment should align with the intended outcome. If the objective is to classify examples, learners should classify examples; satisfaction or notebook length does not directly demonstrate that skill.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-026",
+    "question": "Which is the best example of an objective at the Applying level rather than Remembering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Name three loop types"
+      },
+      {
+        "id": "B",
+        "text": "Use a loop to process a list of values in a new programming task"
+      },
+      {
+        "id": "C",
+        "text": "State the definition of a loop"
+      },
+      {
+        "id": "D",
+        "text": "Recall the syntax shown on the board"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Applying requires using knowledge or a procedure to carry out a task. Stating definitions and naming types mainly involve recall, while using a loop in a task demonstrates application.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-027",
+    "question": "A teacher asks students to identify assumptions in two arguments and explain how those assumptions affect the conclusions. Which cognitive level is most strongly targeted?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Remembering"
+      },
+      {
+        "id": "B",
+        "text": "Creating"
+      },
+      {
+        "id": "C",
+        "text": "Receiving"
+      },
+      {
+        "id": "D",
+        "text": "Analyzing"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Identifying assumptions and examining their effect on conclusions involves breaking arguments into parts and analysing relationships. It goes beyond recalling or simply explaining a concept.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-028",
+    "question": "Which learning objective best targets the affective domain rather than only cognitive recall?",
+    "options": [
+      {
+        "id": "A",
+        "text": "List five laboratory safety symbols"
+      },
+      {
+        "id": "B",
+        "text": "Define academic honesty"
+      },
+      {
+        "id": "C",
+        "text": "Demonstrate consistent respect for others' contributions during group tasks"
+      },
+      {
+        "id": "D",
+        "text": "State three rules for teamwork"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Consistent respectful behaviour in group tasks targets attitudes and values, which are affective outcomes. Listing, defining and stating rules mainly assess cognitive recall.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-029",
+    "question": "A teacher wants students to create a simple app prototype to solve a school problem. Which objective is best aligned?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Students will design and present a prototype that addresses a specified user need"
+      },
+      {
+        "id": "B",
+        "text": "Students will list common app icons"
+      },
+      {
+        "id": "C",
+        "text": "Students will repeat the teacher's definition of software"
+      },
+      {
+        "id": "D",
+        "text": "Students will describe what an app is"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Designing and presenting a prototype requires learners to generate and organise a solution, which aligns with Creating. Describing or listing features mainly checks lower-level cognitive outcomes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-objectives-instructional-aims-030",
+    "question": "Which statement about Bloom's taxonomy is most accurate for lesson planning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It applies only to memorisation and excludes attitudes or skills"
+      },
+      {
+        "id": "B",
+        "text": "It helps teachers align objectives, learning activities and assessments with different levels of thinking"
+      },
+      {
+        "id": "C",
+        "text": "It guarantees learning regardless of teaching quality"
+      },
+      {
+        "id": "D",
+        "text": "It requires every objective to use the same action verb"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bloom's taxonomy helps teachers plan and align intended cognitive outcomes with activities and assessments. It does not guarantee learning, and affective and psychomotor domains are considered separately in broader educational taxonomies.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "teaching-and-learning-001",
+    "question": "What is the most appropriate meaning of teaching in a modern learner-centred classroom?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Facilitating learning through planned experiences, guidance and feedback"
+      },
+      {
+        "id": "B",
+        "text": "Completing the prescribed syllabus within the allotted time only"
+      },
+      {
+        "id": "C",
+        "text": "Transmitting the same information to every learner regardless of need"
+      },
+      {
+        "id": "D",
+        "text": "Ensuring that learners memorise textbook definitions without discussion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Teaching is a purposeful process that facilitates learning through planning, interaction, guidance and feedback. It is broader than simply delivering information or completing the syllabus.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-002",
+    "question": "Which statement best distinguishes teaching from learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Teaching and learning are identical terms for classroom explanation"
+      },
+      {
+        "id": "B",
+        "text": "Teaching always occurs, whereas learning never occurs independently"
+      },
+      {
+        "id": "C",
+        "text": "Teaching is an intentional facilitation process, while learning is a change in knowledge, skill, attitude or understanding"
+      },
+      {
+        "id": "D",
+        "text": "Teaching is internal change, while learning is only an external activity"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Teaching refers to efforts to facilitate learning; learning is the process or outcome of relatively lasting change in knowledge, skills, attitudes or behaviour through experience and practice. Learning can also occur without formal teaching.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-003",
+    "question": "Which of the following is an essential characteristic of teaching as a professional activity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It requires identical methods for all learners"
+      },
+      {
+        "id": "B",
+        "text": "It involves purposeful planning, interaction and assessment"
+      },
+      {
+        "id": "C",
+        "text": "It must be limited to one-way verbal communication"
+      },
+      {
+        "id": "D",
+        "text": "It is successful only when learners remain silent"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Effective teaching is purposeful and organised. Teachers plan learning experiences, interact with learners, assess progress and adjust instruction; silence or one-way delivery alone does not establish effectiveness.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-004",
+    "question": "A teacher explains a concept, asks learners to apply it to a new example, and then gives feedback. This sequence best illustrates teaching as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A process that avoids learner participation"
+      },
+      {
+        "id": "B",
+        "text": "An activity limited to content delivery"
+      },
+      {
+        "id": "C",
+        "text": "A process of selecting learners by ability"
+      },
+      {
+        "id": "D",
+        "text": "A planned process that supports and checks learning"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The teacher presents content, engages learners in application and uses feedback. These connected actions show teaching as a process intended to facilitate and assess learning.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-005",
+    "question": "Which statement about learning is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Learning may result in changes in knowledge, skills, attitudes or behaviour"
+      },
+      {
+        "id": "B",
+        "text": "Learning can be inferred only from a learner's age"
+      },
+      {
+        "id": "C",
+        "text": "Learning is restricted to formal classroom settings"
+      },
+      {
+        "id": "D",
+        "text": "Learning always occurs immediately after a teacher explains a topic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Learning can occur in formal and informal settings and may involve cognitive, affective or psychomotor changes. Explanation does not guarantee immediate learning in every learner.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-006",
+    "question": "The scope of teaching and learning includes which of the following?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only the teacher's presentation of the textbook"
+      },
+      {
+        "id": "B",
+        "text": "Cognitive, affective and psychomotor development across learning settings"
+      },
+      {
+        "id": "C",
+        "text": "Only examination preparation and grading"
+      },
+      {
+        "id": "D",
+        "text": "Only memorisation of facts in a classroom"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The scope of teaching and learning extends beyond facts and examinations. It includes knowledge and thinking, attitudes and values, and practical skills, in formal as well as informal contexts.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-007",
+    "question": "A teacher asks students to compare two solutions and justify which is more efficient. The main learning emphasis is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Affective development only"
+      },
+      {
+        "id": "B",
+        "text": "Psychomotor development only"
+      },
+      {
+        "id": "C",
+        "text": "Cognitive development, especially analysis and evaluation"
+      },
+      {
+        "id": "D",
+        "text": "Physical growth rather than learning"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Comparing solutions and justifying a choice involve higher-order cognitive processes such as analysis and evaluation. Other domains may be involved, but cognition is the main emphasis here.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-008",
+    "question": "Students work in groups, listen to different views and learn to respect disagreement. Which domain is most directly emphasised?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Psychomotor domain alone"
+      },
+      {
+        "id": "B",
+        "text": "Recall of factual information only"
+      },
+      {
+        "id": "C",
+        "text": "Speed of writing notes"
+      },
+      {
+        "id": "D",
+        "text": "Affective domain, including attitudes and values"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Respecting others' views concerns attitudes, values and dispositions, which are associated with the affective domain. Group work may also support cognitive learning.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-009",
+    "question": "In a computer lab, students practise connecting devices and safely handling equipment. The primary domain emphasised is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Psychomotor domain"
+      },
+      {
+        "id": "B",
+        "text": "Learning unrelated to teaching"
+      },
+      {
+        "id": "C",
+        "text": "Affective domain alone"
+      },
+      {
+        "id": "D",
+        "text": "Cognitive recall alone"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Performing practical actions and developing coordinated skills primarily involve the psychomotor domain. Understanding the procedure may also involve cognition.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-010",
+    "question": "Which feature most clearly indicates that learning has taken place?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher completed all planned slides"
+      },
+      {
+        "id": "B",
+        "text": "The learner copied every line from the board"
+      },
+      {
+        "id": "C",
+        "text": "The learner was physically present in class"
+      },
+      {
+        "id": "D",
+        "text": "The learner demonstrates a relatively lasting improvement after practice or experience"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Attendance, copying and teacher completion do not prove learning. Evidence is stronger when the learner demonstrates a meaningful change in understanding, skill or performance that persists beyond a momentary response.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-011",
+    "question": "Which factor most directly makes teaching learner-centred?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assessment is postponed until the end of the year"
+      },
+      {
+        "id": "B",
+        "text": "The teacher makes all decisions without checking understanding"
+      },
+      {
+        "id": "C",
+        "text": "Learners' needs, prior knowledge and participation inform instruction"
+      },
+      {
+        "id": "D",
+        "text": "All students must use one strategy at the same pace"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Learner-centred teaching takes account of prior knowledge, differences, interests and active participation. It does not mean the teacher has no role; the teacher guides and structures learning.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-012",
+    "question": "A student gives a wrong answer. What is the most learning-supportive response by the teacher?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask the class to laugh so the student remembers the error"
+      },
+      {
+        "id": "B",
+        "text": "Explore the student's reasoning, identify the misconception and give helpful feedback"
+      },
+      {
+        "id": "C",
+        "text": "Immediately label the student as weak"
+      },
+      {
+        "id": "D",
+        "text": "Ignore the answer and continue without checking understanding"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Errors can reveal how a learner is thinking. Diagnostic questioning and constructive feedback help correct misconceptions while maintaining a supportive learning environment.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-013",
+    "question": "Which statement best describes the relationship between teaching and learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Learning outcomes have no relationship to teaching methods"
+      },
+      {
+        "id": "B",
+        "text": "Teaching guarantees the same learning outcome for every student"
+      },
+      {
+        "id": "C",
+        "text": "Learning is possible only when a teacher speaks"
+      },
+      {
+        "id": "D",
+        "text": "Teaching can facilitate learning, but outcomes also depend on learner and contextual factors"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Teaching can support and influence learning, but outcomes also depend on prior knowledge, motivation, practice, resources and context. Therefore, identical instruction may not produce identical outcomes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-014",
+    "question": "A teacher begins a lesson by finding out what students already know about networks. This is useful mainly because it:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Helps connect new ideas with learners' existing knowledge and identify gaps"
+      },
+      {
+        "id": "B",
+        "text": "Allows the teacher to skip all new content"
+      },
+      {
+        "id": "C",
+        "text": "Makes assessment unnecessary"
+      },
+      {
+        "id": "D",
+        "text": "Ensures that every student has identical prior knowledge"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Checking prior knowledge helps the teacher build connections, choose an appropriate starting point and identify misconceptions. It does not imply that learners know the same things.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-015",
+    "question": "Which of the following is NOT a sound characteristic of effective teaching?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Opportunities for practice and feedback"
+      },
+      {
+        "id": "B",
+        "text": "Clear learning objectives"
+      },
+      {
+        "id": "C",
+        "text": "Rigidly using the same method even when learners are confused"
+      },
+      {
+        "id": "D",
+        "text": "Checking whether learning objectives have been achieved"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Effective teaching is responsive. If learners are confused, the teacher should reconsider explanations, examples or methods rather than follow a strategy rigidly.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-016",
+    "question": "Which option best represents teaching as a social process?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Teaching is merely the distribution of printed material"
+      },
+      {
+        "id": "B",
+        "text": "Teacher and learners communicate, collaborate and construct understanding through interaction"
+      },
+      {
+        "id": "C",
+        "text": "Learning happens only inside an individual's mind without interaction"
+      },
+      {
+        "id": "D",
+        "text": "Students must never discuss ideas with peers"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Teaching often involves interaction, dialogue, collaboration and shared meaning-making. Individual thinking matters too, but teaching is not restricted to isolated activity.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-017",
+    "question": "A teacher plans objectives, selects activities, teaches, assesses and revises the next lesson using results. This sequence shows that teaching is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A continuous and reflective process"
+      },
+      {
+        "id": "B",
+        "text": "Unrelated to evidence of learning"
+      },
+      {
+        "id": "C",
+        "text": "Only an examination technique"
+      },
+      {
+        "id": "D",
+        "text": "A one-time event with no follow-up"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Planning, instruction, assessment and revision form a cycle. Teachers use evidence from learners' responses to improve subsequent instruction, making teaching continuous and reflective.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-018",
+    "question": "Which situation is the clearest example of informal learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A learner completes a scheduled university examination"
+      },
+      {
+        "id": "B",
+        "text": "A child learns to negotiate rules while playing with friends"
+      },
+      {
+        "id": "C",
+        "text": "A teacher follows a formal lesson plan"
+      },
+      {
+        "id": "D",
+        "text": "A school awards a certificate after a course"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Informal learning occurs through everyday experiences and interactions, such as play and family or peer interactions, without necessarily following a formal curriculum.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-019",
+    "question": "Which statement about individual differences in learning is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Differences disappear when the teacher gives a lecture"
+      },
+      {
+        "id": "B",
+        "text": "Every learner needs the same amount of time and the same examples"
+      },
+      {
+        "id": "C",
+        "text": "Only learners with low marks have different learning needs"
+      },
+      {
+        "id": "D",
+        "text": "Learners may differ in prior knowledge, pace, interests and support needs"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Learners differ in prior knowledge, language, motivation, pace and learning support needs. Effective teaching recognises these differences and uses appropriate scaffolding.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-020",
+    "question": "A teacher wants to know whether students can use a spreadsheet formula, not merely define it. Which assessment is best aligned?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask students to repeat the formula's definition"
+      },
+      {
+        "id": "B",
+        "text": "Ask students to copy the formula ten times"
+      },
+      {
+        "id": "C",
+        "text": "Give a practical task requiring them to apply the formula to data"
+      },
+      {
+        "id": "D",
+        "text": "Ask students whether they enjoyed the lesson"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "If the objective is application, a practical task provides direct evidence of performance. Recall questions or enjoyment ratings measure different outcomes.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-021",
+    "question": "What is the central purpose of formative assessment during teaching?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To rank students permanently"
+      },
+      {
+        "id": "B",
+        "text": "To replace all instruction with testing"
+      },
+      {
+        "id": "C",
+        "text": "To assign a final certificate only"
+      },
+      {
+        "id": "D",
+        "text": "To monitor progress and provide information that improves ongoing learning"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Formative assessment takes place during learning and helps teacher and learners identify progress and gaps, then adapt teaching or study strategies. It is not merely final grading.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-022",
+    "question": "A teacher notices that many students misunderstand the same concept. What should the teacher do first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Revisit the concept using another explanation or example and check understanding again"
+      },
+      {
+        "id": "B",
+        "text": "Increase homework without explaining the misconception"
+      },
+      {
+        "id": "C",
+        "text": "Move on because the lesson plan has been completed"
+      },
+      {
+        "id": "D",
+        "text": "Assume that the entire class is careless"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A shared misconception is evidence that the current explanation or learning experience may not have worked. Re-teaching with a different representation and checking again is a responsive next step.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-023",
+    "question": "Which statement best describes the process of learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is always a visible action performed in front of a teacher"
+      },
+      {
+        "id": "B",
+        "text": "It may involve attention, experience, practice, feedback and changes in understanding or performance"
+      },
+      {
+        "id": "C",
+        "text": "It ends permanently when a school lesson ends"
+      },
+      {
+        "id": "D",
+        "text": "It consists exclusively of memorising definitions"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Learning can include internal changes that are not immediately visible. Attention, meaningful experience, practice and feedback often support the development and retention of knowledge and skills.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-024",
+    "question": "Which classroom practice is most likely to promote meaningful learning rather than rote memorisation alone?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reward copying notes regardless of understanding"
+      },
+      {
+        "id": "B",
+        "text": "Avoid questions that require explanation"
+      },
+      {
+        "id": "C",
+        "text": "Ask learners to connect a new concept to a familiar real-life situation"
+      },
+      {
+        "id": "D",
+        "text": "Require exact repetition without discussing meaning"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Meaningful learning occurs when learners connect new information with prior knowledge and can explain or apply it. Repetition can support memory but is not sufficient by itself for deep understanding.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-025",
+    "question": "In the commonly described levels of teaching, which level focuses most on memory, recall and recognition of facts?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memory level"
+      },
+      {
+        "id": "B",
+        "text": "Understanding level"
+      },
+      {
+        "id": "C",
+        "text": "Problem-solving level only"
+      },
+      {
+        "id": "D",
+        "text": "Reflective level"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The memory level emphasises remembering, recognising and reproducing information. It is generally considered the least complex of the commonly described memory, understanding and reflective levels.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-026",
+    "question": "At the understanding level of teaching, the main expectation is that learners will:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reproduce words without knowing their meaning"
+      },
+      {
+        "id": "B",
+        "text": "Explain meanings, relationships and principles in their own words"
+      },
+      {
+        "id": "C",
+        "text": "Solve every unfamiliar social problem independently"
+      },
+      {
+        "id": "D",
+        "text": "Accept every statement without questioning"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The understanding level goes beyond simple recall. Learners grasp meaning, interpret information, identify relationships and explain principles; reflective problem-solving is more demanding.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-027",
+    "question": "Which level of teaching places the greatest emphasis on critical thinking, problem-solving and independent judgement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Imitation level only"
+      },
+      {
+        "id": "B",
+        "text": "Repetition level"
+      },
+      {
+        "id": "C",
+        "text": "Reflective level"
+      },
+      {
+        "id": "D",
+        "text": "Memory level"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The reflective level encourages learners to analyse problems, examine evidence, consider alternatives and reach reasoned conclusions. It demands more independent thought than recall alone.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-028",
+    "question": "A teacher asks students to memorise the definitions of hardware and software and reproduce them in a test. Which teaching level is most directly represented?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Understanding level exclusively"
+      },
+      {
+        "id": "B",
+        "text": "Reflective level"
+      },
+      {
+        "id": "C",
+        "text": "Discovery level in every case"
+      },
+      {
+        "id": "D",
+        "text": "Memory level"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The stated task primarily requires memorisation and reproduction, so it represents the memory level. If students were asked to explain differences or analyse a new case, higher-level learning would be involved.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-029",
+    "question": "Students explain why an operating system is needed and compare its functions with those of application software. Which level is most evident?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reflective level necessarily"
+      },
+      {
+        "id": "B",
+        "text": "Understanding level"
+      },
+      {
+        "id": "C",
+        "text": "Mechanical repetition level"
+      },
+      {
+        "id": "D",
+        "text": "Memory level only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Explaining purpose and comparing functions indicate comprehension of meaning and relationships, which characterise the understanding level. The task need not involve solving an open-ended problem.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-030",
+    "question": "A teacher presents a local water-pollution problem and asks students to examine evidence, compare possible solutions and justify a recommendation. This most strongly reflects:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reflective level"
+      },
+      {
+        "id": "B",
+        "text": "Simple recognition level"
+      },
+      {
+        "id": "C",
+        "text": "Memory level"
+      },
+      {
+        "id": "D",
+        "text": "Dictation-based learning"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Learners examine evidence, compare alternatives and justify a decision. These activities involve critical analysis and reasoned judgement, hallmarks of the reflective level.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-031",
+    "question": "Which sequence is generally used to describe increasing complexity in the three teaching levels?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reflective → Memory → Understanding"
+      },
+      {
+        "id": "B",
+        "text": "Understanding → Reflective → Memory"
+      },
+      {
+        "id": "C",
+        "text": "Memory → Reflective → Understanding"
+      },
+      {
+        "id": "D",
+        "text": "Memory → Understanding → Reflective"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The commonly presented progression is memory, understanding and reflective. It moves from recall, to grasping meaning, to critical inquiry and problem-solving. Actual learning may move between levels depending on the task.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-032",
+    "question": "Which statement about the three teaching levels is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reflective teaching means learners should receive no guidance"
+      },
+      {
+        "id": "B",
+        "text": "Every lesson must remain exclusively at the memory level"
+      },
+      {
+        "id": "C",
+        "text": "The levels describe different degrees of cognitive engagement, not three unrelated subjects"
+      },
+      {
+        "id": "D",
+        "text": "Understanding and memory are exactly the same process"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The levels describe differences in the depth and nature of learning. Reflective teaching still allows teacher guidance, and a lesson may include recall, comprehension and analysis in sequence.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-033",
+    "question": "A teacher asks learners to identify the parts of a computer from a labelled diagram. The task primarily checks:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recognition and recall associated with the memory level"
+      },
+      {
+        "id": "B",
+        "text": "Independent research design"
+      },
+      {
+        "id": "C",
+        "text": "Reflective problem-solving"
+      },
+      {
+        "id": "D",
+        "text": "Moral development"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identifying labelled parts mainly requires recognition and recall, so the memory level is most directly assessed. A task asking learners to justify component choices for a particular system would require deeper reasoning.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-034",
+    "question": "A student can recite the definition of an algorithm but cannot explain it using an example. What is the best interpretation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher should stop using examples permanently"
+      },
+      {
+        "id": "B",
+        "text": "The student has necessarily reached the reflective level"
+      },
+      {
+        "id": "C",
+        "text": "Recall is present, but understanding may be incomplete"
+      },
+      {
+        "id": "D",
+        "text": "The student has no memory of the definition"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Reciting a definition shows recall, but inability to explain or illustrate it suggests that conceptual understanding may not yet be secure. The teacher can use simple examples and ask the learner to explain the steps.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-035",
+    "question": "Which teacher action best helps learners move from memory to understanding?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase the number of definitions to memorise without discussion"
+      },
+      {
+        "id": "B",
+        "text": "Discourage learners from asking questions"
+      },
+      {
+        "id": "C",
+        "text": "Assess only handwriting speed"
+      },
+      {
+        "id": "D",
+        "text": "Ask learners to explain a concept in their own words and relate it to an example"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Paraphrasing and connecting a concept to an example require learners to process meaning rather than reproduce words alone. These are useful ways to check and develop understanding.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-036",
+    "question": "Which is the strongest evidence that a learner is operating at the reflective level?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The learner copies the teacher's solution without comment"
+      },
+      {
+        "id": "B",
+        "text": "The learner evaluates evidence, considers alternatives and defends a reasoned conclusion"
+      },
+      {
+        "id": "C",
+        "text": "The learner recognises a term in a multiple-choice list"
+      },
+      {
+        "id": "D",
+        "text": "The learner repeats a definition exactly"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reflective learning involves inquiry, analysis, weighing alternatives and justifying conclusions. Repetition and recognition mainly indicate memory-level performance.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-037",
+    "question": "A teacher plans a lesson with recall questions, explanation questions and an open-ended case for evaluation. What is the best judgement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The lesson can progress across levels, from recall to understanding and reflection"
+      },
+      {
+        "id": "B",
+        "text": "The case question should be removed because it requires reasoning"
+      },
+      {
+        "id": "C",
+        "text": "The lesson is invalid because only one teaching level may be used"
+      },
+      {
+        "id": "D",
+        "text": "The lesson must be memory-level because it begins with recall"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A lesson can build on recall before moving to explanation and higher-order analysis. Teaching levels need not be isolated; the sequence should match objectives and learner readiness.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-038",
+    "question": "Which factor is most likely to influence the effectiveness of teaching and learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher's speaking speed alone"
+      },
+      {
+        "id": "B",
+        "text": "The number of notes copied, regardless of understanding"
+      },
+      {
+        "id": "C",
+        "text": "Interaction among learner readiness, motivation, teaching methods, feedback and learning environment"
+      },
+      {
+        "id": "D",
+        "text": "Only the physical size of the textbook"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Learning is influenced by multiple interacting factors, including prior knowledge, motivation, teaching approach, feedback, resources and classroom climate. No single superficial indicator determines effectiveness.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-039",
+    "question": "A learner performs poorly on one test but demonstrates the skill accurately in a later practical task. What should the teacher conclude?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The first test must always be ignored"
+      },
+      {
+        "id": "B",
+        "text": "The learner can never learn the topic"
+      },
+      {
+        "id": "C",
+        "text": "Practical performance cannot provide evidence of learning"
+      },
+      {
+        "id": "D",
+        "text": "Evidence from multiple appropriate assessments gives a fuller picture of learning"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Different assessment methods reveal different aspects of learning. A teacher should consider relevant evidence across tasks and contexts rather than draw a permanent conclusion from one result.",
+    "difficulty": "moderate",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-and-learning-040",
+    "question": "Which option best expresses the broad aim of teaching and learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To make every learner produce identical answers in every situation"
+      },
+      {
+        "id": "B",
+        "text": "To support development of knowledge, skills, attitudes and the ability to apply learning"
+      },
+      {
+        "id": "C",
+        "text": "To prioritise marks while ignoring understanding and development"
+      },
+      {
+        "id": "D",
+        "text": "To ensure that the teacher speaks for the whole period"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The broad aim is meaningful learner development, including knowledge, skills, attitudes and application. Marks may provide some evidence, but they do not capture the entire purpose of education.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

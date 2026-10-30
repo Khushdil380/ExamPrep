@@ -31,6 +31,12 @@
       "subjectName": "dsa",
       "file": "questions/dsa/index.json",
       "order": 5
+    },
+    {
+      "subjectId": "art-of-teaching",
+      "subjectName": "art-of-teaching",
+      "file": "questions/art-of-teaching/index.json",
+      "order": 6
     }
   ]
 }

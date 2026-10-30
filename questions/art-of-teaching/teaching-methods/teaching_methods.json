@@ -1,0 +1,912 @@
+[
+  {
+    "id": "teaching-methods-001",
+    "question": "A teacher explains a rule, demonstrates examples, and then asks students to apply the rule to new questions. Which method is most clearly illustrated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Direct instruction using a deductive sequence"
+      },
+      {
+        "id": "B",
+        "text": "Indirect instruction using student discovery"
+      },
+      {
+        "id": "C",
+        "text": "Problem-solving without teacher guidance"
+      },
+      {
+        "id": "D",
+        "text": "Learner-centred discussion without explanation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The teacher presents the rule first and then moves to application. This is a deductive, teacher-directed sequence commonly associated with direct instruction.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-002",
+    "question": "Which classroom practice is the clearest example of a learner-centred approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All students memorize the same answer from the board"
+      },
+      {
+        "id": "B",
+        "text": "Students investigate a question in groups and explain their findings"
+      },
+      {
+        "id": "C",
+        "text": "The teacher lectures for the entire period while students copy notes"
+      },
+      {
+        "id": "D",
+        "text": "The teacher answers every question before students can respond"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Learner-centred teaching gives students an active role in exploring, discussing, and constructing understanding.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-003",
+    "question": "In a teacher-centred classroom, the teacher usually has primary responsibility for:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Selecting and directing much of the learning activity"
+      },
+      {
+        "id": "B",
+        "text": "Letting students independently decide every learning goal"
+      },
+      {
+        "id": "C",
+        "text": "Avoiding explanations and demonstrations"
+      },
+      {
+        "id": "D",
+        "text": "Assessing only through peer feedback"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Teacher-centred instruction places the teacher in the main role of presenting content, directing activities, and managing the learning sequence.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-004",
+    "question": "A teacher asks students to observe several examples of plant leaves, compare their features, and infer a general pattern. This is closest to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Drill-and-practice only"
+      },
+      {
+        "id": "B",
+        "text": "Teacher-led explanation of a rule first"
+      },
+      {
+        "id": "C",
+        "text": "Direct instruction through deduction"
+      },
+      {
+        "id": "D",
+        "text": "Indirect instruction through induction"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Inductive learning moves from specific observations or examples toward a general rule or principle.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-005",
+    "question": "Which statement best distinguishes deductive from inductive teaching?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deduction is learner-centred in every situation; induction is always teacher-centred"
+      },
+      {
+        "id": "B",
+        "text": "Deduction always requires group work, while induction forbids it"
+      },
+      {
+        "id": "C",
+        "text": "Deduction moves from a general rule to specific cases; induction moves from cases toward a generalization"
+      },
+      {
+        "id": "D",
+        "text": "There is no meaningful difference between them"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Deduction typically applies a known principle to particular cases; induction uses examples or observations to develop a broader principle.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-006",
+    "question": "A student group is given a local water-wastage problem and must identify causes, propose solutions, and justify the best option. Which method is most directly used?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Problem-solving method"
+      },
+      {
+        "id": "B",
+        "text": "Rote memorization"
+      },
+      {
+        "id": "C",
+        "text": "Dictation method"
+      },
+      {
+        "id": "D",
+        "text": "Pure lecture method"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The task requires identifying a problem, analyzing it, generating possible solutions, and justifying a choice—the core of problem-solving.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-007",
+    "question": "Which teacher action best supports the problem-solving method without taking the task away from students?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immediately telling students the only correct solution"
+      },
+      {
+        "id": "B",
+        "text": "Stopping students from considering alternative explanations"
+      },
+      {
+        "id": "C",
+        "text": "Giving a relevant problem and guiding students with probing questions"
+      },
+      {
+        "id": "D",
+        "text": "Requiring students to copy a worked solution"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The teacher facilitates thinking through prompts and guidance while students do the analysis and solution-building.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-008",
+    "question": "A teacher-centred method is most likely to be useful when the immediate goal is to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Have learners freely choose any topic for an open inquiry"
+      },
+      {
+        "id": "B",
+        "text": "Clearly explain a new procedure that must be performed consistently"
+      },
+      {
+        "id": "C",
+        "text": "Allow groups to discover all safety rules by trial and error"
+      },
+      {
+        "id": "D",
+        "text": "Collect multiple student-generated solutions to an unfamiliar issue"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A concise, explicit demonstration can be efficient when students need a clear procedure or safety-critical steps.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-009",
+    "question": "Which is a common limitation of relying exclusively on teacher-centred instruction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can reduce opportunities for students to make decisions and actively explore ideas"
+      },
+      {
+        "id": "B",
+        "text": "It guarantees that students will misunderstand the lesson"
+      },
+      {
+        "id": "C",
+        "text": "It always makes classroom management impossible"
+      },
+      {
+        "id": "D",
+        "text": "It cannot communicate factual information"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Overuse may reduce active participation, independent thinking, and opportunities for students to construct understanding.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-010",
+    "question": "In indirect instruction, the teacher is best described as a person who:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uses only lecture and dictation"
+      },
+      {
+        "id": "B",
+        "text": "Facilitates inquiry while students develop conclusions"
+      },
+      {
+        "id": "C",
+        "text": "Provides every conclusion before students begin"
+      },
+      {
+        "id": "D",
+        "text": "Avoids planning learning activities altogether"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Indirect instruction emphasizes student investigation and discovery, with the teacher designing conditions and facilitating learning.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-011",
+    "question": "A teacher first states the formula for the area of a rectangle, solves two examples, and then asks students to solve similar problems. The reasoning pattern is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incidental"
+      },
+      {
+        "id": "B",
+        "text": "Unstructured discovery"
+      },
+      {
+        "id": "C",
+        "text": "Inductive"
+      },
+      {
+        "id": "D",
+        "text": "Deductive"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The general formula is presented before students apply it to particular examples, which is deductive reasoning.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-012",
+    "question": "Students measure the angles of several triangles, compare results, and formulate a conjecture about their sum. This lesson mainly uses:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inductive inquiry"
+      },
+      {
+        "id": "B",
+        "text": "Dictation"
+      },
+      {
+        "id": "C",
+        "text": "Direct instruction"
+      },
+      {
+        "id": "D",
+        "text": "Deductive instruction"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Students use specific observations to infer a general mathematical relationship, an inductive process.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-013",
+    "question": "Which sequence best represents a problem-solving lesson?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Announce the answer, prohibit questions, assign copying"
+      },
+      {
+        "id": "B",
+        "text": "Choose an answer randomly and avoid checking it"
+      },
+      {
+        "id": "C",
+        "text": "Memorize a definition, copy it, repeat it, finish"
+      },
+      {
+        "id": "D",
+        "text": "Identify the problem, analyze it, generate options, test/evaluate solutions, reflect"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Effective problem-solving commonly moves from defining the problem through analysis and possible solutions to evaluation and reflection.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-014",
+    "question": "A learner-centred teacher is planning a lesson on pollution. Which activity best fits the approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dictate a fixed paragraph for memorization"
+      },
+      {
+        "id": "B",
+        "text": "Read the chapter aloud while students remain silent"
+      },
+      {
+        "id": "C",
+        "text": "Ask students to investigate local examples and present evidence-based suggestions"
+      },
+      {
+        "id": "D",
+        "text": "Give the conclusion before students examine any evidence"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Learners actively investigate, interpret evidence, and communicate their conclusions rather than only receiving information.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-015",
+    "question": "Which feature is most strongly associated with direct instruction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clear explanation, modelling, guided practice, and feedback"
+      },
+      {
+        "id": "B",
+        "text": "Students discover all concepts without structured guidance"
+      },
+      {
+        "id": "C",
+        "text": "Only unstructured group discussion"
+      },
+      {
+        "id": "D",
+        "text": "The teacher avoids explaining learning objectives"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Direct instruction typically uses explicit explanation, teacher modelling, guided practice, and feedback before independent practice.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-016",
+    "question": "A teacher gives students a set of historical sources and asks them to infer why an event occurred. The teacher provides guiding questions but not the conclusion. This is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pure dictation"
+      },
+      {
+        "id": "B",
+        "text": "Indirect instruction"
+      },
+      {
+        "id": "C",
+        "text": "Drill practice"
+      },
+      {
+        "id": "D",
+        "text": "Deductive lecture only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Students interpret evidence and develop a conclusion with facilitation, which is characteristic of indirect instruction.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-017",
+    "question": "Which statement about teacher-centred and learner-centred methods is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "One method must be used for every topic"
+      },
+      {
+        "id": "B",
+        "text": "Learner-centred teaching means the teacher has no role"
+      },
+      {
+        "id": "C",
+        "text": "Teacher-centred methods are always ineffective"
+      },
+      {
+        "id": "D",
+        "text": "The suitable method depends on objectives, learners, content, and context"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Effective teachers select or combine methods according to learning goals, learner readiness, content, and classroom context.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-018",
+    "question": "During a lesson, students propose several ways to reduce classroom waste, compare costs and likely effects, and defend one plan. Which skill is most directly developed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mechanical repetition only"
+      },
+      {
+        "id": "B",
+        "text": "Problem-solving and decision-making"
+      },
+      {
+        "id": "C",
+        "text": "Copying speed"
+      },
+      {
+        "id": "D",
+        "text": "Silent recall only"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Generating alternatives, comparing consequences, and defending a choice are central to problem-solving and decision-making.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-019",
+    "question": "Which situation is the best example of teacher-centred instruction rather than learner-centred instruction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Students design their own investigation questions"
+      },
+      {
+        "id": "B",
+        "text": "Pairs debate different interpretations of a poem"
+      },
+      {
+        "id": "C",
+        "text": "The teacher gives a structured explanation and demonstrates each step"
+      },
+      {
+        "id": "D",
+        "text": "Groups choose how to present their findings"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A structured explanation and demonstration led by the teacher is a clear teacher-centred activity.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-020",
+    "question": "In a deductive lesson, students usually begin by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Receiving or examining a general principle that they will apply"
+      },
+      {
+        "id": "B",
+        "text": "Making a guess without evidence"
+      },
+      {
+        "id": "C",
+        "text": "Exploring many examples before any rule is introduced"
+      },
+      {
+        "id": "D",
+        "text": "Choosing a problem without learning goals"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Deductive teaching generally starts with a general rule, principle, or concept and proceeds to specific applications.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-021",
+    "question": "Which activity most clearly uses induction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Listening to a teacher define a concept"
+      },
+      {
+        "id": "B",
+        "text": "Comparing several sentences and deriving a grammar rule"
+      },
+      {
+        "id": "C",
+        "text": "Memorizing a theorem exactly as written"
+      },
+      {
+        "id": "D",
+        "text": "Applying a stated grammar rule to five sentences"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Learners derive a general rule by examining particular examples, which is induction.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-022",
+    "question": "A teacher notices students are stuck during a problem-solving task. What is the best next step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "End the activity and switch to copying notes"
+      },
+      {
+        "id": "B",
+        "text": "Tell students that struggling means they cannot learn"
+      },
+      {
+        "id": "C",
+        "text": "Give the final answer immediately in every case"
+      },
+      {
+        "id": "D",
+        "text": "Ask a focused question that helps them reconsider their assumptions"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A focused prompt scaffolds learners' thinking while preserving their responsibility for solving the problem.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-023",
+    "question": "Which assessment is most consistent with a learner-centred problem-solving activity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Evaluate only whether students copied the textbook definition"
+      },
+      {
+        "id": "B",
+        "text": "Ignore the process and assess handwriting alone"
+      },
+      {
+        "id": "C",
+        "text": "Assess reasoning, use of evidence, solution quality, and reflection"
+      },
+      {
+        "id": "D",
+        "text": "Give marks only for finishing first"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Problem-solving assessment should consider the reasoning process and evidence as well as the proposed solution.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-024",
+    "question": "A teacher demonstrates a laboratory procedure, checks understanding, supervises guided practice, and then asks students to perform it independently. This is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Problem posing without teaching"
+      },
+      {
+        "id": "B",
+        "text": "Direct instruction"
+      },
+      {
+        "id": "C",
+        "text": "Indirect instruction only"
+      },
+      {
+        "id": "D",
+        "text": "Unstructured discovery"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Modelling, checking understanding, guided practice, and independent practice are typical elements of direct instruction.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-025",
+    "question": "Which statement best describes the teacher's role in learner-centred teaching?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher supplies all answers before questions arise"
+      },
+      {
+        "id": "B",
+        "text": "The teacher must remain silent throughout the lesson"
+      },
+      {
+        "id": "C",
+        "text": "The teacher removes all structure and expectations"
+      },
+      {
+        "id": "D",
+        "text": "The teacher plans, facilitates, supports, and assesses learning"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Learner-centred classrooms still need a teacher who designs learning, scaffolds activity, and gives feedback.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-026",
+    "question": "In a class using indirect instruction, which teacher action would be least appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Providing resources for investigation"
+      },
+      {
+        "id": "B",
+        "text": "Revealing the final conclusion before students have explored the question"
+      },
+      {
+        "id": "C",
+        "text": "Encouraging students to compare evidence"
+      },
+      {
+        "id": "D",
+        "text": "Asking students to explain how they reached a conclusion"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Prematurely giving the conclusion undermines the inquiry and discovery central to indirect instruction.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-027",
+    "question": "A teacher asks, 'What evidence supports your proposed solution, and what might happen if it fails?' This question mainly encourages:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reasoned evaluation of solutions"
+      },
+      {
+        "id": "B",
+        "text": "Passive note-taking"
+      },
+      {
+        "id": "C",
+        "text": "Avoidance of alternative ideas"
+      },
+      {
+        "id": "D",
+        "text": "Blind memorization"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The questions prompt learners to justify evidence and anticipate consequences, both important in problem-solving.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-028",
+    "question": "Which is the strongest example of a teacher-centred method being combined sensibly with learner activity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Students copy notes for the whole period"
+      },
+      {
+        "id": "B",
+        "text": "A lecture with no opportunity to respond or practise"
+      },
+      {
+        "id": "C",
+        "text": "A short explanation followed by student practice and feedback"
+      },
+      {
+        "id": "D",
+        "text": "A teacher gives answers and cancels discussion"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A brief explicit explanation can provide a foundation, followed by active practice and feedback to engage learners.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-029",
+    "question": "When students move from examples of metals expanding on heating to a general statement about thermal expansion, they are using:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deduction"
+      },
+      {
+        "id": "B",
+        "text": "Imitation only"
+      },
+      {
+        "id": "C",
+        "text": "Direct recall"
+      },
+      {
+        "id": "D",
+        "text": "Induction"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The students generalize from several specific observations, which is inductive reasoning.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-030",
+    "question": "Which approach is generally best when students need to explore multiple possible solutions to an authentic, open-ended issue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only a fixed lecture with no student input"
+      },
+      {
+        "id": "B",
+        "text": "Rote repetition alone"
+      },
+      {
+        "id": "C",
+        "text": "Learner-centred problem-solving"
+      },
+      {
+        "id": "D",
+        "text": "Dictation"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Open-ended authentic problems benefit from student participation in generating, comparing, and evaluating possible solutions.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-031",
+    "question": "A teacher begins with the principle 'all mammals are warm-blooded' and asks students to apply it to a whale and a bat. This is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Induction from observations"
+      },
+      {
+        "id": "B",
+        "text": "Deductive application of a general rule"
+      },
+      {
+        "id": "C",
+        "text": "Unstructured problem-solving"
+      },
+      {
+        "id": "D",
+        "text": "Affective instruction"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A general principle is applied to particular examples, which is deductive reasoning.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-032",
+    "question": "Which classroom evidence best indicates that students are taking an active role in learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They wait for the teacher to provide every step"
+      },
+      {
+        "id": "B",
+        "text": "They repeat the teacher's words without explanation"
+      },
+      {
+        "id": "C",
+        "text": "They ask questions, test ideas, and justify conclusions"
+      },
+      {
+        "id": "D",
+        "text": "They copy notes without discussing meaning"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Questioning, testing ideas, and justifying conclusions show active cognitive engagement.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-033",
+    "question": "A teacher wants students to discover a scientific relationship but knows they need support. Which plan is best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Provide carefully selected examples, prompts, and time for students to infer the relationship"
+      },
+      {
+        "id": "B",
+        "text": "Avoid resources and refuse all questions"
+      },
+      {
+        "id": "C",
+        "text": "Give the final law and ask students to copy it ten times"
+      },
+      {
+        "id": "D",
+        "text": "Assess students before introducing the task and give no feedback"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Indirect instruction can include structured materials and teacher prompts while leaving the inference to learners.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-034",
+    "question": "What is the main purpose of guided practice in direct instruction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To assess handwriting only"
+      },
+      {
+        "id": "B",
+        "text": "To replace explanation with free exploration"
+      },
+      {
+        "id": "C",
+        "text": "To prevent students from attempting tasks themselves"
+      },
+      {
+        "id": "D",
+        "text": "To let students practise a newly modelled skill with support and feedback"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Guided practice allows learners to try the skill with teacher support and correct errors before independent work.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "teaching-methods-035",
+    "question": "A class is solving a transport problem. One group suggests a bus, another suggests cycling, and students compare safety, cost, and time. This best demonstrates:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deduction without any decision"
+      },
+      {
+        "id": "B",
+        "text": "Only factual recall"
+      },
+      {
+        "id": "C",
+        "text": "Problem-solving through evaluation of alternatives"
+      },
+      {
+        "id": "D",
+        "text": "Direct copying"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Students generate alternatives and compare them against criteria to decide which solution is most suitable.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

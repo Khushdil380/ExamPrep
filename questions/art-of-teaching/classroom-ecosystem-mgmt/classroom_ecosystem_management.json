@@ -1,0 +1,782 @@
+[
+  {
+    "id": "classroom-ecosystem-management-001",
+    "question": "Which of the following is an example of the physical classroom ecosystem?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peer acceptance and classroom trust"
+      },
+      {
+        "id": "B",
+        "text": "Students' sense of belonging and emotional safety"
+      },
+      {
+        "id": "C",
+        "text": "Lighting, ventilation, seating, and classroom layout"
+      },
+      {
+        "id": "D",
+        "text": "The teacher's expectations about student ability"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The physical ecosystem includes tangible features such as seating, lighting, ventilation, space, and classroom resources.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-002",
+    "question": "A psychologically supportive classroom ecosystem is most clearly indicated when students:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Can always see a brightly coloured noticeboard"
+      },
+      {
+        "id": "B",
+        "text": "Have desks arranged in straight rows"
+      },
+      {
+        "id": "C",
+        "text": "Use the same textbook edition"
+      },
+      {
+        "id": "D",
+        "text": "Feel safe to ask questions and make mistakes without humiliation"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The psychological ecosystem concerns emotional safety, relationships, belonging, expectations, and the overall social-emotional climate.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-003",
+    "question": "In Jacob Kounin's classroom management, 'withitness' means that the teacher:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shows awareness of what is happening across the classroom and notices problems promptly"
+      },
+      {
+        "id": "B",
+        "text": "Uses punishment for every minor disruption"
+      },
+      {
+        "id": "C",
+        "text": "Focuses only on the student speaking at the front"
+      },
+      {
+        "id": "D",
+        "text": "Keeps students busy without monitoring them"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Withitness is the teacher's demonstrated awareness of classroom events and ability to notice and address issues promptly.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-004",
+    "question": "A teacher responds to a minor disruption in one group while continuing to monitor the rest of the class. Which Kounin concept is most directly illustrated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intrinsic motivation"
+      },
+      {
+        "id": "B",
+        "text": "Ripple effect"
+      },
+      {
+        "id": "C",
+        "text": "Smoothness and momentum"
+      },
+      {
+        "id": "D",
+        "text": "Overlapping"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Overlapping is the ability to handle more than one classroom event or task at the same time.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-005",
+    "question": "In Kounin's framework, smoothness and momentum are mainly concerned with:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arranging desks according to height"
+      },
+      {
+        "id": "B",
+        "text": "Using a strict punishment for every mistake"
+      },
+      {
+        "id": "C",
+        "text": "Keeping the lesson flowing with clear transitions and avoiding unnecessary interruptions"
+      },
+      {
+        "id": "D",
+        "text": "Rewarding only the highest-scoring students"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Smoothness and momentum refer to maintaining lesson flow, avoiding abrupt transitions, and keeping students productively engaged.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-006",
+    "question": "The 'ripple effect' refers to a teacher's correction of one student's misbehaviour:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Influencing the behaviour of other students who observe the correction"
+      },
+      {
+        "id": "B",
+        "text": "Increasing the amount of homework automatically"
+      },
+      {
+        "id": "C",
+        "text": "Making the whole class stop learning"
+      },
+      {
+        "id": "D",
+        "text": "Having no influence on other students"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The ripple effect is the impact a teacher's response to one student's behaviour can have on other students in the class.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-007",
+    "question": "A student reads an optional book because the topic genuinely interests them. This is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "External control"
+      },
+      {
+        "id": "B",
+        "text": "Extrinsic motivation"
+      },
+      {
+        "id": "C",
+        "text": "Intrinsic motivation"
+      },
+      {
+        "id": "D",
+        "text": "Negative reinforcement"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Intrinsic motivation comes from interest, enjoyment, or personal satisfaction within the learner rather than an external reward.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-008",
+    "question": "A student completes extra practice mainly to earn a certificate or prize. This is an example of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peer belonging"
+      },
+      {
+        "id": "B",
+        "text": "Extrinsic motivation"
+      },
+      {
+        "id": "C",
+        "text": "Self-reflection"
+      },
+      {
+        "id": "D",
+        "text": "Intrinsic motivation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Extrinsic motivation is driven by an external outcome such as a prize, grade, certificate, or recognition.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-009",
+    "question": "Which action best represents effective classroom management rather than merely strict control?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using threats as the main way to gain silence"
+      },
+      {
+        "id": "B",
+        "text": "Changing rules unpredictably"
+      },
+      {
+        "id": "C",
+        "text": "Punishing the whole class for one student's mistake"
+      },
+      {
+        "id": "D",
+        "text": "Establishing clear routines, engaging learners, and responding consistently and respectfully"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Effective management combines clear expectations and routines with engaging instruction, fairness, and respectful responses.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-010",
+    "question": "Why can classroom seating and ventilation affect learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They determine students' intelligence"
+      },
+      {
+        "id": "B",
+        "text": "They can influence comfort, visibility, attention, and participation"
+      },
+      {
+        "id": "C",
+        "text": "They matter only during examinations"
+      },
+      {
+        "id": "D",
+        "text": "They replace the need for good teaching"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Physical conditions can affect comfort, visibility, attention, and students' ability to participate; they do not replace sound instruction.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-011",
+    "question": "Which statement best explains the relationship between physical and psychological classroom ecosystems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both interact: room conditions affect participation, while relationships and emotional safety shape how students engage"
+      },
+      {
+        "id": "B",
+        "text": "Only physical conditions matter for learning"
+      },
+      {
+        "id": "C",
+        "text": "They are unrelated to learning"
+      },
+      {
+        "id": "D",
+        "text": "A positive psychological climate requires expensive classroom equipment"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Classroom environment includes both physical conditions and social-emotional climate, and these can influence each other.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-012",
+    "question": "Why are predictable classroom routines useful?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They guarantee that no student will misbehave"
+      },
+      {
+        "id": "B",
+        "text": "They reduce uncertainty and help students focus on learning"
+      },
+      {
+        "id": "C",
+        "text": "They make every lesson identical"
+      },
+      {
+        "id": "D",
+        "text": "They remove all need for student choice"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Predictable routines make expectations clear and reduce time lost to confusion, supporting students' focus and independence.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-013",
+    "question": "Which is the best reason to avoid frequent unnecessary interruptions during a lesson?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They can break attention and reduce the lesson's flow"
+      },
+      {
+        "id": "B",
+        "text": "They guarantee more student questions"
+      },
+      {
+        "id": "C",
+        "text": "They are required for smoothness and momentum"
+      },
+      {
+        "id": "D",
+        "text": "They always improve student motivation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Unnecessary interruptions can disrupt concentration and lesson continuity, which Kounin's smoothness and momentum seek to maintain.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-014",
+    "question": "Which statement about classroom discipline is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Discipline means students must never ask questions"
+      },
+      {
+        "id": "B",
+        "text": "Discipline should teach responsibility and support a safe, orderly learning environment"
+      },
+      {
+        "id": "C",
+        "text": "Discipline requires the same punishment regardless of context"
+      },
+      {
+        "id": "D",
+        "text": "Discipline is effective only when students fear the teacher"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Constructive discipline aims to teach responsibility and maintain safety and learning, not simply enforce silence or fear.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-015",
+    "question": "What is the key difference between intrinsic and extrinsic motivation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intrinsic motivation comes from internal interest or satisfaction; extrinsic motivation is linked to external outcomes"
+      },
+      {
+        "id": "B",
+        "text": "Intrinsic motivation always involves prizes"
+      },
+      {
+        "id": "C",
+        "text": "There is no difference between them"
+      },
+      {
+        "id": "D",
+        "text": "Extrinsic motivation means a learner has no goal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Intrinsic motivation is internally driven, while extrinsic motivation is influenced by external rewards, recognition, grades, or consequences.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-016",
+    "question": "Why is specific feedback usually more helpful than a vague comment such as 'Good job'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It prevents learners from reflecting"
+      },
+      {
+        "id": "B",
+        "text": "It tells learners what they did well and what they can improve"
+      },
+      {
+        "id": "C",
+        "text": "It always makes students dependent on praise"
+      },
+      {
+        "id": "D",
+        "text": "It works only for high achievers"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Specific feedback gives actionable information about the behaviour or strategy that was effective and what the learner can do next.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-017",
+    "question": "A teacher keeps students productively engaged while moving smoothly from explanation to group work. Which management principle is most evident?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ripple effect only"
+      },
+      {
+        "id": "B",
+        "text": "Extrinsic motivation only"
+      },
+      {
+        "id": "C",
+        "text": "Smoothness and momentum"
+      },
+      {
+        "id": "D",
+        "text": "Physical ecosystem only"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Clear transitions and sustained engagement are central to smoothness and momentum.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-018",
+    "question": "Which approach is most likely to support long-term student motivation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Compare students publicly to create pressure"
+      },
+      {
+        "id": "B",
+        "text": "Offer meaningful choices, connect tasks to interests, and give constructive feedback"
+      },
+      {
+        "id": "C",
+        "text": "Rely exclusively on prizes for every small task"
+      },
+      {
+        "id": "D",
+        "text": "Make tasks confusing so students work harder"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Meaningful choice, relevance, competence-supporting feedback, and interest can support sustained motivation more effectively than pressure alone.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-019",
+    "question": "Two students begin arguing during group work while the rest of the class is working. What should the teacher do first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immediately remove the whole group from the class"
+      },
+      {
+        "id": "B",
+        "text": "Ignore the argument regardless of its intensity"
+      },
+      {
+        "id": "C",
+        "text": "Stop the entire lesson and scold everyone"
+      },
+      {
+        "id": "D",
+        "text": "Calmly intervene, ensure safety, and redirect the students toward the task"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A calm, proportionate response should address the immediate issue, protect safety, and help students return to productive work.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-020",
+    "question": "A usually quiet student gives an incorrect answer and classmates laugh. What is the best teacher response?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tell the student not to answer again"
+      },
+      {
+        "id": "B",
+        "text": "Join the laughter to make the lesson light-hearted"
+      },
+      {
+        "id": "C",
+        "text": "Stop the ridicule respectfully and make it safe for students to contribute"
+      },
+      {
+        "id": "D",
+        "text": "Ignore the reaction and continue"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Protecting psychological safety helps students take learning risks and participate without fear of humiliation.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-021",
+    "question": "A teacher notices that students at the back cannot read the board clearly. What is the most appropriate action?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tell them to copy from a classmate permanently"
+      },
+      {
+        "id": "B",
+        "text": "Check visibility and adjust writing, seating, or display as needed"
+      },
+      {
+        "id": "C",
+        "text": "Punish students for not paying attention"
+      },
+      {
+        "id": "D",
+        "text": "Continue because the front row can see"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The teacher should address the practical barrier by improving visibility or seating rather than blaming learners.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-022",
+    "question": "A student repeatedly calls out while another student is answering. Which response is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cancel all class discussion"
+      },
+      {
+        "id": "B",
+        "text": "Publicly insult the student"
+      },
+      {
+        "id": "C",
+        "text": "Give the student every speaking turn to stop the behaviour"
+      },
+      {
+        "id": "D",
+        "text": "Calmly remind the student of the turn-taking rule and reinforce respectful participation"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A calm, consistent reminder teaches the expected behaviour while protecting the other student's opportunity to speak.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-023",
+    "question": "A teacher sees one student off-task but also notices another group needs help. Which action best reflects awareness and overlapping?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Briefly redirect the off-task student while arranging support for the other group"
+      },
+      {
+        "id": "B",
+        "text": "Wait until the end of the lesson to address both"
+      },
+      {
+        "id": "C",
+        "text": "Stop all students from working"
+      },
+      {
+        "id": "D",
+        "text": "Focus on one issue and become unaware of everything else"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The teacher monitors multiple events and responds efficiently without losing awareness of the rest of the class.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-024",
+    "question": "A student says, 'I only study this subject because my parents promise me money for good marks.' Which statement is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The student has no motivation at all"
+      },
+      {
+        "id": "B",
+        "text": "The stated reason reflects extrinsic motivation"
+      },
+      {
+        "id": "C",
+        "text": "The student is necessarily intrinsically motivated"
+      },
+      {
+        "id": "D",
+        "text": "The student is motivated only by curiosity"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The student's stated incentive is an external reward, so the motivation described is extrinsic.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-025",
+    "question": "During a lesson, a transition from individual work to group discussion takes several minutes because students do not know what to do. What would help most next time?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Add more unrelated activities"
+      },
+      {
+        "id": "B",
+        "text": "Avoid explaining task expectations"
+      },
+      {
+        "id": "C",
+        "text": "Punish the entire class before every transition"
+      },
+      {
+        "id": "D",
+        "text": "Teach and practise a clear transition routine with explicit instructions"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explicit routines and clear directions reduce uncertainty and wasted time during transitions.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-026",
+    "question": "A student finishes work early and starts distracting others. What is the most constructive preventive strategy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Make the student responsible for punishing classmates"
+      },
+      {
+        "id": "B",
+        "text": "Tell the student to sit idle until everyone finishes"
+      },
+      {
+        "id": "C",
+        "text": "Give the student a meaningful extension task or choice of challenge"
+      },
+      {
+        "id": "D",
+        "text": "Remove all challenging work from future lessons"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Purposeful extension tasks keep early finishers engaged and reduce opportunities for disruption.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-027",
+    "question": "A teacher wants students to care about reading beyond earning marks. Which strategy is most likely to support intrinsic motivation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Offer appealing text choices and invite students to discuss what interests them"
+      },
+      {
+        "id": "B",
+        "text": "Announce that reading is compulsory but meaningless"
+      },
+      {
+        "id": "C",
+        "text": "Rank readers publicly every day"
+      },
+      {
+        "id": "D",
+        "text": "Give a prize for every page and forbid personal choice"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Choice and connection to genuine interests can help students find reading enjoyable and personally meaningful.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-028",
+    "question": "One student's repeated disruption stops several classmates from working. The teacher calmly addresses the behaviour and restates the expected routine. If other students also settle, this illustrates:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Overlapping only"
+      },
+      {
+        "id": "B",
+        "text": "Intrinsic motivation only"
+      },
+      {
+        "id": "C",
+        "text": "Ripple effect"
+      },
+      {
+        "id": "D",
+        "text": "Physical ecosystem"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A correction directed at one student influences the behaviour of other students who observe it, which is the ripple effect.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-029",
+    "question": "A new student joins the class and does not know the classroom routines. What is the best response?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask classmates to exclude the student until they learn"
+      },
+      {
+        "id": "B",
+        "text": "Assume the student should already know every rule"
+      },
+      {
+        "id": "C",
+        "text": "Punish the student for each mistake without explanation"
+      },
+      {
+        "id": "D",
+        "text": "Explain routines clearly, model them, and check the student's understanding"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Explicitly teaching and modelling routines helps new students understand expectations and join the classroom safely.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Competitive Exam Practice"
+  },
+  {
+    "id": "classroom-ecosystem-management-030",
+    "question": "A teacher has a limited budget and wants to improve the classroom ecosystem. Which action is likely to help without requiring expensive equipment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Make the rules stricter but keep them unclear"
+      },
+      {
+        "id": "B",
+        "text": "Avoid student input about the classroom"
+      },
+      {
+        "id": "C",
+        "text": "Use clear routines, respectful interactions, accessible seating, and available materials thoughtfully"
+      },
+      {
+        "id": "D",
+        "text": "Focus only on buying decorative items"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Many improvements come from organization, respectful relationships, and thoughtful use of existing resources rather than costly purchases.",
+    "difficulty": "medium",
+    "source": "ChatGPT | Competitive Exam Practice"
+  }
+]

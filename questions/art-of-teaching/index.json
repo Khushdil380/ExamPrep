@@ -1,0 +1,82 @@
+{
+  "chapters": [
+    {
+      "chapterId": "classroom-ecosystem-mgmt",
+      "chapterName": "classroom-ecosystem-mgmt",
+      "order": 1,
+      "categories": [
+        {
+          "categoryId": "classroom_ecosystem_management",
+          "categoryName": "classroom_ecosystem_management",
+          "file": "questions/art-of-teaching/classroom-ecosystem-mgmt/classroom_ecosystem_management.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "lession-planning",
+      "chapterName": "lession-planning",
+      "order": 2,
+      "categories": [
+        {
+          "categoryId": "lesson_planning",
+          "categoryName": "lesson_planning",
+          "file": "questions/art-of-teaching/lession-planning/lesson_planning.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "micro-teaching-and-skill",
+      "chapterName": "micro-teaching-and-skill",
+      "order": 3,
+      "categories": [
+        {
+          "categoryId": "microteaching_teaching_skills",
+          "categoryName": "microteaching_teaching_skills",
+          "file": "questions/art-of-teaching/micro-teaching-and-skill/microteaching_teaching_skills.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "teaching-and-learning",
+      "chapterName": "teaching-and-learning",
+      "order": 4,
+      "categories": [
+        {
+          "categoryId": "teaching_and_learning",
+          "categoryName": "teaching_and_learning",
+          "file": "questions/art-of-teaching/teaching-and-learning/teaching_and_learning.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "teaching-methods",
+      "chapterName": "teaching-methods",
+      "order": 5,
+      "categories": [
+        {
+          "categoryId": "teaching_methods",
+          "categoryName": "teaching_methods",
+          "file": "questions/art-of-teaching/teaching-methods/teaching_methods.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "teaching-objective-instructional-aims",
+      "chapterName": "teaching-objective-instructional-aims",
+      "order": 6,
+      "categories": [
+        {
+          "categoryId": "teaching_objectives_instructional_aims",
+          "categoryName": "teaching_objectives_instructional_aims",
+          "file": "questions/art-of-teaching/teaching-objective-instructional-aims/teaching_objectives_instructional_aims.json",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}
