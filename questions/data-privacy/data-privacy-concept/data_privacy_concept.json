@@ -1,0 +1,1536 @@
+[
+  {
+    "id": "data-privacy-001",
+    "question": "Which attribute is classified as an Explicit Identifier (PII)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Medical diagnosis"
+      },
+      {
+        "id": "B",
+        "text": "Aadhaar Number"
+      },
+      {
+        "id": "C",
+        "text": "ZIP Code"
+      },
+      {
+        "id": "D",
+        "text": "Age"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Aadhaar number directly identifies a person, so it is an explicit identifier/PII.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-002",
+    "question": "Quasi-identifiers (QIDs) are attributes that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Do not identify a person alone but may identify them when combined"
+      },
+      {
+        "id": "B",
+        "text": "Cannot be changed during anonymization"
+      },
+      {
+        "id": "C",
+        "text": "Directly identify a person individually"
+      },
+      {
+        "id": "D",
+        "text": "Are always medical or financial records"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A QID may be non-identifying by itself, but a combination such as age, gender and ZIP code can distinguish a person.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-003",
+    "question": "According to Latanya Sweeney's well-known finding, approximately what percentage of the US population could be uniquely identified using ZIP code, gender and date of birth?",
+    "options": [
+      {
+        "id": "A",
+        "text": "100%"
+      },
+      {
+        "id": "B",
+        "text": "50%"
+      },
+      {
+        "id": "C",
+        "text": "10%"
+      },
+      {
+        "id": "D",
+        "text": "87%"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Sweeney reported approximately 87% (often stated as 87.1%) for the combination of 5-digit ZIP code, gender and date of birth. This is a population-level research finding, not a universal guarantee. [Web research: Sweeney, Identifiability Project.]",
+    "difficulty": "medium",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-004",
+    "question": "Why should quasi-identifiers not simply be deleted from a dataset intended for research?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are explicit identifiers"
+      },
+      {
+        "id": "B",
+        "text": "They contain criminal records"
+      },
+      {
+        "id": "C",
+        "text": "Deleting them may destroy the data utility needed for analysis"
+      },
+      {
+        "id": "D",
+        "text": "They are encrypted by the government"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Age, location and similar QIDs can be analytically useful. Removing all of them may greatly reduce research utility; generalization or other privacy controls may be used instead.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-005",
+    "question": "In a hospital database, a medical diagnosis such as cancer is generally classified as a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non-sensitive attribute"
+      },
+      {
+        "id": "B",
+        "text": "Sensitive attribute"
+      },
+      {
+        "id": "C",
+        "text": "Explicit identifier"
+      },
+      {
+        "id": "D",
+        "text": "Quasi-identifier"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A medical diagnosis reveals private health information and is therefore a sensitive attribute.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-006",
+    "question": "A dataset contains Name, Date of Birth, Gender and Annual Income. Which field should normally be removed or masked first when beginning de-identification?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Date of Birth"
+      },
+      {
+        "id": "B",
+        "text": "Annual Income"
+      },
+      {
+        "id": "C",
+        "text": "Name"
+      },
+      {
+        "id": "D",
+        "text": "Gender"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Name is a direct identifier/PII. Direct identifiers are typically removed or masked before handling remaining quasi-identifiers.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-007",
+    "question": "Which is an example of a sensitive attribute?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Salary details"
+      },
+      {
+        "id": "B",
+        "text": "Residential city"
+      },
+      {
+        "id": "C",
+        "text": "Voter ID number"
+      },
+      {
+        "id": "D",
+        "text": "Profession"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Salary/income is confidential personal information and is treated as a sensitive attribute in the PDF. Voter ID is a direct identifier; city and profession may act as QIDs depending on context.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-008",
+    "question": "Why may ordinary encryption (such as AES) alone be insufficient for privacy-preserving data publishing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It always increases file size beyond storage limits"
+      },
+      {
+        "id": "B",
+        "text": "It never protects data in storage"
+      },
+      {
+        "id": "C",
+        "text": "It is prohibited for public datasets"
+      },
+      {
+        "id": "D",
+        "text": "Researchers generally cannot perform ordinary analysis on ciphertext without an appropriate decryption or specialized computation method"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Encryption protects confidentiality by making data unreadable without a key. Publishing only ciphertext does not ordinarily provide researchers with usable plaintext for statistical analysis.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-009",
+    "question": "What is the central trade-off in data anonymization?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Storage size versus bandwidth"
+      },
+      {
+        "id": "B",
+        "text": "Data privacy versus data utility"
+      },
+      {
+        "id": "C",
+        "text": "Hardware cost versus software cost"
+      },
+      {
+        "id": "D",
+        "text": "Encryption speed versus decryption speed"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Stronger transformations can reduce disclosure risk but may also reduce the usefulness or detail of the data.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-010",
+    "question": "A released row contains Age 25, ZIP 400001 and Gender Male. An attacker knows a coworker has those characteristics. Which attributes enabled the attacker to narrow down the coworker’s record?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Explicit identifiers"
+      },
+      {
+        "id": "B",
+        "text": "Sensitive attributes"
+      },
+      {
+        "id": "C",
+        "text": "Quasi-identifiers"
+      },
+      {
+        "id": "D",
+        "text": "PII only"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Age, ZIP code and gender are QIDs. Their combination can help link a person to a record even when a name is absent.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-011",
+    "question": "Which statement is true of an explicit identifier (PII)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can directly identify a person in a given context"
+      },
+      {
+        "id": "B",
+        "text": "It can always be published unchanged"
+      },
+      {
+        "id": "C",
+        "text": "It is identical to a sensitive attribute"
+      },
+      {
+        "id": "D",
+        "text": "It is primarily useful for statistical trend discovery"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An explicit identifier, such as a name or Aadhaar number, directly identifies a person in context. It is conceptually distinct from a sensitive attribute.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-012",
+    "question": "In the PDF’s description of Privacy-Preserving Data Publishing, which attribute category is primarily generalized or modified?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sensitive attributes"
+      },
+      {
+        "id": "B",
+        "text": "All categories equally in every case"
+      },
+      {
+        "id": "C",
+        "text": "Explicit identifiers"
+      },
+      {
+        "id": "D",
+        "text": "Quasi-identifiers"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The described workflow removes or masks direct identifiers and focuses on generalizing QIDs, while preserving sensitive values for analysis where appropriate.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-013",
+    "question": "An attacker links a public dataset with an anonymized hospital dataset to identify patients. Which weakness most directly enables this?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Missing metadata"
+      },
+      {
+        "id": "B",
+        "text": "Intact direct identifiers are always required"
+      },
+      {
+        "id": "C",
+        "text": "Poorly protected quasi-identifiers"
+      },
+      {
+        "id": "D",
+        "text": "Unencrypted sensitive attributes alone"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Shared QIDs can serve as matching fields between the two datasets, enabling a linking attack.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-014",
+    "question": "Which attribute is not usually a direct identifier by itself but can help identify someone when combined with other attributes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aadhaar number"
+      },
+      {
+        "id": "B",
+        "text": "Gender"
+      },
+      {
+        "id": "C",
+        "text": "Full name"
+      },
+      {
+        "id": "D",
+        "text": "Email address"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Gender alone generally does not identify a unique person, but in combination with age, location or birth date it may help distinguish an individual.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-015",
+    "question": "In an organization, Access Control primarily means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Restricting which authorized people can view or modify original data"
+      },
+      {
+        "id": "B",
+        "text": "Releasing original records publicly"
+      },
+      {
+        "id": "C",
+        "text": "Converting data into ciphertext"
+      },
+      {
+        "id": "D",
+        "text": "Generalizing age and location"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Access control limits data access and modification to authorized users. It is an internal security control, distinct from anonymization for publication.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-016",
+    "question": "An attacker identifies that row 45 in an anonymized dataset belongs to Rajesh. Which disclosure has occurred?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data minimization"
+      },
+      {
+        "id": "B",
+        "text": "Attribute disclosure"
+      },
+      {
+        "id": "C",
+        "text": "Perturbation disclosure"
+      },
+      {
+        "id": "D",
+        "text": "Identity disclosure"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Identity disclosure occurs when an attacker links a specific record or row to a named or otherwise identifiable person.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-017",
+    "question": "An attacker cannot determine which of ten matching rows belongs to Suresh, but all ten rows show the condition Hepatitis B. What has occurred?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Access-control failure"
+      },
+      {
+        "id": "B",
+        "text": "Identity disclosure"
+      },
+      {
+        "id": "C",
+        "text": "Attribute disclosure"
+      },
+      {
+        "id": "D",
+        "text": "Encryption breach"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The exact record is not identified, but the sensitive attribute is inferred because every matching row has the same condition. This is attribute disclosure.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-018",
+    "question": "Which statement about identity and attribute disclosure is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attribute disclosure can occur without identifying the exact row"
+      },
+      {
+        "id": "B",
+        "text": "Attribute disclosure always requires identity disclosure first"
+      },
+      {
+        "id": "C",
+        "text": "Both require names to remain in the released dataset"
+      },
+      {
+        "id": "D",
+        "text": "Identity disclosure always reveals a sensitive attribute"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "If all records matching a person’s known QIDs share the same sensitive value, that value can be inferred even when the person’s exact row is unknown.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-019",
+    "question": "The likelihood that an anonymized record can be linked back to its real-world owner is called:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Differential noise"
+      },
+      {
+        "id": "B",
+        "text": "Generalization factor"
+      },
+      {
+        "id": "C",
+        "text": "Data utility risk"
+      },
+      {
+        "id": "D",
+        "text": "Re-identification risk"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Re-identification risk describes the possibility that anonymized data can be associated again with the real identity of an individual.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-020",
+    "question": "Under the simplified uniqueness rule used in the PDF, if a QID combination occurs in exactly one row, what risk value is assigned to that row?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.5"
+      },
+      {
+        "id": "B",
+        "text": "1.0"
+      },
+      {
+        "id": "C",
+        "text": "0.0"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be estimated"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The PDF uses a simplified model in which a unique QID combination implies a re-identification risk of 1.0 (100%). Real-world risk assessment can require more context than this simplified rule.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-021",
+    "question": "A research lab removes names and addresses but leaves exact birth dates and ZIP codes unchanged. What is the main privacy concern?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Identity disclosure through re-identification"
+      },
+      {
+        "id": "B",
+        "text": "Loss of data utility only"
+      },
+      {
+        "id": "C",
+        "text": "Insider access breach"
+      },
+      {
+        "id": "D",
+        "text": "Algorithmic bias"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Exact birth date and ZIP code can act as highly identifying QIDs and may be matched with external records to re-identify individuals.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-022",
+    "question": "All participants from a small locality in an anonymized health survey have a particular diagnosis. An employer knows an employee from that locality participated. What disclosure is most likely?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No disclosure because names are absent"
+      },
+      {
+        "id": "B",
+        "text": "Identity disclosure only"
+      },
+      {
+        "id": "C",
+        "text": "Attribute disclosure"
+      },
+      {
+        "id": "D",
+        "text": "Encryption failure"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The employer can infer the employee’s sensitive diagnosis from the uniform attribute of the matching group, even without locating the exact row.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-023",
+    "question": "What is the main cause of attribute disclosure in a group of records sharing similar QIDs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Excessive noise addition"
+      },
+      {
+        "id": "B",
+        "text": "High generalization of QIDs"
+      },
+      {
+        "id": "C",
+        "text": "Presence of names or SSNs"
+      },
+      {
+        "id": "D",
+        "text": "Lack of diversity in sensitive attributes within the group"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "When all or nearly all records in an equivalence group share the same sensitive value, group membership can reveal that value.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-024",
+    "question": "Before public release, what should a data officer aim to do about re-identification risk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignore it after names are removed"
+      },
+      {
+        "id": "B",
+        "text": "Reduce it to an acceptable level while preserving useful data"
+      },
+      {
+        "id": "C",
+        "text": "Maximize it to improve utility"
+      },
+      {
+        "id": "D",
+        "text": "Always force it to exactly zero by deleting the dataset"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The practical goal is to manage risk while retaining useful information; eliminating all detail may make the dataset unusable.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-025",
+    "question": "A group of 30-year-old men has 99% “No Criminal Record” and 1% “Felony”. An attacker knows a neighbor belongs to this group. Which conclusion best reflects the PDF’s example?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Encryption has prevented disclosure"
+      },
+      {
+        "id": "B",
+        "text": "The neighbor’s identity is fully known"
+      },
+      {
+        "id": "C",
+        "text": "The neighbor’s record is certainly disclosed"
+      },
+      {
+        "id": "D",
+        "text": "The group’s variation means the attacker cannot make a definitive inference"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Because the sensitive values are not uniform, group membership alone does not establish the neighbor’s exact status. The example illustrates how diversity can limit a definitive inference.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-026",
+    "question": "Complete the distinction: ______ compromises anonymity of a specific record, whereas ______ compromises secrecy of information about a person.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Re-identification; encryption"
+      },
+      {
+        "id": "B",
+        "text": "Identity disclosure; attribute disclosure"
+      },
+      {
+        "id": "C",
+        "text": "Attribute disclosure; identity disclosure"
+      },
+      {
+        "id": "D",
+        "text": "Noise addition; generalization"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Identity disclosure links a person to a particular record. Attribute disclosure reveals sensitive information about a person, even if the exact record is not identified.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-027",
+    "question": "Why is removing PII alone not a foolproof protection against identity disclosure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Remaining quasi-identifiers may combine into a unique signature"
+      },
+      {
+        "id": "B",
+        "text": "Sensitive attributes automatically become PII"
+      },
+      {
+        "id": "C",
+        "text": "PII is required to decrypt a dataset"
+      },
+      {
+        "id": "D",
+        "text": "Attackers can always guess names with AI"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "QIDs such as date of birth, gender and ZIP code can be combined and matched against external information to re-identify a person.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-028",
+    "question": "What is the primary mechanism of a linking attack?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Brute-forcing a government database password"
+      },
+      {
+        "id": "B",
+        "text": "Hashing all text fields"
+      },
+      {
+        "id": "C",
+        "text": "Combining anonymized data with an external dataset through shared QIDs"
+      },
+      {
+        "id": "D",
+        "text": "Injecting SQL to delete a database"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A linking attack matches records across datasets using common quasi-identifiers or other shared attributes.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-029",
+    "question": "In a linking attack, which attributes usually act as the bridge between an anonymized dataset and an external public dataset?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Explicit identifiers"
+      },
+      {
+        "id": "B",
+        "text": "Quasi-identifiers"
+      },
+      {
+        "id": "C",
+        "text": "Sensitive attributes"
+      },
+      {
+        "id": "D",
+        "text": "Encryption keys"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "QIDs such as ZIP code, date of birth and gender can appear in both datasets and provide the matching bridge.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-030",
+    "question": "Latanya Sweeney’s well-known Massachusetts GIC re-identification attack identified the medical record of which public figure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The US President"
+      },
+      {
+        "id": "B",
+        "text": "The CEO of a major insurer"
+      },
+      {
+        "id": "C",
+        "text": "Massachusetts Governor William Weld"
+      },
+      {
+        "id": "D",
+        "text": "A Hollywood actor"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sweeney linked the GIC medical data with voter-registration information and re-identified Governor William Weld’s record.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-031",
+    "question": "Which external dataset did Latanya Sweeney reportedly purchase for $20 for the historic GIC linking demonstration?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A voter-registration list"
+      },
+      {
+        "id": "B",
+        "text": "A hospital payroll"
+      },
+      {
+        "id": "C",
+        "text": "A leaked credit-card database"
+      },
+      {
+        "id": "D",
+        "text": "A city phone directory"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The voter-registration list contained identifying and demographic information that could be matched with the released medical data.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-032",
+    "question": "Why can a linking attack be low-cost and dangerous?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can only be done by employees"
+      },
+      {
+        "id": "B",
+        "text": "It requires a supercomputer"
+      },
+      {
+        "id": "C",
+        "text": "It encrypts the victim’s computer"
+      },
+      {
+        "id": "D",
+        "text": "It can use accessible public data without breaking into the protected source system"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The attacker may exploit legally accessible or leaked auxiliary data rather than hacking the organization holding the sensitive dataset.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-033",
+    "question": "An attacker combines an anonymized hospital dataset with a target’s public social-media profile containing date of birth and town. This is an example of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ransomware attack"
+      },
+      {
+        "id": "B",
+        "text": "Linking attack"
+      },
+      {
+        "id": "C",
+        "text": "Phishing attack"
+      },
+      {
+        "id": "D",
+        "text": "Denial-of-service attack"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The attacker uses external profile information to match QIDs in the anonymized health dataset.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-034",
+    "question": "Which could serve as an external database in a re-identification attack?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All of the above"
+      },
+      {
+        "id": "B",
+        "text": "A public voter registry"
+      },
+      {
+        "id": "C",
+        "text": "A leaked corporate directory"
+      },
+      {
+        "id": "D",
+        "text": "Municipal property-tax records"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Public or leaked auxiliary sources may contain matching information useful for linking records.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-035",
+    "question": "An organization removes names and phone numbers but leaves exact birth date, gender and six-digit ZIP code. The dataset remains vulnerable to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attribute diversity failure"
+      },
+      {
+        "id": "B",
+        "text": "Complete loss of utility"
+      },
+      {
+        "id": "C",
+        "text": "SQL injection"
+      },
+      {
+        "id": "D",
+        "text": "Identity disclosure through a linking attack"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The remaining QID combination may be distinctive and can be matched with external databases to identify individuals.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-036",
+    "question": "What is the key lesson from Sweeney’s 1997 Massachusetts re-identification demonstration?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Encryption keys should be public"
+      },
+      {
+        "id": "B",
+        "text": "Voter lists must always be secret"
+      },
+      {
+        "id": "C",
+        "text": "Removing explicit identifiers alone does not guarantee privacy"
+      },
+      {
+        "id": "D",
+        "text": "Governments must never collect medical data"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A dataset can remain identifiable through quasi-identifiers even after names and other direct identifiers are removed.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-037",
+    "question": "A linking attack is conceptually similar to which database operation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "INNER JOIN or OUTER JOIN on matching fields"
+      },
+      {
+        "id": "B",
+        "text": "Compression"
+      },
+      {
+        "id": "C",
+        "text": "DELETE on primary keys"
+      },
+      {
+        "id": "D",
+        "text": "Backup"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The attacker conceptually joins two datasets using common attributes, then uses the match to associate identities with sensitive records.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-038",
+    "question": "Why has the potential for linking attacks increased in the modern era?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Modern datasets contain fewer attributes"
+      },
+      {
+        "id": "B",
+        "text": "Large amounts of public data are available on social media and digital platforms"
+      },
+      {
+        "id": "C",
+        "text": "Encryption algorithms have become universally weaker"
+      },
+      {
+        "id": "D",
+        "text": "People no longer use computers"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The growth of public digital traces and auxiliary datasets gives attackers more sources to match against released data.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-039",
+    "question": "To reduce vulnerability to linking attacks, which attribute category should a data officer particularly consider generalizing or grouping?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Encryption keys"
+      },
+      {
+        "id": "B",
+        "text": "Sensitive attributes exclusively"
+      },
+      {
+        "id": "C",
+        "text": "Quasi-identifiers"
+      },
+      {
+        "id": "D",
+        "text": "Background metadata only"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Generalizing or grouping QIDs reduces the precision of matching fields that an attacker could otherwise use to link records.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-privacy-040",
+    "question": "A table contains Name, Age, ZIP Code and Disease. Which mapping is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Name—sensitive; Age—PII; ZIP—sensitive"
+      },
+      {
+        "id": "B",
+        "text": "All four are explicit identifiers"
+      },
+      {
+        "id": "C",
+        "text": "Name—QID; Age—PII; Disease—sensitive"
+      },
+      {
+        "id": "D",
+        "text": "Name—PII; Age and ZIP—QIDs; Disease—sensitive"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Name directly identifies a person (PII); age and ZIP can identify in combination (QIDs); disease is sensitive health information.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-041",
+    "question": "A dataset removes names but retains age, gender and locality. What is the most accurate conclusion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It contains no personal information of any kind"
+      },
+      {
+        "id": "B",
+        "text": "It may still be re-identified through combined QIDs"
+      },
+      {
+        "id": "C",
+        "text": "It is guaranteed anonymous"
+      },
+      {
+        "id": "D",
+        "text": "Its sensitive attributes are automatically protected"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Removing direct identifiers does not eliminate the identifying power of combinations of quasi-identifiers.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-042",
+    "question": "Which operation best matches the PDF example of changing age 28 to 20–30 and ZIP 110001 to 1100XX?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Database backup"
+      },
+      {
+        "id": "B",
+        "text": "Access control"
+      },
+      {
+        "id": "C",
+        "text": "Generalization"
+      },
+      {
+        "id": "D",
+        "text": "Encryption"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Generalization replaces precise values with broader categories or less precise values to reduce identification risk.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-043",
+    "question": "Why does generalization often preserve more research value than deleting every quasi-identifier?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It removes the need for access control"
+      },
+      {
+        "id": "B",
+        "text": "It converts sensitive values into passwords"
+      },
+      {
+        "id": "C",
+        "text": "It makes every row unique"
+      },
+      {
+        "id": "D",
+        "text": "It retains broader demographic information while reducing precision"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Generalized age bands and partial ZIP codes retain useful patterns while making exact matching harder.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-044",
+    "question": "A dataset has no names, but a combination of QIDs occurs only once. What does this indicate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The combination may enable unique record matching"
+      },
+      {
+        "id": "B",
+        "text": "The sensitive attribute has been encrypted"
+      },
+      {
+        "id": "C",
+        "text": "The dataset has no utility"
+      },
+      {
+        "id": "D",
+        "text": "The row is necessarily safe"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A unique QID combination can distinguish one record and therefore raise re-identification risk.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-045",
+    "question": "Which scenario is identity disclosure rather than attribute disclosure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An attacker infers a common diagnosis for a cohort"
+      },
+      {
+        "id": "B",
+        "text": "An attacker learns that a group has a high salary range"
+      },
+      {
+        "id": "C",
+        "text": "An attacker learns that everyone in a group has diabetes"
+      },
+      {
+        "id": "D",
+        "text": "An attacker matches a specific released row to a named person"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Identity disclosure is specifically about linking a particular record to a person; attribute disclosure is about learning sensitive information.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-046",
+    "question": "Which scenario best illustrates attribute disclosure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An attacker learns a person’s diagnosis because all matching rows share it"
+      },
+      {
+        "id": "B",
+        "text": "A row is matched to a named individual, but no health value is learned"
+      },
+      {
+        "id": "C",
+        "text": "A user is denied access to a database"
+      },
+      {
+        "id": "D",
+        "text": "A dataset is compressed before publication"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A sensitive fact can be inferred from a homogeneous group even when the exact row is not known.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-047",
+    "question": "An anonymized record is linked back to its real-world owner. Which term describes the process?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Generalization"
+      },
+      {
+        "id": "B",
+        "text": "Access control"
+      },
+      {
+        "id": "C",
+        "text": "Re-identification"
+      },
+      {
+        "id": "D",
+        "text": "Data minimization"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Re-identification is the process of associating anonymized data with the original identity of a person.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-048",
+    "question": "Which pair correctly distinguishes internal protection from public-release anonymization?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both mean encrypting the database"
+      },
+      {
+        "id": "B",
+        "text": "Access control restricts internal access; anonymization transforms data before sharing"
+      },
+      {
+        "id": "C",
+        "text": "Both mean publishing original data"
+      },
+      {
+        "id": "D",
+        "text": "Access control generalizes QIDs; anonymization grants user permissions"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Access control regulates who can view or modify original records inside an organization. Anonymization aims to reduce disclosure risk when data is shared.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-049",
+    "question": "A public voter list and an anonymized health file both contain date of birth, gender and ZIP code. These shared fields are most likely used to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Delete sensitive attributes automatically"
+      },
+      {
+        "id": "B",
+        "text": "Encrypt the health file"
+      },
+      {
+        "id": "C",
+        "text": "Join or match records across the datasets"
+      },
+      {
+        "id": "D",
+        "text": "Set access permissions"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Shared QIDs provide the matching keys for a linking attack.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-050",
+    "question": "Which of the following is the clearest example of a direct identifier?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gender"
+      },
+      {
+        "id": "B",
+        "text": "Email address"
+      },
+      {
+        "id": "C",
+        "text": "Broad region"
+      },
+      {
+        "id": "D",
+        "text": "Age band 20–30"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An email address can directly identify or contact a person and is treated as PII in the PDF.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-051",
+    "question": "Which of the following is most clearly a sensitive attribute rather than an identifier?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phone number"
+      },
+      {
+        "id": "B",
+        "text": "Aadhaar number"
+      },
+      {
+        "id": "C",
+        "text": "Full name"
+      },
+      {
+        "id": "D",
+        "text": "Medical diagnosis"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Medical diagnosis reveals private health information. Phone, Aadhaar and full name are direct identifiers.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-052",
+    "question": "An analyst wants to preserve age-related trends while reducing exact identification. Which transformation is most consistent with the PDF?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Replace exact ages with age ranges"
+      },
+      {
+        "id": "B",
+        "text": "Remove the medical condition and publish names"
+      },
+      {
+        "id": "C",
+        "text": "Keep all exact QIDs unchanged"
+      },
+      {
+        "id": "D",
+        "text": "Publish names but encrypt ZIP codes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Replacing exact ages with broader ranges is generalization and can retain useful age-group trends.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-053",
+    "question": "A researcher removes Name but leaves exact DOB, gender and ZIP. Which statement is best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DOB and ZIP are sensitive attributes only"
+      },
+      {
+        "id": "B",
+        "text": "The data is certainly anonymous because Name is absent"
+      },
+      {
+        "id": "C",
+        "text": "Gender is an explicit identifier"
+      },
+      {
+        "id": "D",
+        "text": "The remaining combination may still uniquely distinguish a person"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "DOB, gender and ZIP are quasi-identifiers whose combination may uniquely identify someone.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-054",
+    "question": "Which is the best description of data utility in the privacy–utility trade-off?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The usefulness of released data for analysis and research"
+      },
+      {
+        "id": "B",
+        "text": "The speed of a network"
+      },
+      {
+        "id": "C",
+        "text": "The ability to prevent all access"
+      },
+      {
+        "id": "D",
+        "text": "The number of encryption keys"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Data utility means how useful the released data remains for legitimate analysis, research or decision-making.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-055",
+    "question": "Why is publishing only encrypted records usually not equivalent to privacy-preserving data publishing for researchers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Encryption removes all statistical patterns permanently"
+      },
+      {
+        "id": "B",
+        "text": "Researchers ordinarily need usable data or a suitable privacy-preserving computation method"
+      },
+      {
+        "id": "C",
+        "text": "Encryption converts QIDs into sensitive attributes"
+      },
+      {
+        "id": "D",
+        "text": "Ciphertext is always directly interpretable"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ordinary encryption protects confidentiality but does not by itself provide researchers with accessible analytical data.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-056",
+    "question": "An attacker uses public social-media details to match an anonymized record. What makes this possible?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A lack of database backups"
+      },
+      {
+        "id": "B",
+        "text": "The use of access control"
+      },
+      {
+        "id": "C",
+        "text": "Availability of external auxiliary information sharing QIDs"
+      },
+      {
+        "id": "D",
+        "text": "Only the presence of sensitive attributes"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Linking attacks depend on auxiliary data that shares attributes with the anonymized dataset.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-057",
+    "question": "A dataset contains 8 records with the same QIDs, and all 8 list the same sensitive diagnosis. What is the principal risk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attribute disclosure because the diagnosis can be inferred for the group"
+      },
+      {
+        "id": "B",
+        "text": "Only a storage risk"
+      },
+      {
+        "id": "C",
+        "text": "Only an encryption risk"
+      },
+      {
+        "id": "D",
+        "text": "No risk because there are multiple rows"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Even without distinguishing one row, the uniform sensitive value across the matching group reveals the diagnosis.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-058",
+    "question": "Which action most directly reduces the precision of QID-based matching before release?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Make every sensitive value identical"
+      },
+      {
+        "id": "B",
+        "text": "Add more direct identifiers"
+      },
+      {
+        "id": "C",
+        "text": "Publish exact date of birth"
+      },
+      {
+        "id": "D",
+        "text": "Generalize or suppress selected QID values"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Generalization or suppression of QIDs makes exact matching with external datasets more difficult.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  },
+  {
+    "id": "data-privacy-059",
+    "question": "Which statement best summarizes the PDF’s overall privacy lesson?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Removing names alone always guarantees anonymity"
+      },
+      {
+        "id": "B",
+        "text": "Data can be re-identified by combining quasi-identifiers with external information"
+      },
+      {
+        "id": "C",
+        "text": "Sensitive attributes are never useful in research"
+      },
+      {
+        "id": "D",
+        "text": "Encryption and access control are interchangeable"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The central lesson is that apparently anonymized data may be re-identified through QID combinations and linking with external sources.",
+    "difficulty": "easy",
+    "source": "ChatGPT | Additional Concept-Based Practice"
+  }
+]

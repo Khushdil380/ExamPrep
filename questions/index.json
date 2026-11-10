@@ -37,6 +37,12 @@
       "subjectName": "art-of-teaching",
       "file": "questions/art-of-teaching/index.json",
       "order": 6
+    },
+    {
+      "subjectId": "data-privacy",
+      "subjectName": "data-privacy",
+      "file": "questions/data-privacy/index.json",
+      "order": 7
     }
   ]
 }

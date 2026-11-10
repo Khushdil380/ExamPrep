@@ -1,0 +1,30 @@
+{
+  "chapters": [
+    {
+      "chapterId": "data-privacy-concept",
+      "chapterName": "data-privacy-concept",
+      "order": 1,
+      "categories": [
+        {
+          "categoryId": "data_privacy_concept",
+          "categoryName": "data_privacy_concept",
+          "file": "questions/data-privacy/data-privacy-concept/data_privacy_concept.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "data-transformation",
+      "chapterName": "data-transformation",
+      "order": 2,
+      "categories": [
+        {
+          "categoryId": "data_transformation",
+          "categoryName": "data_transformation",
+          "file": "questions/data-privacy/data-transformation/data_transformation.json",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

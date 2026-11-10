@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "data-transformation-001",
+    "question": "What is the primary definition of \"Data Suppression\" in privacy-preserving data publishing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Completely removing or masking specific data values or records to protect privacy."
+      },
+      {
+        "id": "B",
+        "text": "Encrypting the entire dataset using a private key."
+      },
+      {
+        "id": "C",
+        "text": "Sorting the database in ascending order of sensitive values."
+      },
+      {
+        "id": "D",
+        "text": "Adding mathematical noise to the dataset."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Data suppression protects privacy by deleting an entire record or hiding a selected value. It does not mean sorting or encrypting the complete dataset.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-002",
+    "question": "When a data officer deletes an entire row/record because it contains highly unique quasi-identifiers, which technique is used?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data Perturbation"
+      },
+      {
+        "id": "B",
+        "text": "Value Masking"
+      },
+      {
+        "id": "C",
+        "text": "Record Suppression"
+      },
+      {
+        "id": "D",
+        "text": "Cell Suppression"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Record suppression removes the complete row. This can reduce re-identification risk, but it also removes all other information in that record.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-003",
+    "question": "Replacing a particular value with a placeholder such as *, X, NaN or NULL, without deleting the whole row, is known as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Generalization"
+      },
+      {
+        "id": "B",
+        "text": "Data Swapping"
+      },
+      {
+        "id": "C",
+        "text": "Record Suppression"
+      },
+      {
+        "id": "D",
+        "text": "Cell (or Value) Suppression"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Cell suppression hides a selected cell while retaining the rest of its row. Record suppression, in contrast, removes the entire row.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-004",
+    "question": "What is the main disadvantage of aggressively applying Record Suppression to a research dataset?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It converts the dataset into encrypted format."
+      },
+      {
+        "id": "B",
+        "text": "It increases the risk of linking attacks."
+      },
+      {
+        "id": "C",
+        "text": "It reduces data utility and statistical completeness by removing whole records."
+      },
+      {
+        "id": "D",
+        "text": "It makes the file size too large to process."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Deleting many complete records can distort sample composition and reduce the amount of information available for statistical analysis.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-005",
+    "question": "The initial act of hiding a particular cell that violates privacy rules is called:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Primary Suppression"
+      },
+      {
+        "id": "B",
+        "text": "Secondary Suppression"
+      },
+      {
+        "id": "C",
+        "text": "Global Generalization"
+      },
+      {
+        "id": "D",
+        "text": "Tertiary Suppression"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Primary suppression hides the sensitive cell identified for protection in the first instance.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-006",
+    "question": "Why is Secondary Suppression sometimes applied after Primary Suppression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To decrypt values hidden during primary suppression."
+      },
+      {
+        "id": "B",
+        "text": "To back up hidden cells in a secure folder."
+      },
+      {
+        "id": "C",
+        "text": "To delete the table column headers."
+      },
+      {
+        "id": "D",
+        "text": "To hide additional safe cells so the primary hidden value cannot be deduced from totals or aggregates."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "If totals and other visible cells reveal the hidden value by subtraction, additional cells are suppressed. This is secondary suppression.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-007",
+    "question": "A table reports Block A as *, Block B as 10, Block C as 15 and the total as 28. Since A can be calculated as 28 − (10 + 15) = 3, what should be applied?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Differential noise"
+      },
+      {
+        "id": "B",
+        "text": "Record deletion"
+      },
+      {
+        "id": "C",
+        "text": "Secondary Suppression"
+      },
+      {
+        "id": "D",
+        "text": "More encryption"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The hidden value is exposed by residual subtraction. Suppressing another suitable cell prevents the attacker from solving for the primary hidden value.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-008",
+    "question": "A census dataset contains only one resident aged 102. The officer removes that person’s entire data entry. Which technique is this?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Record Suppression"
+      },
+      {
+        "id": "B",
+        "text": "Micro-aggregation"
+      },
+      {
+        "id": "C",
+        "text": "Generalization"
+      },
+      {
+        "id": "D",
+        "text": "Cell Suppression"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The entire record is removed, so this is record suppression. Generalization would instead replace 102 with a broader age category.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-009",
+    "question": "Which placeholders are commonly used to represent cell-suppressed values?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The word DELETED only"
+      },
+      {
+        "id": "B",
+        "text": "NULL, NaN, * or X"
+      },
+      {
+        "id": "C",
+        "text": "Encrypted alphanumeric hashes only"
+      },
+      {
+        "id": "D",
+        "text": "Random prime numbers"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Common placeholders include NULL, NaN, an asterisk or X. The precise representation depends on the data format and publication convention.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-010",
+    "question": "Which suppression technique leaves the total number of rows (sample size) unchanged?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Record Suppression"
+      },
+      {
+        "id": "B",
+        "text": "Row Deletion"
+      },
+      {
+        "id": "C",
+        "text": "Cell (or Value) Suppression"
+      },
+      {
+        "id": "D",
+        "text": "Complete Record Removal"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Cell suppression hides values inside existing rows; it does not remove those rows. Record suppression reduces the row count.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-011",
+    "question": "How does Cell Suppression generally compare with Record Suppression in terms of data utility?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It always provides zero privacy."
+      },
+      {
+        "id": "B",
+        "text": "Both have exactly the same effect on utility."
+      },
+      {
+        "id": "C",
+        "text": "Record suppression always retains more information."
+      },
+      {
+        "id": "D",
+        "text": "It often preserves more utility because the non-suppressed values in the row remain available."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Cell suppression retains the rest of a row, whereas record suppression discards the entire row. Actual utility depends on which cells and records are suppressed.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-012",
+    "question": "An attacker uses subtraction on published aggregate totals to recover a hidden individual value. Which technique is specifically intended to prevent this?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Primary Suppression alone"
+      },
+      {
+        "id": "B",
+        "text": "Secondary Suppression"
+      },
+      {
+        "id": "C",
+        "text": "Standard AES encryption"
+      },
+      {
+        "id": "D",
+        "text": "Data Swapping"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Secondary suppression hides additional cells to prevent residual or subtraction-based disclosure from totals and aggregates.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-013",
+    "question": "True or False: Suppression techniques mathematically scale the original values up or down.",
+    "options": [
+      {
+        "id": "A",
+        "text": "True, because suppression multiplies values by a factor."
+      },
+      {
+        "id": "B",
+        "text": "True, because suppression replaces values with random numbers."
+      },
+      {
+        "id": "C",
+        "text": "False, because suppression removes or hides values rather than mathematically scaling them."
+      },
+      {
+        "id": "D",
+        "text": "False, because suppression applies only to text data."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Suppression hides or removes data. Mathematical alteration by random values is perturbation/noise addition, not suppression.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-014",
+    "question": "If Primary Suppression is applied but necessary Secondary Suppression is omitted, what vulnerability may remain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Complete server failure"
+      },
+      {
+        "id": "B",
+        "text": "Algorithmic bias"
+      },
+      {
+        "id": "C",
+        "text": "Data swapping"
+      },
+      {
+        "id": "D",
+        "text": "Disclosure of the hidden value through mathematical deduction"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Visible totals or related aggregates may allow an attacker to reconstruct the primary suppressed value, causing disclosure.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-015",
+    "question": "Which attributes may be subjected to Cell Suppression when required by a privacy policy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All of the above"
+      },
+      {
+        "id": "B",
+        "text": "Explicit identifiers only"
+      },
+      {
+        "id": "C",
+        "text": "Sensitive attributes only"
+      },
+      {
+        "id": "D",
+        "text": "Quasi-identifiers only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cell suppression can hide a value in any attribute category, including explicit identifiers, quasi-identifiers or sensitive attributes.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-016",
+    "question": "What is the core mechanism of Data Generalization in privacy-preserving data publishing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deleting entire records from a table."
+      },
+      {
+        "id": "B",
+        "text": "Multiplying numerical fields by a constant random factor."
+      },
+      {
+        "id": "C",
+        "text": "Sorting sensitive columns."
+      },
+      {
+        "id": "D",
+        "text": "Replacing specific values with broader, less specific categories or ranges."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Generalization replaces fine-grained values with broader categories, such as exact age 27 becoming an age band such as 20–30.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-017",
+    "question": "Which is a classic example of generalizing a continuous numerical attribute such as age?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deleting the row containing age 27."
+      },
+      {
+        "id": "B",
+        "text": "Changing age 27 to age 35."
+      },
+      {
+        "id": "C",
+        "text": "Converting age 27 into the interval 20–30."
+      },
+      {
+        "id": "D",
+        "text": "Replacing age 27 with *."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "An age interval is broader than the exact age but still preserves useful approximate information.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-018",
+    "question": "A tree structure that describes step-by-step transformations from specific attribute values to broader values is called:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Encrypted Index Tree"
+      },
+      {
+        "id": "B",
+        "text": "Residual Analysis Matrix"
+      },
+      {
+        "id": "C",
+        "text": "Attribute Disclosure Path"
+      },
+      {
+        "id": "D",
+        "text": "Generalization Hierarchy"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A generalization hierarchy (or generalization tree) organizes values from specific leaves to broader parent categories.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-019",
+    "question": "Given the location hierarchy Lalpur → Ranchi → Jharkhand → India, which value represents the highest level of generalization?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ranchi"
+      },
+      {
+        "id": "B",
+        "text": "Lalpur"
+      },
+      {
+        "id": "C",
+        "text": "India"
+      },
+      {
+        "id": "D",
+        "text": "Jharkhand"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Moving upward in this hierarchy increases abstraction: locality, city, state and finally country.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-020",
+    "question": "Applying the same generalization rule to every value in an entire column is known as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Micro-aggregation"
+      },
+      {
+        "id": "B",
+        "text": "Global Generalization"
+      },
+      {
+        "id": "C",
+        "text": "Local Generalization"
+      },
+      {
+        "id": "D",
+        "text": "Cell Suppression"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Global generalization applies a common transformation across the whole attribute/column.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-021",
+    "question": "What characterizes Local Generalization?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It encrypts the database on a local drive."
+      },
+      {
+        "id": "B",
+        "text": "It hides every location column."
+      },
+      {
+        "id": "C",
+        "text": "It converts the entire dataset into one aggregate sum."
+      },
+      {
+        "id": "D",
+        "text": "It applies generalization only to selected rows or cells that need protection, leaving others unchanged."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Local generalization targets selected records or values that pose a privacy risk instead of transforming the entire column uniformly.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-022",
+    "question": "Why may Data Generalization be preferred to Record Suppression when publishing research data?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can retain more data utility by preserving records in broader form rather than deleting them."
+      },
+      {
+        "id": "B",
+        "text": "It automatically encrypts the table."
+      },
+      {
+        "id": "C",
+        "text": "It requires no computation."
+      },
+      {
+        "id": "D",
+        "text": "It eliminates the need to remove direct identifiers."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Generalization retains records and approximate values, while record suppression removes complete rows. Direct identifiers still need appropriate handling.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-023",
+    "question": "Replacing exact ZIP codes 834001 and 834002 with 8340XX is an example of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Value Masking"
+      },
+      {
+        "id": "B",
+        "text": "Data Swapping"
+      },
+      {
+        "id": "C",
+        "text": "Generalization"
+      },
+      {
+        "id": "D",
+        "text": "Primary Suppression"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The ZIP codes are converted into a broader geographic representation, reducing precision while retaining a regional indication.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-024",
+    "question": "If all ages from 1 to 100 are represented by the single range [1–100], what is the likely effect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Higher privacy but substantially lower analytical utility"
+      },
+      {
+        "id": "B",
+        "text": "Low privacy and high utility"
+      },
+      {
+        "id": "C",
+        "text": "High privacy and high utility"
+      },
+      {
+        "id": "D",
+        "text": "Low privacy and low utility"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Extreme generalization makes individuals harder to distinguish but removes much of the age detail needed for analysis.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-025",
+    "question": "In a date generalization hierarchy, which value is typically at Level 0 (the most specific leaf level)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Year of birth, e.g. 1995"
+      },
+      {
+        "id": "B",
+        "text": "Exact date, e.g. 12/05/1995"
+      },
+      {
+        "id": "C",
+        "text": "Month and year, e.g. May 1995"
+      },
+      {
+        "id": "D",
+        "text": "Decade of birth, e.g. 1990s"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Level 0 represents the original, most specific value. Broader levels may be month-year, year or decade.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-026",
+    "question": "Generalization is primarily applied to which attribute category to reduce linking attacks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Encrypted primary keys"
+      },
+      {
+        "id": "B",
+        "text": "Sensitive attributes"
+      },
+      {
+        "id": "C",
+        "text": "Explicit identifiers"
+      },
+      {
+        "id": "D",
+        "text": "Quasi-identifiers"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Quasi-identifiers such as age and ZIP code can become identifying in combination with external information, so they are common targets for generalization.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-027",
+    "question": "Replacing exact professions such as Heart Surgeon, Dentist and Pediatrician with Healthcare Professional is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Record Suppression"
+      },
+      {
+        "id": "B",
+        "text": "Data Swapping"
+      },
+      {
+        "id": "C",
+        "text": "Taxonomy/Categorical Generalization"
+      },
+      {
+        "id": "D",
+        "text": "Secondary Suppression"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Categorical generalization maps detailed categories to a broader parent category in a taxonomy.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-028",
+    "question": "Which operation moves DOWN a generalization hierarchy, from a broad value toward a more specific value?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suppression"
+      },
+      {
+        "id": "B",
+        "text": "Abstraction"
+      },
+      {
+        "id": "C",
+        "text": "Value masking"
+      },
+      {
+        "id": "D",
+        "text": "Specialization or Drill-down"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Moving from country to state to city is specialization or drill-down; moving in the opposite direction is generalization/abstraction.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-029",
+    "question": "Can Global Generalization cause multiple records to have identical values in their quasi-identifier columns?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only when encryption is incorrect."
+      },
+      {
+        "id": "B",
+        "text": "No; generalization applies only to text."
+      },
+      {
+        "id": "C",
+        "text": "Yes; such records can form equivalence classes."
+      },
+      {
+        "id": "D",
+        "text": "No; every record must remain unique."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Generalization can make QID combinations identical across records. These groups are equivalence classes and are central to k-anonymity-style reasoning.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-030",
+    "question": "A data manager generalizes only ages above 90 because those values are rare, leaving other ages exact. Which technique is used?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Local Generalization"
+      },
+      {
+        "id": "B",
+        "text": "Global Generalization"
+      },
+      {
+        "id": "C",
+        "text": "Noise Swapping"
+      },
+      {
+        "id": "D",
+        "text": "Primary Suppression"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Only selected high-risk records are transformed, which is the defining feature of local generalization.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-031",
+    "question": "A privacy officer exchanges the ZIP codes of Row 5 and Row 12 before publishing a dataset. Which technique is used?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cell Suppression"
+      },
+      {
+        "id": "B",
+        "text": "Data Swapping"
+      },
+      {
+        "id": "C",
+        "text": "Data Generalization"
+      },
+      {
+        "id": "D",
+        "text": "Differential Privacy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Data swapping exchanges selected attribute values across records. It changes the association between a value and a particular row.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-032",
+    "question": "What is a key potential advantage of Data Swapping or Noise Addition over deleting records?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They may preserve selected aggregate or global statistical properties while reducing exact record-level fidelity."
+      },
+      {
+        "id": "B",
+        "text": "They physically delete all outliers."
+      },
+      {
+        "id": "C",
+        "text": "They encrypt every column with a master key."
+      },
+      {
+        "id": "D",
+        "text": "They always reduce storage by half."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Perturbation can retain useful aggregate patterns without publishing every original record value. Preservation of any statistic depends on the method and implementation.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-033",
+    "question": "A hospital changes a blood-sugar value from 120 to 122.4 by adding a small random amount. This is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Record Suppression"
+      },
+      {
+        "id": "B",
+        "text": "Attribute Hierarchy"
+      },
+      {
+        "id": "C",
+        "text": "Local Specialization"
+      },
+      {
+        "id": "D",
+        "text": "Noise Addition (Data Perturbation)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Adding a random value to an original numerical value is noise addition, a form of data perturbation.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-034",
+    "question": "Which mathematical privacy framework aims to ensure that including or excluding one person’s record does not substantially change the distribution of query outputs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Differential Privacy"
+      },
+      {
+        "id": "B",
+        "text": "K-anonymity"
+      },
+      {
+        "id": "C",
+        "text": "Global Generalization"
+      },
+      {
+        "id": "D",
+        "text": "AES encryption"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Differential privacy formally bounds how much an individual record can influence an analysis output; it is a property of the randomized mechanism.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-035",
+    "question": "Organizations may use Differential Privacy to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Automatically delete every user record after 30 days."
+      },
+      {
+        "id": "B",
+        "text": "Increase network speed."
+      },
+      {
+        "id": "C",
+        "text": "Estimate aggregate usage trends without exposing an individual’s exact behavior through the released result."
+      },
+      {
+        "id": "D",
+        "text": "Encrypt all text messages permanently."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Differentially private analysis supports aggregate learning while limiting the influence of any one participant on released outputs.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-036",
+    "question": "Which noise distributions are commonly used by standard Differential Privacy mechanisms?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uniform binary noise only"
+      },
+      {
+        "id": "B",
+        "text": "Laplace or Gaussian noise"
+      },
+      {
+        "id": "C",
+        "text": "Linear noise only"
+      },
+      {
+        "id": "D",
+        "text": "Matrix inversion noise"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Laplace mechanism is commonly used for pure epsilon-DP; the Gaussian mechanism is commonly used for approximate (epsilon, delta)-DP, with noise calibrated to sensitivity.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-037",
+    "question": "True or False: Data Swapping creates a new row count by generating entirely new values.",
+    "options": [
+      {
+        "id": "A",
+        "text": "False, because it generally rearranges existing values among records without changing the row count or the multiset of swapped values."
+      },
+      {
+        "id": "B",
+        "text": "False, because it converts numbers into text."
+      },
+      {
+        "id": "C",
+        "text": "True, because it creates new records."
+      },
+      {
+        "id": "D",
+        "text": "True, because it deletes half the rows."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In a basic swapping operation, values are exchanged between records. The dataset size and the set of exchanged values remain unchanged.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-038",
+    "question": "Why does adding random noise not make an original individual value straightforward to recover, even if the general method is known?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The sensitive attribute column is removed."
+      },
+      {
+        "id": "B",
+        "text": "The algorithm changes every second."
+      },
+      {
+        "id": "C",
+        "text": "The randomized mechanism obscures the exact contribution probabilistically; it is not a guarantee that reversal is mathematically impossible in every setting."
+      },
+      {
+        "id": "D",
+        "text": "The dataset is deleted after one query."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Randomness makes exact reconstruction harder, but the PDF’s wording that reversal is “impossible” is too absolute. A formal guarantee depends on calibrated noise, sensitivity, privacy parameters and the threat model.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-039",
+    "question": "Which set contains techniques commonly treated as forms of Data Perturbation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Noise Addition only"
+      },
+      {
+        "id": "B",
+        "text": "Rounding or Blurring only"
+      },
+      {
+        "id": "C",
+        "text": "Data Swapping only"
+      },
+      {
+        "id": "D",
+        "text": "Data Swapping, Noise Addition, and Rounding/Blurring"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Perturbation is a broad family of methods that alter or rearrange values, including swapping, additive noise and rounding/blurring.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-040",
+    "question": "What is the primary risk when too much noise is added to a differentially private result?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Privacy becomes extremely weak."
+      },
+      {
+        "id": "B",
+        "text": "The result may become too inaccurate to be useful."
+      },
+      {
+        "id": "C",
+        "text": "The database file is necessarily corrupted."
+      },
+      {
+        "id": "D",
+        "text": "The server speed always increases."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "More noise can improve privacy but degrade accuracy and utility. The goal is to calibrate noise to the desired privacy guarantee and task.",
+    "difficulty": "easy",
+    "source": "PDF | Extracted Question"
+  },
+  {
+    "id": "data-transformation-041",
+    "question": "In Differential Privacy, what does the parameter ε (epsilon) primarily control?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of attributes suppressed"
+      },
+      {
+        "id": "B",
+        "text": "The encryption key length"
+      },
+      {
+        "id": "C",
+        "text": "The strength of the privacy guarantee/privacy loss bound"
+      },
+      {
+        "id": "D",
+        "text": "The number of rows in the dataset"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A smaller ε generally gives stronger privacy and requires more noise; a larger ε permits more influence and often better accuracy.",
+    "difficulty": "moderate",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-042",
+    "question": "Keeping other settings fixed, what is the usual effect of decreasing ε in a Laplace mechanism?",
+    "options": [
+      {
+        "id": "A",
+        "text": "More noise and stronger privacy"
+      },
+      {
+        "id": "B",
+        "text": "No change in noise or privacy"
+      },
+      {
+        "id": "C",
+        "text": "The query becomes deterministic"
+      },
+      {
+        "id": "D",
+        "text": "Less noise and weaker privacy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For the Laplace mechanism, the noise scale is proportional to sensitivity divided by ε. Lower ε therefore increases noise and strengthens the privacy guarantee.",
+    "difficulty": "moderate",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-043",
+    "question": "What is the sensitivity of a query in Differential Privacy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of columns in a table"
+      },
+      {
+        "id": "B",
+        "text": "The maximum change in the query output caused by adding or removing one individual’s data"
+      },
+      {
+        "id": "C",
+        "text": "The average distance between two rows"
+      },
+      {
+        "id": "D",
+        "text": "The probability that a server fails"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sensitivity measures the maximum influence one individual can have on a query result and is used to calibrate the noise.",
+    "difficulty": "moderate",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-044",
+    "question": "The standard Laplace mechanism calibrates noise using which combination?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only the dataset file size"
+      },
+      {
+        "id": "B",
+        "text": "Only the number of database columns"
+      },
+      {
+        "id": "C",
+        "text": "The encryption algorithm and key size"
+      },
+      {
+        "id": "D",
+        "text": "Query sensitivity and ε"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "For a numeric query, Laplace noise is scaled according to the query’s L1 sensitivity and the selected ε.",
+    "difficulty": "moderate",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-045",
+    "question": "Which statement correctly distinguishes the common Laplace and Gaussian mechanisms?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both always provide exactly the same guarantee and use the same sensitivity."
+      },
+      {
+        "id": "B",
+        "text": "Laplace uses L1 sensitivity and can provide (ε,0)-DP; Gaussian uses L2 sensitivity and commonly provides (ε,δ)-DP."
+      },
+      {
+        "id": "C",
+        "text": "Laplace is used only for image data."
+      },
+      {
+        "id": "D",
+        "text": "Gaussian noise is deterministic, while Laplace noise is not."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "NIST describes Laplace with L1 sensitivity and pure epsilon-DP, and Gaussian with L2 sensitivity and approximate (epsilon, delta)-DP.",
+    "difficulty": "hard",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-046",
+    "question": "Which statement about Differential Privacy is most accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It requires every released query to return the exact true answer."
+      },
+      {
+        "id": "B",
+        "text": "It guarantees that no statistical fact about a person can ever be inferred."
+      },
+      {
+        "id": "C",
+        "text": "It is a formal privacy property/guarantee of a randomized analysis mechanism."
+      },
+      {
+        "id": "D",
+        "text": "It is only a method for deleting names from a table."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Differential privacy is defined for randomized mechanisms and limits the effect of one person’s data on outputs; it does not promise that no inference of any kind is possible.",
+    "difficulty": "moderate",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-047",
+    "question": "A randomized mechanism is claimed to satisfy standard Differential Privacy. Which feature is essential to the usual definition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The mechanism must retain exact individual values."
+      },
+      {
+        "id": "B",
+        "text": "The mechanism must be randomized."
+      },
+      {
+        "id": "C",
+        "text": "The mechanism must sort records alphabetically."
+      },
+      {
+        "id": "D",
+        "text": "The mechanism must remove all numeric columns."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Randomization is essential to standard differential privacy; deterministic data transformations alone cannot provide the usual DP guarantee for arbitrary neighboring datasets.",
+    "difficulty": "hard",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-048",
+    "question": "What is meant by the privacy-utility trade-off in noise-based data release?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increasing noise can strengthen privacy but reduce result accuracy."
+      },
+      {
+        "id": "B",
+        "text": "Privacy and utility are unrelated."
+      },
+      {
+        "id": "C",
+        "text": "Increasing noise always improves both privacy and accuracy."
+      },
+      {
+        "id": "D",
+        "text": "Reducing noise always strengthens privacy."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "More noise generally reduces the influence of individual records but can distort aggregate results.",
+    "difficulty": "easy",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-049",
+    "question": "Which statement about the composition of Differential Privacy mechanisms is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only the first query affects privacy."
+      },
+      {
+        "id": "B",
+        "text": "Repeated analyses on the same data can accumulate privacy loss."
+      },
+      {
+        "id": "C",
+        "text": "Composition applies only to encrypted databases."
+      },
+      {
+        "id": "D",
+        "text": "Privacy loss resets to zero after every query."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Multiple releases can cumulatively consume privacy budget; the total privacy loss must account for composition.",
+    "difficulty": "hard",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-050",
+    "question": "What is a privacy budget commonly used to describe in Differential Privacy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The monetary cost of storing a dataset"
+      },
+      {
+        "id": "B",
+        "text": "The maximum number of database users"
+      },
+      {
+        "id": "C",
+        "text": "The allowed cumulative privacy loss across analyses"
+      },
+      {
+        "id": "D",
+        "text": "The number of suppressed rows"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A privacy budget tracks how much privacy loss is permitted across one or more analyses, often expressed through epsilon and sometimes delta.",
+    "difficulty": "moderate",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-051",
+    "question": "Which claim about post-processing of a differentially private output is generally correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Any post-processing automatically removes all noise."
+      },
+      {
+        "id": "B",
+        "text": "Post-processing converts DP into encryption."
+      },
+      {
+        "id": "C",
+        "text": "Post-processing reveals the original dataset."
+      },
+      {
+        "id": "D",
+        "text": "Post-processing using only the DP output does not worsen its DP guarantee."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The post-processing property states that further computation on a DP output, without additional access to private data, preserves the existing DP guarantee.",
+    "difficulty": "hard",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-052",
+    "question": "A dataset is generalized so that every combination of quasi-identifiers appears in at least k records. Which privacy model does this describe?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Differential Privacy"
+      },
+      {
+        "id": "B",
+        "text": "k-Anonymity"
+      },
+      {
+        "id": "C",
+        "text": "Data Swapping"
+      },
+      {
+        "id": "D",
+        "text": "AES"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "k-Anonymity requires each QID equivalence class to contain at least k records, under the chosen quasi-identifier set and release model.",
+    "difficulty": "moderate",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-053",
+    "question": "In k-anonymity, what is an equivalence class?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A group of records sharing the same generalized quasi-identifier values"
+      },
+      {
+        "id": "B",
+        "text": "A group of records with identical sensitive values only"
+      },
+      {
+        "id": "C",
+        "text": "A list of deleted rows"
+      },
+      {
+        "id": "D",
+        "text": "A set of encrypted primary keys"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Records that are indistinguishable on the selected generalized QIDs form an equivalence class.",
+    "difficulty": "moderate",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-054",
+    "question": "Does k-anonymity alone guarantee that sensitive attributes cannot be inferred?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, because it requires encryption keys."
+      },
+      {
+        "id": "B",
+        "text": "No; attribute disclosure may remain if sensitive values lack diversity within an equivalence class."
+      },
+      {
+        "id": "C",
+        "text": "Yes, in every dataset."
+      },
+      {
+        "id": "D",
+        "text": "Yes, if names are removed."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An equivalence class may share the same sensitive value, allowing an attacker to infer that value even when identity is ambiguous.",
+    "difficulty": "hard",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-055",
+    "question": "Which technique is most directly suited to replacing exact age 37 by an interval such as 30–40?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Differential privacy"
+      },
+      {
+        "id": "B",
+        "text": "Data swapping"
+      },
+      {
+        "id": "C",
+        "text": "Record suppression"
+      },
+      {
+        "id": "D",
+        "text": "Generalization"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Age 37 is mapped to a broader interval, which is numerical attribute generalization.",
+    "difficulty": "easy",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-056",
+    "question": "Which transformation changes the association of attribute values between records while retaining the values themselves?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Global Generalization"
+      },
+      {
+        "id": "B",
+        "text": "Data Swapping"
+      },
+      {
+        "id": "C",
+        "text": "Cell Suppression"
+      },
+      {
+        "id": "D",
+        "text": "Record Suppression"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Data swapping exchanges attribute values between records rather than deleting or coarsening those values.",
+    "difficulty": "easy",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-057",
+    "question": "If only a few rare records are transformed while the remaining records retain their original precision, which approach is being used?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Local generalization"
+      },
+      {
+        "id": "B",
+        "text": "Column encryption"
+      },
+      {
+        "id": "C",
+        "text": "Record sorting"
+      },
+      {
+        "id": "D",
+        "text": "Global generalization"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Local generalization targets selected high-risk rows or cells; global generalization applies a common rule across the attribute.",
+    "difficulty": "easy",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-058",
+    "question": "A published table hides a small cell, but the row and column totals make its value calculable. What is the key flaw?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A Gaussian mechanism was used."
+      },
+      {
+        "id": "B",
+        "text": "Primary suppression was used without adequate complementary/secondary suppression."
+      },
+      {
+        "id": "C",
+        "text": "The data was generalized too much."
+      },
+      {
+        "id": "D",
+        "text": "The table has too many rows."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A hidden cell can still be disclosed through arithmetic on published totals unless additional cells are suppressed or the release design is changed.",
+    "difficulty": "moderate",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-059",
+    "question": "Which statement best describes the difference between suppression and perturbation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suppression hides/removes values; perturbation changes or rearranges values."
+      },
+      {
+        "id": "B",
+        "text": "There is no conceptual difference."
+      },
+      {
+        "id": "C",
+        "text": "Suppression adds Laplace noise; perturbation deletes rows only."
+      },
+      {
+        "id": "D",
+        "text": "Both mean encryption."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Suppression removes or masks information, while perturbation modifies data values or their assignment, for example through noise or swapping.",
+    "difficulty": "easy",
+    "source": "Supplementary | NIST / DP concepts"
+  },
+  {
+    "id": "data-transformation-060",
+    "question": "Which is the most accurate interpretation of “lower ε means stronger privacy” in Differential Privacy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It means no noise is required."
+      },
+      {
+        "id": "B",
+        "text": "It applies only to record suppression."
+      },
+      {
+        "id": "C",
+        "text": "It means ε must always be zero."
+      },
+      {
+        "id": "D",
+        "text": "It is a general relationship under a fixed neighboring-dataset definition and mechanism; it is not a standalone guarantee without correct implementation."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Smaller epsilon tightens the DP bound, but a valid guarantee also depends on the mechanism, sensitivity, neighboring relation, and implementation.",
+    "difficulty": "hard",
+    "source": "Supplementary | NIST / DP concepts"
+  }
+]
