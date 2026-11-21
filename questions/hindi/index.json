@@ -12,6 +12,32 @@
           "order": 1
         }
       ]
+    },
+    {
+      "chapterId": "hindi-mock-01",
+      "chapterName": "hindi-mock-01",
+      "order": 2,
+      "categories": [
+        {
+          "categoryId": "hindi-mock-01",
+          "categoryName": "hindi-mock-01",
+          "file": "questions/hindi/hindi-mock-01/hindi-mock-01.json",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "sangya",
+      "chapterName": "sangya",
+      "order": 3,
+      "categories": [
+        {
+          "categoryId": "sangya",
+          "categoryName": "sangya",
+          "file": "questions/hindi/sangya/sangya.json",
+          "order": 1
+        }
+      ]
     }
   ]
 }

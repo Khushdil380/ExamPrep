@@ -1,0 +1,6632 @@
+[
+  {
+    "id": "sangya-complete-001",
+    "question": "‘सहनशीलता’ कौन-सी संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "कोई नहीं"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘सहनशीलता’ एक गुण/भाव का बोध कराती है, इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q1, page 40"
+  },
+  {
+    "id": "sangya-complete-002",
+    "question": "‘सुंदर’ शब्द का भाववाचक संज्ञा रूप होगा—",
+    "options": [
+      {
+        "id": "A",
+        "text": "सुंदर"
+      },
+      {
+        "id": "B",
+        "text": "कुरूप"
+      },
+      {
+        "id": "C",
+        "text": "सुंदरता"
+      },
+      {
+        "id": "D",
+        "text": "सुंदरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘सुंदर’ विशेषण है; इसमें ‘ता’ प्रत्यय जुड़ने पर ‘सुंदरता’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q3, page 41"
+  },
+  {
+    "id": "sangya-complete-003",
+    "question": "निम्नलिखित में से भाववाचक संज्ञा शब्द चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "वसन"
+      },
+      {
+        "id": "B",
+        "text": "पहनावा"
+      },
+      {
+        "id": "C",
+        "text": "कपड़ा"
+      },
+      {
+        "id": "D",
+        "text": "वस्त्र"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘पहनावा’ पहनने की अवस्था/ढंग का बोध कराता है; स्रोत में यही विकल्प चिह्नित है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q4, page 42"
+  },
+  {
+    "id": "sangya-complete-004",
+    "question": "इनमें से किस विकल्प में सभी शब्द जातिवाचक संज्ञा हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पहाड़, बालक, नदी"
+      },
+      {
+        "id": "B",
+        "text": "दिल्ली, पहाड़, कामना"
+      },
+      {
+        "id": "C",
+        "text": "शहर, पहाड़, मोहन"
+      },
+      {
+        "id": "D",
+        "text": "हिमालय, काशी, नहर"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘पहाड़’, ‘बालक’ और ‘नदी’ पूरी जाति/वर्ग का बोध कराते हैं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q5, page 43"
+  },
+  {
+    "id": "sangya-complete-005",
+    "question": "‘गाँधी को राष्ट्रपिता कहा गया है।’ इस वाक्य में ‘गाँधी’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "समूहवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "विशेषण"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘गाँधी’ एक विशिष्ट व्यक्ति का नाम है, इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q6, page 44"
+  },
+  {
+    "id": "sangya-complete-006",
+    "question": "‘बाजार’ से किस संज्ञा का बोध होता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘बाजार’ एक स्थान/वर्ग का सामान्य नाम है; स्रोत में जातिवाचक विकल्प चिह्नित है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q9, page 45"
+  },
+  {
+    "id": "sangya-complete-007",
+    "question": "‘भारत’ शब्द व्याकरण की दृष्टि से है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "सर्वनाम"
+      },
+      {
+        "id": "B",
+        "text": "विशेषण"
+      },
+      {
+        "id": "C",
+        "text": "संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "क्रिया"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘भारत’ देश का विशिष्ट नाम है और संज्ञा पद है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q11, page 46"
+  },
+  {
+    "id": "sangya-complete-008",
+    "question": "‘सोमवार’ यह संज्ञा के किस प्रकार का उदाहरण है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "समूहवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘सोमवार’ सप्ताह के एक निश्चित दिन का नाम है; स्रोत में व्यक्तिवाचक विकल्प चिह्नित है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q12, page 47"
+  },
+  {
+    "id": "sangya-complete-009",
+    "question": "‘दया’ शब्द में संज्ञा होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "B",
+        "text": "उपर्युक्त में से कोई नहीं"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘दया’ एक भाव/गुण का बोध कराती है, इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q13, page 48"
+  },
+  {
+    "id": "sangya-complete-010",
+    "question": "किसी गुण, दशा, स्वभाव या कार्य का बोध कराने वाले शब्द कहलाते हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "गुण, दशा, स्वभाव या कार्य का बोध कराने वाले शब्द भाववाचक संज्ञा कहलाते हैं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q14, page 49"
+  },
+  {
+    "id": "sangya-complete-011",
+    "question": "‘भाववाचक संज्ञा’ के अन्तर्गत आते हैं—",
+    "options": [
+      {
+        "id": "A",
+        "text": "दिशाएँ आदि"
+      },
+      {
+        "id": "B",
+        "text": "पशु-पक्षी आदि"
+      },
+      {
+        "id": "C",
+        "text": "आभूषण आदि"
+      },
+      {
+        "id": "D",
+        "text": "गुण-दोष आदि"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "गुण और दोष अमूर्त भाव/विशेषताओं का बोध कराते हैं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q15, page 50"
+  },
+  {
+    "id": "sangya-complete-012",
+    "question": "‘गहरा’ शब्द का भाववाचक संज्ञा रूप लिखिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "गहरे"
+      },
+      {
+        "id": "B",
+        "text": "गहराई"
+      },
+      {
+        "id": "C",
+        "text": "गहरापन"
+      },
+      {
+        "id": "D",
+        "text": "गहरा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘गहरा’ से ‘गहराई’ भाववाचक संज्ञा बनती है; यही विकल्प स्रोत में चिह्नित है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q17, page 51"
+  },
+  {
+    "id": "sangya-complete-013",
+    "question": "‘पराजित’ शब्द का भाववाचक संज्ञा रूप लिखिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पराजित"
+      },
+      {
+        "id": "B",
+        "text": "पराजीत"
+      },
+      {
+        "id": "C",
+        "text": "पराजय"
+      },
+      {
+        "id": "D",
+        "text": "पराजिता"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘पराजित’ से बनने वाली भाववाचक संज्ञा ‘पराजय’ है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q18, page 52"
+  },
+  {
+    "id": "sangya-complete-014",
+    "question": "‘चतुर’ की भाववाचक संज्ञा है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "चतुरता"
+      },
+      {
+        "id": "B",
+        "text": "चालाकी"
+      },
+      {
+        "id": "C",
+        "text": "चतुराई"
+      },
+      {
+        "id": "D",
+        "text": "उक्त दोनों"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘चतुराई’ और ‘चतुरता’ दोनों भाववाचक संज्ञा रूप हैं।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q20, page 53"
+  },
+  {
+    "id": "sangya-complete-015",
+    "question": "‘लड़का दौड़ता है।’ इस वाक्य में ‘लड़का’ किस संज्ञा का उदाहरण है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘लड़का’ किसी एक निश्चित व्यक्ति का नाम नहीं, बल्कि पूरी जाति/वर्ग का बोध कराता है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q21, page 54"
+  },
+  {
+    "id": "sangya-complete-016",
+    "question": "निम्नलिखित में से कौन-सा शब्द जातिवाचक संज्ञा नहीं है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सुन्दर"
+      },
+      {
+        "id": "B",
+        "text": "जवान"
+      },
+      {
+        "id": "C",
+        "text": "मनुष्य"
+      },
+      {
+        "id": "D",
+        "text": "बालक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘सुन्दर’ विशेषण है, जबकि जवान, बालक और मनुष्य जाति/वर्ग का बोध कराते हैं।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q22, page 55"
+  },
+  {
+    "id": "sangya-complete-017",
+    "question": "निम्नलिखित में व्यक्तिवाचक संज्ञा कौन-सी है? ‘हिमालय हमारे देश का सबसे ऊँचा पर्वत है।’",
+    "options": [
+      {
+        "id": "A",
+        "text": "ऊँचा"
+      },
+      {
+        "id": "B",
+        "text": "पर्वत"
+      },
+      {
+        "id": "C",
+        "text": "देश"
+      },
+      {
+        "id": "D",
+        "text": "हिमालय"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘हिमालय’ एक विशिष्ट पर्वत का नाम है, इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q26, page 56"
+  },
+  {
+    "id": "sangya-complete-018",
+    "question": "‘दौड़ना’ क्रिया से बनने वाली भाववाचक संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दौड़"
+      },
+      {
+        "id": "B",
+        "text": "दौड़ाई"
+      },
+      {
+        "id": "C",
+        "text": "दौड़ना"
+      },
+      {
+        "id": "D",
+        "text": "दौड़ भाग"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘दौड़ना’ क्रिया से ‘दौड़’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q27, page 57"
+  },
+  {
+    "id": "sangya-complete-019",
+    "question": "‘बहाव’ शब्द उदाहरण है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा का"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा का"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा का"
+      },
+      {
+        "id": "D",
+        "text": "समूहवाचक संज्ञा का"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘बहाव’ एक क्रिया/अवस्था का भाव बताता है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q28, page 58"
+  },
+  {
+    "id": "sangya-complete-020",
+    "question": "‘वह यौवन में परिश्रम करता रहा।’ रेखांकित पद है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "क्रिया विशेषण"
+      },
+      {
+        "id": "B",
+        "text": "संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "क्रिया"
+      },
+      {
+        "id": "D",
+        "text": "विशेषण"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘यौवन’ अवस्था का नाम है, इसलिए संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q30, page 59"
+  },
+  {
+    "id": "sangya-complete-021",
+    "question": "‘दान’ शब्द में किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "B",
+        "text": "गुणवाचक"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘दान’ कार्य/भाव का बोध कराता है, इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q32, page 60"
+  },
+  {
+    "id": "sangya-complete-022",
+    "question": "‘ऊषा मशीन’ में संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "उपर्युक्त सभी"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘ऊषा’ किसी विशिष्ट नाम का बोध कराता है; स्रोत में व्यक्तिवाचक विकल्प चिह्नित है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q33, page 61"
+  },
+  {
+    "id": "sangya-complete-023",
+    "question": "‘हिंसक’ विशेषण से बनी भाववाचक संज्ञा है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "युद्ध"
+      },
+      {
+        "id": "B",
+        "text": "अहिंसा"
+      },
+      {
+        "id": "C",
+        "text": "लड़ाई"
+      },
+      {
+        "id": "D",
+        "text": "हिंसा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘हिंसक’ से संबंधित भाववाचक संज्ञा ‘हिंसा’ है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q34, page 62"
+  },
+  {
+    "id": "sangya-complete-024",
+    "question": "व्याकरण की दृष्टि से ‘प्रेम’ शब्द क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "क्रिया"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "विशेषण"
+      },
+      {
+        "id": "D",
+        "text": "अव्यय"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘प्रेम’ भाव का नाम है, इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q35, page 63"
+  },
+  {
+    "id": "sangya-complete-025",
+    "question": "भाववाचक संज्ञाएँ जब ______ में प्रयोग की जाती हैं, तब जातिवाचक संज्ञाएँ बन जाती हैं।",
+    "options": [
+      {
+        "id": "A",
+        "text": "मध्यवचन"
+      },
+      {
+        "id": "B",
+        "text": "द्विवचन"
+      },
+      {
+        "id": "C",
+        "text": "बहुवचन"
+      },
+      {
+        "id": "D",
+        "text": "एकवचन"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "नोट्स के नियम के अनुसार भाववाचक संज्ञा का बहुवचन प्रयोग जातिवाचक अर्थ दे सकता है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q37, page 64"
+  },
+  {
+    "id": "sangya-complete-026",
+    "question": "‘शैशव’ शब्द से बना संज्ञा शब्द है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "पदार्थवाचक"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘शैशव’ शिशु-अवस्था/बचपन का नाम है, इसलिए भाववाचक संज्ञा है। मूल PDF की उत्तर-कुंजी में जातिवाचक दिया गया था, जो अर्थ की दृष्टि से त्रुटिपूर्ण है; यहाँ सही विकल्प ‘भाववाचक’ रखा गया है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q38, page 65"
+  },
+  {
+    "id": "sangya-complete-027",
+    "question": "सड़कों के नाम किस प्रकार की संज्ञा में आते हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "गुणवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "किसी विशिष्ट सड़क का नाम व्यक्तिवाचक संज्ञा होता है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q39, page 66"
+  },
+  {
+    "id": "sangya-complete-028",
+    "question": "संज्ञा के जिस शब्द से किसी व्यक्ति या वस्तु के स्त्री या पुरुष होने का पता चले, उसे ______ कहते हैं।",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "उपर्युक्त में से कोई नहीं"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "यह लिंग की परिभाषा है, संज्ञा के भेद की नहीं। मूल PDF में दिया गया उत्तर ‘जातिवाचक संज्ञा’ विषयगत रूप से गलत है; इसलिए यहाँ ‘उपर्युक्त में से कोई नहीं’ सही रखा गया है।",
+    "difficulty": "hard",
+    "source": "Sangya.pdf, printed Q40, page 67"
+  },
+  {
+    "id": "sangya-complete-029",
+    "question": "सर्वनाम का प्रयोग किसके आधार पर किया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कारक"
+      },
+      {
+        "id": "B",
+        "text": "विशेषण"
+      },
+      {
+        "id": "C",
+        "text": "संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "क्रिया"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सर्वनाम का प्रयोग संज्ञा के स्थान पर किया जाता है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q41, page 68"
+  },
+  {
+    "id": "sangya-complete-030",
+    "question": "‘विजयदशमी’ संज्ञा का कौन-सा भेद है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘विजयदशमी’ एक विशिष्ट पर्व का नाम है, इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q43, page 69"
+  },
+  {
+    "id": "sangya-complete-031",
+    "question": "‘लड़का’ शब्द का भाववाचक संज्ञा रूप चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "लड़काई"
+      },
+      {
+        "id": "B",
+        "text": "लड़कपन"
+      },
+      {
+        "id": "C",
+        "text": "लड़की"
+      },
+      {
+        "id": "D",
+        "text": "लड़कापन"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘लड़का’ से ‘लड़कपन’ भाववाचक संज्ञा बनती है; स्रोत में यही विकल्प चिह्नित है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q45, page 70"
+  },
+  {
+    "id": "sangya-complete-032",
+    "question": "‘बुरा’ शब्द का भाववाचक संज्ञा रूप है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "बुरी"
+      },
+      {
+        "id": "B",
+        "text": "बुरे"
+      },
+      {
+        "id": "C",
+        "text": "बुरा"
+      },
+      {
+        "id": "D",
+        "text": "बुराई"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘बुरा’ से ‘बुराई’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q46, page 71"
+  },
+  {
+    "id": "sangya-complete-033",
+    "question": "‘अपना’ शब्द से भाववाचक संज्ञा बनेगी—",
+    "options": [
+      {
+        "id": "A",
+        "text": "अपनापन"
+      },
+      {
+        "id": "B",
+        "text": "अपनाई"
+      },
+      {
+        "id": "C",
+        "text": "अपना"
+      },
+      {
+        "id": "D",
+        "text": "अपनी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘अपना’ सर्वनाम से ‘अपनापन’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q47, page 72"
+  },
+  {
+    "id": "sangya-complete-034",
+    "question": "‘सेवक’ शब्द का भाववाचक संज्ञा रूप है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "सेविका"
+      },
+      {
+        "id": "B",
+        "text": "सेवका"
+      },
+      {
+        "id": "C",
+        "text": "सेवा"
+      },
+      {
+        "id": "D",
+        "text": "सेवकाई"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘सेवक’ से संबंधित भाववाचक संज्ञा ‘सेवा’ है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q48, page 73"
+  },
+  {
+    "id": "sangya-complete-035",
+    "question": "‘मानव’ शब्द का भाववाचक संज्ञा रूप है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "मानवपन"
+      },
+      {
+        "id": "B",
+        "text": "मानवस्था"
+      },
+      {
+        "id": "C",
+        "text": "मनाव"
+      },
+      {
+        "id": "D",
+        "text": "मानवता"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘मानव’ से ‘मानवता’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q49, page 74"
+  },
+  {
+    "id": "sangya-complete-036",
+    "question": "‘मीठा’ शब्द का भाववाचक संज्ञा रूप चुनकर लिखिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "मिठाई"
+      },
+      {
+        "id": "B",
+        "text": "मिठास"
+      },
+      {
+        "id": "C",
+        "text": "मीठी"
+      },
+      {
+        "id": "D",
+        "text": "मीठ"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘मीठा’ से ‘मिठास’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q50, page 75"
+  },
+  {
+    "id": "sangya-complete-037",
+    "question": "‘घबराना’ शब्द का भाववाचक संज्ञा रूप है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "घबरा"
+      },
+      {
+        "id": "B",
+        "text": "घबरापन"
+      },
+      {
+        "id": "C",
+        "text": "घबराहट"
+      },
+      {
+        "id": "D",
+        "text": "घबराई"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘घबराना’ से ‘घबराहट’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q51, page 76"
+  },
+  {
+    "id": "sangya-complete-038",
+    "question": "निम्न में से किस विकल्प में सभी शब्द जातिवाचक संज्ञा हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जयपुर, लकड़ी, बुढ़ापा"
+      },
+      {
+        "id": "B",
+        "text": "गंगा, हिमालय, मनुष्य"
+      },
+      {
+        "id": "C",
+        "text": "भारत, रामायण, मोहन"
+      },
+      {
+        "id": "D",
+        "text": "पुस्तक, पहाड़, नदी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘पुस्तक’, ‘पहाड़’ और ‘नदी’ सामान्य वर्ग/जाति के नाम हैं।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q52, page 77"
+  },
+  {
+    "id": "sangya-complete-039",
+    "question": "भाववाचक संज्ञा का उदाहरण है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "लड़का"
+      },
+      {
+        "id": "B",
+        "text": "यौवन"
+      },
+      {
+        "id": "C",
+        "text": "बच्चा"
+      },
+      {
+        "id": "D",
+        "text": "बूढ़ा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘यौवन’ अवस्था का नाम है, इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q54, page 78"
+  },
+  {
+    "id": "sangya-complete-040",
+    "question": "‘भाववाचक संज्ञा’ के अंतर्गत आते हैं—",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुण-दोष आदि"
+      },
+      {
+        "id": "B",
+        "text": "दिशाएँ आदि"
+      },
+      {
+        "id": "C",
+        "text": "आभूषण आदि"
+      },
+      {
+        "id": "D",
+        "text": "पशु-पक्षी आदि"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "गुण-दोष अमूर्त भाव/विशेषताओं का बोध कराते हैं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q56, page 79"
+  },
+  {
+    "id": "sangya-complete-041",
+    "question": "‘संज्ञा का प्रकार नहीं है?’",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "देशवाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘देशवाचक’ संज्ञा का पारंपरिक भेद नहीं है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q57, page 80"
+  },
+  {
+    "id": "sangya-complete-042",
+    "question": "केवल एकवचन का प्रयोग किस समूहवाचक संज्ञा में किया जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "झुंड"
+      },
+      {
+        "id": "B",
+        "text": "अध्यापक"
+      },
+      {
+        "id": "C",
+        "text": "बादल"
+      },
+      {
+        "id": "D",
+        "text": "शिक्षकों"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘झुंड’ समूह का बोध कराने वाला एकवचन रूप है; स्रोत में यही विकल्प चिह्नित है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q58, page 81"
+  },
+  {
+    "id": "sangya-complete-043",
+    "question": "निम्नलिखित में कौन-सी व्यक्तिवाचक संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मंत्री"
+      },
+      {
+        "id": "B",
+        "text": "विद्यार्थी"
+      },
+      {
+        "id": "C",
+        "text": "महेंद्र"
+      },
+      {
+        "id": "D",
+        "text": "शिक्षक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘महेंद्र’ व्यक्ति का विशिष्ट नाम है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q59, page 82"
+  },
+  {
+    "id": "sangya-complete-044",
+    "question": "‘राम ने सीता को पुस्तक दी।’ रेखांकित शब्द में है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "क्रिया"
+      },
+      {
+        "id": "B",
+        "text": "संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "सर्वनाम"
+      },
+      {
+        "id": "D",
+        "text": "विशेषण"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "रेखांकित ‘राम’/‘सीता’/‘पुस्तक’ नाम-पद हैं; प्रश्न में रेखांकन अस्पष्ट है, इसलिए सही लक्ष्य शब्द की पुष्टि आवश्यक है।",
+    "difficulty": "hard",
+    "source": "Sangya.pdf, printed Q60, page 83"
+  },
+  {
+    "id": "sangya-complete-045",
+    "question": "विशेषण से निर्मित भाववाचक संज्ञा है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "भव्यता"
+      },
+      {
+        "id": "B",
+        "text": "परिहास"
+      },
+      {
+        "id": "C",
+        "text": "बचपन"
+      },
+      {
+        "id": "D",
+        "text": "चालचलन"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘भव्य’ विशेषण से ‘भव्यता’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q62, page 84"
+  },
+  {
+    "id": "sangya-complete-046",
+    "question": "निम्नलिखित में विशेषण से बनी भाववाचक संज्ञा है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "लड़कपन"
+      },
+      {
+        "id": "B",
+        "text": "दानवता"
+      },
+      {
+        "id": "C",
+        "text": "नवीनता"
+      },
+      {
+        "id": "D",
+        "text": "ममता"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘नवीन’ विशेषण से ‘नवीनता’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q63, page 85"
+  },
+  {
+    "id": "sangya-complete-047",
+    "question": "कौन-सी संज्ञा व्यक्तिवाचक है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बुढ़िया"
+      },
+      {
+        "id": "B",
+        "text": "फूल"
+      },
+      {
+        "id": "C",
+        "text": "बर्तन"
+      },
+      {
+        "id": "D",
+        "text": "दिल्ली"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘दिल्ली’ एक विशिष्ट स्थान का नाम है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q64, page 86"
+  },
+  {
+    "id": "sangya-complete-048",
+    "question": "इनमें से संज्ञा शब्द है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "नाचना"
+      },
+      {
+        "id": "B",
+        "text": "मनुष्य"
+      },
+      {
+        "id": "C",
+        "text": "काला"
+      },
+      {
+        "id": "D",
+        "text": "बोलना"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘मनुष्य’ किसी जाति/वर्ग का नाम है; अन्य विकल्प विशेषण या क्रिया रूप हैं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q65, page 87"
+  },
+  {
+    "id": "sangya-complete-049",
+    "question": "‘विद्वान’ विशेषण से बनी भाववाचक संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विद्वानी"
+      },
+      {
+        "id": "B",
+        "text": "वरदान"
+      },
+      {
+        "id": "C",
+        "text": "विद्वता"
+      },
+      {
+        "id": "D",
+        "text": "विद्वत्ता"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘विद्वान’ से ‘विद्वता’ भाववाचक संज्ञा बनती है; स्रोत में विकल्प (3) चिह्नित है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q66, page 88"
+  },
+  {
+    "id": "sangya-complete-050",
+    "question": "‘तुम्हें धोखा नहीं देना चाहिए था।’ वाक्य में ‘धोखा’ संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "समुदायवाचक"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘धोखा’ एक भाव/अवधारणा का बोध कराता है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q67, page 89"
+  },
+  {
+    "id": "sangya-complete-051",
+    "question": "निम्न में से कौन-सा शब्द संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "क्रोधित"
+      },
+      {
+        "id": "B",
+        "text": "क्रोध"
+      },
+      {
+        "id": "C",
+        "text": "क्रुद्ध"
+      },
+      {
+        "id": "D",
+        "text": "क्रोधी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘क्रोध’ भाव का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q68, page 90"
+  },
+  {
+    "id": "sangya-complete-052",
+    "question": "‘कोयला’ में संज्ञा शब्द का भेद बताइए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "समूहवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘कोयला’ पदार्थ/वर्ग का सामान्य नाम है; दिए गए चार विकल्पों में स्रोत में जातिवाचक चिह्नित है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q69, page 91"
+  },
+  {
+    "id": "sangya-complete-053",
+    "question": "‘मिठास’ व ‘परायापन’ शब्द हैं—",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "समूहवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "मिठास और परायापन दोनों भाव/गुण का बोध कराते हैं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q70, page 92"
+  },
+  {
+    "id": "sangya-complete-054",
+    "question": "‘महात्म्य’ शब्द है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "क्रिया"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘महात्म्य’ महत्ता/महानता जैसे भाव का बोध कराता है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q71, page 93"
+  },
+  {
+    "id": "sangya-complete-055",
+    "question": "निम्न में से किस विकल्प में सही शब्द व्यक्तिवाचक संज्ञा हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ममता, बैल, राधेश्याम"
+      },
+      {
+        "id": "B",
+        "text": "आम, साधना, ऊँचाई"
+      },
+      {
+        "id": "C",
+        "text": "राधेश्याम, पन्नालाल, हिमालय"
+      },
+      {
+        "id": "D",
+        "text": "गाय, मूर्खता, चालाकी, मित्रता"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "राधेश्याम, पन्नालाल और हिमालय विशिष्ट नाम हैं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q72, page 94"
+  },
+  {
+    "id": "sangya-complete-056",
+    "question": "निम्नलिखित में से किस विकल्प में सही शब्द भाववाचक संज्ञाएँ हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "खुशापन, फुर्तीला, सूर्य"
+      },
+      {
+        "id": "B",
+        "text": "धैर्य, चतुराई, प्रेम"
+      },
+      {
+        "id": "C",
+        "text": "अकेलापन, वृक्ष, दृढ़ता"
+      },
+      {
+        "id": "D",
+        "text": "विकल्प अस्पष्ट"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "धैर्य, चतुराई और प्रेम भाव/गुण के नाम हैं।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q73, page 95"
+  },
+  {
+    "id": "sangya-complete-057",
+    "question": "जातिवाचक संज्ञा नहीं है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शैशव"
+      },
+      {
+        "id": "B",
+        "text": "लकड़ी"
+      },
+      {
+        "id": "C",
+        "text": "पुस्तक"
+      },
+      {
+        "id": "D",
+        "text": "लोहा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘शैशव’ अवस्था का नाम है; यह भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q74, page 96"
+  },
+  {
+    "id": "sangya-complete-058",
+    "question": "‘सृजन’ से कौन-सी भाववाचक संज्ञा बनती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "साजनता"
+      },
+      {
+        "id": "B",
+        "text": "सज्जनता"
+      },
+      {
+        "id": "C",
+        "text": "सर्जन"
+      },
+      {
+        "id": "D",
+        "text": "सौजन्यता"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "चित्र में विकल्प (3) ‘साजन्य/सृजन्य’ जैसा अस्पष्ट है; इसे अंतिम JSON में शामिल करने से पहले मूल पेज पर पुनः जाँच जरूरी है।",
+    "difficulty": "hard",
+    "source": "Sangya.pdf, printed Q75, page 97"
+  },
+  {
+    "id": "sangya-complete-059",
+    "question": "इन शब्दों में भाववाचक संज्ञा शब्द कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "इच्छा"
+      },
+      {
+        "id": "B",
+        "text": "पंडित"
+      },
+      {
+        "id": "C",
+        "text": "चलना"
+      },
+      {
+        "id": "D",
+        "text": "मित्रता"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘मित्रता’ भाव/संबंध का नाम है; स्कैन में यही विकल्प चिह्नित है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q76, page 98"
+  },
+  {
+    "id": "sangya-complete-060",
+    "question": "‘उत्साह’ शब्द है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सकर्मक क्रिया"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "गुणवाचक विशेषण"
+      },
+      {
+        "id": "D",
+        "text": "सम्बन्धवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘उत्साह’ मनोभाव का नाम है, इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q77, page 99"
+  },
+  {
+    "id": "sangya-complete-061",
+    "question": "‘मूर्ख’ विशेषण के लिए समुचित संज्ञा शब्द है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मूर्खपन"
+      },
+      {
+        "id": "B",
+        "text": "मूर्खता (विकल्प पुनरावृत्ति/स्कैन अस्पष्ट)"
+      },
+      {
+        "id": "C",
+        "text": "मूर्खता"
+      },
+      {
+        "id": "D",
+        "text": "मूर्खाई"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘मूर्ख’ से सामान्य भाववाचक संज्ञा ‘मूर्खता’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q79, page 100"
+  },
+  {
+    "id": "sangya-complete-062",
+    "question": "कौन-सी संज्ञा बहुवचन में नहीं है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "घर बनने लगे हैं"
+      },
+      {
+        "id": "B",
+        "text": "घोड़े चल रहे हैं"
+      },
+      {
+        "id": "C",
+        "text": "जीवनजल में तैर रहे हैं"
+      },
+      {
+        "id": "D",
+        "text": "कछुए की चाल देखें"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘कछुए की चाल’ में ‘चाल’ एकवचन है; शेष वाक्यों में बहुवचन रूप दिखते हैं।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q80, page 101"
+  },
+  {
+    "id": "sangya-complete-063",
+    "question": "निम्नलिखित में से कौनसे सभी शब्द व्यक्तिवाचक संज्ञा हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सीता, गीता"
+      },
+      {
+        "id": "B",
+        "text": "राम, लक्ष्मण"
+      },
+      {
+        "id": "C",
+        "text": "श्याम, पंखा"
+      },
+      {
+        "id": "D",
+        "text": "अन्य विकल्प अस्पष्ट"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "राम और लक्ष्मण विशिष्ट व्यक्तियों के नाम हैं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q81, page 102"
+  },
+  {
+    "id": "sangya-complete-064",
+    "question": "कौनसे सभी शब्द जातिवाचक संज्ञा के उदाहरण हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "उपर्युक्त सभी"
+      },
+      {
+        "id": "B",
+        "text": "पर्वत, विद्यालय"
+      },
+      {
+        "id": "C",
+        "text": "नदी, भवन"
+      },
+      {
+        "id": "D",
+        "text": "लड़की, मनुष्य"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "लड़की/मनुष्य, पर्वत/विद्यालय और नदी/भवन सामान्य वर्गों के नाम हैं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q82, page 103"
+  },
+  {
+    "id": "sangya-complete-065",
+    "question": "कौनसा युग्म भाववाचक संज्ञा का उदाहरण है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भक्ति, नौकरी"
+      },
+      {
+        "id": "B",
+        "text": "मानवता, गुरुत्व"
+      },
+      {
+        "id": "C",
+        "text": "खेल-नाच"
+      },
+      {
+        "id": "D",
+        "text": "उपर्युक्त सभी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "विकल्पों में खेल, नाच, मानवता, गुरुत्व, भक्ति और नौकरी भाव/क्रिया/अवस्था के नाम हैं; स्रोत में (4) चिह्नित है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q83, page 104"
+  },
+  {
+    "id": "sangya-complete-066",
+    "question": "कौनसा शब्द व्यक्तिवाचक संज्ञा का है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अरावली पर्वत"
+      },
+      {
+        "id": "B",
+        "text": "पर्वत"
+      },
+      {
+        "id": "C",
+        "text": "विद्यालय"
+      },
+      {
+        "id": "D",
+        "text": "नदी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘अरावली पर्वत’ एक विशिष्ट पर्वतमाला का नाम है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q84, page 105"
+  },
+  {
+    "id": "sangya-complete-067",
+    "question": "कौनसा शब्द व्यक्तिवाचक संज्ञा का नहीं है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "राम"
+      },
+      {
+        "id": "B",
+        "text": "सीता"
+      },
+      {
+        "id": "C",
+        "text": "मनुष्य"
+      },
+      {
+        "id": "D",
+        "text": "लक्ष्मण"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘मनुष्य’ जाति/वर्ग का सामान्य नाम है, विशिष्ट व्यक्ति का नहीं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q85, page 106"
+  },
+  {
+    "id": "sangya-complete-068",
+    "question": "‘बचपन’ में कौनसी संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "इनमें से कोई नहीं"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘बचपन’ अवस्था का बोध कराता है, इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q86, page 107"
+  },
+  {
+    "id": "sangya-complete-069",
+    "question": "‘शिशु’ शब्द में भाववाचक संज्ञा होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शैशव"
+      },
+      {
+        "id": "B",
+        "text": "शिशुता"
+      },
+      {
+        "id": "C",
+        "text": "उपर्युक्त में से कोई नहीं"
+      },
+      {
+        "id": "D",
+        "text": "शिष्य"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘शिशु’ से अवस्था/भाववाचक संज्ञा ‘शैशव’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q87, page 108"
+  },
+  {
+    "id": "sangya-complete-070",
+    "question": "‘बूढ़ा’ शब्द से भाववाचक संज्ञा होगी—",
+    "options": [
+      {
+        "id": "A",
+        "text": "बूढ़ना"
+      },
+      {
+        "id": "B",
+        "text": "बूढ़ी"
+      },
+      {
+        "id": "C",
+        "text": "बुढ़ापा"
+      },
+      {
+        "id": "D",
+        "text": "बूढ़"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘बूढ़ा’ से ‘बुढ़ापा’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q88, page 109"
+  },
+  {
+    "id": "sangya-complete-071",
+    "question": "‘राजीव’, ‘धवन’, ‘रमण’ में संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "उपर्युक्त सभी"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "ये विशिष्ट व्यक्तियों के नाम हैं, इसलिए व्यक्तिवाचक संज्ञाएँ हैं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q89, page 110"
+  },
+  {
+    "id": "sangya-complete-072",
+    "question": "किसी भाव, अवस्था, गुण अथवा दशा के नाम को किस संज्ञा के रूप में जाना जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "उपर्युक्त सभी"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "भाव, अवस्था, गुण या दशा का नाम भाववाचक संज्ञा कहलाता है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q90, page 111"
+  },
+  {
+    "id": "sangya-complete-073",
+    "question": "‘पराया’ शब्द में संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "इनमें से कोई नहीं"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘पराया’ सामान्यतः विशेषण है; इससे ‘परायापन’ भाववाचक संज्ञा बनती है। प्रश्न में मूल शब्द ‘पराया’ ही पूछा गया है, इसलिए ‘इनमें से कोई नहीं’ अधिक शुद्ध उत्तर है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q92, page 112"
+  },
+  {
+    "id": "sangya-complete-074",
+    "question": "सही युग्म नहीं है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सेना—जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "गरीबी—भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "रामायण—व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "मोर—व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘मोर’ सामान्य पक्षी-जाति का नाम है, इसलिए जातिवाचक संज्ञा है; ‘व्यक्तिवाचक’ युग्म गलत है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q94, page 113"
+  },
+  {
+    "id": "sangya-complete-075",
+    "question": "निम्नलिखित में से सभी शब्द भाववाचक संज्ञा के नहीं हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वीरत्व, उड़ान"
+      },
+      {
+        "id": "B",
+        "text": "शहर, नदी"
+      },
+      {
+        "id": "C",
+        "text": "लाली, सौन्दर्य"
+      },
+      {
+        "id": "D",
+        "text": "थकावट, चुनाव"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘शहर’ और ‘नदी’ जातिवाचक संज्ञाएँ हैं, भाववाचक नहीं।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q95, page 114"
+  },
+  {
+    "id": "sangya-complete-076",
+    "question": "‘लेना-देना’ क्रिया से भाववाचक संज्ञा होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "उपर्युक्त में से कोई नहीं"
+      },
+      {
+        "id": "B",
+        "text": "लेन-दाना"
+      },
+      {
+        "id": "C",
+        "text": "लेन-देन"
+      },
+      {
+        "id": "D",
+        "text": "लेना-देना"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘लेना-देना’ से बना संज्ञा रूप ‘लेन-देन’ है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q97, page 115"
+  },
+  {
+    "id": "sangya-complete-077",
+    "question": "‘वीर’ विशेषण से भाववाचक संज्ञा होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वीरता"
+      },
+      {
+        "id": "B",
+        "text": "वीर"
+      },
+      {
+        "id": "C",
+        "text": "वीरा"
+      },
+      {
+        "id": "D",
+        "text": "वीरत्व"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘वीर’ से ‘वीरत्व’ भाववाचक संज्ञा बनती है; स्रोत में यही विकल्प चिह्नित है।",
+    "difficulty": "medium",
+    "source": "Sangya.pdf, printed Q98, page 116"
+  },
+  {
+    "id": "sangya-complete-078",
+    "question": "‘भीतर’ अव्यय से भाववाचक संज्ञा होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भीतरी"
+      },
+      {
+        "id": "B",
+        "text": "उपर्युक्त में से कोई नहीं"
+      },
+      {
+        "id": "C",
+        "text": "भीतना"
+      },
+      {
+        "id": "D",
+        "text": "भीत"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘भीतरी’ सामान्यतः विशेषण है, भाववाचक संज्ञा नहीं। दिए गए विकल्पों में कोई शुद्ध भाववाचक संज्ञा-रूप नहीं है; इसलिए ‘उपर्युक्त में से कोई नहीं’ सही है। मूल प्रश्न/उत्तर-कुंजी संदिग्ध है।",
+    "difficulty": "hard",
+    "source": "Sangya.pdf, printed Q99, page 117"
+  },
+  {
+    "id": "sangya-complete-079",
+    "question": "‘शेर हिंसक जानवर हैं।’ रेखांकित शब्द में संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "पुरुषवाचक"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘शेर’ पूरी जाति का बोध कराता है, इसलिए जातिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya.pdf, printed Q100, page 118"
+  },
+  {
+    "id": "sangya-complete-080",
+    "question": "‘रामायण’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘रामायण’ एक विशिष्ट ग्रंथ का नाम है; इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-081",
+    "question": "‘अरावली’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘अरावली’ विशिष्ट पर्वत-श्रेणी का नाम है; इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-082",
+    "question": "‘हिमालय’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘हिमालय’ विशिष्ट पर्वत-श्रेणी का नाम है; इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-083",
+    "question": "‘गोदावरी’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘गोदावरी’ एक विशिष्ट नदी का नाम है; इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-084",
+    "question": "‘दिल्ली’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘दिल्ली’ विशिष्ट नगर का नाम है; इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-085",
+    "question": "‘भारत’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘भारत’ विशिष्ट देश का नाम है; इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-086",
+    "question": "‘महेंद्र’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘महेंद्र’ किसी विशिष्ट व्यक्ति का नाम है; इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-087",
+    "question": "‘रामचरितमानस’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘रामचरितमानस’ विशिष्ट ग्रंथ का नाम है; इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-088",
+    "question": "‘जयपुर’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘जयपुर’ विशिष्ट नगर का नाम है; इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-089",
+    "question": "‘मोहन’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘मोहन’ किसी विशिष्ट व्यक्ति का नाम है; इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-090",
+    "question": "‘लड़का’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘लड़का’ किसी एक निश्चित व्यक्ति का नाम नहीं, बल्कि पूरी जाति/वर्ग का बोध कराता है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-091",
+    "question": "‘नदी’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘नदी’ किसी भी नदी के लिए प्रयुक्त सामान्य नाम है; इसलिए जातिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-092",
+    "question": "‘पुस्तक’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘पुस्तक’ किसी एक विशिष्ट पुस्तक का नाम नहीं, सामान्य वर्ग का नाम है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-093",
+    "question": "‘शिक्षक’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘शिक्षक’ किसी एक व्यक्ति का नाम नहीं, पेशे/वर्ग का सामान्य नाम है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-094",
+    "question": "‘मनुष्य’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘मनुष्य’ मानव-जाति के प्रत्येक सदस्य के लिए सामान्य नाम है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-095",
+    "question": "‘पर्वत’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘पर्वत’ सामान्य वर्ग का नाम है; किसी विशिष्ट पर्वत का नहीं।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-096",
+    "question": "‘बाजार’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘बाजार’ सामान्य स्थान/वर्ग का नाम है; इसलिए जातिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-097",
+    "question": "‘शेर’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘शेर’ एक प्राणी-जाति का सामान्य नाम है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-098",
+    "question": "‘विद्यार्थी’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘विद्यार्थी’ किसी वर्ग के सदस्य का सामान्य नाम है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-099",
+    "question": "‘सड़क’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘सड़क’ सामान्य वस्तु/स्थान का नाम है; इसलिए जातिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-100",
+    "question": "‘बुढ़ापा’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘बुढ़ापा’ एक अवस्था का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-101",
+    "question": "‘मिठास’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘मिठास’ स्वाद/गुण का बोध कराती है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-102",
+    "question": "‘क्रोध’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘क्रोध’ मनोभाव का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-103",
+    "question": "‘मित्रता’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘मित्रता’ मित्र होने के भाव/संबंध का नाम है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-104",
+    "question": "‘प्रशंसा’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘प्रशंसा’ एक भाव/क्रिया-व्यापार का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-105",
+    "question": "‘ईमानदारी’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘ईमानदारी’ गुण का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-106",
+    "question": "‘अपनापन’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘अपनापन’ अपनेपन के भाव का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-107",
+    "question": "‘मानवता’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘मानवता’ मानवीय गुण/भाव का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-108",
+    "question": "‘उत्साह’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘उत्साह’ मनःस्थिति/भाव का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-109",
+    "question": "‘वीरत्व’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘वीरत्व’ वीर होने के गुण का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-110",
+    "question": "‘सोना’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "धातु के अर्थ में ‘सोना’ पदार्थ का नाम है; इसलिए द्रव्यवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-111",
+    "question": "‘चाँदी’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘चाँदी’ धातु/पदार्थ का नाम है; इसलिए द्रव्यवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-112",
+    "question": "‘लोहा’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘लोहा’ धातु का नाम है; इसलिए द्रव्यवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-113",
+    "question": "‘ऊन’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘ऊन’ पदार्थ का नाम है; इसलिए द्रव्यवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-114",
+    "question": "‘घी’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘घी’ एक पदार्थ का नाम है; इसलिए द्रव्यवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-115",
+    "question": "‘तेल’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘तेल’ पदार्थ का नाम है; इसलिए द्रव्यवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-116",
+    "question": "‘पानी’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘पानी’ पदार्थ का नाम है; इसलिए द्रव्यवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-117",
+    "question": "‘कोयला’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘कोयला’ पदार्थ का नाम है; इसलिए द्रव्यवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-118",
+    "question": "‘परिवार’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "समूहवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘परिवार’ व्यक्तियों के समूह का नाम है; इसलिए समूहवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-119",
+    "question": "‘भीड़’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "समूहवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘भीड़’ अनेक व्यक्तियों के समूह का बोध कराती है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-120",
+    "question": "‘सभा’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘सभा’ एकत्र व्यक्तियों के समूह का बोध कराती है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-121",
+    "question": "‘गुच्छा’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "समूहवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘गुच्छा’ वस्तुओं के समूह/समुच्चय का बोध कराता है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-122",
+    "question": "‘झुंड’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "समूहवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘झुंड’ पशुओं/व्यक्तियों के समूह का बोध कराता है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-123",
+    "question": "‘गिरोह’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘गिरोह’ व्यक्तियों के समूह का नाम है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-124",
+    "question": "‘कक्षा’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "समूहवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘कक्षा’ विद्यार्थियों के समूह के अर्थ में समूहवाचक संज्ञा हो सकती है।",
+    "difficulty": "easy",
+    "source": "Sangya Notes PDF | Concept/Question Bank"
+  },
+  {
+    "id": "sangya-complete-125",
+    "question": "‘सुंदर’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वीरता"
+      },
+      {
+        "id": "B",
+        "text": "मिठास"
+      },
+      {
+        "id": "C",
+        "text": "बचपन"
+      },
+      {
+        "id": "D",
+        "text": "सुंदरता"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘सुंदर’ विशेषण है; ‘ता’ प्रत्यय से ‘सुंदरता’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-126",
+    "question": "‘शुद्ध’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शुद्धता"
+      },
+      {
+        "id": "B",
+        "text": "मिठास"
+      },
+      {
+        "id": "C",
+        "text": "बचपन"
+      },
+      {
+        "id": "D",
+        "text": "दूरी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘शुद्ध’ विशेषण से ‘ता’ प्रत्यय द्वारा ‘शुद्धता’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-127",
+    "question": "‘वीर’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बचपन"
+      },
+      {
+        "id": "B",
+        "text": "मिठास"
+      },
+      {
+        "id": "C",
+        "text": "वीरता"
+      },
+      {
+        "id": "D",
+        "text": "दूरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘वीर’ विशेषण से ‘ता’ प्रत्यय द्वारा ‘वीरता’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-128",
+    "question": "‘नम्र’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बचपन"
+      },
+      {
+        "id": "B",
+        "text": "नम्रता"
+      },
+      {
+        "id": "C",
+        "text": "वीरता"
+      },
+      {
+        "id": "D",
+        "text": "दूरी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘नम्र’ विशेषण से ‘ता’ प्रत्यय द्वारा ‘नम्रता’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-129",
+    "question": "‘चतुर’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चतुराई"
+      },
+      {
+        "id": "B",
+        "text": "अपनापन"
+      },
+      {
+        "id": "C",
+        "text": "मित्रता"
+      },
+      {
+        "id": "D",
+        "text": "सुंदरता"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘चतुर’ विशेषण से ‘आई’ प्रत्यय द्वारा ‘चतुराई’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-130",
+    "question": "‘मीठा’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लिखावट"
+      },
+      {
+        "id": "B",
+        "text": "वीरता"
+      },
+      {
+        "id": "C",
+        "text": "मिठास"
+      },
+      {
+        "id": "D",
+        "text": "दूरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘मीठा’ विशेषण से ‘आस’ रूप द्वारा ‘मिठास’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-131",
+    "question": "‘कड़वा’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मित्रता"
+      },
+      {
+        "id": "B",
+        "text": "लिखावट"
+      },
+      {
+        "id": "C",
+        "text": "अपनापन"
+      },
+      {
+        "id": "D",
+        "text": "कड़वाहट"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘कड़वा’ विशेषण से ‘हट’ प्रत्यय द्वारा ‘कड़वाहट’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-132",
+    "question": "‘गहरा’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मिठास"
+      },
+      {
+        "id": "B",
+        "text": "गहराई"
+      },
+      {
+        "id": "C",
+        "text": "वीरता"
+      },
+      {
+        "id": "D",
+        "text": "बचपन"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘गहरा’ विशेषण से ‘आई’ प्रत्यय द्वारा ‘गहराई’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-133",
+    "question": "‘चौड़ा’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लिखावट"
+      },
+      {
+        "id": "B",
+        "text": "अपनापन"
+      },
+      {
+        "id": "C",
+        "text": "चौड़ाई"
+      },
+      {
+        "id": "D",
+        "text": "सुंदरता"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘चौड़ा’ विशेषण से ‘आई’ प्रत्यय द्वारा ‘चौड़ाई’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-134",
+    "question": "‘लाल’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बचपन"
+      },
+      {
+        "id": "B",
+        "text": "दूरी"
+      },
+      {
+        "id": "C",
+        "text": "मिठास"
+      },
+      {
+        "id": "D",
+        "text": "लाली"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘लाल’ विशेषण से ‘ई’ प्रत्यय द्वारा ‘लाली’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-135",
+    "question": "‘बच्चा’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दूरी"
+      },
+      {
+        "id": "B",
+        "text": "बचपन"
+      },
+      {
+        "id": "C",
+        "text": "वीरता"
+      },
+      {
+        "id": "D",
+        "text": "लिखावट"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘बच्चा/बालक’ जातिवाचक संज्ञा से ‘पन’ द्वारा ‘बचपन’ बनता है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-136",
+    "question": "‘बूढ़ा’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बुढ़ापा"
+      },
+      {
+        "id": "B",
+        "text": "वीरता"
+      },
+      {
+        "id": "C",
+        "text": "दूरी"
+      },
+      {
+        "id": "D",
+        "text": "बचपन"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘बूढ़ा’ को notes में जातिवाचक मूल मानकर ‘बुढ़ापा’ भाववाचक रूप दिया गया है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-137",
+    "question": "‘मनुष्य’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अपनापन"
+      },
+      {
+        "id": "B",
+        "text": "सुंदरता"
+      },
+      {
+        "id": "C",
+        "text": "मित्रता"
+      },
+      {
+        "id": "D",
+        "text": "मनुष्यता"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘मनुष्य’ जातिवाचक संज्ञा से ‘ता’ प्रत्यय द्वारा ‘मनुष्यता’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-138",
+    "question": "‘मित्र’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मित्रता"
+      },
+      {
+        "id": "B",
+        "text": "लिखावट"
+      },
+      {
+        "id": "C",
+        "text": "दूरी"
+      },
+      {
+        "id": "D",
+        "text": "अपनापन"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘मित्र’ से ‘ता’ प्रत्यय द्वारा ‘मित्रता’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-139",
+    "question": "‘दास’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अपनापन"
+      },
+      {
+        "id": "B",
+        "text": "मित्रता"
+      },
+      {
+        "id": "C",
+        "text": "दासता"
+      },
+      {
+        "id": "D",
+        "text": "लिखावट"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘दास’ जातिवाचक संज्ञा है; ‘दासता’ अवस्था/भाव का नाम है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-140",
+    "question": "‘पंडित’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बचपन"
+      },
+      {
+        "id": "B",
+        "text": "पांडित्य"
+      },
+      {
+        "id": "C",
+        "text": "वीरता"
+      },
+      {
+        "id": "D",
+        "text": "मिठास"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘पंडित’ से ‘य’/तद्धित रूप द्वारा ‘पांडित्य’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-141",
+    "question": "‘अपना’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अपनापन"
+      },
+      {
+        "id": "B",
+        "text": "मिठास"
+      },
+      {
+        "id": "C",
+        "text": "बचपन"
+      },
+      {
+        "id": "D",
+        "text": "दूरी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘अपना’ निजवाचक सर्वनाम से ‘पन’ द्वारा ‘अपनापन’ बनता है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-142",
+    "question": "‘मम’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बचपन"
+      },
+      {
+        "id": "B",
+        "text": "मिठास"
+      },
+      {
+        "id": "C",
+        "text": "ममता"
+      },
+      {
+        "id": "D",
+        "text": "दूरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘मम’ (मेरा) से ‘ता’ प्रत्यय द्वारा ‘ममता’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-143",
+    "question": "‘अहम्’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सुंदरता"
+      },
+      {
+        "id": "B",
+        "text": "मित्रता"
+      },
+      {
+        "id": "C",
+        "text": "लिखावट"
+      },
+      {
+        "id": "D",
+        "text": "अहंकार"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘अहम्’ (मैं) से संबंधित ‘अहंकार’ शब्द भाव/गुण का नाम है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-144",
+    "question": "‘निज’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बचपन"
+      },
+      {
+        "id": "B",
+        "text": "निजता"
+      },
+      {
+        "id": "C",
+        "text": "वीरता"
+      },
+      {
+        "id": "D",
+        "text": "दूरी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘निज’ सर्वनामिक मूल से ‘ता’ द्वारा ‘निजता’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-145",
+    "question": "‘लिखना’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मित्रता"
+      },
+      {
+        "id": "B",
+        "text": "बचपन"
+      },
+      {
+        "id": "C",
+        "text": "लिखावट"
+      },
+      {
+        "id": "D",
+        "text": "अपनापन"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘लिखना’ क्रिया से ‘आवट’ प्रत्यय द्वारा ‘लिखावट’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-146",
+    "question": "‘थकना’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वीरता"
+      },
+      {
+        "id": "B",
+        "text": "मिठास"
+      },
+      {
+        "id": "C",
+        "text": "दूरी"
+      },
+      {
+        "id": "D",
+        "text": "थकावट"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘थकना’ क्रिया से ‘आवट’ प्रत्यय द्वारा ‘थकावट’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-147",
+    "question": "‘रुकना’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मित्रता"
+      },
+      {
+        "id": "B",
+        "text": "रुकावट"
+      },
+      {
+        "id": "C",
+        "text": "लिखावट"
+      },
+      {
+        "id": "D",
+        "text": "अपनापन"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘रुकना’ क्रिया से ‘आवट’ प्रत्यय द्वारा ‘रुकावट’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-148",
+    "question": "‘सजाना’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सजावट"
+      },
+      {
+        "id": "B",
+        "text": "वीरता"
+      },
+      {
+        "id": "C",
+        "text": "मिठास"
+      },
+      {
+        "id": "D",
+        "text": "बचपन"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘सजाना’ क्रिया से ‘आवट’ प्रत्यय द्वारा ‘सजावट’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-149",
+    "question": "‘घबराना’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अपनापन"
+      },
+      {
+        "id": "B",
+        "text": "सुंदरता"
+      },
+      {
+        "id": "C",
+        "text": "लिखावट"
+      },
+      {
+        "id": "D",
+        "text": "घबराहट"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘घबराना’ क्रिया से ‘आहट’ रूप द्वारा ‘घबराहट’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-150",
+    "question": "‘लड़ना’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लड़ाई"
+      },
+      {
+        "id": "B",
+        "text": "बचपन"
+      },
+      {
+        "id": "C",
+        "text": "मिठास"
+      },
+      {
+        "id": "D",
+        "text": "दूरी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘लड़ना’ क्रिया से ‘आई’ प्रत्यय द्वारा ‘लड़ाई’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-151",
+    "question": "‘पढ़ना’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लिखावट"
+      },
+      {
+        "id": "B",
+        "text": "मित्रता"
+      },
+      {
+        "id": "C",
+        "text": "पढ़ाई"
+      },
+      {
+        "id": "D",
+        "text": "सुंदरता"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘पढ़ना’ क्रिया से ‘आई’ प्रत्यय द्वारा ‘पढ़ाई’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-152",
+    "question": "‘चढ़ना’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दूरी"
+      },
+      {
+        "id": "B",
+        "text": "चढ़ाई"
+      },
+      {
+        "id": "C",
+        "text": "बचपन"
+      },
+      {
+        "id": "D",
+        "text": "वीरता"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘चढ़ना’ क्रिया से ‘आई’ प्रत्यय द्वारा ‘चढ़ाई’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-153",
+    "question": "‘बोलना’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बोल"
+      },
+      {
+        "id": "B",
+        "text": "मित्रता"
+      },
+      {
+        "id": "C",
+        "text": "सुंदरता"
+      },
+      {
+        "id": "D",
+        "text": "अपनापन"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘बोलना’ से ‘बोल’ क्रिया-व्यापार/भाव का नाम बनता है; notes में ‘बोल’ रूप दिया गया है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-154",
+    "question": "‘बैठना’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दूरी"
+      },
+      {
+        "id": "B",
+        "text": "वीरता"
+      },
+      {
+        "id": "C",
+        "text": "बैठक"
+      },
+      {
+        "id": "D",
+        "text": "मिठास"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘बैठना’ क्रिया से ‘क’ प्रत्यय द्वारा ‘बैठक’ बनता है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-155",
+    "question": "‘दूर’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मिठास"
+      },
+      {
+        "id": "B",
+        "text": "बचपन"
+      },
+      {
+        "id": "C",
+        "text": "मित्रता"
+      },
+      {
+        "id": "D",
+        "text": "दूरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘दूर’ अव्यय से ‘ई’ प्रत्यय द्वारा ‘दूरी’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-156",
+    "question": "‘निकट’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वीरता"
+      },
+      {
+        "id": "B",
+        "text": "निकटता"
+      },
+      {
+        "id": "C",
+        "text": "मिठास"
+      },
+      {
+        "id": "D",
+        "text": "बचपन"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘निकट’ से ‘ता’ प्रत्यय द्वारा ‘निकटता’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-157",
+    "question": "‘वाह-वाह’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लिखावट"
+      },
+      {
+        "id": "B",
+        "text": "अपनापन"
+      },
+      {
+        "id": "C",
+        "text": "वाहवाही"
+      },
+      {
+        "id": "D",
+        "text": "सुंदरता"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘वाह-वाह’ से ‘वाहवाही’ भाववाचक संज्ञा बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-158",
+    "question": "‘शाबाश’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दूरी"
+      },
+      {
+        "id": "B",
+        "text": "मिठास"
+      },
+      {
+        "id": "C",
+        "text": "बचपन"
+      },
+      {
+        "id": "D",
+        "text": "शाबाशी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘शाबाश’ से ‘ई’ प्रत्यय द्वारा ‘शाबाशी’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-159",
+    "question": "‘ऊपर’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लिखावट"
+      },
+      {
+        "id": "B",
+        "text": "ऊपरी"
+      },
+      {
+        "id": "C",
+        "text": "सुंदरता"
+      },
+      {
+        "id": "D",
+        "text": "मित्रता"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘ऊपर’ से ‘ई’ प्रत्यय द्वारा ‘ऊपरी’ रूप बनता है; संदर्भानुसार संज्ञा/विशेषण का प्रयोग देखें।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF | Pages 6–18 | Root-word method"
+  },
+  {
+    "id": "sangya-complete-160",
+    "question": "संज्ञा के परंपरागत पाँच भेदों का सही समूह कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक, जातिवाचक, भाववाचक, द्रव्यवाचक, समूहवाचक"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक, गुणवाचक, संख्यावाचक, परिमाणवाचक, संकेतवाचक"
+      },
+      {
+        "id": "C",
+        "text": "कर्ता, कर्म, करण, संप्रदान, अपादान"
+      },
+      {
+        "id": "D",
+        "text": "सर्वनाम, विशेषण, क्रिया, अव्यय, संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "इस अध्ययन-सामग्री में संज्ञा के पाँच भेद—व्यक्तिवाचक, जातिवाचक, भाववाचक, द्रव्यवाचक और समूहवाचक—दिए गए हैं。",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-161",
+    "question": "‘गांधीजी को राष्ट्रपिता कहा जाता है।’ यहाँ ‘गांधीजी’ का संज्ञा-भेद क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘गांधीजी’ विशिष्ट व्यक्ति का नाम है, इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-162",
+    "question": "‘गांधी को राष्ट्रपिता कहा जाता है।’ संदर्भ में ‘गांधी’ शब्द का प्रयोग पूरे वर्ग/विचारधारा के प्रतिनिधि अर्थ में हो, तो कौन-सा परिवर्तन संभव है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक से जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक से समूहवाचक"
+      },
+      {
+        "id": "C",
+        "text": "द्रव्यवाचक से व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक से द्रव्यवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "नोट्स में दिया गया नियम: प्रसिद्ध व्यक्ति का नाम जब उसके गुण वाले पूरे वर्ग/प्रकार के लिए प्रयुक्त हो, तो व्यक्तिवाचक का जातिवाचक प्रयोग हो सकता है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-163",
+    "question": "‘ऊँचाइयाँ नापनी हैं तो पर्वतों पर जाओ।’ ‘ऊँचाइयाँ’ का भेद क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘ऊँचाई’ मूलतः भाववाचक है, पर बहुवचन ‘ऊँचाइयाँ’ में अनेक मापने योग्य ऊँचाइयों का बोध होने पर जातिवाचक प्रयोग माना गया है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-164",
+    "question": "‘बुराइयाँ छोड़ दो।’ ‘बुराइयाँ’ का भेद क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "भाववाचक संज्ञा का बहुवचन में वर्ग/प्रकार के रूप में प्रयोग होने पर जातिवाचक प्रयोग माना जाता है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-165",
+    "question": "‘नेताजी ने आजाद हिंद फौज की स्थापना की।’ ‘नेताजी’ किसका बोध कराता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विशिष्ट व्यक्ति के अर्थ में व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "केवल भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "समूहवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "इस वाक्य में ‘नेताजी’ सुभाष चंद्र बोस जैसे विशिष्ट व्यक्ति के लिए प्रयुक्त है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-166",
+    "question": "‘रामायण’ किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "समूहवाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "किसी विशेष ग्रंथ का नाम व्यक्तिवाचक संज्ञा है; ‘पुस्तक’ सामान्य जातिवाचक नाम है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-167",
+    "question": "‘सोना और चाँदी’ किस प्रकार की संज्ञाएँ हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "दोनों धातु/पदार्थों के नाम हैं, इसलिए द्रव्यवाचक संज्ञाएँ हैं।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-168",
+    "question": "‘कोयला’ किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "C",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "कोयला पदार्थ का नाम है; इसलिए द्रव्यवाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-169",
+    "question": "‘मिठास’ और ‘परायापन’ शब्दों का भेद क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "मिठास गुण और परायापन भाव/अवस्था का बोध कराते हैं; दोनों भाववाचक हैं।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-170",
+    "question": "‘महात्म्य’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "क्रिया"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘महात्म्य’ महत्ता/महानता के भाव का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-171",
+    "question": "‘दया’ शब्द में कौन-सी संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "दया एक भाव का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-172",
+    "question": "‘दान’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "गुणवाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "दान एक कार्य/भाव का नाम है; इस प्रयोग में भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-173",
+    "question": "‘उत्साह’ शब्द का शब्द-भेद क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुणवाचक विशेषण"
+      },
+      {
+        "id": "B",
+        "text": "सकर्मक क्रिया"
+      },
+      {
+        "id": "C",
+        "text": "संबंधवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "उत्साह मनःस्थिति/भाव का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-174",
+    "question": "‘मूर्ख’ विशेषण की भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मूर्खता"
+      },
+      {
+        "id": "B",
+        "text": "मूरखाई"
+      },
+      {
+        "id": "C",
+        "text": "मूर्खपनता"
+      },
+      {
+        "id": "D",
+        "text": "मूर्ख"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘मूर्ख’ विशेषण से ‘ता’ प्रत्यय लगाकर ‘मूर्खता’ बनती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-175",
+    "question": "‘वीर’ विशेषण की भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वीर"
+      },
+      {
+        "id": "B",
+        "text": "वीराना"
+      },
+      {
+        "id": "C",
+        "text": "वीरता"
+      },
+      {
+        "id": "D",
+        "text": "वीराई"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘वीर’ से ‘वीरता’ बनती है; यह गुण का नाम है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-176",
+    "question": "‘भीतर’ अव्यय से बनी भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भीतरीपन"
+      },
+      {
+        "id": "B",
+        "text": "भीतरी"
+      },
+      {
+        "id": "C",
+        "text": "भीत"
+      },
+      {
+        "id": "D",
+        "text": "भीतरना"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "नोट्स में ‘भीतर’ से ‘भीतरी’ रूप दिया है; शब्द-रूप के संदर्भ में इसे उसी सामग्री के अनुसार रखा गया है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-177",
+    "question": "‘पराया’ शब्द में संज्ञा-रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "परायापन"
+      },
+      {
+        "id": "B",
+        "text": "परायापनता"
+      },
+      {
+        "id": "C",
+        "text": "पराया"
+      },
+      {
+        "id": "D",
+        "text": "परायी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘पराया’ से ‘परायापन’ बनता है, जो भाव/अवस्था का नाम है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-178",
+    "question": "‘शिष्य’ शब्द से भाववाचक संज्ञा कौन-सी बनती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शिष्या"
+      },
+      {
+        "id": "B",
+        "text": "शिष्यपन"
+      },
+      {
+        "id": "C",
+        "text": "शिष्यता"
+      },
+      {
+        "id": "D",
+        "text": "शिष्य"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘शिष्यता’ शिष्य होने की अवस्था/गुण का बोध कराती है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-179",
+    "question": "‘बूढ़ा’ शब्द से भाववाचक संज्ञा कौन-सी बनती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बूढ़ना"
+      },
+      {
+        "id": "B",
+        "text": "बूढ़"
+      },
+      {
+        "id": "C",
+        "text": "बूढ़ी"
+      },
+      {
+        "id": "D",
+        "text": "बूढ़ापन"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘बूढ़ापन’ अवस्था का नाम है। नोट्स में ‘बुढ़ापा’ रूप भी दिया गया है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-180",
+    "question": "‘मित्र’ का भाववाचक रूप कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मित्रवत"
+      },
+      {
+        "id": "B",
+        "text": "मित्रता"
+      },
+      {
+        "id": "C",
+        "text": "मित्र"
+      },
+      {
+        "id": "D",
+        "text": "मित्रों"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘मित्रता’ मित्र होने के भाव/संबंध का नाम है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-181",
+    "question": "‘प्रेम’ किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "समूहवाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "प्रेम एक भाव है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-182",
+    "question": "‘शेर हिंसक जानवर हैं।’ यहाँ ‘शेर’ किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "पुरुषवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘शेर’ पूरी प्रजाति/जाति का बोध कराता है; इसलिए जातिवाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-183",
+    "question": "‘सड़कों के नाम’ में ‘सड़क’ किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "गुणवाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘सड़क’ सामान्य वर्ग का नाम है; किसी विशेष सड़क का नाम नहीं।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-184",
+    "question": "‘बाजार’ शब्द किस संज्ञा का बोध कराता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘बाजार’ सामान्य स्थान/वर्ग का नाम है; इसलिए जातिवाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-185",
+    "question": "‘सोमवार’ शब्द का संज्ञा-भेद क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "C",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सप्ताह के एक निश्चित दिन का नाम ‘सोमवार’ है; परंपरागत प्रश्नों में इसे व्यक्तिवाचक संज्ञा माना जाता है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-186",
+    "question": "‘पुस्तक’ और ‘रामायण’ में सही भेद कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुस्तक जातिवाचक, रामायण व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "पुस्तक भाववाचक, रामायण जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "दोनों व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "दोनों द्रव्यवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘पुस्तक’ सामान्य वर्ग का नाम है, जबकि ‘रामायण’ एक विशिष्ट ग्रंथ का नाम है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-187",
+    "question": "‘शिक्षक ने छात्र की प्रशंसा की।’ ‘प्रशंसा’ का भेद क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "प्रशंसा भाव/कार्य का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-188",
+    "question": "‘कृष्ण और सुदामा की मित्रता अनुकरणीय है।’ ‘मित्रता’ किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "मित्रता संबंध/भाव का नाम है; DSSSB के आधिकारिक प्रश्न में भी यही उत्तर दिया गया है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-189",
+    "question": "‘रामचरितमानस’ किस संज्ञा का उदाहरण है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "रामचरितमानस एक विशिष्ट ग्रंथ का नाम है; आधिकारिक DSSSB प्रश्न में इसे व्यक्तिवाचक माना गया है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-190",
+    "question": "‘गिरावट’ किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "गणनीय"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "गिरावट गिरने की क्रिया/परिणाम का नाम है; CTET 2026 प्रश्न में इसे भाववाचक संज्ञा माना गया है।",
+    "difficulty": "medium",
+    "source": "Sangya Notes PDF + Exam-oriented concept / PYQ research"
+  },
+  {
+    "id": "sangya-complete-191",
+    "question": "निम्नलिखित में से किस वाक्य में रेखांकित शब्द भाववाचक संज्ञा है? ‘शिक्षक ने छात्र की प्रशंसा की।’",
+    "options": [
+      {
+        "id": "A",
+        "text": "छात्र"
+      },
+      {
+        "id": "B",
+        "text": "शिक्षक"
+      },
+      {
+        "id": "C",
+        "text": "की"
+      },
+      {
+        "id": "D",
+        "text": "प्रशंसा"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘प्रशंसा’ भाव/कार्य का नाम है। यह आधिकारिक DSSSB 2021 प्रश्न-पत्र में पूछा गया था।",
+    "difficulty": "medium",
+    "source": "DSSSB Official Previous-Year Paper 2021 | Question 164"
+  },
+  {
+    "id": "sangya-complete-192",
+    "question": "‘कृष्ण और सुदामा की मित्रता अनुकरणीय है।’ ‘मित्रता’ शब्द है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "मित्रता संबंध/भाव का नाम है। यह DSSSB के आधिकारिक प्रश्न में पूछा गया था।",
+    "difficulty": "medium",
+    "source": "DSSSB Official Previous-Year Paper 2021"
+  },
+  {
+    "id": "sangya-complete-193",
+    "question": "‘सुन्दरता’ में कौन-सी संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सुंदरता गुण का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Hindi Grammar PYQ compilation | U.P. TGT Hindi 2001"
+  },
+  {
+    "id": "sangya-complete-194",
+    "question": "‘स्वतंत्रता सबको प्यारी होती है।’ ‘स्वतंत्रता’ का संज्ञा-भेद क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुणवाचक"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "स्वतंत्रता एक भाव/अवस्था का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "medium",
+    "source": "Web grammar question bank | Sangya"
+  },
+  {
+    "id": "sangya-complete-195",
+    "question": "परंपरागत हिंदी व्याकरण में संज्ञा के तीन मुख्य भेद सामान्यतः कौन-से माने जाते हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक, समूहवाचक और द्रव्यवाचक"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक, जातिवाचक और भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक, गुणवाचक और सर्वनाम"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक, क्रियावाचक और विशेषण"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "कई परंपरागत व्याकरणों में मूल वर्गीकरण व्यक्तिवाचक, जातिवाचक और भाववाचक—तीन भेदों में किया जाता है। समूहवाचक और द्रव्यवाचक को कई पुस्तकों में जातिवाचक के उपभेद माना जाता है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-196",
+    "question": "प्रतियोगी परीक्षाओं में प्रचलित पाँच-भेदी वर्गीकरण में कौन-सा समूह सही है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक, जातिवाचक, भाववाचक, समूहवाचक, द्रव्यवाचक"
+      },
+      {
+        "id": "B",
+        "text": "संज्ञा, सर्वनाम, विशेषण, क्रिया, अव्यय"
+      },
+      {
+        "id": "C",
+        "text": "कर्ता, कर्म, करण, संप्रदान, अपादान"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक, गुणवाचक, संख्यावाचक, परिमाणवाचक, संबंधवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "परीक्षा-उन्मुख पाँच भेद हैं—व्यक्तिवाचक, जातिवाचक, भाववाचक, समूहवाचक और द्रव्यवाचक। कुछ व्याकरणों में समूहवाचक व द्रव्यवाचक को जातिवाचक के अंतर्गत रखा जाता है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-197",
+    "question": "‘गंगा’ और ‘नदी’ के संज्ञा-भेद का सही युग्म कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दोनों व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "गंगा जातिवाचक, नदी व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "दोनों भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "गंगा व्यक्तिवाचक, नदी जातिवाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘गंगा’ एक विशिष्ट नदी का नाम है, जबकि ‘नदी’ पूरी श्रेणी का सामान्य नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-198",
+    "question": "‘भारत’ और ‘देश’ का सही वर्गीकरण है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "भारत व्यक्तिवाचक, देश जातिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "दोनों जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भारत जातिवाचक, देश व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "दोनों समूहवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘भारत’ एक विशिष्ट देश का नाम है; ‘देश’ सामान्य वर्ग का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-199",
+    "question": "‘सोमवार’ को व्यक्तिवाचक संज्ञा मानने का उचित आधार क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "यह मापी जाने वाली वस्तु है"
+      },
+      {
+        "id": "B",
+        "text": "यह अनेक दिनों का समूह है"
+      },
+      {
+        "id": "C",
+        "text": "यह सप्ताह के एक निश्चित दिन का नाम है"
+      },
+      {
+        "id": "D",
+        "text": "यह किसी गुण का नाम है"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "किसी विशिष्ट दिन का नाम—जैसे सोमवार—व्यक्तिवाचक संज्ञा माना जाता है; ‘दिन’ जातिवाचक है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-200",
+    "question": "‘विद्यालय’ और ‘दिल्ली पब्लिक स्कूल’ में सही अंतर है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "दोनों समूहवाचक"
+      },
+      {
+        "id": "B",
+        "text": "विद्यालय जातिवाचक, दिल्ली पब्लिक स्कूल विशिष्ट संस्था का नाम होने से व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "विद्यालय भाववाचक, दूसरा द्रव्यवाचक"
+      },
+      {
+        "id": "D",
+        "text": "दोनों व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘विद्यालय’ संस्था-वर्ग का सामान्य नाम है; ‘दिल्ली पब्लिक स्कूल’ किसी विशिष्ट संस्था का नाम है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-201",
+    "question": "‘रामचरितमानस’ का संज्ञा-भेद क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "किसी विशिष्ट ग्रंथ का शीर्षक व्यक्तिवाचक संज्ञा होता है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-202",
+    "question": "‘आम’ शब्द का संज्ञा-भेद किस प्रयोग में बदल सकता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल शब्द की वर्तनी बदलने पर"
+      },
+      {
+        "id": "B",
+        "text": "केवल बहुवचन में"
+      },
+      {
+        "id": "C",
+        "text": "संदर्भ के अनुसार—फल की जाति या किसी व्यक्ति/स्थान का नाम होने पर"
+      },
+      {
+        "id": "D",
+        "text": "कभी नहीं"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘आम’ फल के सामान्य नाम के रूप में जातिवाचक है; किसी व्यक्ति या स्थान का विशिष्ट नाम हो तो संदर्भानुसार व्यक्तिवाचक हो सकता है।",
+    "difficulty": "hard",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-203",
+    "question": "‘सोना’ किस आधार पर द्रव्यवाचक संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "यह किसी एक व्यक्ति का नाम है"
+      },
+      {
+        "id": "B",
+        "text": "यह व्यक्तियों का समूह है"
+      },
+      {
+        "id": "C",
+        "text": "यह मन का भाव है"
+      },
+      {
+        "id": "D",
+        "text": "यह धातु/पदार्थ का नाम है जिसे मात्रा या भार से मापा जाता है"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सोना धातु है; इसे सामान्यतः ग्राम, तोला आदि भार-इकाइयों से मापा जाता है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-204",
+    "question": "‘चावल’ को सामान्यतः किस संज्ञा-भेद में रखा जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "C",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "चावल खाद्य पदार्थ/द्रव्य है और मात्रा या भार से मापा जाता है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-205",
+    "question": "‘लकड़ी’ और ‘जंगल’ का सही वर्गीकरण है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "लकड़ी व्यक्तिवाचक, जंगल द्रव्यवाचक"
+      },
+      {
+        "id": "B",
+        "text": "दोनों व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "लकड़ी द्रव्यवाचक, जंगल जातिवाचक/समूहवाचक संदर्भानुसार"
+      },
+      {
+        "id": "D",
+        "text": "दोनों भाववाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘लकड़ी’ पदार्थ का नाम है। ‘जंगल’ सामान्य स्थान/वन-क्षेत्र का नाम है; संदर्भ में पेड़ों के समुदाय का बोध भी हो सकता है।",
+    "difficulty": "hard",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-206",
+    "question": "‘झुंड’ किस कारण समूहवाचक संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "यह किसी एक पशु का नाम है"
+      },
+      {
+        "id": "B",
+        "text": "यह पदार्थ का नाम है"
+      },
+      {
+        "id": "C",
+        "text": "यह किसी गुण का नाम है"
+      },
+      {
+        "id": "D",
+        "text": "यह अनेक प्राणियों/वस्तुओं के समूह का एकवचन नाम है"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘झुंड’ एक शब्द में अनेक प्राणियों या वस्तुओं के समूह का बोध कराता है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-207",
+    "question": "‘सेना’ शब्द का वचन सामान्यतः क्या होता है जब वह पूरे सैन्य-दल का बोध कराए?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अविकारी"
+      },
+      {
+        "id": "B",
+        "text": "एकवचन रूप में समूह का बोध"
+      },
+      {
+        "id": "C",
+        "text": "केवल बहुवचन"
+      },
+      {
+        "id": "D",
+        "text": "द्विवचन"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘सेना’ एकवचन रूप में अनेक सैनिकों के समूह का बोध कराती है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-208",
+    "question": "‘कक्षा’ शब्द किस संदर्भ में समूहवाचक संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जब यह विद्यार्थियों के समूह का बोध कराए"
+      },
+      {
+        "id": "B",
+        "text": "जब यह किसी कमरे की दीवार का नाम हो"
+      },
+      {
+        "id": "C",
+        "text": "जब यह किसी गुण का बोध कराए"
+      },
+      {
+        "id": "D",
+        "text": "जब यह किसी व्यक्ति का नाम हो"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘कक्षा’ विद्यार्थियों के समूह के अर्थ में समूहवाचक है; कमरे के अर्थ में संदर्भानुसार सामान्य वस्तु/स्थान का नाम है।",
+    "difficulty": "hard",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-209",
+    "question": "‘सभा’ और ‘समिति’ किस संज्ञा-भेद के उदाहरण हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "समूहवाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सभा और समिति व्यक्तियों के संगठित समूह का बोध कराते हैं।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-210",
+    "question": "‘ईमानदारी’ किसका नाम है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुण/भाव"
+      },
+      {
+        "id": "B",
+        "text": "पदार्थ"
+      },
+      {
+        "id": "C",
+        "text": "समूह"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्ति"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ईमानदारी एक गुण/अवस्था का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-211",
+    "question": "‘थकावट’ किस प्रकार का भाव व्यक्त करती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विशिष्ट स्थान"
+      },
+      {
+        "id": "B",
+        "text": "समूह"
+      },
+      {
+        "id": "C",
+        "text": "अवस्था/परिणाम"
+      },
+      {
+        "id": "D",
+        "text": "पदार्थ"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "थकावट थकने की अवस्था या परिणाम का नाम है; यह भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-212",
+    "question": "‘हँसी’ शब्द किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "हँसी एक क्रिया-व्यापार/भाव का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-213",
+    "question": "‘चढ़ाई’ शब्द किस प्रकार की संज्ञा हो सकता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाववाचक—चढ़ने की क्रिया/प्रक्रिया का नाम"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "C",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "D",
+        "text": "द्रव्यवाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘चढ़ाई’ चढ़ने की क्रिया या प्रक्रिया का नाम है, इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-214",
+    "question": "‘गरीबी’ किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "गरीबी एक दशा/स्थिति का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-215",
+    "question": "‘बालक’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बालिका"
+      },
+      {
+        "id": "B",
+        "text": "बालकगण"
+      },
+      {
+        "id": "C",
+        "text": "बालक"
+      },
+      {
+        "id": "D",
+        "text": "बालपन"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘बालपन’ बालक होने की अवस्था का बोध कराता है; यह भाववाचक संज्ञा है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-216",
+    "question": "‘शत्रु’ से बनने वाली भाववाचक संज्ञा कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शत्रुजन"
+      },
+      {
+        "id": "B",
+        "text": "शत्रुता"
+      },
+      {
+        "id": "C",
+        "text": "शत्रुगण"
+      },
+      {
+        "id": "D",
+        "text": "शत्रुवत"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘शत्रुता’ शत्रु होने के भाव/विरोध का नाम है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-217",
+    "question": "‘स्वतंत्र’ से बनने वाली भाववाचक संज्ञा है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "स्वतंत्रित"
+      },
+      {
+        "id": "B",
+        "text": "स्वतंत्रक"
+      },
+      {
+        "id": "C",
+        "text": "स्वतंत्रता"
+      },
+      {
+        "id": "D",
+        "text": "स्वतंत्रजन"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘स्वतंत्रता’ स्वतंत्र होने की अवस्था/गुण का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-218",
+    "question": "‘कठोर’ का भाववाचक संज्ञा रूप है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "कठोरक"
+      },
+      {
+        "id": "B",
+        "text": "कठोरित"
+      },
+      {
+        "id": "C",
+        "text": "कठिन"
+      },
+      {
+        "id": "D",
+        "text": "कठोरता"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘कठोरता’ कठोर होने के गुण का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-219",
+    "question": "‘सफल’ का भाववाचक संज्ञा रूप है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "सफलित"
+      },
+      {
+        "id": "B",
+        "text": "सफलता"
+      },
+      {
+        "id": "C",
+        "text": "सफलजन"
+      },
+      {
+        "id": "D",
+        "text": "सफलकारी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘सफलता’ सफल होने की अवस्था/गुण का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-220",
+    "question": "‘मूर्ख’ का भाववाचक रूप कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मूर्खता"
+      },
+      {
+        "id": "B",
+        "text": "मूर्खाई"
+      },
+      {
+        "id": "C",
+        "text": "मूर्खपन"
+      },
+      {
+        "id": "D",
+        "text": "मूर्खत्व"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘मूर्खता’ मूर्ख होने के गुण का प्रचलित भाववाचक रूप है। कुछ प्रसंगों में ‘मूर्खपन’ भी प्रयुक्त होता है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-221",
+    "question": "‘चतुर’ से बनने वाले भाववाचक रूप कौन-से हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चतुरत्व और चतुरिका"
+      },
+      {
+        "id": "B",
+        "text": "चतुरता और चतुरक"
+      },
+      {
+        "id": "C",
+        "text": "केवल चतुर"
+      },
+      {
+        "id": "D",
+        "text": "चतुराई और चातुर्य"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘चतुराई’ और ‘चातुर्य’ दोनों चतुर होने के गुण के भाववाचक रूप हैं।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-222",
+    "question": "‘पराजित’ का भाववाचक संज्ञा रूप है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "पराजय"
+      },
+      {
+        "id": "B",
+        "text": "पराजितता"
+      },
+      {
+        "id": "C",
+        "text": "पराजितपन"
+      },
+      {
+        "id": "D",
+        "text": "पराजिताई"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘पराजय’ हारने की घटना/अवस्था का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-223",
+    "question": "‘निर्मल’ का भाववाचक संज्ञा रूप है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "निर्मलपन"
+      },
+      {
+        "id": "B",
+        "text": "निर्मलक"
+      },
+      {
+        "id": "C",
+        "text": "निर्मलता"
+      },
+      {
+        "id": "D",
+        "text": "निर्मलित"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘निर्मलता’ निर्मल होने के गुण का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-224",
+    "question": "‘दयालु’ से बनने वाली भाववाचक संज्ञा है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "दयालुजन"
+      },
+      {
+        "id": "B",
+        "text": "दयालुता"
+      },
+      {
+        "id": "C",
+        "text": "दयालुता-भाव"
+      },
+      {
+        "id": "D",
+        "text": "दयालुपन"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘दयालुता’ दया का गुण/स्वभाव है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-225",
+    "question": "‘पढ़ना’ क्रिया से बनने वाली भाववाचक संज्ञा का उपयुक्त रूप है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "पढ़ाई"
+      },
+      {
+        "id": "B",
+        "text": "पढ़ाकू"
+      },
+      {
+        "id": "C",
+        "text": "पढ़नेवाला"
+      },
+      {
+        "id": "D",
+        "text": "पाठक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘पढ़ाई’ पढ़ने की क्रिया/प्रक्रिया का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-226",
+    "question": "‘लिखना’ से बनने वाली भाववाचक संज्ञा है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "लिखित"
+      },
+      {
+        "id": "B",
+        "text": "लेखक"
+      },
+      {
+        "id": "C",
+        "text": "लिखावट"
+      },
+      {
+        "id": "D",
+        "text": "लेखनहार"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘लिखावट’ लिखने की शैली/रूप का नाम है; ‘लेखन’ भी क्रिया-व्यापार का भाववाचक रूप है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-227",
+    "question": "‘हँसना’ क्रिया से बनने वाली भाववाचक संज्ञा है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "हँसता"
+      },
+      {
+        "id": "B",
+        "text": "हँसमुख"
+      },
+      {
+        "id": "C",
+        "text": "हँसोड़"
+      },
+      {
+        "id": "D",
+        "text": "हँसी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘हँसी’ हँसने की क्रिया/भाव का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-228",
+    "question": "‘बहना’ क्रिया से बनने वाली भाववाचक संज्ञा है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "बहनेवाला"
+      },
+      {
+        "id": "B",
+        "text": "बहाव"
+      },
+      {
+        "id": "C",
+        "text": "बहता"
+      },
+      {
+        "id": "D",
+        "text": "बहावदार"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘बहाव’ बहने की प्रक्रिया/प्रवाह का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-229",
+    "question": "‘रुकना’ क्रिया से बनने वाली भाववाचक संज्ञा है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "रुका"
+      },
+      {
+        "id": "B",
+        "text": "रुकता"
+      },
+      {
+        "id": "C",
+        "text": "रुकावट"
+      },
+      {
+        "id": "D",
+        "text": "रुकनेवाला"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘रुकावट’ रुकने की स्थिति/बाधा का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-230",
+    "question": "‘सजाना’ क्रिया से बनने वाली भाववाचक संज्ञा है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "सजावटी"
+      },
+      {
+        "id": "B",
+        "text": "सजानेवाला"
+      },
+      {
+        "id": "C",
+        "text": "सजा हुआ"
+      },
+      {
+        "id": "D",
+        "text": "सजावट"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘सजावट’ सजाने की क्रिया या उसके परिणाम का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-231",
+    "question": "किस वाक्य में ‘भारत’ व्यक्तिवाचक संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भारत की संस्कृति समृद्ध है।"
+      },
+      {
+        "id": "B",
+        "text": "उपर्युक्त सभी में"
+      },
+      {
+        "id": "C",
+        "text": "भारत विविधताओं वाला देश है।"
+      },
+      {
+        "id": "D",
+        "text": "देशों में भारत का स्थान महत्वपूर्ण है।"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "तीनों वाक्यों में ‘भारत’ विशिष्ट देश का नाम है; इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-232",
+    "question": "किस वाक्य में ‘गांधी’ का प्रयोग जातिवाचक अर्थ में हो सकता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "आज के युग में हमें कई गांधी चाहिए।"
+      },
+      {
+        "id": "B",
+        "text": "महात्मा गांधी का जन्मदिन मनाया जाता है।"
+      },
+      {
+        "id": "C",
+        "text": "गांधीजी साबरमती आश्रम में रहे।"
+      },
+      {
+        "id": "D",
+        "text": "गांधीजी ने सत्याग्रह किया।"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘कई गांधी’ जैसे प्रयोग में ‘गांधी’ आदर्श/गुण वाले व्यक्तियों के वर्ग का बोध करा सकता है; संदर्भ से संज्ञा का अर्थ बदलता है।",
+    "difficulty": "hard",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-233",
+    "question": "‘शेर हिंसक जानवर हैं।’ में ‘शेर’ किस अर्थ में प्रयुक्त है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाव का नाम"
+      },
+      {
+        "id": "B",
+        "text": "समूह का नाम"
+      },
+      {
+        "id": "C",
+        "text": "किसी विशेष शेर का नाम"
+      },
+      {
+        "id": "D",
+        "text": "पूरी प्रजाति/वर्ग का बोध"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "यहाँ ‘शेर’ पूरी जाति का सामान्य नाम है; इसलिए जातिवाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-234",
+    "question": "‘शेरू बहुत तेज दौड़ता है।’ में ‘शेरू’ का संज्ञा-भेद है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "जातिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘शेरू’ किसी विशिष्ट पशु का दिया हुआ नाम है, इसलिए व्यक्तिवाचक संज्ञा है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-235",
+    "question": "किस विकल्प में केवल द्रव्यवाचक संज्ञाएँ हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मिठास, बचपन, क्रोध"
+      },
+      {
+        "id": "B",
+        "text": "सेना, सभा, भीड़"
+      },
+      {
+        "id": "C",
+        "text": "सोना, चाँदी, ताँबा"
+      },
+      {
+        "id": "D",
+        "text": "गंगा, भारत, हिमालय"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सोना, चाँदी और ताँबा धातुएँ हैं; इन्हें द्रव्यवाचक संज्ञा माना जाता है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-236",
+    "question": "किस विकल्प में केवल समूहवाचक संज्ञाएँ हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दिल्ली, गंगा, रामायण"
+      },
+      {
+        "id": "B",
+        "text": "सेना, झुंड, समिति"
+      },
+      {
+        "id": "C",
+        "text": "पानी, तेल, घी"
+      },
+      {
+        "id": "D",
+        "text": "बचपन, मिठास, वीरता"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सेना, झुंड और समिति समूह/समुदाय का बोध कराते हैं।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-237",
+    "question": "किस विकल्प में केवल भाववाचक संज्ञाएँ हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "साहस, ईमानदारी, थकान"
+      },
+      {
+        "id": "B",
+        "text": "दिल्ली, बचपन, नदी"
+      },
+      {
+        "id": "C",
+        "text": "सैनिक, सेना, साहसी"
+      },
+      {
+        "id": "D",
+        "text": "सोना, चाँदी, सुंदरता"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "साहस, ईमानदारी और थकान गुण/भाव/अवस्था के नाम हैं।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-238",
+    "question": "किस विकल्प में जातिवाचक और व्यक्तिवाचक दोनों संज्ञाएँ हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मिठास, क्रोध, बचपन, थकान"
+      },
+      {
+        "id": "B",
+        "text": "सेना, भीड़, झुंड, समिति"
+      },
+      {
+        "id": "C",
+        "text": "नदी, गंगा, पर्वत, हिमालय"
+      },
+      {
+        "id": "D",
+        "text": "सोना, तेल, दूध, गेहूँ"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "नदी और पर्वत जातिवाचक हैं; गंगा और हिमालय विशिष्ट नाम होने से व्यक्तिवाचक हैं।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-239",
+    "question": "‘एक दर्जन केले’ में ‘दर्जन’ क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "व्यक्तिवाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "समूहवाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "संख्यावाचक विशेषण/परिमाण सूचक शब्द"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘दर्जन’ यहाँ केले की संख्या बताने वाला परिमाण/संख्या सूचक शब्द है, संज्ञा का भेद नहीं।",
+    "difficulty": "hard",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-240",
+    "question": "‘बहुत-सा दूध’ में ‘दूध’ किस प्रकार की संज्ञा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "B",
+        "text": "द्रव्यवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "व्यक्तिवाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "दूध पदार्थ है और मात्रा से मापा जाता है; ‘बहुत-सा’ परिमाणवाचक विशेषण है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-241",
+    "question": "‘तीन लीटर पानी’ में संज्ञा और परिमाण सूचक पद का सही विश्लेषण है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "दोनों भाववाचक"
+      },
+      {
+        "id": "B",
+        "text": "पानी—समूहवाचक; तीन लीटर—भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "पानी—द्रव्यवाचक; तीन लीटर—मात्रा सूचक पद"
+      },
+      {
+        "id": "D",
+        "text": "पानी—व्यक्तिवाचक; तीन लीटर—जातिवाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘पानी’ द्रव्यवाचक संज्ञा है; ‘तीन लीटर’ उसकी माप/मात्रा बताता है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-242",
+    "question": "‘सुंदरता’ और ‘सुंदर’ में सही शब्द-भेद का अंतर है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "सुंदर संज्ञा, सुंदरता विशेषण"
+      },
+      {
+        "id": "B",
+        "text": "दोनों संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "दोनों क्रिया"
+      },
+      {
+        "id": "D",
+        "text": "सुंदरता भाववाचक संज्ञा, सुंदर विशेषण"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘सुंदरता’ गुण का नाम है; ‘सुंदर’ किसी संज्ञा की विशेषता बताने वाला विशेषण है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-243",
+    "question": "‘ईमानदार व्यक्ति’ और ‘ईमानदारी’ में सही अंतर है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "दोनों विशेषण"
+      },
+      {
+        "id": "B",
+        "text": "ईमानदार विशेषण, ईमानदारी भाववाचक संज्ञा"
+      },
+      {
+        "id": "C",
+        "text": "ईमानदार संज्ञा, ईमानदारी क्रिया"
+      },
+      {
+        "id": "D",
+        "text": "दोनों भाववाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘ईमानदार’ व्यक्ति का गुण बताता है; ‘ईमानदारी’ उस गुण का नाम है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-244",
+    "question": "‘मिठाई’ और ‘मिठास’ में सही अंतर है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "मिठाई खाद्य वस्तु/जातिवाचक संज्ञा, मिठास गुण का नाम होने से भाववाचक संज्ञा"
+      },
+      {
+        "id": "B",
+        "text": "दोनों व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "मिठाई भाववाचक, मिठास द्रव्यवाचक"
+      },
+      {
+        "id": "D",
+        "text": "दोनों भाववाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘मिठाई’ खाने की वस्तु का नाम है; ‘मिठास’ मीठेपन के गुण का नाम है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-245",
+    "question": "संज्ञा को विकारी शब्द कहने का मुख्य कारण क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "उसका अर्थ हमेशा बदलता है"
+      },
+      {
+        "id": "B",
+        "text": "वह कभी बहुवचन नहीं बनती"
+      },
+      {
+        "id": "C",
+        "text": "वह केवल वाक्य के अंत में आती है"
+      },
+      {
+        "id": "D",
+        "text": "उसके रूप में लिंग, वचन और कारक के कारण परिवर्तन हो सकता है"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "संज्ञा के रूप में लिंग, वचन और कारक के कारण रूप-परिवर्तन हो सकता है—जैसे लड़का, लड़के, लड़कों ने।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-246",
+    "question": "किस विकल्प में संज्ञा का कारक-रूप परिवर्तन दिखता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लड़का—लड़के ने—लड़के को"
+      },
+      {
+        "id": "B",
+        "text": "सुंदर—सुंदरता—सुंदरतम"
+      },
+      {
+        "id": "C",
+        "text": "चलना—चलता—चलेगा"
+      },
+      {
+        "id": "D",
+        "text": "और—लेकिन—क्योंकि"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘लड़का’ संज्ञा का रूप परसर्ग/कारक के अनुसार बदलता है—लड़के ने, लड़के को।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-247",
+    "question": "‘बालक’ शब्द का बहुवचन रूप कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बालकें"
+      },
+      {
+        "id": "B",
+        "text": "बालकता"
+      },
+      {
+        "id": "C",
+        "text": "बालकों"
+      },
+      {
+        "id": "D",
+        "text": "बालका"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘बालक’ का बहुवचन रूप ‘बालक’ (बालक आए) या परसर्ग सहित ‘बालकों’ होता है; दिए विकल्पों में ‘बालकों’ उपयुक्त है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-248",
+    "question": "भाववाचक संज्ञा बनने का सामान्य स्रोत कौन-सा नहीं है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विशेषण"
+      },
+      {
+        "id": "B",
+        "text": "केवल विराम-चिह्न"
+      },
+      {
+        "id": "C",
+        "text": "जातिवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "क्रिया"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "भाववाचक संज्ञाएँ संज्ञा, विशेषण, सर्वनाम और क्रिया आदि से बन सकती हैं; विराम-चिह्न से नहीं।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-249",
+    "question": "‘अपनापन’ किस शब्द-श्रेणी से बना भाववाचक संज्ञा रूप है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सर्वनाम/सर्वनामिक आधार ‘अपना’"
+      },
+      {
+        "id": "B",
+        "text": "क्रिया विशेषण"
+      },
+      {
+        "id": "C",
+        "text": "द्रव्यवाचक संज्ञा"
+      },
+      {
+        "id": "D",
+        "text": "समूहवाचक संज्ञा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "‘अपना’ से ‘अपनापन’ बनता है, जो आत्मीयता/अपनेपन के भाव का नाम है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-250",
+    "question": "‘मानवता’ का अर्थ किस भाव से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "धातु का नाम"
+      },
+      {
+        "id": "B",
+        "text": "किसी एक मनुष्य का नाम"
+      },
+      {
+        "id": "C",
+        "text": "मनुष्य होने का गुण/मानवीयता"
+      },
+      {
+        "id": "D",
+        "text": "मनुष्यों का समूह मात्र"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "‘मानवता’ मनुष्यता या मानवीय गुण का बोध कराती है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-251",
+    "question": "किस कथन में संज्ञा-भेद और उदाहरण का युग्म गलत है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "गंगा—व्यक्तिवाचक"
+      },
+      {
+        "id": "B",
+        "text": "सेना—समूहवाचक"
+      },
+      {
+        "id": "C",
+        "text": "मिठास—भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "लोहा—भाववाचक"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "लोहा धातु है, इसलिए द्रव्यवाचक संज्ञा है; भाववाचक नहीं।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-252",
+    "question": "किस कथन में संज्ञा-भेद और उदाहरण का युग्म सही है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "तेल—समूहवाचक"
+      },
+      {
+        "id": "B",
+        "text": "बुढ़ापा—भाववाचक"
+      },
+      {
+        "id": "C",
+        "text": "भीड़—द्रव्यवाचक"
+      },
+      {
+        "id": "D",
+        "text": "जयपुर—जातिवाचक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "बुढ़ापा जीवन की अवस्था का नाम है; इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-253",
+    "question": "‘कश्मीर की सुंदरता मन मोह लेती है।’ वाक्य में ‘सुंदरता’ का भेद है—",
+    "options": [
+      {
+        "id": "A",
+        "text": "समूहवाचक"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्तिवाचक"
+      },
+      {
+        "id": "C",
+        "text": "भाववाचक"
+      },
+      {
+        "id": "D",
+        "text": "जातिवाचक"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सुंदरता एक गुण का नाम है, इसलिए भाववाचक संज्ञा है।",
+    "difficulty": "easy",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-254",
+    "question": "‘बच्चों ने दौड़ में भाग लिया।’ वाक्य में ‘दौड़’ किस रूप में प्रयुक्त है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विशेषण"
+      },
+      {
+        "id": "B",
+        "text": "क्रिया"
+      },
+      {
+        "id": "C",
+        "text": "सर्वनाम"
+      },
+      {
+        "id": "D",
+        "text": "भाववाचक संज्ञा—प्रतियोगिता/दौड़ने की घटना"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "‘दौड़’ यहाँ एक घटना/प्रतियोगिता का नाम है, इसलिए संज्ञा रूप में प्रयुक्त है।",
+    "difficulty": "moderate",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  },
+  {
+    "id": "sangya-complete-255",
+    "question": "‘समूह’ शब्द और ‘समूहवाचक संज्ञा’ में सही अंतर क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दोनों सर्वनाम हैं"
+      },
+      {
+        "id": "B",
+        "text": "समूह शब्द स्वयं सामान्य संज्ञा है; समूहवाचक उसका अर्थ-आधारित भेद है"
+      },
+      {
+        "id": "C",
+        "text": "समूहवाचक केवल द्रव्य का नाम है"
+      },
+      {
+        "id": "D",
+        "text": "समूह केवल विशेषण है"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "‘समूह’ स्वयं संज्ञा शब्द है; समूहवाचक संज्ञा वह वर्ग है जो समूह का बोध कराने वाले नामों को शामिल करता है।",
+    "difficulty": "hard",
+    "source": "Supplementary | Hindi Grammar reference + Competitive Exam concept"
+  }
+]
